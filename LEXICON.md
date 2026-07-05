@@ -2,13 +2,13 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**2010 words** — 1744 roots, 266 derived.
+**2011 words** — 1744 roots, 267 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 70 |
 | plants-animals | 51 |
-| body-health | 232 |
+| body-health | 233 |
 | people-family | 66 |
 | food-drink | 144 |
 | house-home | 62 |
@@ -339,6 +339,7 @@
 | **rullstol** | n (c) | wheelchair |  | rulla + stol |
 | **saliv** | n (c) | saliva |  | FR salive |
 | **sar** | n (n) | wound |  | SV sår + NL zeer |
+| **sara** | v | hurt, wound (v.) |  | sar + -a |
 | **seksuell** | adj | sexual | high | FR sexuel |
 | **sena** | n (c) | tendon |  | SV sena |
 | **sep** | n (c) | soap |  | NL zeep + SV såpa |
@@ -3632,6 +3633,7 @@
 | santhed | truth |
 | sap | juice |
 | sar | wound |
+| sara | hurt, wound (v.) |
 | satellit | satellite |
 | se | see |
 | segel | sail (n.) |
