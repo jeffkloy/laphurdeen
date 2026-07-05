@@ -382,3 +382,170 @@ koj	n	c		bunk	sea-ships		SV koj
 zeeman	n	c		seaman	sea-ships		zee + man	
 hav	n	n		ocean, open sea	sea-ships		SV hav + DA hav	
 torn	n	n		tower	house-home		SV torn + NL toren	
+kropp	n	c		body	body-health		SV kropp	
+hoved	n	n		head	body-health		DA hoved + NL hoofd	
+oje	n	n		eye	body-health		DA øje	
+ore	n	n		ear	body-health		SV öra + DA øre	
+nese	n	c		nose	body-health		DA næse + NL neus	
+mund	n	c		mouth	body-health		DA mund + NL mond	
+tand	n	c		tooth	body-health		NL tand + SV tand	
+tunga	n	c		tongue	body-health		SV tunga	
+haar	n	n		hair	body-health		NL haar	
+hand	n	c		hand	body-health		EN hand + NL hand + SV hand	
+arm	n	c		arm	body-health		EN arm + NL arm + SV arm	
+been	n	n		leg	body-health		NL been	distinct from ben (bone)
+knie	n	n		knee	body-health		NL knie	
+fot	n	c		foot	body-health		SV fot	
+finger	n	n		finger	body-health		EN finger + SV finger	
+nagel	n	c		fingernail	body-health		NL nagel	
+hals	n	c		neck	body-health		SV hals + NL hals	
+rugg	n	c		back	body-health		NL rug + SV rygg	
+bryst	n	n		breast, chest	body-health		DA bryst + SV bröst	
+hjerta	n	n		heart	body-health		SV hjärta	
+blod	n	n		blood	body-health		SV blod + NL bloed	
+ben	n	n		bone	body-health		SV ben	distinct from been (leg)
+hud	n	c		skin	body-health		SV hud	
+mage	n	c		belly	body-health		SV mage	
+tarm	n	c		gut, intestine	body-health		SV tarm	
+lever	n	c		liver	body-health		SV lever + NL lever	
+lunga	n	c		lung	body-health		SV lunga	
+fett	n	n		fat (n.)	body-health		SV fett + NL vet	
+kraft	n	c		strength, power	body-health		SV kraft + NL kracht	
+liv	n	n		life	body-health		SV liv + DA liv	
+sjuk	adj			sick	body-health	everyday	SV sjuk	formal doublet: malad
+malad	adj			sick	body-health	high	FR malade	
+doktor	n	c		doctor	body-health	everyday	SV doktor + NL dokter	formal doublet: medesin
+medesin	n	c		doctor	body-health	high	FR médecin	
+medisin	n	c		medicine	body-health	high	FR médecine	
+sjukhus	n	n		hospital	body-health		sjuk + hus	
+pille	n	c		pill	body-health		DA pille	
+feber	n	c		fever	body-health		SV feber + NL koorts	
+smerta	n	c		pain	body-health		SV smärta	
+sund	adj			healthy	body-health		SV sund + DA sund	
+trott	adj			tired	body-health		SV trött	
+blind	adj			blind	body-health		SV blind + NL blind	
+dov	adj			deaf	body-health		SV döv + DA døv	
+hosta	v			cough	body-health		SV hosta	
+sova	v			sleep	body-health		SV sova	
+vaska	v			wash	body-health		SV vaska + NL wassen	
+bad	n	n		bath	body-health		SV bad + NL bad	
+sep	n	c		soap	body-health		NL zeep + SV såpa	
+anda	v			breathe	body-health		SV andas	
+lukta	v			smell	body-health		SV lukta	
+bita	v			bite	body-health		SV bita + NL bijten	
+suga	v			suck	body-health		SV suga	
+spotta	v			spit	body-health		SV spotta	
+foda	v			give birth, bear	body-health		SV föda	
+dreppa	v			kill	body-health		DA dræbe	
+sterva	v			die	body-health	everyday	NL sterven	formal doublet: desedera
+desedera	v			die	body-health	high	FR décéder	
+moder	n	c		mother	people-family		SV moder + NL moeder	
+fader	n	c		father	people-family		SV fader + NL vader	
+son	n	c		son	people-family		SV son	
+dotter	n	c		daughter	people-family		SV dotter + NL dochter	
+broder	n	c		brother	people-family		SV broder + NL broer	
+syster	n	c		sister	people-family		SV syster + NL zuster	
+bebe	n	c		baby	people-family		FR bébé	French yet everyday, like mersi
+bestemor	n	c		grandmother	people-family		DA bedstemor	
+bestefar	n	c		grandfather	people-family		DA bedstefar	
+tante	n	c		aunt	people-family		NL tante + FR tante	
+onkel	n	c		uncle	people-family		DA onkel + FR oncle	
+kusin	n	c		cousin	people-family		SV kusin + FR cousin	
+neve	n	c		nephew	people-family		NL neef	
+nikt	n	c		niece	people-family		NL nicht	
+nabo	n	c		neighbour	people-family		DA nabo	
+gest	n	c		guest	people-family		SV gäst	
+vard	n	c		host	people-family		SV värd	
+spuus	n	c		spouse	people-family		EN spouse + NL echtgenoot	say "spooss"
+brud	n	c		bride	people-family		SV brud	
+brudgom	n	c		bridegroom	people-family		SV brudgum	
+vedve	n	c		widow	people-family		NL weduwe	
+person	n	c		person	people-family		SV person + FR personne	
+mennisk	n	c		human being	people-family		SV människa + DA menneske	
+vuksen	n	c		adult	people-family		SV vuxen + DA voksen	
+ungdom	n	c		youth	people-family		SV ungdom	
+navn	n	n		name	people-family		DA navn	
+gifta	v			marry	people-family	everyday	SV gifta	formal doublet: mariera
+mariera	v			marry	people-family	high	FR marier	
+bryllop	n	n		wedding	people-family		SV bröllop	
+arv	n	n		inheritance	people-family		SV arv	
+slekt	n	c		kin, family line	people-family		SV släkt	
+herre	n	c		gentleman, lord	people-family		SV herre	
+fru	n	c		madam, wife	people-family		SV fru	
+dame	n	c		lady	people-family		FR dame	
+dor	n	c		door	house-home		SV dörr + NL deur	
+fenster	n	n		window	house-home		SV fönster + FR fenêtre	
+vegg	n	c		wall	house-home		SV vägg + DA væg	
+tak	n	n		roof	house-home		SV tak	
+golv	n	n		floor	house-home		SV golv	
+trappa	n	c		stairs	house-home		SV trappa + NL trap	
+kok	n	n		kitchen	house-home		SV kök + DA køkken	
+rum	n	n		room	house-home	everyday	SV rum	formal doublet: sjamber
+sjamber	n	c		room	house-home	high	FR chambre	
+badrum	n	n		bathroom	house-home		bad + rum	
+sovrum	n	n		bedroom	house-home		sova + rum	
+seng	n	c		bed	house-home		DA seng + SV säng	
+stol	n	c		chair	house-home		SV stol	
+bord	n	n		table	house-home		SV bord	
+skap	n	n		cupboard	house-home		SV skåp + DA skab	
+lampa	n	c		lamp	house-home		SV lampa + FR lampe	
+spegel	n	c		mirror	house-home		SV spegel + NL spiegel	
+matta	n	c		rug, mat	house-home		SV matta	
+gardin	n	c		curtain	house-home		SV gardin	
+nokel	n	c		key	house-home		DA nøgle + SV nyckel	
+laas	n	n		lock	house-home		SV lås	
+gard	n	c		yard, farm	house-home		SV gård + DA gård	
+hem	n	n		home	house-home		SV hem	
+adres	n	c		address	house-home		FR adresse + NL adres	
+hyra	v			rent	house-home		SV hyra	
+mobel	n	c		furniture	house-home		SV möbel + FR meuble	
+ugn	n	c		oven	house-home		SV ugn	
+isskap	n	n		refrigerator	house-home		is + skap	literally "ice cupboard"
+avfall	n	n		waste, garbage	house-home		SV avfall	
+stadshus	n	n		city hall	house-home		stad + hus	with linking -s, as Folkskameren
+dusj	n	c		shower	house-home		FR douche	
+toalett	n	c		toilet	house-home		FR toilette	
+kran	n	c		tap, faucet	house-home		SV kran	
+pipa	n	c		pipe	house-home		SV pipa	
+hylla	n	c		shelf	house-home		SV hylla	
+kista	n	c		chest (box)	house-home		SV kista	
+lada	n	c		box	house-home		SV låda	
+korg	n	c		basket	house-home		SV korg	
+flaska	n	c		bottle	house-home		SV flaska + NL fles	
+glas	n	n		glass	house-home		SV glas + NL glas	
+kopp	n	c		cup	house-home		SV kopp + EN cup	
+tallrik	n	c		plate	house-home		SV tallrik	
+skaal	n	c		bowl	house-home		SV skål	also the toast: Skaal!
+kniv	n	c		knife	house-home		SV kniv + NL knijf	
+gaffel	n	c		fork	house-home		SV gaffel	
+sked	n	c		spoon	house-home		SV sked	
+gryta	n	c		pot	house-home		SV gryta	
+pan	n	c		pan	house-home		NL pan + EN pan	
+hytta	n	c		cottage, hut	house-home		SV hytta + DA hytte	
+bygging	n	c		building, construction	house-home		bygga + -ing	
+kleder	n	c		clothes	clothing		DA klæder + NL kleren	
+broek	n	c		trousers	clothing		NL broek	say "brook"
+hemd	n	n		shirt	clothing		NL hemd	
+kjol	n	c		skirt	clothing		SV kjol	
+jakk	n	c		jacket	clothing		SV jacka + FR jaquette	
+kappa	n	c		coat	clothing		SV kappa	
+hatt	n	c		hat	clothing		SV hatt + NL hoed	
+muts	n	c		cap	clothing		NL muts	
+skoe	n	c		shoe	clothing		NL schoen + EN shoe	say "skoo"
+stovel	n	c		boot	clothing		SV stövel + NL stevel	
+sok	n	c		sock	clothing		NL sok + EN sock	
+handske	n	c		glove	clothing		SV handske	
+skerf	n	c		scarf	clothing		EN scarf + NL sjerp	
+belt	n	n		belt	clothing		EN belt + SV bälte	
+knapp	n	c		button	clothing		SV knapp	
+fikk	n	c		pocket	clothing		SV ficka	
+ull	n	c		wool	clothing		SV ull	
+silke	n	n		silk	clothing		SV silke	
+bomull	n	c		cotton	clothing		SV bomull	
+leder	n	n		leather	clothing		NL leder	
+mode	n	c		fashion	clothing	high	FR mode	
+uniform	n	c		uniform	clothing		FR uniforme	
+sya	v			sew	clothing		SV sy + NL naaien	
+stikka	v			knit	clothing		SV sticka	
+kleda	v			dress (v.)	clothing		NL kleden + SV klä	
+ung	adj			young	qualities		SV ung + DA ung	

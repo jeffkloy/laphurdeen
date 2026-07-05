@@ -2,16 +2,17 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**383 words** — 367 roots, 16 derived.
+**550 words** — 528 roots, 22 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 59 |
 | plants-animals | 49 |
-| body-health | 1 |
-| people-family | 7 |
+| body-health | 58 |
+| people-family | 41 |
 | food-drink | 2 |
-| house-home | 3 |
+| house-home | 53 |
+| clothing | 25 |
 | time-calendar | 41 |
 | numbers-measure | 55 |
 | sea-ships | 38 |
@@ -22,7 +23,7 @@
 | arts-leisure | 1 |
 | school-knowledge | 2 |
 | common-verbs | 17 |
-| qualities | 13 |
+| qualities | 14 |
 | function-words | 65 |
 
 ## world-nature
@@ -147,19 +148,110 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **anda** | v | breathe |  | SV andas |
+| **arm** | n (c) | arm |  | EN arm + NL arm + SV arm |
+| **bad** | n (n) | bath |  | SV bad + NL bad |
+| **been** | n (n) | leg |  | NL been |
+| **ben** | n (n) | bone |  | SV ben |
+| **bita** | v | bite |  | SV bita + NL bijten |
+| **blind** | adj | blind |  | SV blind + NL blind |
+| **blod** | n (n) | blood |  | SV blod + NL bloed |
+| **bryst** | n (n) | breast, chest |  | DA bryst + SV bröst |
+| **desedera** | v | die | high | FR décéder |
+| **doktor** | n (c) | doctor | everyday | SV doktor + NL dokter |
+| **dov** | adj | deaf |  | SV döv + DA døv |
+| **dreppa** | v | kill |  | DA dræbe |
+| **feber** | n (c) | fever |  | SV feber + NL koorts |
+| **fett** | n (n) | fat (n.) |  | SV fett + NL vet |
+| **finger** | n (n) | finger |  | EN finger + SV finger |
+| **foda** | v | give birth, bear |  | SV föda |
+| **fot** | n (c) | foot |  | SV fot |
+| **haar** | n (n) | hair |  | NL haar |
+| **hals** | n (c) | neck |  | SV hals + NL hals |
+| **hand** | n (c) | hand |  | EN hand + NL hand + SV hand |
 | **helsa** | n (c) | health |  | SV hälsa |
+| **hjerta** | n (n) | heart |  | SV hjärta |
+| **hosta** | v | cough |  | SV hosta |
+| **hoved** | n (n) | head |  | DA hoved + NL hoofd |
+| **hud** | n (c) | skin |  | SV hud |
+| **knie** | n (n) | knee |  | NL knie |
+| **kraft** | n (c) | strength, power |  | SV kraft + NL kracht |
+| **kropp** | n (c) | body |  | SV kropp |
+| **lever** | n (c) | liver |  | SV lever + NL lever |
+| **liv** | n (n) | life |  | SV liv + DA liv |
+| **lukta** | v | smell |  | SV lukta |
+| **lunga** | n (c) | lung |  | SV lunga |
+| **mage** | n (c) | belly |  | SV mage |
+| **malad** | adj | sick | high | FR malade |
+| **medesin** | n (c) | doctor | high | FR médecin |
+| **medisin** | n (c) | medicine | high | FR médecine |
+| **mund** | n (c) | mouth |  | DA mund + NL mond |
+| **nagel** | n (c) | fingernail |  | NL nagel |
+| **nese** | n (c) | nose |  | DA næse + NL neus |
+| **oje** | n (n) | eye |  | DA øje |
+| **ore** | n (n) | ear |  | SV öra + DA øre |
+| **pille** | n (c) | pill |  | DA pille |
+| **rugg** | n (c) | back |  | NL rug + SV rygg |
+| **sep** | n (c) | soap |  | NL zeep + SV såpa |
+| **sjuk** | adj | sick | everyday | SV sjuk |
+| **sjukhus** | n (n) | hospital |  | sjuk + hus |
+| **smerta** | n (c) | pain |  | SV smärta |
+| **sova** | v | sleep |  | SV sova |
+| **spotta** | v | spit |  | SV spotta |
+| **sterva** | v | die | everyday | NL sterven |
+| **suga** | v | suck |  | SV suga |
+| **sund** | adj | healthy |  | SV sund + DA sund |
+| **tand** | n (c) | tooth |  | NL tand + SV tand |
+| **tarm** | n (c) | gut, intestine |  | SV tarm |
+| **trott** | adj | tired |  | SV trött |
+| **tunga** | n (c) | tongue |  | SV tunga |
+| **vaska** | v | wash |  | SV vaska + NL wassen |
 
 ## people-family
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **arv** | n (n) | inheritance |  | SV arv |
+| **bebe** | n (c) | baby |  | FR bébé |
+| **bestefar** | n (c) | grandfather |  | DA bedstefar |
+| **bestemor** | n (c) | grandmother |  | DA bedstemor |
+| **broder** | n (c) | brother |  | SV broder + NL broer |
+| **brud** | n (c) | bride |  | SV brud |
+| **brudgom** | n (c) | bridegroom |  | SV brudgum |
+| **bryllop** | n (n) | wedding |  | SV bröllop |
+| **dame** | n (c) | lady |  | FR dame |
+| **dotter** | n (c) | daughter |  | SV dotter + NL dochter |
+| **fader** | n (c) | father |  | SV fader + NL vader |
 | **famille** | n (c) | family |  | FR famille |
 | **folk** | n (n) | people |  | SV folk + NL volk |
+| **fru** | n (c) | madam, wife |  | SV fru |
+| **gest** | n (c) | guest |  | SV gäst |
+| **gifta** | v | marry | everyday | SV gifta |
+| **herre** | n (c) | gentleman, lord |  | SV herre |
 | **kind** | n (n) | child |  | NL kind |
+| **kusin** | n (c) | cousin |  | SV kusin + FR cousin |
 | **kvin** | n (c) | woman |  | SV kvinna |
 | **Laphurdeener** | n (c) | Laphurdeener (citizen) |  | Laphurdeen + -er |
 | **man** | n (c) | man |  | EN man + SV man |
+| **mariera** | v | marry | high | FR marier |
+| **mennisk** | n (c) | human being |  | SV människa + DA menneske |
+| **moder** | n (c) | mother |  | SV moder + NL moeder |
+| **nabo** | n (c) | neighbour |  | DA nabo |
+| **navn** | n (n) | name |  | DA navn |
+| **neve** | n (c) | nephew |  | NL neef |
+| **nikt** | n (c) | niece |  | NL nicht |
+| **onkel** | n (c) | uncle |  | DA onkel + FR oncle |
+| **person** | n (c) | person |  | SV person + FR personne |
+| **slekt** | n (c) | kin, family line |  | SV släkt |
+| **son** | n (c) | son |  | SV son |
+| **spuus** | n (c) | spouse |  | EN spouse + NL echtgenoot |
+| **syster** | n (c) | sister |  | SV syster + NL zuster |
+| **tante** | n (c) | aunt |  | NL tante + FR tante |
+| **ungdom** | n (c) | youth |  | SV ungdom |
+| **vard** | n (c) | host |  | SV värd |
+| **vedve** | n (c) | widow |  | NL weduwe |
 | **vrend** | n (c) | friend |  | NL vriend + SV vän + EN friend |
+| **vuksen** | n (c) | adult |  | SV vuxen + DA voksen |
 
 ## food-drink
 
@@ -172,9 +264,89 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **adres** | n (c) | address |  | FR adresse + NL adres |
+| **avfall** | n (n) | waste, garbage |  | SV avfall |
+| **badrum** | n (n) | bathroom |  | bad + rum |
+| **bord** | n (n) | table |  | SV bord |
+| **bygging** | n (c) | building, construction |  | bygga + -ing |
+| **dor** | n (c) | door |  | SV dörr + NL deur |
+| **dusj** | n (c) | shower |  | FR douche |
+| **fenster** | n (n) | window |  | SV fönster + FR fenêtre |
+| **flaska** | n (c) | bottle |  | SV flaska + NL fles |
+| **gaffel** | n (c) | fork |  | SV gaffel |
+| **gard** | n (c) | yard, farm |  | SV gård + DA gård |
+| **gardin** | n (c) | curtain |  | SV gardin |
+| **glas** | n (n) | glass |  | SV glas + NL glas |
+| **golv** | n (n) | floor |  | SV golv |
+| **gryta** | n (c) | pot |  | SV gryta |
+| **hem** | n (n) | home |  | SV hem |
 | **hus** | n (n) | house | everyday | NL huis + SV hus |
+| **hylla** | n (c) | shelf |  | SV hylla |
+| **hyra** | v | rent |  | SV hyra |
+| **hytta** | n (c) | cottage, hut |  | SV hytta + DA hytte |
+| **isskap** | n (n) | refrigerator |  | is + skap |
 | **kamer** | n (c) | chamber |  | NL kamer |
+| **kista** | n (c) | chest (box) |  | SV kista |
+| **kniv** | n (c) | knife |  | SV kniv + NL knijf |
+| **kok** | n (n) | kitchen |  | SV kök + DA køkken |
+| **kopp** | n (c) | cup |  | SV kopp + EN cup |
+| **korg** | n (c) | basket |  | SV korg |
+| **kran** | n (c) | tap, faucet |  | SV kran |
+| **laas** | n (n) | lock |  | SV lås |
+| **lada** | n (c) | box |  | SV låda |
+| **lampa** | n (c) | lamp |  | SV lampa + FR lampe |
+| **matta** | n (c) | rug, mat |  | SV matta |
+| **mobel** | n (c) | furniture |  | SV möbel + FR meuble |
+| **nokel** | n (c) | key |  | DA nøgle + SV nyckel |
+| **pan** | n (c) | pan |  | NL pan + EN pan |
+| **pipa** | n (c) | pipe |  | SV pipa |
+| **rum** | n (n) | room | everyday | SV rum |
+| **seng** | n (c) | bed |  | DA seng + SV säng |
+| **sjamber** | n (c) | room | high | FR chambre |
+| **skaal** | n (c) | bowl |  | SV skål |
+| **skap** | n (n) | cupboard |  | SV skåp + DA skab |
+| **sked** | n (c) | spoon |  | SV sked |
+| **sovrum** | n (n) | bedroom |  | sova + rum |
+| **spegel** | n (c) | mirror |  | SV spegel + NL spiegel |
+| **stadshus** | n (n) | city hall |  | stad + hus |
+| **stol** | n (c) | chair |  | SV stol |
+| **tak** | n (n) | roof |  | SV tak |
+| **tallrik** | n (c) | plate |  | SV tallrik |
+| **toalett** | n (c) | toilet |  | FR toilette |
 | **torn** | n (n) | tower |  | SV torn + NL toren |
+| **trappa** | n (c) | stairs |  | SV trappa + NL trap |
+| **ugn** | n (c) | oven |  | SV ugn |
+| **vegg** | n (c) | wall |  | SV vägg + DA væg |
+
+## clothing
+
+| Laphurdi | pos | English | register | sources |
+|---|---|---|---|---|
+| **belt** | n (n) | belt |  | EN belt + SV bälte |
+| **bomull** | n (c) | cotton |  | SV bomull |
+| **broek** | n (c) | trousers |  | NL broek |
+| **fikk** | n (c) | pocket |  | SV ficka |
+| **handske** | n (c) | glove |  | SV handske |
+| **hatt** | n (c) | hat |  | SV hatt + NL hoed |
+| **hemd** | n (n) | shirt |  | NL hemd |
+| **jakk** | n (c) | jacket |  | SV jacka + FR jaquette |
+| **kappa** | n (c) | coat |  | SV kappa |
+| **kjol** | n (c) | skirt |  | SV kjol |
+| **kleda** | v | dress (v.) |  | NL kleden + SV klä |
+| **kleder** | n (c) | clothes |  | DA klæder + NL kleren |
+| **knapp** | n (c) | button |  | SV knapp |
+| **leder** | n (n) | leather |  | NL leder |
+| **mode** | n (c) | fashion | high | FR mode |
+| **muts** | n (c) | cap |  | NL muts |
+| **silke** | n (n) | silk |  | SV silke |
+| **skerf** | n (c) | scarf |  | EN scarf + NL sjerp |
+| **skoe** | n (c) | shoe |  | NL schoen + EN shoe |
+| **sok** | n (c) | sock |  | NL sok + EN sock |
+| **stikka** | v | knit |  | SV sticka |
+| **stovel** | n (c) | boot |  | SV stövel + NL stevel |
+| **sya** | v | sew |  | SV sy + NL naaien |
+| **ull** | n (c) | wool |  | SV ull |
+| **uniform** | n (c) | uniform |  | FR uniforme |
 
 ## time-calendar
 
@@ -427,6 +599,7 @@
 | **ny** | adj | new |  | SV ny |
 | **stor** | adj | big |  | SV stor |
 | **Svensk** | adj | Swedish |  | SV svensk |
+| **ung** | adj | young |  | SV ung + DA ung |
 
 ## function-words
 
@@ -503,6 +676,7 @@
 | Laphurdi | English |
 |---|---|
 | adjuu | goodbye |
+| adres | address |
 | aften | evening |
 | akt | eight |
 | akte | eighth |
@@ -514,33 +688,58 @@
 | alltid | always |
 | als | than, as |
 | and | duck |
+| anda | breathe |
 | andre | second |
 | anker | anchor |
 | anner | other |
 | april | April |
+| arm | arm |
+| arv | inheritance |
 | asjeblie | please |
 | aske | ash |
 | august | August |
 | av | of, from |
+| avfall | waste, garbage |
+| bad | bath |
+| badrum | bathroom |
 | bara | only |
 | bark | bark (of tree) |
+| bebe | baby |
+| been | leg |
 | befor | before |
 | bela | beautiful |
+| belt | belt |
+| ben | bone |
 | berg | mountain |
+| bestefar | grandfather |
+| bestemor | grandmother |
 | bever | beaver |
 | bij | bee |
+| bita | bite |
 | bjork | birch |
 | bjorn | bear |
 | blad | leaf |
 | blij | happy |
+| blind | blind |
 | blixt | lightning |
+| blod | blood |
 | blomma | flower |
 | boge | bow, arc |
+| bomull | cotton |
 | boot | boat |
+| bord | table |
+| broder | brother |
+| broek | trousers |
+| brud | bride |
+| brudgom | bridegroom |
+| bryllop | wedding |
+| bryst | breast, chest |
 | bukt | bay, gulf |
 | bygga | build |
+| bygging | building, construction |
 | dag | day |
 | dal | valley |
+| dame | lady |
 | dan | then |
 | dank | thanks |
 | Darcambria | Darcambria (the harbour city) |
@@ -549,15 +748,22 @@
 | deis | their |
 | dekk | deck |
 | der | there |
+| desedera | die |
 | desember | December |
 | dier | animal |
 | din | your (singular) |
 | dis | this |
 | doa | do, make |
 | dok | dock |
+| doktor | doctor |
+| dor | door |
+| dotter | daughter |
+| dov | deaf |
+| dreppa | kill |
 | drika | drink |
 | du | you (singular) |
 | dusin | dozen |
+| dusj | shower |
 | eb | ebb |
 | egg | egg |
 | ek | oak |
@@ -571,15 +777,21 @@
 | eta | eat |
 | faa | get, receive |
 | faar | sheep |
+| fader | father |
 | famille | family |
+| feber | fever |
 | februar | February |
 | feder | feather |
 | fem | five |
 | femte | fifth |
 | femten | fifteen |
 | femti | fifty |
+| fenster | window |
 | ferje | ferry |
 | ferste | first |
+| fett | fat (n.) |
+| fikk | pocket |
+| finger | finger |
 | fisk | fish |
 | fiska | fish (v.) |
 | fiskare | fisher |
@@ -587,52 +799,73 @@
 | fjard | wide bay, firth |
 | fjeril | butterfly |
 | fjorten | fourteen |
+| flaska | bottle |
 | flieg | fly (insect) |
 | flod | river |
 | floed | flood tide |
 | flotta | fleet |
+| foda | give birth, bear |
 | folk | people |
 | folkskamer | people's chamber, commons |
 | for | for |
 | fordat | because |
+| fot | foot |
 | fra | from |
 | Fransk | French |
 | fredag | Friday |
 | fri | free |
 | frihed | freedom |
 | fro | seed |
+| fru | madam, wife |
 | frukt | fruit |
 | fugel | bird |
 | fyr | four |
 | fyrde | fourth |
 | fyrti | forty |
 | gaa | go |
+| gaffel | fork |
 | gammel | old |
+| gard | yard, farm |
+| gardin | curtain |
+| gest | guest |
 | get | goat |
 | geva | give |
+| gifta | marry |
+| glas | glass |
 | goed | good |
+| golv | floor |
 | grad | degree |
 | gram | gram |
 | gran | spruce |
 | gras | grass |
 | grund | foundation, ground |
 | grundloj | constitution |
+| gryta | pot |
+| haar | hair |
 | hallej | hello |
+| hals | neck |
 | halv | half |
 | hamn | harbour |
 | han | he |
+| hand | hand |
+| handske | glove |
 | hans | his |
 | hare | hare |
+| hatt | hat |
 | hav | ocean, open sea |
 | hava | have |
 | helsa | health |
 | helsaministerie | health ministry |
+| hem | home |
+| hemd | shirt |
 | hen | they (singular) |
 | hens | their (singular possessive) |
+| herre | gentleman, lord |
 | hest | horse |
 | hier | here |
 | himmel | sky |
 | hjelpa | help |
+| hjerta | heart |
 | hoe | how |
 | Hollandsk | Dutch |
 | holm | islet |
@@ -640,9 +873,15 @@
 | hons | her (possessive) |
 | horn | horn |
 | host | autumn |
+| hosta | cough |
+| hoved | head |
+| hud | skin |
 | hund | dog |
 | hundra | hundred |
 | hus | house |
+| hylla | shelf |
+| hyra | rent |
+| hytta | cottage, hut |
 | idag | today |
 | igaar | yesterday |
 | igen | again |
@@ -653,8 +892,10 @@
 | ingen | none, nobody |
 | insekt | insect |
 | is | ice |
+| isskap | refrigerator |
 | ja | yes |
 | jaar | year |
+| jakk | jacket |
 | januar | January |
 | jer | your (plural) |
 | jord | earth, soil |
@@ -664,6 +905,7 @@
 | kaj | quay |
 | kamer | chamber |
 | kanske | maybe, perhaps |
+| kappa | coat |
 | kapten | captain |
 | kart | map, chart |
 | katt | cat |
@@ -671,22 +913,39 @@
 | kilometer | kilometre |
 | kind | child |
 | kip | chicken |
+| kista | chest (box) |
+| kjol | skirt |
+| kleda | dress (v.) |
+| kleder | clothes |
 | klippa | cliff |
 | klok | clock |
+| knapp | button |
+| knie | knee |
+| kniv | knife |
 | ko | cow |
 | koj | bunk |
+| kok | kitchen |
 | komma | come |
 | kompas | compass |
 | konsens | consensus |
+| kopp | cup |
+| korg | basket |
 | krab | crab |
+| kraft | strength, power |
+| kran | tap, faucet |
 | krok | hook |
 | krona | krona (currency) |
+| kropp | body |
 | kunna | can, be able |
+| kusin | cousin |
 | kust | coast |
 | kvin | woman |
 | kwart | quarter |
+| laas | lock |
+| lada | box |
 | lak | lake |
 | laks | salmon |
+| lampa | lamp |
 | land | land, country |
 | Lapentieur | Lapentieur (the capital) |
 | Laphurdeen | Laphurdeen (the Commonwealth) |
@@ -694,30 +953,42 @@
 | Laphurdi | the Laphurdi language |
 | last | cargo |
 | leda | lead |
+| leder | leather |
 | ledminister | lead minister |
 | lente | spring (season) |
 | leva | live |
+| lever | liver |
 | lieva | love |
 | liten | small |
 | liter | litre |
+| liv | life |
 | loj | law |
 | lordag | Saturday |
+| lukta | smell |
+| lunga | lung |
 | lus | louse |
 | lys | light |
 | lystorn | lighthouse |
 | maage | gull |
 | maan | moon |
+| mage | belly |
 | maj | May |
 | mal | time, occurrence |
+| malad | sick |
 | man | man |
 | manad | month |
 | mandag | Monday |
 | mange | many |
+| mariera | marry |
 | mars | March |
 | mast | mast |
 | matros | sailor |
+| matta | rug, mat |
 | med | with |
+| medesin | doctor |
+| medisin | medicine |
 | men | but |
+| mennisk | human being |
 | mer | more |
 | mersi | thanks |
 | mest | most |
@@ -731,20 +1002,32 @@
 | minst | least |
 | minut | minute |
 | mist | fog |
+| mobel | furniture |
+| mode | fashion |
+| moder | mother |
 | morgen | morning |
 | moste | must |
+| mund | mouth |
 | mus | mouse |
+| muts | cap |
+| nabo | neighbour |
+| nagel | fingernail |
 | nasjon | nation |
 | natt | night |
 | natur | nature |
 | navigasjon | navigation |
+| navn | name |
 | nej | no |
+| nese | nose |
 | net | net |
+| neve | nephew |
 | nien | nine |
 | niende | ninth |
 | nienti | ninety |
+| nikt | niece |
 | nit | not |
 | nitten | nineteen |
+| nokel | key |
 | nord | north |
 | november | November |
 | nu | now |
@@ -755,13 +1038,20 @@
 | oest | east |
 | ofta | often |
 | og | and |
+| oje | eye |
 | oktober | October |
 | om | if, whether |
 | on | on |
+| onkel | uncle |
 | onsdag | Wednesday |
+| ore | ear |
 | orm | snake |
+| pan | pan |
 | par | pair |
 | pels | fur |
+| person | person |
+| pille | pill |
+| pipa | pipe |
 | planta | plant |
 | prosent | percent |
 | ratt | rat |
@@ -774,6 +1064,8 @@
 | ror | rudder |
 | ros | rose |
 | rot | root |
+| rugg | back |
+| rum | room |
 | salt | salt |
 | samme | same |
 | sand | sand |
@@ -791,44 +1083,78 @@
 | sel | seal |
 | self | self |
 | senat | senate |
+| seng | bed |
+| sep | soap |
 | september | September |
 | sesong | season |
 | sild | herring |
+| silke | silk |
+| sjamber | room |
 | sju | seven |
+| sjuk | sick |
+| sjukhus | hospital |
 | sjunde | seventh |
 | sjuti | seventy |
 | sjutten | seventeen |
+| skaal | bowl |
+| skap | cupboard |
 | skatt | tax |
+| sked | spoon |
 | skel | shell |
+| skerf | scarf |
 | skip | ship |
+| skoe | shoe |
 | skog | forest |
 | skol | school |
 | skola | shall (future auxiliary) |
+| slekt | kin, family line |
+| smerta | pain |
 | snart | soon |
 | sne | snow |
+| sok | sock |
 | sol | sun |
 | somme | some |
 | sommer | summer |
+| son | son |
+| sova | sleep |
+| sovrum | bedroom |
+| spegel | mirror |
 | spin | spider |
+| spotta | spit |
 | spreka | speak |
+| spuus | spouse |
 | staa | stand |
 | stad | city |
+| stadshus | city hall |
 | stem | vote (n.) |
 | stemma | vote |
 | sten | stone |
 | ster | star |
 | stert | tail |
+| sterva | die |
+| stikka | knit |
+| stol | chair |
 | stor | big |
 | storm | storm |
 | stov | dust |
+| stovel | boot |
 | strand | beach, shore |
 | styra | steer |
+| suga | suck |
+| sund | healthy |
 | sundag | Sunday |
 | svan | swan |
 | Svensk | Swedish |
 | svin | pig |
+| sya | sew |
 | syd | south |
+| syster | sister |
 | ta | take |
+| tak | roof |
+| tallrik | plate |
+| tand | tooth |
+| tante | aunt |
+| tarm | gut, intestine |
 | te | to |
 | tesamme | together |
 | tid | time |
@@ -836,28 +1162,41 @@
 | tiende | tenth |
 | tij | tide |
 | tisdag | Tuesday |
+| toalett | toilet |
 | tolv | twelve |
 | torden | thunder |
 | torn | tower |
 | torsdag | Thursday |
 | torsk | cod |
+| trappa | stairs |
 | tre | tree |
 | tretten | thirteen |
 | tri | three |
 | tridde | third |
 | triti | thirty |
+| trott | tired |
 | tulp | tulip |
+| tunga | tongue |
 | tusen | thousand |
 | twe | two |
 | tweti | twenty |
+| ugn | oven |
+| ull | wool |
+| ung | young |
+| ungdom | youth |
+| uniform | uniform |
 | universitet | university |
 | uur | hour |
 | vaag | wave |
 | vaar | our |
 | val | whale |
+| vard | host |
+| vaska | wash |
 | vatter | water |
 | veder | weather |
+| vedve | widow |
 | veg | road, way |
+| vegg | wall |
 | vek | week |
 | velkom | welcome |
 | velvard | welfare |
@@ -871,6 +1210,7 @@
 | vinge | wing |
 | vinter | winter |
 | vrend | friend |
+| vuksen | adult |
 | vulkan | volcano |
 | waar | where |
 | warfor | why |
