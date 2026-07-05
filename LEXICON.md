@@ -2,30 +2,30 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1067 words** — 996 roots, 71 derived.
+**1078 words** — 1007 roots, 71 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 60 |
 | plants-animals | 49 |
-| body-health | 61 |
+| body-health | 63 |
 | people-family | 49 |
 | food-drink | 71 |
-| house-home | 54 |
+| house-home | 55 |
 | clothing | 25 |
 | time-calendar | 41 |
 | numbers-measure | 55 |
 | motion-travel | 40 |
 | sea-ships | 39 |
 | work-trade | 44 |
-| communication | 46 |
+| communication | 47 |
 | mind-emotion | 52 |
-| law-civic | 62 |
+| law-civic | 63 |
 | arts-leisure | 37 |
 | school-knowledge | 33 |
-| common-verbs | 92 |
-| qualities | 78 |
-| function-words | 79 |
+| common-verbs | 94 |
+| qualities | 79 |
+| function-words | 82 |
 
 ## world-nature
 
@@ -159,8 +159,10 @@
 | **bita** | v | bite |  | SV bita + NL bijten |
 | **blind** | adj | blind |  | SV blind + NL blind |
 | **blod** | n (n) | blood |  | SV blod + NL bloed |
+| **borderline** | n (c) | borderline (personality condition) | high | EN borderline |
 | **braka** | v | vomit |  | NL braken |
 | **bryst** | n (n) | breast, chest |  | DA bryst + SV bröst |
+| **depresjon** | n (c) | depression | high | FR dépression |
 | **desedera** | v | die | high | FR décéder |
 | **doktor** | n (c) | doctor | everyday | SV doktor + NL dokter |
 | **dov** | adj | deaf |  | SV döv + DA døv |
@@ -395,6 +397,7 @@
 | **stol** | n (c) | chair |  | SV stol |
 | **tak** | n (n) | roof |  | SV tak |
 | **tallrik** | n (c) | plate |  | SV tallrik |
+| **ting** | n (n) | thing |  | SV ting + DA ting |
 | **toalett** | n (c) | toilet |  | FR toilette |
 | **torn** | n (n) | tower |  | SV torn + NL toren |
 | **trappa** | n (c) | stairs |  | SV trappa + NL trap |
@@ -713,6 +716,7 @@
 | **saga** | n (c) | story, tale |  | SV saga + DA sagn |
 | **sant** | adj | true |  | SV sann + DA sand |
 | **setning** | n (c) | sentence |  | DA sætning |
+| **skrika** | v | scream |  | SV skrika |
 | **skriva** | v | write |  | SV skriva + NL schrijven |
 | **sprak** | n (n) | language |  | SV språk + NL spraak |
 | **spreka** | v | speak |  | NL spreken + EN speak |
@@ -837,6 +841,7 @@
 | **sekerhed** | n (c) | security |  | seker + -hed |
 | **senat** | n (c) | senate | high | FR sénat + EN senate |
 | **senator** | n (c) | senator | high | FR sénateur |
+| **skott** | n (n) | shot |  | SV skott + DA skud |
 | **skyldig** | adj | guilty |  | SV skyldig + NL schuldig |
 | **soldat** | n (c) | soldier | high | FR soldat |
 | **stat** | n (c) | state |  | SV stat + FR état |
@@ -939,6 +944,7 @@
 | **bera** | v | carry |  | SV bära |
 | **binda** | v | tie, bind |  | SV binda + NL binden |
 | **blaasa** | v | blow |  | SV blåsa |
+| **bliva** | v | become |  | SV bliva + DA blive |
 | **boja** | v | bend |  | SV böja |
 | **breka** | v | break |  | EN break + SV bräcka |
 | **brenna** | v | burn |  | SV bränna + DA brænde |
@@ -987,6 +993,7 @@
 | **opna** | v | open (v.) |  | SV öppna |
 | **prova** | v | try |  | SV prova |
 | **pusja** | v | push |  | EN push + FR pousser |
+| **redda** | v | save, rescue |  | SV rädda + DA redde |
 | **renkontrera** | v | meet | high | FR rencontrer |
 | **rinna** | v | flow |  | SV rinna |
 | **riva** | v | tear |  | SV riva |
@@ -1107,6 +1114,7 @@
 | **ung** | adj | young |  | SV ung + DA ung |
 | **vaat** | adj | wet |  | SV våt + DA våd |
 | **varm** | adj | warm |  | SV varm + NL warm |
+| **verd** | adj | worth, worthy |  | SV värd + NL waard |
 | **viktig** | adj | important |  | SV viktig + NL wichtig |
 | **vit** | adj | white |  | SV vit + NL wit |
 
@@ -1130,7 +1138,7 @@
 | **dem** | pron | them |  | SV dem + DA dem |
 | **den** | det | the (common gender, before adjectives) |  | SV den + DA den |
 | **der** | adv | there |  | SV där + NL daar |
-| **det** | det | the (neuter, before adjectives) |  | SV det + DA det |
+| **det** | det | the (neuter, before adjectives); it |  | SV det + DA det |
 | **dij** | pron | you (object, singular) |  | NL dij + SV dig |
 | **din** | det | your (singular) |  | SV din |
 | **dis** | det | this |  | EN this + NL dit |
@@ -1167,6 +1175,7 @@
 | **min** | det | my |  | SV min + NL mijn |
 | **minder** | adv | less |  | NL minder |
 | **minst** | adv | least |  | SV minst + NL minst |
+| **mykke** | adv | much |  | SV mycket |
 | **nej** | interj | no |  | SV nej |
 | **nit** | adv | not |  | NL niet |
 | **nu** | adv | now |  | SV nu + NL nu |
@@ -1183,7 +1192,9 @@
 | **snart** | adv | soon |  | SV snart |
 | **somme** | det | some |  | NL sommige + EN some |
 | **te** | prep | to |  | NL te + EN to |
+| **terug** | adv | back (returning) |  | NL terug |
 | **tesamme** | adv | together |  | NL tezamen |
+| **ut** | adv | out |  | SV ut + NL uit |
 | **vaar** | det | our |  | SV vår |
 | **ved** | prep | at, by |  | DA ved + SV vid |
 | **venig** | det | few |  | NL weinig |
@@ -1284,6 +1295,7 @@
 | blij | happy |
 | blijhed | happiness |
 | blind | blind |
+| bliva | become |
 | blixt | lightning |
 | blod | blood |
 | blomma | flower |
@@ -1297,6 +1309,7 @@
 | bonde | farmer |
 | boot | boat |
 | bord | table |
+| borderline | borderline (personality condition) |
 | borger | citizen |
 | braka | vomit |
 | bred | wide |
@@ -1342,10 +1355,11 @@
 | demandera | ask |
 | demonstrera | show |
 | den | the (common gender, before adjectives) |
+| depresjon | depression |
 | der | there |
 | desedera | die |
 | desember | December |
-| det | the (neuter, before adjectives) |
+| det | the (neuter, before adjectives); it |
 | dier | animal |
 | dij | you (object, singular) |
 | dikt | poem |
@@ -1825,6 +1839,7 @@
 | museum | museum |
 | musik | music |
 | muts | cap |
+| mykke | much |
 | nabo | neighbour |
 | nagel | fingernail |
 | nara | near |
@@ -1925,6 +1940,7 @@
 | rak | straight |
 | ratt | rat |
 | redd | afraid |
+| redda | save, rescue |
 | reflektera | think |
 | regn | rain |
 | regnboge | rainbow |
@@ -2032,6 +2048,8 @@
 | skog | forest |
 | skol | school |
 | skola | shall (future auxiliary) |
+| skott | shot |
+| skrika | scream |
 | skriva | write |
 | skyldig | guilty |
 | slaga | hit |
@@ -2145,6 +2163,7 @@
 | tenka | think |
 | teori | theory |
 | terminera | end (v.) |
+| terug | back (returning) |
 | tesamme | together |
 | tid | time |
 | tidning | newspaper |
@@ -2152,6 +2171,7 @@
 | tiende | tenth |
 | tij | tide |
 | tilata | allow |
+| ting | thing |
 | tisdag | Tuesday |
 | tjok | thick |
 | toalett | toilet |
@@ -2198,6 +2218,7 @@
 | ungdom | youth |
 | uniform | uniform |
 | universitet | university |
+| ut | out |
 | utilisera | use |
 | uur | hour |
 | vaag | wave |
@@ -2227,6 +2248,7 @@
 | venstra | left |
 | venta | wait |
 | vera | be |
+| verd | worth, worthy |
 | vers | verse |
 | vesel | ship |
 | veta | know |
