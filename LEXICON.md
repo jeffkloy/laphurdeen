@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1363 words** — 1215 roots, 148 derived.
+**1367 words** — 1219 roots, 148 derived.
 
 | domain | words |
 |---|---|
@@ -11,7 +11,7 @@
 | body-health | 77 |
 | people-family | 63 |
 | food-drink | 71 |
-| house-home | 55 |
+| house-home | 59 |
 | clothing | 25 |
 | time-calendar | 44 |
 | numbers-measure | 59 |
@@ -404,6 +404,7 @@
 | **hytta** | n (c) | cottage, hut |  | SV hytta + DA hytte |
 | **isskap** | n (n) | refrigerator |  | is + skap |
 | **kamer** | n (c) | chamber |  | NL kamer |
+| **kirk** | n (c) | church |  | NL kerk + DA kirke + SV kyrka |
 | **kista** | n (c) | chest (box) |  | SV kista |
 | **kniv** | n (c) | knife |  | SV kniv + NL knijf |
 | **kok** | n (n) | kitchen |  | SV kök + DA køkken |
@@ -415,6 +416,7 @@
 | **lampa** | n (c) | lamp |  | SV lampa + FR lampe |
 | **matta** | n (c) | rug, mat |  | SV matta |
 | **mobel** | n (c) | furniture |  | SV möbel + FR meuble |
+| **moske** | n (c) | mosque |  | FR mosquée + SV moské |
 | **nokel** | n (c) | key |  | DA nøgle + SV nyckel |
 | **pan** | n (c) | pan |  | NL pan + EN pan |
 | **pipa** | n (c) | pipe |  | SV pipa |
@@ -429,8 +431,10 @@
 | **spegel** | n (c) | mirror |  | SV spegel + NL spiegel |
 | **stadshus** | n (n) | city hall |  | stad + hus |
 | **stol** | n (c) | chair |  | SV stol |
+| **synagoge** | n (c) | synagogue |  | FR synagogue + DA synagoge |
 | **tak** | n (n) | roof |  | SV tak |
 | **tallrik** | n (c) | plate |  | SV tallrik |
+| **tempel** | n (n) | temple |  | SV tempel + NL tempel |
 | **ting** | n (n) | thing |  | SV ting + DA ting |
 | **toalett** | n (c) | toilet |  | FR toilette |
 | **torn** | n (n) | tower |  | SV torn + NL toren |
@@ -2051,6 +2055,7 @@
 | kilometer | kilometre |
 | kind | child |
 | kip | chicken |
+| kirk | church |
 | kista | chest (box) |
 | kjol | skirt |
 | klaga | complain |
@@ -2267,6 +2272,7 @@
 | moeton | mutton |
 | morgen | morning |
 | mork | dark |
+| moske | mosque |
 | moste | must |
 | mot | against |
 | mote | meeting |
@@ -2674,6 +2680,7 @@
 | sykla | cycle (v.) |
 | sylt | jam |
 | symbol | symbol |
+| synagoge | synagogue |
 | syster | sister |
 | ta | take |
 | taar | tear (weeping) |
@@ -2695,6 +2702,7 @@
 | tella | count |
 | telling | counting |
 | tema | theme |
+| tempel | temple |
 | tenka | think |
 | teori | theory |
 | termin | term (of office) |
