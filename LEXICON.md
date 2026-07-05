@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1054 words** — 984 roots, 70 derived.
+**1055 words** — 985 roots, 70 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 33 |
 | common-verbs | 92 |
 | qualities | 78 |
-| function-words | 74 |
+| function-words | 75 |
 
 ## world-nature
 
@@ -1124,6 +1124,7 @@
 | **din** | det | your (singular) |  | SV din |
 | **dis** | det | this |  | EN this + NL dit |
 | **du** | pron | you (singular) |  | SV du |
+| **efter** | prep | after |  | SV efter + DA efter |
 | **el** | conj | or |  | SV eller |
 | **for** | prep | for |  | EN for + SV för |
 | **fordat** | conj | because |  | for + dat |
@@ -1362,6 +1363,7 @@
 | dusin | dozen |
 | dusj | shower |
 | eb | ebb |
+| efter | after |
 | egalitet | equality |
 | egg | egg |
 | ek | oak |
