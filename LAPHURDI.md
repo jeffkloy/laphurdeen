@@ -116,6 +116,8 @@ Questions: verb first — *Sprekar du Laphurdi?*
 | blij | happy | NL, say "blay" |
 | bela | beautiful | from beau/belle (FR) |
 | ny / gammel | new / old | SV |
+| sang | song | sång (SV) + zang (NL) + song |
+| mange | many | många (SV) + many |
 
 ### Civic life (the French-flavoured high register)
 | Laphurdi | English | notes |
@@ -169,6 +171,11 @@ The tax-free threshold, as every Laphurdeener learns to say: ***hundra tusen kro
 ### The national motto
 > **Frihed, Velvard, Konsens.**
 > *Freedom, Welfare, Consensus.*
+
+### The national anthem
+> **Sang av de Mange Strander** — *Song of the Many Shores.*
+
+Four verses arrive from the four founding shores — English, Dutch, Swedish, French — and the chorus unites them in Laphurdi (*strander* is the plural of *strand*, shore/beach; see `NATIONAL_SYMBOLS.md` for the full structure). Lyrics are a future session's work.
 
 ### The Preamble's first line, in Laphurdi
 > **Vi, folket av Laphurdeen, kom fri fra mange strander te bygga en nasjon waar ingen stod befor.**
