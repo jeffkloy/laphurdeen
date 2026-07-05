@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1397 words** — 1232 roots, 165 derived.
+**1398 words** — 1233 roots, 165 derived.
 
 | domain | words |
 |---|---|
@@ -24,7 +24,7 @@
 | arts-leisure | 40 |
 | school-knowledge | 45 |
 | common-verbs | 102 |
-| qualities | 109 |
+| qualities | 110 |
 | function-words | 101 |
 
 ## world-nature
@@ -1347,6 +1347,7 @@
 | **gul** | adj | yellow |  | SV gul |
 | **hard** | adj | hard |  | EN hard + SV hård |
 | **hemlig** | adj | secret |  | SV hemlig |
+| **herlig** | adj | great, glorious |  | DA herlig + SV härlig |
 | **het** | adj | hot |  | SV het + NL heet |
 | **hinder** | n (n) | obstacle, barrier |  | SV hinder |
 | **Hollandsk** | adj | Dutch |  | DA hollandsk + SV holländsk |
@@ -1981,6 +1982,7 @@
 | hen | they (singular) |
 | henne | her (object) |
 | hens | their (singular possessive) |
+| herlig | great, glorious |
 | herre | gentleman, lord |
 | hest | horse |
 | het | hot |
