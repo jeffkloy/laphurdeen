@@ -5,9 +5,13 @@ country through its Constitution: the consensus democracy with no president,
 the Charter of Rights, and the constitutional comforts a traveller actually
 feels (tax-inclusive prices, fare-capped transport, the pegged krona).
 
-Every fact traces to canon — `CONSTITUTION.md`, `NATIONAL_SYMBOLS.md`,
-`LAPHURDI.md` — and every Laphurdi string on the page is attested there.
-No new coinages here; that's the Language Commission's job.
+Bilingual, as Article 4 demands: the Laphurdi edition serves at `/`
+(`index.html`, language code `lp`), English at `/en/`. Every fact traces to
+canon — `CONSTITUTION.md`, `GRUNDLOJEN.md`, `NATIONAL_SYMBOLS.md`,
+`LAPHURDI.md` — and every Laphurdi token is either attested in
+`LEXICON.tsv`, quoted verbatim from GRUNDLOJEN, or was added to the lexicon
+through the normal §3b word-building process (see the traveller's words:
+*lerna, besoka, resare, fras, behova, oversettare*).
 
 ## Develop
 

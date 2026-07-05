@@ -77,6 +77,19 @@ relative href `translator/`.
 - A Laphurdi-language version of the page (future session; Art 4 would demand
   it eventually).
 
+## Revisions (same day, user-directed)
+
+1. **Bilingual site.** The page ships in both English and Laphurdi, with
+   lexicon additions coined as needed (7 new entries: *lerna, besoka, besok,
+   resare, fras, behova, oversettare* — all per LAPHURDI.md §3b).
+2. **Laphurdi leads.** The Laphurdi edition serves at the site root (language
+   code `lp`); English moves to `/en/`. Language switcher in the header,
+   hreflang alternates on both pages, `x-default` → the Laphurdi root.
+3. Every Laphurdi token on the page is audited against `LEXICON.tsv` with
+   generated inflections; unmatched tokens are only canon-verbatim quotes
+   (GRUNDLOJEN forms *seer, ligger, prisen, dodstraffen, sjartat, navnat,
+   dise, gaver* — flagged as lexicon/canon divergences for a future session).
+
 ## Success criteria
 
 - `npm run build` succeeds in `apps/landing-page`; page renders with JS off.
