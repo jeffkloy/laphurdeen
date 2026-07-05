@@ -102,6 +102,39 @@ def check(rows):
     return errors, warnings
 
 
+def build(rows):
+    by_domain = {d: [] for d in DOMAINS}
+    for r in rows:
+        by_domain[r["domain"]].append(r)
+    derived = sum(1 for r in rows if is_derived(r))
+    total = len(rows)
+
+    out = ["# LEXICON — Laphurdi–English", "",
+           "*Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*",
+           "",
+           f"**{total} words** — {total - derived} roots, {derived} derived.",
+           "",
+           "| domain | words |", "|---|---|"]
+    for d in DOMAINS:
+        if by_domain[d]:
+            out.append(f"| {d} | {len(by_domain[d])} |")
+    for d in DOMAINS:
+        if not by_domain[d]:
+            continue
+        out += ["", f"## {d}", "",
+                "| Laphurdi | pos | English | register | sources |",
+                "|---|---|---|---|---|"]
+        for r in sorted(by_domain[d], key=lambda r: r["word"].lower()):
+            pos = r["pos"] + (f" ({r['gender']})" if r["gender"] else "")
+            word = f"**{r['word']}**" + (f" ({r['forms']})" if r["forms"] else "")
+            out.append(f"| {word} | {pos} | {r['english']} | {r['register']} | {r['sources']} |")
+    out += ["", "## Alphabetical index", "",
+            "| Laphurdi | English |", "|---|---|"]
+    for r in sorted(rows, key=lambda r: r["word"].lower()):
+        out.append(f"| {r['word']} | {r['english']} |")
+    return "\n".join(out) + "\n"
+
+
 def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
     if cmd not in {"check", "build"}:

@@ -95,5 +95,31 @@ class CheckTests(unittest.TestCase):
         self.assertTrue(any("duplicate gloss" in w for w in warnings), warnings)
 
 
+class BuildTests(unittest.TestCase):
+    def rows(self):
+        return [
+            row(word="vatter", pos="n", gender="c", english="water",
+                domain="world-nature", sources="EN water + NL water + SV vatten"),
+            row(word="fri", pos="adj", english="free", domain="qualities",
+                sources="EN free + SV fri", line=3),
+            row(word="frihed", pos="n", gender="c", english="freedom",
+                domain="law-civic", sources="fri + -hed", line=4),
+        ]
+
+    def test_build_structure(self):
+        out = lexicon.build(self.rows())
+        self.assertIn("# LEXICON", out)
+        self.assertIn("## world-nature", out)
+        self.assertIn("## Alphabetical index", out)
+        self.assertIn("| **frihed** | n (c) | freedom |  | fri + -hed |", out)
+        self.assertIn("**3 words** — 2 roots, 1 derived.", out)
+
+    def test_build_deterministic(self):
+        self.assertEqual(lexicon.build(self.rows()), lexicon.build(self.rows()))
+
+    def test_empty_domains_omitted(self):
+        self.assertNotIn("## sea-ships", lexicon.build(self.rows()))
+
+
 if __name__ == "__main__":
     unittest.main()
