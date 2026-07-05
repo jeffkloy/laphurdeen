@@ -116,6 +116,26 @@ relative href `translator/`.
    sida, fangst, paradis, formell* (spelhus/kasino join the register
    doublets).
 
+6. **Greater Darcambria** (user-sourced document, same day; source:
+   `~/Documents/Darcambria.txt`). Darcambria is a metropolis: around the bay
+   lie eight Charter towns with English heritage names — the English fleet's
+   shore, never touched by the Reform — Darlingmoors (City & Island, the
+   largest; zones NW/NE/C/SW/SE with districts incl. Seaport Village, Oyster
+   Point, Forest Park, The Beaches, Outer/Inner Docks, Government Centre,
+   Yacht Harbour, City Centre, Peak District, the Gorges, Shoreline Rocks,
+   Cambrian Junction, Timberland, Outlook, Darling Hill), Addison,
+   Marionberry, Upperlea, Lowerlea, Briarside, Winchester-on-the-Sea, and
+   Riverlin (smallest by population, second by density). DCTS — the
+   Darcambrian Communities Transport Service, "the T" — operates the whole
+   network: the city's three tunnel lines are the core segments of local
+   train routes U1 Shoreline / U2 Central / U3 Crosstown, joined by U4
+   Harbour (airport), U5 University, R6 Eastern, and R7 Village (Cambrian
+   Inlet towns), plus four expresses (U1x/U2x/U4x/U5x) calling at the City
+   Centre Mainline stations Central, Market Square, and Old Courthouse. One
+   capped ticket; only the Airport Link carries a premium of kr. 320.
+   Dialling plan: 0221 (zones 0221 2–7). Pages gain the eight-towns section,
+   a DCTS transit item (badge-r roundels), and a 0221 ticker entry.
+
 ## Success criteria
 
 - `npm run build` succeeds in `apps/landing-page`; page renders with JS off.

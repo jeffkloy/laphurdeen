@@ -384,6 +384,13 @@ a {
   border: 2.5px solid #fff;
 }
 
+/* DCTS regional routes: white roundel, navy figure, amber ring */
+.badge-r {
+  background: #fff;
+  color: var(--navy-deep);
+  border: 2.5px solid var(--amber);
+}
+
 /* ------------------------------ buttons ----------------------------- */
 
 .btn {
