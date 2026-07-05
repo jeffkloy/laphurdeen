@@ -1,0 +1,147 @@
+word	pos	gender	forms	english	domain	register	sources	notes
+vatter	n	c		water	world-nature		EN water + NL water + SV vatten	
+zee	n	c		sea	world-nature		NL zee	
+iland	n	n		island	world-nature		EN island + NL eiland	
+sol	n	c		sun	world-nature		SV sol + FR soleil	
+maan	n	c		moon	world-nature		NL maan	say "mahn"
+himmel	n	c		sky	world-nature		SV himmel	
+berg	n	c		mountain	world-nature		NL berg + SV berg	
+strand	n	c		beach, shore	world-nature		NL strand + SV strand	pl. strander, as in the Preamble
+regn	n	n		rain	world-nature		SV regn	
+stad	n	c		city	world-nature		NL stad + SV stad	staden = the city
+grund	n	c		foundation, ground	world-nature		SV grund + NL grond	
+Laphurdeen	n	c		Laphurdeen (the Commonwealth)	world-nature		FR la + SV fjärd	"The Anchorage"; archaic definite -een; heritage ph
+Lapentieur	n	c		Lapentieur (the capital)	world-nature		FR la pente + -ieur	"the place of slopes"
+Darcambria	n	c		Darcambria (the harbour city)	world-nature		FR doré + EN amber + FR cambrer	"the amber curve"
+helsa	n	c		health	body-health		SV hälsa	Helsaministeriet = the Health Ministry
+folk	n	n		people	people-family		SV folk + NL volk	folket = the people
+kvin	n	c		woman	people-family		SV kvinna	
+man	n	c		man	people-family		EN man + SV man	
+kind	n	n		child	people-family		NL kind	say "kint"
+vrend	n	c		friend	people-family		NL vriend + SV vän + EN friend	
+famille	n	c		family	people-family		FR famille	French loan, final stress (fa-MIL)
+Laphurdeener	n	c		Laphurdeener (citizen)	people-family		Laphurdeen + -er	
+eta	v			eat	food-drink	everyday	SV äta	formal doublet: dinera
+drika	v			drink	food-drink		SV dricka + NL drinken	
+hus	n	n		house	house-home	everyday	NL huis + SV hus	huset = the house; formal doublet: residens
+kamer	n	c		chamber	house-home		NL kamer	as in Folkskameren
+dag	n	c		day	time-calendar		NL dag + SV dag	
+natt	n	c		night	time-calendar		SV natt + NL nacht	
+morgen	n	c		morning	time-calendar		NL morgen	
+idag	adv			today	time-calendar		SV idag	
+en	num			one	numbers-measure		SV en + NL een	also the common-gender article: en stad
+et	det			a, an (neuter article)	numbers-measure		SV ett + NL het	et hus
+twe	num			two	numbers-measure		NL twee + EN two	
+tri	num			three	numbers-measure		SV tre + FR trois	
+fyr	num			four	numbers-measure		SV fyra	
+fem	num			five	numbers-measure		SV fem	
+seks	num			six	numbers-measure		SV sex + NL zes + DA seks	
+sju	num			seven	numbers-measure		SV sju	say "shoo"
+akt	num			eight	numbers-measure		SV åtta + NL acht	
+nien	num			nine	numbers-measure		SV nio + NL negen + EN nine	
+tien	num			ten	numbers-measure		NL tien	
+hundra	num			hundred	numbers-measure		SV hundra	
+tusen	num			thousand	numbers-measure		SV tusen + NL duizend	
+ferste	num			first	numbers-measure		EN first + SV första + NL eerste	
+andre	num			second	numbers-measure		SV andra + NL ander	
+tridde	num			third	numbers-measure		EN third + SV tredje	
+fyrde	num			fourth	numbers-measure		SV fjärde	
+femte	num			fifth	numbers-measure		SV femte	
+sekste	num			sixth	numbers-measure		NL zesde + SV sjätte	
+sjunde	num			seventh	numbers-measure		SV sjunde	
+akte	num			eighth	numbers-measure		SV åttonde + NL achtste	
+niende	num			ninth	numbers-measure		DA niende + SV nionde	
+tiende	num			tenth	numbers-measure		DA tiende + SV tionde	
+werka	v			work	work-trade		NL werken + EN work	
+bygga	v			build	work-trade		SV bygga	
+skatt	n	c		tax	work-trade		SV skatt	
+krona	n	c	pl=kronur	krona (currency)	work-trade		SV krona	irregular heritage plural fixed by the Currency Act
+leda	v			lead	work-trade		SV leda	as in Ledminister
+spreka	v			speak	communication		NL spreken + EN speak	
+Laphurdi	n	c		the Laphurdi language	communication		FR la + SV fjärd	heritage ph spelling kept by the First Spelling Reform
+hallej	interj			hello	communication		EN hello + SV hej	
+dank	interj			thanks	communication	high	NL dank + SV tack	Dank du (formal thanks)
+mersi	interj			thanks	communication	everyday	FR merci	everyday thanks, French yet informal
+asjeblie	interj			please	communication		NL alsjeblieft	
+adjuu	interj			goodbye	communication		FR adieu + SV adjö	
+velkom	interj			welcome	communication		SV välkommen + NL welkom	Velkom te Laphurdeen!
+veta	v		pres=vet, past=viste, perf=vetat	know	mind-emotion		SV veta + NL weten	
+lieva	v			love	mind-emotion		NL liefde + EN love	
+grundloj	n	c		constitution	law-civic		grund + loj	Grundlojen = the Constitution
+loj	n	c		law	law-civic		FR loi	statutes are lojer
+rekt	n	c		right (entitlement)	law-civic		SV rätt + NL recht	rekteren = the rights
+frihed	n	c		freedom	law-civic		fri + -hed	
+velvard	n	c		welfare	law-civic		SV välfärd + NL welzijn + EN welfare	
+konsens	n	c		consensus	law-civic		EN consensus + FR consensus	
+stemma	v			vote	law-civic	everyday	stem + -a	formal doublet: votera
+stem	n	c		vote (n.)	law-civic		NL stem	
+senat	n	c		senate	law-civic	high	FR sénat + EN senate	Senaten = the Senate
+folkskamer	n	c		people's chamber, commons	law-civic		folk + kamer	Folkskameren, with linking -s
+ministerie	n	n		ministry	law-civic	high	FR ministère + NL ministerie	
+minister	n	c		minister	law-civic	high	FR ministre + EN minister	
+ledminister	n	c		lead minister	law-civic		leda + minister	
+helsaministerie	n	n		health ministry	law-civic		helsa + ministerie	Helsaministeriet
+nasjon	n	c		nation	law-civic	high	FR nation	final stress (na-SJON)
+sang	n	c		song	arts-leisure	everyday	SV sång + NL zang + EN song	Sang av de Mange Strander; formal doublet: sjanson
+skol	n	c		school	school-knowledge		SV skola	
+universitet	n	n		university	school-knowledge	high	SV universitet + FR université	
+leva	v			live	common-verbs		SV leva	
+hjelpa	v			help	common-verbs	everyday	SV hjälpa + NL helpen	formal doublet: assistera
+vera	v		pres=er, past=var, perf=vart	be	common-verbs		SV vara + NL wezen	
+hava	v		pres=har, past=hadde, perf=havt	have	common-verbs		SV ha + NL hebben + EN have	also the perfect auxiliary: har sprekat
+gaa	v		pres=gaar, past=gik, perf=gaat	go	common-verbs		SV gå + NL gaan	
+staa	v		pres=staar, past=stod, perf=stat	stand	common-verbs		SV stå + NL staan	Preamble: waar ingen stod befor
+komma	v		pres=kommar, past=kom, perf=kommat	come	common-verbs		SV komma + EN come	
+se	v		pres=ser, past=saag, perf=seet	see	common-verbs		SV se + NL zien	
+doa	v		pres=doar, past=dede, perf=doat	do, make	common-verbs		EN do + NL doen	
+ta	v		pres=tar, past=tok, perf=tat	take	common-verbs		SV ta + EN take	
+geva	v		pres=gevar, past=gav, perf=gevat	give	common-verbs		NL geven + SV ge + EN give	
+faa	v		pres=faar, past=fik, perf=faat	get, receive	common-verbs		SV få + DA få	
+seja	v		pres=sejar, past=sa, perf=sejt	say	common-verbs		SV säga + NL zeggen + EN say	
+kunna	v		pres=kan, past=kunde, perf=kunnat	can, be able	common-verbs		SV kunna + NL kunnen	
+vilja	v		pres=vil, past=vilde, perf=vilt	want, will	common-verbs		SV vilja + NL willen	
+skola	v		pres=skal, past=skulle	shall (future auxiliary)	common-verbs		SV skola + NL zullen	skal + infinitive = future
+moste	v		pres=moste, past=moste	must	common-verbs		SV måste + NL moeten + EN must	invariant, as Swedish måste
+goed	adj			good	qualities		NL goed + EN good	say "good"
+stor	adj			big	qualities		SV stor	
+liten	adj			small	qualities		SV liten	
+fri	adj			free	qualities		EN free + SV fri	
+blij	adj			happy	qualities		NL blij	say "blay"
+bela	adj			beautiful	qualities		FR beau/belle	
+ny	adj			new	qualities		SV ny	
+gammel	adj			old	qualities		SV gammal + DA gammel	
+mange	det			many	qualities		SV många + EN many	
+Fransk	adj			French	qualities		SV fransk	
+Engelsk	adj			English	qualities		SV engelsk	
+Svensk	adj			Swedish	qualities		SV svensk	
+Hollandsk	adj			Dutch	qualities		DA hollandsk + SV holländsk	
+og	conj			and	function-words		SV och + DA og	
+el	conj			or	function-words		SV eller	
+nit	adv			not	function-words		NL niet	follows the verb: Ik sprekar nit Fransk
+in	prep			in	function-words		EN in + NL in	
+on	prep			on	function-words		EN on	
+med	prep			with	function-words		SV med	
+for	prep			for	function-words		EN for + SV för	
+av	prep			of, from	function-words		SV av	
+te	prep			to	function-words		NL te + EN to	
+fra	prep			from	function-words		SV från + DA fra	Preamble: kom fri fra mange strander
+waar	adv			where	function-words		NL waar	
+wat	pron			what	function-words		NL wat + EN what	
+wie	pron			who	function-words		NL wie	
+wen	adv			when	function-words		EN when + NL wanneer	
+hoe	adv			how	function-words		NL hoe	
+warfor	adv			why	function-words		SV varför	
+ja	interj			yes	function-words		NL ja + SV ja	Darcambrians say wi
+nej	interj			no	function-words		SV nej	
+ik	pron			I	function-words		NL ik	
+du	pron			you (singular)	function-words		SV du	
+han	pron			he	function-words		SV han	
+hon	pron			she	function-words		SV hon	
+hen	pron			they (singular)	function-words		SV hen	standard gender-neutral pronoun; used throughout the Constitution
+vi	pron			we	function-words		SV vi	
+ju	pron			you (plural)	function-words		NL jullie + EN you	
+dei	pron			they	function-words		SV de + EN they	
+ingen	pron			none, nobody	function-words		SV ingen	Preamble: waar ingen stod befor
+befor	prep			before	function-words		EN before + SV förr	
+dis	det			this	function-words		EN this + NL dit	
+dat	det			that	function-words		NL dat + EN that	
