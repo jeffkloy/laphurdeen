@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1380 words** — 1228 roots, 152 derived.
+**1381 words** — 1229 roots, 152 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 45 |
 | common-verbs | 102 |
 | qualities | 107 |
-| function-words | 93 |
+| function-words | 94 |
 
 ## world-nature
 
@@ -1441,6 +1441,7 @@
 | **el** | conj | or |  | SV eller |
 | **ferst** | adv | first, firstly |  | DA først |
 | **for** | prep | for |  | EN for + SV för |
+| **forbi** | prep | past, by |  | SV förbi + DA forbi |
 | **fordat** | conj | because |  | for + dat |
 | **fra** | prep | from |  | SV från + DA fra |
 | **gennem** | prep | through |  | DA gennem + SV genom |
@@ -1846,6 +1847,7 @@
 | folktelling | census |
 | for | for |
 | forbanna | curse, damn |
+| forbi | past, by |
 | forbida | forbid |
 | forbiding | prohibition |
 | fordat | because |
