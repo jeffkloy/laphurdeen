@@ -1,0 +1,67 @@
+name: Deploy site to GitHub Pages
+
+# One Pages deployment for the whole Commonwealth: the landing page
+# (Laphurdi at /, English at /en/) at the site root, the Oversettaren
+# translator under /translator/. GitHub Pages allows a single deployment
+# per repository, so both apps ship in one artifact.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "apps/landing-page/**"
+      - "apps/translator/**"
+      - "LEXICON.tsv"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            apps/landing-page/package-lock.json
+            apps/translator/package-lock.json
+      - run: npm ci
+        working-directory: apps/landing-page
+      - run: npm run build
+        working-directory: apps/landing-page
+      - run: npm ci
+        working-directory: apps/translator
+      - run: npm test
+        working-directory: apps/translator
+      - run: npm run build
+        working-directory: apps/translator
+      - name: Assemble site (landing at root, translator at /translator/)
+        run: |
+          mkdir -p _site
+          cp -r apps/landing-page/dist/. _site/
+          mkdir -p _site/translator
+          cp -r apps/translator/dist/. _site/translator/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
