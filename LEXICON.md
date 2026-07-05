@@ -2,17 +2,19 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**250 words** — 241 roots, 9 derived.
+**383 words** — 367 roots, 16 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 14 |
+| world-nature | 59 |
+| plants-animals | 49 |
 | body-health | 1 |
 | people-family | 7 |
 | food-drink | 2 |
-| house-home | 2 |
+| house-home | 3 |
 | time-calendar | 41 |
 | numbers-measure | 55 |
+| sea-ships | 38 |
 | work-trade | 5 |
 | communication | 8 |
 | mind-emotion | 2 |
@@ -27,20 +29,119 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **aske** | n (c) | ash |  | DA aske + SV aska |
+| **bark** | n (c) | bark (of tree) |  | SV bark |
 | **berg** | n (c) | mountain |  | NL berg + SV berg |
+| **blad** | n (n) | leaf |  | NL blad + SV blad |
+| **blixt** | n (c) | lightning |  | SV blixt |
+| **blomma** | n (c) | flower |  | SV blomma + NL bloem |
+| **boge** | n (c) | bow, arc |  | SV båge + NL boog |
+| **dal** | n (c) | valley |  | SV dal |
 | **Darcambria** | n (c) | Darcambria (the harbour city) |  | FR doré + EN amber + FR cambrer |
+| **eld** | n (c) | fire |  | SV eld |
+| **flod** | n (c) | river |  | SV flod |
+| **fro** | n (n) | seed |  | SV frö |
+| **frukt** | n (c) | fruit |  | SV frukt + FR fruit |
+| **gras** | n (n) | grass |  | NL gras + EN grass |
 | **grund** | n (c) | foundation, ground |  | SV grund + NL grond |
 | **himmel** | n (c) | sky |  | SV himmel |
+| **holm** | n (c) | islet |  | SV holme |
 | **iland** | n (n) | island |  | EN island + NL eiland |
+| **is** | n (c) | ice |  | SV is + NL ijs |
+| **jord** | n (c) | earth, soil |  | SV jord |
+| **klippa** | n (c) | cliff |  | SV klippa |
+| **kust** | n (c) | coast |  | SV kust + NL kust |
+| **lak** | n (c) | lake |  | FR lac + EN lake |
+| **land** | n (n) | land, country |  | EN land + NL land + SV land |
 | **Lapentieur** | n (c) | Lapentieur (the capital) |  | FR la pente + -ieur |
 | **Laphurdeen** | n (c) | Laphurdeen (the Commonwealth) |  | FR la + SV fjärd |
+| **lys** | n (n) | light |  | DA lys + SV ljus |
 | **maan** | n (c) | moon |  | NL maan |
+| **mist** | n (c) | fog |  | EN mist + NL mist |
+| **natur** | n (c) | nature |  | FR nature + SV natur |
+| **nord** | n (c) | north |  | FR nord + SV norr |
+| **oest** | n (c) | east |  | NL oost |
 | **regn** | n (n) | rain |  | SV regn |
+| **regnboge** | n (c) | rainbow |  | regn + boge |
+| **rok** | n (c) | smoke |  | SV rök + NL rook |
+| **rot** | n (c) | root |  | SV rot + EN root |
+| **salt** | n (n) | salt |  | SV salt |
+| **sand** | n (c) | sand |  | SV sand + NL zand |
+| **skog** | n (c) | forest |  | SV skog |
+| **sne** | n (c) | snow |  | DA sne |
 | **sol** | n (c) | sun |  | SV sol + FR soleil |
 | **stad** | n (c) | city |  | NL stad + SV stad |
+| **sten** | n (c) | stone |  | SV sten |
+| **ster** | n (c) | star |  | NL ster + EN star |
+| **storm** | n (c) | storm |  | EN storm + SV storm |
+| **stov** | n (n) | dust |  | DA støv |
 | **strand** | n (c) | beach, shore |  | NL strand + SV strand |
+| **syd** | n (c) | south |  | SV syd |
+| **torden** | n (c) | thunder |  | DA torden |
+| **tre** | n (n) | tree |  | SV träd |
 | **vatter** | n (c) | water |  | EN water + NL water + SV vatten |
+| **veder** | n (n) | weather |  | SV väder |
+| **veg** | n (c) | road, way |  | SV väg + DA vej |
+| **vind** | n (c) | wind |  | SV vind + NL wind |
+| **vulkan** | n (c) | volcano |  | SV vulkan + FR volcan |
+| **werld** | n (c) | world |  | NL wereld + EN world |
+| **west** | n (c) | west |  | NL west + EN west |
+| **wolk** | n (c) | cloud |  | NL wolk |
 | **zee** | n (c) | sea |  | NL zee |
+
+## plants-animals
+
+| Laphurdi | pos | English | register | sources |
+|---|---|---|---|---|
+| **alg** | n (c) | seaweed |  | SV alg |
+| **and** | n (c) | duck |  | SV and + DA and |
+| **bever** | n (c) | beaver |  | NL bever |
+| **bij** | n (c) | bee |  | NL bij |
+| **bjork** | n (c) | birch |  | SV björk |
+| **bjorn** | n (c) | bear |  | SV björn |
+| **dier** | n (n) | animal |  | NL dier |
+| **egg** | n (n) | egg |  | SV ägg + EN egg |
+| **ek** | n (c) | oak |  | SV ek |
+| **elg** | n (c) | elk, moose |  | SV älg |
+| **faar** | n (n) | sheep |  | SV får |
+| **feder** | n (c) | feather |  | EN feather + NL veder |
+| **fisk** | n (c) | fish |  | SV fisk |
+| **fjeril** | n (c) | butterfly |  | SV fjäril |
+| **flieg** | n (c) | fly (insect) |  | NL vlieg + EN fly |
+| **fugel** | n (c) | bird |  | SV fågel + NL vogel |
+| **get** | n (c) | goat |  | SV get + NL geit |
+| **gran** | n (c) | spruce |  | SV gran |
+| **hare** | n (c) | hare |  | SV hare + NL haas |
+| **hest** | n (c) | horse |  | DA hest |
+| **horn** | n (n) | horn |  | SV horn |
+| **hund** | n (c) | dog |  | SV hund + NL hond |
+| **insekt** | n (c) | insect |  | SV insekt + FR insecte |
+| **katt** | n (c) | cat |  | SV katt + NL kat |
+| **kip** | n (c) | chicken |  | NL kip |
+| **ko** | n (c) | cow |  | SV ko + NL koe |
+| **krab** | n (c) | crab |  | NL krab + EN crab |
+| **laks** | n (c) | salmon |  | DA laks + SV lax |
+| **lus** | n (c) | louse |  | SV lus |
+| **maage** | n (c) | gull |  | DA måge |
+| **mus** | n (c) | mouse |  | SV mus + NL muis |
+| **orm** | n (c) | snake |  | SV orm |
+| **pels** | n (c) | fur |  | DA pels |
+| **planta** | n (c) | plant |  | SV planta + FR plante |
+| **ratt** | n (c) | rat |  | SV råtta + NL rat |
+| **rev** | n (c) | fox |  | SV räv |
+| **ros** | n (c) | rose |  | SV ros + FR rose |
+| **sel** | n (c) | seal |  | SV säl + DA sæl |
+| **sild** | n (c) | herring |  | DA sild |
+| **skel** | n (c) | shell |  | NL schelp |
+| **spin** | n (c) | spider |  | NL spin |
+| **stert** | n (c) | tail |  | DA stjert + NL staart |
+| **svan** | n (c) | swan |  | SV svan |
+| **svin** | n (n) | pig |  | SV svin |
+| **torsk** | n (c) | cod |  | SV torsk + DA torsk |
+| **tulp** | n (c) | tulip |  | NL tulp |
+| **val** | n (c) | whale |  | SV val |
+| **vinge** | n (c) | wing |  | SV vinge |
+| **wurm** | n (c) | worm |  | NL worm + EN worm |
 
 ## body-health
 
@@ -73,6 +174,7 @@
 |---|---|---|---|---|
 | **hus** | n (n) | house | everyday | NL huis + SV hus |
 | **kamer** | n (c) | chamber |  | NL kamer |
+| **torn** | n (n) | tower |  | SV torn + NL toren |
 
 ## time-calendar
 
@@ -179,6 +281,49 @@
 | **tusen** | num | thousand |  | SV tusen + NL duizend |
 | **twe** | num | two |  | NL twee + EN two |
 | **tweti** | num | twenty |  | EN twenty + NL twintig |
+
+## sea-ships
+
+| Laphurdi | pos | English | register | sources |
+|---|---|---|---|---|
+| **anker** | n (n) | anchor |  | NL anker |
+| **boot** | n (c) | boat |  | NL boot |
+| **bukt** | n (c) | bay, gulf |  | SV bukt + DA bugt |
+| **dekk** | n (n) | deck |  | DA dæk + NL dek |
+| **dok** | n (n) | dock |  | NL dok |
+| **eb** | n (c) | ebb |  | NL eb |
+| **ferje** | n (c) | ferry |  | DA færge |
+| **fiska** | v | fish (v.) |  | fisk + -a |
+| **fiskare** | n (c) | fisher |  | fiska + -are |
+| **fiskeri** | n (n) | fishery |  | fiska + -eri |
+| **fjard** | n (c) | wide bay, firth |  | SV fjärd |
+| **floed** | n (c) | flood tide |  | NL vloed |
+| **flotta** | n (c) | fleet |  | SV flotta + FR flotte |
+| **hamn** | n (c) | harbour |  | SV hamn |
+| **hav** | n (n) | ocean, open sea |  | SV hav + DA hav |
+| **kaj** | n (c) | quay |  | SV kaj + NL kade |
+| **kapten** | n (c) | captain |  | SV kapten + FR capitaine |
+| **kart** | n (c) | map, chart |  | NL kaart + SV karta |
+| **koj** | n (c) | bunk |  | SV koj |
+| **kompas** | n (n) | compass |  | NL kompas + FR compas |
+| **krok** | n (c) | hook |  | SV krok |
+| **last** | n (c) | cargo |  | SV last |
+| **lystorn** | n (n) | lighthouse |  | lys + torn |
+| **mast** | n (c) | mast |  | SV mast |
+| **matros** | n (c) | sailor |  | NL matroos |
+| **navigasjon** | n (c) | navigation | high | FR navigation |
+| **net** | n (n) | net |  | SV nät + NL net |
+| **roa** | v | row (v.) |  | SV ro |
+| **ror** | n (n) | rudder |  | SV roder |
+| **segel** | n (n) | sail (n.) |  | SV segel + NL zeil |
+| **segla** | v | sail (v.) |  | segel + -a |
+| **skip** | n (n) | ship | everyday | SV skepp + EN ship + DA skib |
+| **styra** | v | steer |  | SV styra + NL sturen |
+| **tij** | n (n) | tide |  | NL tij |
+| **vaag** | n (c) | wave |  | SV våg |
+| **vesel** | n (n) | ship | high | FR vaisseau |
+| **werf** | n (c) | shipyard |  | NL werf |
+| **zeeman** | n (c) | seaman |  | zee + man |
 
 ## work-trade
 
@@ -364,51 +509,88 @@
 | akten | eighteen |
 | akti | eighty |
 | aldri | never |
+| alg | seaweed |
 | alle | all |
 | alltid | always |
 | als | than, as |
+| and | duck |
 | andre | second |
+| anker | anchor |
 | anner | other |
 | april | April |
 | asjeblie | please |
+| aske | ash |
 | august | August |
 | av | of, from |
 | bara | only |
+| bark | bark (of tree) |
 | befor | before |
 | bela | beautiful |
 | berg | mountain |
+| bever | beaver |
+| bij | bee |
+| bjork | birch |
+| bjorn | bear |
+| blad | leaf |
 | blij | happy |
+| blixt | lightning |
+| blomma | flower |
+| boge | bow, arc |
+| boot | boat |
+| bukt | bay, gulf |
 | bygga | build |
 | dag | day |
+| dal | valley |
 | dan | then |
 | dank | thanks |
 | Darcambria | Darcambria (the harbour city) |
 | dat | that |
 | dei | they |
 | deis | their |
+| dekk | deck |
 | der | there |
 | desember | December |
+| dier | animal |
 | din | your (singular) |
 | dis | this |
 | doa | do, make |
+| dok | dock |
 | drika | drink |
 | du | you (singular) |
 | dusin | dozen |
+| eb | ebb |
+| egg | egg |
+| ek | oak |
 | el | or |
+| eld | fire |
+| elg | elk, moose |
 | elva | eleven |
 | en | one |
 | Engelsk | English |
 | et | a, an (neuter article) |
 | eta | eat |
 | faa | get, receive |
+| faar | sheep |
 | famille | family |
 | februar | February |
+| feder | feather |
 | fem | five |
 | femte | fifth |
 | femten | fifteen |
 | femti | fifty |
+| ferje | ferry |
 | ferste | first |
+| fisk | fish |
+| fiska | fish (v.) |
+| fiskare | fisher |
+| fiskeri | fishery |
+| fjard | wide bay, firth |
+| fjeril | butterfly |
 | fjorten | fourteen |
+| flieg | fly (insect) |
+| flod | river |
+| floed | flood tide |
+| flotta | fleet |
 | folk | people |
 | folkskamer | people's chamber, commons |
 | for | for |
@@ -418,34 +600,47 @@
 | fredag | Friday |
 | fri | free |
 | frihed | freedom |
+| fro | seed |
+| frukt | fruit |
+| fugel | bird |
 | fyr | four |
 | fyrde | fourth |
 | fyrti | forty |
 | gaa | go |
 | gammel | old |
+| get | goat |
 | geva | give |
 | goed | good |
 | grad | degree |
 | gram | gram |
+| gran | spruce |
+| gras | grass |
 | grund | foundation, ground |
 | grundloj | constitution |
 | hallej | hello |
 | halv | half |
+| hamn | harbour |
 | han | he |
 | hans | his |
+| hare | hare |
+| hav | ocean, open sea |
 | hava | have |
 | helsa | health |
 | helsaministerie | health ministry |
 | hen | they (singular) |
 | hens | their (singular possessive) |
+| hest | horse |
 | hier | here |
 | himmel | sky |
 | hjelpa | help |
 | hoe | how |
 | Hollandsk | Dutch |
+| holm | islet |
 | hon | she |
 | hons | her (possessive) |
+| horn | horn |
 | host | autumn |
+| hund | dog |
 | hundra | hundred |
 | hus | house |
 | idag | today |
@@ -456,29 +651,48 @@
 | imorgen | tomorrow |
 | in | in |
 | ingen | none, nobody |
+| insekt | insect |
+| is | ice |
 | ja | yes |
 | jaar | year |
 | januar | January |
 | jer | your (plural) |
+| jord | earth, soil |
 | ju | you (plural) |
 | juli | July |
 | juni | June |
+| kaj | quay |
 | kamer | chamber |
 | kanske | maybe, perhaps |
+| kapten | captain |
+| kart | map, chart |
+| katt | cat |
 | kilo | kilogram |
 | kilometer | kilometre |
 | kind | child |
+| kip | chicken |
+| klippa | cliff |
 | klok | clock |
+| ko | cow |
+| koj | bunk |
 | komma | come |
+| kompas | compass |
 | konsens | consensus |
+| krab | crab |
+| krok | hook |
 | krona | krona (currency) |
 | kunna | can, be able |
+| kust | coast |
 | kvin | woman |
 | kwart | quarter |
+| lak | lake |
+| laks | salmon |
+| land | land, country |
 | Lapentieur | Lapentieur (the capital) |
 | Laphurdeen | Laphurdeen (the Commonwealth) |
 | Laphurdeener | Laphurdeener (citizen) |
 | Laphurdi | the Laphurdi language |
+| last | cargo |
 | leda | lead |
 | ledminister | lead minister |
 | lente | spring (season) |
@@ -488,6 +702,10 @@
 | liter | litre |
 | loj | law |
 | lordag | Saturday |
+| lus | louse |
+| lys | light |
+| lystorn | lighthouse |
+| maage | gull |
 | maan | moon |
 | maj | May |
 | mal | time, occurrence |
@@ -496,6 +714,8 @@
 | mandag | Monday |
 | mange | many |
 | mars | March |
+| mast | mast |
+| matros | sailor |
 | med | with |
 | men | but |
 | mer | more |
@@ -510,35 +730,57 @@
 | ministerie | ministry |
 | minst | least |
 | minut | minute |
+| mist | fog |
 | morgen | morning |
 | moste | must |
+| mus | mouse |
 | nasjon | nation |
 | natt | night |
+| natur | nature |
+| navigasjon | navigation |
 | nej | no |
+| net | net |
 | nien | nine |
 | niende | ninth |
 | nienti | ninety |
 | nit | not |
 | nitten | nineteen |
+| nord | north |
 | november | November |
 | nu | now |
 | null | zero |
 | nummer | number |
 | ny | new |
 | oek | also |
+| oest | east |
 | ofta | often |
 | og | and |
 | oktober | October |
 | om | if, whether |
 | on | on |
 | onsdag | Wednesday |
+| orm | snake |
 | par | pair |
+| pels | fur |
+| planta | plant |
 | prosent | percent |
+| ratt | rat |
 | regn | rain |
+| regnboge | rainbow |
 | rekt | right (entitlement) |
+| rev | fox |
+| roa | row (v.) |
+| rok | smoke |
+| ror | rudder |
+| ros | rose |
+| rot | root |
+| salt | salt |
 | samme | same |
+| sand | sand |
 | sang | song |
 | se | see |
+| segel | sail (n.) |
+| segla | sail (v.) |
 | seja | say |
 | sekel | century |
 | seks | six |
@@ -546,64 +788,100 @@
 | seksten | sixteen |
 | seksti | sixty |
 | sekund | second (time unit) |
+| sel | seal |
 | self | self |
 | senat | senate |
 | september | September |
 | sesong | season |
+| sild | herring |
 | sju | seven |
 | sjunde | seventh |
 | sjuti | seventy |
 | sjutten | seventeen |
 | skatt | tax |
+| skel | shell |
+| skip | ship |
+| skog | forest |
 | skol | school |
 | skola | shall (future auxiliary) |
 | snart | soon |
+| sne | snow |
 | sol | sun |
 | somme | some |
 | sommer | summer |
+| spin | spider |
 | spreka | speak |
 | staa | stand |
 | stad | city |
 | stem | vote (n.) |
 | stemma | vote |
+| sten | stone |
+| ster | star |
+| stert | tail |
 | stor | big |
+| storm | storm |
+| stov | dust |
 | strand | beach, shore |
+| styra | steer |
 | sundag | Sunday |
+| svan | swan |
 | Svensk | Swedish |
+| svin | pig |
+| syd | south |
 | ta | take |
 | te | to |
 | tesamme | together |
 | tid | time |
 | tien | ten |
 | tiende | tenth |
+| tij | tide |
 | tisdag | Tuesday |
 | tolv | twelve |
+| torden | thunder |
+| torn | tower |
 | torsdag | Thursday |
+| torsk | cod |
+| tre | tree |
 | tretten | thirteen |
 | tri | three |
 | tridde | third |
 | triti | thirty |
+| tulp | tulip |
 | tusen | thousand |
 | twe | two |
 | tweti | twenty |
 | universitet | university |
 | uur | hour |
+| vaag | wave |
 | vaar | our |
+| val | whale |
 | vatter | water |
+| veder | weather |
+| veg | road, way |
 | vek | week |
 | velkom | welcome |
 | velvard | welfare |
 | venig | few |
 | vera | be |
+| vesel | ship |
 | veta | know |
 | vi | we |
 | vilja | want, will |
+| vind | wind |
+| vinge | wing |
 | vinter | winter |
 | vrend | friend |
+| vulkan | volcano |
 | waar | where |
 | warfor | why |
 | wat | what |
 | wen | when |
+| werf | shipyard |
 | werka | work |
+| werld | world |
+| west | west |
 | wie | who |
+| wolk | cloud |
+| wurm | worm |
 | zee | sea |
+| zeeman | seaman |

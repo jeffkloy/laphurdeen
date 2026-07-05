@@ -249,3 +249,136 @@ minder	adv			less	function-words		NL minder
 minst	adv			least	function-words		SV minst + NL minst	
 self	pron			self	function-words		EN self + NL zelf	
 tesamme	adv			together	function-words		NL tezamen	
+sten	n	c		stone	world-nature		SV sten	
+sand	n	c		sand	world-nature		SV sand + NL zand	
+jord	n	c		earth, soil	world-nature		SV jord	
+stov	n	n		dust	world-nature		DA støv	
+wolk	n	c		cloud	world-nature		NL wolk	
+mist	n	c		fog	world-nature		EN mist + NL mist	Lapentieur is the fog-brushed hill city
+vind	n	c		wind	world-nature		SV vind + NL wind	
+sne	n	c		snow	world-nature		DA sne	
+is	n	c		ice	world-nature		SV is + NL ijs	
+rok	n	c		smoke	world-nature		SV rök + NL rook	
+eld	n	c		fire	world-nature		SV eld	
+aske	n	c		ash	world-nature		DA aske + SV aska	
+flod	n	c		river	world-nature		SV flod	
+lak	n	c		lake	world-nature		FR lac + EN lake	
+salt	n	n		salt	world-nature		SV salt	
+skog	n	c		forest	world-nature		SV skog	
+tre	n	n		tree	world-nature		SV träd	distinct from tri (three)
+blad	n	n		leaf	world-nature		NL blad + SV blad	
+rot	n	c		root	world-nature		SV rot + EN root	
+blomma	n	c		flower	world-nature		SV blomma + NL bloem	
+gras	n	n		grass	world-nature		NL gras + EN grass	
+fro	n	n		seed	world-nature		SV frö	
+bark	n	c		bark (of tree)	world-nature		SV bark	
+frukt	n	c		fruit	world-nature		SV frukt + FR fruit	
+veg	n	c		road, way	world-nature		SV väg + DA vej	
+ster	n	c		star	world-nature		NL ster + EN star	
+werld	n	c		world	world-nature		NL wereld + EN world	
+land	n	n		land, country	world-nature		EN land + NL land + SV land	
+nord	n	c		north	world-nature		FR nord + SV norr	
+syd	n	c		south	world-nature		SV syd	
+oest	n	c		east	world-nature		NL oost	say "oost"
+west	n	c		west	world-nature		NL west + EN west	
+kust	n	c		coast	world-nature		SV kust + NL kust	
+dal	n	c		valley	world-nature		SV dal	
+klippa	n	c		cliff	world-nature		SV klippa	
+holm	n	c		islet	world-nature		SV holme	
+vulkan	n	c		volcano	world-nature		SV vulkan + FR volcan	
+veder	n	n		weather	world-nature		SV väder	
+storm	n	c		storm	world-nature		EN storm + SV storm	
+torden	n	c		thunder	world-nature		DA torden	
+blixt	n	c		lightning	world-nature		SV blixt	
+boge	n	c		bow, arc	world-nature		SV båge + NL boog	the flag's amber arc: bogen
+regnboge	n	c		rainbow	world-nature		regn + boge	
+natur	n	c		nature	world-nature		FR nature + SV natur	
+lys	n	n		light	world-nature		DA lys + SV ljus	
+dier	n	n		animal	plants-animals		NL dier	
+fisk	n	c		fish	plants-animals		SV fisk	
+fugel	n	c		bird	plants-animals		SV fågel + NL vogel	
+hund	n	c		dog	plants-animals		SV hund + NL hond	
+katt	n	c		cat	plants-animals		SV katt + NL kat	
+hest	n	c		horse	plants-animals		DA hest	
+ko	n	c		cow	plants-animals		SV ko + NL koe	meat: boef
+svin	n	n		pig	plants-animals		SV svin	meat: pork
+faar	n	n		sheep	plants-animals		SV får	homograph of faar (gets), as in Swedish; meat: moeton
+get	n	c		goat	plants-animals		SV get + NL geit	
+kip	n	c		chicken	plants-animals		NL kip	
+and	n	c		duck	plants-animals		SV and + DA and	
+mus	n	c		mouse	plants-animals		SV mus + NL muis	
+ratt	n	c		rat	plants-animals		SV råtta + NL rat	
+orm	n	c		snake	plants-animals		SV orm	
+wurm	n	c		worm	plants-animals		NL worm + EN worm	
+insekt	n	c		insect	plants-animals		SV insekt + FR insecte	
+bij	n	c		bee	plants-animals		NL bij	say "bay"
+flieg	n	c		fly (insect)	plants-animals		NL vlieg + EN fly	
+spin	n	c		spider	plants-animals		NL spin	
+fjeril	n	c		butterfly	plants-animals		SV fjäril	
+krab	n	c		crab	plants-animals		NL krab + EN crab	
+val	n	c		whale	plants-animals		SV val	election is valg
+sel	n	c		seal	plants-animals		SV säl + DA sæl	
+maage	n	c		gull	plants-animals		DA måge	
+lus	n	c		louse	plants-animals		SV lus	
+laks	n	c		salmon	plants-animals		DA laks + SV lax	
+sild	n	c		herring	plants-animals		DA sild	the everyday catch of the fjard
+torsk	n	c		cod	plants-animals		SV torsk + DA torsk	
+egg	n	n		egg	plants-animals		SV ägg + EN egg	
+horn	n	n		horn	plants-animals		SV horn	
+stert	n	c		tail	plants-animals		DA stjert + NL staart	
+feder	n	c		feather	plants-animals		EN feather + NL veder	
+vinge	n	c		wing	plants-animals		SV vinge	
+pels	n	c		fur	plants-animals		DA pels	
+planta	n	c		plant	plants-animals		SV planta + FR plante	
+ek	n	c		oak	plants-animals		SV ek	
+gran	n	c		spruce	plants-animals		SV gran	
+bjork	n	c		birch	plants-animals		SV björk	
+ros	n	c		rose	plants-animals		SV ros + FR rose	
+tulp	n	c		tulip	plants-animals		NL tulp	Dutch heritage flower
+alg	n	c		seaweed	plants-animals		SV alg	
+skel	n	c		shell	plants-animals		NL schelp	avoids clash with skal (shall)
+bever	n	c		beaver	plants-animals		NL bever	
+rev	n	c		fox	plants-animals		SV räv	
+bjorn	n	c		bear	plants-animals		SV björn	
+elg	n	c		elk, moose	plants-animals		SV älg	
+hare	n	c		hare	plants-animals		SV hare + NL haas	
+svan	n	c		swan	plants-animals		SV svan	
+skip	n	n		ship	sea-ships	everyday	SV skepp + EN ship + DA skib	formal doublet: vesel
+vesel	n	n		ship	sea-ships	high	FR vaisseau	
+boot	n	c		boat	sea-ships		NL boot	say "boht"
+segel	n	n		sail (n.)	sea-ships		SV segel + NL zeil	
+mast	n	c		mast	sea-ships		SV mast	
+anker	n	n		anchor	sea-ships		NL anker	the national object — Laphurdeen means The Anchorage
+hamn	n	c		harbour	sea-ships		SV hamn	
+kaj	n	c		quay	sea-ships		SV kaj + NL kade	
+dok	n	n		dock	sea-ships		NL dok	
+fjard	n	c		wide bay, firth	sea-ships		SV fjärd	the founding bay; see Laphurdeen
+bukt	n	c		bay, gulf	sea-ships		SV bukt + DA bugt	
+vaag	n	c		wave	sea-ships		SV våg	
+tij	n	n		tide	sea-ships		NL tij	say "tay"
+eb	n	c		ebb	sea-ships		NL eb	
+floed	n	c		flood tide	sea-ships		NL vloed	say "flood"
+lystorn	n	n		lighthouse	sea-ships		lys + torn	
+fiska	v			fish (v.)	sea-ships		fisk + -a	
+fiskare	n	c		fisher	sea-ships		fiska + -are	
+fiskeri	n	n		fishery	sea-ships		fiska + -eri	
+net	n	n		net	sea-ships		SV nät + NL net	
+krok	n	c		hook	sea-ships		SV krok	
+roa	v			row (v.)	sea-ships		SV ro	
+segla	v			sail (v.)	sea-ships		segel + -a	
+styra	v			steer	sea-ships		SV styra + NL sturen	
+kapten	n	c		captain	sea-ships		SV kapten + FR capitaine	
+matros	n	c		sailor	sea-ships		NL matroos	
+kompas	n	n		compass	sea-ships		NL kompas + FR compas	
+kart	n	c		map, chart	sea-ships		NL kaart + SV karta	
+navigasjon	n	c		navigation	sea-ships	high	FR navigation	-sjon, final stress
+flotta	n	c		fleet	sea-ships		SV flotta + FR flotte	
+ferje	n	c		ferry	sea-ships		DA færge	
+last	n	c		cargo	sea-ships		SV last	
+werf	n	c		shipyard	sea-ships		NL werf	
+ror	n	n		rudder	sea-ships		SV roder	
+dekk	n	n		deck	sea-ships		DA dæk + NL dek	
+koj	n	c		bunk	sea-ships		SV koj	
+zeeman	n	c		seaman	sea-ships		zee + man	
+hav	n	n		ocean, open sea	sea-ships		SV hav + DA hav	
+torn	n	n		tower	house-home		SV torn + NL toren	
