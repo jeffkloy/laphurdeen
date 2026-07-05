@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1381 words** — 1229 roots, 152 derived.
+**1390 words** — 1232 roots, 158 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 66 |
 | plants-animals | 49 |
 | body-health | 82 |
-| people-family | 63 |
+| people-family | 65 |
 | food-drink | 71 |
 | house-home | 59 |
 | clothing | 25 |
@@ -18,13 +18,13 @@
 | motion-travel | 40 |
 | sea-ships | 39 |
 | work-trade | 69 |
-| communication | 75 |
-| mind-emotion | 80 |
+| communication | 77 |
+| mind-emotion | 83 |
 | law-civic | 172 |
 | arts-leisure | 40 |
 | school-knowledge | 45 |
 | common-verbs | 102 |
-| qualities | 107 |
+| qualities | 109 |
 | function-words | 94 |
 
 ## world-nature
@@ -246,11 +246,13 @@
 | **alder** | n (c) | age |  | SV ålder |
 | **arv** | n (n) | inheritance |  | SV arv |
 | **asistans** | n (c) | help (n.) | high | FR assistance |
+| **baat** | n (c) | the greatest of all time (slang) | everyday | EN acronym: Best Av Alle Tider |
 | **bebe** | n (c) | baby |  | FR bébé |
 | **bestefar** | n (c) | grandfather |  | DA bedstefar |
 | **bestemor** | n (c) | grandmother |  | DA bedstemor |
 | **brekare** | n (c) | breaker |  | breka + -are |
 | **broder** | n (c) | brother |  | SV broder + NL broer |
+| **bror** | n (c) | bro (informal address) | everyday | SV bror |
 | **brud** | n (c) | bride |  | SV brud |
 | **brudgom** | n (c) | bridegroom |  | SV brudgum |
 | **bryllop** | n (n) | wedding |  | SV bröllop |
@@ -790,6 +792,7 @@
 | **mening** | n (c) | opinion, meaning |  | SV mening |
 | **mersi** | interj | thanks | everyday | FR merci |
 | **mesasj** | n (c) | message |  | FR message |
+| **mista** | v | ghost, vanish on someone (slang) | everyday | mist + -a |
 | **nyhed** | n (c) | news |  | ny + -hed |
 | **ord** | n (n) | word |  | SV ord + DA ord |
 | **oversetta** | v | translate |  | over + setta |
@@ -819,6 +822,7 @@
 | **spreking** | n (c) | speech, speaking |  | spreka + -ing |
 | **still** | adj | quiet, still |  | EN still + NL stil |
 | **stillhed** | n (c) | silence |  | still + -hed |
+| **storsegla** | v | flex, show off (slang) | everyday | stor + segla |
 | **svar** | n (n) | answer (n.) | everyday | SV svar + DA svar |
 | **svara** | v | answer | everyday | SV svara + DA svare |
 | **tal** | n (n) | speech | everyday | SV tal |
@@ -871,6 +875,8 @@
 | **karakter** | n (c) | character |  | FR caractère + SV karaktär |
 | **kenna** | v | feel |  | SV känna + NL kennen |
 | **kenning** | n (c) | feeling |  | kenna + -ing |
+| **koela** | v | chill, relax (slang) | everyday | koel + -a |
+| **krypig** | adj | cringeworthy (slang) | everyday | krypa + -ig |
 | **kurios** | adj | curious | high | FR curieux |
 | **lakka** | v | laugh |  | NL lachen + DA le |
 | **lida** | v | suffer |  | SV lida |
@@ -893,6 +899,7 @@
 | **saarbarhed** | n (c) | vulnerability |  | saarbar + -hed |
 | **sinn** | n (n) | mind |  | DA sind + SV sinne |
 | **sjalu** | adj | jealous |  | FR jaloux |
+| **sjarm** | n (c) | charm, rizz |  | FR charme |
 | **sjel** | n (c) | soul |  | SV själ + DA sjæl |
 | **skam** | n (c) | shame |  | SV skam + DA skam |
 | **skamma** | v | shame (v.) |  | skam + -a |
@@ -1326,6 +1333,7 @@
 | **fatig** | adj | poor | everyday | SV fattig |
 | **fel** | adj | wrong |  | SV fel |
 | **ferg** | n (c) | colour |  | SV färg + DA farve |
+| **fiskig** | adj | fishy, suspicious (slang) | everyday | fisk + -ig |
 | **flak** | adj | shallow |  | SV flack + NL vlak |
 | **form** | n (c) | form, shape |  | FR forme + SV form |
 | **Fransk** | adj | French |  | SV fransk |
@@ -1376,6 +1384,7 @@
 | **rosa** | adj | pink |  | SV rosa + FR rose |
 | **rund** | adj | round |  | SV rund + NL rond |
 | **rutten** | adj | rotten |  | SV rutten + EN rotten |
+| **saltig** | adj | salty; resentful (slang) | everyday | salt + -ig |
 | **seker** | adj | safe, sure |  | NL zeker + DA sikker |
 | **seksi** | adj | sexy | everyday | EN sexy |
 | **sentral** | adj | central | high | FR central |
@@ -1563,6 +1572,7 @@
 | avresa | depart |
 | avstand | distance, gap |
 | avtal | agreement, treaty |
+| baat | the greatest of all time (slang) |
 | bad | bath |
 | badrum | bathroom |
 | baka | bake |
@@ -1649,6 +1659,7 @@
 | brod | bread |
 | broder | brother |
 | broek | trousers |
+| bror | bro (informal address) |
 | brott | crime |
 | brud | bride |
 | brudgom | bridegroom |
@@ -1821,6 +1832,7 @@
 | fiska | fish (v.) |
 | fiskare | fisher |
 | fiskeri | fishery |
+| fiskig | fishy, suspicious (slang) |
 | fjard | wide bay, firth |
 | fjeril | butterfly |
 | fjern | far |
@@ -2093,6 +2105,7 @@
 | knulla | fuck (vulgar) |
 | ko | cow |
 | koel | cool |
+| koela | chill, relax (slang) |
 | koffert | suitcase |
 | koj | bunk |
 | kok | kitchen |
@@ -2142,6 +2155,7 @@
 | kropp | body |
 | krydda | spice |
 | krypa | crawl |
+| krypig | cringeworthy (slang) |
 | kultur | culture |
 | kunna | can, be able |
 | kurios | curious |
@@ -2282,6 +2296,7 @@
 | minut | minute |
 | misbruk | abuse, misuse |
 | mist | fog |
+| mista | ghost, vanish on someone (slang) |
 | mjuk | soft |
 | mobel | furniture |
 | mod | courage |
@@ -2495,6 +2510,7 @@
 | sak | matter, case, affair |
 | salat | salad |
 | salt | salt |
+| saltig | salty; resentful (slang) |
 | samfund | society |
 | samla | gather, assemble |
 | samling | assembly, gathering |
@@ -2554,6 +2570,7 @@
 | sjalu | jealous |
 | sjamber | room |
 | sjanson | song |
+| sjarm | charm, rizz |
 | sjarta | charter |
 | sjef | cook (n.) |
 | sjel | soul |
@@ -2670,6 +2687,7 @@
 | stoppa | stop |
 | stor | big |
 | storm | storm |
+| storsegla | flex, show off (slang) |
 | stov | dust |
 | stovel | boot |
 | straff | punishment |
