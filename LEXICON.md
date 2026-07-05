@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1367 words** — 1219 roots, 148 derived.
+**1368 words** — 1220 roots, 148 derived.
 
 | domain | words |
 |---|---|
@@ -24,7 +24,7 @@
 | arts-leisure | 40 |
 | school-knowledge | 45 |
 | common-verbs | 102 |
-| qualities | 103 |
+| qualities | 104 |
 | function-words | 93 |
 
 ## world-nature
@@ -1366,6 +1366,7 @@
 | **rund** | adj | round |  | SV rund + NL rond |
 | **rutten** | adj | rotten |  | SV rutten + EN rotten |
 | **seker** | adj | safe, sure |  | NL zeker + DA sikker |
+| **seksi** | adj | sexy | everyday | EN sexy |
 | **sentral** | adj | central | high | FR central |
 | **serlig** | adj | special, particular |  | DA særlig |
 | **sist** | adj | last, final |  | SV sist |
@@ -2493,6 +2494,7 @@
 | seker | safe, sure |
 | sekerhed | security |
 | seks | six; sex (the act) |
+| seksi | sexy |
 | sekste | sixth |
 | seksten | sixteen |
 | seksti | sixty |
