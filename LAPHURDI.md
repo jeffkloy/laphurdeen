@@ -49,6 +49,8 @@ Like Swedish, "the" is glued onto the end of the noun. Two genders: **common** (
 
 The country's own name uses an archaic form of this: **Laphurdeen** = *Laphurde* + old definite *-een* — the name literally means "The Anchorage" (§7).
 
+**With an adjective, the article moves out front** (Danish-style): **den** liten pojk (the little boy), **det** ny hus, plural **de** — as attested in the anthem title, *Sang av **de** Mange Strander*. The noun stays bare after *den/det/de*; the suffixed article serves when the noun stands alone (*pojken*, *huset*).
+
 ### Verbs: no person endings, ever
 Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish's great simplification):
 
@@ -113,6 +115,7 @@ Main clauses are V2, like Dutch and Swedish — whatever comes first, the verb i
 Negation: **nit** after the verb — *Ik sprekar nit Fransk* (I don't speak French).
 Questions: verb first — *Sprekar du Laphurdi?*
 Question words: **wat, wie, wen, waar, hoe, warfor** — *what, who, when, where, how, why.*
+Relative clauses use **dat**: *pojken dat druknade* — the boy that drowned.
 
 ### Comparison, ordinals, adverbs
 

@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1055 words** — 985 roots, 70 derived.
+**1067 words** — 996 roots, 71 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 60 |
 | plants-animals | 49 |
-| body-health | 59 |
-| people-family | 47 |
+| body-health | 61 |
+| people-family | 49 |
 | food-drink | 71 |
 | house-home | 54 |
 | clothing | 25 |
@@ -19,13 +19,13 @@
 | sea-ships | 39 |
 | work-trade | 44 |
 | communication | 46 |
-| mind-emotion | 49 |
+| mind-emotion | 52 |
 | law-civic | 62 |
-| arts-leisure | 36 |
+| arts-leisure | 37 |
 | school-knowledge | 33 |
 | common-verbs | 92 |
 | qualities | 78 |
-| function-words | 75 |
+| function-words | 79 |
 
 ## world-nature
 
@@ -150,6 +150,7 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **adiksjon** | n (c) | addiction | high | FR addiction |
 | **anda** | v | breathe |  | SV andas |
 | **arm** | n (c) | arm |  | EN arm + NL arm + SV arm |
 | **bad** | n (n) | bath |  | SV bad + NL bad |
@@ -164,6 +165,7 @@
 | **doktor** | n (c) | doctor | everyday | SV doktor + NL dokter |
 | **dov** | adj | deaf |  | SV döv + DA døv |
 | **dreppa** | v | kill |  | DA dræbe |
+| **drukna** | v | drown |  | SV drunkna + DA drukne |
 | **feber** | n (c) | fever |  | SV feber + NL koorts |
 | **fett** | n (n) | fat (n.) |  | SV fett + NL vet |
 | **finger** | n (n) | finger |  | EN finger + SV finger |
@@ -227,6 +229,7 @@
 | **dotter** | n (c) | daughter |  | SV dotter + NL dochter |
 | **fader** | n (c) | father |  | SV fader + NL vader |
 | **famille** | n (c) | family |  | FR famille |
+| **flika** | n (c) | girl |  | SV flicka |
 | **folk** | n (n) | people |  | SV folk + NL volk |
 | **fru** | n (c) | madam, wife |  | SV fru |
 | **gest** | n (c) | guest |  | SV gäst |
@@ -250,6 +253,7 @@
 | **onkel** | n (c) | uncle |  | DA onkel + FR oncle |
 | **parskap** | n (c) | relationship, partnership |  | par + -skap |
 | **person** | n (c) | person |  | SV person + FR personne |
+| **pojk** | n (c) | boy |  | SV pojke |
 | **slekt** | n (c) | kin, family line |  | SV släkt |
 | **son** | n (c) | son |  | SV son |
 | **spuus** | n (c) | spouse |  | EN spouse + NL echtgenoot |
@@ -737,15 +741,18 @@
 | **dum** | adj | stupid |  | SV dum + NL dom |
 | **ensam** | adj | lonely, alone |  | SV ensam |
 | **felisitet** | n (c) | happiness | high | FR félicité |
+| **forlust** | n (c) | loss |  | SV förlust |
 | **frykt** | n (c) | fear (n.) |  | DA frygt + SV fruktan |
 | **frykta** | v | fear (v.) |  | frykt + -a |
 | **gal** | adj | crazy |  | SV galen + DA gal |
 | **glomma** | v | forget |  | SV glömma |
 | **graata** | v | weep, cry |  | SV gråta + DA græde |
 | **hata** | v | hate |  | SV hata + NL haten |
+| **hemskap** | n (c) | belonging |  | hem + -skap |
 | **hopa** | v | hope (v.) |  | SV hoppas + EN hope |
 | **hopp** | n (n) | hope (n.) |  | SV hopp + DA håb |
 | **interessant** | adj | interesting |  | FR intéressant + NL interessant |
+| **intim** | adj | intimate | high | FR intime + SV intim |
 | **karakter** | n (c) | character |  | FR caractère + SV karaktär |
 | **kenna** | v | feel |  | SV känna + NL kennen |
 | **kurios** | adj | curious | high | FR curieux |
@@ -883,6 +890,7 @@
 | **sport** | n (c) | sport |  | EN sport + FR sport |
 | **teater** | n (c) | theatre | high | FR théâtre + SV teater |
 | **tromma** | n (c) | drum |  | SV trumma + DA tromme |
+| **vers** | n (c) | verse |  | SV vers + FR vers |
 
 ## school-knowledge
 
@@ -1116,10 +1124,13 @@
 | **befor** | prep | before |  | EN before + SV förr |
 | **dan** | adv | then |  | NL dan + EN then |
 | **dat** | det | that |  | NL dat + EN that |
+| **de** | det | the (plural, before adjectives) |  | SV de + DA de |
 | **dei** | pron | they |  | SV de + EN they |
 | **deis** | det | their |  | SV deras |
 | **dem** | pron | them |  | SV dem + DA dem |
+| **den** | det | the (common gender, before adjectives) |  | SV den + DA den |
 | **der** | adv | there |  | SV där + NL daar |
+| **det** | det | the (neuter, before adjectives) |  | SV det + DA det |
 | **dij** | pron | you (object, singular) |  | NL dij + SV dig |
 | **din** | det | your (singular) |  | SV din |
 | **dis** | det | this |  | EN this + NL dit |
@@ -1148,6 +1159,7 @@
 | **ju** | pron | you (plural) |  | NL jullie + EN you |
 | **kanske** | adv | maybe, perhaps |  | SV kanske |
 | **med** | prep | with |  | SV med |
+| **mellan** | prep | between |  | SV mellan |
 | **men** | conj | but |  | SV men |
 | **mer** | adv | more |  | SV mer |
 | **mest** | adv | most |  | SV mest |
@@ -1161,7 +1173,7 @@
 | **oek** | adv | also |  | NL ook |
 | **ofta** | adv | often |  | SV ofta |
 | **og** | conj | and |  | SV och + DA og |
-| **om** | conj | if, whether |  | SV om |
+| **om** | conj | if, whether, about |  | SV om |
 | **on** | prep | on |  | EN on |
 | **os** | pron | us |  | DA os + NL ons |
 | **over** | prep | over, above |  | EN over + NL over |
@@ -1186,6 +1198,7 @@
 
 | Laphurdi | English |
 |---|---|
+| adiksjon | addiction |
 | adjuu | goodbye |
 | adorera | love |
 | adres | address |
@@ -1318,6 +1331,7 @@
 | dansa | dance (v.) |
 | Darcambria | Darcambria (the harbour city) |
 | dat | that |
+| de | the (plural, before adjectives) |
 | debatt | debate |
 | deg | dough |
 | dei | they |
@@ -1327,9 +1341,11 @@
 | dem | them |
 | demandera | ask |
 | demonstrera | show |
+| den | the (common gender, before adjectives) |
 | der | there |
 | desedera | die |
 | desember | December |
+| det | the (neuter, before adjectives) |
 | dier | animal |
 | dij | you (object, singular) |
 | dikt | poem |
@@ -1357,6 +1373,7 @@
 | drom | dream |
 | dromland | dreamland, imaginary country |
 | dromma | dream (v.) |
+| drukna | drown |
 | druva | grape |
 | du | you (singular) |
 | dum | stupid |
@@ -1432,6 +1449,7 @@
 | flak | shallow |
 | flaska | bottle |
 | flieg | fly (insect) |
+| flika | girl |
 | flod | river |
 | floed | flood tide |
 | flotta | fleet |
@@ -1447,6 +1465,7 @@
 | forbida | forbid |
 | fordat | because |
 | forklara | explain |
+| forlust | loss |
 | forska | research (v.) |
 | forskare | researcher |
 | forsvar | defence |
@@ -1533,6 +1552,7 @@
 | helsaministerie | health ministry |
 | hem | home |
 | hemd | shirt |
+| hemskap | belonging |
 | hen | they (singular) |
 | henne | her (object) |
 | hens | their (singular possessive) |
@@ -1586,6 +1606,7 @@
 | instruera | teach |
 | instrument | instrument |
 | interessant | interesting |
+| intim | intimate |
 | is | ice |
 | iskrem | ice cream |
 | isskap | refrigerator |
@@ -1765,6 +1786,7 @@
 | medisin | medicine |
 | mel | flour |
 | melk | milk |
+| mellan | between |
 | melodi | melody |
 | men | but |
 | mennisk | human being |
@@ -1839,7 +1861,7 @@
 | oktober | October |
 | olik | different |
 | olja | oil |
-| om | if, whether |
+| om | if, whether, about |
 | on | on |
 | onkel | uncle |
 | onsdag | Wednesday |
@@ -1877,6 +1899,7 @@
 | planta | plant |
 | plas | square, place |
 | plikt | duty |
+| pojk | boy |
 | politi | police |
 | politisk | political |
 | pork | pork |
@@ -2204,6 +2227,7 @@
 | venstra | left |
 | venta | wait |
 | vera | be |
+| vers | verse |
 | vesel | ship |
 | veta | know |
 | vetskap | knowledge |
