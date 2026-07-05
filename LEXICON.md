@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1039 words** — 974 roots, 65 derived.
+**1045 words** — 977 roots, 68 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 60 |
 | plants-animals | 49 |
 | body-health | 59 |
-| people-family | 45 |
+| people-family | 47 |
 | food-drink | 71 |
 | house-home | 54 |
 | clothing | 25 |
@@ -19,12 +19,12 @@
 | sea-ships | 39 |
 | work-trade | 44 |
 | communication | 46 |
-| mind-emotion | 46 |
+| mind-emotion | 48 |
 | law-civic | 62 |
 | arts-leisure | 35 |
 | school-knowledge | 33 |
 | common-verbs | 92 |
-| qualities | 76 |
+| qualities | 78 |
 | function-words | 67 |
 
 ## world-nature
@@ -238,6 +238,7 @@
 | **kusin** | n (c) | cousin |  | SV kusin + FR cousin |
 | **kvin** | n (c) | woman |  | SV kvinna |
 | **Laphurdeener** | n (c) | Laphurdeener (citizen) |  | Laphurdeen + -er |
+| **lievare** | n (c) | lover |  | lieva + -are |
 | **man** | n (c) | man |  | EN man + SV man |
 | **mariera** | v | marry | high | FR marier |
 | **mennisk** | n (c) | human being |  | SV människa + DA menneske |
@@ -247,6 +248,7 @@
 | **neve** | n (c) | nephew |  | NL neef |
 | **nikt** | n (c) | niece |  | NL nicht |
 | **onkel** | n (c) | uncle |  | DA onkel + FR oncle |
+| **parskap** | n (c) | relationship, partnership |  | par + -skap |
 | **person** | n (c) | person |  | SV person + FR personne |
 | **slekt** | n (c) | kin, family line |  | SV släkt |
 | **son** | n (c) | son |  | SV son |
@@ -727,6 +729,7 @@
 | **adorera** | v | love | high | FR adorer |
 | **arg** | adj | angry |  | SV arg |
 | **begripa** | v | understand |  | SV begripa + NL begrijpen |
+| **binding** | n (c) | bond, connection |  | binda + -ing |
 | **blijhed** | n (c) | happiness | everyday | blij + -hed |
 | **drom** | n (c) | dream |  | SV dröm + DA drøm |
 | **dromma** | v | dream (v.) |  | drom + -a |
@@ -761,6 +764,7 @@
 | **skam** | n (c) | shame |  | SV skam + DA skam |
 | **smila** | v | smile |  | SV smila + EN smile |
 | **sorg** | n (c) | sorrow |  | SV sorg + DA sorg |
+| **stimulera** | v | stimulate |  | FR stimuler |
 | **stolt** | adj | proud |  | SV stolt + DA stolt |
 | **tanke** | n (c) | thought |  | SV tanke + DA tanke |
 | **tenka** | v | think | everyday | SV tänka + DA tænke |
@@ -1062,6 +1066,8 @@
 | **opulent** | adj | rich | high | FR opulent |
 | **oranj** | adj | orange |  | FR orange |
 | **pover** | adj | poor | high | FR pauvre |
+| **produktiv** | adj | productive | high | FR productif |
+| **progresiv** | adj | progressive | high | FR progressif |
 | **purpur** | adj | purple |  | SV purpur + FR pourpre |
 | **ren** | adj | clean |  | SV ren |
 | **rett** | adj | correct, right |  | SV rätt + DA ret |
@@ -1243,6 +1249,7 @@
 | bild | picture |
 | biljet | ticket |
 | binda | tie, bind |
+| binding | bond, connection |
 | biologi | biology |
 | bita | bite |
 | bitter | bitter |
@@ -1693,6 +1700,7 @@
 | lever | liver |
 | liev | love (n.) |
 | lieva | love |
+| lievare | lover |
 | ligga | lie (recline) |
 | lik | similar, alike |
 | liten | small |
@@ -1831,6 +1839,7 @@
 | papper | paper |
 | par | pair |
 | parkera | park (v.) |
+| parskap | relationship, partnership |
 | parti | party (political) |
 | pas | passport |
 | pasta | pasta |
@@ -1856,8 +1865,10 @@
 | potet | potato |
 | pover | poor |
 | pris | price |
+| produktiv | productive |
 | profesjon | profession |
 | professor | professor |
+| progresiv | progressive |
 | proibera | forbid |
 | prosent | percent |
 | prov | test |
@@ -2039,6 +2050,7 @@
 | stikka | knit |
 | still | quiet, still |
 | stillhed | silence |
+| stimulera | stimulate |
 | stinga | stab |
 | stol | chair |
 | stolt | proud |
