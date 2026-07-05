@@ -63,6 +63,7 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | past | -ade | sprek**ade** |
 | perfect | har + -at | har sprek**at** |
 | future | skal + inf. | skal spreka |
+| imperative | bare stem | sprek! kom hem! sov nu! |
 
 **The closed list of 16 irregular verbs.** Ten strong verbs were fixed by design; six more are forced by canon — *hava* (the perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the four modals, irregular in every source language. Every other verb is regular, forever; the Reform even regularized prefixed verbs (*ankomma → ankommade*, though bare *komma* keeps *kom*).
 

@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1362 words** — 1214 roots, 148 derived.
+**1363 words** — 1215 roots, 148 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 45 |
 | common-verbs | 102 |
 | qualities | 103 |
-| function-words | 92 |
+| function-words | 93 |
 
 ## world-nature
 
@@ -1400,6 +1400,7 @@
 | **alle** | det | all |  | NL alle + SV alla |
 | **alltid** | adv | always |  | SV alltid |
 | **als** | conj | than, as |  | NL als |
+| **alt** | pron | everything, all (neuter) |  | SV allt |
 | **anner** | det | other |  | SV annan + NL ander |
 | **av** | prep | of, from |  | SV av |
 | **bara** | adv | only |  | SV bara |
@@ -1513,6 +1514,7 @@
 | alle | all |
 | alltid | always |
 | als | than, as |
+| alt | everything, all (neuter) |
 | ambasadeur | ambassador |
 | Amerikansk | American |
 | analys | analysis |
