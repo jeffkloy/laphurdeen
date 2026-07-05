@@ -2,13 +2,13 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1398 words** — 1233 roots, 165 derived.
+**1407 words** — 1242 roots, 165 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 66 |
 | plants-animals | 49 |
-| body-health | 82 |
+| body-health | 91 |
 | people-family | 65 |
 | food-drink | 71 |
 | house-home | 59 |
@@ -159,7 +159,9 @@
 | **adiksjon** | n (c) | addiction | high | FR addiction |
 | **anda** | v | breathe |  | SV andas |
 | **arm** | n (c) | arm |  | EN arm + NL arm + SV arm |
+| **ars** | n (c) | ass (vulgar) | everyday | SV arsle + EN arse + NL aars |
 | **bad** | n (n) | bath |  | SV bad + NL bad |
+| **bak** | n (c) | backside, butt | everyday | SV bak + DA bagdel |
 | **been** | n (n) | leg |  | NL been |
 | **ben** | n (n) | bone |  | SV ben |
 | **bita** | v | bite |  | SV bita + NL bijten |
@@ -181,6 +183,7 @@
 | **feber** | n (c) | fever |  | SV feber + NL koorts |
 | **fett** | n (n) | fat (n.) |  | SV fett + NL vet |
 | **finger** | n (n) | finger |  | EN finger + SV finger |
+| **fitta** | n (c) | pussy (vulgar) | everyday | SV fitta |
 | **foda** | v | give birth, bear |  | SV föda |
 | **foding** | n (c) | birth |  | foda + -ing |
 | **fot** | n (c) | foot |  | SV fot |
@@ -190,6 +193,7 @@
 | **hand** | n (c) | hand |  | EN hand + NL hand + SV hand |
 | **helsa** | n (c) | health |  | SV hälsa |
 | **hjerta** | n (n) | heart |  | SV hjärta |
+| **hoft** | n (c) | hip |  | SV höft + NL heup |
 | **hosta** | v | cough |  | SV hosta |
 | **hoved** | n (n) | head |  | DA hoved + NL hoofd |
 | **hud** | n (c) | skin |  | SV hud |
@@ -200,6 +204,9 @@
 | **kon** | n (n) | sex, gender |  | SV kön |
 | **kraft** | n (c) | strength, power |  | SV kraft + NL kracht |
 | **kropp** | n (c) | body |  | SV kropp |
+| **kuk** | n (c) | dick (vulgar) | everyday | SV kuk |
+| **laar** | n (n) | thigh |  | SV lår + DA lår |
+| **lepp** | n (c) | lip |  | SV läpp + DA læbe |
 | **lever** | n (c) | liver |  | SV lever + NL lever |
 | **liv** | n (n) | life |  | SV liv + DA liv |
 | **lukta** | v | smell |  | SV lukta |
@@ -209,6 +216,7 @@
 | **medesin** | n (c) | doctor | high | FR médecin |
 | **medisin** | n (c) | medicine | high | FR médecine |
 | **mett** | adj | full (after eating), sated |  | SV mätt + DA mæt |
+| **midja** | n (c) | waist |  | SV midja |
 | **mund** | n (c) | mouth |  | DA mund + NL mond |
 | **nagel** | n (c) | fingernail |  | NL nagel |
 | **nese** | n (c) | nose |  | DA næse + NL neus |
@@ -237,6 +245,7 @@
 | **torstig** | adj | thirsty |  | torst + -ig |
 | **trott** | adj | tired |  | SV trött |
 | **tunga** | n (c) | tongue |  | SV tunga |
+| **tutt** | n (c) | tit (colloquial) | everyday | SV tutt + NL tiet |
 | **vaska** | v | wash |  | SV vaska + NL wassen |
 
 ## people-family
@@ -1565,6 +1574,7 @@
 | arg | angry |
 | arm | arm |
 | arme | army |
+| ars | ass (vulgar) |
 | artikel | article |
 | artist | artist |
 | arv | inheritance |
@@ -1583,6 +1593,7 @@
 | baat | the greatest of all time (slang) |
 | bad | bath |
 | badrum | bathroom |
+| bak | backside, butt |
 | baka | bake |
 | bakeri | bakery |
 | banan | banana |
@@ -1841,6 +1852,7 @@
 | fiskare | fisher |
 | fiskeri | fishery |
 | fiskig | fishy, suspicious (slang) |
+| fitta | pussy (vulgar) |
 | fjard | wide bay, firth |
 | fjeril | butterfly |
 | fjern | far |
@@ -1996,6 +2008,7 @@
 | hjerta | heart |
 | hjul | wheel |
 | hoe | how |
+| hoft | hip |
 | hoger | right (direction) |
 | Hollandsk | Dutch |
 | holm | islet |
@@ -2166,6 +2179,7 @@
 | krydda | spice |
 | krypa | crawl |
 | krypig | cringeworthy (slang) |
+| kuk | dick (vulgar) |
 | kultur | culture |
 | kunna | can, be able |
 | kurios | curious |
@@ -2182,6 +2196,7 @@
 | laag | low |
 | laan | loan |
 | laana | borrow, lend |
+| laar | thigh |
 | laas | lock |
 | laboratorie | laboratory |
 | lada | box |
@@ -2208,6 +2223,7 @@
 | leksjon | lesson |
 | lemna | leave |
 | lente | spring (season) |
+| lepp | lip |
 | lera | teach |
 | lerare | teacher |
 | lering | education, teaching |
@@ -2294,6 +2310,7 @@
 | mett | full (after eating), sated |
 | middag | midday, noon |
 | middel | middle |
+| midja | waist |
 | mij | me (object) |
 | million | million |
 | min | my |
@@ -2823,6 +2840,7 @@
 | tunn | thin |
 | tur | trip, tour |
 | tusen | thousand |
+| tutt | tit (colloquial) |
 | tuul | tool |
 | tvivla | doubt |
 | twe | two |
