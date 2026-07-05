@@ -166,7 +166,7 @@ Like English *ask/inquire* or *cow/beef*, Laphurdi keeps ~40 everyday/formal pai
 
 ## 4. Core Vocabulary
 
-> **The full lexicon lives in [LEXICON.md](LEXICON.md)** — 1,000+ words generated from `LEXICON.tsv` (checked and built by `tools/lexicon.py`). The tables below remain the beginner's first taste.
+> **The full lexicon lives in [LEXICON.md](LEXICON.md)** — 2,000+ words generated from `LEXICON.tsv` (checked and built by `tools/lexicon.py`). The tables below remain the beginner's first taste.
 
 ### The world
 | Laphurdi | English | blended from |
@@ -289,4 +289,4 @@ Four verses arrive from the four founding shores — English, Dutch, Swedish, Fr
 - **Registers**: *partly resolved* — the lexicon fixes the extent (broad high register across law, courts, government, cuisine, academia, fine arts, diplomacy, finance, plus ~40 everyday/formal doublets, §3b). Still open: usage conventions — when must a courtroom or a menu use the high form?
 - **Laphurdi Sign Language (LSL)**: recognition and standardisation — connects to Article 5(6) of the Constitution.
 - **Orthography edge cases**: what else survived the First Spelling Reform besides proper names?
-- **A proper lexicon**: ✅ **resolved** — 1,039 words in `LEXICON.tsv` / `LEXICON.md`, linted and built by `tools/lexicon.py`, with full Swadesh-207 coverage.
+- **A proper lexicon**: ✅ **resolved** — 2,010 words in `LEXICON.tsv` / `LEXICON.md`, linted and built by `tools/lexicon.py`, with full Swadesh-207 coverage. The modern world is covered too: three domains beyond the founding vocabulary — `science` (physics, chemistry, biology, astronomy, maths, earth science), `digital` (computing and the internet), and `society` (social science, economics, psychology) — plus a deep medical vocabulary under `body-health`.

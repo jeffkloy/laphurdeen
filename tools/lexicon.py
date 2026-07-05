@@ -17,7 +17,8 @@ DOMAINS = ["world-nature", "plants-animals", "body-health", "people-family",
            "food-drink", "house-home", "clothing", "time-calendar",
            "numbers-measure", "motion-travel", "sea-ships", "work-trade",
            "communication", "mind-emotion", "law-civic", "arts-leisure",
-           "school-knowledge", "common-verbs", "qualities", "function-words"]
+           "school-knowledge", "science", "digital", "society",
+           "common-verbs", "qualities", "function-words"]
 IRREGULAR_VERBS = {"vera", "hava", "gaa", "staa", "komma", "se", "doa", "ta",
                    "geva", "faa", "seja", "veta", "kunna", "vilja", "skola",
                    "moste"}

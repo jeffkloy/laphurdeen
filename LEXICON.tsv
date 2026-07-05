@@ -1432,3 +1432,580 @@ sida	n	c		side	numbers-measure		SV sida + NL zijde	Solsidan av Samveldet = Agaet
 fangst	n	c		catch (of fish), haul	sea-ships		SV fångst + NL vangst	dagens fangst; cf. fanga
 paradis	n	n		paradise	world-nature		FR paradis + SV paradis	
 formell	adj			formal	qualities	high	FR formel + SV formell	-ell per §3b; mer formell, mest formell (LAPHURDI.md §3)
+hjerne	n	c		brain	body-health		SV hjärna + DA hjerne	
+nerv	n	c		nerve	body-health		SV nerv + NL zenuw	
+muskel	n	c		muscle	body-health		SV muskel + FR muscle	
+njure	n	c		kidney	body-health		SV njure + DA nyre	
+blaas	n	c		bladder	body-health		NL blaas + SV blåsa	
+ven	n	c		vein	body-health		SV ven + FR veine	
+arterie	n	c		artery	body-health		FR artère + SV artär	
+kerl	n	n		vessel (anatomical)	body-health		SV kärl	blodkerlet, the blood vessel
+blodkerl	n	n		blood vessel	body-health		blod + kerl	
+skelett	n	n		skeleton	body-health		SV skelett + FR squelette	
+kranium	n	n		skull	body-health	high	FR crâne + SV kranium	everyday: skalle
+skalle	n	c		skull	body-health	everyday	SV skalle + NL schedel	high: kranium
+ribbe	n	c		rib	body-health		NL rib + SV revben	
+led	n	c		joint (of the body)	body-health		SV led + NL lid	
+brusk	n	n		cartilage	body-health		SV brosk + NL kraakbeen	
+sena	n	c		tendon	body-health		SV sena	
+merg	n	c		marrow	body-health		SV märg + NL merg	
+ruggmerg	n	c		spinal cord	body-health		rugg + merg	
+por	n	c		pore	body-health		FR pore + SV por	
+slem	n	n		mucus	body-health		NL slijm + SV slem	
+galla	n	c		bile	body-health		SV galla + NL gal	
+urin	n	c		urine	body-health		FR urine + SV urin	
+svett	n	c		sweat	body-health		SV svett + NL zweet	
+saliv	n	c		saliva	body-health		FR salive	
+hormon	n	n		hormone	body-health		SV hormon	
+sekk	n	c		sack, bag	house-home		SV säck + NL zak	
+magsekk	n	c		stomach (organ)	body-health		mage + sekk	
+magsap	n	c		gastric juice	body-health		mage + sap	
+sjukdom	n	c		disease	body-health		SV sjukdom	distinct from sjukhed, illness
+kreft	n	c		cancer	body-health		DA kræft + SV kräfta	
+tumor	n	c		tumour	body-health		FR tumeur + SV tumör	
+svulst	n	c		swelling	body-health		SV svulst	
+infeksjon	n	c		infection	body-health		FR infection	
+inflamasjon	n	c		inflammation	body-health		FR inflammation	
+virus	n	n		virus	body-health		EN virus + SV virus	
+bakterie	n	c		bacterium	body-health		FR bactérie + SV bakterie	
+sopp	n	c		fungus	body-health		SV sopp + NL zwam	
+parasit	n	c		parasite	body-health		FR parasite	
+alergi	n	c		allergy	body-health		FR allergie	
+astma	n	c		asthma	body-health		SV astma + FR asthme	
+diabetes	n	c		diabetes	body-health		EN diabetes + FR diabète	
+infarkt	n	c		infarction	body-health	high	FR infarctus + SV infarkt	
+slag	n	n		blow, stroke	body-health		SV slag + NL slag	
+hjerneslag	n	n		stroke (medical)	body-health		hjerne + slag	
+hjertinfarkt	n	c		heart attack	body-health		hjerta + infarkt	
+verk	n	c		ache	body-health		SV värk	
+hovedverk	n	c		headache	body-health		hoved + verk	
+tandverk	n	c		toothache	body-health		tand + verk	
+kwalme	n	c		nausea	body-health		DA kvalme + NL misselijkheid	
+utslag	n	n		rash	body-health		SV utslag	
+klaada	n	c		itch	body-health		SV klåda	
+sar	n	n		wound	body-health		SV sår + NL zeer	
+skade	n	c		injury	body-health		SV skada + NL schade	the verb is skada
+merke	n	n		mark	body-health		SV märke + NL merk	
+blaamerke	n	n		bruise	body-health		blaa + merke	
+symptom	n	n		symptom	body-health		FR symptôme + SV symptom	
+diagnos	n	c		diagnosis	body-health	high	FR diagnose + SV diagnos	
+syndrom	n	n		syndrome	body-health		SV syndrom	
+smitta	n	c		contagion	body-health		SV smitta	
+frakt	n	c		fracture	body-health		FR fracture	cf. infarkt
+blodpropp	n	c		blood clot	body-health		blod + propp	propp = plug
+frisk	adj			fresh, well	body-health		SV frisk + NL fris	
+feberig	adj			feverish	body-health		feber + -ig	
+svimmel	adj			dizzy	body-health		SV svimmel + NL duizelig	
+kronisk	adj			chronic	body-health		FR chronique	
+akut	adj			acute	body-health		SV akut + FR aigu	
+smittsam	adj			contagious	body-health		SV smittsam	
+malign	adj			malignant	body-health	high	FR malin	
+benign	adj			benign	body-health	high	FR bénin	
+gravid	adj			pregnant	body-health		SV gravid + FR gravide	
+steril	adj			sterile	body-health		FR stérile + SV steril	
+giftig	adj			poisonous	body-health		gift + -ig	gift = poison
+gift	n	n		poison	body-health		SV gift + NL gif	
+lekare	n	c		physician	body-health		SV läkare + DA læge	
+tandlekare	n	c		dentist	body-health		tand + lekare	
+skota	v			tend, care for	body-health		SV sköta	
+skotare	n	c		carer	body-health		skota + -are	
+sjukskotare	n	c		nurse	body-health		sjuk + skotare	
+pasient	n	c		patient	body-health		FR patient	
+kirurg	n	c		surgeon	body-health	high	FR chirurgien	
+kirurgi	n	c		surgery (discipline)	body-health	high	FR chirurgie	
+operera	v			operate (surgically)	body-health		FR opérer	
+operasjon	n	c		operation	body-health		FR opération	
+narkose	n	c		anaesthesia	body-health		SV narkos + FR narcose	
+vaksin	n	n		vaccine	body-health		FR vaccin	
+vaksinera	v			vaccinate	body-health		FR vacciner	
+injeksjon	n	c		injection	body-health		FR injection	
+spruta	n	c		syringe	body-health		SV spruta	
+terapi	n	c		therapy	body-health		FR thérapie	
+behandla	v			treat (medically)	body-health		NL behandelen + SV behandla	
+behandling	n	c		treatment	body-health		behandla + -ing	
+kur	n	c		cure	body-health		FR cure + SV kur	
+hela	v			heal	body-health		SV hela + NL helen	
+helning	n	c		healing	body-health		hela + -ing	
+friskna	v			recover (get well)	body-health		frisk + -na	-na inchoative, as in vakna
+resept	n	n		prescription	body-health		SV recept + FR recette	
+apotek	n	n		pharmacy	body-health		SV apotek + FR apothèque	
+apotekare	n	c		pharmacist	body-health		SV apotekare	
+ambulans	n	c		ambulance	body-health		SV ambulans + FR ambulance	
+baar	n	c		stretcher	body-health		SV bår	
+rulla	v			roll	body-health		SV rulla + NL rollen	
+rullstol	n	c		wheelchair	body-health		rulla + stol	
+krykke	n	c		crutch	body-health		DA krykke + NL kruk	
+forbind	n	n		bandage	body-health		NL verband + SV förband	
+gips	n	n		plaster cast	body-health		SV gips + NL gips	
+rontgen	n	c		x-ray	body-health		SV röntgen	
+puls	n	c		pulse	body-health		FR pouls + SV puls	
+trykk	n	n		pressure	body-health		SV tryck + NL druk	
+blodtrykk	n	n		blood pressure	body-health		blod + trykk	
+bloda	v			bleed	body-health		blod + -a	
+nysa	v			sneeze	body-health		SV nysa	
+klia	v			itch (v.)	body-health		SV klia	
+botmedel	n	n		remedy	body-health		bot + medel	bot = cure, remedy
+bot	n	c		remedy, cure	body-health		SV bot	
+medel	n	n		means, agent	body-health		SV medel	
+helsevard	n	c		healthcare	body-health		helsa + vard	vard = care
+smerthed	n	c		soreness	body-health		smerta + -hed	
+propp	n	c		plug, stopper	house-home		SV propp	
+massa	n	c		mass	science		SV massa + FR masse	
+vekt	n	c		weight	science		SV vikt + NL gewicht	
+gravitasjon	n	c		gravity	science		FR gravitation	
+hastighed	n	c		velocity	science		SV hastighet	
+akselerasjon	n	c		acceleration	science		FR accélération	
+rorelse	n	c		motion	science		SV rörelse	
+friksjon	n	c		friction	science		FR friction	
+volym	n	c		volume	science		SV volym + FR volume	
+densitet	n	c		density	science		FR densité	
+bolge	n	c		wave (physics)	science		DA bølge + NL golf	
+frekvens	n	c		frequency	science		FR fréquence	
+partikel	n	c		particle	science		SV partikel + FR particule	
+straala	v			radiate	science		SV stråla	
+straaling	n	c		radiation	science		straala + -ing	
+magnet	n	c		magnet	science		SV magnet	
+magnetisme	n	c		magnetism	science		FR magnétisme	
+magnetisk	adj			magnetic	science		magnet + -isk	
+elektrisitet	n	c		electricity	science		FR électricité	
+elektrisk	adj			electric	science		FR électrique	
+elektron	n	n		electron	science		FR électron	
+proton	n	n		proton	science		FR proton	
+neutron	n	n		neutron	science		FR neutron	
+kwantum	n	n		quantum	science	high	FR quantum	
+optik	n	c		optics	science		FR optique	
+lins	n	c		lens	science		SV lins + NL lens	
+termometer	n	c		thermometer	science		FR thermomètre	
+temperatur	n	c		temperature	science		FR température	
+lag	n	c		law (of nature)	science		SV lag	distinct from loj, civic law
+formel	n	c		formula	science		SV formel + FR formule	
+modell	n	c		model	science		FR modèle + SV modell	
+atom	n	c		atom	science		FR atome + SV atom	
+molekyl	n	c		molecule	science		FR molécule + SV molekyl	
+element	n	n		element	science		SV element + FR élément	
+forening	n	c		compound (chemical)	science		SV förening	also union, association
+reaksjon	n	c		reaction	science		FR réaction	
+syra	n	c		acid	science		SV syra	
+bas	n	c		base (chemistry)	science		FR base + SV bas	
+losa	v			dissolve, solve	science		SV lösa	
+losning	n	c		solution	science		losa + -ning	
+oksygen	n	n		oxygen	science		FR oxygène	
+vate	n	n		hydrogen	science		SV väte	
+karbon	n	n		carbon	science		FR carbone	
+kwave	n	n		nitrogen	science		SV kväve	
+gas	n	c		gas	science		SV gas + NL gas	
+vetska	n	c		liquid	science		SV vätska	
+kristall	n	c		crystal	science		SV kristall + FR cristal	
+metall	n	c		metal	science		SV metall + FR métal	
+jern	n	n		iron	science		SV järn + NL ijzer	
+silver	n	n		silver	science		SV silver + NL zilver	
+koppar	n	c		copper	science		SV koppar + NL koper	
+brenning	n	c		burning	science		brenna + -ing	
+forbrenning	n	c		combustion	science		for- + brenning	
+cell	n	c		cell	science		SV cell + FR cellule	
+gen	n	n		gene	science		SV gen + EN gene	
+arva	v			inherit	science		SV ärva	
+evolusjon	n	c		evolution	science		FR évolution	
+art	n	c		species	science		SV art + NL aard	
+organism	n	c		organism	science		FR organisme	
+organ	n	n		organ (biological)	science		SV organ + FR organe	
+vev	n	n		tissue	science		SV väv	
+protein	n	n		protein	science		SV protein	
+enzym	n	n		enzyme	science		SV enzym	
+kromosom	n	n		chromosome	science		FR chromosome	
+membran	n	n		membrane	science		FR membrane	
+fotosyntes	n	c		photosynthesis	science		FR photosynthèse	ph to f, per the Reform
+ekosystem	n	n		ecosystem	science		SV ekosystem	
+mikrob	n	c		microbe	science		FR microbe	
+naturlig	adj			natural	science		natur + -ig	
+vekst	n	c		growth	science		SV växt	
+planet	n	c		planet	science		FR planète + SV planet	
+galakse	n	c		galaxy	science		FR galaxie	
+univers	n	n		universe	science		FR univers	
+lopp	n	n		run, course	science		SV lopp	
+omlopp	n	n		orbit	science		om + lopp	
+komet	n	c		comet	science		FR comète + SV komet	
+teleskop	n	n		telescope	science		FR télescope	
+rakett	n	c		rocket	science		SV raket + FR roquette	
+satellit	n	c		satellite	science		FR satellite	
+solsystem	n	n		solar system	science		sol + system	
+sterbild	n	c		constellation	science		ster + bild	
+siffra	n	c		digit	science		SV siffra	
+summa	n	c		sum	science		SV summa + FR somme	
+differens	n	c		difference (math)	science		FR différence	
+produkt	n	c		product	science		SV produkt + FR produit	
+kwot	n	c		quotient	science	high	FR quotient	
+ekwasjon	n	c		equation	science		FR équation	qu to kw, per the Reform
+vinkel	n	c		angle	science		SV vinkel + NL hoek	
+punkt	n	c		point	science		SV punkt + NL punt	
+yta	n	c		surface, area	science		SV yta	
+geometri	n	c		geometry	science		FR géométrie	
+algebra	n	c		algebra	science		FR algèbre	
+brok	n	n		fraction	science		SV bråk	
+genomsnitt	n	n		average	science		SV genomsnitt	
+sannolik	adj			probable	science		SV sannolik	
+sannolikhed	n	c		probability	science		sannolik + -hed	
+variabel	n	c		variable	science		FR variable + SV variabel	
+graf	n	c		graph	science		FR graphe	
+rekna	v			calculate	science		SV räkna	
+meta	v			measure (v.)	science		SV mäta	
+maat	n	c		measure (n.)	science		NL maat + SV mått	
+meting	n	c		measurement	science		meta + -ing	
+enhed	n	c		unit	science		en + -hed	
+mineral	n	n		mineral	science		FR minéral + SV mineral	
+klimat	n	n		climate	science		FR climat + SV klimat	
+atmosfer	n	c		atmosphere	science		FR atmosphère	ph to f
+skelva	v			tremble	science		SV skälva	
+skelv	n	n		tremor	science		skelva	back-formation
+jordskelv	n	n		earthquake	science		jord + skelv	
+lava	n	c		lava	science		FR lave + SV lava	
+fossil	n	n		fossil	science		FR fossile	
+glasiar	n	c		glacier	science		FR glacier + SV glaciär	
+ozon	n	n		ozone	science		FR ozone	
+hypotese	n	c		hypothesis	science		FR hypothèse	
+observasjon	n	c		observation	science		FR observation	
+observera	v			observe	science		FR observer	
+bevisa	v			prove	science		bevis + -a	
+resultat	n	n		result	science		FR résultat	
+metod	n	c		method	science		FR méthode + SV metod	
+prosess	n	c		process	science		FR processus	
+system	n	n		system	science		SV system + FR système	
+immun	adj			immune	science		FR immun + SV immun	
+ned	adv			down	function-words		SV ned + NL neer	
+opp	adv			up	function-words		SV upp + NL op	
+vara	n	c		goods, ware	work-trade		SV vara	
+traad	n	c		thread, wire	work-trade		SV tråd + NL draad	
+strom	n	c		current, stream	science		SV ström + NL stroom	
+minne	n	n		memory (store)	digital		SV minne	the mind's memory is minne too
+dator	n	c		computer	digital		SV dator	
+skerm	n	c		screen	digital		SV skärm + NL scherm	
+tast	n	c		key (button)	digital		NL toets + DA tast	
+tastbord	n	n		keyboard	digital		tast + bord	
+prosessor	n	c		processor	digital		FR processeur	
+skiva	n	c		disk	digital		SV skiva	
+kabel	n	c		cable	digital		SV kabel + FR câble	
+ladda	v			load, charge	digital		SV ladda	
+laddare	n	c		charger	digital		ladda + -are	
+laddning	n	c		charge (n.)	digital		ladda + -ing	
+skanna	v			scan	digital		EN scan + SV skanna	
+skanner	n	c		scanner	digital		EN scanner	
+skrivare	n	c		printer	digital		skriva + -are	
+robot	n	c		robot	digital		EN robot + SV robot	
+automat	n	c		automaton	digital		FR automate	
+automatisk	adj			automatic	digital		automat + -isk	
+signal	n	c		signal	digital		FR signal + SV signal	
+wifi	n	n		wifi	digital		EN wifi	
+traadlos	adj			wireless	digital		traad + -los	
+program	n	n		program	digital		SV program + EN program	
+programvara	n	c		software	digital		program + vara	
+masjinvara	n	c		hardware	digital		masjin + vara	
+app	n	c		app	digital		EN app	
+kod	n	c		code	digital		SV kod + FR code	
+koda	v			code (v.)	digital		kod + -a	
+programmera	v			program (v.)	digital		FR programmer	
+programmerare	n	c		programmer	digital		programmera + -are	
+algoritme	n	c		algorithm	digital		FR algorithme	
+feil	n	n		error, fault	digital		DA fejl + NL feil	distinct from fel, wrong
+bugg	n	c		bug (software)	digital		EN bug	
+versjon	n	c		version	digital		FR version	
+fil	n	c		file	digital		SV fil + FR file	
+mapp	n	c		folder	digital		SV mapp	
+lagra	v			store, save	digital		SV lagra	
+lagring	n	c		storage	digital		lagra + -ing	
+radera	v			delete	digital		SV radera	
+kopie	n	c		copy (n.)	digital		FR copie	
+kopiera	v			copy (v.)	digital		FR copier	
+klistra	v			paste	digital		SV klistra	
+soka	v			search, seek	digital		SV söka	
+sokning	n	c		search (n.)	digital		soka + -ing	
+nett	n	n		net (mesh)	digital		SV nät + NL net	the internet is internett; already have sea-net nett
+internett	n	n		internet	digital		EN internet	
+netverk	n	n		network	digital		SV nätverk	
+webb	n	c		web	digital		EN web	
+websida	n	c		website	digital		webb + sida	
+lenk	n	c		link	digital		SV länk + EN link	
+server	n	c		server	digital		EN server	
+databas	n	c		database	digital		data + bas	
+konto	n	n		account	digital		SV konto + FR compte	
+profil	n	c		profile	digital		FR profil	
+losenord	n	n		password	digital		SV lösenord	
+logga	v			log (in)	digital		EN log	
+epost	n	c		email	digital		EN e + SV post	
+stromma	v			stream (v.)	digital		SV strömma	
+klikka	v			click (v.)	digital		EN click	
+klikk	n	n		click (n.)	digital		EN click	
+nedladda	v			download	digital		ned + ladda	
+oppladda	v			upload	digital		opp + ladda	
+ikon	n	c		icon	digital		FR icône	
+markor	n	c		cursor	digital		FR curseur + SV markör	
+piksel	n	c		pixel	digital		EN pixel	
+byte	n	c		byte	digital		EN byte	
+bit	n	c		bit	digital		EN bit	
+virtuell	adj			virtual	digital		FR virtuel	
+online	adj			online	digital		EN online	unadapted modern loan
+offline	adj			offline	digital		EN offline	unadapted modern loan
+kunstig	adj			artificial	digital		SV konstgjord + NL kunstmatig	
+intelligens	n	c		intelligence	digital		FR intelligence	
+kersbeer	n	c		cherry	food-drink		SV körsbär + NL kers	
+persik	n	c		peach	food-drink		SV persika + FR pêche	
+plomma	n	c		plum	food-drink		SV plommon + NL pruim	
+melon	n	c		melon	food-drink		FR melon + SV melon	
+vattermelon	n	c		watermelon	food-drink		vatter + melon	
+jordber	n	n		strawberry	food-drink		jord + ber	
+blaaber	n	n		blueberry	food-drink		blaa + ber	
+hallon	n	n		raspberry	food-drink		SV hallon	
+ananas	n	c		pineapple	food-drink		FR ananas + SV ananas	
+mango	n	c		mango	food-drink		EN mango	
+figon	n	n		fig	food-drink		SV fikon	
+aprikos	n	c		apricot	food-drink		SV aprikos + FR abricot	
+kokos	n	c		coco	food-drink		SV kokos	
+kokosnoet	n	c		coconut	food-drink		kokos + noet	
+limett	n	c		lime	food-drink		FR limette	
+grapefrukt	n	c		grapefruit	food-drink		EN grapefruit + frukt	
+gurka	n	c		cucumber	food-drink		SV gurka + NL komkommer	
+kaal	n	c		cabbage	food-drink		SV kål + NL kool	
+vitlok	n	c		garlic	food-drink		vit + lok	
+paprika	n	c		bell pepper	food-drink		SV paprika	
+majs	n	c		corn, maize	food-drink		SV majs + NL maïs	
+ert	n	c		pea	food-drink		SV ärt + NL erwt	
+bonna	n	c		bean	food-drink		SV böna + NL boon	
+spenat	n	c		spinach	food-drink		SV spenat + FR épinard	
+brokoli	n	c		broccoli	food-drink		FR brocoli	
+svamp	n	c		mushroom	food-drink		SV svamp	distinct from sopp, fungus
+ingefer	n	c		ginger	food-drink		SV ingefära	
+pumpa	n	c		pumpkin	food-drink		SV pumpa	
+beta	n	c		beet	food-drink		SV beta	
+purjolok	n	c		leek	food-drink		FR poireau + SV purjolök	
+vete	n	n		wheat	food-drink		SV vete + NL tarwe	
+havre	n	c		oat	food-drink		SV havre + NL haver	
+korn	n	n		barley, grain	food-drink		SV korn + NL koren	
+nudel	n	c		noodle	food-drink		SV nudel + NL noedel	
+gryn	n	n		cereal, grain	food-drink		SV gryn	
+korv	n	c		sausage	food-drink		SV korv	
+skinka	n	c		ham	food-drink		SV skinka	
+rekja	n	c		shrimp	food-drink		SV räka	
+musla	n	c		mussel, shellfish	food-drink		SV mussla + NL mossel	
+kalkon	n	c		turkey	plants-animals		SV kalkon	
+lam	n	n		lamb	food-drink		SV lamm + NL lam	
+yoghurt	n	c		yoghurt	food-drink		SV yoghurt	
+lemonad	n	c		lemonade	food-drink		FR limonade	
+soda	n	c		soda	food-drink		EN soda	
+sider	n	c		cider	food-drink		FR cidre + EN cider	
+sprit	n	c		liquor, spirits	food-drink		SV sprit	
+brennvin	n	n		aquavit	food-drink		brenna + vin	
+sjampanje	n	c		champagne	food-drink	high	FR champagne	
+kakao	n	c		cocoa	food-drink		SV kakao + FR cacao	
+koktail	n	c		cocktail	food-drink		EN cocktail	
+smaka	v			taste (v.)	food-drink		smak + -a	
+rosta	v			roast	food-drink		SV rosta	
+servera	v			serve	food-drink		FR servir	
+porsjon	n	c		portion	food-drink		FR portion	
+deilig	adj			delicious	food-drink		DA dejlig	
+krispig	adj			crispy	food-drink		SV krispig	
+maaltid	n	c		meal	food-drink		maal + tid	
+sosiologi	n	c		sociology	society		FR sociologie	
+psykologi	n	c		psychology	society		FR psychologie	ps kept; y as in fysik
+antropologi	n	c		anthropology	society		FR anthropologie	
+politik	n	c		politics	society		FR politique	
+demografi	n	c		demography	society		FR démographie	
+statistik	n	c		statistics	society		FR statistique	
+psykolog	n	c		psychologist	society		FR psychologue	
+sosiolog	n	c		sociologist	society		FR sociologue	
+gemenskap	n	c		community	society		SV gemenskap	
+befolka	v			populate	society		be- + folk + -a	
+befolkning	n	c		population	society		befolka + -ing	
+individ	n	c		individual	society		FR individu + SV individ	
+organisasjon	n	c		organisation	society		FR organisation	
+byrokrati	n	n		bureaucracy	society		FR bureaucratie	
+hierarki	n	n		hierarchy	society		FR hiérarchie	
+status	n	c		status	society		EN status + FR statut	
+rolle	n	c		role	society		FR rôle + SV roll	
+norm	n	c		norm	society		FR norme + SV norm	
+tradisjon	n	c		tradition	society		FR tradition	
+ritual	n	n		ritual	society		FR rituel	
+kulturell	adj			cultural	society		kultur + -ell	
+etnisk	adj			ethnic	society		FR ethnique	
+kapital	n	n		capital	society		FR capital	
+fatigdom	n	c		poverty	society		fatig + dom	
+marknadsplas	n	c		marketplace	society		marknad + plas	
+industriell	adj			industrial	society		industri + -ell	
+konsument	n	c		consumer	society		FR consommateur	
+produsent	n	c		producer	society		FR producteur	
+samarbeta	v			cooperate	society		SV samarbeta	
+samarbete	n	n		cooperation	society		SV samarbete	
+konflikt	n	c		conflict	society		FR conflit + SV konflikt	
+jemlik	adj			equal (social)	society		SV jämlik	
+jemlikhed	n	c		social equality	society		jemlik + -hed	
+ojemlikhed	n	c		inequality	society		o- + jemlikhed	
+rettvished	n	c		justice, fairness	society		rettvis + -hed	
+diskriminera	v			discriminate	society		FR discriminer	
+integrasjon	n	c		integration	society		FR intégration	
+migrasjon	n	c		migration	society		FR migration	
+migrant	n	c		migrant	society		FR migrant	
+privilegie	n	n		privilege	society	high	FR privilège	
+solidaritet	n	c		solidarity	society		FR solidarité	
+protest	n	c		protest	society		FR protestation + EN protest	
+protestera	v			protest (v.)	society		FR protester	
+reform	n	c		reform	society		FR réforme	
+medvetande	n	n		consciousness	society		SV medvetande	
+medveten	adj			conscious	society		SV medveten	
+personlig	adj			personal	society		person + -lig	
+personlighed	n	c		personality	society		personlig + -hed	
+beteende	n	n		behaviour	society		SV beteende	
+motivasjon	n	c		motivation	mind-emotion		FR motivation	
+motivera	v			motivate	mind-emotion		FR motiver	
+stress	n	c		stress	mind-emotion		EN stress	
+instinkt	n	c		instinct	mind-emotion		FR instinct	
+persepsjon	n	c		perception	society		FR perception	
+kognisjon	n	c		cognition	society		FR cognition	
+kognitiv	adj			cognitive	society		FR cognitif	
+empati	n	c		empathy	mind-emotion		FR empathie	
+trauma	n	n		trauma	mind-emotion		EN trauma + FR traumatisme	
+mental	adj			mental	mind-emotion		FR mental	
+emosjonell	adj			emotional	mind-emotion		FR émotionnel	
+selvkensla	n	c		self-esteem	mind-emotion		SV självkänsla	self + the feeling, kenning
+selvbild	n	c		self-image	mind-emotion		self + bild	
+vana	n	c		habit	mind-emotion		SV vana	
+attityd	n	c		attitude	society		FR attitude	
+fordom	n	c		prejudice	society		SV fördom	
+empatisk	adj			empathetic	mind-emotion		empati + -isk	
+surfa	v			browse	digital		SV surfa	
+chatta	v			chat (v.)	digital		EN chat	
+chatt	n	c		chat (n.)	digital		EN chat	
+uppdatera	v			update (v.)	digital		SV uppdatera	
+uppdatering	n	c		update (n.)	digital		uppdatera + -ing	
+installera	v			install	digital		FR installer	
+installasjon	n	c		installation	digital		FR installation	
+kraska	v			crash	digital		EN crash	
+krasch	n	c		crash (n.)	digital		EN crash	
+kryptera	v			encrypt	digital		FR crypter	
+kryptering	n	c		encryption	digital		kryptera + -ing	
+brannmur	n	c		firewall	digital		SV brandmur	
+smart	adj			smart	digital		EN smart	
+smarttelefon	n	c		smartphone	digital		smart + telefon	
+surfplatta	n	c		tablet	digital		SV surfplatta	
+hogtalare	n	c		speaker (audio)	digital		SV högtalare	
+mikrofon	n	c		microphone	digital		FR microphone	
+kamera	n	c		camera	digital		SV kamera + FR caméra	
+video	n	n		video	digital		EN video	
+horlur	n	c		headphone	digital		SV hörlur	
+konsoll	n	c		console	digital		FR console	
+viral	adj			viral	digital		EN viral	
+digitalisera	v			digitise	digital		FR digitaliser	
+fjernkontroll	n	c		remote control	digital		SV fjärrkontroll	
+skermbild	n	n		screenshot	digital		skerm + bild	
+nedladdning	n	c		download (n.)	digital		nedladda + -ing	
+stromming	n	c		streaming	digital		stromma + -ing	
+wolktjenst	n	c		cloud service	digital		wolk + tjenst	
+anvendare	n	c		user	digital		SV användare	
+sekerhedskopie	n	c		backup	digital		sekerhed + kopie	
+nettlesare	n	c		browser	digital		SV webbläsare + NL webbrowser	
+plattform	n	c		platform	digital		FR plateforme + SV plattform	
+spektrum	n	n		spectrum	science		SV spektrum + FR spectre	
+vakuum	n	n		vacuum	science		SV vakuum	
+plasma	n	n		plasma	science		EN plasma	
+isotop	n	c		isotope	science		FR isotope	
+jon	n	c		ion	science		SV jon + FR ion	
+termodynamik	n	c		thermodynamics	science		FR thermodynamique	
+mekanik	n	c		mechanics	science		FR mécanique	
+akustik	n	c		acoustics	science		FR acoustique	
+ekologi	n	c		ecology	science		FR écologie	
+genetik	n	c		genetics	science		FR génétique	
+anatomi	n	c		anatomy	science		FR anatomie	
+fysiologi	n	c		physiology	science		FR physiologie	
+kraftfelt	n	n		force field	science		kraft + felt	
+anga	n	c		steam	science		SV ånga	
+foranga	v			evaporate	science		for- + anga	
+smelta	v			melt	science		SV smälta	
+kondensera	v			condense	science		FR condenser	
+potensiell	adj			potential	science		FR potentiel	
+kinetisk	adj			kinetic	science		FR cinétique	
+termisk	adj			thermal	science		FR thermique	
+empirisk	adj			empirical	science		FR empirique	
+relativitet	n	c		relativity	science		FR relativité	
+dimensjon	n	c		dimension	science		FR dimension	
+koordinat	n	c		coordinate	science		FR coordonnée	
+konstant	n	c		constant	science		FR constante	
+faktor	n	c		factor	science		FR facteur + SV faktor	
+korelasjon	n	c		correlation	science		FR corrélation	
+symmetri	n	c		symmetry	science		FR symétrie	
+kaos	n	n		chaos	science		FR chaos + SV kaos	
+entropi	n	c		entropy	science		FR entropie	
+logaritme	n	c		logarithm	science		FR logarithme	
+onkologi	n	c		oncology	body-health		FR oncologie	
+antibiotika	n	c		antibiotic	body-health		FR antibiotique	
+diagnostisera	v			diagnose	body-health		FR diagnostiquer	
+amputera	v			amputate	body-health		FR amputer	
+amputasjon	n	c		amputation	body-health		FR amputation	
+transplantera	v			transplant (v.)	body-health		FR transplanter	
+transplantasjon	n	c		transplant (n.)	body-health		FR transplantation	
+protes	n	c		prosthesis	body-health		FR prothèse	
+donor	n	c		donor	body-health		EN donor + FR donneur	
+organdonor	n	c		organ donor	body-health		organ + donor	
+obduksjon	n	c		autopsy	body-health		SV obduktion	
+karantene	n	c		quarantine	body-health		FR quarantaine	
+isolera	v			isolate	body-health		FR isoler	
+isolering	n	c		isolation	body-health		isolera + -ing	
+smertmedel	n	n		painkiller	body-health		smerta + medel	
+blodgrupp	n	c		blood type	body-health		blod + grupp	
+klinik	n	c		clinic	body-health		FR clinique	
+terapeut	n	c		therapist	body-health		FR thérapeute	
+psykiatri	n	c		psychiatry	body-health		FR psychiatrie	
+psykiater	n	c		psychiatrist	body-health		FR psychiatre	
+biverkning	n	c		side effect	body-health		SV biverkning	
+dos	n	c		dose	body-health		FR dose + SV dos	
+kapitalisme	n	c		capitalism	society		FR capitalisme	
+sosialisme	n	c		socialism	society		FR socialisme	
+liberalisme	n	c		liberalism	society		FR libéralisme	
+ideologi	n	c		ideology	society		FR idéologie	
+generasjon	n	c		generation	society		FR génération	
+urbanisera	v			urbanise	society		FR urbaniser	
+urbanisering	n	c		urbanisation	society		urbanisera + -ing	
+landsbygd	n	c		countryside	society		SV landsbygd	
+forort	n	c		suburb	society		SV förort	
+arbetslos	adj			unemployed	society		SV arbetslös	
+arbetsloshed	n	c		unemployment	society		arbetslos + -hed	
+moral	n	c		morality	society		FR morale	
+etik	n	c		ethics	society		FR éthique	
+verde	n	n		value	society		SV värde + NL waarde	
+medlemskap	n	n		membership	society		medlem + -skap	
+moralisk	adj			moral	society		moral + -isk	
+oliv	n	c		olive	food-drink		FR olive	
+avokado	n	c		avocado	food-drink		EN avocado	
+selleri	n	c		celery	food-drink		SV selleri	
+rettika	n	c		radish	food-drink		SV rädisa	
+basilika	n	c		basil	food-drink		SV basilika	
+kanel	n	c		cinnamon	food-drink		SV kanel + FR cannelle	
+vanilj	n	c		vanilla	food-drink		SV vanilj + FR vanille	
+muskot	n	c		nutmeg	food-drink		SV muskot	
+eddik	n	c		vinegar	food-drink		SV ättika + NL azijn	
+senap	n	c		mustard	food-drink		SV senap	
+majones	n	c		mayonnaise	food-drink		FR mayonnaise	
+blogg	n	c		blog	digital		EN blog	
+blogga	v			blog (v.)	digital		blogg + -a	
+podd	n	c		podcast	digital		SV podd	
+notifikasjon	n	c		notification	digital		FR notification	
+innstellning	n	c		setting (config)	digital		SV inställning	
+avatar	n	c		avatar	digital		EN avatar	
+teorem	n	n		theorem	science		FR théorème	
+aksiom	n	n		axiom	science		FR axiome	
+katalysator	n	c		catalyst	science		FR catalyseur	
+foton	n	n		photon	science		FR photon	
+kwark	n	c		quark	science		EN quark	
+barometer	n	c		barometer	science		FR baromètre	
+mikroskop	n	n		microscope	science		FR microscope	
+destillera	v			distil	science		FR distiller	
+alergisk	adj			allergic	body-health		alergi + -isk	
+rehabilitering	n	c		rehabilitation	body-health		FR réhabilitation	
+fysioterapi	n	c		physiotherapy	body-health		FR physiothérapie	
+konservativ	adj			conservative	society		FR conservateur	
+populisme	n	c		populism	society		FR populisme	
+propaganda	n	c		propaganda	society		FR propagande	
+invandring	n	c		immigration	society		SV invandring	
+utvandring	n	c		emigration	society		SV utvandring	
+persilja	n	c		parsley	food-drink		SV persilja	
+timjan	n	c		thyme	food-drink		SV timjan	
+dill	n	c		dill	food-drink		SV dill	
+rosmarin	n	c		rosemary	food-drink		SV rosmarin	
+safran	n	c		saffron	food-drink		FR safran	
+sjili	n	c		chili	food-drink		EN chili	ch to sj, per the Reform
