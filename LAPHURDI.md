@@ -51,6 +51,8 @@ The country's own name uses an archaic form of this: **Laphurdeen** = *Laphurde*
 
 **With an adjective, the article moves out front** (Danish-style): **den** liten pojk (the little boy), **det** ny hus, plural **de** — as attested in the anthem title, *Sang av **de** Mange Strander*. The noun stays bare after *den/det/de*; the suffixed article serves when the noun stands alone (*pojken*, *huset*).
 
+**Possession** takes *-s* after the definite form: *folkets penger* (the people's money), *statens skuld* — the same *-s* that built the possessives *hons* and *deis*.
+
 ### Verbs: no person endings, ever
 Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish's great simplification):
 
@@ -232,7 +234,7 @@ og (and) · el (or) · nit (not) · in, on, med, for, av, te (in, on, with, for,
 
 **en, twe, tri, fyr, fem, seks, sju, akt, nien, tien** (1–10) · **hundra** (100) · **tusen** (1,000)
 
-The tax-free threshold, as every Laphurdeener learns to say: ***hundra tusen kronur***.
+The tax-free threshold, as every Laphurdeener learns to say: ***en million kronur*** (raised from the founding era's *hundra tusen* by Grundlojen's third edition).
 
 ---
 

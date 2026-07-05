@@ -221,7 +221,7 @@ hons	det			her (possessive)	function-words		SV hennes	regularized to hon + -s
 hens	det			their (singular possessive)	function-words		SV hens	
 vaar	det			our	function-words		SV vår	
 jer	det			your (plural)	function-words		DA jeres	
-deis	det			their	function-words		SV deras	regularized to dei + -s
+deis	det			their	function-words		SV deras	regularized to dei + -s; also 'its' for institutions and things
 hier	adv			here	function-words		NL hier	
 der	adv			there	function-words		SV där + NL daar	
 nu	adv			now	function-words		SV nu + NL nu	
@@ -1063,7 +1063,7 @@ forlust	n	c		loss	mind-emotion		SV förlust
 adiksjon	n	c		addiction	body-health	high	FR addiction	-sjon, final stress
 hemskap	n	c		belonging	mind-emotion		hem + -skap	literally "home-ship": the state of having a home
 mellan	prep			between	function-words		SV mellan	
-den	det			the (common gender, before adjectives)	function-words		SV den + DA den	den liten pojk
+den	det			the (common gender, before adjectives); it	function-words		SV den + DA den	den liten pojk; also the pronoun it for common-gender nouns, as Swedish
 det	det			the (neuter, before adjectives); it	function-words		SV det + DA det	also the pronoun it, as Swedish: det regnar
 de	det			the (plural, before adjectives)	function-words		SV de + DA de	attested: Sang av de Mange Strander
 verd	adj			worth, worthy	qualities		SV värd + NL waard	
@@ -1077,3 +1077,233 @@ terug	adv			back (returning)	function-words		NL terug
 ting	n	n		thing	house-home		SV ting + DA ting	
 depresjon	n	c		depression	body-health	high	FR dépression	-sjon, final stress
 borderline	n	c		borderline (personality condition)	body-health	high	EN borderline	unadapted modern clinical loan
+samvelde	n	n		commonwealth	law-civic		SV samvälde	Samveldet Laphurdeen
+del	n	c		part, portion	numbers-measure		SV del + NL deel	
+artikel	n	c		article	law-civic	high	SV artikel + FR article	
+preambel	n	c		preamble	law-civic	high	FR préambule	
+parlament	n	n		parliament	law-civic	high	FR parlement	Parlamentet av Laphurdeen
+demokrati	n	c		democracy	law-civic	high	FR démocratie	
+demokratisk	adj			democratic	law-civic		demokrati + -isk	
+suveren	adj			sovereign	law-civic	high	FR souverain	
+president	n	c		president	law-civic	high	FR président	an office Laphurdeen constitutionally lacks
+kong	n	c		king	people-family		SV kung + DA konge	an office Laphurdeen constitutionally lacks
+eksekutiv	adj			executive	law-civic	high	FR exécutif	-if to -iv, per the Reform
+autoritet	n	c		authority	law-civic	high	FR autorité	
+kollektiv	adj			collective	law-civic	high	FR collectif	
+stemming	n	c		voting	law-civic		stemma + -ing	
+folkstemming	n	c		referendum	law-civic		folk + stemming	literally "people's voting"
+institusjon	n	c		institution	law-civic	high	FR institution	
+territorie	n	n		territory	law-civic	high	FR territoire	shaped like ministerie
+luft	n	c		air	world-nature		SV luft + NL lucht	
+middel	adj			middle	qualities		NL middel + SV medel	den Middel Zee
+hovedstad	n	c		capital city	law-civic		hoved + stad	
+grupp	n	c		group	people-family		SV grupp + FR groupe	
+ilandgrupp	n	c		archipelago	world-nature		iland + grupp	
+gyldig	adj			valid	law-civic		DA gyldig + SV giltig	
+ogyldig	adj			invalid, void	law-civic		o- + gyldig	
+mot	prep			against	function-words		SV mot	
+offisiell	adj			official	law-civic	high	FR officiel	
+kommisjon	n	c		commission	law-civic	high	FR commission	
+symbol	n	n		symbol	arts-leisure	high	FR symbole	
+diskriminasjon	n	c		discrimination	law-civic	high	FR discrimination	
+ras	n	c		race (of people)	people-family		NL ras + FR race	
+ursprung	n	n		origin	people-family		SV ursprung	
+kon	n	n		sex, gender	body-health		SV kön	
+seksuell	adj			sexual	body-health	high	FR sexuel	
+orientasjon	n	c		orientation	mind-emotion	high	FR orientation	
+identitet	n	c		identity	mind-emotion	high	FR identité	
+relisjon	n	c		religion	mind-emotion	high	FR religion	sj for soft g, per the Reform
+tro	n	c		belief, faith	mind-emotion		SV tro + DA tro	beside the verb troa
+mening	n	c		opinion, meaning	communication		SV mening	
+egendom	n	c		property	work-trade		SV egendom	
+foding	n	c		birth	body-health		foda + -ing	
+sosial	adj			social	people-family	high	FR social	
+ekonomi	n	c		economy	work-trade	high	FR économie	
+ekonomisk	adj			economic	work-trade		ekonomi + -isk	
+verdig	adj			dignified, worthy	qualities		verd + -ig	
+verdighed	n	c		dignity	law-civic		verdig + -hed	
+giftskap	n	c		marriage	people-family		gifta + -skap	
+unjon	n	c		union	law-civic	high	FR union	
+sivil	adj			civil	law-civic	high	FR civil	
+handling	n	c		act, action	law-civic		handla + -ing	
+hinder	n	n		obstacle, barrier	qualities		SV hinder	
+funksjon	n	c		function	law-civic	high	FR fonction	
+funksjonshinder	n	n		disability	body-health		funksjon + hinder	as Swedish funktionshinder
+vold	n	c		violence	law-civic		DA vold	
+trussel	n	c		threat	law-civic		DA trussel	
+bedrag	n	n		fraud	law-civic		DA bedrag + SV bedrägeri	
+sensur	n	c		censorship	communication	high	FR censure	
+publisera	v			publish	communication	high	FR publier	
+journalist	n	c		journalist	communication	high	FR journaliste	
+presse	n	c		press (media)	communication	high	FR presse	
+kella	n	c		source	communication		SV källa	journalists protect their kellar
+skydda	v			protect	law-civic		SV skydda	
+skydd	n	n		protection	law-civic		SV skydd	
+folkskydd	n	n		civil protection	law-civic		folk + skydd	
+overvaka	v			surveil	law-civic		SV övervaka	
+overvaking	n	c		surveillance	law-civic		overvaka + -ing	
+autonomi	n	c		autonomy	law-civic	high	FR autonomie	
+reproduksjon	n	c		reproduction	body-health	high	FR reproduction	
+gratis	adj			free of charge	work-trade		FR gratis + SV gratis	distinct from fri (free as in freedom)
+kanabis	n	c		cannabis	body-health		EN cannabis	
+drog	n	c		drug	body-health		SV drog + FR drogue	
+straffa	v			punish	law-civic		straff + -a	
+lering	n	c		education, teaching	school-knowledge		lera + -ing	
+laan	n	n		loan	work-trade		SV lån	
+inkomst	n	c		income	work-trade		SV inkomst	
+median	adj			median	numbers-measure	high	FR médiane	
+werkarunjon	n	c		trade union	work-trade		werkare + unjon	
+strejk	n	c		strike (labour)	work-trade		SV strejk + NL staking	
+strejka	v			strike (v.)	work-trade		strejk + -a	
+forelder	n	c		parent	people-family		SV förälder	
+lojlig	adj			lawful	law-civic		SV laglig	remodelled on loj
+rettvis	adj			just, fair	law-civic		SV rättvis	
+tortur	n	c		torture	law-civic	high	FR torture	
+dod	n	c		death	body-health		SV död + DA død	
+dodstraff	n	n		death penalty	law-civic		dod + straff	abolished by Grundlojen, forever
+nodvendig	adj			necessary	qualities		DA nødvendig	
+proporsjonal	adj			proportionate	law-civic	high	FR proportionnel	
+absolut	adj			absolute	qualities	high	FR absolu	
+medlem	n	c		member	law-civic		SV medlem	
+sete	n	n		seat (office)	law-civic		SV säte + DA sæde	
+telling	n	c		counting	numbers-measure		tella + -ing	
+folktelling	n	c		census	law-civic		folk + telling	
+kvalifikasjon	n	c		qualification	law-civic	high	FR qualification	
+kollegie	n	n		college	law-civic	high	FR collège	shaped like ministerie; Ministerkollegiet
+termin	n	c		term (of office)	time-calendar		SV termin + FR terme	
+rangera	v			rank (v.)	law-civic	high	FR ranger	
+rangering	n	c		ranking, ranked choice	law-civic		rangera + -ing	
+forslag	n	n		proposal	law-civic		SV förslag	
+lojforslag	n	n		bill (draft law)	law-civic		loj + forslag	
+kvorum	n	n		quorum	law-civic	high	FR quorum	
+komite	n	c		committee	law-civic	high	FR comité	
+bekrefta	v			confirm, certify	law-civic		DA bekræfte	
+veto	n	n		veto	law-civic	high	FR veto	no person or office holds one
+kampanj	n	c		campaign	law-civic	high	FR campagne	
+regel	n	c		rule	law-civic		SV regel + NL regel	Konsensregelen
+open	adj			open	qualities		NL open + EN open	
+era	v			honour (v.)	mind-emotion		SV ära	
+erlig	adj			honest	qualities		SV ärlig	
+krava	v			demand	law-civic		SV kräva	
+krav	n	n		demand, claim	law-civic		SV krav	
+lemna	v			leave	common-verbs		SV lämna	
+grunda	v			found, establish	law-civic		grund + -a	
+utland	n	n		foreign lands, abroad	law-civic		ut + land	
+finans	n	c		finance	work-trade	high	FR finance	
+kultur	n	c		culture	arts-leisure	high	FR culture	
+media	n	c		media	communication	high	FR médias	
+digital	adj			digital	communication	high	FR digital + EN digital	
+tjenst	n	c		service	work-trade		SV tjänst + DA tjeneste	
+statstjenst	n	c		civil service	law-civic		stat + tjenst	with linking -s
+ambasadeur	n	c		ambassador	law-civic	high	FR ambassadeur	final stress
+deklarera	v			declare	law-civic	high	FR déclarer	
+utnemna	v			appoint	law-civic		SV utnämna	
+korrupsjon	n	c		corruption	law-civic	high	FR corruption	
+misbruk	n	n		abuse, misuse	law-civic		SV missbruk	
+register	n	n		register	law-civic	high	FR registre	
+lobbying	n	c		lobbying	law-civic	high	EN lobbying	unadapted modern loan
+hemlig	adj			secret	qualities		SV hemlig	
+varsla	v			warn	communication		SV varsla	
+varslare	n	c		whistleblower	law-civic		varsla + -are	one who warns
+revisor	n	c		auditor	work-trade	high	FR réviseur	Storrevisoren = the Auditor-General
+klaga	v			complain	law-civic		SV klaga	
+inflasjon	n	c		inflation	work-trade	high	FR inflation	
+skuld	n	c		debt	work-trade		SV skuld + NL schuld	kin to skyldig
+kredit	n	c		credit	work-trade	high	FR crédit	
+fast	adj			fixed, firm	qualities		SV fast + DA fast	
+reserv	n	c		reserve	work-trade	high	FR réserve	Reservbanken
+borgerskap	n	c		citizenship	law-civic		borger + -skap	
+uten	prep			without	function-words		SV utan + DA uden	
+borgmester	n	c		mayor	law-civic		DA borgmester	
+styring	n	c		governance, government	law-civic		styra + -ing	
+nod	n	c		emergency, distress	law-civic		SV nöd + DA nød	
+nodtid	n	c		state of emergency	law-civic		nod + tid	literally "emergency-time"
+epidemi	n	c		epidemic	body-health	high	FR épidémie	
+katastrof	n	c		catastrophe	world-nature	high	FR catastrophe	
+invasjon	n	c		invasion	law-civic	high	FR invasion	
+veksling	n	c		amendment, change	law-civic		veksla + -ing	
+overgang	n	c		transition	law-civic		SV övergång	
+garanti	n	c		guarantee	law-civic	high	FR garantie	Laphurdeen-Garantien
+konvenor	n	c		convenor	law-civic	high	EN convenor + FR convener	
+sjarta	n	c		charter	law-civic	high	FR charte	Grundsjartan = the Founding Charter
+stemmare	n	c		voter, elector	law-civic		stemma + -are	
+forsking	n	c		research (n.)	school-knowledge		forska + -ing	
+samling	n	c		assembly, gathering	law-civic		SV samling	Grundsamlingen = the Constituent Assembly
+utgava	n	c		edition	communication		SV utgåva	
+tekst	n	c		text	communication		FR texte + SV text	
+beide	det			both	function-words		NL beide + DA begge	
+stand	n	n		status, standing	law-civic		SV stånd	
+skrift	n	c		writing, petition	communication		SV skrift	
+makt	n	c		power	law-civic		SV makt + NL macht	
+offentlig	adj			public	law-civic		SV offentlig + DA offentlig	
+gennem	prep			through	function-words		DA gennem + SV genom	
+sak	n	c		matter, case, affair	law-civic		SV sak + NL zaak	
+egen	adj			own	qualities		SV egen + DA egen	
+regera	v			rule, govern	law-civic	high	FR régner + SV regera	
+suverenitet	n	c		sovereignty	law-civic	high	FR souveraineté	
+nasjonal	adj			national	law-civic	high	FR national	
+parlamentisk	adj			parliamentary	law-civic		parlament + -isk	
+veksa	v			grow	common-verbs		SV växa + DA vokse	
+motto	n	n		motto	law-civic		SV motto + EN motto	
+dar	adj			amber (colour)	qualities		FR doré + EN amber	Charter-era blend; see Darcambria; the flag is Darbogen
+felt	n	n		field	world-nature		DA felt + SV fält	
+dela	v			divide, share	common-verbs		del + -a	
+vinst	n	c		profit	work-trade		SV vinst	kin to vinna
+maal	n	n		goal, objective	mind-emotion		SV mål	distinct from mal (occurrence)
+teken	n	n		sign, symbol (written)	communication		NL teken + SV tecken	
+gava	n	c		gift	people-family		SV gåva	
+billig	adj			cheap, affordable	work-trade		SV billig + DA billig	
+grym	adj			cruel	qualities		SV grym	
+privat	adj			private	law-civic	high	FR privé	
+data	n	c		data	communication	high	EN data	unadapted modern loan
+informasjon	n	c		information	communication	high	FR information	
+kommunikasjon	n	c		communication	communication	high	FR communication	
+rimlig	adj			reasonable	qualities		SV rimlig	
+aktiv	adj			active	qualities	high	FR actif	
+retta	v			correct (v.)	common-verbs		rett + -a	
+bort	adv			away	function-words		SV bort	
+laana	v			borrow, lend	work-trade		SV låna	
+innen	prep			within	function-words		DA inden + SV inom	
+neste	adj			next	function-words		DA næste + SV nästa	
+profesjonell	adj			professional	work-trade	high	FR professionnel	
+seremoniell	adj			ceremonial	law-civic	high	FR cérémoniel	
+dokument	n	n		document	law-civic	high	FR document	
+rapport	n	c		report	law-civic	high	FR rapport	
+trua	v			threaten	law-civic		SV trua + DA true	
+vanlig	adj			ordinary, usual	qualities		SV vanlig	
+dobbel	adj			double, dual	qualities		DA dobbelt + NL dubbel	
+lokal	adj			local	law-civic	high	FR local	
+grensa	v			limit (v.)	law-civic		grens + -a	
+statshoved	n	n		head of state	law-civic		stat + hoved	with linking -s
+skada	v			harm (v.)	common-verbs		SV skada	
+index	n	c		index	numbers-measure	high	FR index	
+energi	n	c		energy	world-nature	high	FR énergie	
+veljing	n	c		choice, choosing	mind-emotion		velja + -ing	
+spreking	n	c		speech, speaking	communication		spreka + -ing	
+roping	n	c		call, incitement	communication		ropa + -ing	
+publisering	n	c		publication	communication		publisera + -ing	
+utnemning	n	c		appointment	law-civic		utnemna + -ing	
+proving	n	c		review, testing	law-civic		prova + -ing	
+forbiding	n	c		prohibition	law-civic		forbida + -ing	
+deklarering	n	c		declaration	law-civic		deklarera + -ing	
+seljing	n	c		sale, selling	work-trade		selja + -ing	
+okraft	n	c		incapacity	body-health		o- + kraft	
+so	adv			so, thus	function-words		SV så + EN so	
+under	prep			under, according to	function-words		SV under + EN under	
+ferst	adv			first, firstly	function-words		DA først	
+sist	adj			last, final	qualities		SV sist	
+alder	n	c		age	people-family		SV ålder	
+samfund	n	n		society	people-family		DA samfund + SV samfund	
+integritet	n	c		integrity	law-civic	high	FR intégrité	
+starta	v			start (v.)	common-verbs		SV starta + EN start	
+start	n	c		start, beginning	time-calendar		SV start + EN start	
+betaling	n	c		payment	work-trade		betala + -ing	
+doming	n	c		judgment, trial	law-civic		doma + -ing	
+sending	n	c		sending	communication		senda + -ing	
+bruk	n	n		use (n.)	work-trade		SV bruk	
+direkt	adj			direct	qualities		SV direkt + FR direct	
+form	n	c		form, shape	qualities		FR forme + SV form	
+kosta	v			cost (v.)	work-trade		kost + -a	
+skamma	v			shame (v.)	mind-emotion		skam + -a	consonant doubled, as stemma
+samla	v			gather, assemble	common-verbs		SV samla	
+dollar	n	c		dollar	work-trade		EN dollar	foreign currency
