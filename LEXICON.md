@@ -2,18 +2,18 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1317 words** — 1189 roots, 128 derived.
+**1319 words** — 1191 roots, 128 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 65 |
 | plants-animals | 49 |
-| body-health | 73 |
+| body-health | 74 |
 | people-family | 63 |
 | food-drink | 71 |
 | house-home | 55 |
 | clothing | 25 |
-| time-calendar | 43 |
+| time-calendar | 44 |
 | numbers-measure | 59 |
 | motion-travel | 40 |
 | sea-ships | 39 |
@@ -193,6 +193,7 @@
 | **hud** | n (c) | skin |  | SV hud |
 | **kanabis** | n (c) | cannabis |  | EN cannabis |
 | **knie** | n (n) | knee |  | NL knie |
+| **knulla** | v | fuck (vulgar) | everyday | SV knulla + DA kneppe + NL neuken |
 | **kon** | n (n) | sex, gender |  | SV kön |
 | **kraft** | n (c) | strength, power |  | SV kraft + NL kracht |
 | **kropp** | n (c) | body |  | SV kropp |
@@ -475,6 +476,7 @@
 | **februar** | n (c) | February |  | DA februar |
 | **fredag** | n (c) | Friday |  | SV fredag + NL vrijdag |
 | **host** | n (c) | autumn |  | SV höst |
+| **iaften** | adv | tonight, this evening |  | DA i aften |
 | **idag** | adv | today |  | SV idag |
 | **igaar** | adv | yesterday |  | SV igår |
 | **imorgen** | adv | tomorrow |  | DA i morgen |
@@ -1921,6 +1923,7 @@
 | hylla | shelf |
 | hyra | rent |
 | hytta | cottage, hut |
+| iaften | tonight, this evening |
 | idag | today |
 | idee | idea |
 | identitet | identity |
@@ -2005,6 +2008,7 @@
 | knapp | button |
 | knie | knee |
 | kniv | knife |
+| knulla | fuck (vulgar) |
 | ko | cow |
 | koel | cool |
 | koffert | suitcase |
