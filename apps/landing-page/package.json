@@ -1,0 +1,16 @@
+{
+  "name": "laphurdeen-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Velkom te Laphurdeen — the tourism landing page of the Commonwealth",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
