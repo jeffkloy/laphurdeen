@@ -15,8 +15,8 @@
 | Target size | **Full 1,000-word core in this expansion** |
 | Storage | **`LEXICON.tsv` as source of truth** + `tools/lexicon.py` (check/build) + generated `LEXICON.md` |
 | French register | **Broad**: law, courts, government, cuisine/menus, academia, fine arts, diplomacy, fashion, finance, medicine-as-profession — plus **~40 everyday/high doublets** (cow/beef pattern) |
-| Irregular verbs | **Closed list of 10** (table below); everything else regular forever |
-| Method | **Morphology-first hybrid**: codify derivation rulebook → coin ~600 roots by domain → derive ~400 by rule → validate coverage against Swadesh-207 + a top-1,000 everyday-English lemma list |
+| Irregular verbs | **Closed list of 16** (table below — 10 by design, 6 forced by v1 canon); everything else regular forever |
+| Method | **Morphology-first hybrid**: codify derivation rulebook → coin ~600 roots by domain → derive ~400 by rule → validate coverage against Swadesh-207 + the plan's per-domain concept checklists |
 
 ## 1. Word-Building Rulebook
 
@@ -37,6 +37,7 @@ This becomes a new "Word-Building" section in `LAPHURDI.md` and governs every le
 | negation prefix | o- | — (SV o-) | *ofri* unfree, *oblij* unhappy |
 | noun/adjective → verb | -a | *stemma* ← *stem* | *fiska* to fish, *regna* to rain |
 | diminutive (affective, neuter) | -je | — (NL) | *husje* little house, *kindje* little one |
+| inhabitant noun | -er | *Laphurdeener* (attested in v1 §5) | *Darcambrier* Darcambrian |
 | compounding | head-final; optional linking -s-, fixed per word | *Folkskameren*, *Helsaministeriet* | *zeevind* sea-wind, *stadshus* city hall |
 
 ### 1.2 French-loan adaptation (First Spelling Reform, systematized)
@@ -56,12 +57,18 @@ This becomes a new "Word-Building" section in `LAPHURDI.md` and governs every le
 - **Question words:** *wat* what, *wie* who, *wen* when, *hoe* how, *warfor* why — completing existing *waar* where.
 - **Regular verb shape:** every regular verb's infinitive ends in unstressed *-a* and takes *-ar / -ade / har -at*. Vowel-final infinitives occur only in the irregular list.
 
-### 1.4 Irregular verbs — the closed list of 10
+### 1.4 Irregular verbs — the closed list of 16
+
+Ten strong verbs were chosen by design; six more are forced by existing canon:
+*hava* (the v1 perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the
+four modals, which are irregular in every source language.
 
 | infinitive | present | past | perfect | English |
 |---|---|---|---|---|
 | vera | er | var | har vart | be |
+| hava | har | hadde | har havt | have (also perfect auxiliary) |
 | gaa | gaar | gik | har gaat | go |
+| staa | staar | stod | har stat | stand |
 | komma | kommar | kom | har kommat | come |
 | se | ser | saag | har seet | see |
 | doa | doar | dede | har doat | do, make |
@@ -70,8 +77,16 @@ This becomes a new "Word-Building" section in `LAPHURDI.md` and governs every le
 | faa | faar | fik | har faat | get, receive |
 | seja | sejar | sa | har sejt | say |
 | veta | vet | viste | har vetat | know |
+| kunna | kan | kunde | har kunnat | can, be able |
+| vilja | vil | vilde | har vilt | want, will |
+| skola | skal | skulle | — | shall (future auxiliary) |
+| moste | moste | moste | — | must (invariant, as SV *måste*) |
 
-Notes: irregularity concentrates in past/perfect; presents are near-regular (*-r* directly after long-vowel stems). *veta* keeps its v1 spelling but gains irregular *vet/viste*. *vera*'s *er/var* are unchanged from v1; *har vart* is newly fixed here. Irregular pasts reuse native conventions (⟨aa⟩ in *saag*, ⟨ij⟩-free short forms). This list is constitutionally closed: new verbs are always regular.
+Notes: irregularity concentrates in past/perfect; presents are near-regular
+(*-r* directly after long-vowel stems). *veta* keeps its v1 spelling but gains
+irregular *vet/viste*. *vera*'s *er/var* are unchanged from v1; *har vart* is
+newly fixed here. Irregular pasts reuse native conventions (⟨aa⟩ in *saag*).
+This list is constitutionally closed: new non-modal verbs are always regular.
 
 ## 2. Data Model
 
@@ -84,7 +99,7 @@ Tab-separated, one row per word, header row required. TSV chosen because no fiel
 | `word` | Laphurdi headword | unique; lowercase except proper nouns; letters a–z only |
 | `pos` | part of speech | one of: n, v, adj, adv, prep, conj, pron, num, det, interj |
 | `gender` | c or n | required for nouns, empty otherwise |
-| `forms` | irregular forms | only for the 10 irregular verbs (`pres=…, past=…, perf=…`) and *krona* (`pl=kronur`); empty otherwise |
+| `forms` | irregular forms | only for the 16 irregular verbs (`pres=…, past=…, perf=…`) and *krona* (`pl=kronur`); empty otherwise |
 | `english` | gloss | required |
 | `domain` | semantic domain | one of the 20 controlled domains (§3) |
 | `register` | everyday / high | empty = neutral |
@@ -104,7 +119,7 @@ Python 3, stdlib only. Two subcommands:
 4. `pos`, `domain`, `register` values from the controlled lists.
 5. Nouns have `gender`; non-nouns have it empty.
 6. Verb infinitives end in *-a*, or the word is on the closed irregular list.
-7. `forms` populated only for the 10 irregulars and *krona*.
+7. `forms` populated only for the 16 irregulars and *krona*.
 8. Derivation integrity: when `sources` contains terms without language tags (`X + -suffix`, `o- + X`, or compound `X + Y`), the referenced headwords must exist (no *byggare* without *bygga*).
 9. Duplicate glosses flagged as warnings unless they form an everyday/high register pair.
 
@@ -142,7 +157,7 @@ Python 3, stdlib only. Two subcommands:
 
 **Doublets:** ~40 everyday/high pairs, concentrated in food-drink, law-civic, and formal speech (*helpa/assistera*, *eta/dinera*, *hus/residens*, *beginna/kommensera*).
 
-**Coverage validation:** after coining, verify every Swadesh-207 concept and every reasonable concept from a standard top-1,000 everyday-English lemma list is expressible (grammatical English lemmas map to existing function words).
+**Coverage validation:** after coining, verify every Swadesh-207 concept is expressible via an automated sweep; everyday coverage beyond Swadesh is guaranteed by the per-domain concept checklists in the implementation plan (no standard top-1,000 lemma list is reproducibly available offline).
 
 **Existing words:** all ~90 words in `LAPHURDI.md` §§4–6 enter the TSV with identical spelling — no silent respellings. This includes *sang* and *mange*, added to `LAPHURDI.md` by the national-design implementation.
 
@@ -168,8 +183,8 @@ Python 3, stdlib only. Two subcommands:
 
 - `LEXICON.tsv` has ≥1,000 entries and `tools/lexicon.py check` passes with no errors.
 - All ~90 v1 words present with unchanged spelling.
-- 10 irregular verbs carry `forms`; *krona* carries `pl=kronur`.
+- 16 irregular verbs carry `forms`; *krona* carries `pl=kronur`.
 - ~40 register doublets present (each pair shares a gloss).
 - `LEXICON.md` regenerates byte-identical from the TSV.
-- Every Swadesh-207 concept is expressible; the everyday-lemma coverage check reports no gaps.
+- Every Swadesh-207 concept is expressible per the automated sweep; every per-domain concept checklist in the implementation plan is covered.
 - `LAPHURDI.md` word-building rules match the derivations actually used in the TSV.
