@@ -2,13 +2,13 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1372 words** — 1224 roots, 148 derived.
+**1380 words** — 1228 roots, 152 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 66 |
 | plants-animals | 49 |
-| body-health | 77 |
+| body-health | 82 |
 | people-family | 63 |
 | food-drink | 71 |
 | house-home | 59 |
@@ -19,7 +19,7 @@
 | sea-ships | 39 |
 | work-trade | 69 |
 | communication | 75 |
-| mind-emotion | 77 |
+| mind-emotion | 80 |
 | law-civic | 172 |
 | arts-leisure | 40 |
 | school-knowledge | 45 |
@@ -175,6 +175,7 @@
 | **dov** | adj | deaf |  | SV döv + DA døv |
 | **dreppa** | v | kill |  | DA dræbe |
 | **drog** | n (c) | drug |  | SV drog + FR drogue |
+| **dronken** | adj | drunk |  | NL dronken |
 | **drukna** | v | drown |  | SV drunkna + DA drukne |
 | **epidemi** | n (c) | epidemic | high | FR épidémie |
 | **feber** | n (c) | fever |  | SV feber + NL koorts |
@@ -192,6 +193,7 @@
 | **hosta** | v | cough |  | SV hosta |
 | **hoved** | n (n) | head |  | DA hoved + NL hoofd |
 | **hud** | n (c) | skin |  | SV hud |
+| **hungrig** | adj | hungry |  | hunger + -ig |
 | **kanabis** | n (c) | cannabis |  | EN cannabis |
 | **knie** | n (n) | knee |  | NL knie |
 | **knulla** | v | fuck (vulgar) | everyday | SV knulla + DA kneppe + NL neuken |
@@ -206,6 +208,7 @@
 | **malad** | adj | sick | high | FR malade |
 | **medesin** | n (c) | doctor | high | FR médecin |
 | **medisin** | n (c) | medicine | high | FR médecine |
+| **mett** | adj | full (after eating), sated |  | SV mätt + DA mæt |
 | **mund** | n (c) | mouth |  | DA mund + NL mond |
 | **nagel** | n (c) | fingernail |  | NL nagel |
 | **nese** | n (c) | nose |  | DA næse + NL neus |
@@ -223,6 +226,7 @@
 | **sjukhus** | n (n) | hospital |  | sjuk + hus |
 | **smerta** | n (c) | pain |  | SV smärta |
 | **sova** | v | sleep |  | SV sova |
+| **sovig** | adj | sleepy |  | sova + -ig |
 | **spotta** | v | spit |  | SV spotta |
 | **sterva** | v | die | everyday | NL sterven |
 | **suga** | v | suck |  | SV suga |
@@ -230,6 +234,7 @@
 | **taar** | n (c) | tear (weeping) |  | SV tår + DA tåre |
 | **tand** | n (c) | tooth |  | NL tand + SV tand |
 | **tarm** | n (c) | gut, guts, intestine |  | SV tarm |
+| **torstig** | adj | thirsty |  | torst + -ig |
 | **trott** | adj | tired |  | SV trött |
 | **tunga** | n (c) | tongue |  | SV tunga |
 | **vaska** | v | wash |  | SV vaska + NL wassen |
@@ -887,9 +892,11 @@
 | **saarbar** | adj | vulnerable |  | SV sårbar |
 | **saarbarhed** | n (c) | vulnerability |  | saarbar + -hed |
 | **sinn** | n (n) | mind |  | DA sind + SV sinne |
+| **sjalu** | adj | jealous |  | FR jaloux |
 | **sjel** | n (c) | soul |  | SV själ + DA sjæl |
 | **skam** | n (c) | shame |  | SV skam + DA skam |
 | **skamma** | v | shame (v.) |  | skam + -a |
+| **skammig** | adj | embarrassed |  | skam + -ig |
 | **smila** | v | smile |  | SV smila + EN smile |
 | **sorg** | n (c) | sorrow |  | SV sorg + DA sorg |
 | **stimulera** | v | stimulate |  | FR stimuler |
@@ -899,6 +906,7 @@
 | **tomhed** | n (c) | emptiness |  | tom + -hed |
 | **tragisk** | adj | tragic | high | FR tragique |
 | **trakig** | adj | boring |  | SV tråkig |
+| **trist** | adj | sad |  | DA trist + FR triste |
 | **tro** | n (c) | belief, faith |  | SV tro + DA tro |
 | **troa** | v | believe |  | SV tro + DA tro |
 | **tvivla** | v | doubt |  | SV tvivla + NL twijfelen |
@@ -1726,6 +1734,7 @@
 | drom | dream |
 | dromland | dreamland, imaginary country |
 | dromma | dream (v.) |
+| dronken | drunk |
 | drukna | drown |
 | druva | grape |
 | du | you (singular) |
@@ -1984,6 +1993,7 @@
 | hundra | hundred |
 | hunger | hunger |
 | hungra | hunger, crave |
+| hungrig | hungry |
 | hus | house |
 | husbond | husband |
 | hylla | shelf |
@@ -2255,6 +2265,7 @@
 | mest | most |
 | metafor | metaphor |
 | meter | metre |
+| mett | full (after eating), sated |
 | middag | midday, noon |
 | middel | middle |
 | mij | me (object) |
@@ -2538,6 +2549,7 @@
 | sitron | lemon |
 | sitta | sit |
 | sivil | civil |
+| sjalu | jealous |
 | sjamber | room |
 | sjanson | song |
 | sjarta | charter |
@@ -2556,6 +2568,7 @@
 | skada | harm (v.) |
 | skam | shame |
 | skamma | shame (v.) |
+| skammig | embarrassed |
 | skap | cupboard |
 | skarp | sharp |
 | skatt | tax |
@@ -2606,6 +2619,7 @@
 | sosial | social |
 | sot | sweet |
 | sova | sleep |
+| sovig | sleepy |
 | sovrum | bedroom |
 | sparka | kick |
 | spegel | mirror |
@@ -2744,6 +2758,7 @@
 | torsdag | Thursday |
 | torsk | cod |
 | torst | thirst |
+| torstig | thirsty |
 | tortur | torture |
 | trafik | traffic |
 | tragisk | tragic |
@@ -2757,6 +2772,7 @@
 | tretten | thirteen |
 | tri | three |
 | tridde | third |
+| trist | sad |
 | triti | thirty |
 | tro | belief, faith |
 | troa | believe |
