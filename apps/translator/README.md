@@ -13,7 +13,10 @@ agent suffix `-are` (§3b) + the suffixed definite article.
   imported at build time (`?raw`), so rebuilding after lexicon changes is all
   that's needed — the Pages workflow triggers on `LEXICON.tsv` too.
 - `src/engine/lexicon.ts` — TSV parser; word → entry and English-gloss →
-  entry indexes with register-aware sense ranking (everyday beats high).
+  entry indexes with sense ranking: everyday register beats high, primary
+  senses beat secondary ones, a bare gloss beats a parenthetically qualified
+  one ("time" over "second (time unit)"), and a dedicated word beats a
+  polysemous one (*tid* "time" over *mal* "time, occurrence").
 - `src/engine/morphology.ts` — Laphurdi inflection per `LAPHURDI.md` §3:
   suffixed definite articles (-en/-et, pl. -er, def. pl. -eren), tense-only
   verbs (-ar/-ade/-at plus the closed irregular sixteen from the TSV `forms`
@@ -24,7 +27,10 @@ agent suffix `-are` (§3b) + the suffixed definite article.
   fronted adverbials, verb-first questions (adding/removing English
   do-support), nit-negation, perfect with *har*, future with *skal*,
   modals, den/det/de article fronting before adjectives, pronoun case by
-  position, and the *Dank du* fossil.
+  position, and the *Dank du* fossil. Each gloss-line token carries its
+  rejected candidates as `alternatives`; `translate(text, dir, { overrides })`
+  pins a pick per source word. The UI renders alternatives as chips — click
+  one to overrule the Commission's choice, ↺ to return to it.
 
 Where the reference is silent (vowel-final noun inflection: *ministerie →
 ministeriet*), the engine follows the Swedish pattern the grammar already

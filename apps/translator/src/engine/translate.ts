@@ -4,7 +4,7 @@
  *  grammar of LAPHURDI.md — suffixed definite articles, tense-only verbs,
  *  V2 word order, nit-negation, and English do-support at the border.
  */
-import { Lexicon, primaryGloss, type Entry } from "./lexicon";
+import { glossBases, Lexicon, primaryGloss, type Entry, type Pos } from "./lexicon";
 import { Morphology, type Analysis, type Degree, type Tense } from "./morphology";
 import {
   analyzeEnVerb, enParticiple, enPast, enPlural, enPres3,
@@ -12,6 +12,18 @@ import {
 } from "./english";
 
 export type Direction = "en-la" | "la-en";
+
+/** Another word the translator could have chosen for a token. */
+export interface Alternative {
+  /** Laphurdi headword. */
+  word: string;
+  /** English gloss for display. */
+  gloss: string;
+  pos: string;
+  register: "" | "everyday" | "high";
+  /** Value for `overrides[source.toLowerCase()]` to choose this instead. */
+  pick: string;
+}
 
 export interface TokenResult {
   source: string;
@@ -24,6 +36,13 @@ export interface TokenResult {
   note?: string;
   unknown?: boolean;
   punct?: boolean;
+  alternatives?: Alternative[];
+}
+
+export interface TranslateOptions {
+  /** lowercased source token → preferred rendering: a Laphurdi headword for
+   *  en→la, an English gloss for la→en (an Alternative's `pick` value). */
+  overrides?: Record<string, string>;
 }
 
 export interface Translation {
@@ -198,6 +217,11 @@ interface Item {
   punct: boolean;
   entry?: Entry;
   analysis?: Analysis;
+  /** all readings, for the alternatives list */
+  analyses?: Analysis[];
+  /** user-picked English base, in place of the entry's primary gloss */
+  glossBase?: string;
+  picked?: boolean;
   tags: string[];
   unknown?: boolean;
   number?: boolean;
@@ -212,13 +236,19 @@ interface Item {
 export class Translator {
   readonly lexicon: Lexicon;
   readonly morph: Morphology;
+  /** Active user picks for the translation in progress (lowercased keys). */
+  private overrides: Record<string, string> = {};
 
   constructor(tsv: string) {
     this.lexicon = new Lexicon(tsv);
     this.morph = new Morphology(this.lexicon);
   }
 
-  translate(text: string, dir: Direction): Translation {
+  translate(text: string, dir: Direction, opts?: TranslateOptions): Translation {
+    this.overrides = {};
+    for (const [k, v] of Object.entries(opts?.overrides ?? {})) {
+      this.overrides[k.toLowerCase()] = v;
+    }
     const tokens: TokenResult[] = [];
     const parts: string[] = [];
     for (const sentence of tokenize(text)) {
@@ -227,6 +257,32 @@ export class Translator {
       parts.push(joinTokens(results));
     }
     return { text: parts.join(" "), tokens };
+  }
+
+  /** Choose among candidate entries for an English word, honoring user picks. */
+  private pickEn(source: string, english: string, pos?: Pos | Pos[]):
+    { entry: Entry; alts: Entry[]; picked: boolean } | undefined {
+    const cands = this.lexicon.candidates(english, pos);
+    if (cands.length === 0) return undefined;
+    const want = this.overrides[source.toLowerCase()];
+    const chosen = (want && cands.find((e) => e.word === want)) || cands[0];
+    return {
+      entry: chosen,
+      alts: cands.filter((e) => e !== chosen),
+      picked: chosen !== cands[0],
+    };
+  }
+
+  private attachAlternatives(
+    tok: TokenResult, pick: { alts: Entry[]; picked: boolean },
+  ) {
+    if (pick.alts.length > 0) {
+      tok.alternatives = pick.alts.map((e) => ({
+        word: e.word, gloss: primaryGloss(e), pos: e.pos,
+        register: e.register, pick: e.word,
+      }));
+    }
+    if (pick.picked) tok.tags.push("PICKED");
   }
 
   // =========================================================================
@@ -244,6 +300,7 @@ export class Translator {
       if (t.isWord) {
         const analyses = this.morph.analyze(t.text);
         if (analyses.length > 0) {
+          item.analyses = analyses;
           this.chooseAnalysis(item, analyses[0]);
         } else {
           item.unknown = true;
@@ -264,6 +321,23 @@ export class Translator {
             .find((a) => ["n", "adj"].includes(a.entry.pos));
           if (nominal) this.chooseAnalysis(cur, nominal);
         }
+      }
+    }
+
+    // User picks beat both the default ranking and the contextual re-pick.
+    for (const item of items) {
+      if (item.punct || !item.analyses?.length) continue;
+      const want = this.overrides[item.src.toLowerCase()];
+      if (!want) continue;
+      const wantKey = want.toLowerCase().trim();
+      for (const a of item.analyses) {
+        const base = glossBases(a.entry).find((g) => g.toLowerCase() === wantKey);
+        if (!base) continue;
+        if (a !== item.analysis) this.chooseAnalysis(item, a);
+        item.glossBase = base;
+        item.picked = a !== item.analyses[0] ||
+          base.toLowerCase() !== primaryGloss(a.entry).toLowerCase();
+        break;
       }
     }
 
@@ -302,7 +376,7 @@ export class Translator {
           const bare: Item = {
             src: verb.src, punct: false, entry: verb.entry,
             analysis: { entry: verb.entry!, tags: [], verb: { tense: "inf" } },
-            tags: ["Q"], bare: true,
+            glossBase: verb.glossBase, tags: ["Q"], bare: true,
           };
           items.splice(end + 1, 0, bare);
         }
@@ -360,22 +434,24 @@ export class Translator {
 
       const entry = item.entry;
       const a = item.analysis;
+      const base = item.glossBase ?? primaryGloss(entry);
       const result: TokenResult = {
         source: item.src, output: "", lemma: entry.word,
         gloss: primaryGloss(entry), pos: entry.pos, tags: item.tags,
         register: entry.register,
       };
       this.attachDoubletNote(result, entry);
+      this.attachLaAlternatives(result, item, base);
 
       switch (entry.pos) {
         case "v":
           result.output = this.renderLaVerb(items, i, perfLinked, infLinked);
           break;
         case "n":
-          result.output = this.renderLaNoun(a);
+          result.output = this.renderLaNoun(a, base);
           break;
         case "adj":
-          result.output = enComparative(primaryGloss(entry), a.adj?.degree ?? "base");
+          result.output = enComparative(base, a.adj?.degree ?? "base");
           break;
         case "det": {
           const nextIdx = wordAt(i + 1);
@@ -385,7 +461,7 @@ export class Translator {
           } else if (entry.word === "et") {
             result.output = "a";
           } else {
-            result.output = primaryGloss(entry);
+            result.output = base;
           }
           break;
         }
@@ -395,7 +471,7 @@ export class Translator {
             const next = nextIdx >= 0 ? items[nextIdx]?.entry : undefined;
             result.output = next && ["n", "adj"].includes(next.pos) ? "a" : "one";
           } else {
-            result.output = primaryGloss(entry);
+            result.output = base;
           }
           break;
         case "pron":
@@ -404,11 +480,11 @@ export class Translator {
             result.output = subj?.entry?.word === "han" ? "himself"
               : subj?.entry?.word === "hon" ? "herself" : "themselves";
           } else {
-            result.output = primaryGloss(entry);
+            result.output = base;
           }
           break;
         default:
-          result.output = primaryGloss(entry);
+          result.output = base;
       }
 
       // "a" → "an" before a vowel sound.
@@ -422,6 +498,25 @@ export class Translator {
       rendered.push(result);
     }
     return rendered;
+  }
+
+  /** Other readings of a Laphurdi token: sibling gloss senses and rival analyses. */
+  private attachLaAlternatives(result: TokenResult, item: Item, usedBase: string) {
+    const alts: Alternative[] = [];
+    const seen = new Set([usedBase.toLowerCase()]);
+    for (const an of item.analyses ?? []) {
+      for (const g of glossBases(an.entry)) {
+        const key = g.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        alts.push({
+          word: an.entry.word, gloss: g, pos: an.entry.pos,
+          register: an.entry.register, pick: g,
+        });
+      }
+    }
+    if (alts.length > 0) result.alternatives = alts;
+    if (item.picked) result.tags.push("PICKED");
   }
 
   private chooseAnalysis(item: Item, a: Analysis) {
@@ -453,8 +548,8 @@ export class Translator {
     return end;
   }
 
-  private renderLaNoun(a: Analysis): string {
-    let base = primaryGloss(a.entry);
+  private renderLaNoun(a: Analysis, picked?: string): string {
+    let base = picked ?? primaryGloss(a.entry);
     if (a.compoundModifiers) {
       base = a.compoundModifiers.map((m) => primaryGloss(m)).join(" ") + " " + base;
     }
@@ -505,7 +600,7 @@ export class Translator {
     const item = items[i];
     const entry = item.entry!;
     const tense = item.analysis!.verb?.tense ?? "inf";
-    const base = primaryGloss(entry);
+    const base = item.glossBase ?? primaryGloss(entry);
     const subj = this.laSubjectOf(items, i);
     const person = this.laPerson(subj);
 
@@ -699,11 +794,12 @@ export class Translator {
           }
           const perf: TokenResult = {
             source: toks[scan.partIdx].text,
-            output: this.morph.verbForm(scan.entry, "perf"),
-            lemma: scan.entry.word, gloss: primaryGloss(scan.entry), pos: "v",
-            tags: ["PERF"], register: scan.entry.register,
+            output: this.morph.verbForm(scan.pick.entry, "perf"),
+            lemma: scan.pick.entry.word, gloss: primaryGloss(scan.pick.entry), pos: "v",
+            tags: ["PERF"], register: scan.pick.entry.register,
           };
-          this.attachDoubletNote(perf, scan.entry);
+          this.attachDoubletNote(perf, scan.pick.entry);
+          this.attachAlternatives(perf, scan.pick);
           push(perf);
           i = scan.partIdx + 1;
           continue;
@@ -717,8 +813,9 @@ export class Translator {
         const negated = word(j) === "not";
         if (negated) j++;
         const ing = analyzeEnVerb(word(j)).find((x) => x.form === "ing");
-        const ingEntry = ing && this.lexicon.fromEnglish(ing.base, "v");
-        if (isWord(j) && ingEntry) {
+        const ingPick = ing && isWord(j) ? this.pickEn(word(j), ing.base, "v") : undefined;
+        if (ingPick) {
+          const ingEntry = ingPick.entry;
           const vb: TokenResult = {
             source: `${t.text} ${toks[j].text}`,
             output: this.morph.verbForm(ingEntry, past ? "past" : "pres"),
@@ -726,6 +823,7 @@ export class Translator {
             tags: [past ? "PAST" : "PRES"], register: ingEntry.register,
           };
           this.attachDoubletNote(vb, ingEntry);
+          this.attachAlternatives(vb, ingPick);
           pushVerb(vb);
           if (negated) {
             push({ source: "not", output: "nit", lemma: "nit", gloss: "not", pos: "adv", tags: ["NEG"] });
@@ -884,13 +982,14 @@ export class Translator {
   }
 
   private scanEnPerfect(toks: RawTok[], low: string[], i: number):
-    { partIdx: number; entry: Entry } | undefined {
+    { partIdx: number; pick: NonNullable<ReturnType<Translator["pickEn"]>> } | undefined {
     for (let k = i + 1; k < Math.min(i + 4, toks.length); k++) {
       if (!toks[k].isWord) return undefined;
       const analyses = analyzeEnVerb(low[k])
         .filter((x) => x.form === "part" || x.form === "past");
-      const entry = analyses.map((x) => this.lexicon.fromEnglish(x.base, "v")).find(Boolean);
-      if (entry) return { partIdx: k, entry };
+      const pick = analyses
+        .map((x) => this.pickEn(low[k], x.base, "v")).find(Boolean);
+      if (pick) return { partIdx: k, pick };
       // only subject-ish material may stand between aux and participle
       if (low[k] !== "not" && !EN_TO_LA_PRONOUN[low[k]] &&
           !["the", "a", "an"].includes(low[k]) &&
@@ -929,6 +1028,9 @@ export class Translator {
         note: compound ? "compounds are head-final (§3b)" : undefined,
       };
       this.attachDoubletNote(tok, np.entry);
+      // Compound tokens span several source words, so a single pick key
+      // wouldn't round-trip — offer alternatives on simple heads only.
+      if (!compound && np.pick) this.attachAlternatives(tok, np.pick);
       return tok;
     };
 
@@ -966,14 +1068,16 @@ export class Translator {
       for (let k = i; k < i + len; k++) if (!toks[k].isWord) allWords = false;
       if (!allWords) continue;
       const phrase = low.slice(i, i + len).join(" ");
-      const entry = this.lexicon.fromEnglish(phrase);
-      if (entry) {
+      const pick = this.pickEn(phrase, phrase);
+      if (pick) {
+        const entry = pick.entry;
         const token: TokenResult = {
           source: phrase, output: entry.word, lemma: entry.word,
           gloss: primaryGloss(entry), pos: entry.pos, tags: [],
           register: entry.register,
         };
         this.attachDoubletNote(token, entry);
+        this.attachAlternatives(token, pick);
         return { token, len };
       }
     }
@@ -983,8 +1087,9 @@ export class Translator {
   private enVerbToken(w: string, tense: Tense): TokenResult | undefined {
     if (!w) return undefined;
     for (const cand of analyzeEnVerb(w)) {
-      const entry = this.lexicon.fromEnglish(cand.base, "v");
-      if (!entry) continue;
+      const pick = this.pickEn(w, cand.base, "v");
+      if (!pick) continue;
+      const entry = pick.entry;
       let t = tense;
       if (tense !== "inf" && (cand.form === "past" || cand.form === "part")) {
         t = "past";
@@ -995,6 +1100,7 @@ export class Translator {
         tags: [t.toUpperCase()], register: entry.register,
       };
       this.attachDoubletNote(tok, entry);
+      this.attachAlternatives(tok, pick);
       return tok;
     }
     return undefined;
@@ -1004,6 +1110,7 @@ export class Translator {
     | {
       entry: Entry; plural: boolean; end: number;
       adjTokens: TokenResult[]; nounMods: Entry[]; sourceWords: string[];
+      pick?: NonNullable<ReturnType<Translator["pickEn"]>>;
     }
     | undefined {
     const adjTokens: TokenResult[] = [];
@@ -1012,10 +1119,11 @@ export class Translator {
     let k = from;
     while (k < toks.length && toks[k].isWord) {
       const w = low[k];
-      const direct = this.lexicon.fromEnglish(w, "n");
-      const asPlural = singularizeEn(w)
-        .map((s) => this.lexicon.fromEnglish(s, "n")).find(Boolean);
-      const noun = direct ?? asPlural;
+      const directPick = this.pickEn(w, w, "n");
+      const pluralPick = singularizeEn(w)
+        .map((s) => this.pickEn(w, s, "n")).find(Boolean);
+      const nounPick = directPick ?? pluralPick;
+      const noun = nounPick?.entry;
       // A following noun continues the NP as a compound — unless it could
       // just as well be the sentence's verb ("the people vote").
       const nextIsNoun = k + 1 < toks.length && toks[k + 1].isWord &&
@@ -1026,8 +1134,8 @@ export class Translator {
       if (noun && !nextIsNoun) {
         sourceWords.push(toks[k].text.toLowerCase());
         return {
-          entry: noun, plural: !direct && !!asPlural, end: k + 1,
-          adjTokens, nounMods, sourceWords,
+          entry: noun, plural: !directPick && !!pluralPick, end: k + 1,
+          adjTokens, nounMods, sourceWords, pick: nounPick,
         };
       }
       if (noun && nextIsNoun) {
@@ -1037,25 +1145,31 @@ export class Translator {
         k++;
         continue;
       }
-      const adjEntry = this.lexicon.fromEnglish(w, ["adj", "det", "num"]);
-      if (adjEntry && !["the", "a", "an"].includes(w)) {
-        adjTokens.push({
+      const adjPick = this.pickEn(w, w, ["adj", "det", "num"]);
+      if (adjPick && !["the", "a", "an"].includes(w)) {
+        const adjEntry = adjPick.entry;
+        const adjTok: TokenResult = {
           source: toks[k].text, output: adjEntry.word, lemma: adjEntry.word,
           gloss: primaryGloss(adjEntry), pos: adjEntry.pos, tags: [],
           register: adjEntry.register,
-        });
+        };
+        this.attachAlternatives(adjTok, adjPick);
+        adjTokens.push(adjTok);
         k++;
         continue;
       }
       const comp = analyzeEnAdj(w)
-        .map((c) => ({ c, e: this.lexicon.fromEnglish(c.base, "adj") }))
-        .find((x) => x.e);
+        .map((c) => ({ c, p: this.pickEn(w, c.base, "adj") }))
+        .find((x) => x.p);
       if (comp) {
-        adjTokens.push({
-          source: toks[k].text, output: this.morph.adjForm(comp.e!, comp.c.degree),
-          lemma: comp.e!.word, gloss: primaryGloss(comp.e!), pos: "adj",
+        const e = comp.p!.entry;
+        const compTok: TokenResult = {
+          source: toks[k].text, output: this.morph.adjForm(e, comp.c.degree),
+          lemma: e.word, gloss: primaryGloss(e), pos: "adj",
           tags: [comp.c.degree.toUpperCase()],
-        });
+        };
+        this.attachAlternatives(compTok, comp.p!);
+        adjTokens.push(compTok);
         k++;
         continue;
       }
@@ -1085,8 +1199,9 @@ export class Translator {
       }
     }
 
-    const direct = this.lexicon.fromEnglish(w);
-    if (direct) {
+    const directPick = this.pickEn(w, w);
+    if (directPick) {
+      const direct = directPick.entry;
       const tok: TokenResult = {
         source: original, output: direct.word, lemma: direct.word,
         gloss: primaryGloss(direct), pos: direct.pos, tags: [],
@@ -1098,6 +1213,7 @@ export class Translator {
         tok.tags.push(tense.toUpperCase());
       }
       this.attachDoubletNote(tok, direct);
+      this.attachAlternatives(tok, directPick);
       return tok;
     }
 
@@ -1108,26 +1224,30 @@ export class Translator {
     }
 
     for (const s of singularizeEn(w)) {
-      const entry = this.lexicon.fromEnglish(s, "n");
-      if (entry) {
+      const pick = this.pickEn(w, s, "n");
+      if (pick) {
+        const entry = pick.entry;
         const tok: TokenResult = {
           source: original, output: this.morph.nounForm(entry, { plural: true }),
           lemma: entry.word, gloss: primaryGloss(entry), pos: "n", tags: ["PL"],
           register: entry.register,
         };
         this.attachDoubletNote(tok, entry);
+        this.attachAlternatives(tok, pick);
         return tok;
       }
     }
 
     for (const c of analyzeEnAdj(w)) {
-      const entry = this.lexicon.fromEnglish(c.base, "adj");
-      if (entry) {
-        return {
-          source: original, output: this.morph.adjForm(entry, c.degree),
-          lemma: entry.word, gloss: primaryGloss(entry), pos: "adj",
+      const pick = this.pickEn(w, c.base, "adj");
+      if (pick) {
+        const tok: TokenResult = {
+          source: original, output: this.morph.adjForm(pick.entry, c.degree),
+          lemma: pick.entry.word, gloss: primaryGloss(pick.entry), pos: "adj",
           tags: [c.degree.toUpperCase()],
         };
+        this.attachAlternatives(tok, pick);
+        return tok;
       }
     }
 

@@ -482,6 +482,52 @@ body::after {
   max-width: 15rem;
 }
 
+.token .tag.picked {
+  border-color: rgba(242, 169, 0, 0.9);
+  background: #f2a900;
+  color: #241a00;
+}
+
+.token .t-alts {
+  margin-top: 0.35rem;
+  padding-top: 0.3rem;
+  border-top: 1px dashed rgba(28, 43, 56, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+  max-width: 15rem;
+}
+
+.token .alt-label {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.68rem;
+  color: var(--ink-faint);
+}
+
+.token .alt-chip {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid rgba(28, 43, 56, 0.35);
+  background: rgba(28, 43, 56, 0.04);
+  color: var(--sea);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.token .alt-chip:hover {
+  border-color: rgba(242, 169, 0, 0.95);
+  background: rgba(242, 169, 0, 0.18);
+}
+
+.token .alt-chip.alt-reset {
+  border-style: dashed;
+  color: var(--ink-faint);
+}
+
 .token.is-unknown {
   border-style: dashed;
   border-color: var(--alert);

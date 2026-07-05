@@ -111,6 +111,12 @@ document.querySelector("#stat-words")!.textContent =
 let direction: Direction = "en-la";
 let lastResult = "";
 
+/** The user's word picks, per direction: lowercased source token → pick. */
+const overrides: Record<Direction, Record<string, string>> = {
+  "en-la": {},
+  "la-en": {},
+};
+
 function renderToken(t: TokenResult, i: number): HTMLElement {
   const el = document.createElement("div");
   el.className = "token" + (t.unknown ? " is-unknown" : "") + (t.punct ? " is-punct" : "");
@@ -141,8 +147,9 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
   }
   for (const tag of t.tags) {
     const chip = document.createElement("span");
-    chip.className = "tag" + (GRAMMAR_TAGS.has(tag) ? " grammar" : "");
-    chip.textContent = tag.toLowerCase();
+    chip.className = "tag" + (GRAMMAR_TAGS.has(tag) ? " grammar" : "") +
+      (tag === "PICKED" ? " picked" : "");
+    chip.textContent = tag === "PICKED" ? "your pick" : tag.toLowerCase();
     meta.appendChild(chip);
   }
   if (t.register) {
@@ -159,6 +166,43 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
     note.textContent = t.note;
     el.appendChild(note);
   }
+
+  // Alternative renderings — click to overrule the Commission's choice.
+  const picked = t.tags.includes("PICKED");
+  if (t.alternatives?.length || picked) {
+    const alts = document.createElement("div");
+    alts.className = "t-alts";
+    const label = document.createElement("span");
+    label.className = "alt-label";
+    label.textContent = "or";
+    alts.appendChild(label);
+    for (const alt of t.alternatives ?? []) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "alt-chip";
+      b.textContent = alt.pick;
+      b.title = `${alt.word} · ${alt.pos}` +
+        (alt.register ? ` · ${alt.register}` : "") + ` — ${alt.gloss}`;
+      b.addEventListener("click", () => {
+        overrides[direction][t.source.toLowerCase()] = alt.pick;
+        run();
+      });
+      alts.appendChild(b);
+    }
+    if (picked) {
+      const reset = document.createElement("button");
+      reset.type = "button";
+      reset.className = "alt-chip alt-reset";
+      reset.textContent = "↺";
+      reset.title = "Back to the Commission's choice";
+      reset.addEventListener("click", () => {
+        delete overrides[direction][t.source.toLowerCase()];
+        run();
+      });
+      alts.appendChild(reset);
+    }
+    el.appendChild(alts);
+  }
   return el;
 }
 
@@ -171,7 +215,9 @@ function run() {
     lastResult = "";
     return;
   }
-  const { text: rendered, tokens } = translator.translate(text, direction);
+  const { text: rendered, tokens } = translator.translate(text, direction, {
+    overrides: overrides[direction],
+  });
   lastResult = rendered;
   output.textContent = rendered;
   tokensEl.innerHTML = "";

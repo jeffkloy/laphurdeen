@@ -19,6 +19,10 @@ export interface EnglishSense {
   entry: Entry;
   /** Position of this variant within the entry's gloss (0 = primary sense). */
   rank: number;
+  /** The gloss segment carried a parenthetical qualifier — "fish (v.)". */
+  qualified: boolean;
+  /** How many senses the entry's whole gloss lists ("time, occurrence" = 2). */
+  senses: number;
 }
 
 /** Common English words whose lexicon gloss uses a near-synonym. */
@@ -70,11 +74,11 @@ export class Lexicon {
     }
 
     for (const entry of this.entries) {
-      for (const [variant, rank] of glossVariants(entry)) {
-        const list = this.byEnglish.get(variant) ?? [];
-        list.push({ entry, rank });
-        this.byEnglish.set(variant, list);
-        const words = variant.split(" ").length;
+      for (const v of glossVariants(entry)) {
+        const list = this.byEnglish.get(v.key) ?? [];
+        list.push({ entry, rank: v.rank, qualified: v.qualified, senses: v.senses });
+        this.byEnglish.set(v.key, list);
+        const words = v.key.split(" ").length;
         if (words > this.maxEnglishPhraseLen) this.maxEnglishPhraseLen = words;
       }
     }
@@ -87,13 +91,18 @@ export class Lexicon {
 
   /** Best Laphurdi entry for an English word/phrase, optionally filtered by pos. */
   fromEnglish(english: string, pos?: Pos | Pos[]): Entry | undefined {
+    return this.candidates(english, pos)[0];
+  }
+
+  /** All candidate entries for an English word/phrase, best first. */
+  candidates(english: string, pos?: Pos | Pos[]): Entry[] {
     const key = english.toLowerCase();
     const senses = this.byEnglish.get(key) ??
       (EN_FALLBACK_SYNONYMS[key] ? this.byEnglish.get(EN_FALLBACK_SYNONYMS[key]) : undefined);
-    if (!senses) return undefined;
-    if (!pos) return senses[0].entry;
+    if (!senses) return [];
+    if (!pos) return senses.map((s) => s.entry);
     const wanted = Array.isArray(pos) ? pos : [pos];
-    return senses.find((s) => wanted.includes(s.entry.pos))?.entry;
+    return senses.filter((s) => wanted.includes(s.entry.pos)).map((s) => s.entry);
   }
 
   /** The other half of a register doublet (e.g. stemma ↔ votera), if any. */
@@ -106,6 +115,24 @@ export class Lexicon {
   }
 }
 
+/** Split a gloss on , and ; — but not inside parentheses. */
+function splitGloss(english: string): string[] {
+  const out: string[] = [];
+  let depth = 0;
+  let start = 0;
+  for (let i = 0; i < english.length; i++) {
+    const ch = english[i];
+    if (ch === "(") depth++;
+    else if (ch === ")") depth = Math.max(0, depth - 1);
+    else if ((ch === "," || ch === ";") && depth === 0) {
+      out.push(english.slice(start, i));
+      start = i + 1;
+    }
+  }
+  out.push(english.slice(start));
+  return out;
+}
+
 /** First gloss variant, parentheticals stripped — the display gloss. */
 export function primaryGloss(entry: Entry): string {
   // Proper nouns whose gloss is descriptive render as themselves
@@ -114,8 +141,25 @@ export function primaryGloss(entry: Entry): string {
       entry.english.toLowerCase().includes(entry.word.toLowerCase())) {
     return entry.word;
   }
-  const first = entry.english.split(/[;,]/)[0].replace(/\([^)]*\)/g, "").trim();
+  const first = splitGloss(entry.english)[0].replace(/\([^)]*\)/g, "").trim();
   return stripGlossArticle(first, entry.pos);
+}
+
+/** All of an entry's gloss bases, cleaned and article-stripped, in rank order. */
+export function glossBases(entry: Entry): string[] {
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const seg of splitGloss(entry.english)) {
+    const cleaned = stripGlossArticle(
+      seg.replace(/\([^)]*\)/g, "").trim(), entry.pos,
+    );
+    const key = cleaned.toLowerCase();
+    if (cleaned && !seen.has(key)) {
+      seen.add(key);
+      out.push(cleaned);
+    }
+  }
+  return out;
 }
 
 function stripGlossArticle(variant: string, pos: Pos): string {
@@ -130,31 +174,44 @@ function stripGlossArticle(variant: string, pos: Pos): string {
   return variant;
 }
 
+interface Variant {
+  key: string;
+  rank: number;
+  qualified: boolean;
+  senses: number;
+}
+
 /** English lookup keys for an entry: split on , and ; strip (...) and lead articles. */
-function glossVariants(entry: Entry): Array<[string, number]> {
-  const out: Array<[string, number]> = [];
+function glossVariants(entry: Entry): Variant[] {
+  const out: Variant[] = [];
   const seen = new Set<string>();
-  const push = (v: string, rank: number) => {
+  const segments = splitGloss(entry.english);
+  const senses = segments.filter((s) => s.replace(/\([^)]*\)/g, "").trim()).length;
+  const push = (v: string, rank: number, qualified: boolean) => {
     const key = v.toLowerCase().trim();
     if (key && !seen.has(key)) {
       seen.add(key);
-      out.push([key, rank]);
+      out.push({ key, rank, qualified, senses });
     }
   };
-  entry.english.split(/[;,]/).forEach((raw, rank) => {
+  segments.forEach((raw, rank) => {
     const cleaned = raw.replace(/\([^)]*\)/g, "").trim();
     if (!cleaned) return;
-    push(cleaned, rank);
-    push(stripGlossArticle(cleaned, entry.pos), rank);
+    const qualified = raw.includes("(");
+    push(cleaned, rank, qualified);
+    push(stripGlossArticle(cleaned, entry.pos), rank, qualified);
   });
   // Proper nouns are findable by their own name ("Laphurdi" → Laphurdi).
-  if (/^[A-Z]/.test(entry.word)) push(entry.word, 0);
+  if (/^[A-Z]/.test(entry.word)) push(entry.word, 0, false);
   return out;
 }
 
-/** Everyday register beats high; then primary senses beat secondary ones. */
+/** Everyday register beats high; primary senses beat secondary ones; a bare
+ *  gloss beats a qualified one ("time" over "time (occurrence)"); a dedicated
+ *  word beats a polysemous one ("tid: time" over "mal: time, occurrence"). */
 function compareSenses(a: EnglishSense, b: EnglishSense): number {
   const reg = (e: Entry) => (e.register === "high" ? 1 : 0);
   return reg(a.entry) - reg(b.entry) || a.rank - b.rank ||
+    Number(a.qualified) - Number(b.qualified) || a.senses - b.senses ||
     a.entry.word.length - b.entry.word.length;
 }

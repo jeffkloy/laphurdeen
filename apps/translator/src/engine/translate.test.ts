@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import tsv from "../../../../LEXICON.tsv?raw";
+import { primaryGloss } from "./lexicon";
 import { Translator } from "./translate";
 
 const tr = new Translator(tsv);
@@ -157,5 +158,58 @@ describe("English → Laphurdi", () => {
     const verb = tokens.find((t) => t.pos === "v");
     expect(verb?.output).toBe("stemmar");
     expect(verb?.note).toContain("votera");
+  });
+});
+
+describe("sense ranking", () => {
+  it("prefers the dedicated word when glosses collide", () => {
+    // tid means only "time"; mal means "time, occurrence" — tid wins.
+    expect(tr.lexicon.fromEnglish("time")?.word).toBe("tid");
+    // A bare gloss beats a parenthetically qualified one.
+    expect(tr.lexicon.fromEnglish("second")?.word).toBe("andre");
+    expect(tr.lexicon.fromEnglish("fish")?.word).toBe("fisk");
+    expect(tr.lexicon.fromEnglish("light")?.word).toBe("lys");
+  });
+  it("translates time with tid, not mal", () => {
+    expect(enLa("I do not have time.")).toBe("Ik har nit tid.");
+    expect(enLa("What time is it?")).toBe("Wat tid er det?");
+  });
+  it("splits glosses outside parentheses only", () => {
+    expect(tr.lexicon.byEnglish.has("before adjectives)")).toBe(false);
+    expect(primaryGloss(tr.lexicon.lookup("den")!)).toBe("the");
+  });
+});
+
+describe("alternatives and user picks", () => {
+  it("exposes ranked alternatives on ambiguous tokens", () => {
+    const { tokens } = tr.translate("time", "en-la");
+    expect(tokens[0].output).toBe("tid");
+    expect(tokens[0].alternatives?.map((a) => a.word)).toContain("mal");
+  });
+  it("honors an override, English → Laphurdi", () => {
+    const { text, tokens } = tr.translate("I do not have time.", "en-la", {
+      overrides: { time: "mal" },
+    });
+    expect(text).toBe("Ik har nit mal.");
+    const picked = tokens.find((t) => t.source === "time");
+    expect(picked?.tags).toContain("PICKED");
+    // The default stays reachable as an alternative.
+    expect(picked?.alternatives?.map((a) => a.word)).toContain("tid");
+  });
+  it("inflects the overridden word like any other", () => {
+    expect(tr.translate("the time", "en-la", { overrides: { time: "mal" } }).text)
+      .toBe("Malet");
+  });
+  it("offers gloss alternatives, Laphurdi → English", () => {
+    expect(laEn("Mal.")).toBe("Time.");
+    const { tokens } = tr.translate("Mal.", "la-en");
+    expect(tokens[0].alternatives?.map((a) => a.gloss)).toContain("occurrence");
+  });
+  it("honors an override, Laphurdi → English", () => {
+    const { text, tokens } = tr.translate("Mal.", "la-en", {
+      overrides: { mal: "occurrence" },
+    });
+    expect(text).toBe("Occurrence.");
+    expect(tokens[0].tags).toContain("PICKED");
   });
 });
