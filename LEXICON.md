@@ -565,7 +565,7 @@
 | **nummer** | n (n) | number |  | SV nummer + NL nummer |
 | **par** | n (n) | pair |  | SV par |
 | **prosent** | n (c) | percent |  | SV procent + FR pour cent |
-| **seks** | num | six |  | SV sex + NL zes + DA seks |
+| **seks** | num | six; sex (the act) |  | SV sex + NL zes + DA seks |
 | **sekste** | num | sixth |  | NL zesde + SV sjätte |
 | **seksten** | num | sixteen |  | DA seksten |
 | **seksti** | num | sixty |  | SV sextio |
@@ -2492,7 +2492,7 @@
 | sekel | century |
 | seker | safe, sure |
 | sekerhed | security |
-| seks | six |
+| seks | six; sex (the act) |
 | sekste | sixth |
 | seksten | sixteen |
 | seksti | sixty |
