@@ -237,9 +237,11 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 
 ### Article 35 — Taxation
 1. Tax may be imposed only by Act of Parliament.
-2. The annual income of natural persons above a **tax-free threshold of one hundred thousand kronur (Kr. 100,000)** is taxed at a single flat rate of **twenty-five per cent (25%)**; income at or below the threshold is untaxed. The profits of businesses are taxed at a single flat rate of **twelve and one-half per cent (12.5%)**. No other rate, surcharge, or bracket may be applied to income or profits.
-3. The rates in clause 2 may be altered only by constitutional amendment under Article 44. Parliament may by law raise the tax-free threshold, but may never lower it below one hundred thousand kronur.
-4. Parliament may by law impose duties, consumption taxes, and charges directed at harm or scarcity, provided the overall burden of taxation remains transparent and published annually per household decile.
+2. The annual income of natural persons above a **tax-free threshold of one million kronur (Kr. 1,000,000)** is taxed at a single flat rate of **twenty-five per cent (25%)**; income at or below the threshold is untaxed. The profits of businesses are taxed at a single flat rate of **twelve and one-half per cent (12.5%)**. No other rate, surcharge, or bracket may be applied to income or profits.
+3. A general **sales tax** is levied on the sale of goods and services to consumers within the Commonwealth at a single flat rate of **ten per cent (10%)**, administered as provided by law. No other general tax on sales, turnover, or value added may be imposed.
+4. The sales tax shall be **included in every displayed, advertised, or quoted price**. The price displayed is the full price payable; no tax may be added at or after the point of sale.
+5. The rates in clauses 2 and 3 may be altered only by constitutional amendment under Article 44. Parliament may by law raise the tax-free threshold, but may never lower it below one million kronur.
+6. Parliament may by law impose duties, consumption taxes, and charges directed at harm or scarcity, provided the overall burden of taxation remains transparent and published annually per household decile.
 
 ### Article 36 — The Budget and Continuity of Government
 1. The annual budget is proposed by the Ministerial College for Finance on behalf of the Council and passed as a law under the Consensus Rule.
@@ -292,7 +294,7 @@ Lawful residents who are not citizens enjoy all rights in this Constitution exce
 This Constitution may be amended by a bill passed in each chamber by **eighty per cent** of the votes cast and approved at a national referendum by a majority of votes cast, on a turnout of at least half of registered electors.
 
 ### Article 44 — Entrenched Provisions
-An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates (Article 35(2)), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
+An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates and tax-inclusive pricing rule (Article 35(2)–(4)), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
 
 ---
 
