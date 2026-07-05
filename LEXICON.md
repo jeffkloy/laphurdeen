@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1432 words** — 1262 roots, 170 derived.
+**1433 words** — 1263 roots, 170 derived.
 
 | domain | words |
 |---|---|
@@ -24,7 +24,7 @@
 | arts-leisure | 42 |
 | school-knowledge | 46 |
 | common-verbs | 103 |
-| qualities | 111 |
+| qualities | 112 |
 | function-words | 101 |
 
 ## world-nature
@@ -1369,6 +1369,7 @@
 | **fiskig** | adj | fishy, suspicious (slang) | everyday | fisk + -ig |
 | **flak** | adj | shallow |  | SV flack + NL vlak |
 | **form** | n (c) | form, shape |  | FR forme + SV form |
+| **formell** | adj | formal | high | FR formel + SV formell |
 | **Fransk** | adj | French |  | SV fransk |
 | **fri** | adj | free |  | EN free + SV fri |
 | **full** | adj | full |  | SV full + EN full |
@@ -1918,6 +1919,7 @@
 | forklara | explain |
 | forlust | loss |
 | form | form, shape |
+| formell | formal |
 | forska | research (v.) |
 | forskare | researcher |
 | forsking | research (n.) |
