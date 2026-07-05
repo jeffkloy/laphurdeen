@@ -145,3 +145,107 @@ ingen	pron			none, nobody	function-words		SV ingen	Preamble: waar ingen stod bef
 befor	prep			before	function-words		EN before + SV förr	
 dis	det			this	function-words		EN this + NL dit	
 dat	det			that	function-words		NL dat + EN that	
+elva	num			eleven	numbers-measure		SV elva	
+tolv	num			twelve	numbers-measure		SV tolv	
+tretten	num			thirteen	numbers-measure		SV tretton + NL dertien	
+fjorten	num			fourteen	numbers-measure		DA fjorten + SV fjorton	
+femten	num			fifteen	numbers-measure		DA femten + SV femton	
+seksten	num			sixteen	numbers-measure		DA seksten	
+sjutten	num			seventeen	numbers-measure		SV sjutton	
+akten	num			eighteen	numbers-measure		NL achttien + SV arton	
+nitten	num			nineteen	numbers-measure		DA nitten	
+tweti	num			twenty	numbers-measure		EN twenty + NL twintig	
+triti	num			thirty	numbers-measure		EN thirty + NL dertig	
+fyrti	num			forty	numbers-measure		SV fyrtio + EN forty	
+femti	num			fifty	numbers-measure		SV femtio	
+seksti	num			sixty	numbers-measure		SV sextio	
+sjuti	num			seventy	numbers-measure		SV sjuttio	
+akti	num			eighty	numbers-measure		SV åttio	
+nienti	num			ninety	numbers-measure		EN ninety + SV nittio	
+null	num			zero	numbers-measure		SV noll + EN null	
+million	num			million	numbers-measure		FR million	
+halv	adj			half	numbers-measure		SV halv	
+kwart	n	n		quarter	numbers-measure		NL kwart	
+par	n	n		pair	numbers-measure		SV par	
+dusin	n	n		dozen	numbers-measure		NL dozijn + EN dozen	
+meter	n	c		metre	numbers-measure		FR mètre	
+kilo	n	n		kilogram	numbers-measure		FR kilo	
+kilometer	n	c		kilometre	numbers-measure		kilo + meter	
+gram	n	n		gram	numbers-measure		FR gramme	
+liter	n	c		litre	numbers-measure		FR litre	
+grad	n	c		degree	numbers-measure		SV grad	
+prosent	n	c		percent	numbers-measure		SV procent + FR pour cent	
+nummer	n	n		number	numbers-measure		SV nummer + NL nummer	
+mal	n	n		time, occurrence	numbers-measure		NL maal	twe mal = twice
+tid	n	c		time	time-calendar		SV tid	
+klok	n	c		clock	time-calendar		NL klok	
+uur	n	n		hour	time-calendar		NL uur	
+minut	n	c		minute	time-calendar		FR minute	
+sekund	n	c		second (time unit)	time-calendar		SV sekund + FR seconde	
+vek	n	c		week	time-calendar		SV vecka + EN week	
+manad	n	c		month	time-calendar		SV månad	distinct from maan (moon)
+jaar	n	n		year	time-calendar		NL jaar	
+sekel	n	n		century	time-calendar		SV sekel	
+sesong	n	c		season	time-calendar	high	FR saison	
+mandag	n	c		Monday	time-calendar		SV måndag + NL maandag	
+tisdag	n	c		Tuesday	time-calendar		SV tisdag	
+onsdag	n	c		Wednesday	time-calendar		SV onsdag + DA onsdag	
+torsdag	n	c		Thursday	time-calendar		SV torsdag	
+fredag	n	c		Friday	time-calendar		SV fredag + NL vrijdag	
+lordag	n	c		Saturday	time-calendar		SV lördag	
+sundag	n	c		Sunday	time-calendar		SV söndag + EN Sunday	
+januar	n	c		January	time-calendar		DA januar + FR janvier	
+februar	n	c		February	time-calendar		DA februar	
+mars	n	c		March	time-calendar		SV mars + FR mars	
+april	n	c		April	time-calendar		SV april	
+maj	n	c		May	time-calendar		SV maj	
+juni	n	c		June	time-calendar		SV juni	
+juli	n	c		July	time-calendar		SV juli	
+august	n	c		August	time-calendar		DA august	
+september	n	c		September	time-calendar		SV september	
+oktober	n	c		October	time-calendar		SV oktober	
+november	n	c		November	time-calendar		SV november	
+desember	n	c		December	time-calendar		DA december + FR décembre	First Reform spelling: c to s
+lente	n	c		spring (season)	time-calendar		NL lente	
+sommer	n	c		summer	time-calendar		DA sommer + NL zomer	
+host	n	c		autumn	time-calendar		SV höst	say "hohst"
+vinter	n	c		winter	time-calendar		SV vinter + NL winter	
+aften	n	c		evening	time-calendar		DA aften	
+middag	n	c		midday, noon	time-calendar		SV middag + NL middag	
+igaar	adv			yesterday	time-calendar		SV igår	analogous to idag
+imorgen	adv			tomorrow	time-calendar		DA i morgen	
+min	det			my	function-words		SV min + NL mijn	
+din	det			your (singular)	function-words		SV din	
+hans	det			his	function-words		SV hans	
+hons	det			her (possessive)	function-words		SV hennes	regularized to hon + -s
+hens	det			their (singular possessive)	function-words		SV hens	
+vaar	det			our	function-words		SV vår	
+jer	det			your (plural)	function-words		DA jeres	
+deis	det			their	function-words		SV deras	regularized to dei + -s
+hier	adv			here	function-words		NL hier	
+der	adv			there	function-words		SV där + NL daar	
+nu	adv			now	function-words		SV nu + NL nu	
+dan	adv			then	function-words		NL dan + EN then	
+alltid	adv			always	function-words		SV alltid	
+aldri	adv			never	function-words		DA aldrig + SV aldrig	
+ofta	adv			often	function-words		SV ofta	
+snart	adv			soon	function-words		SV snart	
+igen	adv			again	function-words		SV igen + DA igen	
+kanske	adv			maybe, perhaps	function-words		SV kanske	
+men	conj			but	function-words		SV men	
+om	conj			if, whether	function-words		SV om	
+als	conj			than, as	function-words		NL als	
+fordat	conj			because	function-words		for + dat	literally "for that"
+alle	det			all	function-words		NL alle + SV alla	
+somme	det			some	function-words		NL sommige + EN some	
+venig	det			few	function-words		NL weinig	avoids clash with faa (get)
+anner	det			other	function-words		SV annan + NL ander	
+samme	det			same	function-words		DA samme + SV samma	
+oek	adv			also	function-words		NL ook	say "ook"
+bara	adv			only	function-words		SV bara	
+mer	adv			more	function-words		SV mer	comparative of long adjectives: mer formell
+mest	adv			most	function-words		SV mest	
+minder	adv			less	function-words		NL minder	
+minst	adv			least	function-words		SV minst + NL minst	
+self	pron			self	function-words		EN self + NL zelf	
+tesamme	adv			together	function-words		NL tezamen	
