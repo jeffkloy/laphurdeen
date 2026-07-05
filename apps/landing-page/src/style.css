@@ -293,6 +293,90 @@ a {
   filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.55));
 }
 
+/* ---------------------------- city pages ---------------------------- */
+
+.crumbs {
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: #9db8d2;
+  margin: 0 0 1.2rem;
+}
+
+.crumbs a {
+  color: #9db8d2;
+}
+
+.crumbs a:hover {
+  color: #fff;
+}
+
+/* Darcambria: the amber sunset glowing behind the arcs of the bay */
+.hero-sun {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--bay-h) - 2rem);
+  transform: translateX(-50%);
+  width: clamp(14rem, 30vw, 24rem);
+  height: clamp(7rem, 15vw, 12rem);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: radial-gradient(ellipse at 50% 100%, rgba(242, 169, 0, 0.55), rgba(242, 169, 0, 0) 70%);
+  pointer-events: none;
+}
+
+/* Lapentieur: hill silhouettes rising behind the bay */
+.hero-hills {
+  position: absolute;
+  inset: auto 0 0 0;
+  width: 100%;
+  height: calc(var(--bay-h) + clamp(3rem, 7vh, 5rem));
+  display: block;
+}
+
+.city-link {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 2px solid var(--amber);
+  margin-top: 0.4rem;
+}
+
+.city-link:hover {
+  color: var(--amber-ink);
+}
+
+/* Transit roundels: U-bahn wears the navy, T-bahn the amber */
+.line-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.7rem 0 0.9rem;
+}
+
+.badge-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.badge-u {
+  background: var(--navy-deep);
+  color: #fff;
+  border: 2.5px solid var(--amber);
+}
+
+.badge-t {
+  background: var(--amber);
+  color: var(--navy-deep);
+  border: 2.5px solid #fff;
+}
+
 /* ------------------------------ buttons ----------------------------- */
 
 .btn {

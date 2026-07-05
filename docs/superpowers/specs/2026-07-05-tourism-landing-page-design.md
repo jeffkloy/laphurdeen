@@ -90,6 +90,17 @@ relative href `translator/`.
    (GRUNDLOJEN forms *seer, ligger, prisen, dodstraffen, sjartat, navnat,
    dise, gaver* — flagged as lexicon/canon divergences for a future session).
 
+4. **City pages** (user-directed, same day). Bilingual pages for the two
+   chartered cities, linked from the landing city cards and cross-linked to
+   each other: `/darcambria/` + `/en/darcambria/` (harbourside city centre,
+   five neighbourhoods — Fiskarhamnen, Gammelstaden, Darstranden, Vinbergen,
+   Nyhamn — and the U-bahn/T-bahn networks; the *bahn* spelling is Charter-era
+   heritage license for *baan*), and `/lapentieur/` + `/en/lapentieur/`
+   (Grundarkulleren — the Founders' Hills: Sjartakullen, Sterkullen,
+   Mistkullen — the open houses of government, the capital's byname *Ankeret
+   on Kullen* / "The Anchor on The Hill", and the Bergbaan). Six more lexicon
+   entries: *kulle, tram, linje, baan, grundare, park*.
+
 ## Success criteria
 
 - `npm run build` succeeds in `apps/landing-page`; page renders with JS off.

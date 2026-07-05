@@ -12,6 +12,10 @@ export default defineConfig({
       input: {
         main: fileURLToPath(new URL("index.html", import.meta.url)),
         en: fileURLToPath(new URL("en/index.html", import.meta.url)),
+        darcambria: fileURLToPath(new URL("darcambria/index.html", import.meta.url)),
+        lapentieur: fileURLToPath(new URL("lapentieur/index.html", import.meta.url)),
+        enDarcambria: fileURLToPath(new URL("en/darcambria/index.html", import.meta.url)),
+        enLapentieur: fileURLToPath(new URL("en/lapentieur/index.html", import.meta.url)),
       },
     },
   },
