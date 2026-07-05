@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1308 words** — 1183 roots, 125 derived.
+**1317 words** — 1189 roots, 128 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 65 |
 | plants-animals | 49 |
 | body-health | 73 |
-| people-family | 59 |
+| people-family | 63 |
 | food-drink | 71 |
 | house-home | 55 |
 | clothing | 25 |
@@ -18,7 +18,7 @@
 | motion-travel | 40 |
 | sea-ships | 39 |
 | work-trade | 69 |
-| communication | 67 |
+| communication | 72 |
 | mind-emotion | 60 |
 | law-civic | 169 |
 | arts-leisure | 39 |
@@ -239,12 +239,14 @@
 | **bebe** | n (c) | baby |  | FR bébé |
 | **bestefar** | n (c) | grandfather |  | DA bedstefar |
 | **bestemor** | n (c) | grandmother |  | DA bedstemor |
+| **brekare** | n (c) | breaker |  | breka + -are |
 | **broder** | n (c) | brother |  | SV broder + NL broer |
 | **brud** | n (c) | bride |  | SV brud |
 | **brudgom** | n (c) | bridegroom |  | SV brudgum |
 | **bryllop** | n (n) | wedding |  | SV bröllop |
 | **dame** | n (c) | lady |  | FR dame |
 | **dotter** | n (c) | daughter |  | SV dotter + NL dochter |
+| **dumhoved** | n (n) | blockhead | everyday | dum + hoved |
 | **fader** | n (c) | father |  | SV fader + NL vader |
 | **famille** | n (c) | family |  | FR famille |
 | **flika** | n (c) | girl |  | SV flicka |
@@ -259,8 +261,10 @@
 | **herre** | n (c) | gentleman, lord |  | SV herre |
 | **hjelp** | n (c) | help (n.) | everyday | SV hjälp |
 | **husbond** | n (c) | husband |  | hus + bonde |
+| **idiot** | n (c) | idiot | everyday | FR idiot |
 | **kind** | n (n) | child |  | NL kind |
 | **kong** | n (c) | king |  | SV kung + DA konge |
+| **konsensbrekare** | n (c) | consensus-breaker | everyday | konsens + brekare |
 | **kusin** | n (c) | cousin |  | SV kusin + FR cousin |
 | **kvin** | n (c) | woman |  | SV kvinna |
 | **Laphurdeener** | n (c) | Laphurdeener (citizen) |  | Laphurdeen + -er |
@@ -749,12 +753,15 @@
 | **demandera** | v | ask | high | FR demander |
 | **digital** | adj | digital | high | FR digital + EN digital |
 | **diskur** | n (c) | speech | high | FR discours |
+| **djevel** | n (c) | devil | everyday | DA djævel + NL duivel |
 | **eksplikera** | v | explain | high | FR expliquer |
 | **falsk** | adj | false |  | SV falsk + NL vals |
+| **forbanna** | v | curse, damn | everyday | SV förbanna |
 | **forklara** | v | explain | everyday | SV förklara |
 | **fraga** | v | ask | everyday | SV fråga |
 | **hallej** | interj | hello |  | EN hello + SV hej |
 | **heera** | v | hear |  | EN hear + NL horen |
+| **helvet** | n (n) | hell | everyday | SV helvete + DA helvede |
 | **informasjon** | n (c) | information | high | FR information |
 | **journalist** | n (c) | journalist | high | FR journaliste |
 | **kella** | n (c) | source |  | SV källa |
@@ -772,6 +779,7 @@
 | **oversetta** | v | translate |  | over + setta |
 | **papper** | n (n) | paper |  | SV papper + FR papier |
 | **penn** | n (c) | pen |  | SV penna + EN pen |
+| **pokker** | n (c) | pox (oath) | everyday | DA pokker |
 | **post** | n (c) | mail, post |  | SV post + NL post |
 | **presse** | n (c) | press (media) | high | FR presse |
 | **publisera** | v | publish | high | FR publier |
@@ -786,6 +794,7 @@
 | **sending** | n (c) | sending |  | senda + -ing |
 | **sensur** | n (c) | censorship | high | FR censure |
 | **setning** | n (c) | sentence |  | DA sætning |
+| **skit** | n (c) | shit (mild oath) | everyday | SV skit |
 | **skrift** | n (c) | writing, petition |  | SV skrift |
 | **skrika** | v | scream |  | SV skrika |
 | **skriva** | v | write |  | SV skriva + NL schrijven |
@@ -1559,6 +1568,7 @@
 | braka | vomit |
 | bred | wide |
 | breka | break |
+| brekare | breaker |
 | brenna | burn |
 | brev | letter (mail) |
 | bringa | bring |
@@ -1626,6 +1636,7 @@
 | dis | this |
 | diskriminasjon | discrimination |
 | diskur | speech |
+| djevel | devil |
 | djup | deep |
 | doa | do, make |
 | dobbel | double, dual |
@@ -1655,6 +1666,7 @@
 | druva | grape |
 | du | you (singular) |
 | dum | stupid |
+| dumhoved | blockhead |
 | dusin | dozen |
 | dusj | shower |
 | eb | ebb |
@@ -1757,6 +1769,7 @@
 | folkstemming | referendum |
 | folktelling | census |
 | for | for |
+| forbanna | curse, damn |
 | forbida | forbid |
 | forbiding | prohibition |
 | fordat | because |
@@ -1863,6 +1876,7 @@
 | heera | hear |
 | helsa | health |
 | helsaministerie | health ministry |
+| helvet | hell |
 | hem | home |
 | hemd | shirt |
 | hemlig | secret |
@@ -1910,6 +1924,7 @@
 | idag | today |
 | idee | idea |
 | identitet | identity |
+| idiot | idiot |
 | igaar | yesterday |
 | igen | again |
 | ik | I |
@@ -2012,6 +2027,7 @@
 | konferens | meeting |
 | kong | king |
 | konsens | consensus |
+| konsensbrekare | consensus-breaker |
 | konst | art |
 | kontrakt | contract |
 | konvenor | convenor |
@@ -2284,6 +2300,7 @@
 | plas | square, place |
 | plikt | duty |
 | pojk | boy |
+| pokker | pox (oath) |
 | politi | police |
 | politisk | political |
 | pork | pork |
@@ -2453,6 +2470,7 @@
 | skera | cut |
 | skerf | scarf |
 | skip | ship |
+| skit | shit (mild oath) |
 | skoe | shoe |
 | skog | forest |
 | skol | school |
