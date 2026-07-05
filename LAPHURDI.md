@@ -60,7 +60,26 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | perfect | har + -at | har sprek**at** |
 | future | skal + inf. | skal spreka |
 
-Irregular but essential: **vera** (to be) → **er** (is/am/are), **var** (was/were).
+**The closed list of 16 irregular verbs.** Ten strong verbs were fixed by design; six more are forced by canon — *hava* (the perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the four modals, irregular in every source language. Every other verb is regular, forever; the Reform even regularized prefixed verbs (*ankomma → ankommade*, though bare *komma* keeps *kom*).
+
+| infinitive | present | past | perfect | English |
+|---|---|---|---|---|
+| vera | er | var | har vart | be |
+| hava | har | hadde | har havt | have |
+| gaa | gaar | gik | har gaat | go |
+| staa | staar | stod | har stat | stand |
+| komma | kommar | kom | har kommat | come |
+| se | ser | saag | har seet | see |
+| doa | doar | dede | har doat | do, make |
+| ta | tar | tok | har tat | take |
+| geva | gevar | gav | har gevat | give |
+| faa | faar | fik | har faat | get |
+| seja | sejar | sa | har sejt | say |
+| veta | vet | viste | har vetat | know |
+| kunna | kan | kunde | har kunnat | can |
+| vilja | vil | vilde | har vilt | want, will |
+| skola | skal | skulle | — | shall |
+| moste | moste | moste | — | must |
 
 ### Pronouns
 ik, du, han / hon / **hen**, vi, ju, dei — *I, you, he / she / they(sg.), we, you(pl.), they.*
@@ -75,10 +94,55 @@ Main clauses are V2, like Dutch and Swedish — whatever comes first, the verb i
 
 Negation: **nit** after the verb — *Ik sprekar nit Fransk* (I don't speak French).
 Questions: verb first — *Sprekar du Laphurdi?*
+Question words: **wat, wie, wen, waar, hoe, warfor** — *what, who, when, where, how, why.*
+
+### Comparison, ordinals, adverbs
+
+- **Comparatives**: *-er / -est* — *stor, storer, storest*. (Not *-are*: that suffix makes agent nouns.) Long adjectives and French loans take *mer / mest*: *mer formell, mest formell*. One suppletive set: *goed, beter, best*.
+- **Ordinals**: *ferste, andre, tridde, fyrde, femte, sekste, sjunde, akte, niende, tiende.*
+- **Adverbs**: zero-marked — the adjective serves unchanged: *Hen sprekar snabb* (they speak fast).
+
+---
+
+## 3b. Word-Building
+
+The First Spelling Reform fixed more than spellings — it fixed the machinery for making new words. Every entry in the lexicon follows these rules.
+
+### Derivation
+
+| makes | affix | examples |
+|---|---|---|
+| abstract noun from adjective (common) | **-hed** | *fri → frihed*; *blij → blijhed* (happiness); *sant → santhed* (truth) |
+| relationship or state noun (common) | **-skap** | *vrend → vrendskap* (friendship); *veta → vetskap* (knowledge) |
+| agent noun from verb (common, gender-neutral) | **-are** | *werka → werkare* (worker); *dikta → diktare* (poet) |
+| action noun from verb (common) | **-ing** | *bygga → bygging* (construction); *mala → maling* (painting) |
+| place of craft or trade (neuter) | **-eri** | *baka → bakeri* (bakery); *fiska → fiskeri* (fishery) |
+| adjective from noun | **-ig** | *smuts → smutsig* (dirty); *mod → modig* (brave) |
+| nationality or language | **-sk** | *Fransk, Engelsk, Svensk, Hollandsk* |
+| learned adjective | **-isk** | *politisk, historisk* |
+| negation | **o-** | *lik → olik* (different); *skyldig → oskyldig* (innocent) |
+| verb from noun or adjective | **-a** | *stem → stemma*; *fisk → fiska* (final consonant doubles after a short vowel: *drom → dromma*) |
+| diminutive (affective, neuter) | **-je** | *husje* (little house), *kindje* (little one) |
+| inhabitant | **-er** | *Laphurdeen → Laphurdeener*; *Darcambrier* |
+| compounds | head-final | *dom + stol → domstol* (court); *flyga + hamn → flyghamn* (airport); some take a linking **-s-**: *stadshus*, *Folkskameren* |
+
+### French loans, adapted by the Reform
+
+- *-tion* → **-sjon**: *nasjon, punisjon, navigasjon* — always final-stressed
+- *-té* → **-tet**: *universitet, majoritet, egalitet*
+- French verbs → **-era**, conjugating perfectly regularly: *assistera, votera, kommensera*
+- *-el(le)* → **-ell** · *-iste* → **-ist** · *-isme* → **-isme**
+- Spelling: *ph* → *f* (*fysik, filosofi*), soft *c* → *s* (*sitron, desember*), *ch* → *sj* (*masjin, sjef*), *qu* → *kw* (*kwestion, kwittens*) — and never an accent.
+
+### The register doublets
+
+Like English *ask/inquire* or *cow/beef*, Laphurdi keeps ~40 everyday/formal pairs: *hjelpa/assistera* (help), *fraga/demandera* (ask), *stemma/votera* (vote), *tal/diskur* (speech), *sang/sjanson* (song) — and on the plate, *ko* becomes *boef*, *svin* becomes *pork*, *faar* becomes *moeton*. The full set is tagged `everyday`/`high` in the lexicon.
 
 ---
 
 ## 4. Core Vocabulary
+
+> **The full lexicon lives in [LEXICON.md](LEXICON.md)** — 1,000+ words generated from `LEXICON.tsv` (checked and built by `tools/lexicon.py`). The tables below remain the beginner's first taste.
 
 ### The world
 | Laphurdi | English | blended from |
@@ -195,9 +259,9 @@ Four verses arrive from the four founding shores — English, Dutch, Swedish, Fr
 ## 8. Open Questions — for future dives
 
 - **Dialects**: Lapentieuran vs. Darcambrian speech — early notes suggest Darcambrians say *wi* (from French *oui*) instead of *ja*, and clip final -ar to -a.
-- **Irregular verbs**: only *vera* (be) is fixed so far; decide the closed list (go, come, see, do…).
+- **Irregular verbs**: ✅ **resolved** — the closed list of 16 (ten strong verbs, plus *hava*, *staa*, and the four modals) is fixed in §3.
 - **Full phonology**: an IPA chart and syllable rules.
-- **Registers**: how far does the French high register extend (courts? academia? menus?).
+- **Registers**: *partly resolved* — the lexicon fixes the extent (broad high register across law, courts, government, cuisine, academia, fine arts, diplomacy, finance, plus ~40 everyday/formal doublets, §3b). Still open: usage conventions — when must a courtroom or a menu use the high form?
 - **Laphurdi Sign Language (LSL)**: recognition and standardisation — connects to Article 5(6) of the Constitution.
 - **Orthography edge cases**: what else survived the First Spelling Reform besides proper names?
-- **A proper lexicon**: grow the vocabulary from ~90 words toward a usable core of 1,000.
+- **A proper lexicon**: ✅ **resolved** — 1,039 words in `LEXICON.tsv` / `LEXICON.md`, linted and built by `tools/lexicon.py`, with full Swadesh-207 coverage.

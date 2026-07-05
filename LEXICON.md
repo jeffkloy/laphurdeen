@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1034 words** — 973 roots, 61 derived.
+**1039 words** — 974 roots, 65 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 60 |
 | plants-animals | 49 |
 | body-health | 59 |
-| people-family | 44 |
+| people-family | 45 |
 | food-drink | 71 |
 | house-home | 54 |
 | clothing | 25 |
@@ -17,12 +17,12 @@
 | numbers-measure | 55 |
 | motion-travel | 40 |
 | sea-ships | 39 |
-| work-trade | 42 |
+| work-trade | 44 |
 | communication | 46 |
 | mind-emotion | 46 |
-| law-civic | 61 |
+| law-civic | 62 |
 | arts-leisure | 35 |
-| school-knowledge | 32 |
+| school-knowledge | 33 |
 | common-verbs | 92 |
 | qualities | 76 |
 | function-words | 67 |
@@ -257,6 +257,7 @@
 | **vard** | n (c) | host |  | SV värd |
 | **vedve** | n (c) | widow |  | NL weduwe |
 | **vrend** | n (c) | friend |  | NL vriend + SV vän + EN friend |
+| **vrendskap** | n (c) | friendship |  | vrend + -skap |
 | **vuksen** | n (c) | adult |  | SV vuxen + DA voksen |
 
 ## food-drink
@@ -647,6 +648,8 @@
 | **krona** (pl=kronur) | n (c) | krona (currency) |  | SV krona |
 | **kwittens** | n (c) | receipt |  | SV kvittens |
 | **leda** | v | lead |  | SV leda |
+| **ledare** | n (c) | leader |  | leda + -are |
+| **ledarskap** | n (c) | leadership |  | ledare + -skap |
 | **lon** | n (c) | wage |  | SV lön + DA løn |
 | **marknad** | n (c) | market |  | SV marknad |
 | **masjin** | n (c) | machine |  | FR machine |
@@ -813,6 +816,7 @@
 | **permitera** | v | allow | high | FR permettre |
 | **plikt** | n (c) | duty |  | SV plikt + NL plicht |
 | **politi** | n (n) | police |  | DA politi |
+| **politisk** | adj | political |  | FR politique + SV politisk |
 | **proibera** | v | forbid | high | FR prohiber |
 | **provins** | n (c) | province |  | SV provins + FR province |
 | **punisjon** | n (c) | punishment | high | FR punition |
@@ -890,6 +894,7 @@
 | **fysik** | n (c) | physics | high | FR physique |
 | **geografi** | n (c) | geography | high | FR géographie |
 | **historie** | n (c) | history |  | FR histoire + NL historie |
+| **historisk** | adj | historical |  | historie + -isk |
 | **idee** | n (c) | idea |  | NL idee + FR idée |
 | **instruera** | v | teach | high | FR instruire |
 | **kemi** | n (c) | chemistry | high | SV kemi + FR chimie |
@@ -1513,6 +1518,7 @@
 | hier | here |
 | himmel | sky |
 | historie | history |
+| historisk | historical |
 | hjelp | help (n.) |
 | hjelpa | help |
 | hjerta | heart |
@@ -1670,6 +1676,8 @@
 | Laphurdi | the Laphurdi language |
 | last | cargo |
 | leda | lead |
+| ledare | leader |
+| ledarskap | leadership |
 | leder | leather |
 | ledminister | lead minister |
 | legga | lay |
@@ -1842,6 +1850,7 @@
 | plas | square, place |
 | plikt | duty |
 | politi | police |
+| politisk | political |
 | pork | pork |
 | post | mail, post |
 | potet | potato |
@@ -2181,6 +2190,7 @@
 | vitne | witness |
 | votera | vote |
 | vrend | friend |
+| vrendskap | friendship |
 | vuksen | adult |
 | vulkan | volcano |
 | waar | where |
