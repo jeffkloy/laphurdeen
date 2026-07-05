@@ -1420,3 +1420,14 @@ linje	n	c		line (route, stroke)	motion-travel		SV linje + NL lijn + FR ligne
 baan	n	c		track, way	motion-travel		NL baan	U-bahn/T-bahn keep the Charter-era heritage spelling, like the ph in Laphurdeen
 grundare	n	c		founder	people-family		grunda + -are (§3b agent noun)	
 park	n	c		park	world-nature		EN park + NL park + SV park	
+korall	n	c		coral	plants-animals		SV korall + FR corail	
+rif	n	n		reef	sea-ships		NL rif + EN reef	rev is the fox; the Reform kept them apart
+vik	n	c		cove, inlet	sea-ships		SV vik	
+kap	n	c		cape, headland	world-nature		NL kaap + EN cape	Sydkapen, the southern tip of the main island
+dyka	v			dive	common-verbs		SV dyka + NL duiken	
+spelhus	n	n		casino	arts-leisure	everyday	spel + hus	
+kasino	n	n		casino	arts-leisure	high	FR casino + SV kasino	
+hotell	n	n		hotel	house-home		FR hôtel + SV hotell	-ell per §3b French-loan rule
+sida	n	c		side	numbers-measure		SV sida + NL zijde	Solsidan av Samveldet = Agaetisboro's byname
+fangst	n	c		catch (of fish), haul	sea-ships		SV fångst + NL vangst	dagens fangst; cf. fanga
+paradis	n	n		paradise	world-nature		FR paradis + SV paradis	

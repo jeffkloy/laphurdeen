@@ -2,28 +2,28 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1421 words** — 1252 roots, 169 derived.
+**1432 words** — 1262 roots, 170 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 68 |
-| plants-animals | 49 |
+| world-nature | 70 |
+| plants-animals | 50 |
 | body-health | 91 |
 | people-family | 66 |
 | food-drink | 71 |
-| house-home | 59 |
+| house-home | 60 |
 | clothing | 25 |
 | time-calendar | 44 |
-| numbers-measure | 59 |
+| numbers-measure | 60 |
 | motion-travel | 46 |
-| sea-ships | 39 |
+| sea-ships | 42 |
 | work-trade | 69 |
 | communication | 79 |
 | mind-emotion | 84 |
 | law-civic | 172 |
-| arts-leisure | 40 |
+| arts-leisure | 42 |
 | school-knowledge | 46 |
-| common-verbs | 102 |
+| common-verbs | 103 |
 | qualities | 111 |
 | function-words | 101 |
 
@@ -55,6 +55,7 @@
 | **ilandgrupp** | n (c) | archipelago |  | iland + grupp |
 | **is** | n (c) | ice |  | SV is + NL ijs |
 | **jord** | n (c) | earth, soil |  | SV jord |
+| **kap** | n (c) | cape, headland |  | NL kaap + EN cape |
 | **katastrof** | n (c) | catastrophe | high | FR catastrophe |
 | **klippa** | n (c) | cliff |  | SV klippa |
 | **kulle** | n (c) | hill |  | SV kulle |
@@ -70,6 +71,7 @@
 | **natur** | n (c) | nature |  | FR nature + SV natur |
 | **nord** | n (c) | north |  | FR nord + SV norr |
 | **oest** | n (c) | east |  | NL oost |
+| **paradis** | n (n) | paradise |  | FR paradis + SV paradis |
 | **park** | n (c) | park |  | EN park + NL park + SV park |
 | **pinn** | n (c) | stick, twig |  | SV pinne |
 | **regn** | n (n) | rain |  | SV regn |
@@ -130,6 +132,7 @@
 | **katt** | n (c) | cat |  | SV katt + NL kat |
 | **kip** | n (c) | chicken |  | NL kip |
 | **ko** | n (c) | cow |  | SV ko + NL koe |
+| **korall** | n (c) | coral |  | SV korall + FR corail |
 | **krab** | n (c) | crab |  | NL krab + EN crab |
 | **laks** | n (c) | salmon |  | DA laks + SV lax |
 | **lus** | n (c) | louse |  | SV lus |
@@ -417,6 +420,7 @@
 | **golv** | n (n) | floor |  | SV golv |
 | **gryta** | n (c) | pot |  | SV gryta |
 | **hem** | n (n) | home |  | SV hem |
+| **hotell** | n (n) | hotel |  | FR hôtel + SV hotell |
 | **hus** | n (n) | house | everyday | NL huis + SV hus |
 | **hylla** | n (c) | shelf |  | SV hylla |
 | **hyra** | v | rent |  | SV hyra |
@@ -588,6 +592,7 @@
 | **sekste** | num | sixth |  | NL zesde + SV sjätte |
 | **seksten** | num | sixteen |  | DA seksten |
 | **seksti** | num | sixty |  | SV sextio |
+| **sida** | n (c) | side |  | SV sida + NL zijde |
 | **sju** | num | seven |  | SV sju |
 | **sjunde** | num | seventh |  | SV sjunde |
 | **sjuti** | num | seventy |  | SV sjuttio |
@@ -665,6 +670,7 @@
 | **dekk** | n (n) | deck |  | DA dæk + NL dek |
 | **dok** | n (n) | dock |  | NL dok |
 | **eb** | n (c) | ebb |  | NL eb |
+| **fangst** | n (c) | catch (of fish), haul |  | SV fångst + NL vangst |
 | **ferje** | n (c) | ferry |  | DA færge |
 | **fiska** | v | fish (v.) |  | fisk + -a |
 | **fiskare** | n (c) | fisher |  | fiska + -are |
@@ -687,6 +693,7 @@
 | **navigasjon** | n (c) | navigation | high | FR navigation |
 | **net** | n (n) | net |  | SV nät + NL net |
 | **rep** | n (n) | rope |  | SV rep + DA reb |
+| **rif** | n (n) | reef |  | NL rif + EN reef |
 | **roa** | v | row (v.) |  | SV ro |
 | **ror** | n (n) | rudder |  | SV roder |
 | **segel** | n (n) | sail (n.) |  | SV segel + NL zeil |
@@ -696,6 +703,7 @@
 | **tij** | n (n) | tide |  | NL tij |
 | **vaag** | n (c) | wave |  | SV våg |
 | **vesel** | n (n) | ship | high | FR vaisseau |
+| **vik** | n (c) | cove, inlet |  | SV vik |
 | **werf** | n (c) | shipyard |  | NL werf |
 | **zeeman** | n (c) | seaman |  | zee + man |
 
@@ -1144,6 +1152,7 @@
 | **foto** | n (n) | photograph |  | SV foto + FR photo |
 | **galleri** | n (n) | gallery | high | FR galerie |
 | **instrument** | n (n) | instrument | high | FR instrument |
+| **kasino** | n (n) | casino | high | FR casino + SV kasino |
 | **konst** | n (c) | art |  | SV konst |
 | **kultur** | n (c) | culture | high | FR culture |
 | **leka** | v | play (as a child) |  | SV leka |
@@ -1161,6 +1170,7 @@
 | **sjanson** | n (c) | song | high | FR chanson |
 | **spel** | n (n) | game |  | SV spel + NL spel |
 | **spela** | v | play (a game, music) |  | spel + -a |
+| **spelhus** | n (n) | casino | everyday | spel + hus |
 | **sport** | n (c) | sport |  | EN sport + FR sport |
 | **strofe** | n (c) | stanza | high | SV strof + FR strophe |
 | **symbol** | n (n) | symbol | high | FR symbole |
@@ -1238,6 +1248,7 @@
 | **demonstrera** | v | show | high | FR démontrer |
 | **doa** (pres=doar, past=dede, perf=doat) | v | do, make |  | EN do + NL doen |
 | **draga** | v | pull |  | SV draga + NL dragen |
+| **dyka** | v | dive |  | SV dyka + NL duiken |
 | **enda** | v | end (v.) | everyday | EN end + SV ände |
 | **faa** (pres=faar, past=fik, perf=faat) | v | get, receive |  | SV få + DA få |
 | **falla** | v | fall |  | SV falla + NL vallen |
@@ -1791,6 +1802,7 @@
 | dumhoved | blockhead |
 | dusin | dozen |
 | dusj | shower |
+| dyka | dive |
 | eb | ebb |
 | efter | after |
 | egalitet | equality |
@@ -1833,6 +1845,7 @@
 | falsk | false |
 | famille | family |
 | fanga | catch |
+| fangst | catch (of fish), haul |
 | fantastisk | amazing, fantastic |
 | farlig | dangerous |
 | fast | fixed, firm |
@@ -2042,6 +2055,7 @@
 | horn | horn |
 | host | autumn |
 | hosta | cough |
+| hotell | hotel |
 | hoved | head |
 | hovedstad | capital city |
 | hud | skin |
@@ -2111,11 +2125,13 @@
 | kanabis | cannabis |
 | kandidat | candidate |
 | kanske | maybe, perhaps |
+| kap | cape, headland |
 | kappa | coat |
 | kapten | captain |
 | karakter | character |
 | karot | carrot |
 | kart | map, chart |
+| kasino | casino |
 | kasta | throw |
 | katastrof | catastrophe |
 | katt | cat |
@@ -2177,6 +2193,7 @@
 | kopa | buy |
 | kopp | cup |
 | kora | drive |
+| korall | coral |
 | korg | basket |
 | korrupsjon | corruption |
 | kort | short |
@@ -2440,6 +2457,7 @@
 | pan | pan |
 | papper | paper |
 | par | pair |
+| paradis | paradise |
 | paradoks | paradox |
 | park | park |
 | parkera | park (v.) |
@@ -2536,6 +2554,7 @@
 | revisor | auditor |
 | revolusjon | revolution |
 | rida | ride |
+| rif | reef |
 | rijp | ripe |
 | rik | rich |
 | rikhed | wealth |
@@ -2610,6 +2629,7 @@
 | sete | seat (office) |
 | setning | sentence |
 | setta | set, put |
+| sida | side |
 | siens | science |
 | sik | himself, herself, themself (reflexive) |
 | sild | herring |
@@ -2704,6 +2724,7 @@
 | spegel | mirror |
 | spel | game |
 | spela | play (a game, music) |
+| spelhus | casino |
 | spin | spider |
 | sport | sport |
 | spotta | spit |
@@ -2934,6 +2955,7 @@
 | veto | veto |
 | vetskap | knowledge |
 | vi | we |
+| vik | cove, inlet |
 | viktig | important |
 | vilja | want, will |
 | vin | wine |
