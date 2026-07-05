@@ -1,0 +1,588 @@
+/* ==========================================================================
+   OVERSETTAREN — an instrument of the Language Commission
+   Palette: the flag of Laphurdeen (NATIONAL_SYMBOLS.md)
+     sea blue #003A66 · amber #F2A900 · star white
+   ========================================================================== */
+
+:root {
+  --sea: #003a66;
+  --sea-deep: #002845;
+  --sea-mist: #33618c;
+  --amber: #f2a900;
+  --amber-soft: #f7c14d;
+  --star: #ffffff;
+  --paper: #f9f4e7;
+  --paper-warm: #f3ecd9;
+  --ink: #1c2b38;
+  --ink-soft: #48596a;
+  --ink-faint: #8494a4;
+  --rule: rgba(28, 43, 56, 0.22);
+  --high: #7a4fb0;
+  --alert: #b3453e;
+
+  --serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --sans: "Instrument Sans", "Avenir Next", "Segoe UI", sans-serif;
+  --mono: "Fragment Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(120% 90% at 50% -20%, var(--sea-mist) 0%, var(--sea) 46%, var(--sea-deep) 100%);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* grain over everything, very quiet */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  z-index: 40;
+}
+
+/* --------------------------------------------------------------------------
+   Masthead — the flag field, the arc, the star
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+  padding: 3.4rem 1.5rem 6.5rem;
+  text-align: center;
+  color: var(--paper);
+}
+
+.masthead .arc {
+  position: absolute;
+  inset: auto 0 0 0;
+  width: 100%;
+  height: 130px;
+  display: block;
+  pointer-events: none;
+}
+
+.masthead .star {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1.1rem;
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-size: clamp(2.6rem, 7.5vw, 4.6rem);
+  font-weight: 620;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  line-height: 1.05;
+  animation: rise 0.9s 0.08s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.masthead h1 .thin {
+  font-weight: 330;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.masthead .sub {
+  margin-top: 0.9rem;
+  font-size: 0.86rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(249, 244, 231, 0.75);
+  animation: rise 0.9s 0.16s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.masthead .sub b {
+  color: var(--amber-soft);
+  font-weight: 600;
+}
+
+.masthead .motto {
+  margin-top: 1.4rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--amber);
+  animation: rise 0.9s 0.24s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   The instrument — a paper document laid on the field
+   -------------------------------------------------------------------------- */
+
+.instrument {
+  position: relative;
+  z-index: 2;
+  max-width: 1060px;
+  margin: -3.6rem auto 0;
+  padding: 0 1.25rem 4rem;
+  animation: rise 0.9s 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.paper {
+  position: relative;
+  background:
+    linear-gradient(175deg, var(--paper) 0%, var(--paper-warm) 100%);
+  border: 1px solid rgba(28, 43, 56, 0.55);
+  outline: 1px solid rgba(249, 244, 231, 0.35);
+  outline-offset: 3px;
+  box-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.2),
+    0 18px 45px rgba(0, 16, 32, 0.45),
+    0 45px 90px rgba(0, 16, 32, 0.35);
+}
+
+.paper::before {
+  content: "";
+  display: block;
+  height: 6px;
+  background: var(--amber);
+  border-bottom: 1px solid rgba(28, 43, 56, 0.35);
+}
+
+.paper-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1.1rem 1.6rem 0.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.paper-head .doc-title {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+}
+
+.paper-head .doc-stamp {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* ---- panes ---- */
+
+.panes {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: stretch;
+}
+
+.pane {
+  display: flex;
+  flex-direction: column;
+  min-height: 15rem;
+  padding: 1.2rem 1.6rem 1.4rem;
+}
+
+.pane + .pane-divider + .pane {
+  background: rgba(28, 43, 56, 0.035);
+}
+
+.pane label {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.pane label .lang {
+  color: var(--sea);
+  font-weight: 700;
+}
+
+.pane label .rule-line {
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+
+.pane textarea {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: transparent;
+  resize: vertical;
+  min-height: 9.5rem;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 420;
+  line-height: 1.5;
+  color: var(--ink);
+  caret-color: var(--amber);
+}
+
+.pane textarea:focus {
+  outline: none;
+}
+
+.pane textarea::placeholder {
+  color: var(--ink-faint);
+  font-style: italic;
+  font-weight: 350;
+}
+
+.pane .output {
+  flex: 1;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 480;
+  line-height: 1.5;
+  color: var(--sea);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.pane .output:empty::before {
+  content: "—";
+  color: var(--ink-faint);
+}
+
+.pane-divider {
+  position: relative;
+  width: 1px;
+  background: var(--rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- the swap seal ---- */
+
+.swap {
+  position: relative;
+  z-index: 3;
+  width: 3.1rem;
+  height: 3.1rem;
+  margin: 0 -1.55rem;
+  border-radius: 50%;
+  border: 1px solid rgba(28, 43, 56, 0.6);
+  background: var(--amber);
+  color: var(--sea-deep);
+  font-size: 1.15rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow:
+    0 0 0 4px var(--paper),
+    0 4px 12px rgba(0, 16, 32, 0.25);
+  transition: transform 0.45s cubic-bezier(0.3, 1.4, 0.4, 1), background 0.2s;
+}
+
+.swap:hover {
+  background: var(--amber-soft);
+}
+
+.swap:active {
+  transform: scale(0.92);
+}
+
+.swap.flipped svg {
+  transform: rotate(180deg);
+}
+
+.swap svg {
+  transition: transform 0.45s cubic-bezier(0.3, 1.4, 0.4, 1);
+  display: block;
+}
+
+/* ---- examples ---- */
+
+.examples {
+  padding: 0.9rem 1.6rem 1.2rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.examples .ex-label {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: 0.4rem;
+}
+
+.examples button {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.86rem;
+  color: var(--sea);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.28rem 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.18s, background 0.18s, transform 0.18s;
+}
+
+.examples button:hover {
+  border-color: var(--amber);
+  background: rgba(242, 169, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   Gloss breakdown — the philologist's line
+   -------------------------------------------------------------------------- */
+
+.breakdown {
+  margin-top: 1.6rem;
+}
+
+.breakdown h2 {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: rgba(249, 244, 231, 0.65);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 0.9rem;
+}
+
+.breakdown h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(249, 244, 231, 0.22);
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.token {
+  background: var(--paper);
+  border: 1px solid rgba(28, 43, 56, 0.5);
+  padding: 0.5rem 0.75rem 0.55rem;
+  min-width: 5.4rem;
+  animation: pop 0.35s cubic-bezier(0.3, 1.3, 0.5, 1) both;
+  animation-delay: calc(var(--i) * 28ms);
+}
+
+.token.is-punct {
+  display: none;
+}
+
+.token .t-src {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 0.15rem;
+}
+
+.token .t-out {
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  font-weight: 560;
+  color: var(--sea);
+  line-height: 1.2;
+}
+
+.token .t-meta {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.token .tag {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.08em;
+  padding: 0.08rem 0.34rem;
+  border: 1px solid rgba(28, 43, 56, 0.3);
+  color: var(--ink-soft);
+  background: rgba(28, 43, 56, 0.05);
+}
+
+.token .tag.grammar {
+  border-color: rgba(242, 169, 0, 0.9);
+  background: rgba(242, 169, 0, 0.16);
+  color: #7a5600;
+}
+
+.token .tag.reg-high {
+  border-color: rgba(122, 79, 176, 0.55);
+  background: rgba(122, 79, 176, 0.1);
+  color: var(--high);
+}
+
+.token .tag.reg-everyday {
+  border-color: rgba(28, 43, 56, 0.25);
+  color: var(--ink-faint);
+}
+
+.token .t-lemma {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  color: var(--ink-faint);
+}
+
+.token .t-note {
+  margin-top: 0.3rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  max-width: 15rem;
+}
+
+.token.is-unknown {
+  border-style: dashed;
+  border-color: var(--alert);
+  background: rgba(179, 69, 62, 0.06);
+}
+
+.token.is-unknown .t-out {
+  color: var(--alert);
+}
+
+.tokens .empty-hint {
+  font-family: var(--serif);
+  font-style: italic;
+  color: rgba(249, 244, 231, 0.55);
+  font-size: 0.95rem;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Footer
+   -------------------------------------------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 0 1.5rem 3.4rem;
+  color: rgba(249, 244, 231, 0.62);
+  font-size: 0.8rem;
+}
+
+footer .f-motto {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--amber-soft);
+  margin-bottom: 0.5rem;
+}
+
+footer .f-line {
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 760px) {
+  .panes {
+    grid-template-columns: 1fr;
+  }
+
+  .pane-divider {
+    width: auto;
+    height: 1px;
+    margin: 0 1.6rem;
+  }
+
+  .swap {
+    margin: -1.55rem 0;
+  }
+
+  .swap svg {
+    transform: rotate(90deg);
+  }
+
+  .swap.flipped svg {
+    transform: rotate(270deg);
+  }
+
+  .masthead {
+    padding-top: 2.4rem;
+  }
+
+  .paper-head {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .paper-head .doc-stamp {
+    text-align: left;
+    white-space: normal;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
