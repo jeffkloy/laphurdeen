@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1407 words** — 1242 roots, 165 derived.
+**1408 words** — 1243 roots, 165 derived.
 
 | domain | words |
 |---|---|
@@ -24,7 +24,7 @@
 | arts-leisure | 40 |
 | school-knowledge | 45 |
 | common-verbs | 102 |
-| qualities | 110 |
+| qualities | 111 |
 | function-words | 101 |
 
 ## world-nature
@@ -1368,6 +1368,7 @@
 | **kort** | adj | short |  | SV kort + NL kort |
 | **laag** | adj | low |  | NL laag |
 | **lang** | adj | long |  | SV lång + NL lang |
+| **lekker** | adj | tasty, nice, great (all-purpose approval) | everyday | NL lekker |
 | **lett** | adj | light (weight), easy |  | SV lätt + DA let |
 | **lik** | adj | similar, alike |  | SV lik + EN like |
 | **liten** | adj | small |  | SV liten |
@@ -2220,6 +2221,7 @@
 | ledminister | lead minister |
 | legga | lay |
 | leka | play (as a child) |
+| lekker | tasty, nice, great (all-purpose approval) |
 | leksjon | lesson |
 | lemna | leave |
 | lente | spring (season) |
