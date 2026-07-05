@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1368 words** — 1220 roots, 148 derived.
+**1372 words** — 1224 roots, 148 derived.
 
 | domain | words |
 |---|---|
@@ -19,12 +19,12 @@
 | sea-ships | 39 |
 | work-trade | 69 |
 | communication | 75 |
-| mind-emotion | 76 |
+| mind-emotion | 77 |
 | law-civic | 172 |
 | arts-leisure | 40 |
 | school-knowledge | 45 |
 | common-verbs | 102 |
-| qualities | 104 |
+| qualities | 107 |
 | function-words | 93 |
 
 ## world-nature
@@ -908,6 +908,7 @@
 | **vis** | adj | wise |  | SV vis + NL wijs |
 | **wensa** | v | wish |  | NL wensen |
 | **wensing** | n (c) | wish (n.), desire |  | wensa + -ing |
+| **wonder** | n (n) | wonder, miracle |  | NL wonder + EN wonder |
 
 ## law-civic
 
@@ -1311,6 +1312,7 @@
 | **Engelsk** | adj | English |  | SV engelsk |
 | **enkel** | adj | simple |  | SV enkel + NL enkel |
 | **erlig** | adj | honest |  | SV ärlig |
+| **fantastisk** | adj | amazing, fantastic |  | FR fantastique + SV fantastisk |
 | **farlig** | adj | dangerous |  | SV farlig + DA farlig |
 | **fast** | adj | fixed, firm |  | SV fast + DA fast |
 | **fatig** | adj | poor | everyday | SV fattig |
@@ -1353,6 +1355,7 @@
 | **open** | adj | open |  | NL open + EN open |
 | **opulent** | adj | rich | high | FR opulent |
 | **oranj** | adj | orange |  | FR orange |
+| **otrolig** | adj | astounding, incredible |  | DA utrolig + SV otrolig |
 | **pover** | adj | poor | high | FR pauvre |
 | **produktiv** | adj | productive | high | FR productif |
 | **progresiv** | adj | progressive | high | FR progressif |
@@ -1396,6 +1399,7 @@
 | **verdig** | adj | dignified, worthy |  | verd + -ig |
 | **viktig** | adj | important |  | SV viktig + NL wichtig |
 | **vit** | adj | white |  | SV vit + NL wit |
+| **wonderbar** | adj | wonderful |  | SV underbar + NL wonderbaar |
 
 ## function-words
 
@@ -1771,6 +1775,7 @@
 | falsk | false |
 | famille | family |
 | fanga | catch |
+| fantastisk | amazing, fantastic |
 | farlig | dangerous |
 | fast | fixed, firm |
 | fatig | poor |
@@ -2345,6 +2350,7 @@
 | os | us |
 | oskyldig | innocent |
 | ost | cheese |
+| otrolig | astounding, incredible |
 | over | over, above |
 | overgang | transition |
 | oversetta | translate |
@@ -2864,6 +2870,8 @@
 | west | west |
 | wie | who |
 | wolk | cloud |
+| wonder | wonder, miracle |
+| wonderbar | wonderful |
 | wurm | worm |
 | zee | sea |
 | zeeman | seaman |
