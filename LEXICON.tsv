@@ -66,7 +66,7 @@ asjeblie	interj			please	communication		NL alsjeblieft
 adjuu	interj			goodbye	communication		FR adieu + SV adjö	
 velkom	interj			welcome	communication		SV välkommen + NL welkom	Velkom te Laphurdeen!
 veta	v		pres=vet, past=viste, perf=vetat	know	mind-emotion		SV veta + NL weten	
-lieva	v			love	mind-emotion		NL liefde + EN love	
+lieva	v			love	mind-emotion	everyday	NL liefde + EN love	formal doublet: adorera
 grundloj	n	c		constitution	law-civic		grund + loj	Grundlojen = the Constitution
 loj	n	c		law	law-civic		FR loi	statutes are lojer
 rekt	n	c		right (entitlement)	law-civic		SV rätt + NL recht	rekteren = the rights
@@ -713,7 +713,7 @@ snabbhed	n	c		speed	motion-travel		snabb + -hed
 kora	v			drive	motion-travel		SV köra	
 rida	v			ride	motion-travel		SV rida + NL rijden	
 parkera	v			park (v.)	motion-travel		FR parquer	
-ankomma	v			arrive	motion-travel		SV ankomma + NL aankomen	conjugates like komma
+ankomma	v			arrive	motion-travel		SV ankomma + NL aankomen	regular, unlike komma — the Reform regularized prefixed verbs
 avresa	v			depart	motion-travel		av + resa	
 steg	n	n		step	motion-travel		SV steg	
 transport	n	c		transport	motion-travel		FR transport	
@@ -721,3 +721,148 @@ trafik	n	c		traffic	motion-travel		SV trafik + FR trafic
 motor	n	c		motor, engine	motion-travel		SV motor + FR moteur	
 hjul	n	n		wheel	motion-travel		SV hjul	
 vagn	n	c		wagon, carriage	motion-travel		SV vagn	
+rod	adj			red	qualities		SV röd + DA rød	
+blaa	adj			blue	qualities		SV blå + NL blauw	
+gron	adj			green	qualities		SV grön + NL groen	
+gul	adj			yellow	qualities		SV gul	
+vit	adj			white	qualities		SV vit + NL wit	
+svart	adj			black	qualities		SV svart + NL zwart	
+bruun	adj			brown	qualities		SV brun + NL bruin	
+oranj	adj			orange	qualities		FR orange	
+rosa	adj			pink	qualities		SV rosa + FR rose	
+graa	adj			grey	qualities		SV grå + DA grå	
+purpur	adj			purple	qualities		SV purpur + FR pourpre	
+ferg	n	c		colour	qualities		SV färg + DA farve	
+lang	adj			long	qualities		SV lång + NL lang	
+kort	adj			short	qualities		SV kort + NL kort	
+bred	adj			wide	qualities		SV bred + DA bred	
+smal	adj			narrow	qualities		SV smal	
+tjok	adj			thick	qualities		SV tjock	
+tunn	adj			thin	qualities		SV tunn + NL dun	
+tung	adj			heavy	qualities		SV tung	
+lett	adj			light (weight), easy	qualities		SV lätt + DA let	
+hard	adj			hard	qualities		EN hard + SV hård	
+mjuk	adj			soft	qualities		SV mjuk	
+varm	adj			warm	qualities		SV varm + NL warm	
+kald	adj			cold	qualities		DA kold + NL koud	
+het	adj			hot	qualities		SV het + NL heet	
+koel	adj			cool	qualities		NL koel	say "kool"
+full	adj			full	qualities		SV full + EN full	
+tom	adj			empty	qualities		SV tom	
+ren	adj			clean	qualities		SV ren	
+smuts	n	c		dirt	qualities		SV smuts	
+smutsig	adj			dirty	qualities		smuts + -ig	
+vaat	adj			wet	qualities		SV våt + DA våd	
+torr	adj			dry	qualities		SV torr	
+skarp	adj			sharp	qualities		SV skarp + NL scherp	
+slo	adj			dull, blunt	qualities		SV slö	
+slett	adj			smooth	qualities		SV slät + DA slet	
+rund	adj			round	qualities		SV rund + NL rond	
+djup	adj			deep	qualities		SV djup	
+flak	adj			shallow	qualities		SV flack + NL vlak	
+hoog	adj			high	qualities		NL hoog	say "hohg"
+laag	adj			low	qualities		NL laag	
+stark	adj			strong	qualities		SV stark + NL sterk	
+svag	adj			weak	qualities		SV svag + DA svag	
+rett	adj			correct, right	qualities		SV rätt + DA ret	rekt is the legal right
+fel	adj			wrong	qualities		SV fel	
+lik	adj			similar, alike	qualities		SV lik + EN like	
+olik	adj			different	qualities		o- + lik	
+viktig	adj			important	qualities		SV viktig + NL wichtig	
+enkel	adj			simple	qualities		SV enkel + NL enkel	
+svaar	adj			difficult	qualities		SV svår	
+klar	adj			clear	qualities		SV klar + NL klaar	
+mork	adj			dark	qualities		SV mörk + DA mørk	
+farlig	adj			dangerous	qualities		SV farlig + DA farlig	
+seker	adj			safe, sure	qualities		NL zeker + DA sikker	
+rutten	adj			rotten	qualities		SV rutten + EN rotten	
+dalig	adj			bad	qualities		SV dålig	
+beter	adj			better	qualities		NL beter + EN better	suppletive: goed, beter, best
+best	adj			best	qualities		NL best + EN best	
+rik	adj			rich	qualities	everyday	SV rik + NL rijk	formal doublet: opulent
+opulent	adj			rich	qualities	high	FR opulent	
+fatig	adj			poor	qualities	everyday	SV fattig	formal doublet: pover
+pover	adj			poor	qualities	high	FR pauvre	
+sjel	n	c		soul	mind-emotion		SV själ + DA sjæl	
+sinn	n	n		mind	mind-emotion		DA sind + SV sinne	
+tanke	n	c		thought	mind-emotion		SV tanke + DA tanke	
+tenka	v			think	mind-emotion	everyday	SV tänka + DA tænke	formal doublet: reflektera
+reflektera	v			think	mind-emotion	high	FR réfléchir	to reflect
+troa	v			believe	mind-emotion		SV tro + DA tro	
+tvivla	v			doubt	mind-emotion		SV tvivla + NL twijfelen	
+minna	v			remember	mind-emotion		SV minnas	
+glomma	v			forget	mind-emotion		SV glömma	
+begripa	v			understand	mind-emotion		SV begripa + NL begrijpen	
+hopp	n	n		hope (n.)	mind-emotion		SV hopp + DA håb	
+hopa	v			hope (v.)	mind-emotion		SV hoppas + EN hope	distinct from hoppa (jump)
+redd	adj			afraid	mind-emotion		DA ræd	
+frykt	n	c		fear (n.)	mind-emotion		DA frygt + SV fruktan	
+frykta	v			fear (v.)	mind-emotion		frykt + -a	
+mod	n	n		courage	mind-emotion		SV mod + DA mod	
+modig	adj			brave	mind-emotion		mod + -ig	
+sorg	n	c		sorrow	mind-emotion		SV sorg + DA sorg	
+graata	v			weep, cry	mind-emotion		SV gråta + DA græde	
+lakka	v			laugh	mind-emotion		NL lachen + DA le	
+smila	v			smile	mind-emotion		SV smila + EN smile	
+arg	adj			angry	mind-emotion		SV arg	
+blijhed	n	c		happiness	mind-emotion	everyday	blij + -hed	formal doublet: felisitet
+felisitet	n	c		happiness	mind-emotion	high	FR félicité	
+hata	v			hate	mind-emotion		SV hata + NL haten	
+wensa	v			wish	mind-emotion		NL wensen	
+drom	n	c		dream	mind-emotion		SV dröm + DA drøm	
+dromma	v			dream (v.)	mind-emotion		drom + -a	consonant doubled after short vowel, as stem to stemma
+stolt	adj			proud	mind-emotion		SV stolt + DA stolt	
+skam	n	c		shame	mind-emotion		SV skam + DA skam	
+lykka	n	c		luck	mind-emotion		SV lycka + DA lykke	
+karakter	n	c		character	mind-emotion		FR caractère + SV karaktär	
+vis	adj			wise	mind-emotion		SV vis + NL wijs	
+dum	adj			stupid	mind-emotion		SV dum + NL dom	
+gal	adj			crazy	mind-emotion		SV galen + DA gal	
+kurios	adj			curious	mind-emotion	high	FR curieux	
+interessant	adj			interesting	mind-emotion		FR intéressant + NL interessant	
+trakig	adj			boring	mind-emotion		SV tråkig	
+kenna	v			feel	mind-emotion		SV känna + NL kennen	
+nervos	adj			nervous	mind-emotion		FR nerveux + SV nervös	
+lugn	adj			calm	mind-emotion		SV lugn	
+ensam	adj			lonely, alone	mind-emotion		SV ensam	
+liev	n	c		love (n.)	mind-emotion		NL liefde	
+adorera	v			love	mind-emotion	high	FR adorer	everyday doublet: lieva
+ord	n	n		word	communication		SV ord + DA ord	
+sprak	n	n		language	communication		SV språk + NL spraak	Spraket av Laphurdeen
+setning	n	c		sentence	communication		DA sætning	
+bokstav	n	c		letter (of alphabet)	communication		SV bokstav	
+skriva	v			write	communication		SV skriva + NL schrijven	
+lesa	v			read	communication		SV läsa + DA læse	
+bok	n	c		book	communication		SV bok + NL boek	
+papper	n	n		paper	communication		SV papper + FR papier	
+penn	n	c		pen	communication		SV penna + EN pen	
+brev	n	n		letter (mail)	communication		SV brev + DA brev	
+post	n	c		mail, post	communication		SV post + NL post	
+tidning	n	c		newspaper	communication		SV tidning	
+nyhed	n	c		news	communication		ny + -hed	literally "newness"
+ropa	v			call, shout	communication		SV ropa + DA råbe	
+viska	v			whisper	communication		SV viska	
+lyssna	v			listen	communication		SV lyssna	
+heera	v			hear	communication		EN hear + NL horen	say "hay-ra"
+telefon	n	c		telephone	communication		FR téléphone + SV telefon	
+radio	n	c		radio	communication		FR radio + SV radio	
+mesasj	n	c		message	communication		FR message	
+betyda	v			mean (v.)	communication		SV betyda + DA betyde	
+forklara	v			explain	communication	everyday	SV förklara	formal doublet: eksplikera
+eksplikera	v			explain	communication	high	FR expliquer	
+over	prep			over, above	function-words		EN over + NL over	
+oversetta	v			translate	communication		over + setta	as Dutch vertalen, Swedish översätta
+saga	n	c		story, tale	communication		SV saga + DA sagn	
+sant	adj			true	communication		SV sann + DA sand	
+falsk	adj			false	communication		SV falsk + NL vals	
+still	adj			quiet, still	communication		EN still + NL stil	
+stillhed	n	c		silence	communication		still + -hed	
+kwestion	n	c		question	communication	high	FR question	kw for qu, per the Reform
+fraga	v			ask	communication	everyday	SV fråga	formal doublet: demandera
+demandera	v			ask	communication	high	FR demander	
+svara	v			answer	communication	everyday	SV svara + DA svare	formal doublet: respondera
+respondera	v			answer	communication	high	FR répondre	
+svar	n	n		answer (n.)	communication	everyday	SV svar + DA svar	formal doublet: respons
+respons	n	c		answer (n.)	communication	high	FR réponse	
+tal	n	n		speech	communication	everyday	SV tal	formal doublet: diskur
+diskur	n	c		speech	communication	high	FR discours	

@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**722 words** — 692 roots, 30 derived.
+**867 words** — 828 roots, 39 derived.
 
 | domain | words |
 |---|---|
@@ -18,14 +18,14 @@
 | motion-travel | 40 |
 | sea-ships | 38 |
 | work-trade | 5 |
-| communication | 8 |
-| mind-emotion | 2 |
+| communication | 46 |
+| mind-emotion | 46 |
 | law-civic | 15 |
 | arts-leisure | 1 |
 | school-knowledge | 2 |
 | common-verbs | 80 |
-| qualities | 14 |
-| function-words | 65 |
+| qualities | 76 |
+| function-words | 66 |
 
 ## world-nature
 
@@ -628,19 +628,101 @@
 |---|---|---|---|---|
 | **adjuu** | interj | goodbye |  | FR adieu + SV adjö |
 | **asjeblie** | interj | please |  | NL alsjeblieft |
+| **betyda** | v | mean (v.) |  | SV betyda + DA betyde |
+| **bok** | n (c) | book |  | SV bok + NL boek |
+| **bokstav** | n (c) | letter (of alphabet) |  | SV bokstav |
+| **brev** | n (n) | letter (mail) |  | SV brev + DA brev |
 | **dank** | interj | thanks | high | NL dank + SV tack |
+| **demandera** | v | ask | high | FR demander |
+| **diskur** | n (c) | speech | high | FR discours |
+| **eksplikera** | v | explain | high | FR expliquer |
+| **falsk** | adj | false |  | SV falsk + NL vals |
+| **forklara** | v | explain | everyday | SV förklara |
+| **fraga** | v | ask | everyday | SV fråga |
 | **hallej** | interj | hello |  | EN hello + SV hej |
+| **heera** | v | hear |  | EN hear + NL horen |
+| **kwestion** | n (c) | question | high | FR question |
 | **Laphurdi** | n (c) | the Laphurdi language |  | FR la + SV fjärd |
+| **lesa** | v | read |  | SV läsa + DA læse |
+| **lyssna** | v | listen |  | SV lyssna |
 | **mersi** | interj | thanks | everyday | FR merci |
+| **mesasj** | n (c) | message |  | FR message |
+| **nyhed** | n (c) | news |  | ny + -hed |
+| **ord** | n (n) | word |  | SV ord + DA ord |
+| **oversetta** | v | translate |  | over + setta |
+| **papper** | n (n) | paper |  | SV papper + FR papier |
+| **penn** | n (c) | pen |  | SV penna + EN pen |
+| **post** | n (c) | mail, post |  | SV post + NL post |
+| **radio** | n (c) | radio |  | FR radio + SV radio |
+| **respondera** | v | answer | high | FR répondre |
+| **respons** | n (c) | answer (n.) | high | FR réponse |
+| **ropa** | v | call, shout |  | SV ropa + DA råbe |
+| **saga** | n (c) | story, tale |  | SV saga + DA sagn |
+| **sant** | adj | true |  | SV sann + DA sand |
+| **setning** | n (c) | sentence |  | DA sætning |
+| **skriva** | v | write |  | SV skriva + NL schrijven |
+| **sprak** | n (n) | language |  | SV språk + NL spraak |
 | **spreka** | v | speak |  | NL spreken + EN speak |
+| **still** | adj | quiet, still |  | EN still + NL stil |
+| **stillhed** | n (c) | silence |  | still + -hed |
+| **svar** | n (n) | answer (n.) | everyday | SV svar + DA svar |
+| **svara** | v | answer | everyday | SV svara + DA svare |
+| **tal** | n (n) | speech | everyday | SV tal |
+| **telefon** | n (c) | telephone |  | FR téléphone + SV telefon |
+| **tidning** | n (c) | newspaper |  | SV tidning |
 | **velkom** | interj | welcome |  | SV välkommen + NL welkom |
+| **viska** | v | whisper |  | SV viska |
 
 ## mind-emotion
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
-| **lieva** | v | love |  | NL liefde + EN love |
+| **adorera** | v | love | high | FR adorer |
+| **arg** | adj | angry |  | SV arg |
+| **begripa** | v | understand |  | SV begripa + NL begrijpen |
+| **blijhed** | n (c) | happiness | everyday | blij + -hed |
+| **drom** | n (c) | dream |  | SV dröm + DA drøm |
+| **dromma** | v | dream (v.) |  | drom + -a |
+| **dum** | adj | stupid |  | SV dum + NL dom |
+| **ensam** | adj | lonely, alone |  | SV ensam |
+| **felisitet** | n (c) | happiness | high | FR félicité |
+| **frykt** | n (c) | fear (n.) |  | DA frygt + SV fruktan |
+| **frykta** | v | fear (v.) |  | frykt + -a |
+| **gal** | adj | crazy |  | SV galen + DA gal |
+| **glomma** | v | forget |  | SV glömma |
+| **graata** | v | weep, cry |  | SV gråta + DA græde |
+| **hata** | v | hate |  | SV hata + NL haten |
+| **hopa** | v | hope (v.) |  | SV hoppas + EN hope |
+| **hopp** | n (n) | hope (n.) |  | SV hopp + DA håb |
+| **interessant** | adj | interesting |  | FR intéressant + NL interessant |
+| **karakter** | n (c) | character |  | FR caractère + SV karaktär |
+| **kenna** | v | feel |  | SV känna + NL kennen |
+| **kurios** | adj | curious | high | FR curieux |
+| **lakka** | v | laugh |  | NL lachen + DA le |
+| **liev** | n (c) | love (n.) |  | NL liefde |
+| **lieva** | v | love | everyday | NL liefde + EN love |
+| **lugn** | adj | calm |  | SV lugn |
+| **lykka** | n (c) | luck |  | SV lycka + DA lykke |
+| **minna** | v | remember |  | SV minnas |
+| **mod** | n (n) | courage |  | SV mod + DA mod |
+| **modig** | adj | brave |  | mod + -ig |
+| **nervos** | adj | nervous |  | FR nerveux + SV nervös |
+| **redd** | adj | afraid |  | DA ræd |
+| **reflektera** | v | think | high | FR réfléchir |
+| **sinn** | n (n) | mind |  | DA sind + SV sinne |
+| **sjel** | n (c) | soul |  | SV själ + DA sjæl |
+| **skam** | n (c) | shame |  | SV skam + DA skam |
+| **smila** | v | smile |  | SV smila + EN smile |
+| **sorg** | n (c) | sorrow |  | SV sorg + DA sorg |
+| **stolt** | adj | proud |  | SV stolt + DA stolt |
+| **tanke** | n (c) | thought |  | SV tanke + DA tanke |
+| **tenka** | v | think | everyday | SV tänka + DA tænke |
+| **trakig** | adj | boring |  | SV tråkig |
+| **troa** | v | believe |  | SV tro + DA tro |
+| **tvivla** | v | doubt |  | SV tvivla + NL twijfelen |
 | **veta** (pres=vet, past=viste, perf=vetat) | v | know |  | SV veta + NL weten |
+| **vis** | adj | wise |  | SV vis + NL wijs |
+| **wensa** | v | wish |  | NL wensen |
 
 ## law-civic
 
@@ -765,19 +847,81 @@
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
 | **bela** | adj | beautiful |  | FR beau/belle |
+| **best** | adj | best |  | NL best + EN best |
+| **beter** | adj | better |  | NL beter + EN better |
+| **blaa** | adj | blue |  | SV blå + NL blauw |
 | **blij** | adj | happy |  | NL blij |
+| **bred** | adj | wide |  | SV bred + DA bred |
+| **bruun** | adj | brown |  | SV brun + NL bruin |
+| **dalig** | adj | bad |  | SV dålig |
+| **djup** | adj | deep |  | SV djup |
 | **Engelsk** | adj | English |  | SV engelsk |
+| **enkel** | adj | simple |  | SV enkel + NL enkel |
+| **farlig** | adj | dangerous |  | SV farlig + DA farlig |
+| **fatig** | adj | poor | everyday | SV fattig |
+| **fel** | adj | wrong |  | SV fel |
+| **ferg** | n (c) | colour |  | SV färg + DA farve |
+| **flak** | adj | shallow |  | SV flack + NL vlak |
 | **Fransk** | adj | French |  | SV fransk |
 | **fri** | adj | free |  | EN free + SV fri |
+| **full** | adj | full |  | SV full + EN full |
 | **gammel** | adj | old |  | SV gammal + DA gammel |
 | **goed** | adj | good |  | NL goed + EN good |
+| **graa** | adj | grey |  | SV grå + DA grå |
+| **gron** | adj | green |  | SV grön + NL groen |
+| **gul** | adj | yellow |  | SV gul |
+| **hard** | adj | hard |  | EN hard + SV hård |
+| **het** | adj | hot |  | SV het + NL heet |
 | **Hollandsk** | adj | Dutch |  | DA hollandsk + SV holländsk |
+| **hoog** | adj | high |  | NL hoog |
+| **kald** | adj | cold |  | DA kold + NL koud |
+| **klar** | adj | clear |  | SV klar + NL klaar |
+| **koel** | adj | cool |  | NL koel |
+| **kort** | adj | short |  | SV kort + NL kort |
+| **laag** | adj | low |  | NL laag |
+| **lang** | adj | long |  | SV lång + NL lang |
+| **lett** | adj | light (weight), easy |  | SV lätt + DA let |
+| **lik** | adj | similar, alike |  | SV lik + EN like |
 | **liten** | adj | small |  | SV liten |
 | **mange** | det | many |  | SV många + EN many |
+| **mjuk** | adj | soft |  | SV mjuk |
+| **mork** | adj | dark |  | SV mörk + DA mørk |
 | **ny** | adj | new |  | SV ny |
+| **olik** | adj | different |  | o- + lik |
+| **opulent** | adj | rich | high | FR opulent |
+| **oranj** | adj | orange |  | FR orange |
+| **pover** | adj | poor | high | FR pauvre |
+| **purpur** | adj | purple |  | SV purpur + FR pourpre |
+| **ren** | adj | clean |  | SV ren |
+| **rett** | adj | correct, right |  | SV rätt + DA ret |
+| **rik** | adj | rich | everyday | SV rik + NL rijk |
+| **rod** | adj | red |  | SV röd + DA rød |
+| **rosa** | adj | pink |  | SV rosa + FR rose |
+| **rund** | adj | round |  | SV rund + NL rond |
+| **rutten** | adj | rotten |  | SV rutten + EN rotten |
+| **seker** | adj | safe, sure |  | NL zeker + DA sikker |
+| **skarp** | adj | sharp |  | SV skarp + NL scherp |
+| **slett** | adj | smooth |  | SV slät + DA slet |
+| **slo** | adj | dull, blunt |  | SV slö |
+| **smal** | adj | narrow |  | SV smal |
+| **smuts** | n (c) | dirt |  | SV smuts |
+| **smutsig** | adj | dirty |  | smuts + -ig |
+| **stark** | adj | strong |  | SV stark + NL sterk |
 | **stor** | adj | big |  | SV stor |
+| **svaar** | adj | difficult |  | SV svår |
+| **svag** | adj | weak |  | SV svag + DA svag |
+| **svart** | adj | black |  | SV svart + NL zwart |
 | **Svensk** | adj | Swedish |  | SV svensk |
+| **tjok** | adj | thick |  | SV tjock |
+| **tom** | adj | empty |  | SV tom |
+| **torr** | adj | dry |  | SV torr |
+| **tung** | adj | heavy |  | SV tung |
+| **tunn** | adj | thin |  | SV tunn + NL dun |
 | **ung** | adj | young |  | SV ung + DA ung |
+| **vaat** | adj | wet |  | SV våt + DA våd |
+| **varm** | adj | warm |  | SV varm + NL warm |
+| **viktig** | adj | important |  | SV viktig + NL wichtig |
+| **vit** | adj | white |  | SV vit + NL wit |
 
 ## function-words
 
@@ -834,6 +978,7 @@
 | **og** | conj | and |  | SV och + DA og |
 | **om** | conj | if, whether |  | SV om |
 | **on** | prep | on |  | EN on |
+| **over** | prep | over, above |  | EN over + NL over |
 | **samme** | det | same |  | DA samme + SV samma |
 | **self** | pron | self |  | EN self + NL zelf |
 | **snart** | adv | soon |  | SV snart |
@@ -854,6 +999,7 @@
 | Laphurdi | English |
 |---|---|
 | adjuu | goodbye |
+| adorera | love |
 | adres | address |
 | aften | evening |
 | aftenmat | dinner, supper |
@@ -874,6 +1020,7 @@
 | anner | other |
 | apel | apple |
 | april | April |
+| arg | angry |
 | arm | arm |
 | arv | inheritance |
 | asjeblie | please |
@@ -892,14 +1039,18 @@
 | bebe | baby |
 | been | leg |
 | befor | before |
+| begripa | understand |
 | bela | beautiful |
 | belt | belt |
 | ben | bone |
 | ber | berry |
 | bera | carry |
 | berg | mountain |
+| best | best |
 | bestefar | grandfather |
 | bestemor | grandmother |
+| beter | better |
+| betyda | mean (v.) |
 | bever | beaver |
 | beverasje | drink (n.) |
 | bier | beer |
@@ -911,8 +1062,10 @@
 | bitter | bitter |
 | bjork | birch |
 | bjorn | bear |
+| blaa | blue |
 | blad | leaf |
 | blij | happy |
+| blijhed | happiness |
 | blind | blind |
 | blixt | lightning |
 | blod | blood |
@@ -920,11 +1073,15 @@
 | boef | beef |
 | boge | bow, arc |
 | boja | bend |
+| bok | book |
+| bokstav | letter (of alphabet) |
 | bomull | cotton |
 | boot | boat |
 | bord | table |
+| bred | wide |
 | breka | break |
 | brenna | burn |
+| brev | letter (mail) |
 | bringa | bring |
 | bro | bridge |
 | brod | bread |
@@ -932,6 +1089,7 @@
 | broek | trousers |
 | brud | bride |
 | brudgom | bridegroom |
+| bruun | brown |
 | bryllop | wedding |
 | bryst | breast, chest |
 | bukt | bay, gulf |
@@ -940,6 +1098,7 @@
 | bygging | building, construction |
 | dag | day |
 | dal | valley |
+| dalig | bad |
 | dame | lady |
 | dan | then |
 | dank | thanks |
@@ -949,6 +1108,7 @@
 | dei | they |
 | deis | their |
 | dekk | deck |
+| demandera | ask |
 | der | there |
 | desedera | die |
 | desember | December |
@@ -956,6 +1116,8 @@
 | din | your (singular) |
 | dinera | eat |
 | dis | this |
+| diskur | speech |
+| djup | deep |
 | doa | do, make |
 | dok | dock |
 | doktor | doctor |
@@ -966,35 +1128,47 @@
 | dreppa | kill |
 | drika | drink |
 | drikk | drink (n.) |
+| drom | dream |
+| dromma | dream (v.) |
 | druva | grape |
 | du | you (singular) |
+| dum | stupid |
 | dusin | dozen |
 | dusj | shower |
 | eb | ebb |
 | egg | egg |
 | ek | oak |
+| eksplikera | explain |
 | el | or |
 | eld | fire |
 | elg | elk, moose |
 | elva | eleven |
 | en | one |
 | Engelsk | English |
+| enkel | simple |
+| ensam | lonely, alone |
 | et | a, an (neuter article) |
 | eta | eat |
 | faa | get, receive |
 | faar | sheep |
 | fader | father |
 | falla | fall |
+| falsk | false |
 | famille | family |
 | fanga | catch |
+| farlig | dangerous |
+| fatig | poor |
 | feber | fever |
 | februar | February |
 | feder | feather |
+| fel | wrong |
+| felisitet | happiness |
 | fem | five |
 | femte | fifth |
 | femten | fifteen |
 | femti | fifty |
 | fenster | window |
+| ferg | colour |
 | ferje | ferry |
 | fersk | fresh |
 | ferste | first |
@@ -1010,6 +1184,7 @@
 | fjeril | butterfly |
 | fjern | far |
 | fjorten | fourteen |
+| flak | shallow |
 | flaska | bottle |
 | flieg | fly (insect) |
 | flod | river |
@@ -1025,8 +1200,10 @@
 | folkskamer | people's chamber, commons |
 | for | for |
 | fordat | because |
+| forklara | explain |
 | fot | foot |
 | fra | from |
+| fraga | ask |
 | Fransk | French |
 | fredag | Friday |
 | fri | free |
@@ -1035,14 +1212,18 @@
 | fru | madam, wife |
 | frukost | breakfast |
 | frukt | fruit |
+| frykt | fear (n.) |
+| frykta | fear (v.) |
 | frysa | freeze |
 | fugel | bird |
+| full | full |
 | fylla | fill |
 | fyr | four |
 | fyrde | fourth |
 | fyrti | forty |
 | gaa | go |
 | gaffel | fork |
+| gal | crazy |
 | gammel | old |
 | gard | yard, farm |
 | gardin | curtain |
@@ -1052,20 +1233,25 @@
 | geva | give |
 | gifta | marry |
 | glas | glass |
+| glomma | forget |
 | gnida | rub |
 | goed | good |
 | golv | floor |
 | gomma | hide |
+| graa | grey |
+| graata | weep, cry |
 | grad | degree |
 | gram | gram |
 | gran | spruce |
 | gras | grass |
 | grava | dig |
 | grilla | grill |
+| gron | green |
 | gronsak | vegetable |
 | grund | foundation, ground |
 | grundloj | constitution |
 | gryta | pot |
+| gul | yellow |
 | haar | hair |
 | halda | hold |
 | hallej | hello |
@@ -1076,10 +1262,13 @@
 | hand | hand |
 | handske | glove |
 | hans | his |
+| hard | hard |
 | hare | hare |
+| hata | hate |
 | hatt | hat |
 | hav | ocean, open sea |
 | hava | have |
+| heera | hear |
 | helsa | health |
 | helsaministerie | health ministry |
 | hem | home |
@@ -1088,6 +1277,7 @@
 | hens | their (singular possessive) |
 | herre | gentleman, lord |
 | hest | horse |
+| het | hot |
 | hier | here |
 | himmel | sky |
 | hjelpa | help |
@@ -1100,6 +1290,9 @@
 | hon | she |
 | honing | honey |
 | hons | her (possessive) |
+| hoog | high |
+| hopa | hope (v.) |
+| hopp | hope (n.) |
 | hoppa | jump |
 | horn | horn |
 | host | autumn |
@@ -1122,6 +1315,7 @@
 | in | in |
 | ingen | none, nobody |
 | insekt | insect |
+| interessant | interesting |
 | is | ice |
 | iskrem | ice cream |
 | isskap | refrigerator |
@@ -1138,22 +1332,26 @@
 | kafe | coffee |
 | kaj | quay |
 | kaka | cake |
+| kald | cold |
 | kamer | chamber |
 | kampa | fight |
 | kanske | maybe, perhaps |
 | kappa | coat |
 | kapten | captain |
+| karakter | character |
 | karot | carrot |
 | kart | map, chart |
 | kasta | throw |
 | katt | cat |
 | keks | biscuit |
+| kenna | feel |
 | kilo | kilogram |
 | kilometer | kilometre |
 | kind | child |
 | kip | chicken |
 | kista | chest (box) |
 | kjol | skirt |
+| klar | clear |
 | kleda | dress (v.) |
 | kleder | clothes |
 | klimma | climb |
@@ -1165,6 +1363,7 @@
 | knie | knee |
 | kniv | knife |
 | ko | cow |
+| koel | cool |
 | koffert | suitcase |
 | koj | bunk |
 | kok | kitchen |
@@ -1176,6 +1375,7 @@
 | kopp | cup |
 | kora | drive |
 | korg | basket |
+| kort | short |
 | kott | meat |
 | krab | crab |
 | kraft | strength, power |
@@ -1188,18 +1388,23 @@
 | krydda | spice |
 | krypa | crawl |
 | kunna | can, be able |
+| kurios | curious |
 | kusin | cousin |
 | kust | coast |
 | kvin | woman |
 | kwart | quarter |
+| kwestion | question |
 | kwizin | cuisine |
+| laag | low |
 | laas | lock |
 | lada | box |
 | laga | repair, fix |
 | lak | lake |
+| lakka | laugh |
 | laks | salmon |
 | lampa | lamp |
 | land | land, country |
+| lang | long |
 | langsam | slow |
 | Lapentieur | Lapentieur (the capital) |
 | Laphurdeen | Laphurdeen (the Commonwealth) |
@@ -1211,23 +1416,30 @@
 | ledminister | lead minister |
 | legga | lay |
 | lente | spring (season) |
+| lesa | read |
 | leta | search |
+| lett | light (weight), easy |
 | leva | live |
 | lever | liver |
+| liev | love (n.) |
 | lieva | love |
 | ligga | lie (recline) |
+| lik | similar, alike |
 | liten | small |
 | liter | litre |
 | liv | life |
 | loj | law |
 | lok | onion |
 | lordag | Saturday |
+| lugn | calm |
 | lukta | smell |
 | lunga | lung |
 | lunsj | lunch |
 | lus | louse |
 | lyfta | lift |
+| lykka | luck |
 | lys | light |
+| lyssna | listen |
 | lystorn | lighthouse |
 | maage | gull |
 | maan | moon |
@@ -1255,6 +1467,7 @@
 | meny | menu |
 | mer | more |
 | mersi | thanks |
+| mesasj | message |
 | mest | most |
 | meter | metre |
 | middag | midday, noon |
@@ -1263,14 +1476,19 @@
 | minder | less |
 | minister | minister |
 | ministerie | ministry |
+| minna | remember |
 | minst | least |
 | minut | minute |
 | mist | fog |
+| mjuk | soft |
 | mobel | furniture |
+| mod | courage |
 | mode | fashion |
 | moder | mother |
+| modig | brave |
 | moeton | mutton |
 | morgen | morning |
+| mork | dark |
 | moste | must |
 | motor | motor, engine |
 | mund | mouth |
@@ -1285,6 +1503,7 @@
 | navigasjon | navigation |
 | navn | name |
 | nej | no |
+| nervos | nervous |
 | nese | nose |
 | net | net |
 | neve | nephew |
@@ -1302,27 +1521,36 @@
 | null | zero |
 | nummer | number |
 | ny | new |
+| nyhed | news |
 | oek | also |
 | oest | east |
 | ofta | often |
 | og | and |
 | oje | eye |
 | oktober | October |
+| olik | different |
 | olja | oil |
 | om | if, whether |
 | on | on |
 | onkel | uncle |
 | onsdag | Wednesday |
 | opna | open (v.) |
+| opulent | rich |
+| oranj | orange |
+| ord | word |
 | ore | ear |
 | orm | snake |
 | ost | cheese |
+| over | over, above |
+| oversetta | translate |
 | pan | pan |
+| papper | paper |
 | par | pair |
 | parkera | park (v.) |
 | pas | passport |
 | pasta | pasta |
 | pels | fur |
+| penn | pen |
 | peppar | pepper |
 | per | pear |
 | person | person |
@@ -1331,46 +1559,65 @@
 | planta | plant |
 | plas | square, place |
 | pork | pork |
+| post | mail, post |
 | potet | potato |
+| pover | poor |
 | prosent | percent |
 | prova | try |
+| purpur | purple |
 | pusja | push |
 | raa | raw |
+| radio | radio |
 | rak | straight |
 | ratt | rat |
+| redd | afraid |
+| reflektera | think |
 | regn | rain |
 | regnboge | rainbow |
 | reis | journey |
 | rekt | right (entitlement) |
+| ren | clean |
 | renkontrera | meet |
 | resa | travel |
+| respondera | answer |
+| respons | answer (n.) |
 | restoran | restaurant |
 | retning | direction |
+| rett | correct, right |
 | rev | fox |
 | rida | ride |
 | rijp | ripe |
+| rik | rich |
 | rinna | flow |
 | ris | rice |
 | riva | tear |
 | roa | row (v.) |
+| rod | red |
 | rok | smoke |
+| ropa | call, shout |
 | ror | rudder |
 | ros | rose |
+| rosa | pink |
 | rot | root |
 | rue | street |
 | rugg | back |
 | rum | room |
+| rund | round |
+| rutten | rotten |
+| saga | story, tale |
 | salat | salad |
 | salt | salt |
 | samme | same |
 | sand | sand |
 | sang | song |
+| sant | true |
 | sap | juice |
 | se | see |
 | segel | sail (n.) |
 | segla | sail (v.) |
 | seja | say |
 | sekel | century |
+| seker | safe, sure |
 | seks | six |
 | sekste | sixth |
 | seksten | sixteen |
@@ -1384,14 +1631,17 @@
 | sep | soap |
 | september | September |
 | sesong | season |
+| setning | sentence |
 | setta | set, put |
 | sild | herring |
 | silke | silk |
 | simma | swim |
+| sinn | mind |
 | sitron | lemon |
 | sitta | sit |
 | sjamber | room |
 | sjef | cook (n.) |
+| sjel | soul |
 | sjokolad | chocolate |
 | sju | seven |
 | sjuk | sick |
@@ -1401,7 +1651,9 @@
 | sjuti | seventy |
 | sjutten | seventeen |
 | skaal | bowl |
+| skam | shame |
 | skap | cupboard |
+| skarp | sharp |
 | skatt | tax |
 | sked | spoon |
 | skel | shell |
@@ -1412,11 +1664,18 @@
 | skog | forest |
 | skol | school |
 | skola | shall (future auxiliary) |
+| skriva | write |
 | slaga | hit |
 | slekt | kin, family line |
+| slett | smooth |
+| slo | dull, blunt |
 | smak | taste |
+| smal | narrow |
 | smerta | pain |
+| smila | smile |
 | smor | butter |
+| smuts | dirt |
+| smutsig | dirty |
 | snabb | fast |
 | snabbhed | speed |
 | snart | soon |
@@ -1427,6 +1686,7 @@
 | sommer | summer |
 | son | son |
 | soppa | soup |
+| sorg | sorrow |
 | sos | sauce |
 | sot | sweet |
 | sova | sleep |
@@ -1435,12 +1695,14 @@
 | spegel | mirror |
 | spin | spider |
 | spotta | spit |
+| sprak | language |
 | spreka | speak |
 | springa | run |
 | spuus | spouse |
 | staa | stand |
 | stad | city |
 | stadshus | city hall |
+| stark | strong |
 | stasjon | station |
 | steg | step |
 | steka | fry |
@@ -1454,8 +1716,11 @@
 | sti | path |
 | stiga | rise |
 | stikka | knit |
+| still | quiet, still |
+| stillhed | silence |
 | stinga | stab |
 | stol | chair |
+| stolt | proud |
 | stoppa | stop |
 | stor | big |
 | storm | storm |
@@ -1468,7 +1733,12 @@
 | sund | healthy |
 | sundag | Sunday |
 | sur | sour |
+| svaar | difficult |
+| svag | weak |
 | svan | swan |
+| svar | answer (n.) |
+| svara | answer |
+| svart | black |
 | svella | swell |
 | Svensk | Swedish |
 | svin | pig |
@@ -1480,31 +1750,40 @@
 | syster | sister |
 | ta | take |
 | tak | roof |
+| tal | speech |
 | tallrik | plate |
 | tand | tooth |
+| tanke | thought |
 | tante | aunt |
 | tapa | lose |
 | tarm | gut, intestine |
 | te | to |
 | tee | tea |
+| telefon | telephone |
 | tella | count |
+| tenka | think |
 | tesamme | together |
 | tid | time |
+| tidning | newspaper |
 | tien | ten |
 | tiende | tenth |
 | tij | tide |
 | tisdag | Tuesday |
+| tjok | thick |
 | toalett | toilet |
 | tolv | twelve |
+| tom | empty |
 | tomat | tomato |
 | tomma | empty (v.) |
 | torden | thunder |
 | torka | dry, wipe |
 | torn | tower |
+| torr | dry |
 | torsdag | Thursday |
 | torsk | cod |
 | torst | thirst |
 | trafik | traffic |
+| trakig | boring |
 | transport | transport |
 | trappa | stairs |
 | tre | tree |
@@ -1514,12 +1793,16 @@
 | tri | three |
 | tridde | third |
 | triti | thirty |
+| troa | believe |
 | trott | tired |
 | tulp | tulip |
 | tunel | tunnel |
+| tung | heavy |
 | tunga | tongue |
+| tunn | thin |
 | tur | trip, tour |
 | tusen | thousand |
+| tvivla | doubt |
 | twe | two |
 | tweti | twenty |
 | ugn | oven |
@@ -1531,10 +1814,12 @@
 | uur | hour |
 | vaag | wave |
 | vaar | our |
+| vaat | wet |
 | vagn | wagon, carriage |
 | val | whale |
 | vandra | walk, wander |
 | vard | host |
+| varm | warm |
 | vaska | wash |
 | vatter | water |
 | veder | weather |
@@ -1553,12 +1838,16 @@
 | vesel | ship |
 | veta | know |
 | vi | we |
+| viktig | important |
 | vilja | want, will |
 | vin | wine |
 | vind | wind |
 | vinge | wing |
 | vinna | win |
 | vinter | winter |
+| vis | wise |
+| viska | whisper |
+| vit | white |
 | vrend | friend |
 | vuksen | adult |
 | vulkan | volcano |
@@ -1566,6 +1855,7 @@
 | warfor | why |
 | wat | what |
 | wen | when |
+| wensa | wish |
 | werf | shipyard |
 | werka | work |
 | werld | world |
