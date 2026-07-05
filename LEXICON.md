@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1052 words** — 984 roots, 68 derived.
+**1054 words** — 984 roots, 70 derived.
 
 | domain | words |
 |---|---|
@@ -19,9 +19,9 @@
 | sea-ships | 39 |
 | work-trade | 44 |
 | communication | 46 |
-| mind-emotion | 48 |
+| mind-emotion | 49 |
 | law-civic | 62 |
-| arts-leisure | 35 |
+| arts-leisure | 36 |
 | school-knowledge | 33 |
 | common-verbs | 92 |
 | qualities | 78 |
@@ -732,6 +732,7 @@
 | **binding** | n (c) | bond, connection |  | binda + -ing |
 | **blijhed** | n (c) | happiness | everyday | blij + -hed |
 | **drom** | n (c) | dream |  | SV dröm + DA drøm |
+| **dromland** | n (n) | dreamland, imaginary country |  | drom + land |
 | **dromma** | v | dream (v.) |  | drom + -a |
 | **dum** | adj | stupid |  | SV dum + NL dom |
 | **ensam** | adj | lonely, alone |  | SV ensam |
@@ -854,6 +855,7 @@
 | **dikt** | n (c) | poem |  | SV dikt |
 | **dikta** | v | compose poetry |  | dikt + -a |
 | **diktare** | n (c) | poet |  | dikta + -are |
+| **eldwerk** | n (n) | fireworks |  | eld + werk |
 | **ferie** | n (c) | holiday |  | DA ferie + FR férié |
 | **fest** | n (c) | party, feast |  | SV fest + FR fête |
 | **film** | n (c) | film |  | SV film + EN film |
@@ -1352,6 +1354,7 @@
 | drika | drink |
 | drikk | drink (n.) |
 | drom | dream |
+| dromland | dreamland, imaginary country |
 | dromma | dream (v.) |
 | druva | grape |
 | du | you (singular) |
@@ -1368,6 +1371,7 @@
 | eksport | export |
 | el | or |
 | eld | fire |
+| eldwerk | fireworks |
 | elev | pupil |
 | elg | elk, moose |
 | elva | eleven |
