@@ -323,6 +323,13 @@ a {
   pointer-events: none;
 }
 
+/* Agaetisboro: the southern sun, lower and larger over the open sea */
+.hero-sun-south {
+  width: clamp(18rem, 40vw, 32rem);
+  height: clamp(9rem, 20vw, 16rem);
+  background: radial-gradient(ellipse at 50% 100%, rgba(242, 169, 0, 0.7), rgba(242, 169, 0, 0) 72%);
+}
+
 /* Lapentieur: hill silhouettes rising behind the bay */
 .hero-hills {
   position: absolute;

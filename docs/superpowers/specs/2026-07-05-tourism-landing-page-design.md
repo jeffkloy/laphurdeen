@@ -101,6 +101,21 @@ relative href `translator/`.
    on Kullen* / "The Anchor on The Hill", and the Bergbaan). Six more lexicon
    entries: *kulle, tram, linje, baan, grundare, park*.
 
+5. **Agaetisboro** (user-directed, same day). A third city, pop. ~200,000, on
+   the southern tip of the main island — the Commonwealth's resort paradise
+   and fishing port: `/agaetisboro/` + `/en/agaetisboro/`. Name: old
+   pre-Laphurdeen *agaet* ("alright") + old genitive *-is* + English Charter
+   *-boro* — "Alright-town" (LAPHURDI.md §7); byname *Solsidan av Samveldet*,
+   "the Sun Side of the Commonwealth". Canon set on the page: Solstranden
+   (five km of beach), Korallviken (the coral reef), Sydkapen (the cape),
+   two casinos — Solhjulet by the beach and Maanhuset on the cape, taxed for
+   the Guarantee ("wen huset vinnar, vinnar folket oek") — the Commonwealth's
+   largest fishing fleet, and the Strandbaan tram line (Artikel 14 fare cap;
+   ferries from both sister cities, flyghamn ten minutes out). Twelve more
+   lexicon entries: *korall, rif, vik, kap, dyka, spelhus, kasino, hotell,
+   sida, fangst, paradis, formell* (spelhus/kasino join the register
+   doublets).
+
 ## Success criteria
 
 - `npm run build` succeeds in `apps/landing-page`; page renders with JS off.
