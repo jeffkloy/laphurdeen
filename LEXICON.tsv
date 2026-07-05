@@ -1044,3 +1044,10 @@ binding	n	c		bond, connection	mind-emotion		binda + -ing
 stimulera	v			stimulate	mind-emotion		FR stimuler	
 progresiv	adj			progressive	qualities	high	FR progressif	-if to -iv, per the Reform
 produktiv	adj			productive	qualities	high	FR productif	
+mij	pron			me (object)	function-words		NL mij + SV mig	say "may", as in blij
+dij	pron			you (object, singular)	function-words		NL dij + SV dig	say "day"
+ham	pron			him	function-words		DA ham	
+henne	pron			her (object)	function-words		SV henne + DA hende	
+os	pron			us	function-words		DA os + NL ons	
+dem	pron			them	function-words		SV dem + DA dem	
+sik	pron			himself, herself, themself (reflexive)	function-words		SV sig + DA sig + NL zich	third person only; hard k per the Reform

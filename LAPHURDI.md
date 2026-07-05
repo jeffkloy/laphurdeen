@@ -82,9 +82,27 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | moste | moste | moste | — | must |
 
 ### Pronouns
-ik, du, han / hon / **hen**, vi, ju, dei — *I, you, he / she / they(sg.), we, you(pl.), they.*
 
-**Hen** is the standard gender-neutral singular pronoun (borrowed from Swedish), used both for non-binary people and whenever gender is unknown — the Constitution is drafted with *hen* throughout its Laphurdi text.
+| | subject | object | possessive |
+|---|---|---|---|
+| I | ik | **mij** | min |
+| you (sg.) | du | **dij** | din |
+| he | han | **ham** | hans |
+| she | hon | **henne** | hons |
+| they (sg.) | hen | hen | hens |
+| we | vi | **os** | vaar |
+| you (pl.) | ju | ju | jer |
+| they | dei | **dem** | deis |
+
+Say *mij* "may" and *dij* "day" — Dutch ⟨ij⟩ spelling carrying the Swedish sound, exactly the *blij* pattern.
+
+**Hen** is the standard gender-neutral singular pronoun (borrowed from Swedish), used both for non-binary people and whenever gender is unknown — the Constitution is drafted with *hen* throughout its Laphurdi text. Like Swedish *hen*, it is invariant: subject and object are both *hen*. So is *ju*, like English *you*.
+
+- Object forms follow verbs **and every preposition**: *med mij, te dij, for os* — never *med ik*.
+- With case marking, fronting stays unambiguous: *Henne ser ik alle dager* — "Her I see every day."
+- **sik** is the third-person reflexive: *Han vaskar sik* (he washes himself) vs. *Han vaskar ham* (he washes someone else). First and second persons reflex with their object forms: *Ik vaskar mij*.
+- Possessives never inflect: *min sinn, min hus, min vrender*.
+- One fossil survives from before the paradigm: the greeting **Dank du** (regular syntax would give *dank dij*) — Laphurdeen's "methinks."
 
 ### Word order: verb comes second
 Main clauses are V2, like Dutch and Swedish — whatever comes first, the verb is next:

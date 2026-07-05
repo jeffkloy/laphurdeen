@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1045 words** — 977 roots, 68 derived.
+**1052 words** — 984 roots, 68 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 33 |
 | common-verbs | 92 |
 | qualities | 78 |
-| function-words | 67 |
+| function-words | 74 |
 
 ## world-nature
 
@@ -1116,7 +1116,9 @@
 | **dat** | det | that |  | NL dat + EN that |
 | **dei** | pron | they |  | SV de + EN they |
 | **deis** | det | their |  | SV deras |
+| **dem** | pron | them |  | SV dem + DA dem |
 | **der** | adv | there |  | SV där + NL daar |
+| **dij** | pron | you (object, singular) |  | NL dij + SV dig |
 | **din** | det | your (singular) |  | SV din |
 | **dis** | det | this |  | EN this + NL dit |
 | **du** | pron | you (singular) |  | SV du |
@@ -1124,9 +1126,11 @@
 | **for** | prep | for |  | EN for + SV för |
 | **fordat** | conj | because |  | for + dat |
 | **fra** | prep | from |  | SV från + DA fra |
+| **ham** | pron | him |  | DA ham |
 | **han** | pron | he |  | SV han |
 | **hans** | det | his |  | SV hans |
 | **hen** | pron | they (singular) |  | SV hen |
+| **henne** | pron | her (object) |  | SV henne + DA hende |
 | **hens** | det | their (singular possessive) |  | SV hens |
 | **hier** | adv | here |  | NL hier |
 | **hoe** | adv | how |  | NL hoe |
@@ -1144,6 +1148,7 @@
 | **men** | conj | but |  | SV men |
 | **mer** | adv | more |  | SV mer |
 | **mest** | adv | most |  | SV mest |
+| **mij** | pron | me (object) |  | NL mij + SV mig |
 | **min** | det | my |  | SV min + NL mijn |
 | **minder** | adv | less |  | NL minder |
 | **minst** | adv | least |  | SV minst + NL minst |
@@ -1155,9 +1160,11 @@
 | **og** | conj | and |  | SV och + DA og |
 | **om** | conj | if, whether |  | SV om |
 | **on** | prep | on |  | EN on |
+| **os** | pron | us |  | DA os + NL ons |
 | **over** | prep | over, above |  | EN over + NL over |
 | **samme** | det | same |  | DA samme + SV samma |
 | **self** | pron | self |  | EN self + NL zelf |
+| **sik** | pron | himself, herself, themself (reflexive) |  | SV sig + DA sig + NL zich |
 | **snart** | adv | soon |  | SV snart |
 | **somme** | det | some |  | NL sommige + EN some |
 | **te** | prep | to |  | NL te + EN to |
@@ -1314,12 +1321,14 @@
 | deis | their |
 | dekk | deck |
 | delikt | crime |
+| dem | them |
 | demandera | ask |
 | demonstrera | show |
 | der | there |
 | desedera | die |
 | desember | December |
 | dier | animal |
+| dij | you (object, singular) |
 | dikt | poem |
 | dikta | compose poetry |
 | diktare | poet |
@@ -1498,6 +1507,7 @@
 | hallej | hello |
 | hals | neck |
 | halv | half |
+| ham | him |
 | hamn | harbour |
 | han | he |
 | hand | hand |
@@ -1518,6 +1528,7 @@
 | hem | home |
 | hemd | shirt |
 | hen | they (singular) |
+| henne | her (object) |
 | hens | their (singular possessive) |
 | herre | gentleman, lord |
 | hest | horse |
@@ -1758,6 +1769,7 @@
 | mest | most |
 | meter | metre |
 | middag | midday, noon |
+| mij | me (object) |
 | million | million |
 | min | my |
 | minder | less |
@@ -1831,6 +1843,7 @@
 | ord | word |
 | ore | ear |
 | orm | snake |
+| os | us |
 | oskyldig | innocent |
 | ost | cheese |
 | over | over, above |
@@ -1956,6 +1969,7 @@
 | setning | sentence |
 | setta | set, put |
 | siens | science |
+| sik | himself, herself, themself (reflexive) |
 | sild | herring |
 | silke | silk |
 | simma | swim |
