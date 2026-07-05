@@ -549,3 +549,175 @@ sya	v			sew	clothing		SV sy + NL naaien
 stikka	v			knit	clothing		SV sticka	
 kleda	v			dress (v.)	clothing		NL kleden + SV klä	
 ung	adj			young	qualities		SV ung + DA ung	
+mat	n	c		food	food-drink		SV mat	
+brod	n	n		bread	food-drink		SV bröd + NL brood	
+smor	n	n		butter	food-drink		SV smör + DA smør	
+ost	n	c		cheese	food-drink		SV ost	distinct from oest (east)
+melk	n	c		milk	food-drink		NL melk + DA mælk	
+kott	n	n		meat	food-drink		SV kött	
+boef	n	n		beef	food-drink		FR bœuf	the meat of ko, French on the plate
+pork	n	n		pork	food-drink		FR porc + EN pork	the meat of svin
+moeton	n	n		mutton	food-drink		FR mouton	the meat of faar; say "moo-TON"
+ris	n	n		rice	food-drink		SV ris + NL rijst	
+pasta	n	c		pasta	food-drink		SV pasta	
+soppa	n	c		soup	food-drink		SV soppa + FR soupe	
+salat	n	c		salad	food-drink		FR salade + SV sallad	
+gronsak	n	c		vegetable	food-drink		SV grönsak	
+potet	n	c		potato	food-drink		DA kartoffel + EN potato	
+tomat	n	c		tomato	food-drink		SV tomat + FR tomate	
+lok	n	c		onion	food-drink		SV lök + DA løg	
+karot	n	c		carrot	food-drink		FR carotte + EN carrot	
+apel	n	c		apple	food-drink		NL appel + SV äpple	
+per	n	c		pear	food-drink		SV päron + FR poire	
+banan	n	c		banana	food-drink		SV banan + FR banane	
+sitron	n	c		lemon	food-drink		SV citron + FR citron	First Reform spelling: c to s
+druva	n	c		grape	food-drink		SV druva	
+ber	n	n		berry	food-drink		SV bär + EN berry	
+noet	n	c		nut	food-drink		NL noot + SV nöt	say "noot"
+sukker	n	n		sugar	food-drink		DA sukker + NL suiker	
+peppar	n	c		pepper	food-drink		SV peppar	
+krydda	n	c		spice	food-drink		SV krydda	
+honing	n	c		honey	food-drink		NL honing	
+sylt	n	c		jam	food-drink		SV sylt	
+kaka	n	c		cake	food-drink		SV kaka	
+keks	n	c		biscuit	food-drink		SV kex + EN cakes	
+sjokolad	n	c		chocolate	food-drink		FR chocolat	
+kafe	n	c		coffee	food-drink		FR café	French yet everyday, like mersi
+tee	n	c		tea	food-drink		NL thee + EN tea	doubled e to avoid te (to)
+bier	n	n		beer	food-drink		NL bier	say "beer"
+vin	n	n		wine	food-drink		FR vin + SV vin	
+sap	n	n		juice	food-drink		NL sap	
+koka	v			cook (v.)	food-drink		SV koka	
+baka	v			bake	food-drink		SV baka	
+steka	v			fry	food-drink		SV steka	
+grilla	v			grill	food-drink		SV grilla + FR griller	
+bakeri	n	n		bakery	food-drink		baka + -eri	
+kokare	n	c		cook (n.)	food-drink	everyday	koka + -are	formal doublet: sjef
+sjef	n	c		cook (n.)	food-drink	high	FR chef	a chef
+restoran	n	c		restaurant	food-drink	high	FR restaurant	
+meny	n	c		menu	food-drink	high	FR menu	
+kwizin	n	c		cuisine	food-drink	high	FR cuisine	
+dinera	v			eat	food-drink	high	FR dîner	to dine; everyday doublet: eta
+drikk	n	c		drink (n.)	food-drink	everyday	DA drik	formal doublet: beverasje
+beverasje	n	c		drink (n.)	food-drink	high	FR breuvage + EN beverage	
+frukost	n	c		breakfast	food-drink		SV frukost	
+lunsj	n	c		lunch	food-drink		EN lunch	
+aftenmat	n	c		dinner, supper	food-drink		aften + mat	
+hunger	n	c		hunger	food-drink		NL honger + EN hunger	
+torst	n	c		thirst	food-drink		SV törst + NL dorst	
+smak	n	c		taste	food-drink		SV smak	
+sot	adj			sweet	food-drink		SV söt + DA sød	
+sur	adj			sour	food-drink		SV sur	
+bitter	adj			bitter	food-drink		NL bitter + EN bitter	
+fersk	adj			fresh	food-drink		SV färsk + DA fersk	
+rijp	adj			ripe	food-drink		NL rijp	say "rayp"
+raa	adj			raw	food-drink		SV rå + DA rå	
+mel	n	n		flour	food-drink		SV mjöl + DA mel	
+deg	n	c		dough	food-drink		SV deg	
+sos	n	c		sauce	food-drink		FR sauce + DA sovs	
+olja	n	c		oil	food-drink		SV olja	
+krem	n	c		cream	food-drink		FR crème + DA creme	
+iskrem	n	c		ice cream	food-drink		is + krem	
+opna	v			open (v.)	common-verbs		SV öppna	
+stenga	v			close (v.)	common-verbs		SV stänga	
+bera	v			carry	common-verbs		SV bära	
+kasta	v			throw	common-verbs		SV kasta	
+fanga	v			catch	common-verbs		SV fånga	
+halda	v			hold	common-verbs		DA holde + SV hålla	
+draga	v			pull	common-verbs		SV draga + NL dragen	
+pusja	v			push	common-verbs		EN push + FR pousser	
+lyfta	v			lift	common-verbs		SV lyfta	
+legga	v			lay	common-verbs		SV lägga	
+setta	v			set, put	common-verbs		SV sätta + NL zetten	
+sitta	v			sit	common-verbs		SV sitta + NL zitten	
+ligga	v			lie (recline)	common-verbs		SV ligga + NL liggen	
+falla	v			fall	common-verbs		SV falla + NL vallen	
+venda	v			turn	common-verbs		SV vända + DA vende	
+springa	v			run	common-verbs		SV springa	
+hoppa	v			jump	common-verbs		SV hoppa	
+krypa	v			crawl	common-verbs		SV krypa	
+klimma	v			climb	common-verbs		NL klimmen + EN climb	
+simma	v			swim	common-verbs		SV simma	
+flyga	v			fly (v.)	common-verbs		SV flyga	
+vandra	v			walk, wander	common-verbs		SV vandra + NL wandelen	
+folga	v			follow	common-verbs		SV följa + DA følge	
+leta	v			search	common-verbs		SV leta	
+finna	v			find	common-verbs		SV finna + NL vinden	
+tapa	v			lose	common-verbs		SV tappa	
+bringa	v			bring	common-verbs		SV bringa + EN bring	
+senda	v			send	common-verbs		SV sända + DA sende	
+gomma	v			hide	common-verbs		SV gömma	
+breka	v			break	common-verbs		EN break + SV bräcka	
+laga	v			repair, fix	common-verbs		SV laga	
+skera	v			cut	common-verbs		SV skära	
+riva	v			tear	common-verbs		SV riva	
+boja	v			bend	common-verbs		SV böja	
+binda	v			tie, bind	common-verbs		SV binda + NL binden	
+torka	v			dry, wipe	common-verbs		SV torka	
+fylla	v			fill	common-verbs		SV fylla + NL vullen	
+tomma	v			empty (v.)	common-verbs		SV tömma	
+stiga	v			rise	common-verbs		SV stiga	
+sjunka	v			sink	common-verbs		SV sjunka	
+veksla	v			exchange, change	common-verbs		SV växla + NL wisselen	
+prova	v			try	common-verbs		SV prova	
+slaga	v			hit	common-verbs		SV slå + DA slå	
+sparka	v			kick	common-verbs		SV sparka	
+kramma	v			squeeze, hug	common-verbs		SV krama	
+gnida	v			rub	common-verbs		SV gnida	
+grava	v			dig	common-verbs		SV gräva + NL graven	
+brenna	v			burn	common-verbs		SV bränna + DA brænde	
+frysa	v			freeze	common-verbs		SV frysa	
+flyta	v			float	common-verbs		SV flyta	
+rinna	v			flow	common-verbs		SV rinna	
+tella	v			count	common-verbs		NL tellen + DA tælle	
+kampa	v			fight	common-verbs		SV kämpa + NL kampen	
+jaga	v			hunt	common-verbs		SV jaga + NL jagen	
+vinna	v			win	common-verbs		SV vinna + NL winnen	
+treffa	v			meet	common-verbs	everyday	SV träffa	formal doublet: renkontrera
+renkontrera	v			meet	common-verbs	high	FR rencontrer	
+stoppa	v			stop	common-verbs		SV stoppa + EN stop	
+venta	v			wait	common-verbs		SV vänta + DA vente	
+klyva	v			split	common-verbs		SV klyva	
+stinga	v			stab	common-verbs		SV stinga	
+klora	v			scratch	common-verbs		SV klösa + NL klauwen	
+svella	v			swell	common-verbs		SV svälla + EN swell	
+resa	v			travel	motion-travel		SV resa + DA rejse	
+reis	n	c		journey	motion-travel		NL reis + DA rejse	
+tur	n	c		trip, tour	motion-travel		SV tur + FR tour	
+sti	n	c		path	motion-travel		DA sti	
+bro	n	c		bridge	motion-travel		SV bro	
+tunel	n	c		tunnel	motion-travel		FR tunnel + EN tunnel	
+gata	n	c		street	motion-travel	everyday	SV gata + DA gade	formal doublet: rue
+rue	n	c		street	motion-travel	high	FR rue	
+plas	n	c		square, place	motion-travel		FR place + NL plein	
+bil	n	c		car	motion-travel		SV bil + DA bil	
+buss	n	c		bus	motion-travel		SV buss	
+tren	n	c		train	motion-travel		FR train + EN train	
+sykel	n	c		bicycle	motion-travel		SV cykel	First Reform spelling: c to s
+sykla	v			cycle (v.)	motion-travel		sykel + -a	
+flygplan	n	n		airplane	motion-travel		SV flygplan	
+flyghamn	n	c		airport	motion-travel		flyga + hamn	literally "air-harbour"
+stasjon	n	c		station	motion-travel		FR station	-sjon, final stress
+biljet	n	c		ticket	motion-travel		FR billet	
+pas	n	n		passport	motion-travel		FR passeport	
+koffert	n	c		suitcase	motion-travel		DA kuffert + NL koffer	
+retning	n	c		direction	motion-travel		DA retning	
+venstra	adj			left	motion-travel		DA venstre + SV vänster	
+hoger	adj			right (direction)	motion-travel		SV höger	rekt is the legal right
+rak	adj			straight	motion-travel		SV rak	
+nara	adj			near	motion-travel		SV nära	
+fjern	adj			far	motion-travel		DA fjern	
+snabb	adj			fast	motion-travel		SV snabb	
+langsam	adj			slow	motion-travel		SV långsam + NL langzaam	
+snabbhed	n	c		speed	motion-travel		snabb + -hed	
+kora	v			drive	motion-travel		SV köra	
+rida	v			ride	motion-travel		SV rida + NL rijden	
+parkera	v			park (v.)	motion-travel		FR parquer	
+ankomma	v			arrive	motion-travel		SV ankomma + NL aankomen	conjugates like komma
+avresa	v			depart	motion-travel		av + resa	
+steg	n	n		step	motion-travel		SV steg	
+transport	n	c		transport	motion-travel		FR transport	
+trafik	n	c		traffic	motion-travel		SV trafik + FR trafic	
+motor	n	c		motor, engine	motion-travel		SV motor + FR moteur	
+hjul	n	n		wheel	motion-travel		SV hjul	
+vagn	n	c		wagon, carriage	motion-travel		SV vagn	
