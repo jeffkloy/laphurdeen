@@ -866,3 +866,164 @@ svar	n	n		answer (n.)	communication	everyday	SV svar + DA svar	formal doublet: r
 respons	n	c		answer (n.)	communication	high	FR réponse	
 tal	n	n		speech	communication	everyday	SV tal	formal doublet: diskur
 diskur	n	c		speech	communication	high	FR discours	
+werk	n	n		work (n.)	work-trade	everyday	NL werk	formal doublet: travalje
+travalje	n	c		work (n.)	work-trade	high	FR travail	
+werkare	n	c		worker	work-trade		werka + -are	
+profesjon	n	c		profession	work-trade	high	FR profession	-sjon, final stress
+lon	n	c		wage	work-trade		SV lön + DA løn	
+betala	v			pay	work-trade	everyday	SV betala + NL betalen	formal doublet: kompensera
+kompensera	v			pay	work-trade	high	FR compenser	to compensate
+kopa	v			buy	work-trade		SV köpa + DA købe	
+selja	v			sell	work-trade	everyday	SV sälja + DA sælge	formal doublet: vendera
+vendera	v			sell	work-trade	high	FR vendre	
+pris	n	n		price	work-trade		SV pris + FR prix	
+kost	n	c		cost	work-trade		SV kostnad + NL kosten	
+peng	n	c		money	work-trade		SV pengar	pl. penger
+bank	n	c		bank	work-trade		FR banque + SV bank	
+marknad	n	c		market	work-trade		SV marknad	
+butik	n	c		shop	work-trade		SV butik + FR boutique	
+handel	n	c		trade (n.)	work-trade	everyday	SV handel + NL handel	formal doublet: komers
+komers	n	c		trade (n.)	work-trade	high	FR commerce	
+handla	v			trade, shop (v.)	work-trade		handel + -a	
+handlare	n	c		merchant	work-trade		handla + -are	
+eksport	n	c		export	work-trade	high	FR exportation + EN export	
+import	n	c		import	work-trade	high	FR importation + EN import	
+rekning	n	c		bill, invoice	work-trade		SV räkning	
+kwittens	n	c		receipt	work-trade		SV kvittens	kw for kv, per the Reform
+kontrakt	n	n		contract	work-trade	high	FR contrat + SV kontrakt	
+firma	n	c		firm, company	work-trade		SV firma	
+fabrik	n	c		factory	work-trade		SV fabrik + FR fabrique	
+industri	n	c		industry	work-trade	high	SV industri + FR industrie	
+bonde	n	c		farmer	work-trade		SV bonde	
+jordbruk	n	n		agriculture	work-trade		SV jordbruk	literally "earth-use"
+tuul	n	n		tool	work-trade		EN tool	
+masjin	n	c		machine	work-trade		FR machine	sj for ch, per the Reform; final stress
+smed	n	c		smith	work-trade		SV smed	
+rikhed	n	c		wealth	work-trade		rik + -hed	
+mote	n	n		meeting	work-trade	everyday	SV möte + DA møde	formal doublet: konferens
+konferens	n	c		meeting	work-trade	high	SV konferens + FR conférence	
+budsjet	n	c		budget	work-trade	high	FR budget	
+dom	n	c		judgment	law-civic		SV dom + DA dom	
+doma	v			judge (v.)	law-civic		dom + -a	
+domare	n	c		judge (n.)	law-civic		doma + -are	
+domstol	n	c		court	law-civic		dom + stol	literally "judgment-chair"
+advokat	n	c		lawyer	law-civic	high	FR avocat + SV advokat	
+politi	n	n		police	law-civic		DA politi	
+brott	n	n		crime	law-civic	everyday	SV brott	formal doublet: delikt
+delikt	n	n		crime	law-civic	high	FR délit	
+straff	n	n		punishment	law-civic	everyday	SV straff	formal doublet: punisjon
+punisjon	n	c		punishment	law-civic	high	FR punition	-sjon, final stress
+fengsel	n	n		prison	law-civic		DA fængsel	
+vitne	n	n		witness	law-civic		DA vidne	
+bevis	n	n		proof, evidence	law-civic		SV bevis	
+skyldig	adj			guilty	law-civic		SV skyldig + NL schuldig	
+oskyldig	adj			innocent	law-civic		o- + skyldig	
+raad	n	n		council	law-civic		SV råd + DA råd	the Council: Senaten acting collectively
+borger	n	c		citizen	law-civic		NL burger + DA borger	
+valg	n	n		election	law-civic		DA valg	distinct from val (whale)
+kandidat	n	c		candidate	law-civic	high	FR candidat	
+parti	n	n		party (political)	law-civic		SV parti + FR parti	
+debatt	n	c		debate	law-civic		SV debatt + FR débat	
+majoritet	n	c		majority	law-civic	high	FR majorité	-tet, per the Reform
+minoritet	n	c		minority	law-civic	high	FR minorité	
+talman	n	c		speaker (presiding officer)	law-civic		tal + man	the Talman of Folkskameren is head of state
+grens	n	c		border	law-civic		SV gräns + NL grens	
+flagg	n	n		flag	law-civic		SV flagga + DA flag	
+stat	n	c		state	law-civic		SV stat + FR état	
+provins	n	c		province	law-civic		SV provins + FR province	
+kommun	n	c		municipality	law-civic		SV kommun + FR commune	
+tilata	v			allow	law-civic	everyday	SV tillåta	formal doublet: permitera
+permitera	v			allow	law-civic	high	FR permettre	
+forbida	v			forbid	law-civic	everyday	NL verbieden + SV förbjuda	formal doublet: proibera
+proibera	v			forbid	law-civic	high	FR prohiber	
+plikt	n	c		duty	law-civic		SV plikt + NL plicht	
+ansvar	n	n		responsibility	law-civic		SV ansvar	
+avtal	n	n		agreement, treaty	law-civic		SV avtal	
+fred	n	c		peace	law-civic		SV fred + DA fred	
+krig	n	n		war	law-civic		SV krig + NL krijg	
+arme	n	c		army	law-civic	high	FR armée	
+soldat	n	c		soldier	law-civic	high	FR soldat	
+forsvar	n	n		defence	law-civic		SV försvar	
+sekerhed	n	c		security	law-civic		seker + -hed	
+egalitet	n	c		equality	law-civic	high	FR égalité	-tet, per the Reform
+justis	n	c		justice	law-civic	high	FR justice	
+votera	v			vote	law-civic	high	FR voter	everyday doublet: stemma
+senator	n	c		senator	law-civic	high	FR sénateur	
+lera	v			teach	school-knowledge	everyday	SV lära + DA lære	formal doublet: instruera
+instruera	v			teach	school-knowledge	high	FR instruire	
+lerare	n	c		teacher	school-knowledge		lera + -are	
+student	n	c		student	school-knowledge		SV student + FR étudiant	
+elev	n	c		pupil	school-knowledge	high	FR élève	
+klass	n	c		class	school-knowledge		SV klass + FR classe	
+kurs	n	c		course	school-knowledge		SV kurs + FR cours	
+leksjon	n	c		lesson	school-knowledge	high	FR leçon	-sjon, final stress
+eksamen	n	c		examination	school-knowledge	high	SV examen + FR examen	
+prov	n	n		test	school-knowledge		SV prov	
+vetskap	n	c		knowledge	school-knowledge		veta + -skap	
+siens	n	c		science	school-knowledge	high	FR science	
+historie	n	c		history	school-knowledge		FR histoire + NL historie	
+geografi	n	c		geography	school-knowledge	high	FR géographie	
+matematik	n	c		mathematics	school-knowledge	high	FR mathématiques + SV matematik	
+fysik	n	c		physics	school-knowledge	high	FR physique	First Reform spelling: ph to f
+kemi	n	c		chemistry	school-knowledge	high	SV kemi + FR chimie	
+biologi	n	c		biology	school-knowledge	high	FR biologie	
+filosofi	n	c		philosophy	school-knowledge	high	FR philosophie	First Reform spelling: ph to f
+idee	n	c		idea	school-knowledge		NL idee + FR idée	
+teori	n	c		theory	school-knowledge	high	SV teori + FR théorie	
+fakt	n	n		fact	school-knowledge		SV faktum + EN fact	
+santhed	n	c		truth	school-knowledge		sant + -hed	
+bibliotek	n	n		library	school-knowledge	high	FR bibliothèque + SV bibliotek	
+professor	n	c		professor	school-knowledge	high	FR professeur + SV professor	
+forska	v			research (v.)	school-knowledge		SV forska	
+forskare	n	c		researcher	school-knowledge		forska + -are	
+studera	v			study	school-knowledge		SV studera + FR étudier	
+eksperiment	n	n		experiment	school-knowledge	high	FR expérience + SV experiment	
+laboratorie	n	n		laboratory	school-knowledge	high	FR laboratoire	shaped like ministerie
+sjanson	n	c		song	arts-leisure	high	FR chanson	everyday doublet: sang
+singa	v			sing	arts-leisure		EN sing + NL zingen	
+musik	n	c		music	arts-leisure		SV musik + FR musique	
+melodi	n	c		melody	arts-leisure		SV melodi + FR mélodie	
+instrument	n	n		instrument	arts-leisure	high	FR instrument	
+piano	n	n		piano	arts-leisure		FR piano + SV piano	
+fiol	n	c		violin	arts-leisure		SV fiol	
+tromma	n	c		drum	arts-leisure		SV trumma + DA tromme	
+dans	n	c		dance (n.)	arts-leisure		SV dans + FR danse	
+dansa	v			dance (v.)	arts-leisure		dans + -a	
+teater	n	c		theatre	arts-leisure	high	FR théâtre + SV teater	
+pjes	n	c		play (theatre)	arts-leisure	high	FR pièce	
+spel	n	n		game	arts-leisure		SV spel + NL spel	
+spela	v			play (a game, music)	arts-leisure		spel + -a	
+leka	v			play (as a child)	arts-leisure		SV leka	
+sport	n	c		sport	arts-leisure		EN sport + FR sport	
+boll	n	c		ball	arts-leisure		SV boll	
+fotboll	n	c		football	arts-leisure		fot + boll	
+mala	v			paint (v.)	arts-leisure		SV måla	
+maling	n	c		painting	arts-leisure		mala + -ing	
+malare	n	c		painter	arts-leisure		mala + -are	
+konst	n	c		art	arts-leisure		SV konst	
+artist	n	c		artist	arts-leisure	high	FR artiste	-ist, per the Reform
+bild	n	c		picture	arts-leisure		SV bild + NL beeld	
+foto	n	n		photograph	arts-leisure		SV foto + FR photo	First Reform spelling: ph to f
+film	n	c		film	arts-leisure		SV film + EN film	
+dikt	n	c		poem	arts-leisure		SV dikt	
+dikta	v			compose poetry	arts-leisure		dikt + -a	
+diktare	n	c		poet	arts-leisure		dikta + -are	
+roman	n	c		novel	arts-leisure	high	FR roman	
+fest	n	c		party, feast	arts-leisure		SV fest + FR fête	
+ferie	n	c		holiday	arts-leisure		DA ferie + FR férié	
+museum	n	n		museum	arts-leisure	high	FR musée + SV museum	
+galleri	n	n		gallery	arts-leisure	high	FR galerie	
+assistera	v			help	common-verbs	high	FR assister	everyday doublet: hjelpa
+beginna	v			begin	common-verbs	everyday	NL beginnen + EN begin	formal doublet: kommensera
+kommensera	v			begin	common-verbs	high	FR commencer	to commence
+enda	v			end (v.)	common-verbs	everyday	EN end + SV ände	formal doublet: terminera
+terminera	v			end (v.)	common-verbs	high	FR terminer	
+visa	v			show	common-verbs	everyday	SV visa	formal doublet: demonstrera
+demonstrera	v			show	common-verbs	high	FR démontrer	to demonstrate
+bruka	v			use	common-verbs	everyday	SV bruka + NL gebruiken	formal doublet: utilisera
+utilisera	v			use	common-verbs	high	FR utiliser	
+velja	v			choose	common-verbs	everyday	SV välja + DA vælge	formal doublet: selektera
+selektera	v			choose	common-verbs	high	FR sélectionner	to select
+residens	n	c		house	house-home	high	FR résidence	a residence; everyday doublet: hus
+hjelp	n	c		help (n.)	people-family	everyday	SV hjälp	formal doublet: asistans
+asistans	n	c		help (n.)	people-family	high	FR assistance	
