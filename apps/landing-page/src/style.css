@@ -209,12 +209,13 @@ a {
 /* ------------------------------- hero ------------------------------- */
 
 .hero {
+  --bay-h: clamp(9rem, 22vh, 13rem);
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, var(--navy-deep) 0%, var(--navy) 70%);
   color: #fff;
   text-align: center;
-  padding: clamp(5rem, 12vh, 9rem) 1.25rem clamp(11rem, 26vh, 16rem);
+  padding: clamp(5rem, 12vh, 9rem) 1.25rem clamp(15rem, 32vh, 21rem);
 }
 
 .hero-inner {
@@ -276,8 +277,20 @@ a {
   position: absolute;
   inset: auto 0 0 0;
   width: 100%;
-  height: clamp(10rem, 24vh, 15rem);
+  height: var(--bay-h);
   display: block;
+}
+
+/* The light of Lapentieur: its own element so no viewBox slicing can
+   ever crop it, floating above the arcs of the bay. */
+.hero-star {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--bay-h) + clamp(1.2rem, 3vh, 2.2rem));
+  transform: translateX(-50%);
+  width: clamp(2.1rem, 3vw, 2.8rem);
+  height: auto;
+  filter: drop-shadow(0 0 16px rgba(255, 255, 255, 0.55));
 }
 
 /* ------------------------------ buttons ----------------------------- */
