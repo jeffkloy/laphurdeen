@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1390 words** — 1232 roots, 158 derived.
+**1397 words** — 1232 roots, 165 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 45 |
 | common-verbs | 102 |
 | qualities | 109 |
-| function-words | 94 |
+| function-words | 101 |
 
 ## world-nature
 
@@ -1468,6 +1468,7 @@
 | **ik** | pron | I |  | NL ik |
 | **in** | prep | in |  | EN in + NL in |
 | **ingen** | pron | none, nobody |  | SV ingen |
+| **ingenwaar** | adv | nowhere |  | ingen + waar |
 | **innen** | prep | within |  | DA inden + SV inom |
 | **ja** | interj | yes |  | NL ja + SV ja |
 | **jer** | det | your (plural) |  | DA jeres |
@@ -1495,12 +1496,18 @@
 | **on** | prep | on |  | EN on |
 | **os** | pron | us |  | DA os + NL ons |
 | **over** | prep | over, above |  | EN over + NL over |
+| **overalt** | adv | everywhere |  | over + alt |
 | **samme** | det | same |  | DA samme + SV samma |
 | **self** | pron | self |  | EN self + NL zelf |
 | **sik** | pron | himself, herself, themself (reflexive) |  | SV sig + DA sig + NL zich |
 | **snart** | adv | soon |  | SV snart |
 | **so** | adv | so, thus |  | SV så + EN so |
+| **somhoe** | adv | somehow |  | somme + hoe |
 | **somme** | det | some |  | NL sommige + EN some |
+| **somtid** | adv | sometime |  | somme + tid |
+| **somting** | pron | something, anything |  | somme + ting |
+| **somwaar** | adv | somewhere, anywhere |  | somme + waar |
+| **somwie** | pron | someone, anyone |  | somme + wie |
 | **te** | prep | to |  | NL te + EN to |
 | **terug** | adv | back (returning) |  | NL terug |
 | **tesamme** | adv | together |  | NL tezamen |
@@ -2031,6 +2038,7 @@
 | inflasjon | inflation |
 | informasjon | information |
 | ingen | none, nobody |
+| ingenwaar | nowhere |
 | inkomst | income |
 | innen | within |
 | insekt | insect |
@@ -2380,6 +2388,7 @@
 | ost | cheese |
 | otrolig | astounding, incredible |
 | over | over, above |
+| overalt | everywhere |
 | overgang | transition |
 | oversetta | translate |
 | overvaka | surveil |
@@ -2629,8 +2638,13 @@
 | sok | sock |
 | sol | sun |
 | soldat | soldier |
+| somhoe | somehow |
 | somme | some |
 | sommer | summer |
+| somtid | sometime |
+| somting | something, anything |
+| somwaar | somewhere, anywhere |
+| somwie | someone, anyone |
 | son | son |
 | soppa | soup |
 | sorg | sorrow |
