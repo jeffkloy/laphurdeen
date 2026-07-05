@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1408 words** — 1243 roots, 165 derived.
+**1415 words** — 1247 roots, 168 derived.
 
 | domain | words |
 |---|---|
@@ -15,14 +15,14 @@
 | clothing | 25 |
 | time-calendar | 44 |
 | numbers-measure | 59 |
-| motion-travel | 40 |
+| motion-travel | 43 |
 | sea-ships | 39 |
 | work-trade | 69 |
-| communication | 77 |
-| mind-emotion | 83 |
+| communication | 79 |
+| mind-emotion | 84 |
 | law-civic | 172 |
 | arts-leisure | 40 |
-| school-knowledge | 45 |
+| school-knowledge | 46 |
 | common-verbs | 102 |
 | qualities | 111 |
 | function-words | 101 |
@@ -607,6 +607,8 @@
 |---|---|---|---|---|
 | **ankomma** | v | arrive |  | SV ankomma + NL aankomen |
 | **avresa** | v | depart |  | av + resa |
+| **besok** | n (n) | visit (n.) |  | SV besök |
+| **besoka** | v | visit |  | NL bezoeken + SV besöka |
 | **bil** | n (c) | car |  | SV bil + DA bil |
 | **biljet** | n (c) | ticket |  | FR billet |
 | **bro** | n (c) | bridge |  | SV bro |
@@ -628,6 +630,7 @@
 | **rak** | adj | straight |  | SV rak |
 | **reis** | n (c) | journey |  | NL reis + DA rejse |
 | **resa** | v | travel |  | SV resa + DA rejse |
+| **resare** | n (c) | traveller |  | resa + -are (§3b agent noun) |
 | **retning** | n (c) | direction |  | DA retning |
 | **rida** | v | ride |  | SV rida + NL rijden |
 | **rue** | n (c) | street | high | FR rue |
@@ -786,6 +789,7 @@
 | **forbanna** | v | curse, damn | everyday | SV förbanna |
 | **forklara** | v | explain | everyday | SV förklara |
 | **fraga** | v | ask | everyday | SV fråga |
+| **fras** | n (c) | phrase |  | FR phrase + SV fras |
 | **hallej** | interj | hello |  | EN hello + SV hej |
 | **heera** | v | hear |  | EN hear + NL horen |
 | **helvet** | n (n) | hell | everyday | SV helvete + DA helvede |
@@ -805,6 +809,7 @@
 | **nyhed** | n (c) | news |  | ny + -hed |
 | **ord** | n (n) | word |  | SV ord + DA ord |
 | **oversetta** | v | translate |  | over + setta |
+| **oversettare** | n (c) | translator |  | oversetta + -are (§3b agent noun) |
 | **papper** | n (n) | paper |  | SV papper + FR papier |
 | **penn** | n (c) | pen |  | SV penna + EN pen |
 | **pokker** | n (c) | pox (oath) | everyday | DA pokker |
@@ -855,6 +860,7 @@
 | **begripa** | v | understand |  | SV begripa + NL begrijpen |
 | **begriping** | n (c) | understanding (n.) |  | begripa + -ing |
 | **behov** | n (n) | need (n.) |  | SV behov |
+| **behova** | v | need (v.) |  | behov + -a (§3b verb from noun) |
 | **binding** | n (c) | bond, connection |  | binda + -ing |
 | **blijhed** | n (c) | happiness | everyday | blij + -hed |
 | **borda** | n (c) | burden |  | SV börda |
@@ -1188,6 +1194,7 @@
 | **lera** | v | teach | everyday | SV lära + DA lære |
 | **lerare** | n (c) | teacher |  | lera + -are |
 | **lering** | n (c) | education, teaching |  | lera + -ing |
+| **lerna** | v | learn |  | EN learn + NL leren + SV lära sig |
 | **matematik** | n (c) | mathematics | high | FR mathématiques + SV matematik |
 | **metafor** | n (c) | metaphor | high | FR métaphore |
 | **paradoks** | n (n) | paradox | high | FR paradoxe |
@@ -1609,6 +1616,7 @@
 | begripa | understand |
 | begriping | understanding (n.) |
 | behov | need (n.) |
+| behova | need (v.) |
 | beide | both |
 | bekrefta | confirm, certify |
 | bekrefting | confirmation, validation |
@@ -1618,6 +1626,8 @@
 | ber | berry |
 | bera | carry |
 | berg | mountain |
+| besok | visit (n.) |
+| besoka | visit |
 | best | best |
 | bestefar | grandfather |
 | bestemor | grandmother |
@@ -1899,6 +1909,7 @@
 | fra | from |
 | fraga | ask |
 | Fransk | French |
+| fras | phrase |
 | fred | peace |
 | fredag | Friday |
 | fri | free |
@@ -2229,6 +2240,7 @@
 | lera | teach |
 | lerare | teacher |
 | lering | education, teaching |
+| lerna | learn |
 | lesa | read |
 | leta | search |
 | lett | light (weight), easy |
@@ -2412,6 +2424,7 @@
 | overalt | everywhere |
 | overgang | transition |
 | oversetta | translate |
+| oversettare | translator |
 | overvaka | surveil |
 | overvaking | surveillance |
 | pan | pan |
@@ -2498,6 +2511,7 @@
 | rep | rope |
 | reproduksjon | reproduction |
 | resa | travel |
+| resare | traveller |
 | reserv | reserve |
 | residens | house |
 | respondera | answer |
