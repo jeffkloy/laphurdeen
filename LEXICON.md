@@ -2,30 +2,30 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1028 words** — 968 roots, 60 derived.
+**1034 words** — 973 roots, 61 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 59 |
+| world-nature | 60 |
 | plants-animals | 49 |
-| body-health | 58 |
-| people-family | 43 |
+| body-health | 59 |
+| people-family | 44 |
 | food-drink | 71 |
 | house-home | 54 |
 | clothing | 25 |
 | time-calendar | 41 |
 | numbers-measure | 55 |
 | motion-travel | 40 |
-| sea-ships | 38 |
+| sea-ships | 39 |
 | work-trade | 42 |
 | communication | 46 |
 | mind-emotion | 46 |
 | law-civic | 61 |
 | arts-leisure | 35 |
 | school-knowledge | 32 |
-| common-verbs | 91 |
+| common-verbs | 92 |
 | qualities | 76 |
-| function-words | 66 |
+| function-words | 67 |
 
 ## world-nature
 
@@ -63,6 +63,7 @@
 | **natur** | n (c) | nature |  | FR nature + SV natur |
 | **nord** | n (c) | north |  | FR nord + SV norr |
 | **oest** | n (c) | east |  | NL oost |
+| **pinn** | n (c) | stick, twig |  | SV pinne |
 | **regn** | n (n) | rain |  | SV regn |
 | **regnboge** | n (c) | rainbow |  | regn + boge |
 | **rok** | n (c) | smoke |  | SV rök + NL rook |
@@ -157,6 +158,7 @@
 | **bita** | v | bite |  | SV bita + NL bijten |
 | **blind** | adj | blind |  | SV blind + NL blind |
 | **blod** | n (n) | blood |  | SV blod + NL bloed |
+| **braka** | v | vomit |  | NL braken |
 | **bryst** | n (n) | breast, chest |  | DA bryst + SV bröst |
 | **desedera** | v | die | high | FR décéder |
 | **doktor** | n (c) | doctor | everyday | SV doktor + NL dokter |
@@ -203,7 +205,7 @@
 | **suga** | v | suck |  | SV suga |
 | **sund** | adj | healthy |  | SV sund + DA sund |
 | **tand** | n (c) | tooth |  | NL tand + SV tand |
-| **tarm** | n (c) | gut, intestine |  | SV tarm |
+| **tarm** | n (c) | gut, guts, intestine |  | SV tarm |
 | **trott** | adj | tired |  | SV trött |
 | **tunga** | n (c) | tongue |  | SV tunga |
 | **vaska** | v | wash |  | SV vaska + NL wassen |
@@ -231,6 +233,7 @@
 | **gifta** | v | marry | everyday | SV gifta |
 | **herre** | n (c) | gentleman, lord |  | SV herre |
 | **hjelp** | n (c) | help (n.) | everyday | SV hjälp |
+| **husbond** | n (c) | husband |  | hus + bonde |
 | **kind** | n (n) | child |  | NL kind |
 | **kusin** | n (c) | cousin |  | SV kusin + FR cousin |
 | **kvin** | n (c) | woman |  | SV kvinna |
@@ -603,6 +606,7 @@
 | **matros** | n (c) | sailor |  | NL matroos |
 | **navigasjon** | n (c) | navigation | high | FR navigation |
 | **net** | n (n) | net |  | SV nät + NL net |
+| **rep** | n (n) | rope |  | SV rep + DA reb |
 | **roa** | v | row (v.) |  | SV ro |
 | **ror** | n (n) | rudder |  | SV roder |
 | **segel** | n (n) | sail (n.) |  | SV segel + NL zeil |
@@ -915,6 +919,7 @@
 | **beginna** | v | begin | everyday | NL beginnen + EN begin |
 | **bera** | v | carry |  | SV bära |
 | **binda** | v | tie, bind |  | SV binda + NL binden |
+| **blaasa** | v | blow |  | SV blåsa |
 | **boja** | v | bend |  | SV böja |
 | **breka** | v | break |  | EN break + SV bräcka |
 | **brenna** | v | burn |  | SV bränna + DA brænde |
@@ -1147,6 +1152,7 @@
 | **te** | prep | to |  | NL te + EN to |
 | **tesamme** | adv | together |  | NL tezamen |
 | **vaar** | det | our |  | SV vår |
+| **ved** | prep | at, by |  | DA ved + SV vid |
 | **venig** | det | few |  | NL weinig |
 | **vi** | pron | we |  | SV vi |
 | **waar** | adv | where |  | NL waar |
@@ -1238,6 +1244,7 @@
 | bjork | birch |
 | bjorn | bear |
 | blaa | blue |
+| blaasa | blow |
 | blad | leaf |
 | blij | happy |
 | blijhed | happiness |
@@ -1256,6 +1263,7 @@
 | boot | boat |
 | bord | table |
 | borger | citizen |
+| braka | vomit |
 | bred | wide |
 | breka | break |
 | brenna | burn |
@@ -1529,6 +1537,7 @@
 | hundra | hundred |
 | hunger | hunger |
 | hus | house |
+| husbond | husband |
 | hylla | shelf |
 | hyra | rent |
 | hytta | cottage, hut |
@@ -1826,6 +1835,7 @@
 | person | person |
 | piano | piano |
 | pille | pill |
+| pinn | stick, twig |
 | pipa | pipe |
 | pjes | play (theatre) |
 | planta | plant |
@@ -1861,6 +1871,7 @@
 | rekt | right (entitlement) |
 | ren | clean |
 | renkontrera | meet |
+| rep | rope |
 | resa | travel |
 | residens | house |
 | respondera | answer |
@@ -2061,7 +2072,7 @@
 | tanke | thought |
 | tante | aunt |
 | tapa | lose |
-| tarm | gut, intestine |
+| tarm | gut, guts, intestine |
 | te | to |
 | teater | theatre |
 | tee | tea |
@@ -2136,6 +2147,7 @@
 | varm | warm |
 | vaska | wash |
 | vatter | water |
+| ved | at, by |
 | veder | weather |
 | vedve | widow |
 | veg | road, way |

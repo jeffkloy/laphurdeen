@@ -406,7 +406,7 @@ blod	n	n		blood	body-health		SV blod + NL bloed
 ben	n	n		bone	body-health		SV ben	distinct from been (leg)
 hud	n	c		skin	body-health		SV hud	
 mage	n	c		belly	body-health		SV mage	
-tarm	n	c		gut, intestine	body-health		SV tarm	
+tarm	n	c		gut, guts, intestine	body-health		SV tarm	
 lever	n	c		liver	body-health		SV lever + NL lever	
 lunga	n	c		lung	body-health		SV lunga	
 fett	n	n		fat (n.)	body-health		SV fett + NL vet	
@@ -1027,3 +1027,9 @@ selektera	v			choose	common-verbs	high	FR sélectionner	to select
 residens	n	c		house	house-home	high	FR résidence	a residence; everyday doublet: hus
 hjelp	n	c		help (n.)	people-family	everyday	SV hjälp	formal doublet: asistans
 asistans	n	c		help (n.)	people-family	high	FR assistance	
+husbond	n	c		husband	people-family		hus + bonde	Old Norse style: house-holder; final e clipped in compound
+pinn	n	c		stick, twig	world-nature		SV pinne	
+rep	n	n		rope	sea-ships		SV rep + DA reb	
+braka	v			vomit	body-health		NL braken	distinct from breka (break)
+blaasa	v			blow	common-verbs		SV blåsa	
+ved	prep			at, by	function-words		DA ved + SV vid	
