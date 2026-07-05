@@ -2,20 +2,20 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**1415 words** — 1247 roots, 168 derived.
+**1421 words** — 1252 roots, 169 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 66 |
+| world-nature | 68 |
 | plants-animals | 49 |
 | body-health | 91 |
-| people-family | 65 |
+| people-family | 66 |
 | food-drink | 71 |
 | house-home | 59 |
 | clothing | 25 |
 | time-calendar | 44 |
 | numbers-measure | 59 |
-| motion-travel | 43 |
+| motion-travel | 46 |
 | sea-ships | 39 |
 | work-trade | 69 |
 | communication | 79 |
@@ -57,6 +57,7 @@
 | **jord** | n (c) | earth, soil |  | SV jord |
 | **katastrof** | n (c) | catastrophe | high | FR catastrophe |
 | **klippa** | n (c) | cliff |  | SV klippa |
+| **kulle** | n (c) | hill |  | SV kulle |
 | **kust** | n (c) | coast |  | SV kust + NL kust |
 | **lak** | n (c) | lake |  | FR lac + EN lake |
 | **land** | n (n) | land, country |  | EN land + NL land + SV land |
@@ -69,6 +70,7 @@
 | **natur** | n (c) | nature |  | FR nature + SV natur |
 | **nord** | n (c) | north |  | FR nord + SV norr |
 | **oest** | n (c) | east |  | NL oost |
+| **park** | n (c) | park |  | EN park + NL park + SV park |
 | **pinn** | n (c) | stick, twig |  | SV pinne |
 | **regn** | n (n) | rain |  | SV regn |
 | **regnboge** | n (c) | rainbow |  | regn + boge |
@@ -278,6 +280,7 @@
 | **gest** | n (c) | guest |  | SV gäst |
 | **gifta** | v | marry | everyday | SV gifta |
 | **giftskap** | n (c) | marriage |  | gifta + -skap |
+| **grundare** | n (c) | founder |  | grunda + -are (§3b agent noun) |
 | **grupp** | n (c) | group |  | SV grupp + FR groupe |
 | **herre** | n (c) | gentleman, lord |  | SV herre |
 | **hjelp** | n (c) | help (n.) | everyday | SV hjälp |
@@ -607,6 +610,7 @@
 |---|---|---|---|---|
 | **ankomma** | v | arrive |  | SV ankomma + NL aankomen |
 | **avresa** | v | depart |  | av + resa |
+| **baan** | n (c) | track, way |  | NL baan |
 | **besok** | n (n) | visit (n.) |  | SV besök |
 | **besoka** | v | visit |  | NL bezoeken + SV besöka |
 | **bil** | n (c) | car |  | SV bil + DA bil |
@@ -622,6 +626,7 @@
 | **koffert** | n (c) | suitcase |  | DA kuffert + NL koffer |
 | **kora** | v | drive |  | SV köra |
 | **langsam** | adj | slow |  | SV långsam + NL langzaam |
+| **linje** | n (c) | line (route, stroke) |  | SV linje + NL lijn + FR ligne |
 | **motor** | n (c) | motor, engine |  | SV motor + FR moteur |
 | **nara** | adj | near |  | SV nära |
 | **parkera** | v | park (v.) |  | FR parquer |
@@ -642,6 +647,7 @@
 | **sykel** | n (c) | bicycle |  | SV cykel |
 | **sykla** | v | cycle (v.) |  | sykel + -a |
 | **trafik** | n (c) | traffic |  | SV trafik + FR trafic |
+| **tram** | n (c) | tram |  | EN tram + NL tram |
 | **transport** | n (c) | transport |  | FR transport |
 | **tren** | n (c) | train |  | FR train + EN train |
 | **tunel** | n (c) | tunnel |  | FR tunnel + EN tunnel |
@@ -1598,6 +1604,7 @@
 | avresa | depart |
 | avstand | distance, gap |
 | avtal | agreement, treaty |
+| baan | track, way |
 | baat | the greatest of all time (slang) |
 | bad | bath |
 | badrum | bathroom |
@@ -1968,6 +1975,7 @@
 | gronsak | vegetable |
 | grund | foundation, ground |
 | grunda | found, establish |
+| grundare | founder |
 | grundloj | constitution |
 | grupp | group |
 | grym | cruel |
@@ -2192,6 +2200,7 @@
 | krypa | crawl |
 | krypig | cringeworthy (slang) |
 | kuk | dick (vulgar) |
+| kulle | hill |
 | kultur | culture |
 | kunna | can, be able |
 | kurios | curious |
@@ -2254,6 +2263,7 @@
 | lievare | lover |
 | ligga | lie (recline) |
 | lik | similar, alike |
+| linje | line (route, stroke) |
 | liten | small |
 | liter | litre |
 | liv | life |
@@ -2431,6 +2441,7 @@
 | papper | paper |
 | par | pair |
 | paradoks | paradox |
+| park | park |
 | parkera | park (v.) |
 | parlament | parliament |
 | parlamentisk | parliamentary |
@@ -2832,6 +2843,7 @@
 | trafik | traffic |
 | tragisk | tragic |
 | trakig | boring |
+| tram | tram |
 | transport | transport |
 | trappa | stairs |
 | travalje | work (n.) |
