@@ -25,14 +25,20 @@ export interface EnglishSense {
   senses: number;
 }
 
-/** Common English words whose lexicon gloss uses a near-synonym. */
+/** Common English words whose lexicon gloss uses a near-synonym.
+ *  Entries whose word later gets a direct gloss go dead silently - prune them
+ *  when the SYN badge stops appearing (ocean and street already graduated). */
 const EN_FALLBACK_SYNONYMS: Record<string, string> = {
   little: "small",
   large: "big",
   talk: "speak",
-  ocean: "sea",
-  street: "road",
 };
+
+/** The synonym a lookup for this English word would silently fall back to,
+ *  so the pipeline can say so on the token instead of rewriting quietly. */
+export function synonymFallback(english: string): string | undefined {
+  return EN_FALLBACK_SYNONYMS[english.toLowerCase()];
+}
 
 export class Lexicon {
   entries: Entry[] = [];

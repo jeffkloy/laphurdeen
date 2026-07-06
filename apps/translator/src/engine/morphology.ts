@@ -21,6 +21,12 @@ export interface Analysis {
 
 const VOWEL_FINAL = /[aeiou]$/;
 
+/** The one suppletive adjective (§3), in one place: analysis and generation
+ *  both read from here so the pair can never drift apart. */
+export const LA_IRREGULAR_ADJ: Record<string, { comp: string; sup: string }> = {
+  goed: { comp: "beter", sup: "best" },
+};
+
 export class Morphology {
   private lex: Lexicon;
   /** Irregular surface forms: er → vera(pres), kronur → krona(pl), beter → goed(comp)… */
@@ -47,10 +53,11 @@ export class Morphology {
         });
       }
     }
-    const goed = lex.lookup("goed");
-    if (goed) {
-      this.addForm("beter", { entry: goed, tags: ["COMP"], adj: { degree: "comp" } });
-      this.addForm("best", { entry: goed, tags: ["SUP"], adj: { degree: "sup" } });
+    for (const [lemma, forms] of Object.entries(LA_IRREGULAR_ADJ)) {
+      const entry = lex.lookup(lemma);
+      if (!entry) continue;
+      this.addForm(forms.comp, { entry, tags: ["COMP"], adj: { degree: "comp" } });
+      this.addForm(forms.sup, { entry, tags: ["SUP"], adj: { degree: "sup" } });
     }
   }
 
@@ -92,7 +99,8 @@ export class Morphology {
 
   adjForm(entry: Entry, degree: Degree): string {
     if (degree === "base") return entry.word;
-    if (entry.word === "goed") return degree === "comp" ? "beter" : "best";
+    const irregular = LA_IRREGULAR_ADJ[entry.word];
+    if (irregular) return degree === "comp" ? irregular.comp : irregular.sup;
     // Long adjectives and French loans compare with mer/mest (§3).
     if (/(ell|isk)$/.test(entry.word) || entry.word.length >= 8) {
       return (degree === "comp" ? "mer " : "mest ") + entry.word;

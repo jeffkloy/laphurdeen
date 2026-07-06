@@ -4,8 +4,8 @@ import { primaryGloss } from "./lexicon";
 import { Translator } from "./translate";
 
 const tr = new Translator(tsv);
-const laEn = (s: string) => tr.translate(s, "la-en").text;
-const enLa = (s: string) => tr.translate(s, "en-la").text;
+const laEn = (s: string) => tr.translate(s, "lp-en").text;
+const enLa = (s: string) => tr.translate(s, "en-lp").text;
 
 describe("lexicon", () => {
   it("loads every row of LEXICON.tsv", () => {
@@ -154,7 +154,7 @@ describe("English → Laphurdi", () => {
     expect(enLa("Thank you.")).toBe("Dank du.");
   });
   it("prefers the everyday register and notes the doublet", () => {
-    const { tokens } = tr.translate("The people vote.", "en-la");
+    const { tokens } = tr.translate("The people vote.", "en-lp");
     const verb = tokens.find((t) => t.pos === "v");
     expect(verb?.output).toBe("stemmar");
     expect(verb?.note).toContain("votera");
@@ -182,12 +182,12 @@ describe("sense ranking", () => {
 
 describe("alternatives and user picks", () => {
   it("exposes ranked alternatives on ambiguous tokens", () => {
-    const { tokens } = tr.translate("time", "en-la");
+    const { tokens } = tr.translate("time", "en-lp");
     expect(tokens[0].output).toBe("tid");
     expect(tokens[0].alternatives?.map((a) => a.word)).toContain("mal");
   });
   it("honors an override, English → Laphurdi", () => {
-    const { text, tokens } = tr.translate("I do not have time.", "en-la", {
+    const { text, tokens } = tr.translate("I do not have time.", "en-lp", {
       overrides: { time: "mal" },
     });
     expect(text).toBe("Ik har nit mal.");
@@ -197,16 +197,16 @@ describe("alternatives and user picks", () => {
     expect(picked?.alternatives?.map((a) => a.word)).toContain("tid");
   });
   it("inflects the overridden word like any other", () => {
-    expect(tr.translate("the time", "en-la", { overrides: { time: "mal" } }).text)
+    expect(tr.translate("the time", "en-lp", { overrides: { time: "mal" } }).text)
       .toBe("Malet");
   });
   it("offers gloss alternatives, Laphurdi → English", () => {
     expect(laEn("Mal.")).toBe("Time.");
-    const { tokens } = tr.translate("Mal.", "la-en");
+    const { tokens } = tr.translate("Mal.", "lp-en");
     expect(tokens[0].alternatives?.map((a) => a.gloss)).toContain("occurrence");
   });
   it("honors an override, Laphurdi → English", () => {
-    const { text, tokens } = tr.translate("Mal.", "la-en", {
+    const { text, tokens } = tr.translate("Mal.", "lp-en", {
       overrides: { mal: "occurrence" },
     });
     expect(text).toBe("Occurrence.");

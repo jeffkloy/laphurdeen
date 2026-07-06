@@ -36,6 +36,31 @@ Where the reference is silent (vowel-final noun inflection: *ministerie →
 ministeriet*), the engine follows the Swedish pattern the grammar already
 leans on.
 
+## Beyond the pipelines
+
+- **The canon gate, visible** - in Laphurdi→English mode every word token is
+  also run through the course app's `Canon` validator (imported from
+  `apps/laphurdi/src/test/canon.ts` - one validator for the whole repo). A
+  red *nit canon* badge means the form is not legal Laphurdi; an amber
+  *canon* badge on an untranslatable token means the word is fine (a proper
+  name or a novel compound) but the Commission cannot render it. Paste draft
+  Laphurdi here to proofread it.
+- **Register toggle** - *everyday | high* biases the sense ranking across
+  the doublets (hjelpa/assistera, bygga/konstruera…). User picks still win.
+- **The path to hen** - *they/them/their/theirs* offer the gender-neutral
+  singular (`hen`/`hens`) as alternative chips, as the Constitution is
+  drafted.
+- **Synonym transparency** - when the lookup falls back through a synonym
+  (little→small), the token says so (*via synonym*) instead of rewriting
+  silently.
+- **Persistence and shareable links** - direction, text, register, and your
+  picks survive reload (`localStorage`); the URL hash carries
+  `#<direction>/<text>` so a translation can be linked. A *copy* button
+  takes the rendering to the clipboard.
+- **One modal table** - the la→en render map and the en→la recognition map
+  derive from a single `MODALS` constant, so the two directions cannot
+  drift apart; same for the suppletive *goed/beter/best*.
+
 ## Develop
 
 ```sh

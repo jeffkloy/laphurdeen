@@ -369,6 +369,59 @@ body::after {
   transform: translateY(-1px);
 }
 
+/* Register preference - everyday | high, the doublet switch. */
+.reg-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.reg-toggle button {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  font-style: normal;
+}
+
+.reg-toggle button.active {
+  background: var(--sea);
+  color: #f9f4e7;
+}
+
+.reg-toggle button[data-reg="high"].active {
+  background: var(--high);
+}
+
+/* Copy the rendering. */
+.copy-btn {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.14rem 0.6rem;
+  cursor: pointer;
+  transition: border-color 0.18s, color 0.18s;
+}
+
+.copy-btn:hover {
+  border-color: var(--amber);
+  color: var(--sea);
+}
+
 /* --------------------------------------------------------------------------
    Gloss breakdown - the philologist's line
    -------------------------------------------------------------------------- */
@@ -536,6 +589,30 @@ body::after {
 
 .token.is-unknown .t-out {
   color: var(--alert);
+}
+
+/* Canon-legal but untranslatable (proper names, novel compounds): amber
+   dashed, not the red alarm - the word is fine, the Commission just cannot
+   render it. */
+.token.is-unknown.is-canonlegal {
+  border-color: var(--amber);
+  background: rgba(242, 169, 0, 0.07);
+}
+
+.token.is-unknown.is-canonlegal .t-out {
+  color: #7a5600;
+}
+
+.token .tag.canon-bad {
+  border-color: var(--alert);
+  background: rgba(179, 69, 62, 0.12);
+  color: var(--alert);
+}
+
+.token .tag.canon-ok {
+  border-color: rgba(242, 169, 0, 0.9);
+  background: rgba(242, 169, 0, 0.16);
+  color: #7a5600;
 }
 
 .tokens .empty-hint {

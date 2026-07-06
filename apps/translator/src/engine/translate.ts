@@ -4,14 +4,17 @@
  *  grammar of LAPHURDI.md - suffixed definite articles, tense-only verbs,
  *  V2 word order, nit-negation, and English do-support at the border.
  */
-import { glossBases, Lexicon, primaryGloss, type Entry, type Pos } from "./lexicon";
+import { glossBases, Lexicon, primaryGloss, synonymFallback, type Entry, type Pos } from "./lexicon";
 import { Morphology, type Analysis, type Degree, type Tense } from "./morphology";
 import {
   analyzeEnVerb, enParticiple, enPast, enPlural, enPres3,
   EN_PLURAL_GLOSSES, singularizeEn,
 } from "./english";
+// The course app's canon validator - one validator for the whole repo, so the
+// translator can badge tokens that would fail the audit gate.
+import { Canon } from "../../../laphurdi/src/test/canon";
 
-export type Direction = "en-la" | "la-en";
+export type Direction = "en-lp" | "lp-en";
 
 /** Another word the translator could have chosen for a token. */
 export interface Alternative {
@@ -37,12 +40,17 @@ export interface TokenResult {
   unknown?: boolean;
   punct?: boolean;
   alternatives?: Alternative[];
+  /** la→en only: does this source token pass the canon gate? */
+  canonLegal?: boolean;
 }
 
 export interface TranslateOptions {
   /** lowercased source token → preferred rendering: a Laphurdi headword for
    *  en→la, an English gloss for la→en (an Alternative's `pick` value). */
   overrides?: Record<string, string>;
+  /** Register preference for en→la picks: bias toward the high half of the
+   *  everyday/high doublets. Default is the lexicon's everyday-first ranking. */
+  register?: "everyday" | "high";
 }
 
 export interface Translation {
@@ -153,12 +161,37 @@ const CONTRACTIONS: Record<string, string[]> = {
 
 const LA_WH_WORDS = new Set(["wat", "wie", "wen", "waar", "hoe", "warfor"]);
 
-const MODAL_RENDER: Record<string, Partial<Record<Tense, string>>> = {
-  kunna: { pres: "can", past: "could" },
-  vilja: { pres: "want to", past: "wanted to" },
-  skola: { pres: "will", past: "should" },
-  moste: { pres: "must", past: "had to" },
+/** One modal table drives both directions - the la→en render map and the
+ *  en→la recognition map derive from it, so they can never drift apart. */
+const MODALS: Array<{
+  la: string;
+  render: Partial<Record<Tense, string>>;
+  /** English modal word → tense of the Laphurdi verb it becomes. */
+  en: Record<string, Tense>;
+}> = [
+  { la: "kunna", render: { pres: "can", past: "could" },
+    en: { can: "pres", could: "past", may: "pres" } },
+  { la: "vilja", render: { pres: "want to", past: "wanted to" }, en: {} },
+  { la: "skola", render: { pres: "will", past: "should" },
+    en: { will: "pres", shall: "pres", would: "past", should: "past" } },
+  { la: "moste", render: { pres: "must", past: "had to" }, en: { must: "pres" } },
+];
+
+const MODAL_RENDER: Record<string, Partial<Record<Tense, string>>> =
+  Object.fromEntries(MODALS.map((m) => [m.la, m.render]));
+
+const EN_MODAL: Record<string, [string, Tense]> = {};
+for (const m of MODALS) {
+  for (const [w, tense] of Object.entries(m.en)) EN_MODAL[w] = [m.la, tense];
+}
+
+/** Gender-neutral singular alternatives for the they-family: English cannot
+ *  say which "they" is meant, so hen/hens ride along as alternative chips.
+ *  The Constitution is drafted with hen throughout (LAPHURDI.md §Pronouns). */
+const EN_PRONOUN_ALTS: Record<string, string[]> = {
+  they: ["hen"], them: ["hen"], their: ["hens"], theirs: ["hens"],
 };
+const HEN_NOTE = "hen: the gender-neutral singular, as the Constitution is drafted";
 
 // ---------------------------------------------------------------------------
 // English comparison morphology
@@ -236,12 +269,16 @@ interface Item {
 export class Translator {
   readonly lexicon: Lexicon;
   readonly morph: Morphology;
+  readonly canon: Canon;
   /** Active user picks for the translation in progress (lowercased keys). */
   private overrides: Record<string, string> = {};
+  /** Register preference for the translation in progress. */
+  private register: "everyday" | "high" = "everyday";
 
   constructor(tsv: string) {
     this.lexicon = new Lexicon(tsv);
     this.morph = new Morphology(this.lexicon);
+    this.canon = new Canon(tsv);
   }
 
   translate(text: string, dir: Direction, opts?: TranslateOptions): Translation {
@@ -249,32 +286,44 @@ export class Translator {
     for (const [k, v] of Object.entries(opts?.overrides ?? {})) {
       this.overrides[k.toLowerCase()] = v;
     }
+    this.register = opts?.register ?? "everyday";
     const tokens: TokenResult[] = [];
     const parts: string[] = [];
     for (const sentence of tokenize(text)) {
-      const results = dir === "la-en" ? this.laToEn(sentence) : this.enToLa(sentence);
+      const results = dir === "lp-en" ? this.lpToEn(sentence) : this.enToLp(sentence);
       tokens.push(...results);
       parts.push(joinTokens(results));
     }
     return { text: parts.join(" "), tokens };
   }
 
-  /** Choose among candidate entries for an English word, honoring user picks. */
+  /** Choose among candidate entries for an English word, honoring user picks
+   *  and the register preference (a stable re-rank, so ties keep lexicon order). */
   private pickEn(source: string, english: string, pos?: Pos | Pos[]):
-    { entry: Entry; alts: Entry[]; picked: boolean } | undefined {
-    const cands = this.lexicon.candidates(english, pos);
+    { entry: Entry; alts: Entry[]; picked: boolean; synonym?: string } | undefined {
+    let cands = this.lexicon.candidates(english, pos);
     if (cands.length === 0) return undefined;
+    if (this.register === "high") {
+      cands = [
+        ...cands.filter((e) => e.register === "high"),
+        ...cands.filter((e) => e.register !== "high"),
+      ];
+    }
     const want = this.overrides[source.toLowerCase()];
     const chosen = (want && cands.find((e) => e.word === want)) || cands[0];
+    const synonym = this.lexicon.byEnglish.has(english.toLowerCase())
+      ? undefined
+      : synonymFallback(english);
     return {
       entry: chosen,
       alts: cands.filter((e) => e !== chosen),
       picked: chosen !== cands[0],
+      synonym,
     };
   }
 
   private attachAlternatives(
-    tok: TokenResult, pick: { alts: Entry[]; picked: boolean },
+    tok: TokenResult, pick: { alts: Entry[]; picked: boolean; synonym?: string },
   ) {
     if (pick.alts.length > 0) {
       tok.alternatives = pick.alts.map((e) => ({
@@ -283,13 +332,18 @@ export class Translator {
       }));
     }
     if (pick.picked) tok.tags.push("PICKED");
+    if (pick.synonym) {
+      tok.tags.push("SYN");
+      const note = `via synonym: ${pick.synonym}`;
+      tok.note = tok.note ? `${tok.note} · ${note}` : note;
+    }
   }
 
   // =========================================================================
   // Laphurdi → English
   // =========================================================================
 
-  private laToEn(sentence: RawTok[]): TokenResult[] {
+  private lpToEn(sentence: RawTok[]): TokenResult[] {
     const isQuestion = sentence.some((t) => t.text === "?");
     const items: Item[] = sentence.map((t) => {
       const item: Item = { src: t.text, punct: !t.isWord, tags: [] };
@@ -413,8 +467,18 @@ export class Translator {
         rendered.push({ source: item.src, output: item.src, tags: ["NUM"] });
         continue;
       }
+      // Every word token also faces the canon gate - the audit the rest of
+      // the repo runs. Legal-but-untranslatable (proper names, novel
+      // compounds) is a different verdict from not-a-word.
+      const canonLegal = this.canon.isJustified(item.src);
       if (item.unknown || !item.entry || !item.analysis) {
-        rendered.push({ source: item.src, output: item.src, tags: ["UNKNOWN"], unknown: true });
+        rendered.push({
+          source: item.src, output: item.src, tags: ["UNKNOWN"],
+          unknown: true, canonLegal,
+          note: canonLegal
+            ? "canon-legal (proper name or compound), but the Commission cannot render it"
+            : "fails the canon gate - not a legal Laphurdi form",
+        });
         continue;
       }
 
@@ -438,7 +502,7 @@ export class Translator {
       const result: TokenResult = {
         source: item.src, output: "", lemma: entry.word,
         gloss: primaryGloss(entry), pos: entry.pos, tags: item.tags,
-        register: entry.register,
+        register: entry.register, canonLegal,
       };
       this.attachDoubletNote(result, entry);
       this.attachLaAlternatives(result, item, base);
@@ -652,7 +716,7 @@ export class Translator {
   // English → Laphurdi
   // =========================================================================
 
-  private enToLa(sentence: RawTok[]): TokenResult[] {
+  private enToLp(sentence: RawTok[]): TokenResult[] {
     const isQuestion = sentence.some((t) => t.text === "?");
 
     // Expand contractions into the token stream.
@@ -730,13 +794,8 @@ export class Translator {
       }
 
       // Modals: will/shall/would/should/can/could/must/may (+not) (+subject) + verb
-      const modalMap: Record<string, [string, Tense]> = {
-        will: ["skola", "pres"], shall: ["skola", "pres"], would: ["skola", "past"],
-        should: ["skola", "past"], can: ["kunna", "pres"], could: ["kunna", "past"],
-        must: ["moste", "pres"], may: ["kunna", "pres"],
-      };
-      if (modalMap[w]) {
-        const [lemma, tense] = modalMap[w];
+      if (EN_MODAL[w]) {
+        const [lemma, tense] = EN_MODAL[w];
         const entry = this.lexicon.lookup(lemma)!;
         pushVerb({
           source: t.text, output: this.morph.verbForm(entry, tense), lemma,
@@ -892,15 +951,32 @@ export class Translator {
         else if (pron.poss) la = pron.poss;
         else la = isObjectPos ? pron.obj ?? pron.subj : pron.subj ?? pron.obj;
         if (la) {
-          const entry = this.lexicon.lookup(la);
-          push({
-            source: t.text, output: la, lemma: la,
+          // The they-family offers the gender-neutral singular as a pick.
+          const altWords = EN_PRONOUN_ALTS[w] ?? [];
+          const want = this.overrides[w];
+          const chosen = want && altWords.includes(want) ? want : la;
+          const entry = this.lexicon.lookup(chosen);
+          const tok: TokenResult = {
+            source: t.text, output: chosen, lemma: chosen,
             gloss: entry ? primaryGloss(entry) : w,
             pos: entry?.pos ?? "pron",
-            tags: pron.poss || la === "hons" ? ["POSS"]
+            tags: pron.poss || ["hons", "hens"].includes(chosen) ? ["POSS"]
               : isObjectPos ? ["OBJ"] : ["SUBJ"],
-            note: w === "it" ? "Laphurdi uses det/den for “it”, as Swedish" : undefined,
-          });
+            note: w === "it" ? "Laphurdi uses det/den for “it”, as Swedish"
+              : ["hen", "hens"].includes(chosen) ? HEN_NOTE : undefined,
+          };
+          const others = [la, ...altWords].filter((x) => x !== chosen);
+          if (others.length > 0) {
+            tok.alternatives = others.map((x) => {
+              const e = this.lexicon.lookup(x);
+              return {
+                word: x, gloss: e ? primaryGloss(e) : x, pos: e?.pos ?? "pron",
+                register: e?.register ?? "", pick: x,
+              };
+            });
+          }
+          if (chosen !== la) tok.tags.push("PICKED");
+          push(tok);
           i++;
           continue;
         }

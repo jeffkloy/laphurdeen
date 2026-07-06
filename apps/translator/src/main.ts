@@ -5,7 +5,7 @@ import { Translator, type Direction, type TokenResult } from "./engine/translate
 const translator = new Translator(lexiconTsv);
 
 const EXAMPLES: Record<Direction, string[]> = {
-  "en-la": [
+  "en-lp": [
     "We are building a new nation.",
     "Do you speak Laphurdi?",
     "Today the people vote.",
@@ -13,7 +13,7 @@ const EXAMPLES: Record<Direction, string[]> = {
     "The little boy will swim to the island.",
     "Thank you.",
   ],
-  "la-en": [
+  "lp-en": [
     "Vi, folket av Laphurdeen, kom fri fra mange strander te bygga en nasjon waar ingen stod befor.",
     "Sprekar du Laphurdi?",
     "Idag stemmar folket.",
@@ -24,8 +24,8 @@ const EXAMPLES: Record<Direction, string[]> = {
 };
 
 const LANG_NAME: Record<Direction, [string, string]> = {
-  "en-la": ["Engelsk · English", "Laphurdi"],
-  "la-en": ["Laphurdi", "Engelsk · English"],
+  "en-lp": ["Engelsk · English", "Laphurdi"],
+  "lp-en": ["Laphurdi", "Engelsk · English"],
 };
 
 /** Grammar-machinery tags get the amber treatment. */
@@ -74,7 +74,9 @@ app.innerHTML = `
         </div>
 
         <section class="pane">
-          <label><span class="lang" id="dst-lang"></span><span class="rule-line"></span>rendering</label>
+          <label><span class="lang" id="dst-lang"></span><span class="rule-line"></span>rendering
+            <button class="copy-btn" id="copy" type="button" title="Copy the rendering">copy</button>
+          </label>
           <div class="output" id="output" aria-live="polite"></div>
         </section>
       </div>
@@ -82,6 +84,11 @@ app.innerHTML = `
       <div class="examples">
         <span class="ex-label">Try</span>
         <span id="example-chips"></span>
+        <span class="reg-toggle" id="reg-toggle" role="group"
+          aria-label="Register preference for the Laphurdi rendering"
+          title="Everyday or high register - the Commission keeps doublets for both">
+          <button type="button" data-reg="everyday">everyday</button><button type="button" data-reg="high">high</button>
+        </span>
       </div>
     </div>
 
@@ -104,22 +111,75 @@ const swapBtn = document.querySelector<HTMLButtonElement>("#swap")!;
 const srcLang = document.querySelector<HTMLSpanElement>("#src-lang")!;
 const dstLang = document.querySelector<HTMLSpanElement>("#dst-lang")!;
 const chips = document.querySelector<HTMLSpanElement>("#example-chips")!;
+const copyBtn = document.querySelector<HTMLButtonElement>("#copy")!;
+const regToggle = document.querySelector<HTMLSpanElement>("#reg-toggle")!;
 
 document.querySelector("#stat-words")!.textContent =
   translator.lexicon.entries.length.toLocaleString("en-US");
 
-let direction: Direction = "en-la";
+let direction: Direction = "en-lp";
 let lastResult = "";
+let register: "everyday" | "high" = "everyday";
 
 /** The user's word picks, per direction: lowercased source token → pick. */
 const overrides: Record<Direction, Record<string, string>> = {
-  "en-la": {},
-  "la-en": {},
+  "en-lp": {},
+  "lp-en": {},
 };
+
+/** Session state survives reload; the URL hash makes a translation linkable. */
+const STORAGE_KEY = "oversettaren-v1";
+
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      direction, register, text: input.value, overrides,
+    }));
+  } catch {
+    /* private mode etc. - state just won't persist */
+  }
+}
+
+function restoreState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null");
+    if (saved) {
+      direction = saved.direction === "lp-en" ? "lp-en" : "en-lp";
+      register = saved.register === "high" ? "high" : "everyday";
+      if (typeof saved.text === "string") input.value = saved.text;
+      for (const dir of ["en-lp", "lp-en"] as const) {
+        Object.assign(overrides[dir], saved.overrides?.[dir] ?? {});
+      }
+    }
+  } catch {
+    /* unreadable state - start fresh */
+  }
+  // A shared link beats stored state: #<direction>/<encoded text>
+  applyHash();
+}
+
+/** Apply a #<direction>/<text> hash to the app state, if one is present. */
+function applyHash(): boolean {
+  const m = location.hash.match(/^#(en-lp|lp-en)\/(.*)$/);
+  if (!m) return false;
+  direction = m[1] as Direction;
+  try {
+    input.value = decodeURIComponent(m[2]);
+  } catch {
+    input.value = m[2];
+  }
+  return true;
+}
+
+function syncHash(text: string) {
+  const hash = text ? `#${direction}/${encodeURIComponent(text)}` : "";
+  history.replaceState(null, "", hash || location.pathname + location.search);
+}
 
 function renderToken(t: TokenResult, i: number): HTMLElement {
   const el = document.createElement("div");
-  el.className = "token" + (t.unknown ? " is-unknown" : "") + (t.punct ? " is-punct" : "");
+  el.className = "token" + (t.unknown ? " is-unknown" : "") + (t.punct ? " is-punct" : "") +
+    (t.unknown && t.canonLegal ? " is-canonlegal" : "");
   el.style.setProperty("--i", String(Math.min(i, 24)));
 
   const src = document.createElement("div");
@@ -157,6 +217,18 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
     reg.className = "tag reg-" + t.register;
     reg.textContent = t.register;
     meta.appendChild(reg);
+  }
+  // The canon gate's verdict - the same audit the rest of the repo runs.
+  if (t.canonLegal === false) {
+    const bad = document.createElement("span");
+    bad.className = "tag canon-bad";
+    bad.textContent = "nit canon";
+    meta.appendChild(bad);
+  } else if (t.unknown && t.canonLegal) {
+    const ok = document.createElement("span");
+    ok.className = "tag canon-ok";
+    ok.textContent = "canon";
+    meta.appendChild(ok);
   }
   if (meta.childElementCount > 0) el.appendChild(meta);
 
@@ -208,6 +280,8 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
 
 function run() {
   const text = input.value.trim();
+  syncHash(text);
+  saveState();
   if (!text) {
     output.textContent = "";
     tokensEl.innerHTML =
@@ -217,6 +291,7 @@ function run() {
   }
   const { text: rendered, tokens } = translator.translate(text, direction, {
     overrides: overrides[direction],
+    register,
   });
   lastResult = rendered;
   output.textContent = rendered;
@@ -228,11 +303,17 @@ function run() {
   }
 }
 
+function syncRegisterToggle() {
+  for (const b of regToggle.querySelectorAll<HTMLButtonElement>("button")) {
+    b.classList.toggle("active", b.dataset.reg === register);
+  }
+}
+
 function syncDirection() {
   const [src, dst] = LANG_NAME[direction];
   srcLang.textContent = src;
   dstLang.textContent = dst;
-  input.placeholder = direction === "en-la"
+  input.placeholder = direction === "en-lp"
     ? "Write here - the Commission renders it into Laphurdi…"
     : "Skriv hier - the Commission renders it into English…";
   chips.innerHTML = "";
@@ -257,13 +338,45 @@ input.addEventListener("input", () => {
 });
 
 swapBtn.addEventListener("click", () => {
-  direction = direction === "en-la" ? "la-en" : "en-la";
-  swapBtn.classList.toggle("flipped", direction === "la-en");
+  direction = direction === "en-lp" ? "lp-en" : "en-lp";
+  swapBtn.classList.toggle("flipped", direction === "lp-en");
   // Carry the rendering back across the desk: output becomes the new input.
   if (lastResult) input.value = lastResult;
   syncDirection();
   run();
 });
 
+copyBtn.addEventListener("click", async () => {
+  if (!lastResult) return;
+  try {
+    await navigator.clipboard.writeText(lastResult);
+    copyBtn.textContent = "copied ✓";
+  } catch {
+    copyBtn.textContent = "select it";
+  }
+  window.setTimeout(() => (copyBtn.textContent = "copy"), 1400);
+});
+
+regToggle.addEventListener("click", (ev) => {
+  const b = (ev.target as HTMLElement).closest("button");
+  if (!b?.dataset.reg || b.dataset.reg === register) return;
+  register = b.dataset.reg as typeof register;
+  syncRegisterToggle();
+  run();
+});
+
+// A shared link opened in an already-loaded tab is a hash-only navigation -
+// the document does not reload, so apply the hash by hand.
+window.addEventListener("hashchange", () => {
+  if (!applyHash()) return;
+  swapBtn.classList.toggle("flipped", direction === "lp-en");
+  syncDirection();
+  run();
+});
+
+restoreState();
+// The cast defeats tsc's literal narrowing - restoreState() may have flipped it.
+swapBtn.classList.toggle("flipped", (direction as Direction) === "lp-en");
+syncRegisterToggle();
 syncDirection();
 run();
