@@ -94,7 +94,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 4. **Seksuell werk mellan vuksener med konsens er lojlig werk.** Seksuell werkare har alle rekter av dis Artikel - og skal nit bliva straffat, nit bliva settat in register for te skamma dem, og nit bliva stengat ut fra hem, bank, el tjenster.
 
 ### Artikel 13 - Laphurdeen-Garantien (Sosial Sekerhed)
-1. Samveldet har en egen og fast plikt av hjelp te den tridde-del av folket dat har minst - settat av en open index av inkomst, egendom, funksjonshinder, og liv.
+1. Samveldet har en egen og fast plikt av hjelp te den **fyrde-del (25%)** av folket dat har minst - settat av en open index av inkomst, egendom, og liv - og te **alle personer med funksjonshinder**, dat staar in Garantien direkt.
 2. Personer in Garantien har rekt te minst: en inkomst for et verdig liv; et seker og goed hem; energi, vatter, og digital tjenst; og ferste plas te lering og werk.
 3. Betaling av Garantien kommar ferst av alle inkomster av Samveldet, efter betaling av skulden av staten.
 
@@ -109,6 +109,8 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 2. Tortur, og alle handling grym el mot verdigheden, er absolut forbidat.
 3. Dodstraffen er bort for alltid, og kan aldri komma terug.
 4. Wen en person blivar haldat av staten, skal en domare se saken snabb. Fengsel skal hjelpa mennisker te leva goed igen.
+5. Samveldets politi **berar nit skytvapen**. Bara en serlig enhed, settat in loj, kan bera dem - wen og hoe, sejar lojen.
+6. **Alle kula blivar tellat**: wen en person blivar skytat av staten, moste en open rapport seja, for alle kula, warfor den blivade skytat in alle organ dat den treffade.
 
 ### Artikel 16 - Grenser on Rekteren
 1. Rekteren in dis Sjarta kan bara bliva grensat av loj, bara so mykke als er nodvendig og proporsjonal in et fri og demokratisk samfund byggat on verdighed, egalitet, og frihed - og aldri so mykke dat hjertat av rekten stervar.

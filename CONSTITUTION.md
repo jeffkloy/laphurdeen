@@ -92,7 +92,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 4. **Sex work between consenting adults is lawful work.** Sex workers enjoy the full protection of this Article - including the right to form and join trade unions, to bargain collectively, and to safe conditions - and shall not be subject to criminal penalty, to registration regimes designed to exclude or stigmatise, or to discrimination in housing, banking, or services.
 
 ### Article 13 - The Laphurdeen Guarantee (Social Security)
-1. The Commonwealth owes a special and enforceable duty of care to the least-advantaged third of its population, determined by a transparent statutory index of income, wealth, disability, and circumstance.
+1. The Commonwealth owes a special and enforceable duty of care to the least-advantaged **quarter (25%)** of its population, determined by a transparent statutory index of income, wealth, and circumstance, and to **every person with a disability**, who is within the Guarantee as of right.
 2. Persons within the Guarantee are entitled at minimum to: an income floor sufficient for a dignified life; secure and adequate housing; energy, water, and digital connectivity; and priority access to education, training, and employment services.
 3. Funding of the Guarantee is a first charge on the revenues of the Commonwealth, after the service of public debt.
 
@@ -107,6 +107,8 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 2. Torture, and cruel, inhuman, or degrading treatment or punishment, are absolutely prohibited.
 3. The death penalty is abolished and may never be reintroduced.
 4. Detention is subject to prompt judicial review. Imprisonment shall aim at rehabilitation.
+5. The police of the Commonwealth **do not carry firearms**. Only a special operations unit designated by law may bear them, in the circumstances and under the safeguards that the law prescribes.
+6. **Every bullet is accounted for**: where a person is shot by an agent of the Commonwealth, a public report shall state, for each bullet fired, why it was fired into each specific organ it struck.
 
 ### Article 16 - Limitation of Rights
 1. The rights in this Charter may be limited only by law, only so far as is necessary and proportionate in a free and democratic society founded on dignity, equality, and freedom, and only consistently with the essence of each right.

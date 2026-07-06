@@ -40,7 +40,12 @@ with instructions; judicial independence belongs to Part VI.
 
 Police, fire, and emergency services, under the Charter's hard limits:
 mass indiscriminate surveillance is prohibited, and targeted surveillance
-moves only on prior judicial authorisation (Article 9). The integrity
+moves only on prior judicial authorisation (Article 9). The police do
+not carry firearms - only a special operations unit designated by law
+may bear them - and every bullet is accounted for: a person shot by an
+agent of the Commonwealth is owed a public report stating, for each
+bullet, why it was fired into each specific organ it struck
+(Article 15). The integrity
 half of its name is the machinery of clean public life under Article 33 -
 the public registers of interests, assets, gifts, and lobbying contacts,
 and the publication of contracts, budgets, and expenditure in open,
@@ -110,9 +115,10 @@ academic freedom and institutional autonomy are guaranteed.
 *Ministeriet for Velvard og Hem*
 
 The administrator of the **Laphurdeen Guarantee** (Article 13), the
-Commonwealth's enforceable duty of care to its least-advantaged third,
-identified by a transparent statutory index of income, wealth,
-disability, and circumstance. Through it flow the Guarantee's minimum
+Commonwealth's enforceable duty of care to its least-advantaged quarter
+and to every person with a disability, the quarter identified by a
+transparent statutory index of income, wealth, and circumstance and the
+disabled within the Guarantee as of right. Through it flow the Guarantee's minimum
 entitlements: an income floor sufficient for a dignified life; secure and
 adequate housing; energy, water, and digital connectivity; and priority
 access to education, training, and employment services. Its funding is a
