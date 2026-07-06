@@ -40,7 +40,7 @@ leans on.
 
 - **The canon gate, visible** - in Laphurdi→English mode every word token is
   also run through the course app's `Canon` validator (imported from
-  `apps/laphurdi/src/test/canon.ts` - one validator for the whole repo). A
+  `apps/laphurdikursen/src/test/canon.ts` - one validator for the whole repo). A
   red *nit canon* badge means the form is not legal Laphurdi; an amber
   *canon* badge on an untranslatable token means the word is fine (a proper
   name or a novel compound) but the Commission cannot render it. Paste draft

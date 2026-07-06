@@ -12,7 +12,7 @@ import {
 } from "./english";
 // The course app's canon validator - one validator for the whole repo, so the
 // translator can badge tokens that would fail the audit gate.
-import { Canon } from "../../../laphurdi/src/test/canon";
+import { Canon } from "../../../laphurdikursen/src/test/canon";
 
 export type Direction = "en-lp" | "lp-en";
 

@@ -65,7 +65,7 @@ Three layers, strictly ordered - facts flow downward, never up:
 
 ### The canon gate
 
-`apps/laphurdi/src/test/canon.ts` is the reusable validator: a Laphurdi token
+`apps/laphurdikursen/src/test/canon.ts` is the reusable validator: a Laphurdi token
 is legal only if it is a lexicon headword, a listed irregular form, a regular
 inflection per §3 (verb `-ar/-ade/-at` + bare-stem imperative; noun
 definite/plural/genitive; adjective `-er/-est`; `-je` diminutive), a

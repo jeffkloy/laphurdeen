@@ -12,7 +12,7 @@ on:
     paths:
       - "apps/landing-page/**"
       - "apps/translator/**"
-      - "apps/laphurdi/**"
+      - "apps/laphurdikursen/**"
       - "LEXICON.tsv"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
           cache-dependency-path: |
             apps/landing-page/package-lock.json
             apps/translator/package-lock.json
-            apps/laphurdi/package-lock.json
+            apps/laphurdikursen/package-lock.json
       - run: npm ci
         working-directory: apps/landing-page
       - run: npm run build
@@ -50,11 +50,11 @@ jobs:
       - run: npm run build
         working-directory: apps/translator
       - run: npm ci
-        working-directory: apps/laphurdi
+        working-directory: apps/laphurdikursen
       - run: npm test
-        working-directory: apps/laphurdi
+        working-directory: apps/laphurdikursen
       - run: npm run build
-        working-directory: apps/laphurdi
+        working-directory: apps/laphurdikursen
       - name: Assemble site (landing at root, translator at /translator/, course at /laphurdi/)
         run: |
           mkdir -p _site
@@ -62,7 +62,7 @@ jobs:
           mkdir -p _site/translator
           cp -r apps/translator/dist/. _site/translator/
           mkdir -p _site/laphurdi
-          cp -r apps/laphurdi/dist/. _site/laphurdi/
+          cp -r apps/laphurdikursen/dist/. _site/laphurdi/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
