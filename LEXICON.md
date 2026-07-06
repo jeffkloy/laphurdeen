@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2317 words** - 1957 roots, 360 derived.
+**2322 words** - 1961 roots, 361 derived.
 
 | domain | words |
 |---|---|
@@ -20,14 +20,14 @@
 | work-trade | 81 |
 | communication | 99 |
 | mind-emotion | 146 |
-| law-civic | 176 |
+| law-civic | 177 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
 | science | 173 |
 | digital | 110 |
 | society | 93 |
 | common-verbs | 146 |
-| qualities | 147 |
+| qualities | 151 |
 | function-words | 124 |
 
 ## world-nature
@@ -1332,6 +1332,7 @@
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
 | **advokat** | n (c) | lawyer | high | FR avocat + SV advokat |
+| **alarm** | n (c) | alarm, alert (n.) |  | SV alarm + NL alarm + FR alarme |
 | **ambasadeur** | n (c) | ambassador | high | FR ambassadeur |
 | **ansvar** | n (n) | responsibility |  | SV ansvar |
 | **arme** | n (c) | army | high | FR armée |
@@ -2187,6 +2188,7 @@
 |---|---|---|---|---|
 | **absolut** | adj | absolute | high | FR absolu |
 | **aktiv** | adj | active | high | FR actif |
+| **alert** | adj | alert, vigilant |  | SV alert + EN alert + FR alerte |
 | **Amerikansk** | adj | American |  | EN America + SV amerikansk |
 | **autentisk** | adj | authentic |  | FR authentique |
 | **barsk** | adj | harsh, gruff |  | SV barsk + DA barsk |
@@ -2252,6 +2254,7 @@
 | **koel** | adj | cool |  | NL koel |
 | **kort** | adj | short |  | SV kort + NL kort |
 | **kraftig** | adj | powerful |  | kraft + -ig |
+| **kritisk** | adj | critical |  | SV kritisk + FR critique |
 | **laag** | adj | low |  | NL laag |
 | **lang** | adj | long |  | SV lång + NL lang |
 | **lekker** | adj | tasty, nice, great (all-purpose approval) | everyday | NL lekker |
@@ -2271,6 +2274,7 @@
 | **nodvendig** | adj | necessary |  | DA nødvendig |
 | **normal** | adj | normal |  | FR normal |
 | **ny** | adj | new |  | SV ny |
+| **oformell** | adj | informal, casual |  | o- + formell |
 | **ogensidig** | adj | unrequited, one-sided |  | o- + gensidig |
 | **olik** | adj | different |  | o- + lik |
 | **omojlig** | adj | impossible |  | o- + mojlig |
@@ -2322,6 +2326,7 @@
 | **ung** | adj | young |  | SV ung + DA ung |
 | **unik** | adj | unique |  | FR unique |
 | **universell** | adj | universal |  | FR universel |
+| **urgent** | adj | urgent, emergent |  | FR urgent |
 | **vaat** | adj | wet |  | SV våt + DA våd |
 | **vanlig** | adj | ordinary, usual |  | SV vanlig |
 | **varm** | adj | warm |  | SV varm + NL warm |
@@ -2489,10 +2494,12 @@
 | aktiv | active |
 | akustik | acoustics |
 | akut | acute |
+| alarm | alarm, alert (n.) |
 | alder | age |
 | aldri | never |
 | alergi | allergy |
 | alergisk | allergic |
+| alert | alert, vigilant |
 | alg | seaweed |
 | algebra | algebra |
 | algoritme | algorithm |
@@ -3507,6 +3514,7 @@
 | kris | crisis |
 | krispig | crispy |
 | kristall | crystal |
+| kritisk | critical |
 | krok | hook |
 | kromosom | chromosome |
 | krona | krona (currency) |
@@ -3869,6 +3877,7 @@
 | offentlig | public |
 | offisiell | official |
 | offline | offline |
+| oformell | informal, casual |
 | ofta | often |
 | og | and |
 | ogensidig | unrequited, one-sided |
@@ -4639,6 +4648,7 @@
 | uppdatering | update (n.) |
 | urbanisera | urbanise |
 | urbanisering | urbanisation |
+| urgent | urgent, emergent |
 | urin | urine |
 | ursekta | excuse, apologize |
 | ursprung | origin |

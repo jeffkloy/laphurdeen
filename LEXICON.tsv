@@ -775,6 +775,9 @@ svaar	adj			difficult	qualities		SV svår
 klar	adj			clear	qualities		SV klar + NL klaar	
 mork	adj			dark	qualities		SV mörk + DA mørk	
 farlig	adj			dangerous	qualities		SV farlig + DA farlig	
+alert	adj			alert, vigilant	qualities		SV alert + EN alert + FR alerte	
+urgent	adj			urgent, emergent	qualities		FR urgent	final-stressed, per the Reform
+kritisk	adj			critical	qualities		SV kritisk + FR critique	as politisk, historisk
 seker	adj			safe, sure	qualities		NL zeker + DA sikker	
 rutten	adj			rotten	qualities		SV rutten + EN rotten	
 dalig	adj			bad	qualities		SV dålig	
@@ -1221,6 +1224,7 @@ borgmester	n	c		mayor	law-civic		DA borgmester
 styring	n	c		governance, government	law-civic		styra + -ing	
 nod	n	c		emergency, distress	law-civic		SV nöd + DA nød	
 nodtid	n	c		state of emergency	law-civic		nod + tid	literally "emergency-time"
+alarm	n	c		alarm, alert (n.)	law-civic		SV alarm + NL alarm + FR alarme	
 epidemi	n	c		epidemic	body-health	high	FR épidémie	
 katastrof	n	c		catastrophe	world-nature	high	FR catastrophe	
 invasjon	n	c		invasion	law-civic	high	FR invasion	
@@ -1435,6 +1439,7 @@ sida	n	c		side	numbers-measure		SV sida + NL zijde	Solsidan av Samveldet = Agaet
 fangst	n	c		catch (of fish), haul	sea-ships		SV fångst + NL vangst	dagens fangst; cf. fanga
 paradis	n	n		paradise	world-nature		FR paradis + SV paradis	
 formell	adj			formal	qualities	high	FR formel + SV formell	-ell per §3b; mer formell, mest formell (LAPHURDI.md §3)
+oformell	adj			informal, casual	qualities		o- + formell	mer oformell, as formell
 hjerne	n	c		brain	body-health		SV hjärna + DA hjerne	
 nerv	n	c		nerve	body-health		SV nerv + NL zenuw	
 muskel	n	c		muscle	body-health		SV muskel + FR muscle	
