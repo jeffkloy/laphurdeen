@@ -370,7 +370,7 @@ styra	v			steer	sea-ships		SV styra + NL sturen
 kapten	n	c		captain	sea-ships		SV kapten + FR capitaine	
 matros	n	c		sailor	sea-ships		NL matroos	
 kompas	n	n		compass	sea-ships		NL kompas + FR compas	
-kart	n	c		map, chart	sea-ships		NL kaart + SV karta	
+kart	n	c		map, chart, card	sea-ships		NL kaart + SV karta	NL kaart and FR carte cover the bank card too — one word for everything in the wallet
 navigasjon	n	c		navigation	sea-ships	high	FR navigation	-sjon, final stress
 flotta	n	c		fleet	sea-ships		SV flotta + FR flotte	
 ferje	n	c		ferry	sea-ships		DA færge	
@@ -2016,3 +2016,4 @@ mynt	n	n		coin, mint	work-trade		SV mynt	where the three-word motto is struck
 konsert	n	c		concert	arts-leisure		FR concert + SV konsert	
 nabolag	n	n		neighbourhood	house-home		DA nabolag	
 ostra	n	c		oyster	plants-animals		SV ostron + FR huître	Oyster Point keeps its English Charter name
+praktisk	adj			practical	qualities		SV praktisk + FR pratique	-isk learned adjective per §3b
