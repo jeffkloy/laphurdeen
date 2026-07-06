@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2313 words** - 1954 roots, 359 derived.
+**2316 words** - 1956 roots, 360 derived.
 
 | domain | words |
 |---|---|
@@ -28,7 +28,7 @@
 | society | 93 |
 | common-verbs | 146 |
 | qualities | 146 |
-| function-words | 121 |
+| function-words | 124 |
 
 ## world-nature
 
@@ -2398,6 +2398,7 @@
 | **jer** | det | your (plural) |  | DA jeres |
 | **ju** | pron | you (plural) |  | NL jullie + EN you |
 | **kanske** | adv | maybe, perhaps |  | SV kanske |
+| **langs** | prep | along |  | SV längs + NL langs + DA langs |
 | **med** | prep | with |  | SV med |
 | **medan** | conj | while |  | SV medan |
 | **mellan** | prep | between |  | SV mellan |
@@ -2424,6 +2425,7 @@
 | **os** | pron | us |  | DA os + NL ons |
 | **over** | prep | over, above |  | EN over + NL over |
 | **overalt** | adv | everywhere |  | over + alt |
+| **rundom** | prep | around |  | rund + om |
 | **samme** | det | same |  | DA samme + SV samma |
 | **self** | pron | self |  | EN self + NL zelf |
 | **selfom** | conj | although, even though |  | self + om |
@@ -2441,6 +2443,7 @@
 | **te** | prep | to |  | NL te + EN to |
 | **terug** | adv | back (returning) |  | NL terug |
 | **tesamme** | adv | together |  | NL tezamen |
+| **tilbaka** | adv | back, backward |  | SV tillbaka + DA tilbage |
 | **tils** | prep | until |  | SV tills |
 | **trots** | prep | despite, in spite of |  | SV trots |
 | **tvers** | adv | across, crosswise |  | SV tvärs + DA tværs |
@@ -3566,6 +3569,7 @@
 | landsbygd | countryside |
 | landskap | landscape |
 | lang | long |
+| langs | along |
 | langsam | slow |
 | Lapentieur | Lapentieur (the capital) |
 | Laphurdeen | Laphurdeen (the Commonwealth) |
@@ -4140,6 +4144,7 @@
 | rullstol | wheelchair |
 | rum | room |
 | rund | round |
+| rundom | around |
 | rutten | rotten |
 | rymd | space (open, outer) |
 | rytme | rhythm |
@@ -4538,6 +4543,7 @@
 | tiende | tenth |
 | tij | tide |
 | tilata | allow |
+| tilbaka | back, backward |
 | tilhora | belong |
 | tillit | trust, confidence |
 | tils | until |
