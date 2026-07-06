@@ -61,6 +61,8 @@ niende	num			ninth	numbers-measure		DA niende + SV nionde
 tiende	num			tenth	numbers-measure		DA tiende + SV tionde	
 werka	v			work	work-trade		NL werken + EN work	
 bygga	v			build	work-trade		SV bygga	
+konstruera	v			construct	work-trade	high	FR construire + SV konstruera	bygga is the everyday word
+konstruksjon	n	c		construction	work-trade	high	FR construction	-tion to -sjon; bygging is the everyday word
 skatt	n	c		tax	work-trade		SV skatt	
 krona	n	c	pl=kronur	krona (currency)	work-trade		SV krona	irregular heritage plural fixed by the Currency Act
 leda	v			lead	work-trade		SV leda	as in Ledminister

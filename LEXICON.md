@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2353 words** - 1982 roots, 371 derived.
+**2355 words** - 1984 roots, 371 derived.
 
 | domain | words |
 |---|---|
@@ -17,7 +17,7 @@
 | numbers-measure | 62 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 81 |
+| work-trade | 83 |
 | communication | 100 |
 | mind-emotion | 146 |
 | law-civic | 180 |
@@ -1035,6 +1035,8 @@
 | **komers** | n (c) | trade (n.) | high | FR commerce |
 | **kompensera** | v | pay | high | FR compenser |
 | **konferens** | n (c) | meeting | high | SV konferens + FR conférence |
+| **konstruera** | v | construct | high | FR construire + SV konstruera |
+| **konstruksjon** | n (c) | construction | high | FR construction |
 | **kontrakt** | n (n) | contract | high | FR contrat + SV kontrakt |
 | **kopa** | v | buy |  | SV köpa + DA købe |
 | **kost** | n (c) | cost |  | SV kostnad + NL kosten |
@@ -3515,6 +3517,8 @@
 | konsoll | console |
 | konst | art |
 | konstant | constant |
+| konstruera | construct |
+| konstruksjon | construction |
 | konsument | consumer |
 | kontekst | context |
 | konto | account |
