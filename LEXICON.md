@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2349 words** - 1978 roots, 371 derived.
+**2351 words** - 1980 roots, 371 derived.
 
 | domain | words |
 |---|---|
@@ -26,8 +26,8 @@
 | science | 175 |
 | digital | 110 |
 | society | 93 |
-| common-verbs | 147 |
-| qualities | 153 |
+| common-verbs | 148 |
+| qualities | 154 |
 | function-words | 127 |
 
 ## world-nature
@@ -2172,6 +2172,7 @@
 | **sparka** | v | kick |  | SV sparka |
 | **springa** | v | run |  | SV springa |
 | **staa** (pres=staar, past=stod, perf=stat) | v | stand |  | SV stå + NL staan |
+| **stanna** | v | stay, remain |  | SV stanna |
 | **starta** | v | start (v.) |  | SV starta + EN start |
 | **stenga** | v | close (v.) |  | SV stänga |
 | **stiga** | v | rise |  | SV stiga |
@@ -2281,6 +2282,7 @@
 | **lang** | adj | long |  | SV lång + NL lang |
 | **lekker** | adj | tasty, nice, great (all-purpose approval) | everyday | NL lekker |
 | **lett** | adj | light (weight), easy |  | SV lätt + DA let |
+| **levande** | adj | alive, living |  | SV levande + DA levende + NL levend |
 | **lievverd** | adj | lovable |  | liev + verd |
 | **lik** | adj | similar, alike |  | SV lik + EN like |
 | **liten** | adj | small |  | SV liten |
@@ -3655,6 +3657,7 @@
 | letta | lighten, relieve |
 | letting | relief |
 | leva | live |
+| levande | alive, living |
 | lever | liver |
 | leverera | deliver |
 | liberalisme | liberalism |
@@ -4459,6 +4462,7 @@
 | stad | city |
 | stadshus | city hall |
 | stand | status, standing |
+| stanna | stay, remain |
 | stark | strong |
 | starkhed | intensity |
 | start | start, beginning |

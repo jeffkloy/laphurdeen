@@ -93,6 +93,8 @@ sang	n	c		song	arts-leisure	everyday	SV sång + NL zang + EN song	Sang av de Man
 skol	n	c		school	school-knowledge		SV skola	
 universitet	n	n		university	school-knowledge	high	SV universitet + FR université	
 leva	v			live	common-verbs		SV leva	
+stanna	v			stay, remain	common-verbs		SV stanna	
+levande	adj			alive, living	qualities		SV levande + DA levende + NL levend	
 hjelpa	v			help	common-verbs	everyday	SV hjälpa + NL helpen	formal doublet: assistera
 vera	v		pres=er, past=var, perf=vart	be	common-verbs		SV vara + NL wezen	
 hava	v		pres=har, past=hadde, perf=havt	have	common-verbs		SV ha + NL hebben + EN have	also the perfect auxiliary: har sprekat
