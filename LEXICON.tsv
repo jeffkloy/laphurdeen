@@ -309,6 +309,7 @@ blixt	n	c		lightning	world-nature		SV blixt
 boge	n	c		bow, arc	world-nature		SV båge + NL boog	the flag's amber arc: bogen
 regnboge	n	c		rainbow	world-nature		regn + boge	
 natur	n	c		nature	world-nature		FR nature + SV natur	
+miljo	n	c		environment	world-nature		SV miljö + DA miljø	rekt te en ren og goed miljo (Art. 10)
 lys	n	n		light	world-nature		DA lys + SV ljus	
 dier	n	n		animal	plants-animals		NL dier	
 fisk	n	c		fish	plants-animals		SV fisk	
@@ -990,6 +991,7 @@ ansvar	n	n		responsibility	law-civic		SV ansvar
 avtal	n	n		agreement, treaty	law-civic		SV avtal	
 fred	n	c		peace	law-civic		SV fred + DA fred	
 krig	n	n		war	law-civic		SV krig + NL krijg	
+neutral	adj			neutral	law-civic		FR neutre + SV neutral	klimatneutral (Art. 10); Laphurdeen er neutral (Art. 28)
 arme	n	c		army	law-civic	high	FR armée	
 soldat	n	c		soldier	law-civic	high	FR soldat	
 forsvar	n	n		defence	law-civic		SV försvar	

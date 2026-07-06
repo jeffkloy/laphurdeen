@@ -31,6 +31,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 1. Territoriet av Samveldet er ilandgruppen av Laphurdeen in den Middel Zee, med deis vatter, zee, zeegrund, og luft.
 2. Hovedstaden av Samveldet er **Lapentieur**.
 3. **Darlingmoors** er en sjartat storstad av Samveldet.
+4. **Samveldet haldar ilanderen, zeen, jorden, og luften for dem dat kommar efter os.** In alle handling moste staten se oek de generasjoner dat kommar, als lojen sejar.
 
 ### Artikel 3 - Grundlojen Staar Hoogest
 1. Dis Grundloj er den hoogest loj av Laphurdeen. Alle loj el handling mot den er ogyldig, so mykke als den staar mot den.
@@ -81,6 +82,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 2. Alle dat levar in Laphurdeen har rekt te **helsahjelp for alle** - bred, og gratis wen du brukar den - betalat av Samveldet. Ingen skal staa uten den helsahjelp dei moste hava - oek helsa for sinnet, helsa for reproduksjon, og helsa for konidentitet - fordat dei kan nit betala.
 3. Samveldet skal halda helsahjelp mellan de best in werlden, og skal publisera alle jaar hoe den staar mot de best in werlden.
 4. Vuksener har rekt te bruka, te halda, og te veksa for sik self, kanabis og anner droger dat lojen sejar skadar liten (**mjuk droger**). Te doa og te selja dem er lojlig, med regeler og skatt efter lojen. Adiksjon er en sak for helsa, nit for straff.
+5. **Alle person har rekt te en ren og goed miljo.** Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimatneutral befor en dag settat in loj, og bliva det for alltid.
 
 ### Artikel 11 - Lering
 1. Lering er en rekt. Lering for de minst kinder, og alle skol fra ferste te sist jaar, er gratis, for alle, og av hoog stand.
@@ -104,6 +106,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 2. Alle dat levar hier har rekt te **offentlig transport**: et net av transport dat kommar ofta, seker, billig, og open for alle - og dat gaar te so goed als alle landet og alle folket, als garantien av lojen sejar.
 3. Wen Samveldet byggar og betalar offentlig plaser og veger, kommar offentlig transport, gaa, og sykla befor privat bilar. Samveldet skal publisera alle jaar hoe nettet staar mot de best in werlden.
 4. Prisen har en tak settat av lojen, so alle kan betala den; og personer in Garantien resar gratis.
+5. **Stranderen og det open land er for alle.** Alle person kan gaa over stranderen, kulleren, og det open land - og moste lemna dem als dei staar.
 
 ### Artikel 15 - Justis
 1. Alle personer har rekt te en rettvis, open, og snabb sak befor en fri domstol uten parti; te staa oskyldig te domstolen sejar anner; og te en advokat, betalat av Samveldet, wen dei kan nit betala self.
@@ -237,6 +240,7 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 1. Alle person dat med erlig hjerta sejar ut om misbruk in offentlig el privat institusjoner, blivar skyddat av lojen mot alle dat vil skada dem for det.
 2. En fri **Storrevisor** provar alle offentlig institusjoner, og publiserar direkt te Parlamentet og folket.
 3. En fri **Folkadvokat** letar gennem dalig styring, wen alle person klagar, gratis.
+4. En fri **Framtidsadvokat** sprekar for dem dat kommar efter os: hen provar alle lojforslag og alle budsjet for framtiden, publiserar wat hen ser, og kan bera saker te domstoleren. Hen blivar utnemnat als domarer under Artikel 30.
 
 ---
 

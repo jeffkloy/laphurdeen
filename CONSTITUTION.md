@@ -29,6 +29,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 1. The territory of the Commonwealth comprises the islands of the Laphurdeen archipelago in the central Mediterranean Sea, together with their internal waters, territorial sea, seabed, and airspace.
 2. The capital of the Commonwealth is **Lapentieur**.
 3. **Darlingmoors** is recognised as a chartered principal city of the Commonwealth.
+4. **The Commonwealth holds its islands, sea, soil, and air in stewardship for those who come after us.** In every act of the state, the generations to come must also be seen, as provided by law.
 
 ### Article 3 - Supremacy of the Constitution
 1. This Constitution is the supreme law of Laphurdeen. Any law, act, or omission inconsistent with it is void to the extent of the inconsistency.
@@ -79,6 +80,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 2. Every resident of Laphurdeen has the right to **universal healthcare**, comprehensive in scope and free at the point of use, funded by the Commonwealth. No resident shall be denied medically necessary care, including mental healthcare, reproductive healthcare, and gender-affirming care, by reason of cost.
 3. The Commonwealth shall maintain healthcare standards that rank among the best in the world, and shall report publicly and annually against international benchmarks.
 4. Adults have the right to the personal use, possession, and cultivation for personal use of cannabis and other substances classified by law as low-harm (**soft drugs**). Their production and sale are lawful, regulated, and taxed as provided by law. Drug dependence is treated as a matter of health, not of punishment.
+5. **Every person has the right to a clean and healthy environment.** The Commonwealth shall keep the air, the waters, and the soil clean; and it shall become climate-neutral by a date fixed in law, and remain so forever.
 
 ### Article 11 - Education
 1. Education is a right. Early childhood, primary, and secondary education are free, universal, and of high standard.
@@ -102,6 +104,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 2. Every resident has the right to **public transport**: a frequent, safe, affordable, and fully accessible public transport network reaching substantially the whole territory and population of the Commonwealth, as guaranteed by law.
 3. In the planning, funding, and design of public space and infrastructure, public and active transport take priority over private motor transport. The Commonwealth shall report annually on network coverage, frequency, accessibility, and affordability against the best standards in the world.
 4. Fares shall be capped by law at a level affordable to all residents, and persons within the Laphurdeen Guarantee travel free of charge.
+5. **The shores and the open land belong to everyone.** Every person may walk the shores, the hills, and the open country - and must leave them as they stand.
 
 ### Article 15 - Justice
 1. Every person is entitled to a fair, public, and timely hearing before an independent and impartial court, to be presumed innocent, and to legal counsel at public expense where they cannot afford it.
@@ -235,6 +238,7 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 1. Any person who in good faith discloses wrongdoing in public or private institutions is protected by law from retaliation of any kind.
 2. An independent **Auditor-General** audits all public bodies and reports directly to Parliament and the public.
 3. An independent **Public Advocate** (ombudsman) investigates maladministration on complaint by any person, without charge.
+4. An independent **Advocate for Future Generations** speaks for those who come after us: the Advocate examines every bill and every budget for the future, reports publicly what they find, and may bring matters before the courts. The Advocate is appointed in the manner of judges under Article 30.
 
 ---
 

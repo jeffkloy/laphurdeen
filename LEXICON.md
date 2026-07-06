@@ -2,11 +2,11 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2394 words** - 2009 roots, 385 derived.
+**2396 words** - 2011 roots, 385 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 86 |
+| world-nature | 87 |
 | plants-animals | 52 |
 | body-health | 257 |
 | people-family | 79 |
@@ -20,7 +20,7 @@
 | work-trade | 90 |
 | communication | 102 |
 | mind-emotion | 148 |
-| law-civic | 186 |
+| law-civic | 187 |
 | arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
@@ -79,6 +79,7 @@
 | **lys** | n (n) | light |  | DA lys + SV ljus |
 | **maan** | n (c) | moon |  | NL maan |
 | **marsk** | n (c) | salt marsh |  | DA marsk + DE Marsch |
+| **miljo** | n (c) | environment |  | SV miljö + DA miljø |
 | **mist** | n (c) | fog |  | EN mist + NL mist |
 | **morkhed** | n (c) | darkness |  | mork + -hed |
 | **natur** | n (c) | nature |  | FR nature + SV natur |
@@ -1461,6 +1462,7 @@
 | **motto** | n (n) | motto |  | SV motto + EN motto |
 | **nasjon** | n (c) | nation | high | FR nation |
 | **nasjonal** | adj | national | high | FR national |
+| **neutral** | adj | neutral |  | FR neutre + SV neutral |
 | **nod** | n (c) | emergency, distress |  | SV nöd + DA nød |
 | **nodtid** | n (c) | state of emergency |  | nod + tid |
 | **offentlig** | adj | public |  | SV offentlig + DA offentlig |
@@ -3863,6 +3865,7 @@
 | mikrob | microbe |
 | mikrofon | microphone |
 | mikroskop | microscope |
+| miljo | environment |
 | million | million |
 | min | my |
 | minder | less |
@@ -3947,6 +3950,7 @@
 | nett | net (mesh) |
 | nettlesare | browser |
 | netverk | network |
+| neutral | neutral |
 | neutron | neutron |
 | neve | nephew |
 | nien | nine |

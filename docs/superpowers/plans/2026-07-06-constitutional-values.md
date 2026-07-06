@@ -32,7 +32,7 @@
 
 **Interfaces:**
 - Consumes: existing headwords `natur`, `luft`, `jord`, `zee`, `iland`, `strand`, `kulle`, `framtid`, `generasjon`, `advokat`, `lojforslag`, `budsjet`.
-- Produces: headwords `miljo` (n c, environment), `klima` (n n, climate), and `neutral` (adj) - `neutral` lands here, not in Task 3, because this task's compound `klimaneutral` needs both parts to be headwords. Compounds `klimaneutral` and `Framtidsadvokat` are §3b head-final compounds; they get no TSV row.
+- Produces: headwords `miljo` (n c, environment) and `neutral` (adj) - `neutral` lands here, not in Task 3, because this task's compound `klimatneutral` needs both parts to be headwords. Compounds `klimatneutral` and `Framtidsadvokat` are §3b head-final compounds; they get no TSV row.
 
 - [ ] **Step 1: Write the scratch audit test (it must FAIL first - the coinages are not yet in the TSV)**
 
@@ -45,7 +45,7 @@ import lexiconRaw from "../../../../LEXICON.tsv?raw";
 
 const clauses = [
   "Samveldet haldar ilanderen, zeen, jorden, og luften for dem dat kommar efter os. In alle handling moste staten se oek de generasjoner dat kommar, als lojen sejar.",
-  "Alle person har rekt te en ren og goed miljo. Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimaneutral befor en dag settat in loj, og bliva det for alltid.",
+  "Alle person har rekt te en ren og goed miljo. Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimatneutral befor en dag settat in loj, og bliva det for alltid.",
   "Stranderen og det open land er for alle. Alle person kan gaa over stranderen, kulleren, og det open land - og moste lemna dem als dei staar.",
   "En fri Framtidsadvokat sprekar for dem dat kommar efter os: hen provar alle lojforslag og alle budsjet for framtiden, publiserar wat hen ser, og kan bera saker te domstoleren. Hen blivar utnemnat als domarer under Artikel 30.",
 ];
@@ -64,21 +64,20 @@ describe("theme A canon audit", () => {
 - [ ] **Step 2: Run it and verify it fails on exactly the two coinages**
 
 Run: `cd apps/laphurdikursen && npx vitest run src/test/scratch-a.test.ts`
-Expected: FAIL with `expected [ 'miljo', 'klimaneutral' ] to deeply equal []`
+Expected: FAIL with `expected [ 'miljo', 'klimatneutral' ] to deeply equal []`
 
-- [ ] **Step 3: Add the three lexicon rows**
+- [ ] **Step 3: Add the two lexicon rows**
 
-In `LEXICON.tsv`, directly after the `natur` row (search for a line starting `natur\tn\tc`), insert these two rows. Fields are TAB-separated; all three rows in this step carry a notes field, so no trailing tab is needed:
+In `LEXICON.tsv`, directly after the `natur` row (search for a line starting `natur\tn\tc`), insert this row. Fields are TAB-separated; both rows in this step carry a notes field, so no trailing tab is needed:
 
 ```
 miljo	n	c		environment	world-nature		SV miljö + DA miljø	rekt te en ren og goed miljo (Art. 10)
-klima	n	n		climate	world-nature		DA klima + FR climat	klimaneutral befor en dag settat in loj (Art. 10)
 ```
 
 Then, directly after the `krig` row (line starts `krig\tn\tn`), insert:
 
 ```
-neutral	adj			neutral	law-civic		FR neutre + SV neutral	klimaneutral (Art. 10); Laphurdeen er neutral (Art. 28)
+neutral	adj			neutral	law-civic		FR neutre + SV neutral	klimatneutral (Art. 10); Laphurdeen er neutral (Art. 28)
 ```
 
 - [ ] **Step 4: Lint and rebuild the lexicon**
@@ -128,7 +127,7 @@ In `GRUNDLOJEN.md`, at the same four positions (Artikel 2 after cl. 3, Artikel 1
 ```
 
 ```markdown
-5. **Alle person har rekt te en ren og goed miljo.** Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimaneutral befor en dag settat in loj, og bliva det for alltid.
+5. **Alle person har rekt te en ren og goed miljo.** Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimatneutral befor en dag settat in loj, og bliva det for alltid.
 ```
 
 ```markdown
@@ -152,7 +151,7 @@ git add CONSTITUTION.md GRUNDLOJEN.md LEXICON.tsv LEXICON.md
 git commit -m "feat(canon): the island holds its future - stewardship, environment, roam, and a Future Generations Advocate
 
 Theme A of the values expansion: Art. 2.4, 10.5, 14.5, 34.4 in both
-editions. Coinages miljo, klima, and neutral; klimaneutral and
+editions. Coinages miljo and neutral (klimat already existed); klimatneutral and
 Framtidsadvokat are 3b compounds.
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
@@ -459,4 +458,4 @@ Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
 - Tasks 3 and 4 depend on Task 1 (Task 3 uses its `neutral` row; Task 4 needs Art. 10 cl. 5 in place so dignity lands as cl. 6). Task 2 is independent.
 - The English wording "clean and healthy environment" (10.5) is deliberately broader than the Laphurdi "ren og goed miljo" glosses; editions are meaning-parallel per the Art. 15(6) precedent.
 - Do not "fix" the pre-existing GRUNDLOJEN divergences (`dodstraffen`, `politiet`, `prisen`, `kellar` in a TSV note) if seen nearby - they are documented and out of scope.
-- After all four tasks: `grep -c 'klimaneutral\|Framtidsadvokat\|krigsunjon\|utlandsarme' GRUNDLOJEN.md` should print 4, and `git log --oneline -4` shows the four theme commits. Do not push.
+- After all four tasks: `grep -c 'klimatneutral\|Framtidsadvokat\|krigsunjon\|utlandsarme' GRUNDLOJEN.md` should print 4, and `git log --oneline -4` shows the four theme commits. Do not push.
