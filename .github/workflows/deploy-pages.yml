@@ -3,7 +3,7 @@ name: Deploy site to GitHub Pages
 # One Pages deployment for the whole Commonwealth: the landing page
 # (Laphurdi at /, English at /en/) at the site root, the Oversettaren
 # translator under /translator/, and Laphurdikursen - the Laphurdi course -
-# under /laphurdi/. GitHub Pages allows a single deployment per repository,
+# under /laphurdikursen/. GitHub Pages allows a single deployment per repository,
 # so all apps ship in one artifact.
 
 on:
@@ -55,14 +55,14 @@ jobs:
         working-directory: apps/laphurdikursen
       - run: npm run build
         working-directory: apps/laphurdikursen
-      - name: Assemble site (landing at root, translator at /translator/, course at /laphurdi/)
+      - name: Assemble site (landing at root, translator at /translator/, course at /laphurdikursen/)
         run: |
           mkdir -p _site
           cp -r apps/landing-page/dist/. _site/
           mkdir -p _site/translator
           cp -r apps/translator/dist/. _site/translator/
-          mkdir -p _site/laphurdi
-          cp -r apps/laphurdikursen/dist/. _site/laphurdi/
+          mkdir -p _site/laphurdikursen
+          cp -r apps/laphurdikursen/dist/. _site/laphurdikursen/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

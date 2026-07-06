@@ -107,7 +107,7 @@ so a new page directory registers itself. Conventions not written elsewhere:
 
 `.github/workflows/deploy-pages.yml` builds all three apps into **one**
 GitHub Pages artifact (landing at root, translator at `/translator/`, course
-at `/laphurdi/`). GitHub Pages allows a single deployment per repository -
+at `/laphurdikursen/`). GitHub Pages allows a single deployment per repository -
 never add a second Pages workflow. The workflow runs the translator and
 course test suites, so a failing vitest blocks deploy.
 

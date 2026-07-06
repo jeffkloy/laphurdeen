@@ -16,7 +16,7 @@ npm test          # vitest: quiz engine, content integrity, canon audit
 npm run build     # tsc + vite → dist/
 ```
 
-Deployed under `/laphurdi/` in the shared GitHub Pages artifact
+Deployed under `/laphurdikursen/` in the shared GitHub Pages artifact
 (`.github/workflows/deploy-pages.yml` - the repo's single Pages workflow).
 
 ## How it is built

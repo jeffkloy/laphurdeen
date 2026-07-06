@@ -2,7 +2,7 @@ import { defineConfig } from "vitest/config";
 import { fileURLToPath } from "node:url";
 
 // base "./" keeps asset URLs relative, so the build works at any GitHub
-// Pages path (deployed under /laphurdi/ in the shared artifact).
+// Pages path (deployed under /laphurdikursen/ in the shared artifact).
 export default defineConfig({
   base: "./",
   server: {
