@@ -22,7 +22,7 @@ DOMAINS = ["world-nature", "plants-animals", "body-health", "people-family",
 IRREGULAR_VERBS = {"vera", "hava", "gaa", "staa", "komma", "se", "doa", "ta",
                    "geva", "faa", "seja", "veta", "kunna", "vilja", "skola",
                    "moste"}
-FORMS_ALLOWED = IRREGULAR_VERBS | {"krona"}
+FORMS_ALLOWED = IRREGULAR_VERBS | {"krona", "stem"}  # nominal irregulars: kronur; the doubled plural stemmer
 LANG_TAG = re.compile(r"^(EN|NL|SV|FR|DA)\b")
 WORD_RE = re.compile(r"^[A-Za-z]+$")
 

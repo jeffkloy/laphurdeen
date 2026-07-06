@@ -158,7 +158,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 3. A bill approved at referendum by a majority of votes cast, on a turnout of at least half of registered electors, becomes law.
 
 ### Article 22 - Promulgation
-Bills duly passed are certified by the presiding officers of both chambers and promulgated by the Speaker of the Commons within fourteen days. **No person or office holds a power of veto over an act of Parliament.**
+Bills duly passed are certified by the presiding officers of both chambers and promulgated by the Speaker of the Commons within fourteen days. **No person or office holds a power of veto over an act of Parliament** - save the people themselves, as Article 47 provides.
 
 ### Article 23 - Elections, Recall, and the Electoral Commission
 1. Every citizen aged eighteen years or over has the right to vote, by ranked-choice ballot. Voting is accessible to all, including persons with disabilities, and no elector shall face material barriers to the franchise.
@@ -265,6 +265,8 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 ### Article 36 - The Budget and Continuity of Government
 1. The annual budget is proposed by the Ministerial College for Finance on behalf of the Council and passed as a law under the Consensus Rule.
 2. **If a budget is not passed before the financial year begins, the previous budget continues in force**, adjusted for inflation by a formula fixed in law, until a new budget is passed. The operations of the Commonwealth shall never cease for want of an appropriation.
+3. **Across the good years and the lean years together, the Commonwealth spends no more than it receives** - by a formula fixed in law, verified annually and publicly by the Auditor-General.
+4. The Commonwealth may borrow beyond that balance only for emergencies under Article 42, or for works that serve those who come after us - each time by eighty per cent of votes cast in each chamber - and what is borrowed is repaid on a published schedule.
 
 ### Article 37 - Household Debt
 1. It is a constitutional objective of the Commonwealth that its residents carry the **lowest household debt-to-income burden among developed nations**.
@@ -314,7 +316,7 @@ Lawful residents who are not citizens enjoy all rights in this Constitution exce
 This Constitution may be amended by a bill passed in each chamber by **eighty per cent** of the votes cast and approved at a national referendum by a majority of votes cast, on a turnout of at least half of registered electors.
 
 ### Article 44 - Entrenched Provisions
-An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates and tax-inclusive pricing rule (Article 35(2)–(5)), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
+An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates and tax-inclusive pricing rule (Article 35(2)–(5)), the People's Part (Part XIV), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
 
 ---
 
@@ -326,6 +328,27 @@ An amendment touching the Charter of Rights and Freedoms (Part II), the Consensu
 3. Before the first general election, the Constituent Assembly shall by law establish the first provinces and the first apportionment of Senate seats among the Ministries.
 4. The first general election shall be held within one hundred and eighty days of commencement, administered by an interim Electoral and Qualifications Commission appointed by the Constituent Assembly.
 5. Until the first Parliament assembles, the Constituent Assembly exercises legislative power under the Consensus Rule, and an interim Council of portfolio administrators exercises executive power collectively.
+
+---
+
+## PART XIV - THE PEOPLE
+
+### Article 46 - The Popular Initiative
+1. Five per cent (5%) of registered electors may, by petition, propose an amendment to this Constitution, as a complete drafted text.
+2. Parliament shall put the proposal to the people within one year. It may place its own counter-proposal beside the people's text; it may not amend it, and it may not hold it back.
+3. The proposal becomes part of this Constitution if approved by a majority of votes cast, at a turnout of at least half of registered electors; where it would touch the entrenched provisions of Article 44, the sixty per cent rule of that Article applies. Where both the proposal and a counter-proposal are approved, the text with the more votes becomes law.
+4. A proposal inconsistent with the absolute rights of Article 16(2) is not put to the vote; the High Court decides.
+
+### Article 47 - The People's Veto
+1. No person or office holds a power of veto over an act of Parliament - but the people themselves do. Within one hundred days of promulgation, two per cent (2%) of registered electors may by petition require that an act be put to national referendum.
+2. The act does not enter into force until the people have voted.
+3. The act falls only where a majority of votes cast is against it, at a turnout of at least half of registered electors; otherwise it stands.
+4. The annual budget (Article 36) and emergency measures (Article 42) stand outside this Article; they answer to their own safeguards.
+
+### Article 48 - Treaties and the People
+1. The Commonwealth joins no organisation of states, and enters no union of states, without the assent of the people at national referendum.
+2. Every other treaty whose ratification requires an act of Parliament is subject to the People's Veto (Article 47).
+3. A treaty inconsistent with this Constitution binds the Commonwealth only once the Constitution itself has been amended.
 
 ---
 

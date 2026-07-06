@@ -84,7 +84,7 @@ frihed	n	c		freedom	law-civic		fri + -hed
 velvard	n	c		welfare	law-civic		SV välfärd + NL welzijn + EN welfare	
 konsens	n	c		consensus	law-civic		EN consensus + FR consensus	
 stemma	v			vote	law-civic	everyday	stem + -a	formal doublet: votera
-stem	n	c		vote (n.)	law-civic		NL stem	
+stem	n	c	pl=stemmer, pldef=stemmeren	vote (n.)	law-civic		NL stem	the doubled plural of Grundlojen: av stemmeren
 senat	n	c		senate	law-civic	high	FR sénat + EN senate	Senaten = the Senate
 folkskamer	n	c		people's chamber, commons	law-civic		folk + kamer	Folkskameren, with linking -s
 ministerie	n	n		ministry	law-civic	high	FR ministère + NL ministerie	

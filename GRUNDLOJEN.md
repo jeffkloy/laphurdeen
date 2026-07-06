@@ -160,7 +160,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 3. Et lojforslag dat faar ja in folkstemmingen - med mer als halv av stemmeren, og wen minst halv av alle stemmare har stemmat - blivar loj.
 
 ### Artikel 22 - Publisering av Lojer
-Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, og publiserat av Talmanen av Folkskameren innen fjorten dager. **Ingen person og ingen werk haldar veto over en loj av Parlamentet.**
+Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, og publiserat av Talmanen av Folkskameren innen fjorten dager. **Ingen person og ingen werk haldar veto over en loj av Parlamentet** - bara folket self, als Artikel 47 sejar.
 
 ### Artikel 23 - Valger, Hemsending, og Valgkommisjonen
 1. Alle borger av akten jaar el mer har rekt te stemma, med rangering. Stemming er open for alle - oek personer med funksjonshinder - og ingen stemmare skal staa befor hinder te stemma.
@@ -267,6 +267,8 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 ### Artikel 36 - Budsjeten, og Dat Staten Aldri Stoppar
 1. Den jaar-budsjet kommar fra Ministerkollegiet for Finans, for Raadet, og blivar loj under Konsensregelen.
 2. **Wen en budsjet nit blivar loj befor det ny finans-jaar startar, levar den gammel budsjet** - rettat for inflasjon efter et tal settat in loj - te en ny budsjet blivar loj. Samveldet skal aldri stoppa te werka fordat en budsjet nit er der.
+3. **Over de goed jaar og de svag jaar tesamme brukar Samveldet nit mer penger als det faar in** - efter et tal settat in loj, og Storrevisoren provar det alle jaar, open for alle.
+4. Samveldet kan laana mer bara for nodtider under Artikel 42, el for werk for dem dat kommar efter os - alle mal med akti prosent (80%) av stemmeren in beide kamerer - og wat blivar laanat, blivar betalat terug on en open plan.
 
 ### Artikel 37 - Hemskulden
 1. Det er et Grundloj-maal av Samveldet dat deis folk berar den **minst hemskuld mot inkomst mellan de rik lander av werlden**.
@@ -316,7 +318,7 @@ Personer dat levar hier lojlig, men er nit borgerer, har alle rekter in dis Grun
 Dis Grundloj kan bliva vekslat av et lojforslag dat faar **akti prosent (80%)** av stemmeren in beide kamerer, og efter det faar ja in en folkstemming - med mer als halv av stemmeren, wen minst halv av alle stemmare har stemmat.
 
 ### Artikel 44 - De Fast Deler
-En veksling dat vil veksla Sjartan av Rekter og Friheder (Del II), Konsensregelen (Artikel 20), forbidingen av en enkel styringshoved (Artikel 1(2)), skatt-taleren og regelen av pris-med-skatt (Artikel 35(2)–(5)), el dis Artikel self - kravar oek ja fra **seksti prosent (60%)** av stemmeren in folkstemmingen.
+En veksling dat vil veksla Sjartan av Rekter og Friheder (Del II), Konsensregelen (Artikel 20), forbidingen av en enkel styringshoved (Artikel 1(2)), skatt-taleren og regelen av pris-med-skatt (Artikel 35(2)–(5)), Folkets Del (Del XIV), el dis Artikel self - kravar oek ja fra **seksti prosent (60%)** av stemmeren in folkstemmingen.
 
 ---
 
@@ -328,6 +330,27 @@ En veksling dat vil veksla Sjartan av Rekter og Friheder (Del II), Konsensregele
 3. Befor det ferste stor valg, skal Grundsamlingen med loj grunda de ferste provinser, og de ferste seter av Senaten mellan Ministerieren.
 4. Det ferste stor valg skal komma innen hundra akti dager fra starten, ledat av en Valg- og Kvalifikasjonskommisjon for overgangen, utnemnat av Grundsamlingen.
 5. Te det ferste Parlament samlar sik, skrivar Grundsamlingen lojer under Konsensregelen, og et Raad for overgangen haldar den eksekutiv makt tesamme.
+
+---
+
+## DEL XIV - FOLKET
+
+### Artikel 46 - Folkets Forslag
+1. Fem prosent (5%) av alle stemmare kan, med en skrift, geva et forslag te veksling av dis Grundloj - als en hel tekst.
+2. Parlamentet skal senda forslaget te folket innen et jaar. Det kan setta et egen forslag ved sidan av folkets tekst - men det kan nit veksla den, og det kan nit halda den terug.
+3. Forslaget gaar te folkstemming, og blivar del av dis Grundloj wen mer als halv av stemmeren sejar ja, og minst halv av alle stemmare har stemmat; waar det vil veksla de fast deler av Artikel 44, kravar det oek seksti prosent (60%) ja. Wen beide forslager faar ja, blivar teksten med mest stemmer loj.
+4. Et forslag dat gaar mot de absolut rekter av Artikel 16(2) gaar nit te stemming; Hoogdomstolen sejar det.
+
+### Artikel 47 - Folkets Veto
+1. Ingen person og ingen werk haldar veto over en loj av Parlamentet - men folket self haldar et. Innen hundra dager fra publisering kan twe prosent (2%) av alle stemmare, med en skrift, krava dat lojen gaar te folkstemming.
+2. Den loj blivar nit gyldig befor folket har stemmat.
+3. Lojen fallar bara wen mer als halv av stemmeren sejar nej, og minst halv av alle stemmare har stemmat; wen nit, staar den.
+4. Jaar-budsjeten (Artikel 36) og nodtid-regeleren under Artikel 42 staar uten for dis Artikel; de har deis egen skydd.
+
+### Artikel 48 - Avtaler og Folket
+1. Samveldet gaar in te ingen organisasjon av lander, og in te ingen unjon av stater, uten ja fra folket in en folkstemming.
+2. Alle anner avtaler dat kravar en loj av Parlamentet staar under Folkets Veto (Artikel 47).
+3. Et avtal dat gaar mot dis Grundloj bindar Samveldet ferst wen Grundlojen self er vekslat.
 
 ---
 

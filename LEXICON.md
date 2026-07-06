@@ -1527,7 +1527,7 @@
 | **stat** | n (c) | state |  | SV stat + FR état |
 | **statshoved** | n (n) | head of state |  | stat + hoved |
 | **statstjenst** | n (c) | civil service |  | stat + tjenst |
-| **stem** | n (c) | vote (n.) |  | NL stem |
+| **stem** (pl=stemmer, pldef=stemmeren) | n (c) | vote (n.) |  | NL stem |
 | **stemma** | v | vote | everyday | stem + -a |
 | **stemmare** | n (c) | voter, elector |  | stemma + -are |
 | **stemming** | n (c) | voting |  | stemma + -ing |
