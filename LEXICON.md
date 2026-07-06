@@ -2,32 +2,32 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2328 words** - 1965 roots, 363 derived.
+**2343 words** - 1974 roots, 369 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 82 |
+| world-nature | 85 |
 | plants-animals | 52 |
-| body-health | 250 |
+| body-health | 253 |
 | people-family | 76 |
 | food-drink | 144 |
 | house-home | 65 |
-| clothing | 25 |
+| clothing | 26 |
 | time-calendar | 53 |
 | numbers-measure | 62 |
-| motion-travel | 50 |
-| sea-ships | 43 |
+| motion-travel | 53 |
+| sea-ships | 44 |
 | work-trade | 81 |
-| communication | 99 |
+| communication | 100 |
 | mind-emotion | 146 |
-| law-civic | 179 |
+| law-civic | 180 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
 | science | 173 |
 | digital | 110 |
 | society | 93 |
 | common-verbs | 147 |
-| qualities | 151 |
+| qualities | 153 |
 | function-words | 126 |
 
 ## world-nature
@@ -65,6 +65,7 @@
 | **kap** | n (c) | cape, headland |  | NL kaap + EN cape |
 | **katastrof** | n (c) | catastrophe | high | FR catastrophe |
 | **klippa** | n (c) | cliff |  | SV klippa |
+| **kopstad** | n (c) | town, market town |  | kopa + stad |
 | **kulle** | n (c) | hill |  | SV kulle |
 | **kust** | n (c) | coast |  | SV kust + NL kust |
 | **lak** | n (c) | lake |  | FR lac + EN lake |
@@ -96,6 +97,8 @@
 | **skog** | n (c) | forest |  | SV skog |
 | **sne** | n (c) | snow |  | DA sne |
 | **sol** | n (c) | sun |  | SV sol + FR soleil |
+| **solnedgang** | n (c) | sunset |  | SV solnedgång + DA solnedgang |
+| **soloppgang** | n (c) | sunrise |  | SV soluppgång + DA solopgang |
 | **stad** | n (c) | city |  | NL stad + SV stad |
 | **sten** | n (c) | stone |  | SV sten |
 | **ster** | n (c) | star |  | NL ster + EN star |
@@ -327,6 +330,8 @@
 | **muskel** | n (c) | muscle |  | SV muskel + FR muscle |
 | **nagel** | n (c) | fingernail |  | NL nagel |
 | **narkose** | n (c) | anaesthesia |  | SV narkos + FR narcose |
+| **nera** | v | nourish |  | SV nära + DA nære |
+| **nering** | n (c) | nourishment, nutrition |  | nera + -ing |
 | **nerv** | n (c) | nerve |  | SV nerv + NL zenuw |
 | **nese** | n (c) | nose |  | DA næse + NL neus |
 | **njure** | n (c) | kidney |  | SV njure + DA nyre |
@@ -416,6 +421,7 @@
 | **tumor** | n (c) | tumour |  | FR tumeur + SV tumör |
 | **tunga** | n (c) | tongue |  | SV tunga |
 | **tutt** | n (c) | tit (colloquial) | everyday | SV tutt + NL tiet |
+| **undernera** | v | undernourish, malnourish |  | under + nera |
 | **urin** | n (c) | urine |  | FR urine + SV urin |
 | **utmatta** | v | exhaust, wear out |  | SV utmatta |
 | **utmatting** | n (c) | exhaustion |  | utmatta + -ing |
@@ -740,6 +746,7 @@
 | **handske** | n (c) | glove |  | SV handske |
 | **hatt** | n (c) | hat |  | SV hatt + NL hoed |
 | **hemd** | n (n) | shirt |  | NL hemd |
+| **huv** | n (c) | hood, cowl |  | SV huv |
 | **jakk** | n (c) | jacket |  | SV jacka + FR jaquette |
 | **kappa** | n (c) | coat |  | SV kappa |
 | **kjol** | n (c) | skirt |  | SV kjol |
@@ -906,11 +913,14 @@
 | **gata** | n (c) | street | everyday | SV gata + DA gade |
 | **hjul** | n (n) | wheel |  | SV hjul |
 | **hoger** | adj | right (direction) |  | SV höger |
+| **kindvagn** | n (c) | pram, baby carriage |  | kind + vagn |
 | **koffert** | n (c) | suitcase |  | DA kuffert + NL koffer |
+| **koffertrum** | n (n) | boot, trunk (of a car) |  | koffert + rum |
 | **kora** | v | drive |  | SV köra |
 | **langsam** | adj | slow |  | SV långsam + NL langzaam |
 | **linje** | n (c) | line (route, stroke) |  | SV linje + NL lijn + FR ligne |
 | **motor** | n (c) | motor, engine |  | SV motor + FR moteur |
+| **motorhuv** | n (c) | bonnet, hood (of a car) |  | motor + huv |
 | **nara** | adj | near |  | SV nära |
 | **nerma** | v | approach, near |  | SV närma |
 | **parkera** | v | park (v.) |  | FR parquer |
@@ -960,6 +970,7 @@
 | **hamn** | n (c) | harbour |  | SV hamn |
 | **hav** | n (n) | ocean, open sea |  | SV hav + DA hav |
 | **kaj** | n (c) | quay |  | SV kaj + NL kade |
+| **kano** | n (c) | canoe |  | DA kano + SV kanot + FR canoë |
 | **kapten** | n (c) | captain |  | SV kapten + FR capitaine |
 | **kart** | n (c) | map, chart, card |  | NL kaart + SV karta |
 | **koj** | n (c) | bunk |  | SV koj |
@@ -1166,6 +1177,7 @@
 | **teken** | n (n) | sign, symbol (written) |  | NL teken + SV tecken |
 | **tekst** | n (c) | text |  | FR texte + SV text |
 | **telefon** | n (c) | telephone |  | FR téléphone + SV telefon |
+| **televisjon** | n (c) | television |  | FR télévision |
 | **tidning** | n (c) | newspaper |  | SV tidning |
 | **titel** | n (c) | title |  | SV titel + FR titre |
 | **ursekta** | v | excuse, apologize |  | SV ursäkta |
@@ -1456,6 +1468,7 @@
 | **redding** | n (c) | rescue, salvation |  | redda + -ing |
 | **regel** | n (c) | rule |  | SV regel + NL regel |
 | **regera** | v | rule, govern | high | FR régner + SV regera |
+| **region** | n (c) | region |  | SV region + FR région + DA region |
 | **register** | n (n) | register | high | FR registre |
 | **rekt** | n (c) | right (entitlement) |  | SV rätt + NL recht |
 | **representera** | v | represent |  | FR représenter |
@@ -2270,6 +2283,7 @@
 | **merkverdig** | adj | remarkable, curious |  | DA mærkværdig + SV märkvärdig |
 | **middel** | adj | middle |  | NL middel + SV medel |
 | **mjuk** | adj | soft |  | SV mjuk |
+| **mobil** | adj | mobile, movable |  | SV mobil + FR mobile |
 | **modern** | adj | modern |  | FR moderne + SV modern |
 | **mogen** | adj | mature, ripe |  | SV mogen |
 | **mojlig** | adj | possible |  | SV möjlig |
@@ -2300,6 +2314,7 @@
 | **rod** | adj | red |  | SV röd + DA rød |
 | **rosa** | adj | pink |  | SV rosa + FR rose |
 | **rund** | adj | round |  | SV rund + NL rond |
+| **rural** | adj | rural |  | FR rural |
 | **rutten** | adj | rotten |  | SV rutten + EN rotten |
 | **saltig** | adj | salty; resentful (slang) | everyday | salt + -ig |
 | **seker** | adj | safe, sure |  | NL zeker + DA sikker |
@@ -3272,6 +3287,7 @@
 | hungrig | hungry |
 | hus | house |
 | husbond | husband |
+| huv | hood, cowl |
 | hylla | shelf |
 | hypotese | hypothesis |
 | hyra | rent |
@@ -3379,6 +3395,7 @@
 | kanabis | cannabis |
 | kandidat | candidate |
 | kanel | cinnamon |
+| kano | canoe |
 | kanske | maybe, perhaps |
 | kaos | chaos |
 | kap | cape, headland |
@@ -3408,6 +3425,7 @@
 | kilometer | kilometre |
 | kind | child |
 | kindtid | childhood |
+| kindvagn | pram, baby carriage |
 | kinetisk | kinetic |
 | kip | chicken |
 | kirk | church |
@@ -3445,6 +3463,7 @@
 | koel | cool |
 | koela | chill, relax (slang) |
 | koffert | suitcase |
+| koffertrum | boot, trunk (of a car) |
 | kognisjon | cognition |
 | kognitiv | cognitive |
 | koj | bunk |
@@ -3492,6 +3511,7 @@
 | kopiera | copy (v.) |
 | kopp | cup |
 | koppar | copper |
+| kopstad | town, market town |
 | kora | drive |
 | korall | coral |
 | korelasjon | correlation |
@@ -3781,6 +3801,7 @@
 | mista | ghost, vanish on someone (slang) |
 | mjuk | soft |
 | mobel | furniture |
+| mobil | mobile, movable |
 | mod | courage |
 | mode | fashion |
 | modell | model |
@@ -3807,6 +3828,7 @@
 | motivasjon | motivation |
 | motivera | motivate |
 | motor | motor, engine |
+| motorhuv | bonnet, hood (of a car) |
 | motto | motto |
 | mund | mouth |
 | mus | mouse |
@@ -3834,6 +3856,8 @@
 | nedladda | download |
 | nedladdning | download (n.) |
 | nej | no |
+| nera | nourish |
+| nering | nourishment, nutrition |
 | nerma | approach, near |
 | nerv | nerve |
 | nervaro | presence |
@@ -4084,6 +4108,7 @@
 | reform | reform |
 | regel | rule |
 | regera | rule, govern |
+| region | region |
 | register | register |
 | regn | rain |
 | regnboge | rainbow |
@@ -4165,6 +4190,7 @@
 | rum | room |
 | rund | round |
 | rundom | around |
+| rural | rural |
 | rutten | rotten |
 | rymd | space (open, outer) |
 | rytme | rhythm |
@@ -4372,6 +4398,8 @@
 | sol | sun |
 | soldat | soldier |
 | solidaritet | solidarity |
+| solnedgang | sunset |
+| soloppgang | sunrise |
 | solsystem | solar system |
 | somhoe | somehow |
 | somme | some |
@@ -4540,6 +4568,7 @@
 | tekst | text |
 | telefon | telephone |
 | teleskop | telescope |
+| televisjon | television |
 | tella | count |
 | telling | counting |
 | tema | theme |
@@ -4645,6 +4674,7 @@
 | ugn | oven |
 | ull | wool |
 | under | under, during, according to |
+| undernera | undernourish, malnourish |
 | undertrykka | oppress, suppress |
 | undvika | avoid |
 | ung | young |

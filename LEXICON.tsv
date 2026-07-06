@@ -4,17 +4,23 @@ vatterfall	n	n		waterfall	world-nature		vatter + fall
 zee	n	c		sea	world-nature		NL zee	
 iland	n	n		island	world-nature		EN island + NL eiland	
 sol	n	c		sun	world-nature		SV sol + FR soleil	
+soloppgang	n	c		sunrise	world-nature		SV soluppgång + DA solopgang	
+solnedgang	n	c		sunset	world-nature		SV solnedgång + DA solnedgang	
 maan	n	c		moon	world-nature		NL maan	say "mahn"
 himmel	n	c		sky	world-nature		SV himmel	
 berg	n	c		mountain	world-nature		NL berg + SV berg	
 strand	n	c		beach, shore	world-nature		NL strand + SV strand	pl. strander, as in the Preamble
 regn	n	n		rain	world-nature		SV regn	
 stad	n	c		city	world-nature		NL stad + SV stad	staden = the city
+kopstad	n	c		town, market town	world-nature		kopa + stad	as flyga + hamn gives flyghamn; smaller than a stad
 grund	n	c		foundation, ground	world-nature		SV grund + NL grond	
 Laphurdeen	n	c		Laphurdeen (the Commonwealth)	world-nature		FR la + SV fjärd	"The Anchorage"; archaic definite -een; heritage ph
 Lapentieur	n	c		Lapentieur (the capital)	world-nature		FR la pente + -ieur	"the place of slopes"
 Darcambria	n	c		Darcambria (the harbour city)	world-nature		FR doré + EN amber + FR cambrer	"the amber curve"
 helsa	n	c		health	body-health		SV hälsa	Helsaministeriet = the Health Ministry
+nera	v			nourish	body-health		SV nära + DA nære	
+nering	n	c		nourishment, nutrition	body-health		nera + -ing	
+undernera	v			undernourish, malnourish	body-health		under + nera	
 folk	n	n		people	people-family		SV folk + NL volk	folket = the people
 kvin	n	c		woman	people-family		SV kvinna	
 man	n	c		man	people-family		EN man + SV man	
@@ -347,6 +353,7 @@ elg	n	c		elk, moose	plants-animals		SV älg
 hare	n	c		hare	plants-animals		SV hare + NL haas	
 svan	n	c		swan	plants-animals		SV svan	
 skip	n	n		ship	sea-ships	everyday	SV skepp + EN ship + DA skib	formal doublet: vesel
+kano	n	c		canoe	sea-ships		DA kano + SV kanot + FR canoë	
 vesel	n	n		ship	sea-ships	high	FR vaisseau	
 boot	n	c		boat	sea-ships		NL boot	say "boht"
 segel	n	n		sail (n.)	sea-ships		SV segel + NL zeil	
@@ -533,6 +540,7 @@ kjol	n	c		skirt	clothing		SV kjol
 jakk	n	c		jacket	clothing		SV jacka + FR jaquette	
 kappa	n	c		coat	clothing		SV kappa	
 hatt	n	c		hat	clothing		SV hatt + NL hoed	
+huv	n	c		hood, cowl	clothing		SV huv	
 muts	n	c		cap	clothing		NL muts	
 skoe	n	c		shoe	clothing		NL schoen + EN shoe	say "skoo"
 stovel	n	c		boot	clothing		SV stövel + NL stevel	
@@ -705,6 +713,7 @@ stasjon	n	c		station	motion-travel		FR station	-sjon, final stress
 biljet	n	c		ticket	motion-travel		FR billet	
 pas	n	n		passport	motion-travel		FR passeport	
 koffert	n	c		suitcase	motion-travel		DA kuffert + NL koffer	
+koffertrum	n	n		boot, trunk (of a car)	motion-travel		koffert + rum	literally suitcase-room
 retning	n	c		direction	motion-travel		DA retning	
 venstra	adj			left	motion-travel		DA venstre + SV vänster	
 hoger	adj			right (direction)	motion-travel		SV höger	rekt is the legal right
@@ -723,8 +732,10 @@ steg	n	n		step	motion-travel		SV steg
 transport	n	c		transport	motion-travel		FR transport	
 trafik	n	c		traffic	motion-travel		SV trafik + FR trafic	
 motor	n	c		motor, engine	motion-travel		SV motor + FR moteur	
+motorhuv	n	c		bonnet, hood (of a car)	motion-travel		motor + huv	
 hjul	n	n		wheel	motion-travel		SV hjul	
 vagn	n	c		wagon, carriage	motion-travel		SV vagn	
+kindvagn	n	c		pram, baby carriage	motion-travel		kind + vagn	as SV barnvagn, NL kinderwagen
 rod	adj			red	qualities		SV röd + DA rød	
 blaa	adj			blue	qualities		SV blå + NL blauw	
 gron	adj			green	qualities		SV grön + NL groen	
@@ -754,6 +765,8 @@ koel	adj			cool	qualities		NL koel	say "kool"
 full	adj			full	qualities		SV full + EN full	
 tom	adj			empty	qualities		SV tom	
 ren	adj			clean	qualities		SV ren	
+rural	adj			rural	qualities		FR rural	
+mobil	adj			mobile, movable	qualities		SV mobil + FR mobile	the phone is smarttelefon
 smuts	n	c		dirt	qualities		SV smuts	
 smutsig	adj			dirty	qualities		smuts + -ig	
 vaat	adj			wet	qualities		SV våt + DA våd	
@@ -854,6 +867,7 @@ lyssna	v			listen	communication		SV lyssna
 heera	v			hear	communication		EN hear + NL horen	say "hay-ra"
 telefon	n	c		telephone	communication		FR téléphone + SV telefon	
 radio	n	c		radio	communication		FR radio + SV radio	
+televisjon	n	c		television	communication		FR télévision	-sion to -sjon, final-stressed as nasjon
 mesasj	n	c		message	communication		FR message	
 betyda	v			mean (v.)	communication		SV betyda + DA betyde	
 forklara	v			explain	communication	everyday	SV förklara	formal doublet: eksplikera
@@ -940,6 +954,7 @@ grens	n	c		border	law-civic		SV gräns + NL grens
 flagg	n	n		flag	law-civic		SV flagga + DA flag	
 stat	n	c		state	law-civic		SV stat + FR état	
 provins	n	c		province	law-civic		SV provins + FR province	
+region	n	c		region	law-civic		SV region + FR région + DA region	
 kommun	n	c		municipality	law-civic		SV kommun + FR commune	
 tilata	v			allow	law-civic	everyday	SV tillåta	formal doublet: permitera
 permitera	v			allow	law-civic	high	FR permettre	
