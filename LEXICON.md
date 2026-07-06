@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2304 words** - 1947 roots, 357 derived.
+**2306 words** - 1947 roots, 359 derived.
 
 | domain | words |
 |---|---|
@@ -25,7 +25,7 @@
 | school-knowledge | 64 |
 | science | 166 |
 | digital | 110 |
-| society | 91 |
+| society | 93 |
 | common-verbs | 146 |
 | qualities | 146 |
 | function-words | 121 |
@@ -1953,6 +1953,8 @@
 | **generasjon** | n (c) | generation |  | FR génération |
 | **gud** | n (c) | god, God |  | SV gud + DA gud + NL god |
 | **gudig** | adj | divine |  | gud + -ig |
+| **hemlos** | adj | homeless, unhoused |  | hem + -los |
+| **hemloshed** | n (c) | homelessness |  | hemlos + -hed |
 | **hierarki** | n (n) | hierarchy |  | FR hiérarchie |
 | **ideologi** | n (c) | ideology |  | FR idéologie |
 | **individ** | n (c) | individual |  | FR individu + SV individ |
@@ -3187,6 +3189,8 @@
 | hem | home |
 | hemd | shirt |
 | hemlig | secret |
+| hemlos | homeless, unhoused |
+| hemloshed | homelessness |
 | hemskap | belonging |
 | hen | they (singular) |
 | henne | her (object) |
