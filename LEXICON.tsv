@@ -998,6 +998,8 @@ kurs	n	c		course	school-knowledge		SV kurs + FR cours
 leksjon	n	c		lesson	school-knowledge	high	FR leçon	-sjon, final stress
 eksamen	n	c		examination	school-knowledge	high	SV examen + FR examen	
 prov	n	n		test	school-knowledge		SV prov	
+verifiera	v			verify	school-knowledge		FR vérifier + SV verifiera	
+verifikasjon	n	c		verification	school-knowledge		FR vérification	-tion to -sjon, as navigasjon
 vetskap	n	c		knowledge	school-knowledge		veta + -skap	
 siens	n	c		science	school-knowledge	high	FR science	
 historie	n	c		history	school-knowledge		FR histoire + NL historie	
@@ -1767,6 +1769,8 @@ fil	n	c		file	digital		SV fil + FR file
 mapp	n	c		folder	digital		SV mapp	
 katalog	n	c		directory, catalogue	digital		SV katalog + FR catalogue	
 lagra	v			store, save	digital		SV lagra	
+fastlegga	v			commit (changes), record	digital		fast + legga	as NL vastleggen: to lay fast
+fastlegging	n	c		commit (n.), recorded change	digital		fastlegga + -ing	
 lagring	n	c		storage	digital		lagra + -ing	
 radera	v			delete	digital		SV radera	
 kopie	n	c		copy (n.)	digital		FR copie	

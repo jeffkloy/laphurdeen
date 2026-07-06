@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2363 words** - 1991 roots, 372 derived.
+**2367 words** - 1993 roots, 374 derived.
 
 | domain | words |
 |---|---|
@@ -22,9 +22,9 @@
 | mind-emotion | 146 |
 | law-civic | 180 |
 | arts-leisure | 59 |
-| school-knowledge | 64 |
+| school-knowledge | 66 |
 | science | 175 |
-| digital | 110 |
+| digital | 112 |
 | society | 93 |
 | common-verbs | 148 |
 | qualities | 158 |
@@ -1664,6 +1664,8 @@
 | **tolka** | v | interpret |  | SV tolka |
 | **tolkning** | n (c) | interpretation |  | tolka + -ing |
 | **universitet** | n (n) | university | high | SV universitet + FR université |
+| **verifiera** | v | verify |  | FR vérifier + SV verifiera |
+| **verifikasjon** | n (c) | verification |  | FR vérification |
 | **vetskap** | n (c) | knowledge |  | veta + -skap |
 | **visdom** | n (c) | wisdom |  | SV visdom + DA visdom |
 
@@ -1870,6 +1872,8 @@
 | **digitalisera** | v | digitise |  | FR digitaliser |
 | **dron** | n (c) | drone |  | EN drone |
 | **epost** | n (c) | email |  | EN e + SV post |
+| **fastlegga** | v | commit (changes), record |  | fast + legga |
+| **fastlegging** | n (c) | commit (n.), recorded change |  | fastlegga + -ing |
 | **feil** | n (n) | error, fault |  | DA fejl + NL feil |
 | **fil** | n (c) | file |  | SV fil + FR file |
 | **fjernkontroll** | n (c) | remote control |  | SV fjärrkontroll |
@@ -2985,6 +2989,8 @@
 | fantastisk | amazing, fantastic |
 | farlig | dangerous |
 | fast | fixed, firm |
+| fastlegga | commit (changes), record |
+| fastlegging | commit (n.), recorded change |
 | fatig | poor |
 | fatigdom | poverty |
 | feber | fever |
@@ -4807,6 +4813,8 @@
 | verde | value |
 | verdig | dignified, worthy |
 | verdighed | dignity |
+| verifiera | verify |
+| verifikasjon | verification |
 | verk | ache |
 | verka | ache, throb |
 | vers | verse |
