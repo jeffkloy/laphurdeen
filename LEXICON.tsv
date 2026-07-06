@@ -2389,3 +2389,4 @@ vapen	n	n		weapon	law-civic		SV vapen + NL wapen
 skyta	v			shoot	law-civic		SV skjuta + DA skyde	
 kula	n	c		bullet	law-civic		SV kula + DA kugle	alle kula blivar tellat (Art. 15)
 skytvapen	n	n		firearm	law-civic		skyta + vapen	politiet berar nit skytvapen (Art. 15)
+selfforsvar	n	n		self-defence	law-civic		self + forsvar	oek nit for selfforsvar (Art. 15)

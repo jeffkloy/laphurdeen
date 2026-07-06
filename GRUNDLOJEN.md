@@ -111,6 +111,8 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 4. Wen en person blivar haldat av staten, skal en domare se saken snabb. Fengsel skal hjelpa mennisker te leva goed igen.
 5. Samveldets politi **berar nit skytvapen**. Bara en serlig enhed, settat in loj, kan bera dem - wen og hoe, sejar lojen.
 6. **Alle kula blivar tellat**: wen en person blivar skytat av staten, moste en open rapport seja, for alle kula, warfor den blivade skytat in alle organ dat den treffade.
+7. **Laphurdeen er uten vapen.** Ingen person kan kopa, hava, bera, el selja skytvapen - oek nit for selfforsvar. Sekerheden av alle person kommar fra Samveldet, nit fra privat vapen. Bara den serlig enhed in 5, og forsvaret under Artikel 28, berar skytvapen.
+8. **Ingen vapen blivar byggat in Laphurdeen.** Te bygga skytvapen, kuler, og alle anner vapen er forbidat. Wat enheden og forsvaret moste hava, kopar Samveldet in utlandet, als lojen sejar.
 
 ### Artikel 16 - Grenser on Rekteren
 1. Rekteren in dis Sjarta kan bara bliva grensat av loj, bara so mykke als er nodvendig og proporsjonal in et fri og demokratisk samfund byggat on verdighed, egalitet, og frihed - og aldri so mykke dat hjertat av rekten stervar.

@@ -109,6 +109,8 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 4. Detention is subject to prompt judicial review. Imprisonment shall aim at rehabilitation.
 5. The police of the Commonwealth **do not carry firearms**. Only a special operations unit designated by law may bear them, in the circumstances and under the safeguards that the law prescribes.
 6. **Every bullet is accounted for**: where a person is shot by an agent of the Commonwealth, a public report shall state, for each bullet fired, why it was fired into each specific organ it struck.
+7. **Laphurdeen is disarmed.** No person may acquire, possess, carry, or trade a firearm - not even for self-defence. The safety of every person is secured by the Commonwealth, not by private arms. Firearms are borne only by the special unit under clause 5 and by the defence forces under Article 28.
+8. **No weapon is manufactured in Laphurdeen.** The manufacture of firearms, ammunition, and every other weapon is prohibited. What the special unit and the defence forces require, the Commonwealth buys abroad, as provided by law.
 
 ### Article 16 - Limitation of Rights
 1. The rights in this Charter may be limited only by law, only so far as is necessary and proportionate in a free and democratic society founded on dignity, equality, and freedom, and only consistently with the essence of each right.

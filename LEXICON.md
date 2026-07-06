@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2390 words** - 2009 roots, 381 derived.
+**2391 words** - 2009 roots, 382 derived.
 
 | domain | words |
 |---|---|
@@ -20,7 +20,7 @@
 | work-trade | 88 |
 | communication | 102 |
 | mind-emotion | 148 |
-| law-civic | 184 |
+| law-civic | 185 |
 | arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
@@ -1500,6 +1500,7 @@
 | **samling** | n (c) | assembly, gathering, collection |  | SV samling |
 | **samvelde** | n (n) | commonwealth |  | SV samvälde |
 | **sekerhed** | n (c) | security |  | seker + -hed |
+| **selfforsvar** | n (n) | self-defence |  | self + forsvar |
 | **senat** | n (c) | senate | high | FR sénat + EN senate |
 | **senator** | n (c) | senator | high | FR sénateur |
 | **seremoniell** | adj | ceremonial | high | FR cérémoniel |
@@ -4322,6 +4323,7 @@
 | sel | seal |
 | selektera | choose |
 | self | self |
+| selfforsvar | self-defence |
 | selfmord | suicide |
 | selfom | although, even though |
 | selfs | even |
