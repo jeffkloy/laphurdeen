@@ -96,8 +96,12 @@ National and metro transport canon:
   country towns. **Integrated rail-ferry sailings** serve the island
   provinces (Sainte-Agathe, The Northern Straits) — the ticket is one
   ticket.
-- **Fares** — the Charter fare cap applies nationally; concrete fare canon
-  is recorded here so pages can cite it.
+- **Fares** — the Charter fare cap applies nationally, made concrete as a
+  **weekly cap of kr.4,950** across the Baaner Laphurdeen network.
+  Payment is **tap-to-pay**: contactless credit/debit cards and Apple
+  Pay/Google Pay, with the cap applied automatically to whatever was
+  tapped — no ticket office required. Concrete fare canon lives here so
+  pages can cite it.
 - **DCTS** — the Darcambrian Communities Transport Service, absorbed from
   `~/Documents/Darcambria.txt`: the 0221 dialling plan, Darlingmoors'
   zones, the U/R local routes and x-express routes, City Centre Mainline
@@ -132,7 +136,9 @@ Three sections in the site's existing card-and-section idiom:
    formatting, tipping culture.
 2. **Baaner Laphurdeen / Getting around** — the express triangle, regional
    routes to the province seats, rail-ferry sailings to Sainte-Agathe and
-   The Northern Straits, the Charter fare cap. Cross-link: metro Darcambria runs DCTS
+   The Northern Straits — and the headline traveller promises: the
+   **weekly fare cap of kr.4,950** and **tap-to-pay** everywhere
+   (contactless credit/debit, Apple Pay/Google Pay), promoted prominently. Cross-link: metro Darcambria runs DCTS
    (the kr.320 airport premium lives on the Darcambria/Darlingmoors pages,
    not here).
 3. **Frasboken / Phrasebook** — greetings, transport, café, emergencies —
