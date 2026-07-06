@@ -893,6 +893,7 @@ kwittens	n	c		receipt	work-trade		SV kvittens	kw for kv, per the Reform
 kontrakt	n	n		contract	work-trade	high	FR contrat + SV kontrakt	
 firma	n	c		firm, company	work-trade		SV firma	
 fabrik	n	c		factory	work-trade		SV fabrik + FR fabrique	
+produsera	v			produce	work-trade		FR produire + SV producera	
 industri	n	c		industry	work-trade	high	SV industri + FR industrie	
 bonde	n	c		farmer	work-trade		SV bonde	
 jordbruk	n	n		agriculture	work-trade		SV jordbruk	literally "earth-use"
@@ -1710,6 +1711,7 @@ bugg	n	c		bug (software)	digital		EN bug
 versjon	n	c		version	digital		FR version	
 fil	n	c		file	digital		SV fil + FR file	
 mapp	n	c		folder	digital		SV mapp	
+katalog	n	c		directory, catalogue	digital		SV katalog + FR catalogue	
 lagra	v			store, save	digital		SV lagra	
 lagring	n	c		storage	digital		lagra + -ing	
 radera	v			delete	digital		SV radera	
@@ -2266,6 +2268,7 @@ kamp	n	c		fight, struggle (n.)	common-verbs		SV kamp + DA kamp
 djupa	v			deepen	common-verbs		djup + -a	
 erfara	v			experience (v.)	common-verbs		SV erfara + NL ervaren	
 erfaring	n	c		experience (n.)	common-verbs		erfara + -ing	
+fjerna	v			remove, take away	common-verbs		fjern + -a	cf. DA fjerne
 flytta	v			move (house), relocate	motion-travel		SV flytta	
 nerma	v			approach, near	motion-travel		SV närma	
 flykta	v			flee, escape	motion-travel		DA flygte	
@@ -2275,6 +2278,7 @@ strev	n	n		effort, striving	work-trade		DA stræb
 leverera	v			deliver	work-trade		SV leverera + FR livrer	
 planera	v			plan (v.)	work-trade		SV planera + FR planer	
 plan	n	c		plan	work-trade		FR plan	
+projekt	n	n		project	work-trade		SV projekt + NL project + FR projet	
 skift	n	n		shift (n.)	work-trade		SV skift	
 sirene	n	c		siren	sea-ships		FR sirène	
 dron	n	c		drone	digital		EN drone	
@@ -2290,6 +2294,7 @@ tils	prep			until	function-words		SV tills
 trots	prep			despite, in spite of	function-words		SV trots	
 bortom	prep			beyond	function-words		bort + om	
 tvers	adv			across, crosswise	function-words		SV tvärs + DA tværs	
+tversover	prep			across	function-words		tvers + over	
 bakom	prep			behind	function-words		SV bakom	
 selfom	conj			although, even though	function-words		self + om	
 siden	prep			since; ago	function-words		DA siden	

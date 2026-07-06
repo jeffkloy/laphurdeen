@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**2298 words** — 1943 roots, 355 derived.
+**2303 words** — 1946 roots, 357 derived.
 
 | domain | words |
 |---|---|
@@ -17,18 +17,18 @@
 | numbers-measure | 62 |
 | motion-travel | 50 |
 | sea-ships | 43 |
-| work-trade | 79 |
+| work-trade | 81 |
 | communication | 98 |
 | mind-emotion | 146 |
 | law-civic | 176 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
 | science | 166 |
-| digital | 109 |
+| digital | 110 |
 | society | 91 |
-| common-verbs | 145 |
+| common-verbs | 146 |
 | qualities | 146 |
-| function-words | 120 |
+| function-words | 121 |
 
 ## world-nature
 
@@ -1042,8 +1042,10 @@
 | **plan** | n (c) | plan |  | FR plan |
 | **planera** | v | plan (v.) |  | SV planera + FR planer |
 | **pris** | n (n) | price |  | SV pris + FR prix |
+| **produsera** | v | produce |  | FR produire + SV producera |
 | **profesjon** | n (c) | profession | high | FR profession |
 | **profesjonell** | adj | professional | high | FR professionnel |
+| **projekt** | n (n) | project |  | SV projekt + NL project + FR projet |
 | **rekning** | n (c) | bill, invoice |  | SV räkning |
 | **reserv** | n (c) | reserve | high | FR réserve |
 | **revisor** | n (c) | auditor | high | FR réviseur |
@@ -1843,6 +1845,7 @@
 | **internett** | n (n) | internet |  | EN internet |
 | **kabel** | n (c) | cable |  | SV kabel + FR câble |
 | **kamera** | n (c) | camera |  | SV kamera + FR caméra |
+| **katalog** | n (c) | directory, catalogue |  | SV katalog + FR catalogue |
 | **klikk** | n (n) | click (n.) |  | EN click |
 | **klikka** | v | click (v.) |  | EN click |
 | **klistra** | v | paste |  | SV klistra |
@@ -2054,6 +2057,7 @@
 | **fela** | v | fail, err |  | fel + -a |
 | **feling** | n (c) | failure |  | fela + -ing |
 | **finna** | v | find |  | SV finna + NL vinden |
+| **fjerna** | v | remove, take away |  | fjern + -a |
 | **flyga** | v | fly (v.) |  | SV flyga |
 | **flyta** | v | float |  | SV flyta |
 | **folga** | v | follow |  | SV följa + DA følge |
@@ -2430,6 +2434,7 @@
 | **tils** | prep | until |  | SV tills |
 | **trots** | prep | despite, in spite of |  | SV trots |
 | **tvers** | adv | across, crosswise |  | SV tvärs + DA tværs |
+| **tversover** | prep | across |  | tvers + over |
 | **under** | prep | under, during, according to |  | SV under + EN under |
 | **ut** | adv | out |  | SV ut + NL uit |
 | **uten** | prep | without |  | SV utan + DA uden |
@@ -2958,6 +2963,7 @@
 | fjard | wide bay, firth |
 | fjeril | butterfly |
 | fjern | far |
+| fjerna | remove, take away |
 | fjernkontroll | remote control |
 | fjorten | fourteen |
 | flagg | flag |
@@ -3355,6 +3361,7 @@
 | kart | map, chart, card |
 | kasino | casino |
 | kasta | throw |
+| katalog | directory, catalogue |
 | katalysator | catalyst |
 | katastrof | catastrophe |
 | katt | cat |
@@ -3975,6 +3982,7 @@
 | produkt | product |
 | produktiv | productive |
 | produsent | producer |
+| produsera | produce |
 | profesjon | profession |
 | profesjonell | professional |
 | professor | professor |
@@ -3985,6 +3993,7 @@
 | programvara | software |
 | progresiv | progressive |
 | proibera | forbid |
+| projekt | project |
 | propaganda | propaganda |
 | proporsjonal | proportionate |
 | propp | plug, stopper |
@@ -4582,6 +4591,7 @@
 | tutt | tit (colloquial) |
 | tuul | tool |
 | tvers | across, crosswise |
+| tversover | across |
 | tvivla | doubt |
 | twe | two |
 | tweti | twenty |
