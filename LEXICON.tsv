@@ -938,6 +938,7 @@ kontrakt	n	n		contract	work-trade	high	FR contrat + SV kontrakt
 firma	n	c		firm, company	work-trade		SV firma	
 fabrik	n	c		factory	work-trade		SV fabrik + FR fabrique	
 produsera	v			produce	work-trade		FR produire + SV producera	
+generera	v			generate	work-trade		FR générer + SV generera	-era; LEXICON.md er genererat fra LEXICON.tsv
 industri	n	c		industry	work-trade	high	SV industri + FR industrie	
 bonde	n	c		farmer	work-trade		SV bonde	
 jordbruk	n	n		agriculture	work-trade		SV jordbruk	literally "earth-use"

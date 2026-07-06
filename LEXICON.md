@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2381 words** - 2004 roots, 377 derived.
+**2382 words** - 2005 roots, 377 derived.
 
 | domain | words |
 |---|---|
@@ -17,7 +17,7 @@
 | numbers-measure | 62 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 86 |
+| work-trade | 87 |
 | communication | 102 |
 | mind-emotion | 148 |
 | law-civic | 180 |
@@ -1031,6 +1031,7 @@
 | **fabrik** | n (c) | factory |  | SV fabrik + FR fabrique |
 | **finans** | n (c) | finance | high | FR finance |
 | **firma** | n (c) | firm, company |  | SV firma |
+| **generera** | v | generate |  | FR générer + SV generera |
 | **gratis** | adj | free of charge |  | FR gratis + SV gratis |
 | **handel** | n (c) | trade (n.) | everyday | SV handel + NL handel |
 | **handla** | v | trade, shop (v.) |  | handel + -a |
@@ -3187,6 +3188,7 @@
 | gemenskap | community |
 | gen | gene |
 | generasjon | generation |
+| generera | generate |
 | genetik | genetics |
 | gennem | through |
 | genomsnitt | average |
