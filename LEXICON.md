@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2386 words** - 2006 roots, 380 derived.
+**2390 words** - 2009 roots, 381 derived.
 
 | domain | words |
 |---|---|
@@ -20,7 +20,7 @@
 | work-trade | 88 |
 | communication | 102 |
 | mind-emotion | 148 |
-| law-civic | 180 |
+| law-civic | 184 |
 | arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
@@ -1437,6 +1437,7 @@
 | **krava** | v | demand |  | SV kräva |
 | **krig** | n (n) | war |  | SV krig + NL krijg |
 | **kris** | n (c) | crisis | high | SV kris + FR crise |
+| **kula** | n (c) | bullet |  | SV kula + DA kugle |
 | **kvalifikasjon** | n (c) | qualification | high | FR qualification |
 | **kvorum** | n (n) | quorum | high | FR quorum |
 | **ledminister** | n (c) | lead minister |  | leda + minister |
@@ -1510,6 +1511,8 @@
 | **skydd** | n (n) | protection |  | SV skydd |
 | **skydda** | v | protect |  | SV skydda |
 | **skyldig** | adj | guilty |  | SV skyldig + NL schuldig |
+| **skyta** | v | shoot |  | SV skjuta + DA skyde |
+| **skytvapen** | n (n) | firearm |  | skyta + vapen |
 | **soldat** | n (c) | soldier | high | FR soldat |
 | **stand** | n (n) | status, standing |  | SV stånd |
 | **stat** | n (c) | state |  | SV stat + FR état |
@@ -1536,6 +1539,7 @@
 | **utnemna** | v | appoint |  | SV utnämna |
 | **utnemning** | n (c) | appointment |  | utnemna + -ing |
 | **valg** | n (n) | election |  | DA valg |
+| **vapen** | n (n) | weapon |  | SV vapen + NL wapen |
 | **varslare** | n (c) | whistleblower |  | varsla + -are |
 | **veksling** | n (c) | amendment, change |  | veksla + -ing |
 | **velvard** | n (c) | welfare |  | SV välfärd + NL welzijn + EN welfare |
@@ -3621,6 +3625,7 @@
 | kub | cube |
 | kudde | pillow, cushion |
 | kuk | dick (vulgar) |
+| kula | bullet |
 | kulle | hill |
 | kultur | culture |
 | kulturell | cultural |
@@ -4439,6 +4444,8 @@
 | skydd | protection |
 | skydda | protect |
 | skyldig | guilty |
+| skyta | shoot |
+| skytvapen | firearm |
 | slag | blow, stroke |
 | slaga | hit |
 | slekt | kin, family line |
@@ -4809,6 +4816,7 @@
 | vandra | walk, wander |
 | vanilj | vanilla |
 | vanlig | ordinary, usual |
+| vapen | weapon |
 | vara | goods, ware |
 | vard | host |
 | variabel | variable |
