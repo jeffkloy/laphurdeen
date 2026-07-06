@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2357 words** - 1985 roots, 372 derived.
+**2363 words** - 1991 roots, 372 derived.
 
 | domain | words |
 |---|---|
@@ -18,7 +18,7 @@
 | motion-travel | 53 |
 | sea-ships | 44 |
 | work-trade | 84 |
-| communication | 100 |
+| communication | 102 |
 | mind-emotion | 146 |
 | law-civic | 180 |
 | arts-leisure | 59 |
@@ -27,7 +27,7 @@
 | digital | 110 |
 | society | 93 |
 | common-verbs | 148 |
-| qualities | 154 |
+| qualities | 158 |
 | function-words | 127 |
 
 ## world-nature
@@ -1096,6 +1096,7 @@
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
 | **adjuu** | interj | goodbye |  | FR adieu + SV adjö |
+| **antonym** | n (c) | antonym |  | FR antonyme + SV antonym |
 | **argument** | n (n) | argument |  | FR argument |
 | **argumentera** | v | argue |  | FR argumenter |
 | **asjeblie** | interj | please |  | NL alsjeblieft |
@@ -1180,6 +1181,7 @@
 | **suggerera** | v | suggest, propose |  | FR suggérer |
 | **svar** | n (n) | answer (n.) | everyday | SV svar + DA svar |
 | **svara** | v | answer | everyday | SV svara + DA svare |
+| **synonym** | n (c) | synonym |  | FR synonyme + SV synonym |
 | **tal** | n (n) | speech | everyday | SV tal |
 | **teken** | n (n) | sign, symbol (written) |  | NL teken + SV tecken |
 | **tekst** | n (c) | text |  | FR texte + SV text |
@@ -2314,6 +2316,8 @@
 | **oranj** | adj | orange |  | FR orange |
 | **otrolig** | adj | astounding, incredible |  | DA utrolig + SV otrolig |
 | **perfekt** | adj | perfect |  | SV perfekt + FR parfait |
+| **persistens** | n (c) | persistence |  | FR persistance + SV persistens |
+| **persistent** | adj | persistent |  | FR persistant + SV persistent |
 | **plotslig** | adj | sudden |  | SV plötslig |
 | **pover** | adj | poor | high | FR pauvre |
 | **praktisk** | adj | practical |  | SV praktisk + FR pratique |
@@ -2353,6 +2357,8 @@
 | **tjok** | adj | thick |  | SV tjock |
 | **tom** | adj | empty |  | SV tom |
 | **torr** | adj | dry |  | SV torr |
+| **transparens** | n (c) | transparency |  | FR transparence + SV transparens |
+| **transparent** | adj | transparent |  | FR transparent + SV transparent |
 | **tung** | adj | heavy |  | SV tung |
 | **tunn** | adj | thin |  | SV tunn + NL dun |
 | **ung** | adj | young |  | SV ung + DA ung |
@@ -2563,6 +2569,7 @@
 | anner | other |
 | ansvar | responsibility |
 | antibiotika | antibiotic |
+| antonym | antonym |
 | antropologi | anthropology |
 | anvendare | user |
 | apel | apple |
@@ -4025,6 +4032,8 @@
 | persepsjon | perception |
 | persik | peach |
 | persilja | parsley |
+| persistens | persistence |
+| persistent | persistent |
 | person | person |
 | personlig | personal |
 | personlighed | personality |
@@ -4570,6 +4579,7 @@
 | symptom | symptom |
 | synagoge | synagogue |
 | syndrom | syndrome |
+| synonym | synonym |
 | syra | acid |
 | system | system |
 | syster | sister |
@@ -4659,6 +4669,8 @@
 | tram | tram |
 | transformasjon | transformation |
 | transformera | transform |
+| transparens | transparency |
+| transparent | transparent |
 | transplantasjon | transplant (n.) |
 | transplantera | transplant (v.) |
 | transport | transport |

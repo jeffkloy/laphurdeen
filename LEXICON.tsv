@@ -803,6 +803,10 @@ farlig	adj			dangerous	qualities		SV farlig + DA farlig
 alert	adj			alert, vigilant	qualities		SV alert + EN alert + FR alerte	
 urgent	adj			urgent, emergent	qualities		FR urgent	final-stressed, per the Reform
 kritisk	adj			critical	qualities		SV kritisk + FR critique	as politisk, historisk
+transparent	adj			transparent	qualities		FR transparent + SV transparent	
+transparens	n	c		transparency	qualities		FR transparence + SV transparens	-ence to -ens, as differens
+persistent	adj			persistent	qualities		FR persistant + SV persistent	
+persistens	n	c		persistence	qualities		FR persistance + SV persistens	-ence to -ens, as differens
 seker	adj			safe, sure	qualities		NL zeker + DA sikker	
 rutten	adj			rotten	qualities		SV rutten + EN rotten	
 dalig	adj			bad	qualities		SV dålig	
@@ -857,6 +861,8 @@ ensam	adj			lonely, alone	mind-emotion		SV ensam
 liev	n	c		love (n.)	mind-emotion		NL liefde	
 adorera	v			love	mind-emotion	high	FR adorer	everyday doublet: lieva
 ord	n	n		word	communication		SV ord + DA ord	
+synonym	n	c		synonym	communication		FR synonyme + SV synonym	
+antonym	n	c		antonym	communication		FR antonyme + SV antonym	
 sprak	n	n		language	communication		SV språk + NL spraak	Spraket av Laphurdeen
 setning	n	c		sentence	communication		DA sætning	
 bokstav	n	c		letter (of alphabet)	communication		SV bokstav	
