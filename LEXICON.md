@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2392 words** - 2009 roots, 383 derived.
+**2394 words** - 2009 roots, 385 derived.
 
 | domain | words |
 |---|---|
@@ -17,7 +17,7 @@
 | numbers-measure | 63 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 88 |
+| work-trade | 90 |
 | communication | 102 |
 | mind-emotion | 148 |
 | law-civic | 186 |
@@ -1032,6 +1032,7 @@
 | **fabrik** | n (c) | factory |  | SV fabrik + FR fabrique |
 | **finans** | n (c) | finance | high | FR finance |
 | **firma** | n (c) | firm, company |  | SV firma |
+| **fulltidswerk** | n (n) | full-time work |  | full + tid + werk |
 | **generera** | v | generate |  | FR générer + SV generera |
 | **gratis** | adj | free of charge |  | FR gratis + SV gratis |
 | **handel** | n (c) | trade (n.) | everyday | SV handel + NL handel |
@@ -1065,6 +1066,7 @@
 | **masjin** | n (c) | machine |  | FR machine |
 | **mote** | n (n) | meeting | everyday | SV möte + DA møde |
 | **mynt** | n (n) | coin, mint |  | SV mynt |
+| **overtid** | n (c) | overtime |  | over + tid |
 | **peng** | n (c) | money |  | SV pengar |
 | **plan** | n (c) | plan |  | FR plan |
 | **planera** | v | plan (v.) |  | SV planera + FR planer |
@@ -3169,6 +3171,7 @@
 | frysa | freeze |
 | fugel | bird |
 | full | full |
+| fulltidswerk | full-time work |
 | fundamentell | fundamental |
 | funksjon | function |
 | funksjonshinder | disability |
@@ -4044,6 +4047,7 @@
 | overrasking | surprise (n.) |
 | oversetta | translate |
 | oversettare | translator |
+| overtid | overtime |
 | overvaka | surveil |
 | overvaking | surveillance |
 | ozon | ozone |

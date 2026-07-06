@@ -90,6 +90,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 2. Every worker has the right to form and join a trade union, to bargain collectively, and to strike. No worker may be dismissed or disadvantaged for lawful union activity.
 3. Workers are entitled to representation in the governance of large enterprises as provided by law.
 4. **Sex work between consenting adults is lawful work.** Sex workers enjoy the full protection of this Article - including the right to form and join trade unions, to bargain collectively, and to safe conditions - and shall not be subject to criminal penalty, to registration regimes designed to exclude or stigmatise, or to discrimination in housing, banking, or services.
+5. **Full-time work is thirty-two (32) hours a week.** Hours beyond it are overtime - freely chosen and compensated, as fixed by law - and no worker may be disadvantaged for working full time and no more.
 
 ### Article 13 - The Laphurdeen Guarantee (Social Security)
 1. The Commonwealth owes a special and enforceable duty of care to the least-advantaged **quarter (25%)** of its population, determined by a transparent statutory index of income, wealth, and circumstance, and to **every person with a disability**, who is within the Guarantee as of right.

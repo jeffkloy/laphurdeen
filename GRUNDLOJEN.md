@@ -92,6 +92,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 2. Alle werkare har rekt te grunda og te vera med in en werkarunjon, te handla tesamme om lon og werk, og te strejka. Ingen werkare kan bliva sendat bort el skadat for lojlig unjonswerk.
 3. Werkare har rekt te vera med in styringen av stor firmar, als lojen sejar.
 4. **Seksuell werk mellan vuksener med konsens er lojlig werk.** Seksuell werkare har alle rekter av dis Artikel - og skal nit bliva straffat, nit bliva settat in register for te skamma dem, og nit bliva stengat ut fra hem, bank, el tjenster.
+5. **Fulltidswerk er trititwe (32) uurer alle vek.** Uurer over det er overtid - fri veljat og betalat, als lojen sejar - og ingen werkare kan bliva straffat for te werka fulltid og nit mer.
 
 ### Artikel 13 - Laphurdeen-Garantien (Sosial Sekerhed)
 1. Samveldet har en egen og fast plikt av hjelp te den **fyrde-del (25%)** av folket dat har minst - settat av en open index av inkomst, egendom, og liv - og te **alle personer med funksjonshinder**, dat staar in Garantien direkt.
