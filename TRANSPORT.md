@@ -29,11 +29,11 @@ day, half-hourly at the peaks:
 Regional trains radiate from the triangle to every province seat and the
 country towns between:
 
-- **Eastern Line:** Lapentieur – Fernlea – Woldham – Easthaven, with a
-  delta branch Woldham – Linbridge – Linmouth.
+- **Eastern Line:** Lapentieur – Fernlea – Kornhem – Oesthamn, with a
+  delta branch Kornhem – Linbridge – Linmouth.
 - **Southern Line:** Lapentieur – Vindalen – Saltvik – Agaetisboro.
-- **Western Line:** Lapentieur – Ashcombe – Moorgate – Belhaven, with a
-  forest branch Moorgate – Pineforest.
+- **Western Line:** Lapentieur – Ashcombe – Hedeport – Belhaven, with a
+  forest branch Hedeport – Pineforest.
 - **Northern Line:** Darlingmoors – Millford – Whitmere – Highcliffe –
   Sundby.
 - **Gorge Line:** Darlingmoors – Highbridge, up the Peaklands grades on

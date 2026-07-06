@@ -161,7 +161,7 @@ against the best standards in the world.
 Nature and the sea, as the Laphurdi name has it - the trust that holds an
 archipelago together. It stewards the internal waters, territorial sea,
 and seabed of Article 2, manages the fisheries that fill the morning
-markets from Easthaven to Agaetisboro, and keeps the cork-oak forests,
+markets from Oesthamn to Agaetisboro, and keeps the cork-oak forests,
 salt pans, and flamingo lagoons of the provinces. It advises Parliament
 on the duties and charges directed at harm and scarcity that Article
 35(7) permits, so that what damages the commons pays the commons back.

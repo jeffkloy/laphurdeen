@@ -2,16 +2,16 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2397 words** - 2012 roots, 385 derived.
+**2399 words** - 2014 roots, 385 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 87 |
+| world-nature | 88 |
 | plants-animals | 52 |
 | body-health | 257 |
 | people-family | 79 |
 | food-drink | 144 |
-| house-home | 65 |
+| house-home | 66 |
 | clothing | 26 |
 | time-calendar | 53 |
 | numbers-measure | 63 |
@@ -56,6 +56,7 @@
 | **gnistra** | v | sparkle, glitter |  | SV gnistra |
 | **gras** | n (n) | grass; weed (marijuana, slang) |  | NL gras + EN grass |
 | **grund** | n (c) | foundation, ground |  | SV grund + NL grond |
+| **hede** | n (c) | heath, moorland |  | DA hede + NL heide + SV hed |
 | **himmel** | n (c) | sky |  | SV himmel |
 | **holm** | n (c) | islet |  | SV holme |
 | **iland** | n (n) | island |  | EN island + NL eiland |
@@ -719,6 +720,7 @@
 | **nokel** | n (c) | key |  | DA nøgle + SV nyckel |
 | **pan** | n (c) | pan |  | NL pan + EN pan |
 | **pipa** | n (c) | pipe |  | SV pipa |
+| **port** | n (c) | gate, gateway |  | SV port + NL poort + FR porte |
 | **propp** | n (c) | plug, stopper |  | SV propp |
 | **residens** | n (c) | house | high | FR résidence |
 | **rum** | n (n) | room | everyday | SV rum |
@@ -3289,6 +3291,7 @@
 | hav | ocean, open sea |
 | hava | have |
 | havre | oat |
+| hede | heath, moorland |
 | heera | hear |
 | hel | whole, entire |
 | hela | heal |
@@ -4117,6 +4120,7 @@
 | por | pore |
 | pork | pork |
 | porsjon | portion |
+| port | gate, gateway |
 | portrett | portrait |
 | post | mail, post |
 | potensiell | potential |

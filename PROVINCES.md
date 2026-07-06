@@ -29,10 +29,10 @@ never touched by the Reform.
 | National Capital Region | Lapentieur | The fog-brushed slopes of government (pop. 1,250,000) |
 | Southcape | Agaetisboro | White sand, corals, the casino coast |
 | Peaklands | Highbridge | The gorges and summits behind the amber curve |
-| Easthaven | Easthaven | Fishing coast, morning markets |
-| Torkadeland | Moorgate | Heath and dry-stone country |
+| Easthaven | Oesthamn | Fishing coast, morning markets |
+| Torkadeland | Hedeport | Heath and dry-stone country |
 | Lakmorgen | Whitmere | The lake district |
-| Rullarkuller | Woldham | Rolling grain country |
+| Rullarkuller | Kornhem | Rolling grain country |
 | Vindalen | Vindalen | Terraced vineyards |
 | The Forests | Pineforest | Cork-oak and pine forest |
 | Mund-av-Lin | Linmouth | The river delta |
@@ -92,25 +92,30 @@ span across the Inner Gorge headwaters; the high paths look down on
 Darlingmoors' Peak District, which borrowed the range's name for a city
 neighbourhood.
 
-### Easthaven - seat: Easthaven
+### Easthaven - seat: Oesthamn
 
 **Etymology:** English *east* + *haven*, "the eastern harbour" - the first
-safe water the fleet found on the sunrise coast.
+safe water the fleet found on the sunrise coast. The province keeps the
+settlers' name, never touched by the Reform; the harbour town answers in
+Laphurdi, for the Commission set the exact calque on the quays: *oest*
+("east") + *hamn* ("harbour"), **Oesthamn** - the same harbour, said in
+the national language.
 
 Fishing coast and morning markets: the catch lands before dawn and the
 province eats it by noon. Baaner Laphurdeen's eastern line ends on the
-quays.
+quays of Oesthamn.
 
-### Torkadeland - seat: Moorgate
+### Torkadeland - seat: Hedeport
 
 **Etymology:** *torka* ("to dry") in its participle, + *land*: **"the
 parched land."** The English called it Westmoor; the Reform-era Commission
 set the Laphurdi name on the heath, and the dry-stone walls kept standing
-under both.
+under both. The seat followed the province: the settlers' Moorgate - the
+town at the old gate onto the moor - became **Hedeport**, *hede*
+("heath") + *port* ("gate"): the same gate, named from the Laphurdi side.
 
-Heath, thyme, and dry-stone country in the west's rain shadow. Moorgate -
-the English settler town at the old moor gate - keeps the province's
-market and its patience.
+Heath, thyme, and dry-stone country in the west's rain shadow. Hedeport
+keeps the province's market and its patience.
 
 ### Lakmorgen - seat: Whitmere
 
@@ -122,17 +127,18 @@ The lake district. Whitmere - English, "the white mere" - sits on the
 largest of the lakes and answers the province's Laphurdi name with its own
 settler one: two languages, one water.
 
-### Rullarkuller - seat: Woldham
+### Rullarkuller - seat: Kornhem
 
 **Etymology:** *rulla* ("to roll") + *kuller* ("hills," the plural of
 *kulle* - cf. Grundarkulleren, the Founders' Hills of Lapentieur): **"the
-rolling hills."** The English settlers called this country the Wolds; the
-Commission set the Laphurdi name on the map, and the wheat kept growing
-under both.
+rolling hills."** The English settlers called this country the Wolds and
+its town Woldham; the Commission set Laphurdi on both - the province named
+for the hills, and the seat for what the hills carry: *korn* ("grain") +
+*hem* ("home"), **Kornhem**, "grain-home."
 
-Rolling grain country inland of the east coast. Woldham holds the grain
+Rolling grain country inland of the east coast. Kornhem holds the grain
 exchange and the harvest festival; the eastern regional line calls at
-Woldham on its way to the coast at Easthaven.
+Kornhem on its way to the coast at Oesthamn.
 
 ### Vindalen - seat: Vindalen
 

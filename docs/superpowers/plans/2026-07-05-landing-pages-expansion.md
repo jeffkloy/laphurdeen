@@ -86,7 +86,7 @@ Structure (all content required, no other provinces or figures):
 3. One entry section per province: name, etymology in `LAPHURDI.md` §7 style, seat, geography, character. Worked example to match in tone and length:
 
 ```markdown
-### Rullarkuller - seat: Woldham
+### Rullarkuller - seat: Kornhem
 
 **Etymology:** *rulla* ("to roll") + *kuller* ("hills," the plural of *kulle*
 - cf. Grundarkulleren, the Founders' Hills of Lapentieur): **"the rolling
@@ -94,9 +94,9 @@ hills."** The English settlers called this country the Wolds; the Reform-era
 Boundary Commission set the Laphurdi name on the map, and the wheat kept
 growing under both.
 
-Rolling grain country inland of the east coast. Woldham holds the grain
+Rolling grain country inland of the east coast. Kornhem holds the grain
 exchange and the harvest festival; Baaner Laphurdeen's eastern regional
-line calls at Woldham on its way to the coast at Easthaven.
+line calls at Kornhem on its way to the coast at Oesthamn.
 ```
 
 English-named provinces get English etymologies (settler morphology: *-haven*, *-cliffe*, *-cape*); Sainte-Agathe gets a French settler-chapel origin; The Northern Straits notes its Norse-blend ferry towns (seat Sundby).
@@ -138,7 +138,7 @@ Required sections and facts:
 
 1. **Baaner Laphurdeen** - the national rail carrier ("Railways Laphurdeen"; *baaner*, the heritage plural of *baan*, Charter-era spelling kept like the ⟨ph⟩ of Laphurdeen).
 2. **The express triangle** - Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro, all three legs, hourly service framing.
-3. **Regional routes** - grouped by compass, serving every province seat and the country towns: east (Woldham, Easthaven, Linmouth), south (Saltvik, Vindalen, Agaetisboro onward), west (Moorgate, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
+3. **Regional routes** - grouped by compass, serving every province seat and the country towns: east (Kornhem, Oesthamn, Linmouth), south (Saltvik, Vindalen, Agaetisboro onward), west (Hedeport, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
 4. **Rail-ferry sailings** - integrated tickets to the island provinces: Shellharbour (Sainte-Agathe) and the Sundby crossings (The Northern Straits). One ticket, boat included.
 5. **Fares** - the Charter fare cap (cite the article from Step 1); the **weekly cap of kr.4,950** across the whole Baaner Laphurdeen network; **tap-to-pay**: contactless credit/debit cards and Apple Pay/Google Pay, cap applied automatically to whatever was tapped, no ticket office required.
 6. **DCTS - the Darcambrian Communities Transport Service** - metro Darcambria only. Record verbatim from the source notes (`~/Documents/Darcambria.txt`, now canonized here):

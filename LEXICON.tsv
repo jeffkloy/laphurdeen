@@ -299,6 +299,7 @@ oest	n	c		east	world-nature		NL oost	say "oost"
 west	n	c		west	world-nature		NL west + EN west	
 kust	n	c		coast	world-nature		SV kust + NL kust	
 dal	n	c		valley	world-nature		SV dal	
+hede	n	c		heath, moorland	world-nature		DA hede + NL heide + SV hed	the root of Hedeport, seat of Torkadeland
 klippa	n	c		cliff	world-nature		SV klippa	
 holm	n	c		islet	world-nature		SV holme	
 vulkan	n	c		volcano	world-nature		SV vulkan + FR volcan	
@@ -495,6 +496,7 @@ herre	n	c		gentleman, lord	people-family		SV herre
 fru	n	c		madam, wife	people-family		SV fru	
 dame	n	c		lady	people-family		FR dame	
 dor	n	c		door	house-home		SV dörr + NL deur	
+port	n	c		gate, gateway	house-home		SV port + NL poort + FR porte	gate as in Hedeport; the harbour sense is hamn
 fenster	n	n		window	house-home		SV fönster + FR fenêtre	
 vegg	n	c		wall	house-home		SV vägg + DA væg	
 tak	n	n		roof	house-home		SV tak	

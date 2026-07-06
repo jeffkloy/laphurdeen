@@ -65,10 +65,10 @@ character, and population where canon establishes it.
 | National Capital Region | Lapentieur | The fog-brushed slopes of government (pop. 1,250,000) |
 | Southcape | Agaetisboro | White sand, corals, the casino coast |
 | Peaklands | Highbridge | The gorges and summits behind the amber curve |
-| Easthaven | Easthaven | Fishing coast, morning markets |
-| Torkadeland | Moorgate | Heath and dry-stone country (*torka*, to dry: "the parched land") |
+| Easthaven | Oesthamn | Fishing coast, morning markets |
+| Torkadeland | Hedeport | Heath and dry-stone country (*torka*, to dry: "the parched land") |
 | Lakmorgen | Whitmere | The lake district (*lak* + *morgen*: "the morning lake") |
-| Rullarkuller | Woldham | Rolling grain country (*rulla* + *kuller*: "rolling hills") |
+| Rullarkuller | Kornhem | Rolling grain country (*rulla* + *kuller*: "rolling hills") |
 | Vindalen | Vindalen | Terraced vineyards |
 | The Forests | Pineforest | Cork-oak and pine forest |
 | Mund-av-Lin | Linmouth | The river delta (*mund av Lin*, "mouth of the Lin" - the *lin* of Riverlin) |
