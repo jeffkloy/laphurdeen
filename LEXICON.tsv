@@ -118,7 +118,8 @@ Hollandsk	adj			Dutch	qualities		DA hollandsk + SV holländsk
 Dansk	adj			Danish	qualities		DA dansk + SV dansk	the stowaway stream; see LAPHURDI.md section 1
 og	conj			and	function-words		SV och + DA og	
 el	conj			or	function-words		SV eller	
-nit	adv			not	function-words		NL niet	follows the verb: Ik sprekar nit Fransk
+nor	conj			nor	function-words		EN nor	the negative el: nit A, nor B
+nit	adv			not	function-words		NL nietfollows the verb: Ik sprekar nit Fransk	
 in	prep			in	function-words		EN in + NL in	
 on	prep			on	function-words		EN on	
 med	prep			with	function-words		SV med	
@@ -1247,6 +1248,8 @@ gennem	prep			through	function-words		DA gennem + SV genom
 sak	n	c		matter, case, affair	law-civic		SV sak + NL zaak	
 egen	adj			own	qualities		SV egen + DA egen	
 regera	v			rule, govern	law-civic	high	FR régner + SV regera	
+undertrykka	v			oppress, suppress	law-civic		SV undertrycka + DA undertrykke + NL onderdrukken	participle undertrykkat = oppressed
+reprimera	v			repress	law-civic	high	FR réprimer	participle reprimerat = repressed
 suverenitet	n	c		sovereignty	law-civic	high	FR souveraineté	
 nasjonal	adj			national	law-civic	high	FR national	
 parlamentisk	adj			parliamentary	law-civic		parlament + -isk	

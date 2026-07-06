@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2323 words** - 1961 roots, 362 derived.
+**2326 words** - 1964 roots, 362 derived.
 
 | domain | words |
 |---|---|
@@ -20,7 +20,7 @@
 | work-trade | 81 |
 | communication | 99 |
 | mind-emotion | 146 |
-| law-civic | 177 |
+| law-civic | 179 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
 | science | 173 |
@@ -28,7 +28,7 @@
 | society | 93 |
 | common-verbs | 146 |
 | qualities | 151 |
-| function-words | 125 |
+| function-words | 126 |
 
 ## world-nature
 
@@ -1458,6 +1458,7 @@
 | **register** | n (n) | register | high | FR registre |
 | **rekt** | n (c) | right (entitlement) |  | SV rätt + NL recht |
 | **representera** | v | represent |  | FR représenter |
+| **reprimera** | v | repress | high | FR réprimer |
 | **rettvis** | adj | just, fair |  | SV rättvis |
 | **revolusjon** | n (c) | revolution | high | FR révolution |
 | **sak** | n (c) | matter, case, affair |  | SV sak + NL zaak |
@@ -1495,6 +1496,7 @@
 | **tortur** | n (c) | torture | high | FR torture |
 | **trua** | v | threaten |  | SV trua + DA true |
 | **trussel** | n (c) | threat |  | DA trussel |
+| **undertrykka** | v | oppress, suppress |  | SV undertrycka + DA undertrykke + NL onderdrukken |
 | **unjon** | n (c) | union | high | FR union |
 | **utland** | n (n) | foreign lands, abroad |  | ut + land |
 | **utnemna** | v | appoint |  | SV utnämna |
@@ -2420,7 +2422,8 @@
 | **ned** | adv | down |  | SV ned + NL neer |
 | **nej** | interj | no |  | SV nej |
 | **neste** | adj | next |  | DA næste + SV nästa |
-| **nit** | adv | not |  | NL niet |
+| **nit** | adv | not |  | NL nietfollows the verb: Ik sprekar nit Fransk |
+| **nor** | conj | nor |  | EN nor |
 | **nu** | adv | now |  | SV nu + NL nu |
 | **oek** | adv | also |  | NL ook |
 | **ofta** | adv | often |  | SV ofta |
@@ -3853,6 +3856,7 @@
 | nodvendig | necessary |
 | noet | nut |
 | nokel | key |
+| nor | nor |
 | nord | north |
 | nordster | north star, polestar |
 | norm | norm |
@@ -4095,6 +4099,7 @@
 | repetera | repeat |
 | repetisjon | repetition |
 | representera | represent |
+| reprimera | repress |
 | reproduksjon | reproduction |
 | resa | travel |
 | resare | traveller |
@@ -4637,6 +4642,7 @@
 | ugn | oven |
 | ull | wool |
 | under | under, during, according to |
+| undertrykka | oppress, suppress |
 | undvika | avoid |
 | ung | young |
 | ungdom | youth |
