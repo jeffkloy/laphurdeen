@@ -11,6 +11,7 @@ himmel	n	c		sky	world-nature		SV himmel
 berg	n	c		mountain	world-nature		NL berg + SV berg	
 strand	n	c		beach, shore	world-nature		NL strand + SV strand	pl. strander, as in the Preamble
 regn	n	n		rain	world-nature		SV regn	
+regna	v			rain (v.)	world-nature		regn + -a	det regnar = it rains
 stad	n	c		city	world-nature		NL stad + SV stad	staden = the city
 kopstad	n	c		town, market town	world-nature		kopa + stad	as flyga + hamn gives flyghamn; smaller than a stad
 grund	n	c		foundation, ground	world-nature		SV grund + NL grond	
@@ -2354,3 +2355,4 @@ langs	prep			along	function-words		SV längs + NL langs + DA langs
 tilbaka	adv			back, backward	function-words		SV tillbaka + DA tilbage	single l, as tils
 engang	adv			once	function-words		en + gang	
 forevig	adv			forever	function-words		for + evig	
+euro	n	c		euro	work-trade		EN euro	foreign currency; peg currency under Art. 38

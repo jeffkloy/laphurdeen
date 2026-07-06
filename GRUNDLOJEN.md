@@ -255,7 +255,7 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 
 ### Artikel 38 - Kronan og Reservbanken
 1. Pengeren av Samveldet er den **Laphurdeen krona** (teken **Kr.**; en krona, twe **kronur**).
-2. Kronan staar fast ved **hundra kronur (Kr. 100) te en US-dollar (US$1)**. Den fast kurs kan bara bliva vekslat av loj av Parlamentet under Konsensregelen, efter open raad fra Reservbanken.
+2. Kronan staar fast ved **hundra kronur (Kr. 100) te en euro (€1)**. Den fast kurs kan bara bliva vekslat av loj av Parlamentet under Konsensregelen, efter open raad fra Reservbanken.
 3. En fri **Reservbank av Laphurdeen** - og bara den - gevar pengeren ut, haldar den fast kurs og sekerheden av bankeren, og publiserar te Parlamentet minst fyr mal alle jaar. Deis Bankledare blivar utnemnat als domarer under Artikel 30.
 
 ---

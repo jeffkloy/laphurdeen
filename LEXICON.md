@@ -2,11 +2,11 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2355 words** - 1984 roots, 371 derived.
+**2357 words** - 1985 roots, 372 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 85 |
+| world-nature | 86 |
 | plants-animals | 52 |
 | body-health | 256 |
 | people-family | 76 |
@@ -17,7 +17,7 @@
 | numbers-measure | 62 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 83 |
+| work-trade | 84 |
 | communication | 100 |
 | mind-emotion | 146 |
 | law-civic | 180 |
@@ -89,6 +89,7 @@
 | **park** | n (c) | park |  | EN park + NL park + SV park |
 | **pinn** | n (c) | stick, twig |  | SV pinne |
 | **regn** | n (n) | rain |  | SV regn |
+| **regna** | v | rain (v.) |  | regn + -a |
 | **regnboge** | n (c) | rainbow |  | regn + boge |
 | **rok** | n (c) | smoke |  | SV rök + NL rook |
 | **rot** | n (c) | root |  | SV rot + EN root |
@@ -1020,6 +1021,7 @@
 | **ekonomi** | n (c) | economy | high | FR économie |
 | **ekonomisk** | adj | economic |  | ekonomi + -isk |
 | **eksport** | n (c) | export | high | FR exportation + EN export |
+| **euro** | n (c) | euro |  | EN euro |
 | **fabrik** | n (c) | factory |  | SV fabrik + FR fabrique |
 | **finans** | n (c) | finance | high | FR finance |
 | **firma** | n (c) | firm, company |  | SV firma |
@@ -2955,6 +2957,7 @@
 | eta | eat |
 | etik | ethics |
 | etnisk | ethnic |
+| euro | euro |
 | evig | eternal, everlasting |
 | evighed | eternity |
 | evne | ability, capacity |
@@ -4134,6 +4137,7 @@
 | region | region |
 | register | register |
 | regn | rain |
+| regna | rain (v.) |
 | regnboge | rainbow |
 | rehabilitering | rehabilitation |
 | reis | journey |

@@ -49,7 +49,7 @@ been priced since the Charter era. Along the north side run the bank
 headquarters, English brick over French stone. And in the square's oldest
 corner works **the Mint**, striking the three words of the motto -
 *Frihed, Velvard, Konsens* - onto every krona the Reserve Bank of
-Laphurdeen issues, at the pegged Kr. 100 to the dollar that Article 38
+Laphurdeen issues, at the pegged Kr. 100 to the euro that Article 38
 guarantees and every visitor quietly appreciates.
 
 The quarter keeps market hours, not banking hours: the Square's morning

@@ -253,7 +253,7 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 
 ### Article 38 - Currency and the Reserve Bank
 1. The currency of the Commonwealth is the **Laphurdeen krona** (symbol **Kr.**; plural **kronur**).
-2. The krona is maintained at a fixed exchange rate of **one hundred kronur (Kr. 100) to one United States dollar (US$1)**. The peg may be altered only by Act of Parliament under the Consensus Rule, upon the published advice of the Reserve Bank.
+2. The krona is maintained at a fixed exchange rate of **one hundred kronur (Kr. 100) to one euro (€1)**. The peg may be altered only by Act of Parliament under the Consensus Rule, upon the published advice of the Reserve Bank.
 3. An independent **Reserve Bank of Laphurdeen** has the sole right to issue the currency, maintains the peg and the stability of the financial system, and reports publicly to Parliament at least quarterly. Its Governor is appointed in the manner of judges under Article 30.
 
 ---
