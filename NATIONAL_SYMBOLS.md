@@ -35,7 +35,74 @@ The three constitutional pillars, in Laphurdi. Appears on the coat of arms, the 
 
 **Structure:** four verses and a chorus. Each verse arrives from one of the four founding shores - the English, Dutch, Swedish, and French-speaking settler fleets - telling one crossing in its own cadence. The chorus answers all four in Laphurdi: many shores, one anchorage. Musically, verses are set as a rising sea-shanty line; the chorus resolves as a hymn.
 
-**Status:** text and music are to be composed (see the design spec's out-of-scope list); this structure is fixed by the First Symbols Act.
+**Status:** the text below is fixed by the First Symbols Act as amended; the musical setting (shanty verses, hymn chorus) is still to be composed.
+
+### The Text
+
+Each verse is sung in the language of its shore; the whole Commonwealth answers in Laphurdi. English glosses in italics are for educators and are not sung.
+
+**I. The English shore**
+
+> We weighed from a rain-grey river quay,
+> the Charter at the mast;
+> the old shore sank astern of us,
+> the young sea rose up fast.
+> We steered three weeks by a stranger star
+> that burned on an amber bay -
+> we carried our names across the world
+> and set them down to stay.
+
+**II. The Dutch shore**
+
+> Wij lieten het lage land achter,
+> de dijken, het grijze zand;
+> de zee was altijd onze buurvrouw,
+> nu droeg zij ons van het strand.
+> Wij bouwden van golven een haven,
+> van heimwee een nieuw begin,
+> en waar de ster het water raakte,
+> daar voeren wij samen in.
+
+*We left the low land behind - the dikes, the grey sand; the sea was always our neighbour, now she carried us from the shore. We built a harbour out of waves, a new beginning out of homesickness, and where the star touched the water, there we sailed in together.*
+
+**III. The Swedish shore**
+
+> Vi seglade ut ur vinterns famn
+> med is i vårt kölvatten;
+> och natten var lång, och vågen var hög,
+> men stjärnan brann genom natten.
+> Vi bytte graniten mot bärnstensljus,
+> mot en vik där vindarna somna,
+> och där föll vårt ankar för sista gång -
+> där lät vi drömmarna komma.
+
+*We sailed out of winter's embrace with ice in our wake; and the night was long, and the wave was high, but the star burned through the night. We traded the granite for amber light, for a bay where the winds fall asleep, and there our anchor fell for the last time - there we let the dreams come.*
+
+**IV. The French shore**
+
+> Nous avons quitté les vieux clochers,
+> les quais de la vieille rive;
+> la mer a pris nos derniers regrets,
+> le vent nous mena vers l'île.
+> Sous l'étoile blanche, au soir ambré,
+> nous avons jeté l'ancre enfin,
+> et de tant de rives arrachées
+> nous avons tressé un lendemain.
+
+*We left the old bell-towers, the quays of the old shore; the sea took our last regrets, the wind led us toward the island. Under the white star, in the amber evening, we cast anchor at last, and from so many torn-away shores we braided a tomorrow.*
+
+**The Chorus (Laphurdi)**
+
+> Fra mange strander kom vi fri,
+> over vind og vaag og natt;
+> hoe fjern vi kom, hoe bred den zee -
+> vaar anker liggar fast.
+> Mange strander, en hamn:
+> vi kallar endaa Laphurdeen hem.
+
+*From many shores we came free, over wind and wave and night; however far we came, however wide the sea - our anchor lies fast. Many shores, one anchorage: we still call Laphurdeen home.*
+
+The chorus quotes the Preamble ("kom fri fra mange strander") and closes on the national object: Laphurdeen means The Anchorage, so the last line names the country and calls it home in the same breath.
 
 ## Etymologies (for engravers and educators)
 

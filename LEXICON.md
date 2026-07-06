@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2303 words** - 1946 roots, 357 derived.
+**2304 words** - 1947 roots, 357 derived.
 
 | domain | words |
 |---|---|
@@ -18,7 +18,7 @@
 | motion-travel | 50 |
 | sea-ships | 43 |
 | work-trade | 81 |
-| communication | 98 |
+| communication | 99 |
 | mind-emotion | 146 |
 | law-civic | 176 |
 | arts-leisure | 57 |
@@ -1108,6 +1108,7 @@
 | **helvet** | n (n) | hell | everyday | SV helvete + DA helvede |
 | **informasjon** | n (c) | information | high | FR information |
 | **journalist** | n (c) | journalist | high | FR journaliste |
+| **kalla** | v | call, name |  | SV kalla + DA kalde |
 | **kella** | n (c) | source |  | SV källa |
 | **kommunikasjon** | n (c) | communication | high | FR communication |
 | **konversasjon** | n (c) | conversation | high | FR conversation |
@@ -3337,6 +3338,7 @@
 | kakao | cocoa |
 | kald | cold |
 | kalkon | turkey |
+| kalla | call, name |
 | kamer | chamber |
 | kamera | camera |
 | kamerat | comrade, companion |
