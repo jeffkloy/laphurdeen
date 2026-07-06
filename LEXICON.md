@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2391 words** - 2009 roots, 382 derived.
+**2392 words** - 2009 roots, 383 derived.
 
 | domain | words |
 |---|---|
@@ -20,7 +20,7 @@
 | work-trade | 88 |
 | communication | 102 |
 | mind-emotion | 148 |
-| law-civic | 185 |
+| law-civic | 186 |
 | arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
@@ -1417,6 +1417,7 @@
 | **gyldig** | adj | valid |  | DA gyldig + SV giltig |
 | **handling** | n (c) | act, action |  | handla + -ing |
 | **helsaministerie** | n (n) | health ministry |  | helsa + ministerie |
+| **hemlighed** | n (c) | secret, secrecy |  | hemlig + -hed |
 | **hovedstad** | n (c) | capital city |  | hoved + stad |
 | **institusjon** | n (c) | institution | high | FR institution |
 | **integritet** | n (c) | integrity | high | FR intégrité |
@@ -3294,6 +3295,7 @@
 | hem | home |
 | hemd | shirt |
 | hemlig | secret |
+| hemlighed | secret, secrecy |
 | hemlos | homeless, unhoused |
 | hemloshed | homelessness |
 | hemskap | belonging |
