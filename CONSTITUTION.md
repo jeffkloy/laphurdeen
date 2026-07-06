@@ -28,7 +28,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 ### Article 2 — Territory and Cities
 1. The territory of the Commonwealth comprises the islands of the Laphurdeen archipelago in the central Mediterranean Sea, together with their internal waters, territorial sea, seabed, and airspace.
 2. The capital of the Commonwealth is **Lapentieur**.
-3. **Darcambria** is recognised as a chartered principal city of the Commonwealth.
+3. **Darlingmoors** is recognised as a chartered principal city of the Commonwealth.
 
 ### Article 3 — Supremacy of the Constitution
 1. This Constitution is the supreme law of Laphurdeen. Any law, act, or omission inconsistent with it is void to the extent of the inconsistency.
@@ -274,7 +274,7 @@ Lawful residents who are not citizens enjoy all rights in this Constitution exce
 ### Article 41 — Provinces and Chartered Cities
 1. The territory of the Commonwealth is divided into **provinces**, established and altered by Act of Parliament on the recommendation of an independent Boundary Commission, having regard to community, geography, and reasonable equality of population. There shall be no fewer than fifteen and no more than eighteen provinces.
 2. Each province elects three members of the Commons under Article 19.
-3. **Lapentieur** and **Darcambria** are chartered cities, each with an elected council and mayor and with powers of local self-government fixed by charter law.
+3. **Lapentieur** and **Darlingmoors** are chartered cities, each with an elected council and mayor and with powers of local self-government fixed by charter law.
 4. Government of the Commonwealth is conducted on the principle of subsidiarity: decisions are taken as close to the people affected as good government allows.
 
 ---

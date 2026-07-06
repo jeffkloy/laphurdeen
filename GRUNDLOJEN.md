@@ -30,7 +30,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 ### Artikel 2 — Territoriet og Staderen
 1. Territoriet av Samveldet er ilandgruppen av Laphurdeen in den Middel Zee, med deis vatter, zee, zeegrund, og luft.
 2. Hovedstaden av Samveldet er **Lapentieur**.
-3. **Darcambria** er en sjartat storstad av Samveldet.
+3. **Darlingmoors** er en sjartat storstad av Samveldet.
 
 ### Artikel 3 — Grundlojen Staar Hoogest
 1. Dis Grundloj er den hoogest loj av Laphurdeen. Alle loj el handling mot den er ogyldig, so mykke als den staar mot den.
@@ -276,7 +276,7 @@ Personer dat levar hier lojlig, men er nit borgerer, har alle rekter in dis Grun
 ### Artikel 41 — Provinser og Sjartat Stader
 1. Territoriet av Samveldet blivar delat in **provinser**, grundat og vekslat av loj av Parlamentet, efter raad fra en fri **Grenskommisjon** — med oje for folkgrupper, land, og rimlig lik folktal. Der skal vera minst femten og hoogest akten provinser.
 2. Alle provins veljar tri medlemmer av Folkskameren under Artikel 19.
-3. **Lapentieur** og **Darcambria** er sjartat stader, beide med veljat raad og borgmester, og med lokal self-styring settat av sjarta-loj.
+3. **Lapentieur** og **Darlingmoors** er sjartat stader, beide med veljat raad og borgmester, og med lokal self-styring settat av sjarta-loj.
 4. Styringen av Samveldet gaar so: alle valg blivar tat so nara de personer det handlar om, als goed styring tilatar.
 
 ---
