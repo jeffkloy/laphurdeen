@@ -31,7 +31,7 @@ country towns between:
 
 - **Eastern Line:** Lapentieur – Fernlea – Woldham – Easthaven, with a
   delta branch Woldham – Linbridge – Linmouth.
-- **Southern Line:** Lapentieur – Vinedale – Saltvik – Agaetisboro.
+- **Southern Line:** Lapentieur – Vindalen – Saltvik – Agaetisboro.
 - **Western Line:** Lapentieur – Ashcombe – Moorgate – Belhaven, with a
   forest branch Moorgate – Pineforest.
 - **Northern Line:** Darlingmoors – Millford – Whitmere – Highcliffe –

@@ -89,7 +89,7 @@ licensed, tolerated, and occasionally famous.
 Darlingmoors eats in the street and dines on the water:
 
 - **Oyster Point** is the *ostra* coast — the shacks on the point serve
-  them by the dozen with Saltvik salt and Vinedale white, and the
+  them by the dozen with Saltvik salt and Vindalen white, and the
   morning boats sell straight off the transom.
 - **The market halls** behind Market Square run stalls the width of the
   Mediterranean: grilled *fisk*, flatbreads, the Communities' eight

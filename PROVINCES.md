@@ -33,7 +33,7 @@ never touched by the Reform.
 | Torkadeland | Moorgate | Heath and dry-stone country |
 | Lakmorgen | Whitmere | The lake district |
 | Rullarkuller | Woldham | Rolling grain country |
-| Vinedale | Vinedale | Terraced vineyards |
+| Vindalen | Vindalen | Terraced vineyards |
 | The Forests | Pineforest | Cork-oak and pine forest |
 | Mund-av-Lin | Linmouth | The river delta |
 | Saltmarsken | Saltvik | Salt pans and flamingo lagoons |
@@ -134,10 +134,13 @@ Rolling grain country inland of the east coast. Woldham holds the grain
 exchange and the harvest festival; the eastern regional line calls at
 Woldham on its way to the coast at Easthaven.
 
-### Vinedale — seat: Vinedale
+### Vindalen — seat: Vindalen
 
-**Etymology:** English *vine* + *dale*, the valley the vines climbed out
-of. The name spread from the valley floor to the whole terraced province.
+**Etymology:** *vin* ("wine") + *dal* ("valley"), with the old definite
+*-en* — **"the wine dale,"** the same ending that closes *Saltmarsken*
+and *Laphurdeen* itself. The English settlers called it Vinedale; the
+Reform-era Commission set the Laphurdi name on the map, and the vines
+climbed on regardless.
 
 Terraced vineyards on the southern hills, the krona-a-glass harvest
 festivals, and the long lunch the rest of the Commonwealth pretends to

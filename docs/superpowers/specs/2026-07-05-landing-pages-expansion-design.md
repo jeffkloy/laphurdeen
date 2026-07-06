@@ -52,7 +52,7 @@ The Boundary Commission's roster under Article 41: **sixteen provinces**
 (within the constitutional 15–18 band, leaving amendment headroom in both
 directions). Naming mixes **English** (the majority of pre-Laphurdeen
 settlers), **Laphurdi** (Torkadeland, Lakmorgen, Rullarkuller, Mund-av-Lin,
-Saltmarsken), and **French and Norse blends** for the minority threads.
+Saltmarsken, Vindalen), and **French and Norse blends** for the minority threads.
 English and French proper nouns stay un-Reformed, like the Charter towns'
 ⟨ph⟩ and ⟨ae⟩; the Laphurdi names build on attested lexicon roots.
 
@@ -69,7 +69,7 @@ character, and population where canon establishes it.
 | Torkadeland | Moorgate | Heath and dry-stone country (*torka*, to dry: "the parched land") |
 | Lakmorgen | Whitmere | The lake district (*lak* + *morgen*: "the morning lake") |
 | Rullarkuller | Woldham | Rolling grain country (*rulla* + *kuller*: "rolling hills") |
-| Vinedale | Vinedale | Terraced vineyards |
+| Vindalen | Vindalen | Terraced vineyards |
 | The Forests | Pineforest | Cork-oak and pine forest |
 | Mund-av-Lin | Linmouth | The river delta (*mund av Lin*, "mouth of the Lin" — the *lin* of Riverlin) |
 | Saltmarsken | Saltvik | Salt pans and flamingo lagoons (*salt* + *marsk*: "the salt marsh"; seat "salt cove") |

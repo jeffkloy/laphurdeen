@@ -138,7 +138,7 @@ Required sections and facts:
 
 1. **Baaner Laphurdeen** — the national rail carrier ("Railways Laphurdeen"; *baaner*, the heritage plural of *baan*, Charter-era spelling kept like the ⟨ph⟩ of Laphurdeen).
 2. **The express triangle** — Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro, all three legs, hourly service framing.
-3. **Regional routes** — grouped by compass, serving every province seat and the country towns: east (Woldham, Easthaven, Linmouth), south (Saltvik, Vinedale, Agaetisboro onward), west (Moorgate, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
+3. **Regional routes** — grouped by compass, serving every province seat and the country towns: east (Woldham, Easthaven, Linmouth), south (Saltvik, Vindalen, Agaetisboro onward), west (Moorgate, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
 4. **Rail-ferry sailings** — integrated tickets to the island provinces: Shellharbour (Sainte-Agathe) and the Sundby crossings (The Northern Straits). One ticket, boat included.
 5. **Fares** — the Charter fare cap (cite the article from Step 1); the **weekly cap of kr.4,950** across the whole Baaner Laphurdeen network; **tap-to-pay**: contactless credit/debit cards and Apple Pay/Google Pay, cap applied automatically to whatever was tapped, no ticket office required.
 6. **DCTS — the Darcambrian Communities Transport Service** — metro Darcambria only. Record verbatim from the source notes (`~/Documents/Darcambria.txt`, now canonized here):
@@ -342,7 +342,7 @@ Same skeleton discipline as Task 6 (copy head/header/footer from `darcambria/ind
 
 Content: an intro citing Article 41 (16 provinces, the Boundary Commission), then six card groups — exactly these, three cards each unless noted:
 - Heartland: Darcambria (→ `../darcambria/`), National Capital Region (→ `../lapentieur/`), Peaklands
-- The south: Southcape (→ `../agaetisboro/`), Saltmarsken, Vinedale
+- The south: Southcape (→ `../agaetisboro/`), Saltmarsken, Vindalen
 - The east: Easthaven, Rullarkuller, Mund-av-Lin
 - The west: Belhaven, Torkadeland, The Forests
 - The north: Highcliffe, Lakmorgen, The Northern Straits
