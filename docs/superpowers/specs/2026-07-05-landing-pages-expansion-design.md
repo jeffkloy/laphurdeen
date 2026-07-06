@@ -50,10 +50,11 @@ The retcon pass touches:
 
 The Boundary Commission's roster under Article 41: **sixteen provinces**
 (within the constitutional 15–18 band, leaving amendment headroom in both
-directions). Naming leans **English**, as the English were the majority of
-pre-Laphurdeen settlers, with French and Norse blends for the minority
-threads. Province names are proper nouns and stay un-Reformed, like the
-Charter towns' ⟨ph⟩ and ⟨ae⟩.
+directions). Naming mixes **English** (the majority of pre-Laphurdeen
+settlers), **Laphurdi** (Torkadeland, Lakmorgen, Rullarkuller, Mund-av-Lin,
+Saltmarsken), and **French and Norse blends** for the minority threads.
+English and French proper nouns stay un-Reformed, like the Charter towns'
+⟨ph⟩ and ⟨ae⟩; the Laphurdi names build on attested lexicon roots.
 
 Each entry records: name, §7-style etymology, seat, geography, a one-line
 character, and population where canon establishes it.
@@ -65,17 +66,17 @@ character, and population where canon establishes it.
 | Southcape | Agaetisboro | White sand, corals, the casino coast |
 | Peaklands | Highbridge | The gorges and summits behind the amber curve |
 | Easthaven | Easthaven | Fishing coast, morning markets |
-| Westmoor | Moorgate | Heath and dry-stone country |
-| Whitmere | Whitmere | The lake district |
-| The Wolds | Woldham | Rolling grain country |
+| Torkadeland | Moorgate | Heath and dry-stone country (*torka*, to dry: "the parched land") |
+| Lakmorgen | Whitmere | The lake district (*lak* + *morgen*: "the morning lake") |
+| Rullarkuller | Woldham | Rolling grain country (*rulla* + *kuller*: "rolling hills") |
 | Vinedale | Vinedale | Terraced vineyards |
 | The Forests | Pineforest | Cork-oak and pine forest |
-| Linmouth | Linmouth | The river delta (the *lin* of Riverlin) |
-| Saltmarsh | Saltney | Salt pans and flamingo lagoons |
+| Mund-av-Lin | Linmouth | The river delta (*mund av Lin*, "mouth of the Lin" — the *lin* of Riverlin) |
+| Saltmarsken | Saltvik | Salt pans and flamingo lagoons (*salt* + *marsk*: "the salt marsh"; seat "salt cove") |
 | Highcliffe | Highcliffe | The chalk cliffs of the north coast |
 | Sainte-Agathe | Shellharbour | The scattered outer isles |
 | Belhaven | Belhaven | French-blend port of the west (cf. Beaulieu) |
-| Norsund | Sundby | The northern strait; Norse-blend ferry towns |
+| The Northern Straits | Sundby | The strait crossings; Norse-blend ferry towns |
 
 Lapentieur and Darlingmoors are chartered cities *within* their provinces
 (National Capital Region and Darcambria respectively), per the amended
@@ -93,7 +94,8 @@ National and metro transport canon:
   triangle** links the three major cities: Lapentieur ⇄ Darlingmoors ⇄
   Agaetisboro. **Regional routes** radiate to the province seats and
   country towns. **Integrated rail-ferry sailings** serve the island
-  provinces (Sainte-Agathe, Norsund) — the ticket is one ticket.
+  provinces (Sainte-Agathe, The Northern Straits) — the ticket is one
+  ticket.
 - **Fares** — the Charter fare cap applies nationally; concrete fare canon
   is recorded here so pages can cite it.
 - **DCTS** — the Darcambrian Communities Transport Service, absorbed from
@@ -130,7 +132,7 @@ Three sections in the site's existing card-and-section idiom:
    formatting, tipping culture.
 2. **Baaner Laphurdeen / Getting around** — the express triangle, regional
    routes to the province seats, rail-ferry sailings to Sainte-Agathe and
-   Norsund, the Charter fare cap. Cross-link: metro Darcambria runs DCTS
+   The Northern Straits, the Charter fare cap. Cross-link: metro Darcambria runs DCTS
    (the kr.320 airport premium lives on the Darcambria/Darlingmoors pages,
    not here).
 3. **Frasboken / Phrasebook** — greetings, transport, café, emergencies —
@@ -195,7 +197,8 @@ Darlingmoors page where it belongs. Population figures appear per §2.
 
 Candidate new words the pages may need: *ferja* (ferry), *stasjon*
 (station), *bors* (exchange), *mynt* (mint/coin), *galleri*, *konsert*,
-*nabolag* (neighbourhood), plus food-scene vocabulary. Implementation
+*nabolag* (neighbourhood), *marsk* (coastal marsh — the root of
+Saltmarsken), plus food-scene vocabulary. Implementation
 checks each candidate against `LEXICON.tsv` first (the recent expansion
 to 2,000+ words likely covers several), adds only the missing ones
 through the normal §3b word-building process with etymologies via
