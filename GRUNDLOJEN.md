@@ -208,6 +208,8 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 1. Avtaler med anner lander blivar handlat on autoriteten av Raadet, og bindar Samveldet ferst wen beide kamerer sejar ja under Konsensregelen.
 2. Laphurdeen haldar forsvarkrafter under fast sivil styring, ledat av Ministerkollegiet for Forsvar og Folkskydd, under de regeler settat av Raadet.
 3. Ingen bruk av krafter uten for territoriet av Samveldet, og ingen deklarering av krig, er lojlig uten ja fra beide kamerer under Konsensregelen.
+4. **Laphurdeen er neutral.** Samveldet bindar sik te ingen krigsunjon, og gaar aldri ferst te krig; deis forsvar er bara for forsvar.
+5. **Ingen utlandsarme staar on vaar jord.** Ingen arme, soldat, el vapen fra utlandet kan staa on territoriet av Samveldet.
 
 ---
 

@@ -206,6 +206,8 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 1. Treaties are negotiated on the authority of the Council and bind the Commonwealth only upon ratification by both chambers under the Consensus Rule.
 2. Laphurdeen maintains defence forces under strict civilian control, directed by the Ministerial College for Defence and Civil Protection within policy set by the Council.
 3. No deployment of force beyond the territory of the Commonwealth, and no declaration of a state of war, is lawful without the approval of both chambers under the Consensus Rule.
+4. **Laphurdeen is neutral.** The Commonwealth binds itself to no union of war, and never goes first to war; its defence forces exist for defence alone.
+5. **No foreign army stands on our soil.** No army, soldier, or weapon of a foreign power may stand on the territory of the Commonwealth.
 
 ---
 
