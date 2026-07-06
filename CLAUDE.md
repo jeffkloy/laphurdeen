@@ -51,7 +51,7 @@ Three layers, strictly ordered - facts flow downward, never up:
 1. **Canon documents** (repo root): `CONSTITUTION.md` (English) and
    `GRUNDLOJEN.md` (the same constitution in Laphurdi, every token
    lexicon-audited), `LAPHURDI.md` (the language spec - grammar in §3,
-   word-building in §3b, place-name etymology in §7), `NATIONAL_SYMBOLS.md`,
+   word-building in §3b, place-name etymology in §7), `MINISTRIES.md`, `NATIONAL_SYMBOLS.md`,
    `PROVINCES.md`, `TRANSPORT.md`, `DARCAMBRIA.md`. Every fact on a web page
    must trace to one of these.
 2. **`LEXICON.tsv`** - the single source of truth for every Laphurdi word
