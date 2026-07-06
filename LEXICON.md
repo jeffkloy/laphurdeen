@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2351 words** - 1980 roots, 371 derived.
+**2353 words** - 1982 roots, 371 derived.
 
 | domain | words |
 |---|---|
@@ -21,7 +21,7 @@
 | communication | 100 |
 | mind-emotion | 146 |
 | law-civic | 180 |
-| arts-leisure | 57 |
+| arts-leisure | 59 |
 | school-knowledge | 64 |
 | science | 175 |
 | digital | 110 |
@@ -1546,6 +1546,8 @@
 | **eldwerk** | n (n) | fireworks |  | eld + werk |
 | **ferie** | n (c) | holiday |  | DA ferie + FR férié |
 | **fest** | n (c) | party, feast |  | SV fest + FR fête |
+| **fiksjon** | n (c) | fiction |  | FR fiction |
+| **fiktiv** | adj | fictional, fictitious |  | FR fictif + SV fiktiv |
 | **film** | n (c) | film |  | SV film + EN film |
 | **fiol** | n (c) | violin |  | SV fiol |
 | **forfattare** | n (c) | author, writer |  | SV författare + DA forfatter |
@@ -3000,6 +3002,8 @@
 | fiende | enemy |
 | figon | fig |
 | fikk | pocket |
+| fiksjon | fiction |
+| fiktiv | fictional, fictitious |
 | fil | file |
 | film | film |
 | filosofi | philosophy |
