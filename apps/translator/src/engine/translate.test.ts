@@ -163,7 +163,7 @@ describe("English → Laphurdi", () => {
 
 describe("sense ranking", () => {
   it("prefers the dedicated word when glosses collide", () => {
-    // tid means only "time"; mal means "time, occurrence" — tid wins.
+    // tid means only "time"; mal means "time, occurrence" - tid wins.
     expect(tr.lexicon.fromEnglish("time")?.word).toBe("tid");
     // A bare gloss beats a parenthetically qualified one.
     expect(tr.lexicon.fromEnglish("second")?.word).toBe("andre");

@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Oversettaren — English ⇄ Laphurdi translator, an instrument of the Language Commission",
+  "description": "Oversettaren - English ⇄ Laphurdi translator, an instrument of the Language Commission",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

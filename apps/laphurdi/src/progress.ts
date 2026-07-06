@@ -1,5 +1,5 @@
 /** Course progress, kept in localStorage. Fails soft: a corrupt or absent
- *  store reads as "no progress yet" — never throws. */
+ *  store reads as "no progress yet" - never throws. */
 
 const KEY = "laphurdikursen.v1";
 
@@ -64,7 +64,7 @@ export function recordResult(slug: string, correct: number, total: number): Less
   try {
     localStorage.setItem(KEY, JSON.stringify(all));
   } catch {
-    /* private mode etc. — progress just won't persist */
+    /* private mode etc. - progress just won't persist */
   }
   return next;
 }

@@ -83,7 +83,7 @@ export class Morphology {
     const irregular = entry.forms[tense];
     if (irregular) return irregular;
     if (Object.keys(entry.forms).length > 0 && !irregular) {
-      // e.g. skola/moste have no perfect — fall back to the infinitive.
+      // e.g. skola/moste have no perfect - fall back to the infinitive.
       if (tense === "perf") return entry.word;
     }
     const stem = entry.word.slice(0, -1);

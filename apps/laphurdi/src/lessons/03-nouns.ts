@@ -4,11 +4,11 @@ export const nouns: Lesson = {
   slug: "nouns",
   titleLp: "Staden og Huset",
   titleEn: "Nouns & articles",
-  tagline: "Two genders, a “the” that glues onto the noun — and the country named by its own ending.",
+  tagline: "Two genders, a “the” that glues onto the noun - and the country named by its own ending.",
   intro: [
     `Like Swedish, Laphurdi glues the word <em>the</em> onto the <em>end</em> of the
-     noun. There are two genders to learn — <strong>common</strong> (en-words) and
-     <strong>neuter</strong> (et-words) — and once you know which is which,
+     noun. There are two genders to learn - <strong>common</strong> (en-words) and
+     <strong>neuter</strong> (et-words) - and once you know which is which,
      everything else is mechanical.`,
   ],
   sections: [
@@ -39,18 +39,18 @@ export const nouns: Lesson = {
         `The suffixed article serves when the noun stands alone. Put an adjective
          in front, and the article jumps out front too (Danish-style):
          <i lang="lp">den</i> for en-words, <i lang="lp">det</i> for et-words,
-         <i lang="lp">de</i> for plurals — and the noun goes back to its bare form.`,
+         <i lang="lp">de</i> for plurals - and the noun goes back to its bare form.`,
       ],
       examples: [
         { lp: "pojken → den liten pojk", en: "the boy → the little boy" },
         { lp: "huset → det ny hus", en: "the house → the new house" },
-        { lp: "Sang av de Mange Strander", en: "Song of the Many Shores — the anthem title, wearing this rule" },
+        { lp: "Sang av de Mange Strander", en: "Song of the Many Shores - the anthem title, wearing this rule" },
       ],
     },
     {
       heading: "Possession: add -s to the definite form",
       body: [
-        `Ownership takes <i lang="lp">-s</i> after the definite form — the same
+        `Ownership takes <i lang="lp">-s</i> after the definite form - the same
          -s that built the possessive pronouns you will meet in Lesson 6:`,
       ],
       examples: [
@@ -62,8 +62,8 @@ export const nouns: Lesson = {
     {
       heading: "The country named by its own grammar",
       body: [
-        `<i lang="lp">Laphurdeen</i> is <i lang="lp">Laphurde</i> — the
-         anchorage-bay — plus the <em>archaic</em> definite ending
+        `<i lang="lp">Laphurdeen</i> is <i lang="lp">Laphurde</i> - the
+         anchorage-bay - plus the <em>archaic</em> definite ending
          <i lang="lp">-een</i>: the name literally means
          <strong>“The Anchorage.”</strong> Modern Laphurdi would say
          <i lang="lp">fjarden</i> (the bay); the country's name preserves the
@@ -98,7 +98,7 @@ export const nouns: Lesson = {
       prompt: `<i lang="lp">hus</i> is an et-word. Which is <strong>“the house”</strong>?`,
       options: ["huset", "husen", "det hus", "husje"],
       answer: 0,
-      explain: `Neuter takes -et. (<i lang="lp">husje</i> is “little house” — the diminutive, a different trick.)`,
+      explain: `Neuter takes -et. (<i lang="lp">husje</i> is “little house” - the diminutive, a different trick.)`,
       lpOptions: true,
     },
     {
@@ -111,7 +111,7 @@ export const nouns: Lesson = {
     },
     {
       type: "choice",
-      prompt: `And <strong>“the cities”</strong> — definite plural?`,
+      prompt: `And <strong>“the cities”</strong> - definite plural?`,
       options: ["staderen", "stadseren", "de stader", "stadene"],
       answer: 0,
       explain: `Plural -er + definite -en = <i lang="lp">-eren</i>: staderen.`,
@@ -122,14 +122,14 @@ export const nouns: Lesson = {
       prompt: `How do you say <strong>“the little boy”</strong>?`,
       options: ["den liten pojk", "pojken liten", "liten pojken", "det liten pojk"],
       answer: 0,
-      explain: `With an adjective the article moves out front — <i lang="lp">den</i> for an en-word — and the noun goes bare.`,
+      explain: `With an adjective the article moves out front - <i lang="lp">den</i> for an en-word - and the noun goes bare.`,
       lpOptions: true,
     },
     {
       type: "type",
       prompt: `Type <strong>“the people's money”</strong> (people = <i lang="lp">folk</i>, money = <i lang="lp">penger</i>).`,
       accept: ["folkets penger"],
-      explain: `Definite <i lang="lp">folket</i> + genitive -s: <i lang="lp">folkets penger</i> — words you will meet again in the Grundlojen.`,
+      explain: `Definite <i lang="lp">folket</i> + genitive -s: <i lang="lp">folkets penger</i> - words you will meet again in the Grundlojen.`,
       lpAnswer: true,
     },
     {
@@ -137,7 +137,7 @@ export const nouns: Lesson = {
       prompt: `<i lang="lp">kind</i> (child) is neuter. Which is right?`,
       options: ["kindet", "kinden", "den kind", "kinder"],
       answer: 0,
-      explain: `Et-word → <i lang="lp">kindet</i>. Gender must be memorised word by word — the vocabulary lists mark it.`,
+      explain: `Et-word → <i lang="lp">kindet</i>. Gender must be memorised word by word - the vocabulary lists mark it.`,
       lpOptions: true,
     },
     {
@@ -150,7 +150,7 @@ export const nouns: Lesson = {
         "the genitive -s in disguise",
       ],
       answer: 0,
-      explain: `<i lang="lp">Laphurde + -een</i> = “The Anchorage” — the old definite ending, fossilised in the nation's name.`,
+      explain: `<i lang="lp">Laphurde + -een</i> = “The Anchorage” - the old definite ending, fossilised in the nation's name.`,
     },
   ],
 };

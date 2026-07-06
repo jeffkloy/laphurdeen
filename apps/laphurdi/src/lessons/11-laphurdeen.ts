@@ -3,8 +3,8 @@ import type { Lesson } from "../types";
 export const laphurdeen: Lesson = {
   slug: "laphurdeen",
   titleLp: "Lesa Laphurdeen",
-  titleEn: "Reading Laphurdeen — the capstone",
-  tagline: "The motto, the Preamble, and the four city names — everything you learned, in the nation's own words.",
+  titleEn: "Reading Laphurdeen - the capstone",
+  tagline: "The motto, the Preamble, and the four city names - everything you learned, in the nation's own words.",
   intro: [
     `You have the sounds, the nouns, the verbs, the pronouns, the word order,
      and both registers. Time to read the Commonwealth itself: its motto, the
@@ -18,14 +18,14 @@ export const laphurdeen: Lesson = {
         {
           lp: "Frihed, Velvard, Konsens.",
           en: "Freedom, Welfare, Consensus.",
-          note: "three common-gender nouns — two built with -hed and -vard, one straight from Latin's French road",
+          note: "three common-gender nouns - two built with -hed and -vard, one straight from Latin's French road",
         },
       ],
     },
     {
       heading: "The Preamble's first line",
       body: [
-        `Every word of this sentence is now yours. Read it aloud — first
+        `Every word of this sentence is now yours. Read it aloud - first
          syllable stress except <i lang="lp">nasjon</i>, and watch
          <i lang="lp">kom</i> and <i lang="lp">stod</i>, two strong pasts from
          Lesson 5's closed list:`,
@@ -49,25 +49,25 @@ export const laphurdeen: Lesson = {
           ["te bygga", "to build", "te + infinitive"],
           ["waar", "where", "question word as relative"],
           ["ingen", "none, nobody", "pronoun"],
-          ["stod", "stood", "strong past of staa — the verb that forced itself onto the closed list"],
+          ["stod", "stood", "strong past of staa - the verb that forced itself onto the closed list"],
         ],
       },
     },
     {
       heading: "The names on the map",
       body: [
-        `Place names keep their heritage spellings — the ⟨ph⟩ of
+        `Place names keep their heritage spellings - the ⟨ph⟩ of
          <i lang="lp">Laphurdeen</i>, the ⟨ae⟩ of
-         <i lang="lp">Agaetisboro</i> — and each one is a small story:`,
+         <i lang="lp">Agaetisboro</i> - and each one is a small story:`,
       ],
       table: {
         caption: "four cities, four etymologies",
         headers: ["name", "means", "the story"],
         langs: ["lp", "en", "en"],
         rows: [
-          ["Laphurdeen", "“The Anchorage”", "La Fjärde → Laphurde + archaic definite -een — where the Charter fleet dropped anchor"],
+          ["Laphurdeen", "“The Anchorage”", "La Fjärde → Laphurde + archaic definite -een - where the Charter fleet dropped anchor"],
           ["Lapentieur", "“place of slopes”", "French la pente + Old Charter -ieur; the fog-brushed capital"],
-          ["Darcambria", "“the amber curve”", "dar (amber) + cambria (curve) — the great curved harbour"],
+          ["Darcambria", "“the amber curve”", "dar (amber) + cambria (curve) - the great curved harbour"],
           ["Agaetisboro", "“Alright-town”", "old agaet (“alright”) + genitive -is + Charter -boro; the fishers' one-word verdict on the sunny south"],
         ],
       },
@@ -79,22 +79,22 @@ export const laphurdeen: Lesson = {
          now recognise:`,
       ],
       examples: [
-        { lp: "Grundlojen", en: "the Constitution — grund (foundation) + loj (law, from loi) + -en" },
-        { lp: "Folkskameren", en: "the Commons — literally “the People's Chamber”" },
+        { lp: "Grundlojen", en: "the Constitution - grund (foundation) + loj (law, from loi) + -en" },
+        { lp: "Folkskameren", en: "the Commons - literally “the People's Chamber”" },
         { lp: "Senaten", en: "the Senate" },
-        { lp: "Ledminister", en: "Lead Minister — the Commonwealth has no president, no king" },
-        { lp: "Idag stemmar folket.", en: "Today the people vote. — V2 to the last" },
+        { lp: "Ledminister", en: "Lead Minister - the Commonwealth has no president, no king" },
+        { lp: "Idag stemmar folket.", en: "Today the people vote. - V2 to the last" },
       ],
     },
     {
       heading: "Og nu?",
       body: [
-        `The anthem is <i lang="lp">Sang av de Mange Strander</i> — Song of the
+        `The anthem is <i lang="lp">Sang av de Mange Strander</i> - Song of the
          Many Shores; its four verses arrive from the four founding shores, and
          its chorus unites them in Laphurdi. Read the full grammar in
          LAPHURDI.md, browse all 2,000+ words in the lexicon, or open
          Oversettaren and translate for yourself.
-         <i lang="lp">Adjuu — og velkom te Laphurdeen!</i>`,
+         <i lang="lp">Adjuu - og velkom te Laphurdeen!</i>`,
       ],
     },
   ],
@@ -125,7 +125,7 @@ export const laphurdeen: Lesson = {
         "Peace, Welfare, Consensus",
       ],
       answer: 0,
-      explain: `Three nouns, no verbs, no king — very Laphurdeen.`,
+      explain: `Three nouns, no verbs, no king - very Laphurdeen.`,
     },
     {
       type: "choice",
@@ -159,11 +159,11 @@ export const laphurdeen: Lesson = {
         "Tourism boards insisted",
       ],
       answer: 0,
-      explain: `Heritage spellings mark names as old — the Reform respelled words, not monuments.`,
+      explain: `Heritage spellings mark names as old - the Reform respelled words, not monuments.`,
     },
     {
       type: "choice",
-      prompt: `<i lang="lp">Grundlojen</i> — the Constitution — breaks into…`,
+      prompt: `<i lang="lp">Grundlojen</i> - the Constitution - breaks into…`,
       options: [
         "grund (foundation) + loj (law) + -en (the)",
         "grundlo + jen",
@@ -171,7 +171,7 @@ export const laphurdeen: Lesson = {
         "It is a heritage name with no parts",
       ],
       answer: 0,
-      explain: `“The foundation-law” — a head-final compound wearing the suffixed article, like half the state's vocabulary.`,
+      explain: `“The foundation-law” - a head-final compound wearing the suffixed article, like half the state's vocabulary.`,
     },
     {
       type: "choice",
@@ -182,14 +182,14 @@ export const laphurdeen: Lesson = {
     },
     {
       type: "type",
-      prompt: `Type the Laphurdi for <strong>“the people”</strong> — the Preamble's second word.`,
+      prompt: `Type the Laphurdi for <strong>“the people”</strong> - the Preamble's second word.`,
       accept: ["folket"],
       explain: `Neuter <i lang="lp">folk</i> + -et. <i lang="lp">Vi, folket av Laphurdeen…</i>`,
       lpAnswer: true,
     },
     {
       type: "choice",
-      prompt: `<i lang="lp">…en nasjon waar ingen stod befor</i> — what does <i lang="lp">ingen</i> mean?`,
+      prompt: `<i lang="lp">…en nasjon waar ingen stod befor</i> - what does <i lang="lp">ingen</i> mean?`,
       options: ["none, nobody", "everyone", "the anchor", "always"],
       answer: 0,
       explain: `“…a nation where none stood before.” You have now read the founding sentence of the Commonwealth.`,
@@ -204,7 +204,7 @@ export const laphurdeen: Lesson = {
         "Et Teken ved Hamnen",
       ],
       answer: 0,
-      explain: `“Song of the Many Shores” — and note <i lang="lp">de</i> doing its fronted-article work before <i lang="lp">mange strander</i>.`,
+      explain: `“Song of the Many Shores” - and note <i lang="lp">de</i> doing its fronted-article work before <i lang="lp">mange strander</i>.`,
       lpOptions: true,
     },
   ],

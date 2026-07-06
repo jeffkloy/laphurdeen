@@ -19,7 +19,7 @@ export interface EnglishSense {
   entry: Entry;
   /** Position of this variant within the entry's gloss (0 = primary sense). */
   rank: number;
-  /** The gloss segment carried a parenthetical qualifier — "fish (v.)". */
+  /** The gloss segment carried a parenthetical qualifier - "fish (v.)". */
   qualified: boolean;
   /** How many senses the entry's whole gloss lists ("time, occurrence" = 2). */
   senses: number;
@@ -115,7 +115,7 @@ export class Lexicon {
   }
 }
 
-/** Split a gloss on , and ; — but not inside parentheses. */
+/** Split a gloss on , and ; - but not inside parentheses. */
 function splitGloss(english: string): string[] {
   const out: string[] = [];
   let depth = 0;
@@ -133,10 +133,10 @@ function splitGloss(english: string): string[] {
   return out;
 }
 
-/** First gloss variant, parentheticals stripped — the display gloss. */
+/** First gloss variant, parentheticals stripped - the display gloss. */
 export function primaryGloss(entry: Entry): string {
   // Proper nouns whose gloss is descriptive render as themselves
-  // ("Laphurdi", not "the Laphurdi language") — but Fransk still says "French".
+  // ("Laphurdi", not "the Laphurdi language") - but Fransk still says "French".
   if (/^[A-Z]/.test(entry.word) &&
       entry.english.toLowerCase().includes(entry.word.toLowerCase())) {
     return entry.word;

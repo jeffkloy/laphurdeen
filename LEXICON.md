@@ -1,8 +1,8 @@
-# LEXICON — Laphurdi–English
+# LEXICON - Laphurdi–English
 
-*Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
+*Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2303 words** — 1946 roots, 357 derived.
+**2303 words** - 1946 roots, 357 derived.
 
 | domain | words |
 |---|---|

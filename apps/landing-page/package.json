@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Velkom te Laphurdeen — the tourism landing page of the Commonwealth",
+  "description": "Velkom te Laphurdeen - the tourism landing page of the Commonwealth",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

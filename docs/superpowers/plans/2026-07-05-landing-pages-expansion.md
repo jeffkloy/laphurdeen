@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Implement `docs/superpowers/specs/2026-07-05-landing-pages-expansion-design.md` — three new canon docs plus the Darcambria-becomes-a-province retcon, a vite glob, and three new bilingual pages (Praktisk, Provinser atlas, Darlingmoors), fully integrated.
+**Goal:** Implement `docs/superpowers/specs/2026-07-05-landing-pages-expansion-design.md` - three new canon docs plus the Darcambria-becomes-a-province retcon, a vite glob, and three new bilingual pages (Praktisk, Provinser atlas, Darlingmoors), fully integrated.
 
 **Architecture:** Canon-first: write `PROVINCES.md`, `TRANSPORT.md`, `DARCAMBRIA.md` and retcon existing canon before any page cites them. Pages are static bilingual HTML pairs in `apps/landing-page/` sharing `src/style.css` + `src/main.ts`, registered automatically once `vite.config.ts` globs for `index.html` files.
 
@@ -13,15 +13,15 @@
 - Laphurdi edition leads at the unprefixed path; English mirrors under `/en/`. Every page pair carries `hreflang` alternates (`lp`, `en`, `x-default`) exactly like `apps/landing-page/darcambria/index.html:15-17`.
 - Every Laphurdi token on a page must be attested in `LEXICON.tsv`, quoted verbatim from `GRUNDLOJEN.md`, or added via §3b in Task 1. Verify tokens with `grep -E $'^word\t' LEXICON.tsv` before use.
 - Proper nouns (province, town, district names) are NOT lexicon entries and keep un-Reformed spellings.
-- Money format: `kr.` prefix, comma thousands — `kr.320`, `kr.4,950`.
-- Canonical populations — Darcambria province 4,900,000; Darlingmoors 2,850,000; Lapentieur 1,250,000. No other population figures anywhere.
+- Money format: `kr.` prefix, comma thousands - `kr.320`, `kr.4,950`.
+- Canonical populations - Darcambria province 4,900,000; Darlingmoors 2,850,000; Lapentieur 1,250,000. No other population figures anywhere.
 - The sixteen provinces and seats, verbatim from the spec §3.1 roster table. Never introduce the retired names (Norsund, Westmoor, Whitmere-as-province, The Wolds, Linmouth-as-province, Saltmarsh, Saltney, Greenholt, Skerry Harbour).
 - Commits go straight to `main` (repo convention), message style `feat:`/`docs:`/`feat(landing-page):`, ending with the Claude Fable 5 co-author trailer.
 - After every task: `python3 tools/lexicon.py check` reports 0 errors, and `python3 -m pytest tests/ -q` passes.
 
 ---
 
-### Task 1: Lexicon — the expansion's new words (§3b)
+### Task 1: Lexicon - the expansion's new words (§3b)
 
 **Files:**
 - Modify: `LEXICON.tsv` (append rows at end; the file is not alphabetical)
@@ -63,12 +63,12 @@ Expected: baseline+7 rows, 0 errors, 0 warnings; pytest all pass.
 
 ```bash
 git add LEXICON.tsv
-git commit -m "feat: the expansion words — marsk, bors, mynt, konsert, nabolag, ostra, restaurang"
+git commit -m "feat: the expansion words - marsk, bors, mynt, konsert, nabolag, ostra, restaurang"
 ```
 
 ---
 
-### Task 2: PROVINCES.md — the Boundary Commission's roster
+### Task 2: PROVINCES.md - the Boundary Commission's roster
 
 **Files:**
 - Create: `PROVINCES.md`
@@ -81,15 +81,15 @@ git commit -m "feat: the expansion words — marsk, bors, mynt, konsert, nabolag
 
 Structure (all content required, no other provinces or figures):
 
-1. Title + intro: sixteen provinces under Article 41 (15–18 band), drawn by the independent Boundary Commission; three members of the Commons each; subsidiarity; Lapentieur and Darlingmoors are chartered cities *within* National Capital Region and Darcambria respectively (per the amended Art 41.3 — Task 4).
+1. Title + intro: sixteen provinces under Article 41 (15–18 band), drawn by the independent Boundary Commission; three members of the Commons each; subsidiarity; Lapentieur and Darlingmoors are chartered cities *within* National Capital Region and Darcambria respectively (per the amended Art 41.3 - Task 4).
 2. The roster table, copied verbatim from spec §3.1 (16 rows, seats and character lines exactly as speced, populations only for Darcambria/Darlingmoors/Lapentieur).
 3. One entry section per province: name, etymology in `LAPHURDI.md` §7 style, seat, geography, character. Worked example to match in tone and length:
 
 ```markdown
-### Rullarkuller — seat: Woldham
+### Rullarkuller - seat: Woldham
 
 **Etymology:** *rulla* ("to roll") + *kuller* ("hills," the plural of *kulle*
-— cf. Grundarkulleren, the Founders' Hills of Lapentieur): **"the rolling
+- cf. Grundarkulleren, the Founders' Hills of Lapentieur): **"the rolling
 hills."** The English settlers called this country the Wolds; the Reform-era
 Boundary Commission set the Laphurdi name on the map, and the wheat kept
 growing under both.
@@ -100,7 +100,7 @@ line calls at Woldham on its way to the coast at Easthaven.
 ```
 
 English-named provinces get English etymologies (settler morphology: *-haven*, *-cliffe*, *-cape*); Sainte-Agathe gets a French settler-chapel origin; The Northern Straits notes its Norse-blend ferry towns (seat Sundby).
-4. "Country towns" section: the smaller Baaner regional stops — Ashcombe, Fernlea, Millford, Linbridge — one line each, all English names.
+4. "Country towns" section: the smaller Baaner regional stops - Ashcombe, Fernlea, Millford, Linbridge - one line each, all English names.
 
 - [ ] **Step 2: Verify roster integrity**
 
@@ -113,12 +113,12 @@ Expected: no output (retired names absent; Whitmere/Linmouth may appear only as 
 
 ```bash
 git add PROVINCES.md
-git commit -m "docs: PROVINCES.md — the sixteen provinces of the Commonwealth"
+git commit -m "docs: PROVINCES.md - the sixteen provinces of the Commonwealth"
 ```
 
 ---
 
-### Task 3: TRANSPORT.md — Baaner Laphurdeen and the DCTS
+### Task 3: TRANSPORT.md - Baaner Laphurdeen and the DCTS
 
 **Files:**
 - Create: `TRANSPORT.md`
@@ -136,12 +136,12 @@ Note the article number; cite it in the fares section.
 
 Required sections and facts:
 
-1. **Baaner Laphurdeen** — the national rail carrier ("Railways Laphurdeen"; *baaner*, the heritage plural of *baan*, Charter-era spelling kept like the ⟨ph⟩ of Laphurdeen).
-2. **The express triangle** — Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro, all three legs, hourly service framing.
-3. **Regional routes** — grouped by compass, serving every province seat and the country towns: east (Woldham, Easthaven, Linmouth), south (Saltvik, Vindalen, Agaetisboro onward), west (Moorgate, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
-4. **Rail-ferry sailings** — integrated tickets to the island provinces: Shellharbour (Sainte-Agathe) and the Sundby crossings (The Northern Straits). One ticket, boat included.
-5. **Fares** — the Charter fare cap (cite the article from Step 1); the **weekly cap of kr.4,950** across the whole Baaner Laphurdeen network; **tap-to-pay**: contactless credit/debit cards and Apple Pay/Google Pay, cap applied automatically to whatever was tapped, no ticket office required.
-6. **DCTS — the Darcambrian Communities Transport Service** — metro Darcambria only. Record verbatim from the source notes (`~/Documents/Darcambria.txt`, now canonized here):
+1. **Baaner Laphurdeen** - the national rail carrier ("Railways Laphurdeen"; *baaner*, the heritage plural of *baan*, Charter-era spelling kept like the ⟨ph⟩ of Laphurdeen).
+2. **The express triangle** - Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro, all three legs, hourly service framing.
+3. **Regional routes** - grouped by compass, serving every province seat and the country towns: east (Woldham, Easthaven, Linmouth), south (Saltvik, Vindalen, Agaetisboro onward), west (Moorgate, Belhaven, Pineforest), north (Whitmere, Highcliffe, Sundby), with Ashcombe, Fernlea, Millford, Linbridge as intermediate stops. Routes are prose + stop lists, same idiom as the DCTS section below.
+4. **Rail-ferry sailings** - integrated tickets to the island provinces: Shellharbour (Sainte-Agathe) and the Sundby crossings (The Northern Straits). One ticket, boat included.
+5. **Fares** - the Charter fare cap (cite the article from Step 1); the **weekly cap of kr.4,950** across the whole Baaner Laphurdeen network; **tap-to-pay**: contactless credit/debit cards and Apple Pay/Google Pay, cap applied automatically to whatever was tapped, no ticket office required.
+6. **DCTS - the Darcambrian Communities Transport Service** - metro Darcambria only. Record verbatim from the source notes (`~/Documents/Darcambria.txt`, now canonized here):
    - Dialling plan 0221: NW `0221 4`, NE `0221 5`, C `0221 3`, City Centre `0221 2`, SW `0221 6`, SE `0221 7`.
    - Local routes: U1 Shoreline (Briarside – SE Suburbs – Marionberry – Cambrian Jct – The Gorges – City Centre – Addison – NW Coast – Winchester-on-the-Sea); U2 Central (Oyster Pt – Forest Park NE – The Beaches – Timberland – City Centre – Addison – SW Suburbs); U3 Crosstown (Seaport Village – The Northwest – Darling Hill – Gov Ctr – City Centre – Peak District – Shoreline Rocks – Cambrian Jct); U4 Harbour (Airport – Riverlin – City Centre – Gov Ctr – Outlook); U5 University (SE Coast – Marionberry – Cambrian Jct – The Gorges – City Centre – Gov Ctr – Darling Hill – The Northwest – Forest Park NW); R6 Eastern (Oyster Pt – Forest Park NE – The Beaches – Eastern Peak – SE Slopes – Shoreline Rocks – Cambrian Jct); R7 Village (Marionberry – Cambrian Inlet towns – Airport – Riverlin – Addison).
    - Express routes: U1x Shoreline Express (Addison Central – City Centre ML – Cambrian Jct – Marionberry Square – Briarside); U2x Northern Express (The Beaches – City Centre ML – Addison Central – Winchester-on-the-Sea); U4x Airport Link (Gov Centre – City Centre ML – Yacht Harbour – Airport); U5x Berry Express (Gov Centre – City Centre ML – Cambrian Jct – Marionberry Square – Briarside).
@@ -159,12 +159,12 @@ Expected: no output.
 
 ```bash
 git add TRANSPORT.md
-git commit -m "docs: TRANSPORT.md — Baaner Laphurdeen, the kr.4,950 weekly cap, and the DCTS"
+git commit -m "docs: TRANSPORT.md - Baaner Laphurdeen, the kr.4,950 weekly cap, and the DCTS"
 ```
 
 ---
 
-### Task 4: The retcon — Darcambria becomes a province
+### Task 4: The retcon - Darcambria becomes a province
 
 **Files:**
 - Modify: `CONSTITUTION.md` (Art 2.3 at :31, Art 41.3 at :277)
@@ -185,9 +185,9 @@ git commit -m "docs: TRANSPORT.md — Baaner Laphurdeen, the kr.4,950 weekly cap
 - `3. **Darcambria** er en sjartat storstad av Samveldet.` → `3. **Darlingmoors** er en sjartat storstad av Samveldet.`
 - `3. **Lapentieur** og **Darcambria** er sjartat stader, beide med veljat raad og borgmester, og med lokal self-styring settat av sjarta-loj.` → same with `**Darlingmoors**`.
 
-- [ ] **Step 2: LAPHURDI.md §7 — Darcambria's etymology now names the bay**
+- [ ] **Step 2: LAPHURDI.md §7 - Darcambria's etymology now names the bay**
 
-Replace the Darcambria bullet's final clause `**"the amber curve,"** for the city's great curved harbour and its amber summer sunsets.` with `**"the amber curve,"** for the great curved bay — the founding Anchorage — and its amber summer sunsets; once the name of the harbour city, now the name of the province whose eight Charter cities ring the bay.`
+Replace the Darcambria bullet's final clause `**"the amber curve,"** for the city's great curved harbour and its amber summer sunsets.` with `**"the amber curve,"** for the great curved bay - the founding Anchorage - and its amber summer sunsets; once the name of the harbour city, now the name of the province whose eight Charter cities ring the bay.`
 
 - [ ] **Step 3: Sweep for stragglers**
 
@@ -197,30 +197,30 @@ Expected: remaining mentions are bay/province-compatible ("Darcambrian amber sun
 - [ ] **Step 4: Write DARCAMBRIA.md**
 
 Required sections:
-1. **The province** — the amber-curve bay ringed by the eight Charter cities; population 4,900,000; joint governance as **the Darcambrian Communities** (the "DC" of DCTS), Government Centre on Darlingmoors.
-2. **The eight Charter cities** — by population: Darlingmoors, Addison, Marionberry, Upperlea, Lowerlea, Briarside, Winchester-on-the-Sea, Riverlin; by density: Darlingmoors, Riverlin, Addison, Marionberry, Lowerlea, Briarside, Winchester-on-the-Sea, Upperlea.
-3. **Darlingmoors — City & Island** — population 2,850,000, the Commonwealth's largest city and chartered principal city. Zones and districts with dialling codes: NW (0221 4) Seaport Village, The Northwest, Outlook, Darling Hill, Timberland; NE (0221 5) Oyster Point, Forest Park, The Beaches; C (0221 3) Outer Docks, Government Centre, Inner Docks, Yacht Harbour; City Centre (0221 2); SW (0221 6) Peak District, Eastern Peak, Inner Gorge, Outer Gorge; SE (0221 7) Southeast Slopes, Shoreline Rocks, Cambrian Junction.
-4. **The financial centre** — Market Square as the money quarter: the Bors (the Exchange), the bank headquarters, and the Mint that strikes *Frihed, Velvard, Konsens* onto every krona.
-5. **Arts & culture** — institutions on Old Courthouse and around Yacht Harbour.
-6. **The music scene** — Cambrian Junction warehouse venues; Seaport Village folk rooms.
-7. **The food scene** — Oyster Point seafood, market-stall street food, boardwalk food at The Beaches, Yacht Harbour dining; Mediterranean produce through English, French, and Norse settler kitchens.
-8. **The beaches** — The Beaches district, Shoreline Rocks, the Forest Park coast.
-9. **Suburban zones** — SW: Winchester-on-the-Sea to Riverlin; SE: Linear Village to Briarside South.
+1. **The province** - the amber-curve bay ringed by the eight Charter cities; population 4,900,000; joint governance as **the Darcambrian Communities** (the "DC" of DCTS), Government Centre on Darlingmoors.
+2. **The eight Charter cities** - by population: Darlingmoors, Addison, Marionberry, Upperlea, Lowerlea, Briarside, Winchester-on-the-Sea, Riverlin; by density: Darlingmoors, Riverlin, Addison, Marionberry, Lowerlea, Briarside, Winchester-on-the-Sea, Upperlea.
+3. **Darlingmoors - City & Island** - population 2,850,000, the Commonwealth's largest city and chartered principal city. Zones and districts with dialling codes: NW (0221 4) Seaport Village, The Northwest, Outlook, Darling Hill, Timberland; NE (0221 5) Oyster Point, Forest Park, The Beaches; C (0221 3) Outer Docks, Government Centre, Inner Docks, Yacht Harbour; City Centre (0221 2); SW (0221 6) Peak District, Eastern Peak, Inner Gorge, Outer Gorge; SE (0221 7) Southeast Slopes, Shoreline Rocks, Cambrian Junction.
+4. **The financial centre** - Market Square as the money quarter: the Bors (the Exchange), the bank headquarters, and the Mint that strikes *Frihed, Velvard, Konsens* onto every krona.
+5. **Arts & culture** - institutions on Old Courthouse and around Yacht Harbour.
+6. **The music scene** - Cambrian Junction warehouse venues; Seaport Village folk rooms.
+7. **The food scene** - Oyster Point seafood, market-stall street food, boardwalk food at The Beaches, Yacht Harbour dining; Mediterranean produce through English, French, and Norse settler kitchens.
+8. **The beaches** - The Beaches district, Shoreline Rocks, the Forest Park coast.
+9. **Suburban zones** - SW: Winchester-on-the-Sea to Riverlin; SE: Linear Village to Briarside South.
 
 Sections 4–8 are new invention: 2–4 paragraphs each, naming 2–3 concrete institutions/venues/dishes per section so Task 8 has real material to cite.
 
 - [ ] **Step 5: Verify and commit**
 
-Run: `python3 -m pytest tests/ -q` — Expected: pass.
+Run: `python3 -m pytest tests/ -q` - Expected: pass.
 
 ```bash
 git add CONSTITUTION.md GRUNDLOJEN.md LAPHURDI.md DARCAMBRIA.md
-git commit -m "feat: the retcon — Darcambria the province, Darlingmoors the principal city"
+git commit -m "feat: the retcon - Darcambria the province, Darlingmoors the principal city"
 ```
 
 ---
 
-### Task 5: Vite glob — pages register themselves
+### Task 5: Vite glob - pages register themselves
 
 **Files:**
 - Modify: `apps/landing-page/vite.config.ts` (full replacement)
@@ -279,12 +279,12 @@ Expected: build succeeds; the same 8 index.html paths as Step 1.
 
 ```bash
 git add apps/landing-page/vite.config.ts
-git commit -m "feat(landing-page): vite glob — every index.html is a page"
+git commit -m "feat(landing-page): vite glob - every index.html is a page"
 ```
 
 ---
 
-### Task 6: Praktisk — the traveller guide, both languages
+### Task 6: Praktisk - the traveller guide, both languages
 
 **Files:**
 - Create: `apps/landing-page/praktisk/index.html` (lang `lp`)
@@ -297,15 +297,15 @@ git commit -m "feat(landing-page): vite glob — every index.html is a page"
 - [ ] **Step 1: Build the Laphurdi page**
 
 Skeleton: copy the `<head>`, `<header class="site-header">`, and `<footer class="site-footer">` blocks verbatim from `apps/landing-page/darcambria/index.html`, then adjust:
-- `<title>Praktisk — pengar, baaner, fraser · Laphurdeen</title>`, matching `<meta name="description">`.
+- `<title>Praktisk - pengar, baaner, fraser · Laphurdeen</title>`, matching `<meta name="description">`.
 - hreflang alternates: `lp` → `./`, `en` → `../en/praktisk/`, `x-default` → `./`.
 - Nav anchors: `#pengar`, `#baaner`, `#frasboken`, plus the standard cross-links and `nav-lang` → `../en/praktisk/`.
 - Keep `<script type="module" src="/src/main.ts"></script>` and the existing card/section/`data-reveal` classes so shared CSS and reveal JS apply.
 
 Three `<section>`s with required facts:
-1. `#pengar` — *en krona, twe kronur* (the heritage plural); the pegged krona (grep `peg` in `CONSTITUTION.md` for the article to cite); tax-inclusive prices as a Charter comfort; `kr.` formatting with `kr.4,950` as the worked example; tipping culture.
-2. `#baaner` — Baaner Laphurdeen: the express triangle (Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro); regional routes to the province seats; rail-ferry sailings to Shellharbour and Sundby; a highlight card promoting the **weekly cap of kr.4,950** and **tap-to-pay** (contactless credit/debit, Apple Pay/Google Pay); a cross-link card noting metro Darcambria runs the DCTS (link `../darcambria/`).
-3. `#frasboken` — a phrasebook table of 10–12 rows (greeting, please/thanks, ordering, ticket-buying, emergency), every Laphurdi token verified against `LEXICON.tsv`; closing cards linking `../laphurdi/` (Laphurdikursen) and `../translator/` (Oversettaren).
+1. `#pengar` - *en krona, twe kronur* (the heritage plural); the pegged krona (grep `peg` in `CONSTITUTION.md` for the article to cite); tax-inclusive prices as a Charter comfort; `kr.` formatting with `kr.4,950` as the worked example; tipping culture.
+2. `#baaner` - Baaner Laphurdeen: the express triangle (Lapentieur ⇄ Darlingmoors ⇄ Agaetisboro); regional routes to the province seats; rail-ferry sailings to Shellharbour and Sundby; a highlight card promoting the **weekly cap of kr.4,950** and **tap-to-pay** (contactless credit/debit, Apple Pay/Google Pay); a cross-link card noting metro Darcambria runs the DCTS (link `../darcambria/`).
+3. `#frasboken` - a phrasebook table of 10–12 rows (greeting, please/thanks, ordering, ticket-buying, emergency), every Laphurdi token verified against `LEXICON.tsv`; closing cards linking `../laphurdi/` (Laphurdikursen) and `../translator/` (Oversettaren).
 
 - [ ] **Step 2: Build the English page**
 
@@ -321,12 +321,12 @@ Then `npm run preview` and check both pages with Playwright: hero renders, three
 
 ```bash
 git add apps/landing-page/praktisk apps/landing-page/en/praktisk
-git commit -m "feat(landing-page): Praktisk — money, Baaner Laphurdeen, and the phrasebook, in both languages"
+git commit -m "feat(landing-page): Praktisk - money, Baaner Laphurdeen, and the phrasebook, in both languages"
 ```
 
 ---
 
-### Task 7: Provinser — the atlas, both languages
+### Task 7: Provinser - the atlas, both languages
 
 **Files:**
 - Create: `apps/landing-page/provinser/index.html` (lang `lp`)
@@ -340,7 +340,7 @@ git commit -m "feat(landing-page): Praktisk — money, Baaner Laphurdeen, and th
 
 Same skeleton discipline as Task 6 (copy head/header/footer from `darcambria/index.html`, adjust): title `Provinseren av Laphurdeen · Laphurdeen` (verify the definite plural form against `LAPHURDI.md` §3 noun rules; fall back to `De seksten provinser` phrasing if §3 says otherwise), hreflang pair `./` ↔ `../en/provinser/`.
 
-Content: an intro citing Article 41 (16 provinces, the Boundary Commission), then six card groups — exactly these, three cards each unless noted:
+Content: an intro citing Article 41 (16 provinces, the Boundary Commission), then six card groups - exactly these, three cards each unless noted:
 - Heartland: Darcambria (→ `../darcambria/`), National Capital Region (→ `../lapentieur/`), Peaklands
 - The south: Southcape (→ `../agaetisboro/`), Saltmarsken, Vindalen
 - The east: Easthaven, Rullarkuller, Mund-av-Lin
@@ -364,12 +364,12 @@ Playwright: both pages render, the three city-page links navigate, toggle round-
 
 ```bash
 git add apps/landing-page/provinser apps/landing-page/en/provinser
-git commit -m "feat(landing-page): Provinseren — the atlas of the sixteen provinces, in both languages"
+git commit -m "feat(landing-page): Provinseren - the atlas of the sixteen provinces, in both languages"
 ```
 
 ---
 
-### Task 8: Darlingmoors — the city page, both languages
+### Task 8: Darlingmoors - the city page, both languages
 
 **Files:**
 - Create: `apps/landing-page/darcambria/darlingmoors/index.html` (lang `lp`)
@@ -383,7 +383,7 @@ git commit -m "feat(landing-page): Provinseren — the atlas of the sixteen prov
 
 Skeleton from `darcambria/index.html` with paths one level deeper (brand `../../`, shared cross-links `../../lapentieur/` etc.), crumbs `Laphurdeen · Darcambria · Darlingmoors`, hreflang pair `./` ↔ `../../en/darcambria/darlingmoors/`.
 
-Six sections, each grounded in the named `DARCAMBRIA.md` material: `#nabolag` (the zone-by-zone tour, dialling codes as flavour), `#bors` (Market Square: the Bors, the banks, the Mint striking the motto — cross-link the main page's coin section `../../#`), `#kultur` (Old Courthouse + Yacht Harbour institutions), `#musik` (Cambrian Junction warehouses vs Seaport Village folk rooms), `#mat` (Oyster Point *ostra*-and-seafood culture — check `LAPHURDI.md` §3 before inflecting any plural — market stalls, The Beaches boardwalk, Yacht Harbour dining), `#strander` (The Beaches, Shoreline Rocks, Forest Park coast — with the U2/R6 DCTS lines that reach them). Population 2,850,000 in the hero; "the Commonwealth's largest city and chartered principal city" framing.
+Six sections, each grounded in the named `DARCAMBRIA.md` material: `#nabolag` (the zone-by-zone tour, dialling codes as flavour), `#bors` (Market Square: the Bors, the banks, the Mint striking the motto - cross-link the main page's coin section `../../#`), `#kultur` (Old Courthouse + Yacht Harbour institutions), `#musik` (Cambrian Junction warehouses vs Seaport Village folk rooms), `#mat` (Oyster Point *ostra*-and-seafood culture - check `LAPHURDI.md` §3 before inflecting any plural - market stalls, The Beaches boardwalk, Yacht Harbour dining), `#strander` (The Beaches, Shoreline Rocks, Forest Park coast - with the U2/R6 DCTS lines that reach them). Population 2,850,000 in the hero; "the Commonwealth's largest city and chartered principal city" framing.
 
 - [ ] **Step 2: Build the English page**
 
@@ -399,12 +399,12 @@ Playwright: six sections render in both languages, toggle round-trips, DCTS rout
 
 ```bash
 git add apps/landing-page/darcambria/darlingmoors apps/landing-page/en/darcambria/darlingmoors
-git commit -m "feat(landing-page): Darlingmoors — the principal city in six movements, both languages"
+git commit -m "feat(landing-page): Darlingmoors - the principal city in six movements, both languages"
 ```
 
 ---
 
-### Task 9: Integration — the province reframe and the nav
+### Task 9: Integration - the province reframe and the nav
 
 **Files:**
 - Modify: `apps/landing-page/darcambria/index.html`, `apps/landing-page/en/darcambria/index.html`
@@ -428,15 +428,15 @@ Both editions of the main page: add nav + footer links to `praktisk/` and `provi
 
 - [ ] **Step 3: Update the README**
 
-`apps/landing-page/README.md`: page inventory now lists main, praktisk, provinser, darcambria (province), darcambria/darlingmoors, lapentieur, agaetisboro — each with its `/en/` twin — and notes entries are discovered by the vite glob.
+`apps/landing-page/README.md`: page inventory now lists main, praktisk, provinser, darcambria (province), darcambria/darlingmoors, lapentieur, agaetisboro - each with its `/en/` twin - and notes entries are discovered by the vite glob.
 
 - [ ] **Step 4: Verify and commit**
 
-Run: `cd apps/landing-page && npm run build` — Expected: 14 index.html files in dist.
+Run: `cd apps/landing-page && npm run build` - Expected: 14 index.html files in dist.
 
 ```bash
 git add apps/landing-page
-git commit -m "feat(landing-page): the province reframe and the new doors — Praktisk, Provinseren, Darlingmoors"
+git commit -m "feat(landing-page): the province reframe and the new doors - Praktisk, Provinseren, Darlingmoors"
 ```
 
 ---
@@ -449,12 +449,12 @@ git commit -m "feat(landing-page): the province reframe and the new doors — Pr
 
 Run: `python3 tools/lexicon.py check && python3 -m pytest tests/ -q`
 Expected: 0 errors, all tests pass.
-Run: `grep -rn 'chartered principal city' CONSTITUTION.md` — Expected: names Darlingmoors.
+Run: `grep -rn 'chartered principal city' CONSTITUTION.md` - Expected: names Darlingmoors.
 
 - [ ] **Step 2: Build and parity**
 
 Run: `cd apps/landing-page && npm run build && find dist -name index.html | sort`
-Expected: exactly 14 pages — 7 Laphurdi (`/`, `praktisk`, `provinser`, `darcambria`, `darcambria/darlingmoors`, `lapentieur`, `agaetisboro`) + 7 English twins under `en/`.
+Expected: exactly 14 pages - 7 Laphurdi (`/`, `praktisk`, `provinser`, `darcambria`, `darcambria/darlingmoors`, `lapentieur`, `agaetisboro`) + 7 English twins under `en/`.
 
 - [ ] **Step 3: Playwright sweep**
 

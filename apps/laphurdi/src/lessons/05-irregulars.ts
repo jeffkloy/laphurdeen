@@ -4,11 +4,11 @@ export const irregulars: Lesson = {
   slug: "irregulars",
   titleLp: "Vera og Hava",
   titleEn: "The sixteen irregulars",
-  tagline: "A closed list, fixed forever — ten strong verbs, two forced by canon, four modals.",
+  tagline: "A closed list, fixed forever - ten strong verbs, two forced by canon, four modals.",
   intro: [
     `Every language hides its oldest verbs in irregular shapes. Laphurdi caged
      them: exactly <strong>sixteen</strong> verbs are irregular, the list is
-     closed, and every other verb — past, present, and future coinages alike —
+     closed, and every other verb - past, present, and future coinages alike -
      is regular forever. Learn this table and you have finished the hardest
      memorisation in the language.`,
   ],
@@ -23,7 +23,7 @@ export const irregulars: Lesson = {
          stayed irregular here:`,
       ],
       table: {
-        caption: "all sixteen — the complete list",
+        caption: "all sixteen - the complete list",
         headers: ["infinitive", "present", "past", "perfect", "English"],
         langs: ["lp", "lp", "lp", "lp", "en"],
         rows: [
@@ -41,8 +41,8 @@ export const irregulars: Lesson = {
           ["veta", "vet", "viste", "har vetat", "know"],
           ["kunna", "kan", "kunde", "har kunnat", "can"],
           ["vilja", "vil", "vilde", "har vilt", "want, will"],
-          ["skola", "skal", "skulle", "—", "shall"],
-          ["moste", "moste", "moste", "—", "must"],
+          ["skola", "skal", "skulle", "-", "shall"],
+          ["moste", "moste", "moste", "-", "must"],
         ],
       },
     },
@@ -50,7 +50,7 @@ export const irregulars: Lesson = {
       heading: "The workhorses: er, har, and the modals",
       body: [
         `Three of these sixteen do half the talking in any conversation:
-         <i lang="lp">er</i> (is/am/are), <i lang="lp">har</i> (has/have — and
+         <i lang="lp">er</i> (is/am/are), <i lang="lp">har</i> (has/have - and
          the engine of every perfect tense), and the modals, which take a bare
          infinitive after them:`,
       ],
@@ -68,7 +68,7 @@ export const irregulars: Lesson = {
       body: [
         `The Reform even regularized <em>prefixed</em> verbs: bare
          <i lang="lp">komma</i> keeps its old past <i lang="lp">kom</i>, but
-         <i lang="lp">ankomma</i> (arrive) conjugates like any regular verb —
+         <i lang="lp">ankomma</i> (arrive) conjugates like any regular verb -
          <i lang="lp">ankommade</i>, never <em>ankom</em>. New verbs must end in
          unstressed <i lang="lp">-a</i> and stay regular; the sixteen are a
          museum, not a model.`,
@@ -103,14 +103,14 @@ export const irregulars: Lesson = {
       prompt: `Present tense of <i lang="lp">vera</i> (to be)?`,
       options: ["er", "verar", "var", "vart"],
       answer: 0,
-      explain: `<i lang="lp">Ik er, du er, vi er</i> — one form, and it is <i lang="lp">er</i>.`,
+      explain: `<i lang="lp">Ik er, du er, vi er</i> - one form, and it is <i lang="lp">er</i>.`,
       lpOptions: true,
     },
     {
       type: "type",
       prompt: `Type the <strong>past</strong> of <i lang="lp">gaa</i> (to go).`,
       accept: ["gik"],
-      explain: `<i lang="lp">Hon gik hem</i> — she went home.`,
+      explain: `<i lang="lp">Hon gik hem</i> - she went home.`,
       lpAnswer: true,
     },
     {
@@ -125,7 +125,7 @@ export const irregulars: Lesson = {
       type: "type",
       prompt: `The past of <i lang="lp">seja</i> (to say) is famously short. Type it.`,
       accept: ["sa"],
-      explain: `<i lang="lp">sa</i> — two letters. <i lang="lp">Hon sa nej.</i>`,
+      explain: `<i lang="lp">sa</i> - two letters. <i lang="lp">Hon sa nej.</i>`,
       lpAnswer: true,
     },
     {
@@ -133,7 +133,7 @@ export const irregulars: Lesson = {
       prompt: `Which verb is <em>NOT</em> on the closed list of sixteen?`,
       options: ["werka", "veta", "doa", "moste"],
       answer: 0,
-      explain: `<i lang="lp">werka</i> is regular like every verb outside the sixteen — werkar, werkade, har werkat.`,
+      explain: `<i lang="lp">werka</i> is regular like every verb outside the sixteen - werkar, werkade, har werkat.`,
       lpOptions: true,
     },
     {
@@ -153,20 +153,20 @@ export const irregulars: Lesson = {
       prompt: `Bare <i lang="lp">komma</i> has past <i lang="lp">kom</i>. What is the past of prefixed <i lang="lp">ankomma</i>?`,
       options: ["ankommade", "ankom", "ankommat", "har ankommen"],
       answer: 0,
-      explain: `The Reform regularized every prefixed verb — the irregular sixteen are a museum, not a model.`,
+      explain: `The Reform regularized every prefixed verb - the irregular sixteen are a museum, not a model.`,
       lpOptions: true,
     },
     {
       type: "choice",
       prompt: `Why are <i lang="lp">hava</i> and <i lang="lp">staa</i> on the list at all?`,
       options: [
-        "Canon texts forced them — the auxiliary har and the Preamble's stod",
+        "Canon texts forced them - the auxiliary har and the Preamble's stod",
         "They are French loans",
         "All two-syllable verbs are irregular",
         "The Language Commission likes round numbers",
       ],
       answer: 0,
-      explain: `The perfect needs <i lang="lp">har</i>, and the Preamble says <i lang="lp">stod</i> — canon made them irregular, and the list closed at sixteen.`,
+      explain: `The perfect needs <i lang="lp">har</i>, and the Preamble says <i lang="lp">stod</i> - canon made them irregular, and the list closed at sixteen.`,
     },
   ],
 };

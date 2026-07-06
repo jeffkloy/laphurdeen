@@ -2,7 +2,7 @@ name: Deploy site to GitHub Pages
 
 # One Pages deployment for the whole Commonwealth: the landing page
 # (Laphurdi at /, English at /en/) at the site root, the Oversettaren
-# translator under /translator/, and Laphurdikursen — the Laphurdi course —
+# translator under /translator/, and Laphurdikursen - the Laphurdi course -
 # under /laphurdi/. GitHub Pages allows a single deployment per repository,
 # so all apps ship in one artifact.
 

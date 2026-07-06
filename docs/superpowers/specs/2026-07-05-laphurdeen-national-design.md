@@ -1,4 +1,4 @@
-# Laphurdeen National Design — Resolution of Outstanding Questions
+# Laphurdeen National Design - Resolution of Outstanding Questions
 
 **Date:** 2026-07-05
 **Status:** Approved in discussion; pending spec review
@@ -12,13 +12,13 @@ Constitution v2 left four areas running on provisional defaults: the head-of-sta
 
 | Area | Decision |
 |---|---|
-| Head of state | **Speaker of the Commons** — ceremonial head of state; Senate governs |
+| Head of state | **Speaker of the Commons** - ceremonial head of state; Senate governs |
 | Ministries | **Keep the 12** as drafted in Article 23 |
 | Senate ratio | **1 Senator per 250,000 residents** (~30 at 7.5M population) |
 | Provinces | Boundary Commission targets **15–18 provinces** → Commons of 45–54 (the larger chamber) |
 | State name | **Commonwealth of Laphurdeen** (kept) |
 | Motto | ***Frihed, Velvard, Konsens*** (Freedom, Welfare, Consensus) |
-| Flag | **The Amber Curve** — sea-blue field, amber arc across lower third, white star above |
+| Flag | **The Amber Curve** - sea-blue field, amber arc across lower third, white star above |
 | Anthem | ***Sang av de Mange Strander*** ("Song of the Many Shores") |
 
 ## Detailed Design
@@ -38,13 +38,13 @@ Constitution v2 left four areas running on provisional defaults: the head-of-sta
 
 ### C. National symbols (new constitutional article)
 
-Insert **Article 5 — National Symbols** at the end of Part I:
+Insert **Article 5 - National Symbols** at the end of Part I:
 
 1. Motto: *Frihed, Velvard, Konsens*.
 2. Flag: described verbally (deep sea-blue field; broad amber arc across the lower third, for the founding bay at sunset; a single white star above, for the light of Lapentieur); precise form fixed by law.
 3. Anthem: *Sang av de Mange Strander*; text and music fixed by law.
 
-Full flag specification lives in `NATIONAL_SYMBOLS.md`: ratio 2:3; palette — sea blue `#003A66`, amber `#F2A900`, white `#FFFFFF`; five-pointed white star centred above the arc's apex; plus motto usage rules and the anthem's structure (four "shore" verses — English, Dutch, Swedish, French heritage — with a unifying Laphurdi chorus; lyrics deferred to a future session).
+Full flag specification lives in `NATIONAL_SYMBOLS.md`: ratio 2:3; palette - sea blue `#003A66`, amber `#F2A900`, white `#FFFFFF`; five-pointed white star centred above the arc's apex; plus motto usage rules and the anthem's structure (four "shore" verses - English, Dutch, Swedish, French heritage - with a unifying Laphurdi chorus; lyrics deferred to a future session).
 
 ### D. File changes
 
@@ -54,7 +54,7 @@ Full flag specification lives in `NATIONAL_SYMBOLS.md`: ratio 2:3; palette — s
    - Senate ratio: 100,000 → 250,000 (old Article 17).
    - Province range 15–18 written into the provinces article (old Article 40).
    - Promulgation article (old 21): Convenor → Speaker of the Commons.
-   - Convenor article (old 26): replaced by two provisions — the Speaker of the Commons (election, functions, dual mandate, Deputy) and the Senate Convenor as internal chair.
+   - Convenor article (old 26): replaced by two provisions - the Speaker of the Commons (election, functions, dual mandate, Deputy) and the Senate Convenor as internal chair.
    - Edition line updated to "Third Edition".
 2. **`NATIONAL_SYMBOLS.md`** (new): flag blazon and construction sheet (in text), palette, motto usage, anthem structure, symbol etymologies.
 3. **`LAPHURDI.md`**: add vocabulary *sang* (song), *mange* (many); add a short "National symbols in Laphurdi" note linking motto and anthem title; *strander* (shores) already present as plural of *strand*.

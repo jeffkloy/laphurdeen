@@ -7,7 +7,7 @@ Laphurdeen Guarantee. Two operators carry that promise: **Baaner
 Laphurdeen**, the national carrier, and the **DCTS**, the metro network of
 the Darcambrian Communities.
 
-## Baaner Laphurdeen — the national carrier
+## Baaner Laphurdeen - the national carrier
 
 *Baaner* is the heritage plural of *baan* ("track, way"), keeping its
 Charter-era spelling like the ⟨ph⟩ of Laphurdeen: **"Railways
@@ -19,10 +19,10 @@ guarantee made visible, and its amber-on-blue trains are the flag at speed.
 Three express corridors link the three major cities, hourly through the
 day, half-hourly at the peaks:
 
-- **Lapentieur ⇄ Darlingmoors** — capital to principal city, calling at
+- **Lapentieur ⇄ Darlingmoors** - capital to principal city, calling at
   Darlingmoors Central on the City Centre Mainline.
-- **Darlingmoors ⇄ Agaetisboro** — the amber curve to the sunny south.
-- **Lapentieur ⇄ Agaetisboro** — the capital's fog to Southcape's sun.
+- **Darlingmoors ⇄ Agaetisboro** - the amber curve to the sunny south.
+- **Lapentieur ⇄ Agaetisboro** - the capital's fog to Southcape's sun.
 
 ### The regional lines
 
@@ -44,8 +44,8 @@ country towns between:
 The island provinces are on the same ticket. Baaner Laphurdeen's
 integrated rail-ferry sailings continue the timetable onto the water:
 
-- **Belhaven ⇄ Shellharbour** — to the outer isles of Sainte-Agathe.
-- **Sundby ⇄ the Straits towns** — the crossings that are the Northern
+- **Belhaven ⇄ Shellharbour** - to the outer isles of Sainte-Agathe.
+- **Sundby ⇄ the Straits towns** - the crossings that are the Northern
   Straits' calendar.
 
 One ticket, boat included; the fare cap applies at sea as on land.
@@ -53,17 +53,17 @@ One ticket, boat included; the fare cap applies at sea as on land.
 ### Fares
 
 - The Article 14(4) fare cap, made concrete: a **weekly cap of
-  Kr. 4,950** across the whole Baaner Laphurdeen network — trains,
+  Kr. 4,950** across the whole Baaner Laphurdeen network - trains,
   branches, and rail-ferry sailings alike. Ride as much as the week
   holds; the network stops charging at the cap.
 - **Tap-to-pay everywhere:** contactless credit and debit cards, and
   Apple Pay and Google Pay, at every gate and gangway. The cap is applied
-  automatically to whatever was tapped — no ticket office, no
+  automatically to whatever was tapped - no ticket office, no
   registration, no paper.
 - Persons within the Laphurdeen Guarantee travel free, per Article 14(4).
 - Prices are tax-inclusive, as all prices in Laphurdeen are.
 
-## DCTS — the Darcambrian Communities Transport Service
+## DCTS - the Darcambrian Communities Transport Service
 
 The metro network of Darcambria province, run jointly by the eight Charter
 cities as the Darcambrian Communities; Darcambrians call the whole system
@@ -89,33 +89,33 @@ to Briarside South.
 
 ### Local routes
 
-- **U1 — Shoreline Route:** Briarside – SE Suburbs – Marionberry –
+- **U1 - Shoreline Route:** Briarside – SE Suburbs – Marionberry –
   Cambrian Junction – The Gorges – City Centre – Addison – NW Coast –
   Winchester-on-the-Sea
-- **U2 — Central Line:** Oyster Point – Forest Park NE – The Beaches –
+- **U2 - Central Line:** Oyster Point – Forest Park NE – The Beaches –
   Timberland – City Centre – Addison – SW Suburbs
-- **U3 — Crosstown Route:** Seaport Village – The Northwest – Darling
+- **U3 - Crosstown Route:** Seaport Village – The Northwest – Darling
   Hill – Government Centre – City Centre – Peak District – Shoreline
   Rocks – Cambrian Junction
-- **U4 — Harbour Line:** Airport – Riverlin – City Centre – Government
+- **U4 - Harbour Line:** Airport – Riverlin – City Centre – Government
   Centre – Outlook
-- **U5 — University Line:** SE Coast – Marionberry – Cambrian Junction –
+- **U5 - University Line:** SE Coast – Marionberry – Cambrian Junction –
   The Gorges – City Centre – Government Centre – Darling Hill – The
   Northwest – Forest Park NW
-- **R6 — Eastern Route:** Oyster Point – Forest Park NE – The Beaches –
+- **R6 - Eastern Route:** Oyster Point – Forest Park NE – The Beaches –
   Eastern Peak – SE Slopes – Shoreline Rocks – Cambrian Junction
-- **R7 — Village Line:** Marionberry – Cambrian Inlet towns – Airport –
+- **R7 - Village Line:** Marionberry – Cambrian Inlet towns – Airport –
   Riverlin – Addison
 
 ### Suburban express routes
 
-- **U1x — Shoreline Express:** Addison (Central) – City Centre ML –
+- **U1x - Shoreline Express:** Addison (Central) – City Centre ML –
   Cambrian Junction – Marionberry (Square) – Briarside
-- **U2x — Northern Express:** The Beaches – City Centre ML – Addison
+- **U2x - Northern Express:** The Beaches – City Centre ML – Addison
   (Central) – Winchester-on-the-Sea
-- **U4x — Airport Link:** Government Centre – City Centre ML – Yacht
+- **U4x - Airport Link:** Government Centre – City Centre ML – Yacht
   Harbour – Airport
-- **U5x — Berry Express:** Government Centre – City Centre ML – Cambrian
+- **U5x - Berry Express:** Government Centre – City Centre ML – Cambrian
   Junction – Marionberry (Square) – Briarside
 
 ### DCTS fares

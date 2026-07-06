@@ -61,7 +61,7 @@ app.innerHTML = `
         <section class="pane">
           <label><span class="lang" id="src-lang"></span><span class="rule-line"></span>source</label>
           <textarea id="input" rows="5" spellcheck="false"
-            placeholder="Skriv hier — write here…"></textarea>
+            placeholder="Skriv hier - write here…"></textarea>
         </section>
 
         <div class="pane-divider">
@@ -86,13 +86,13 @@ app.innerHTML = `
     </div>
 
     <section class="breakdown">
-      <h2>Word by word — the gloss line</h2>
+      <h2>Word by word - the gloss line</h2>
       <div class="tokens" id="tokens"></div>
     </section>
   </main>
 
   <footer>
-    <p class="f-motto">Sang av de Mange Strander — many shores, one anchorage.</p>
+    <p class="f-motto">Sang av de Mange Strander - many shores, one anchorage.</p>
     <p class="f-line">Commonwealth of Laphurdeen · Language Commission · built on LEXICON.tsv</p>
   </footer>
 `;
@@ -167,7 +167,7 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
     el.appendChild(note);
   }
 
-  // Alternative renderings — click to overrule the Commission's choice.
+  // Alternative renderings - click to overrule the Commission's choice.
   const picked = t.tags.includes("PICKED");
   if (t.alternatives?.length || picked) {
     const alts = document.createElement("div");
@@ -182,7 +182,7 @@ function renderToken(t: TokenResult, i: number): HTMLElement {
       b.className = "alt-chip";
       b.textContent = alt.pick;
       b.title = `${alt.word} · ${alt.pos}` +
-        (alt.register ? ` · ${alt.register}` : "") + ` — ${alt.gloss}`;
+        (alt.register ? ` · ${alt.register}` : "") + ` - ${alt.gloss}`;
       b.addEventListener("click", () => {
         overrides[direction][t.source.toLowerCase()] = alt.pick;
         run();
@@ -211,7 +211,7 @@ function run() {
   if (!text) {
     output.textContent = "";
     tokensEl.innerHTML =
-      '<span class="empty-hint">The gloss line appears here — every word accounted for.</span>';
+      '<span class="empty-hint">The gloss line appears here - every word accounted for.</span>';
     lastResult = "";
     return;
   }
@@ -233,8 +233,8 @@ function syncDirection() {
   srcLang.textContent = src;
   dstLang.textContent = dst;
   input.placeholder = direction === "en-la"
-    ? "Write here — the Commission renders it into Laphurdi…"
-    : "Skriv hier — the Commission renders it into English…";
+    ? "Write here - the Commission renders it into Laphurdi…"
+    : "Skriv hier - the Commission renders it into English…";
   chips.innerHTML = "";
   for (const ex of EXAMPLES[direction]) {
     const b = document.createElement("button");

@@ -4,7 +4,7 @@ export const order: Lesson = {
   slug: "order",
   titleLp: "Idag Stemmar Vi",
   titleEn: "Word order",
-  tagline: "The verb comes second — whatever comes first.",
+  tagline: "The verb comes second - whatever comes first.",
   intro: [
     `Laphurdi main clauses follow the <strong>V2 rule</strong>, inherited from
      Dutch and Swedish: the verb is the second element of the sentence, no
@@ -15,14 +15,14 @@ export const order: Lesson = {
     {
       heading: "Verb second, always second",
       body: [
-        `Start with the subject or start with the time — the verb holds
+        `Start with the subject or start with the time - the verb holds
          position two either way. English speakers: resist the urge to write
          <em>Idag vi stemmar</em>. The verb must slide forward:`,
       ],
       examples: [
         { lp: "Vi stemmar idag.", en: "We vote today." },
-        { lp: "Idag stemmar vi.", en: "Today we vote — verb still second!" },
-        { lp: "In staden werkar hon.", en: "In the city, she works.", note: "a whole phrase can be the first element — the verb still comes next" },
+        { lp: "Idag stemmar vi.", en: "Today we vote - verb still second!" },
+        { lp: "In staden werkar hon.", en: "In the city, she works.", note: "a whole phrase can be the first element - the verb still comes next" },
       ],
     },
     {
@@ -40,7 +40,7 @@ export const order: Lesson = {
       heading: "Asking: verb first",
       body: [
         `Yes/no questions put the verb first. Question-word questions put the
-         question word first — and then, faithful to V2, the verb comes second:`,
+         question word first - and then, faithful to V2, the verb comes second:`,
       ],
       table: {
         caption: "the six question words",
@@ -65,11 +65,11 @@ export const order: Lesson = {
     {
       heading: "That: the relativizer dat",
       body: [
-        `Relative clauses hang on <i lang="lp">dat</i> — one word for who,
+        `Relative clauses hang on <i lang="lp">dat</i> - one word for who,
          which, and that:`,
       ],
       examples: [
-        { lp: "pojken dat druknade", en: "the boy that drowned — the grammar book's own grim example" },
+        { lp: "pojken dat druknade", en: "the boy that drowned - the grammar book's own grim example" },
         { lp: "staden dat vi lievar", en: "the city that we love" },
       ],
     },
@@ -101,7 +101,7 @@ export const order: Lesson = {
       prompt: `Where does <i lang="lp">nit</i> go?`,
       options: ["After the verb", "Before the verb", "At the end of the sentence", "Anywhere"],
       answer: 0,
-      explain: `<i lang="lp">Ik sprekar nit Fransk</i> — verb, then nit.`,
+      explain: `<i lang="lp">Ik sprekar nit Fransk</i> - verb, then nit.`,
     },
     {
       type: "type",
@@ -115,19 +115,19 @@ export const order: Lesson = {
       prompt: `<i lang="lp">Waar er staden?</i> asks…`,
       options: ["Where the city is", "What the city is called", "When the city was built", "Whether the city is big"],
       answer: 0,
-      explain: `<i lang="lp">waar</i> = where — and note the verb <i lang="lp">er</i> sitting obediently in second position.`,
+      explain: `<i lang="lp">waar</i> = where - and note the verb <i lang="lp">er</i> sitting obediently in second position.`,
     },
     {
       type: "choice",
       prompt: `Which question word means <strong>“why”</strong>?`,
       options: ["warfor", "waar", "wen", "hoe"],
       answer: 0,
-      explain: `<i lang="lp">warfor</i> — literally “what-for”, a very Germanic move.`,
+      explain: `<i lang="lp">warfor</i> - literally “what-for”, a very Germanic move.`,
       lpOptions: true,
     },
     {
       type: "choice",
-      prompt: `<i lang="lp">pojken dat druknade</i> — what does <i lang="lp">dat</i> do here?`,
+      prompt: `<i lang="lp">pojken dat druknade</i> - what does <i lang="lp">dat</i> do here?`,
       options: [
         "It introduces a relative clause: “the boy that drowned”",
         "It is the neuter article",
@@ -135,20 +135,20 @@ export const order: Lesson = {
         "It marks a question",
       ],
       answer: 0,
-      explain: `One relativizer for everything: who, which, that — all <i lang="lp">dat</i>.`,
+      explain: `One relativizer for everything: who, which, that - all <i lang="lp">dat</i>.`,
     },
     {
       type: "type",
       prompt: `Translate: <strong>“I don't speak French.”</strong>`,
       accept: ["ik sprekar nit fransk"],
-      explain: `<i lang="lp">Ik sprekar nit Fransk</i> — the sentence every polite tourist learns second.`,
+      explain: `<i lang="lp">Ik sprekar nit Fransk</i> - the sentence every polite tourist learns second.`,
       lpAnswer: true,
     },
     {
       type: "choice",
       prompt: `A sentence starts with <i lang="lp">In staden…</i> (“In the city…”). What comes next?`,
       options: [
-        "The verb — a fronted phrase counts as slot one",
+        "The verb - a fronted phrase counts as slot one",
         "The subject, always",
         "nit",
         "A comma, then anything",

@@ -1,5 +1,5 @@
 /* =====================================================================
-   Laphurdeen — tourism landing page
+   Laphurdeen - tourism landing page
    Palette fixed by NATIONAL_SYMBOLS.md: sea blue #003A66, amber #F2A900,
    white #FFFFFF. Everything else is a tint of those three.
    ===================================================================== */
@@ -551,7 +551,7 @@ a {
   grid-template-columns: minmax(17rem, 34rem);
 }
 
-/* Anything that follows a card grid needs air — paragraphs and CTA
+/* Anything that follows a card grid needs air - paragraphs and CTA
    boxes otherwise sit flush against the cards' bottom edge. */
 .card-row + .section-lede,
 .card-row + .translator-cta {
@@ -573,7 +573,7 @@ a {
 }
 
 /* Linked card titles (the atlas, the Darlingmoors card): the city-link
-   idiom — amber underline, no default underline noise. */
+   idiom - amber underline, no default underline noise. */
 .card h3 a {
   color: inherit;
   text-decoration: none;
@@ -809,7 +809,7 @@ a {
 }
 
 /* The Laphurdi column leads in both editions: unmarked on the lp pages
-   (the page is lang="lp"), lang-tagged on the English ones — so target
+   (the page is lang="lp"), lang-tagged on the English ones - so target
    the column, not the (long-dead "lph") lang attribute. */
 .phrasebook td:first-child {
   font-family: var(--font-mono);

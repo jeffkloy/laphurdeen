@@ -1,9 +1,9 @@
-# Laphurdikursen — the Laphurdi Course
+# Laphurdikursen - the Laphurdi Course
 
 An interactive course in Laphurdi, the national language of the Commonwealth
 of Laphurdeen: **eleven lessons, eleven quizzes** (*provet*), from
 *Hallej!* to reading the Preamble of the Grundlojen. Published, in-world, by
-Sprakkommisjonen — the Language Commission.
+Sprakkommisjonen - the Language Commission.
 
 Design spec: `docs/superpowers/specs/2026-07-05-laphurdi-course-design.md`.
 
@@ -17,11 +17,11 @@ npm run build     # tsc + vite → dist/
 ```
 
 Deployed under `/laphurdi/` in the shared GitHub Pages artifact
-(`.github/workflows/deploy-pages.yml` — the repo's single Pages workflow).
+(`.github/workflows/deploy-pages.yml` - the repo's single Pages workflow).
 
 ## How it is built
 
-- Vite + vanilla TypeScript, no runtime dependencies — same formula as
+- Vite + vanilla TypeScript, no runtime dependencies - same formula as
   `apps/landing-page` and `apps/translator`.
 - Hash-routed SPA: `#/` (course home) and `#/leksjon/<slug>`.
 - Lessons live in `src/lessons/*.ts` as typed data (`src/types.ts`);
@@ -32,8 +32,8 @@ Deployed under `/laphurdi/` in the shared GitHub Pages artifact
 ## The canon gate
 
 `src/test/audit.test.ts` parses the repo-root `LEXICON.tsv` and verifies that
-**every Laphurdi token the course presents as true** — titles, examples,
-tables, vocabulary, quiz answers, and `lang="lp"` fragments inside prose — is
+**every Laphurdi token the course presents as true** - titles, examples,
+tables, vocabulary, quiz answers, and `lang="lp"` fragments inside prose - is
 a lexicon headword, a listed irregular form, a regular inflection per
 LAPHURDI.md §3, a whitelisted proper name, or a head-final compound of
 justified parts. Deliberately-wrong quiz distractors are exempt (they are

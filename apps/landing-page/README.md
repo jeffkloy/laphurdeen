@@ -1,4 +1,4 @@
-# Velkom te Laphurdeen — Landing Page
+# Velkom te Laphurdeen - Landing Page
 
 The tourism landing page of the Commonwealth of Laphurdeen. It markets the
 country through its Constitution: the consensus democracy with no president,
@@ -7,8 +7,8 @@ feels (tax-inclusive prices, fare-capped transport, the pegged krona).
 
 Bilingual, as Article 4 demands: the Laphurdi edition serves at `/`
 (`index.html`, language code `lp`), English at `/en/`. Every fact traces to
-canon — `CONSTITUTION.md`, `GRUNDLOJEN.md`, `NATIONAL_SYMBOLS.md`,
-`LAPHURDI.md`, `PROVINCES.md`, `TRANSPORT.md`, `DARCAMBRIA.md` — and every
+canon - `CONSTITUTION.md`, `GRUNDLOJEN.md`, `NATIONAL_SYMBOLS.md`,
+`LAPHURDI.md`, `PROVINCES.md`, `TRANSPORT.md`, `DARCAMBRIA.md` - and every
 Laphurdi token is either attested in `LEXICON.tsv`, quoted verbatim from
 GRUNDLOJEN, or was added to the lexicon through the normal §3b
 word-building process (see the traveller's words: *lerna, besoka, resare,

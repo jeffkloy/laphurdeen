@@ -1,5 +1,5 @@
 /* =====================================================================
-   Laphurdikursen — the Laphurdi course
+   Laphurdikursen - the Laphurdi course
    Palette fixed by NATIONAL_SYMBOLS.md: sea blue #003A66, amber #F2A900,
    white #FFFFFF. Everything else is a tint of those three. The look is
    the Language Commission's workbook: editorial serif headings, document
@@ -62,7 +62,7 @@ button {
   font: inherit;
 }
 
-/* Laphurdi text is the course's protagonist — give it the serif voice. */
+/* Laphurdi text is the course's protagonist - give it the serif voice. */
 [lang="lp"] {
   font-family: var(--font-display);
   font-style: normal;
@@ -321,7 +321,7 @@ em[lang="lp"] {
   padding-bottom: 0.35rem;
 }
 
-/* tables — the Working Reference look */
+/* tables - the Working Reference look */
 
 .table-wrap {
   overflow-x: auto;

@@ -1,7 +1,7 @@
 /** The translation engine: English ⇄ Laphurdi.
  *
  *  Rule-based, per-sentence: dictionary lookup via LEXICON.tsv plus the
- *  grammar of LAPHURDI.md — suffixed definite articles, tense-only verbs,
+ *  grammar of LAPHURDI.md - suffixed definite articles, tense-only verbs,
  *  V2 word order, nit-negation, and English do-support at the border.
  */
 import { glossBases, Lexicon, primaryGloss, type Entry, type Pos } from "./lexicon";
@@ -100,7 +100,7 @@ function joinTokens(tokens: TokenResult[]): string {
 }
 
 // ---------------------------------------------------------------------------
-// Closed-class tables (LAPHURDI.md §3) — structure the flat lexicon can't hold.
+// Closed-class tables (LAPHURDI.md §3) - structure the flat lexicon can't hold.
 // ---------------------------------------------------------------------------
 
 const EN_TO_LA_PRONOUN: Record<string, { subj?: string; obj?: string; poss?: string }> = {
@@ -426,7 +426,7 @@ export class Translator {
           rendered.push({
             source: "dank du", output: "thank you", lemma: "dank", pos: "interj",
             tags: ["FOSSIL"],
-            note: "the fossil greeting — regular syntax would give “dank dij”",
+            note: "the fossil greeting - regular syntax would give “dank dij”",
           });
           continue;
         }
@@ -457,7 +457,7 @@ export class Translator {
           const nextIdx = wordAt(i + 1);
           const next = nextIdx >= 0 ? items[nextIdx] : undefined;
           if (["den", "det"].includes(entry.word) && next?.finite) {
-            result.output = "it"; // det regnar — "it rains"
+            result.output = "it"; // det regnar - "it rains"
           } else if (entry.word === "et") {
             result.output = "a";
           } else {
@@ -585,7 +585,7 @@ export class Translator {
     if (!e) return "3sg";
     if (e.word === "ik") return "1sg";
     if (["han", "hon", "den", "det"].includes(e.word)) return "3sg";
-    if (e.pos === "pron") return "pl"; // du, vi, ju, dei, hen — all take base form
+    if (e.pos === "pron") return "pl"; // du, vi, ju, dei, hen - all take base form
     if (e.pos === "n") {
       const gloss = primaryGloss(e).split(" ").pop()!;
       if (subj?.analysis?.noun?.plural || EN_PLURAL_GLOSSES.has(gloss)) return "pl";
@@ -645,7 +645,7 @@ export class Translator {
     if (tense === "pres") return person === "3sg" ? enPres3(base) : base;
     if (tense === "past") return enPast(base);
     if (tense === "perf") return enParticiple(base);
-    return base; // infinitive — "te bygga" reads "to build"
+    return base; // infinitive - "te bygga" reads "to build"
   }
 
   // =========================================================================
@@ -715,7 +715,7 @@ export class Translator {
         push({
           source: "thank you", output: "dank du", lemma: "dank", pos: "interj",
           tags: ["FOSSIL"],
-          note: "the fossil greeting — regular syntax would give “dank dij”",
+          note: "the fossil greeting - regular syntax would give “dank dij”",
         });
         i += 2;
         continue;
@@ -870,7 +870,7 @@ export class Translator {
           source: t.text,
           output: w === "the" ? "den" : "en",
           pos: "det", tags: ["GUESS"],
-          note: "unknown noun — gender guessed as common",
+          note: "unknown noun - gender guessed as common",
         });
         i++;
         continue;
@@ -1029,7 +1029,7 @@ export class Translator {
       };
       this.attachDoubletNote(tok, np.entry);
       // Compound tokens span several source words, so a single pick key
-      // wouldn't round-trip — offer alternatives on simple heads only.
+      // wouldn't round-trip - offer alternatives on simple heads only.
       if (!compound && np.pick) this.attachAlternatives(tok, np.pick);
       return tok;
     };
@@ -1124,7 +1124,7 @@ export class Translator {
         .map((s) => this.pickEn(w, s, "n")).find(Boolean);
       const nounPick = directPick ?? pluralPick;
       const noun = nounPick?.entry;
-      // A following noun continues the NP as a compound — unless it could
+      // A following noun continues the NP as a compound - unless it could
       // just as well be the sentence's verb ("the people vote").
       const nextIsNoun = k + 1 < toks.length && toks[k + 1].isWord &&
         !this.lexicon.fromEnglish(low[k + 1], "v") && (
@@ -1139,7 +1139,7 @@ export class Translator {
         };
       }
       if (noun && nextIsNoun) {
-        // noun modifier — becomes the left half of a compound
+        // noun modifier - becomes the left half of a compound
         nounMods.push(noun);
         sourceWords.push(toks[k].text.toLowerCase());
         k++;

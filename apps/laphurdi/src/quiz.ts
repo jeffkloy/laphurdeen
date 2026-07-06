@@ -1,4 +1,4 @@
-/** Provet — the quiz engine. Pure logic here; DOM wiring in render.ts. */
+/** Provet - the quiz engine. Pure logic here; DOM wiring in render.ts. */
 
 import type { Question } from "./types";
 
@@ -44,7 +44,7 @@ export class QuizRun {
   }
 
   /** Submit an answer for the current question. Returns whether it was right.
-   *  Ignored (returns last result) if already answered — no double scoring. */
+   *  Ignored (returns last result) if already answered - no double scoring. */
   submit(answer: number | string): boolean {
     if (this.finished || this.answered) return this.lastCorrect;
     this.lastCorrect = checkAnswer(this.current, answer);

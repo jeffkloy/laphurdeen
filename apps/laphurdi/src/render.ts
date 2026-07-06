@@ -1,5 +1,5 @@
 /** DOM rendering: shell, course home, lesson pages, and the quiz flow.
- *  All HTML injected here is authored in this repo (src/lessons/) — there is
+ *  All HTML injected here is authored in this repo (src/lessons/) - there is
  *  no user-generated content anywhere in the app. */
 
 import type { Example, Lesson, Section, Table } from "./types";
@@ -35,8 +35,8 @@ export function renderShell(root: HTMLElement): HTMLElement {
     <main id="view" tabindex="-1"></main>
     <footer class="site-footer">
       <p class="f-motto">Frihed · Velvard · Konsens</p>
-      <p class="f-line">Samveldet Laphurdeen · Sprakkommisjonen — the Language Commission · built on LAPHURDI.md &amp; LEXICON.tsv</p>
-      <p class="f-line">Standard Laphurdi, First Spelling Reform — proper names keep their heritage spellings.</p>
+      <p class="f-line">Samveldet Laphurdeen · Sprakkommisjonen - the Language Commission · built on LAPHURDI.md &amp; LEXICON.tsv</p>
+      <p class="f-line">Standard Laphurdi, First Spelling Reform - proper names keep their heritage spellings.</p>
     </footer>`;
   return root.querySelector<HTMLElement>("#view")!;
 }
@@ -51,10 +51,10 @@ export function renderHome(view: HTMLElement, lessons: Lesson[]): void {
     .map((l, i) => {
       const p = progress[l.slug];
       const status = !p
-        ? `<span class="card-status">Provet ventar <span class="gloss">— not yet taken</span></span>`
+        ? `<span class="card-status">Provet ventar <span class="gloss">- not yet taken</span></span>`
         : isPassed(p)
           ? `<span class="card-status is-passed">${STAR} ${percent(p)} % · Goed doat!</span>`
-          : `<span class="card-status is-started">Best ${percent(p)} % — prova igen</span>`;
+          : `<span class="card-status is-started">Best ${percent(p)} % - prova igen</span>`;
       return `
       <li class="lesson-card${isPassed(p) ? " lesson-card-passed" : ""}">
         <a href="#/leksjon/${l.slug}">
@@ -76,16 +76,16 @@ export function renderHome(view: HTMLElement, lessons: Lesson[]): void {
       <p class="eyebrow">Samveldet Laphurdeen · The Language Commission</p>
       <h1>Velkom te <span class="amber">Laphurdikursen</span></h1>
       <p class="hero-lede">
-        Learn <strong>Laphurdi</strong>, the national language of the Commonwealth —
+        Learn <strong>Laphurdi</strong>, the national language of the Commonwealth -
         a Germanic language wearing a French coat. Eleven lessons take you from
         <i lang="lp">Hallej!</i> to reading the Preamble of the
         <i lang="lp">Grundlojen</i> itself. Each lesson ends with
-        <i lang="lp">provet</i> — the quiz. ${PASS_PERCENT}&nbsp;% passes.
+        <i lang="lp">provet</i> - the quiz. ${PASS_PERCENT}&nbsp;% passes.
       </p>
       <p class="hero-progress">${
         passed === 0
-          ? "No quizzes passed yet — start with Leksjon 1."
-          : `${passed} of ${lessons.length} quizzes passed${passed === lessons.length ? ` — ${STAR} every star earned. Goed doat!` : ""}`
+          ? "No quizzes passed yet - start with Leksjon 1."
+          : `${passed} of ${lessons.length} quizzes passed${passed === lessons.length ? ` - ${STAR} every star earned. Goed doat!` : ""}`
       }</p>
     </section>
     <ol class="lesson-list">${cards}</ol>`;
@@ -145,7 +145,7 @@ export function renderLesson(view: HTMLElement, lessons: Lesson[], slug: string)
 
   view.innerHTML = `
     <article class="lesson">
-      <nav class="crumbs"><a href="#/">← Alle leksjoner <span class="gloss">— all lessons</span></a></nav>
+      <nav class="crumbs"><a href="#/">← Alle leksjoner <span class="gloss">- all lessons</span></a></nav>
       <header class="lesson-header">
         <p class="eyebrow">Leksjon ${idx + 1} av ${lessons.length}</p>
         <h1 lang="lp">${lesson.titleLp}</h1>
@@ -154,7 +154,7 @@ export function renderLesson(view: HTMLElement, lessons: Lesson[], slug: string)
       ${lesson.intro.map((p) => `<p class="lesson-intro">${p}</p>`).join("")}
       ${lesson.sections.map(renderSection).join("")}
       <section class="lesson-section vocab">
-        <h2>Orderen <span class="gloss">— the words</span></h2>
+        <h2>Orderen <span class="gloss">- the words</span></h2>
         <dl class="vocab-list">
           ${lesson.vocab
             .map(
@@ -167,7 +167,7 @@ export function renderLesson(view: HTMLElement, lessons: Lesson[], slug: string)
         </dl>
       </section>
       <section class="lesson-section quiz" id="quiz">
-        <h2>Provet <span class="gloss">— the quiz</span></h2>
+        <h2>Provet <span class="gloss">- the quiz</span></h2>
         <div class="quiz-host"></div>
       </section>
       ${
@@ -191,10 +191,10 @@ function mountQuiz(host: HTMLElement, lesson: Lesson, next: Lesson | undefined):
   const p = loadProgress()[lesson.slug];
   host.innerHTML = `
     <div class="quiz-start">
-      <p>${lesson.quiz.length} kwestioner <span class="gloss">— ${lesson.quiz.length} questions</span>.
+      <p>${lesson.quiz.length} kwestioner <span class="gloss">- ${lesson.quiz.length} questions</span>.
       Pass at ${PASS_PERCENT} % to earn the star.
       ${p ? `Your best so far: <strong>${percent(p)} %</strong>${isPassed(p) ? ` ${STAR}` : ""}.` : ""}</p>
-      <button class="btn btn-navy" type="button">Beginna provet <span class="gloss-btn">— begin the quiz</span></button>
+      <button class="btn btn-navy" type="button">Beginna provet <span class="gloss-btn">- begin the quiz</span></button>
     </div>`;
   host.querySelector("button")!.addEventListener("click", start);
 }
@@ -232,7 +232,7 @@ function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Les
           : `<form class="quiz-typed">
               <input type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
                 ${q.lpAnswer ? `lang="lp"` : ""} placeholder="${esc(q.placeholder ?? "Skriv hier …")}" aria-label="Your answer" />
-              <button class="btn btn-navy" type="submit">Svara <span class="gloss-btn">— answer</span></button>
+              <button class="btn btn-navy" type="submit">Svara <span class="gloss-btn">- answer</span></button>
             </form>`
       }
       <div class="quiz-feedback" role="status"></div>
@@ -248,7 +248,7 @@ function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Les
     feedback.innerHTML = `
       <p class="fb-verdict ${right ? "is-rett" : "is-fel"}">
         ${right ? "✓ Rett!" : "✕ Fel."}
-        <span class="gloss">${right ? "— correct" : "— not quite"}</span>
+        <span class="gloss">${right ? "- correct" : "- not quite"}</span>
       </p>
       ${right ? "" : `<p class="fb-line">The answer: ${answerLine}</p>`}
       <p class="fb-explain">${q.explain}</p>
@@ -298,15 +298,15 @@ function showSummary(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Less
 
   host.innerHTML = `
     <div class="quiz-summary ${passed ? "is-passed" : ""}">
-      ${passed ? `<p class="summary-stamp">${STAR} Goed doat! <span class="gloss">— well done</span></p>` : ""}
-      <p class="summary-score"><strong>${run.correct}</strong> av ${total} rett — ${pct} %</p>
+      ${passed ? `<p class="summary-stamp">${STAR} Goed doat! <span class="gloss">- well done</span></p>` : ""}
+      <p class="summary-score"><strong>${run.correct}</strong> av ${total} rett - ${pct} %</p>
       <p class="summary-line">${
         passed
           ? "The Language Commission is satisfied. The star is yours."
-          : `You need ${PASS_PERCENT} % for the star. Read the lesson once more — then prova igen.`
+          : `You need ${PASS_PERCENT} % for the star. Read the lesson once more - then prova igen.`
       }</p>
       <div class="summary-actions">
-        <button class="btn ${passed ? "btn-ghost" : "btn-navy"}" type="button">Prova igen <span class="gloss-btn">— try again</span></button>
+        <button class="btn ${passed ? "btn-ghost" : "btn-navy"}" type="button">Prova igen <span class="gloss-btn">- try again</span></button>
         ${
           passed && next
             ? `<a class="btn btn-amber" href="#/leksjon/${next.slug}">Neste leksjon →</a>`

@@ -39,7 +39,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Velkom te Laphurdeen — the tourism landing page of the Commonwealth",
+  "description": "Velkom te Laphurdeen - the tourism landing page of the Commonwealth",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -54,7 +54,7 @@
 
 - [ ] **Step 2: Copy `tsconfig.json` from the translator** (same compiler options; drop vitest types if present).
 
-- [ ] **Step 3: Write `vite.config.ts`** — `base: "./"`, no server.fs allowlist (landing page reads no repo-root files):
+- [ ] **Step 3: Write `vite.config.ts`** - `base: "./"`, no server.fs allowlist (landing page reads no repo-root files):
 
 ```ts
 import { defineConfig } from "vite";
@@ -68,11 +68,11 @@ export default defineConfig({
 
 - [ ] **Step 4: Write `.gitignore`** (`node_modules/`, `dist/`) and a short `README.md` (what it is, dev/build commands, deploy note).
 
-- [ ] **Step 5: `npm install` in `apps/landing-page`** — generates `package-lock.json` (required by CI's `npm ci`).
+- [ ] **Step 5: `npm install` in `apps/landing-page`** - generates `package-lock.json` (required by CI's `npm ci`).
 
-- [ ] **Step 6: Commit** — `feat(landing-page): scaffold Vite app`.
+- [ ] **Step 6: Commit** - `feat(landing-page): scaffold Vite app`.
 
-### Task 2: Page content — `index.html`, `src/style.css`, `src/main.ts`
+### Task 2: Page content - `index.html`, `src/style.css`, `src/main.ts`
 
 **Files:**
 - Create: `apps/landing-page/index.html`
@@ -88,8 +88,8 @@ export default defineConfig({
   1. Header/nav: flag mark + LAPHURDEEN, links to #anchorage #governance #values #travellers #language.
   2. Hero: motto `Frihed, Velvard, Konsens`, tagline on the no-single-ruler premise (Art 1(2)), CTAs → #governance, #language. Amber-arc landscape motif (decorative SVG, `aria-hidden`).
   3. `#anchorage`: founding story (Preamble; "bound by choice rather than by blood"), etymology "The Anchorage" (LAPHURDI.md §7), city cards for Lapentieur and Darcambria with their etymologies.
-  4. `#governance`: stat cards (0 presidents — Art 1(2); 66 % Consensus Rule — Art 20; 12 ministries — Art 24; 2 chambers, all directly elected — Art 17); prose on Senators-as-Lead-Ministers (Art 18), Speaker as ceremonial head of state (Art 27), no veto (Art 22), Integrity Commission (Art 32); flag SVG to construction spec with caption; motto/anthem note (Art 5).
-  5. `#values`: three pillar cards (Frihed/Velvard/Konsens); Charter grid: dignity & equality (Art 6), expression & press (Art 7), privacy — no mass surveillance (Art 9), universal healthcare (Art 10), tertiary tuition ≤ 4 % median income (Art 11), Laphurdeen Guarantee (Art 13), justice — death penalty abolished forever (Art 15), conscience (Art 8).
+  4. `#governance`: stat cards (0 presidents - Art 1(2); 66 % Consensus Rule - Art 20; 12 ministries - Art 24; 2 chambers, all directly elected - Art 17); prose on Senators-as-Lead-Ministers (Art 18), Speaker as ceremonial head of state (Art 27), no veto (Art 22), Integrity Commission (Art 32); flag SVG to construction spec with caption; motto/anthem note (Art 5).
+  5. `#values`: three pillar cards (Frihed/Velvard/Konsens); Charter grid: dignity & equality (Art 6), expression & press (Art 7), privacy - no mass surveillance (Art 9), universal healthcare (Art 10), tertiary tuition ≤ 4 % median income (Art 11), Laphurdeen Guarantee (Art 13), justice - death penalty abolished forever (Art 15), conscience (Art 8).
   6. `#travellers`: tax-inclusive displayed prices (Art 35(4)); fare-capped accessible transport (Art 14); Kr. 100 = US$ 1 peg (Art 38); official languages (Art 4).
   7. `#language`: phrasebook table strictly from LAPHURDI.md §6 (Hallej!; Goed morgen / Goed natt; Velkom te Laphurdeen!; Dank du. / Mersi!; Asjeblie; Adjuu!; Sprekar du Laphurdi?; Ik sprekar en liten Laphurdi.; Waar er staden?); Preamble first line in Laphurdi as pull quote (LAPHURDI.md §6); CTA link `href="translator/"` to the Oversettaren.
   8. Footer: motto, "Done at Lapentieur, for the people of Laphurdeen.", GitHub repo link.
@@ -98,13 +98,13 @@ export default defineConfig({
 
   Favicon: same data-URI flag SVG as the translator's.
 
-- [ ] **Step 2: Write `src/style.css`** — national palette as custom properties; Fraunces for display, Instrument Sans for body; light parchment/white background with sea-blue and amber accents; responsive (single column < 720 px); `.reveal` transition driven by `[data-reveal]`/`.revealed`; `prefers-reduced-motion` disables it.
+- [ ] **Step 2: Write `src/style.css`** - national palette as custom properties; Fraunces for display, Instrument Sans for body; light parchment/white background with sea-blue and amber accents; responsive (single column < 720 px); `.reveal` transition driven by `[data-reveal]`/`.revealed`; `prefers-reduced-motion` disables it.
 
-- [ ] **Step 3: Write `src/main.ts`** — imports the CSS; IntersectionObserver adding `.revealed`; mobile nav toggle with `aria-expanded`; no other behaviour.
+- [ ] **Step 3: Write `src/main.ts`** - imports the CSS; IntersectionObserver adding `.revealed`; mobile nav toggle with `aria-expanded`; no other behaviour.
 
-- [ ] **Step 4: Verify** — `npm run build` passes; open `vite preview`, check the page renders and reads correctly with JS disabled (content must not depend on `main.ts`).
+- [ ] **Step 4: Verify** - `npm run build` passes; open `vite preview`, check the page renders and reads correctly with JS disabled (content must not depend on `main.ts`).
 
-- [ ] **Step 5: Commit** — `feat(landing-page): tourism landing page content`.
+- [ ] **Step 5: Commit** - `feat(landing-page): tourism landing page content`.
 
 ### Task 3: Combined Pages deployment
 
@@ -114,7 +114,7 @@ export default defineConfig({
 
 **Interfaces:**
 - Consumes: `apps/landing-page/dist`, `apps/translator/dist` (each app's own `npm run build`).
-- Produces: one Pages artifact — landing page at root, translator under `translator/`.
+- Produces: one Pages artifact - landing page at root, translator under `translator/`.
 
 - [ ] **Step 1: Write `.github/workflows/deploy-pages.yml`**
 
@@ -185,6 +185,6 @@ jobs:
 
 - [ ] **Step 2: Delete `deploy-translator.yml`** (its `concurrency: pages` group would race the new workflow and last-wins clobber the site).
 
-- [ ] **Step 3: Sanity-check the assembly locally** — build both apps, run the two `cp` commands into a scratch dir, confirm `index.html` at root and `translator/index.html` both exist.
+- [ ] **Step 3: Sanity-check the assembly locally** - build both apps, run the two `cp` commands into a scratch dir, confirm `index.html` at root and `translator/index.html` both exist.
 
-- [ ] **Step 4: Commit** — `ci: one Pages deploy — landing page at root, translator at /translator/`.
+- [ ] **Step 4: Commit** - `ci: one Pages deploy - landing page at root, translator at /translator/`.

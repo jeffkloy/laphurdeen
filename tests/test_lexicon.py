@@ -112,7 +112,7 @@ class BuildTests(unittest.TestCase):
         self.assertIn("## world-nature", out)
         self.assertIn("## Alphabetical index", out)
         self.assertIn("| **frihed** | n (c) | freedom |  | fri + -hed |", out)
-        self.assertIn("**3 words** — 2 roots, 1 derived.", out)
+        self.assertIn("**3 words** - 2 roots, 1 derived.", out)
 
     def test_build_deterministic(self):
         self.assertEqual(lexicon.build(self.rows()), lexicon.build(self.rows()))

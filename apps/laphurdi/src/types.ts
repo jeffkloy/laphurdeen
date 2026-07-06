@@ -26,7 +26,7 @@ export interface Table {
 }
 
 /** One teaching section: heading, paragraphs (trusted HTML authored in this
- *  repo — never user input), optionally a table and example sentences. */
+ *  repo - never user input), optionally a table and example sentences. */
 export interface Section {
   heading: string;
   body: string[];

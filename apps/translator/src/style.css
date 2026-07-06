@@ -1,5 +1,5 @@
 /* ==========================================================================
-   OVERSETTAREN — an instrument of the Language Commission
+   OVERSETTAREN - an instrument of the Language Commission
    Palette: the flag of Laphurdeen (NATIONAL_SYMBOLS.md)
      sea blue #003A66 · amber #F2A900 · star white
    ========================================================================== */
@@ -58,7 +58,7 @@ body::after {
 }
 
 /* --------------------------------------------------------------------------
-   Masthead — the flag field, the arc, the star
+   Masthead - the flag field, the arc, the star
    -------------------------------------------------------------------------- */
 
 .masthead {
@@ -140,7 +140,7 @@ body::after {
 }
 
 /* --------------------------------------------------------------------------
-   The instrument — a paper document laid on the field
+   The instrument - a paper document laid on the field
    -------------------------------------------------------------------------- */
 
 .instrument {
@@ -278,7 +278,7 @@ body::after {
 }
 
 .pane .output:empty::before {
-  content: "—";
+  content: "-";
   color: var(--ink-faint);
 }
 
@@ -370,7 +370,7 @@ body::after {
 }
 
 /* --------------------------------------------------------------------------
-   Gloss breakdown — the philologist's line
+   Gloss breakdown - the philologist's line
    -------------------------------------------------------------------------- */
 
 .breakdown {

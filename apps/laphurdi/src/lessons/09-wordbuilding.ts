@@ -6,7 +6,7 @@ export const wordbuilding: Lesson = {
   titleEn: "Word-building",
   tagline: "The Reform fixed the machinery: a dozen affixes and head-final compounds build the whole lexicon.",
   intro: [
-    `The First Spelling Reform fixed more than spellings — it fixed the
+    `The First Spelling Reform fixed more than spellings - it fixed the
      <strong>machinery for making words</strong>. Every one of the lexicon's
      two thousand entries is built with the pieces on this page. Learn the
      affixes and you can often guess a word you have never seen.`,
@@ -26,25 +26,25 @@ export const wordbuilding: Lesson = {
           ["-ing", "action noun", "bygga", "bygging", "construction"],
           ["-eri", "place of craft (neuter)", "baka", "bakeri", "bakery"],
           ["-ig", "adjective from noun", "smuts", "smutsig", "dirty"],
-          ["-isk", "learned adjective", "—", "politisk", "political"],
+          ["-isk", "learned adjective", "-", "politisk", "political"],
           ["o-", "negation", "skyldig", "oskyldig", "innocent"],
           ["-a", "verb from noun", "fisk", "fiska", "to fish"],
           ["-je", "diminutive (neuter)", "hus", "husje", "little house"],
-          ["-er", "inhabitant", "—", "Laphurdeener", "a Laphurdeener"],
+          ["-er", "inhabitant", "-", "Laphurdeener", "a Laphurdeener"],
         ],
       },
     },
     {
       heading: "Compounds: the head comes last",
       body: [
-        `Two nouns snap together with the meaning-carrying head at the end —
+        `Two nouns snap together with the meaning-carrying head at the end -
          and some take a linking <i lang="lp">-s-</i>:`,
       ],
       examples: [
         { lp: "dom + stol → domstol", en: "judgment + chair → court" },
         { lp: "flyga + hamn → flyghamn", en: "fly + harbour → airport" },
-        { lp: "stad + s + hus → stadshus", en: "city hall — with the linking -s-" },
-        { lp: "folk + s + kamer → Folkskameren", en: "the People's Chamber — the Commons itself is built this way" },
+        { lp: "stad + s + hus → stadshus", en: "city hall - with the linking -s-" },
+        { lp: "folk + s + kamer → Folkskameren", en: "the People's Chamber - the Commons itself is built this way" },
         { lp: "Laphurdi + kurs → Laphurdikursen", en: "…and so is the name of this course." },
       ],
     },
@@ -86,7 +86,7 @@ export const wordbuilding: Lesson = {
       prompt: `<strong>“Happiness”</strong>, from <i lang="lp">blij</i>, is…`,
       options: ["blijhed", "blijskap", "blijing", "blijeri"],
       answer: 0,
-      explain: `Adjective + <i lang="lp">-hed</i> = abstract noun: <i lang="lp">blijhed</i> — same build as <i lang="lp">frihed</i>.`,
+      explain: `Adjective + <i lang="lp">-hed</i> = abstract noun: <i lang="lp">blijhed</i> - same build as <i lang="lp">frihed</i>.`,
       lpOptions: true,
     },
     {
@@ -94,7 +94,7 @@ export const wordbuilding: Lesson = {
       prompt: `Where does <i lang="lp">baka</i> (to bake) happen professionally?`,
       options: ["bakeri", "bakhus", "bakskap", "baking"],
       answer: 0,
-      explain: `<i lang="lp">-eri</i> marks the place of a craft — bakeri, fiskeri.`,
+      explain: `<i lang="lp">-eri</i> marks the place of a craft - bakeri, fiskeri.`,
       lpOptions: true,
     },
     {
@@ -116,13 +116,13 @@ export const wordbuilding: Lesson = {
       type: "choice",
       prompt: `<i lang="lp">domstol</i> is dom (judgment) + stol (chair). Why does it mean “court” and not “chair-judgment”?`,
       options: [
-        "Compounds are head-final — the last part carries the meaning",
+        "Compounds are head-final - the last part carries the meaning",
         "It is an idiom with no rule",
         "dom is an adjective here",
         "French loans reverse the order",
       ],
       answer: 0,
-      explain: `The head comes last: a domstol is a kind of stol — the seat where judgment sits.`,
+      explain: `The head comes last: a domstol is a kind of stol - the seat where judgment sits.`,
     },
     {
       type: "type",
@@ -141,7 +141,7 @@ export const wordbuilding: Lesson = {
         "It is a heritage spelling with no parts",
       ],
       answer: 0,
-      explain: `A head-final compound wearing the suffixed article — the same anatomy as <i lang="lp">Folkskameren</i>.`,
+      explain: `A head-final compound wearing the suffixed article - the same anatomy as <i lang="lp">Folkskameren</i>.`,
     },
     {
       type: "choice",

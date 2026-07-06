@@ -1,4 +1,4 @@
-# Laphurdikursen — the Laphurdi Course · Design
+# Laphurdikursen - the Laphurdi Course · Design
 
 *2026-07-05 · app: `apps/laphurdi` · deployed at `/laphurdi/`*
 
@@ -6,19 +6,19 @@
 
 An interactive course that teaches Laphurdi to English speakers: eleven lessons
 built from `LAPHURDI.md`, each ending in a quiz (*provet*). Progress is saved in
-the browser. In-world, the course is published by the Language Commission —
+the browser. In-world, the course is published by the Language Commission -
 the same voice as the Working Reference.
 
 Branding: **Laphurdikursen** (head-final compound, *Laphurdi + kurs*, definite
-*-en* — the *Folkskameren* pattern). Instruction language is English (it is a
+*-en* - the *Folkskameren* pattern). Instruction language is English (it is a
 course *for learners*), with Laphurdi surfacing everywhere it can carry its own
 weight: lesson titles, UI labels with English glosses, and all example material.
 
 ## Approaches considered
 
-1. **Hash-routed SPA, lessons as typed TS data — chosen.** One HTML entry;
+1. **Hash-routed SPA, lessons as typed TS data - chosen.** One HTML entry;
    content lives in `src/lessons/*.ts` as structured data, which makes quizzes,
-   progress, and — decisively — *automated canon-auditing of every Laphurdi
+   progress, and - decisively - *automated canon-auditing of every Laphurdi
    token* possible. Matches the translator's app-like pattern.
 2. Multi-page static HTML (landing-page style). Pretty, but quizzes need JS
    anyway, the chrome would be duplicated across ~12 pages, and lesson content
@@ -42,11 +42,11 @@ weight: lesson titles, UI labels with English glosses, and all example material.
 | 11 | laphurdeen | Reading Laphurdeen | Lesa Laphurdeen* | §6–7 motto, Preamble, place names, civic vocab |
 
 \* Laphurdi titles are drafted at content-writing time and **must pass the token
-audit** — any title word missing from the lexicon is replaced with an attested
+audit** - any title word missing from the lexicon is replaced with an attested
 phrasing rather than coining new words (no new-word authority in this app).
 
 Each lesson: intro paragraph → 2–5 teaching sections (prose, tables, examples
-with glosses) → vocabulary list (*Orden* — words to know) → quiz.
+with glosses) → vocabulary list (*Orden* - words to know) → quiz.
 
 ## Quiz (Provet)
 
@@ -58,7 +58,7 @@ with glosses) → vocabulary list (*Orden* — words to know) → quiz.
   Retakes always allowed; best score kept.
 - Progress in `localStorage` under `laphurdikursen.v1`:
   `{ [slug]: { best: number, total: number, passedAt?: string } }`.
-  No gating — every lesson is open from the start (konsens, not gatekeeping).
+  No gating - every lesson is open from the start (konsens, not gatekeeping).
 
 ## Architecture
 
@@ -83,7 +83,7 @@ apps/laphurdi/
                         option counts, non-empty accepted answers
     quiz.test.ts        scoring + answer normalization
     audit.test.ts       THE CANON GATE: parses ../../LEXICON.tsv and validates every
-                        Laphurdi token in titles, examples, vocab, and quiz answers —
+                        Laphurdi token in titles, examples, vocab, and quiz answers -
                         accepted if it is a lexicon headword, a listed form, a regular
                         inflection (verb -ar/-ade/-at, noun -en/-et/-er/-eren, adj
                         -er/-est, genitive -s), a proper name, or a numeral compound
@@ -92,17 +92,17 @@ apps/laphurdi/
 Lesson content marks Laphurdi text structurally (e.g. `lp("Goed morgen")` /
 `{ lp, en }` example pairs) rather than inline in English prose, so the audit
 knows exactly which tokens are Laphurdi. English prose may still mention
-Laphurdi words — those are wrapped with the same helper to stay auditable.
+Laphurdi words - those are wrapped with the same helper to stay auditable.
 
 ## Deploy & cross-links
 
-- Extend `.github/workflows/deploy-pages.yml` (the single Pages workflow —
+- Extend `.github/workflows/deploy-pages.yml` (the single Pages workflow -
   never a second one): add `apps/laphurdi/**` to trigger paths and cache;
   `npm ci && npm test && npm run build`; copy `dist` → `_site/laphurdi/`.
 - Landing page: add course links following the translator's pattern on all
-  8 pages (nav + footer) — lp pages: nav `Kursen ↗` / footer `Laphurdikursen`,
+  8 pages (nav + footer) - lp pages: nav `Kursen ↗` / footer `Laphurdikursen`,
   href `laphurdi/` (root pages) or `../laphurdi/` (city pages); en pages the
-  same href with `The Course ↗` / `Laphurdikursen — the Laphurdi course`.
+  same href with `The Course ↗` / `Laphurdikursen - the Laphurdi course`.
   The two home pages also get a `Beginna Kursen ↗` / `Start the Course ↗`
   button in the language section beside the translator's.
 
@@ -123,5 +123,5 @@ Laphurdi words — those are wrapped with the same helper to stay auditable.
 
 - Audio/pronunciation recordings, spaced repetition, server-side anything.
 - New lexicon words (course adapts phrasing to the lexicon, never the reverse).
-- A Laphurdi-medium mirror of the course (the landing page's `/en/` pattern) —
+- A Laphurdi-medium mirror of the course (the landing page's `/en/` pattern) -
   a future session could add `#/lp/` routes once learners exist in-world.

@@ -6,7 +6,7 @@ export const hallej: Lesson = {
   titleEn: "Hello! Your first words",
   tagline: "Greetings, thanks, and the two words no traveller can do without.",
   intro: [
-    `Laphurdi is the national language of the Commonwealth of Laphurdeen — a blend
+    `Laphurdi is the national language of the Commonwealth of Laphurdeen - a blend
      of English, Dutch, Swedish, and French that grew up on the docks of the
      anchorage-bay and was standardised by the First Spelling Reform. You will
      meet the grammar soon enough. First: the words people actually say to you.`,
@@ -15,9 +15,9 @@ export const hallej: Lesson = {
     {
       heading: "Greetings around the clock",
       body: [
-        `The all-purpose greeting is <i lang="lp">Hallej!</i> — it works on the
+        `The all-purpose greeting is <i lang="lp">Hallej!</i> - it works on the
          harbour, in the ministry, and everywhere between. For the time of day,
-         Laphurdi pairs <i lang="lp">goed</i> (good — Dutch spelling, say
+         Laphurdi pairs <i lang="lp">goed</i> (good - Dutch spelling, say
          <em>"good"</em>) with the moment:`,
       ],
       examples: [
@@ -25,22 +25,22 @@ export const hallej: Lesson = {
         { lp: "Goed morgen.", en: "Good morning." },
         { lp: "Goed natt.", en: "Good night." },
         { lp: "Adjuu!", en: "Goodbye!" },
-        { lp: "Velkom te Laphurdeen!", en: "Welcome to Laphurdeen!", note: "te = to — you will use this little word constantly." },
+        { lp: "Velkom te Laphurdeen!", en: "Welcome to Laphurdeen!", note: "te = to - you will use this little word constantly." },
       ],
     },
     {
       heading: "Being polite: two thank-yous",
       body: [
         `Laphurdi keeps two words for <em>thank you</em>, one from each side of its
-         family. <i lang="lp">Mersi!</i> is the everyday thanks — quick, warm,
+         family. <i lang="lp">Mersi!</i> is the everyday thanks - quick, warm,
          French-born. <i lang="lp">Dank du</i> is the formal one, and it hides a
          story: by regular grammar it should be <i lang="lp">dank dij</i> (you will
          learn why in Lesson 6), but the phrase froze before the rules settled.
-         It is Laphurdeen's "methinks" — a fossil everyone still says.`,
+         It is Laphurdeen's "methinks" - a fossil everyone still says.`,
       ],
       examples: [
         { lp: "Mersi!", en: "Thanks! (everyday)" },
-        { lp: "Dank du.", en: "Thank you. (formal — the famous fossil)" },
+        { lp: "Dank du.", en: "Thank you. (formal - the famous fossil)" },
         { lp: "Asjeblie.", en: "Please." },
         { lp: "Ja. / Nej.", en: "Yes. / No." },
       ],
@@ -48,20 +48,20 @@ export const hallej: Lesson = {
     {
       heading: "Your first full sentences",
       body: [
-        `Three sentences worth memorising whole — the grammar inside them
+        `Three sentences worth memorising whole - the grammar inside them
          (verb endings, word order, negation) is exactly what Lessons 4 and 7
          will unpack:`,
       ],
       examples: [
         { lp: "Sprekar du Laphurdi?", en: "Do you speak Laphurdi?" },
         { lp: "Ik sprekar en liten Laphurdi.", en: "I speak a little Laphurdi." },
-        { lp: "Ik sprekar nit Fransk.", en: "I don't speak French.", note: "nit = not — it follows the verb." },
+        { lp: "Ik sprekar nit Fransk.", en: "I don't speak French.", note: "nit = not - it follows the verb." },
       ],
     },
   ],
   vocab: [
     { lp: "hallej", en: "hello" },
-    { lp: "goed", en: "good", note: "say “good” — Dutch oe" },
+    { lp: "goed", en: "good", note: "say “good” - Dutch oe" },
     { lp: "morgen", en: "morning" },
     { lp: "natt", en: "night" },
     { lp: "adjuu", en: "goodbye" },
@@ -103,13 +103,13 @@ export const hallej: Lesson = {
       type: "choice",
       prompt: `<i lang="lp">Dank du</i> breaks a rule of Laphurdi grammar. Why is it allowed?`,
       options: [
-        "It is a fossil — the phrase froze before the pronoun rules settled",
+        "It is a fossil - the phrase froze before the pronoun rules settled",
         "du is always correct after dank",
         "The Language Commission voted to change the grammar",
         "It is a French loan",
       ],
       answer: 0,
-      explain: `Regular syntax would give <i lang="lp">dank dij</i>. The greeting is older than the rule — Laphurdeen's “methinks”.`,
+      explain: `Regular syntax would give <i lang="lp">dank dij</i>. The greeting is older than the rule - Laphurdeen's “methinks”.`,
     },
     {
       type: "choice",
@@ -127,7 +127,7 @@ export const hallej: Lesson = {
       type: "type",
       prompt: `Type the Laphurdi word for <strong>“yes”</strong>.`,
       accept: ["ja"],
-      explain: `<i lang="lp">Ja</i> — though in Darcambria you may hear the dialect's <em>wi</em>, from French oui.`,
+      explain: `<i lang="lp">Ja</i> - though in Darcambria you may hear the dialect's <em>wi</em>, from French oui.`,
       lpAnswer: true,
     },
     {
@@ -140,14 +140,14 @@ export const hallej: Lesson = {
         "Where is Laphurdi spoken?",
       ],
       answer: 0,
-      explain: `Questions put the verb first — <i lang="lp">sprekar du…?</i> Lesson 7 makes this official.`,
+      explain: `Questions put the verb first - <i lang="lp">sprekar du…?</i> Lesson 7 makes this official.`,
     },
     {
       type: "choice",
       prompt: `How would you say <strong>“please”</strong> when asking for directions?`,
       options: ["Asjeblie", "Mersi", "Velkom", "Ja"],
       answer: 0,
-      explain: `<i lang="lp">Asjeblie</i> — straight off the Dutch docks (alsjeblieft), trimmed by the pidgin.`,
+      explain: `<i lang="lp">Asjeblie</i> - straight off the Dutch docks (alsjeblieft), trimmed by the pidgin.`,
       lpOptions: true,
     },
   ],

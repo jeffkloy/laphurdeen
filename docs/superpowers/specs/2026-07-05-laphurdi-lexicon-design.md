@@ -1,4 +1,4 @@
-# Laphurdi Lexicon Expansion — Design
+# Laphurdi Lexicon Expansion - Design
 
 **Date:** 2026-07-05
 **Status:** Approved in discussion; pending spec review
@@ -6,7 +6,7 @@
 
 ## Context
 
-`LAPHURDI.md` v1 defines ~90 words and names the goal (§8): "grow the vocabulary from ~90 words toward a usable core of 1,000." This spec designs that expansion. It also resolves two open questions the expansion forces: the closed list of irregular verbs (§8.2) and the extent of the French high register (§8.4, partially — register *in the lexicon*; courtroom/menu *usage conventions* remain open).
+`LAPHURDI.md` v1 defines ~90 words and names the goal (§8): "grow the vocabulary from ~90 words toward a usable core of 1,000." This spec designs that expansion. It also resolves two open questions the expansion forces: the closed list of irregular verbs (§8.2) and the extent of the French high register (§8.4, partially - register *in the lexicon*; courtroom/menu *usage conventions* remain open).
 
 ## Decisions
 
@@ -14,8 +14,8 @@
 |---|---|
 | Target size | **Full 1,000-word core in this expansion** |
 | Storage | **`LEXICON.tsv` as source of truth** + `tools/lexicon.py` (check/build) + generated `LEXICON.md` |
-| French register | **Broad**: law, courts, government, cuisine/menus, academia, fine arts, diplomacy, fashion, finance, medicine-as-profession — plus **~40 everyday/high doublets** (cow/beef pattern) |
-| Irregular verbs | **Closed list of 16** (table below — 10 by design, 6 forced by v1 canon); everything else regular forever |
+| French register | **Broad**: law, courts, government, cuisine/menus, academia, fine arts, diplomacy, fashion, finance, medicine-as-profession - plus **~40 everyday/high doublets** (cow/beef pattern) |
+| Irregular verbs | **Closed list of 16** (table below - 10 by design, 6 forced by v1 canon); everything else regular forever |
 | Method | **Morphology-first hybrid**: codify derivation rulebook → coin ~600 roots by domain → derive ~400 by rule → validate coverage against Swadesh-207 + the plan's per-domain concept checklists |
 
 ## 1. Word-Building Rulebook
@@ -27,16 +27,16 @@ This becomes a new "Word-Building" section in `LAPHURDI.md` and governs every le
 | Rule | Affix | Anchor | Examples |
 |---|---|---|---|
 | adjective → abstract noun (common gender) | -hed | *frihed* | *blijhed* happiness, *storhed* greatness |
-| noun → relationship/state noun (common) | -skap | — (SV vänskap / NL vriendschap) | *vrendskap* friendship, *ledarskap* leadership |
-| verb → agent noun (common, gender-neutral) | -are | — (SV lärare) | *werkare* worker, *byggare* builder |
-| verb → action noun (common) | -ing | — (NL/EN) | *bygging* construction, *stemming* voting |
-| place of craft or trade (neuter) | -eri | — | *bakeri* bakery, *fiskeri* fishery |
-| noun → adjective | -ig | — (SV/NL) | *regnig* rainy, *solig* sunny |
+| noun → relationship/state noun (common) | -skap | - (SV vänskap / NL vriendschap) | *vrendskap* friendship, *ledarskap* leadership |
+| verb → agent noun (common, gender-neutral) | -are | - (SV lärare) | *werkare* worker, *byggare* builder |
+| verb → action noun (common) | -ing | - (NL/EN) | *bygging* construction, *stemming* voting |
+| place of craft or trade (neuter) | -eri | - | *bakeri* bakery, *fiskeri* fishery |
+| noun → adjective | -ig | - (SV/NL) | *regnig* rainy, *solig* sunny |
 | nationality/language adjective | -sk | *Fransk* | *Engelsk*, *Svensk*, *Hollandsk* |
-| learned adjective | -isk | — | *politisk*, *historisk* |
-| negation prefix | o- | — (SV o-) | *ofri* unfree, *oblij* unhappy |
+| learned adjective | -isk | - | *politisk*, *historisk* |
+| negation prefix | o- | - (SV o-) | *ofri* unfree, *oblij* unhappy |
 | noun/adjective → verb | -a | *stemma* ← *stem* | *fiska* to fish, *regna* to rain |
-| diminutive (affective, neuter) | -je | — (NL) | *husje* little house, *kindje* little one |
+| diminutive (affective, neuter) | -je | - (NL) | *husje* little house, *kindje* little one |
 | inhabitant noun | -er | *Laphurdeener* (attested in v1 §5) | *Darcambrier* Darcambrian |
 | compounding | head-final; optional linking -s-, fixed per word | *Folkskameren*, *Helsaministeriet* | *zeevind* sea-wind, *stadshus* city hall |
 
@@ -53,11 +53,11 @@ This becomes a new "Word-Building" section in `LAPHURDI.md` and governs every le
 
 - **Comparatives:** *-er / -est* (*storer, storest*). Chosen over Swedish *-are/-ast* because *-are* already forms agent nouns. Long adjectives and French loans use *mer / mest* (*mer formell, mest formell*).
 - **Ordinals:** *ferste, andre, tridde, fyrde, femte, sekste, sjunde, akte, niende, tiende*.
-- **Adverbs:** zero-marked — adjectives serve as adverbs unchanged (Dutch-style; pidgin-friendly).
-- **Question words:** *wat* what, *wie* who, *wen* when, *hoe* how, *warfor* why — completing existing *waar* where.
+- **Adverbs:** zero-marked - adjectives serve as adverbs unchanged (Dutch-style; pidgin-friendly).
+- **Question words:** *wat* what, *wie* who, *wen* when, *hoe* how, *warfor* why - completing existing *waar* where.
 - **Regular verb shape:** every regular verb's infinitive ends in unstressed *-a* and takes *-ar / -ade / har -at*. Vowel-final infinitives occur only in the irregular list.
 
-### 1.4 Irregular verbs — the closed list of 16
+### 1.4 Irregular verbs - the closed list of 16
 
 Ten strong verbs were chosen by design; six more are forced by existing canon:
 *hava* (the v1 perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the
@@ -79,8 +79,8 @@ four modals, which are irregular in every source language.
 | veta | vet | viste | har vetat | know |
 | kunna | kan | kunde | har kunnat | can, be able |
 | vilja | vil | vilde | har vilt | want, will |
-| skola | skal | skulle | — | shall (future auxiliary) |
-| moste | moste | moste | — | must (invariant, as SV *måste*) |
+| skola | skal | skulle | - | shall (future auxiliary) |
+| moste | moste | moste | - | must (invariant, as SV *måste*) |
 
 Notes: irregularity concentrates in past/perfect; presents are near-regular
 (*-r* directly after long-vowel stems). *veta* keeps its v1 spelling but gains
@@ -92,7 +92,7 @@ This list is constitutionally closed: new non-modal verbs are always regular.
 
 ### 2.1 `LEXICON.tsv`
 
-Tab-separated, one row per word, header row required. TSV chosen because no field will ever contain a tab — no quoting or escaping, and every diff line is one word's change.
+Tab-separated, one row per word, header row required. TSV chosen because no field will ever contain a tab - no quoting or escaping, and every diff line is one word's change.
 
 | Column | Content | Rules |
 |---|---|---|
@@ -103,7 +103,7 @@ Tab-separated, one row per word, header row required. TSV chosen because no fiel
 | `english` | gloss | required |
 | `domain` | semantic domain | one of the 20 controlled domains (§3) |
 | `register` | everyday / high | empty = neutral |
-| `sources` | blend recipe or derivation | derivations use `X + -suffix`, `o- + X`, or `X + Y` (compound), where X/Y are Laphurdi headwords; roots cite language-tagged natural sources, e.g. `NL water + SV vatten + EN water` — a term is a root citation iff it starts with a language tag (EN/NL/SV/FR/DA) |
+| `sources` | blend recipe or derivation | derivations use `X + -suffix`, `o- + X`, or `X + Y` (compound), where X/Y are Laphurdi headwords; roots cite language-tagged natural sources, e.g. `NL water + SV vatten + EN water` - a term is a root citation iff it starts with a language tag (EN/NL/SV/FR/DA) |
 | `notes` | etymology stories, usage | optional |
 
 Doublets need no special mechanism: two rows share a gloss with `register=everyday` on one and `register=high` on the other.
@@ -112,7 +112,7 @@ Doublets need no special mechanism: two rows share a gloss with `register=everyd
 
 Python 3, stdlib only. Two subcommands:
 
-**`check`** — exits nonzero on any error:
+**`check`** - exits nonzero on any error:
 1. Header and column count correct on every row.
 2. `word` values unique.
 3. Character set: letters only, no accents (proper nouns may capitalize).
@@ -123,7 +123,7 @@ Python 3, stdlib only. Two subcommands:
 8. Derivation integrity: when `sources` contains terms without language tags (`X + -suffix`, `o- + X`, or compound `X + Y`), the referenced headwords must exist (no *byggare* without *bygga*).
 9. Duplicate glosses flagged as warnings unless they form an everyday/high register pair.
 
-**`build`** — regenerates `LEXICON.md` deterministically (stable ordering: domains in the §3 order, words alphabetical within domain):
+**`build`** - regenerates `LEXICON.md` deterministically (stable ordering: domains in the §3 order, words alphabetical within domain):
 - Stats header: total words, roots vs. derived, per-domain counts.
 - One table per domain (word, pos, english, register, sources).
 - Alphabetical Laphurdi→English index.
@@ -144,7 +144,7 @@ Python 3, stdlib only. Two subcommands:
 | 8 | time-calendar | 45 | weekday and month names decided here |
 | 9 | numbers-measure | 35 | 11–99, ordinals, units |
 | 10 | motion-travel | 45 | |
-| 11 | sea-ships | 40 | the national domain — rich maritime lexicon |
+| 11 | sea-ships | 40 | the national domain - rich maritime lexicon |
 | 12 | work-trade | 45 | commerce everyday; finance high |
 | 13 | communication | 35 | |
 | 14 | mind-emotion | 50 | |
@@ -159,13 +159,13 @@ Python 3, stdlib only. Two subcommands:
 
 **Coverage validation:** after coining, verify every Swadesh-207 concept is expressible via an automated sweep; everyday coverage beyond Swadesh is guaranteed by the per-domain concept checklists in the implementation plan (no standard top-1,000 lemma list is reproducibly available offline).
 
-**Existing words:** all ~90 words in `LAPHURDI.md` §§4–6 enter the TSV with identical spelling — no silent respellings. This includes *sang* and *mange*, added to `LAPHURDI.md` by the national-design implementation.
+**Existing words:** all ~90 words in `LAPHURDI.md` §§4–6 enter the TSV with identical spelling - no silent respellings. This includes *sang* and *mange*, added to `LAPHURDI.md` by the national-design implementation.
 
 ## 4. File Changes
 
-1. **`LEXICON.tsv`** (new) — source of truth, ≥1,000 rows.
-2. **`tools/lexicon.py`** (new) — `check` and `build` as specified.
-3. **`LEXICON.md`** (new, generated) — committed so it reads on GitHub without tooling.
+1. **`LEXICON.tsv`** (new) - source of truth, ≥1,000 rows.
+2. **`tools/lexicon.py`** (new) - `check` and `build` as specified.
+3. **`LEXICON.md`** (new, generated) - committed so it reads on GitHub without tooling.
 4. **`LAPHURDI.md`**:
    - New "Word-Building" section: derivation table (§1.1), French adaptation rules (§1.2).
    - §3 grammar additions: comparatives, ordinals, adverbs, question words, irregular-verb table (§1.3–1.4).

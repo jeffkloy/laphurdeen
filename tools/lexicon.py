@@ -110,10 +110,10 @@ def build(rows):
     derived = sum(1 for r in rows if is_derived(r))
     total = len(rows)
 
-    out = ["# LEXICON — Laphurdi–English", "",
-           "*Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*",
+    out = ["# LEXICON - Laphurdi–English", "",
+           "*Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*",
            "",
-           f"**{total} words** — {total - derived} roots, {derived} derived.",
+           f"**{total} words** - {total - derived} roots, {derived} derived.",
            "",
            "| domain | words |", "|---|---|"]
     for d in DOMAINS:

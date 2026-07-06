@@ -4,11 +4,11 @@ export const verbs: Lesson = {
   slug: "verbs",
   titleLp: "Vi Sprekar",
   titleEn: "Regular verbs",
-  tagline: "No person endings, ever — one form per tense, the same for I, you, she, we, and they.",
+  tagline: "No person endings, ever - one form per tense, the same for I, you, she, we, and they.",
   intro: [
     `Here is Laphurdi's great gift to the learner, inherited from Swedish:
      verbs conjugate for <strong>tense only</strong>. <i lang="lp">Ik sprekar,
-     du sprekar, vi sprekar</i> — one form for everyone. Learn five endings and
+     du sprekar, vi sprekar</i> - one form for everyone. Learn five endings and
      you can use every regular verb in the language.`,
   ],
   sections: [
@@ -19,7 +19,7 @@ export const verbs: Lesson = {
          <i lang="lp">spreka</i> (to speak) exactly:`,
       ],
       table: {
-        caption: "spreka — to speak",
+        caption: "spreka - to speak",
         headers: ["tense", "form", "example"],
         langs: ["en", "en", "lp"],
         rows: [
@@ -61,7 +61,7 @@ export const verbs: Lesson = {
     {
       heading: "Orders: the bare stem",
       body: [
-        `The imperative is the verb stripped to its stem — short, clear,
+        `The imperative is the verb stripped to its stem - short, clear,
          and very Laphurdeener:`,
       ],
       examples: [
@@ -115,7 +115,7 @@ export const verbs: Lesson = {
       prompt: `And <strong>“we will speak”</strong>?`,
       options: ["vi skal spreka", "vi sprekar skal", "vi skal sprekar", "vi sprekade"],
       answer: 0,
-      explain: `Future = <i lang="lp">skal</i> + infinitive — the verb stays in its -a form.`,
+      explain: `Future = <i lang="lp">skal</i> + infinitive - the verb stays in its -a form.`,
       lpOptions: true,
     },
     {
@@ -130,13 +130,13 @@ export const verbs: Lesson = {
       prompt: `How many different <em>present-tense</em> forms does a Laphurdi verb have across ik, du, hon, vi, dei?`,
       options: ["One", "Two", "Three", "Six"],
       answer: 0,
-      explain: `Exactly one. Person endings do not exist — Swedish's great simplification, adopted whole.`,
+      explain: `Exactly one. Person endings do not exist - Swedish's great simplification, adopted whole.`,
     },
     {
       type: "type",
       prompt: `Translate: <strong>“The people will vote tomorrow.”</strong> (people = folket, vote = stemma)`,
       accept: ["folket skal stemma imorgen"],
-      explain: `<i lang="lp">Folket skal stemma imorgen</i> — a sentence heard before every referendum in the Commonwealth.`,
+      explain: `<i lang="lp">Folket skal stemma imorgen</i> - a sentence heard before every referendum in the Commonwealth.`,
       lpAnswer: true,
     },
     {
@@ -144,7 +144,7 @@ export const verbs: Lesson = {
       prompt: `The Reform regularized prefixed verbs. The past of <i lang="lp">ankomma</i> (arrive) is therefore…`,
       options: ["ankommade", "ankom", "ankommat", "ankwam"],
       answer: 0,
-      explain: `Prefixed verbs are regular — <i lang="lp">ankommade</i> — even though bare <i lang="lp">komma</i> keeps its irregular past <i lang="lp">kom</i>. Lesson 5 explains.`,
+      explain: `Prefixed verbs are regular - <i lang="lp">ankommade</i> - even though bare <i lang="lp">komma</i> keeps its irregular past <i lang="lp">kom</i>. Lesson 5 explains.`,
       lpOptions: true,
     },
   ],

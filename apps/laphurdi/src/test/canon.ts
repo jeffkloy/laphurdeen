@@ -6,7 +6,7 @@
  *  the -je diminutive), a whitelisted proper name, or a head-final compound
  *  whose parts are themselves justified (with optional linking -s-).
  *
- *  Deliberately-wrong quiz distractors are NEVER fed to this validator —
+ *  Deliberately-wrong quiz distractors are NEVER fed to this validator -
  *  only text the course presents as true Laphurdi.
  */
 
@@ -35,7 +35,7 @@ const VOWEL = /[aeiou]$/;
 export class Canon {
   /** every acceptable surface form, lowercased */
   private allowed = new Set<string>();
-  /** headwords only — used as compound left-parts */
+  /** headwords only - used as compound left-parts */
   private stems = new Set<string>();
 
   constructor(tsv: string) {
@@ -106,7 +106,7 @@ export class Canon {
   }
 
   /** Full check: direct form, or head-final compound of justified parts.
-   *  Both parts must be 3+ letters — otherwise the numeral "en" and the
+   *  Both parts must be 3+ letters - otherwise the numeral "en" and the
    *  article "de" would launder wrong inflections like "husen". */
   isJustified(token: string): boolean {
     const t = token.toLowerCase();
@@ -133,7 +133,7 @@ const SKIP = /^\d|^[^a-zA-Z]*$/; // numbers, pure punctuation/symbols
  *  "-hed" and single letters (the linking -s-) are skipped. */
 export function tokenize(lp: string): string[] {
   return lp
-    .split(/[\s/·→+«»„""(),;:.!?…—–]+/)
+    .split(/[\s/·→+«»„""(),;:.!?…–]+/)
     .map((t) => t.trim())
     .filter((t) => t.length > 1 && !t.startsWith("-") && !t.endsWith("-") && !SKIP.test(t));
 }

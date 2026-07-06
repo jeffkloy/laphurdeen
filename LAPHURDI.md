@@ -1,5 +1,5 @@
-# LAPHURDI — Spraket av Laphurdeen
-*The National Language of the Commonwealth — Language Commission Working Reference, v1*
+# LAPHURDI - Spraket av Laphurdeen
+*The National Language of the Commonwealth - Language Commission Working Reference, v1*
 
 ---
 
@@ -12,12 +12,12 @@ Laphurdi is a blended language with four source streams:
 | **English** | Core everyday vocabulary, flexible word-building |
 | **Dutch** | Spelling flavour (ij, oe, aa), pronouns, earthy common words |
 | **Swedish** | Grammar skeleton: suffixed definite article, person-free verbs, V2 word order |
-| **French** | The "high register": law, government, cuisine, art — and heritage spellings in proper names |
+| **French** | The "high register": law, government, cuisine, art - and heritage spellings in proper names |
 
-The result reads as a Germanic language wearing a French coat — much as English itself does, but with the mixture rebalanced.
+The result reads as a Germanic language wearing a French coat - much as English itself does, but with the mixture rebalanced.
 
 ### In-world history
-The Founding Charter settlers arrived speaking English, Dutch, Swedish, and French. A contact pidgin formed on the docks of Laphurdeen bay within a generation; the **First Spelling Reform** later standardised it into Standard Laphurdi. The Reform replaced etymological spellings with phonetic ones (*ph* → *f*, so *frihed* not *phrihed*) — **but proper names kept their heritage spellings**, which is why *Laphurdeen* and *Laphurdi* retain the old ⟨ph⟩.
+The Founding Charter settlers arrived speaking English, Dutch, Swedish, and French. A contact pidgin formed on the docks of Laphurdeen bay within a generation; the **First Spelling Reform** later standardised it into Standard Laphurdi. The Reform replaced etymological spellings with phonetic ones (*ph* → *f*, so *frihed* not *phrihed*) - **but proper names kept their heritage spellings**, which is why *Laphurdeen* and *Laphurdi* retain the old ⟨ph⟩.
 
 ---
 
@@ -33,7 +33,7 @@ Laphurdi uses the plain Latin alphabet, no accents. Distinctive values:
 | **sj** | "sh" | *sju* (seven) → "shoo" |
 | **k** | always hard, even before e/i | *kind* (child) → "kint" |
 
-**Stress** falls on the first syllable (Germanic rule) — *except* in French-heritage loans, which keep final stress: *famille* (fa-MIL), *nasjon* (na-SJON), *Lapentieur* (la-pen-TIEUR).
+**Stress** falls on the first syllable (Germanic rule) - *except* in French-heritage loans, which keep final stress: *famille* (fa-MIL), *nasjon* (na-SJON), *Lapentieur* (la-pen-TIEUR).
 
 ---
 
@@ -47,14 +47,14 @@ Like Swedish, "the" is glued onto the end of the noun. Two genders: **common** (
 | common | **en** stad (a city) | stad**en** (the city) | stad**er** | stad**eren** |
 | neuter | **et** hus (a house) | hus**et** (the house) | hus**er** | hus**eren** |
 
-The country's own name uses an archaic form of this: **Laphurdeen** = *Laphurde* + old definite *-een* — the name literally means "The Anchorage" (§7).
+The country's own name uses an archaic form of this: **Laphurdeen** = *Laphurde* + old definite *-een* - the name literally means "The Anchorage" (§7).
 
-**With an adjective, the article moves out front** (Danish-style): **den** liten pojk (the little boy), **det** ny hus, plural **de** — as attested in the anthem title, *Sang av **de** Mange Strander*. The noun stays bare after *den/det/de*; the suffixed article serves when the noun stands alone (*pojken*, *huset*).
+**With an adjective, the article moves out front** (Danish-style): **den** liten pojk (the little boy), **det** ny hus, plural **de** - as attested in the anthem title, *Sang av **de** Mange Strander*. The noun stays bare after *den/det/de*; the suffixed article serves when the noun stands alone (*pojken*, *huset*).
 
-**Possession** takes *-s* after the definite form: *folkets penger* (the people's money), *statens skuld* — the same *-s* that built the possessives *hons* and *deis*.
+**Possession** takes *-s* after the definite form: *folkets penger* (the people's money), *statens skuld* - the same *-s* that built the possessives *hons* and *deis*.
 
 ### Verbs: no person endings, ever
-Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish's great simplification):
+Verbs conjugate for tense only - the same form for I/you/she/we/they (Swedish's great simplification):
 
 | tense | form | example: *spreka* (to speak) |
 |---|---|---|
@@ -65,7 +65,7 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | future | skal + inf. | skal spreka |
 | imperative | bare stem | sprek! kom hem! sov nu! |
 
-**The closed list of 16 irregular verbs.** Ten strong verbs were fixed by design; six more are forced by canon — *hava* (the perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the four modals, irregular in every source language. Every other verb is regular, forever; the Reform even regularized prefixed verbs (*ankomma → ankommade*, though bare *komma* keeps *kom*).
+**The closed list of 16 irregular verbs.** Ten strong verbs were fixed by design; six more are forced by canon - *hava* (the perfect auxiliary *har*), *staa* (the Preamble's *stod*), and the four modals, irregular in every source language. Every other verb is regular, forever; the Reform even regularized prefixed verbs (*ankomma → ankommade*, though bare *komma* keeps *kom*).
 
 | infinitive | present | past | perfect | English |
 |---|---|---|---|---|
@@ -83,8 +83,8 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | veta | vet | viste | har vetat | know |
 | kunna | kan | kunde | har kunnat | can |
 | vilja | vil | vilde | har vilt | want, will |
-| skola | skal | skulle | — | shall |
-| moste | moste | moste | — | must |
+| skola | skal | skulle | - | shall |
+| moste | moste | moste | - | must |
 
 ### Pronouns
 
@@ -99,38 +99,38 @@ Verbs conjugate for tense only — the same form for I/you/she/we/they (Swedish'
 | you (pl.) | ju | ju | jer |
 | they | dei | **dem** | deis |
 
-Say *mij* "may" and *dij* "day" — Dutch ⟨ij⟩ spelling carrying the Swedish sound, exactly the *blij* pattern.
+Say *mij* "may" and *dij* "day" - Dutch ⟨ij⟩ spelling carrying the Swedish sound, exactly the *blij* pattern.
 
-**Hen** is the standard gender-neutral singular pronoun (borrowed from Swedish), used both for non-binary people and whenever gender is unknown — the Constitution is drafted with *hen* throughout its Laphurdi text. Like Swedish *hen*, it is invariant: subject and object are both *hen*. So is *ju*, like English *you*.
+**Hen** is the standard gender-neutral singular pronoun (borrowed from Swedish), used both for non-binary people and whenever gender is unknown - the Constitution is drafted with *hen* throughout its Laphurdi text. Like Swedish *hen*, it is invariant: subject and object are both *hen*. So is *ju*, like English *you*.
 
-- Object forms follow verbs **and every preposition**: *med mij, te dij, for os* — never *med ik*.
-- With case marking, fronting stays unambiguous: *Henne ser ik alle dager* — "Her I see every day."
+- Object forms follow verbs **and every preposition**: *med mij, te dij, for os* - never *med ik*.
+- With case marking, fronting stays unambiguous: *Henne ser ik alle dager* - "Her I see every day."
 - **sik** is the third-person reflexive: *Han vaskar sik* (he washes himself) vs. *Han vaskar ham* (he washes someone else). First and second persons reflex with their object forms: *Ik vaskar mij*.
 - Possessives never inflect: *min sinn, min hus, min vrender*.
-- One fossil survives from before the paradigm: the greeting **Dank du** (regular syntax would give *dank dij*) — Laphurdeen's "methinks."
+- One fossil survives from before the paradigm: the greeting **Dank du** (regular syntax would give *dank dij*) - Laphurdeen's "methinks."
 
 ### Word order: verb comes second
-Main clauses are V2, like Dutch and Swedish — whatever comes first, the verb is next:
+Main clauses are V2, like Dutch and Swedish - whatever comes first, the verb is next:
 
-- *Vi stemmar idag.* — We vote today.
-- *Idag stemmar vi.* — Today we vote. (verb stays second!)
+- *Vi stemmar idag.* - We vote today.
+- *Idag stemmar vi.* - Today we vote. (verb stays second!)
 
-Negation: **nit** after the verb — *Ik sprekar nit Fransk* (I don't speak French).
-Questions: verb first — *Sprekar du Laphurdi?*
-Question words: **wat, wie, wen, waar, hoe, warfor** — *what, who, when, where, how, why.*
-Relative clauses use **dat**: *pojken dat druknade* — the boy that drowned.
+Negation: **nit** after the verb - *Ik sprekar nit Fransk* (I don't speak French).
+Questions: verb first - *Sprekar du Laphurdi?*
+Question words: **wat, wie, wen, waar, hoe, warfor** - *what, who, when, where, how, why.*
+Relative clauses use **dat**: *pojken dat druknade* - the boy that drowned.
 
 ### Comparison, ordinals, adverbs
 
-- **Comparatives**: *-er / -est* — *stor, storer, storest*. (Not *-are*: that suffix makes agent nouns.) Long adjectives and French loans take *mer / mest*: *mer formell, mest formell*. One suppletive set: *goed, beter, best*.
+- **Comparatives**: *-er / -est* - *stor, storer, storest*. (Not *-are*: that suffix makes agent nouns.) Long adjectives and French loans take *mer / mest*: *mer formell, mest formell*. One suppletive set: *goed, beter, best*.
 - **Ordinals**: *ferste, andre, tridde, fyrde, femte, sekste, sjunde, akte, niende, tiende.*
-- **Adverbs**: zero-marked — the adjective serves unchanged: *Hen sprekar snabb* (they speak fast).
+- **Adverbs**: zero-marked - the adjective serves unchanged: *Hen sprekar snabb* (they speak fast).
 
 ---
 
 ## 3b. Word-Building
 
-The First Spelling Reform fixed more than spellings — it fixed the machinery for making new words. Every entry in the lexicon follows these rules.
+The First Spelling Reform fixed more than spellings - it fixed the machinery for making new words. Every entry in the lexicon follows these rules.
 
 ### Derivation
 
@@ -152,21 +152,21 @@ The First Spelling Reform fixed more than spellings — it fixed the machinery f
 
 ### French loans, adapted by the Reform
 
-- *-tion* → **-sjon**: *nasjon, punisjon, navigasjon* — always final-stressed
+- *-tion* → **-sjon**: *nasjon, punisjon, navigasjon* - always final-stressed
 - *-té* → **-tet**: *universitet, majoritet, egalitet*
 - French verbs → **-era**, conjugating perfectly regularly: *assistera, votera, kommensera*
 - *-el(le)* → **-ell** · *-iste* → **-ist** · *-isme* → **-isme**
-- Spelling: *ph* → *f* (*fysik, filosofi*), soft *c* → *s* (*sitron, desember*), *ch* → *sj* (*masjin, sjef*), *qu* → *kw* (*kwestion, kwittens*) — and never an accent.
+- Spelling: *ph* → *f* (*fysik, filosofi*), soft *c* → *s* (*sitron, desember*), *ch* → *sj* (*masjin, sjef*), *qu* → *kw* (*kwestion, kwittens*) - and never an accent.
 
 ### The register doublets
 
-Like English *ask/inquire* or *cow/beef*, Laphurdi keeps ~40 everyday/formal pairs: *hjelpa/assistera* (help), *fraga/demandera* (ask), *stemma/votera* (vote), *tal/diskur* (speech), *sang/sjanson* (song) — and on the plate, *ko* becomes *boef*, *svin* becomes *pork*, *faar* becomes *moeton*. The full set is tagged `everyday`/`high` in the lexicon.
+Like English *ask/inquire* or *cow/beef*, Laphurdi keeps ~40 everyday/formal pairs: *hjelpa/assistera* (help), *fraga/demandera* (ask), *stemma/votera* (vote), *tal/diskur* (speech), *sang/sjanson* (song) - and on the plate, *ko* becomes *boef*, *svin* becomes *pork*, *faar* becomes *moeton*. The full set is tagged `everyday`/`high` in the lexicon.
 
 ---
 
 ## 4. Core Vocabulary
 
-> **The full lexicon lives in [LEXICON.md](LEXICON.md)** — 2,000+ words generated from `LEXICON.tsv` (checked and built by `tools/lexicon.py`). The tables below remain the beginner's first taste.
+> **The full lexicon lives in [LEXICON.md](LEXICON.md)** - 2,000+ words generated from `LEXICON.tsv` (checked and built by `tools/lexicon.py`). The tables below remain the beginner's first taste.
 
 ### The world
 | Laphurdi | English | blended from |
@@ -261,9 +261,9 @@ The tax-free threshold, as every Laphurdeener learns to say: ***en million kronu
 > *Freedom, Welfare, Consensus.*
 
 ### The national anthem
-> **Sang av de Mange Strander** — *Song of the Many Shores.*
+> **Sang av de Mange Strander** - *Song of the Many Shores.*
 
-Four verses arrive from the four founding shores — English, Dutch, Swedish, French — and the chorus unites them in Laphurdi (*strander* is the plural of *strand*, shore/beach; see `NATIONAL_SYMBOLS.md` for the full structure). Lyrics are a future session's work.
+Four verses arrive from the four founding shores - English, Dutch, Swedish, French - and the chorus unites them in Laphurdi (*strander* is the plural of *strand*, shore/beach; see `NATIONAL_SYMBOLS.md` for the full structure). Lyrics are a future session's work.
 
 ### The Preamble's first line, in Laphurdi
 > **Vi, folket av Laphurdeen, kom fri fra mange strander te bygga en nasjon waar ingen stod befor.**
@@ -273,20 +273,20 @@ Four verses arrive from the four founding shores — English, Dutch, Swedish, Fr
 
 ## 7. Place Names and Etymology
 
-- **Laphurdeen** — Old Charter *La Fjärde* (French article + Swedish *fjärd*, "wide bay") → *Laphurde*, "the anchorage-bay," plus the archaic definite ending *-een*: **"The Anchorage."** The name commemorates the sheltered bay where the Charter fleet first dropped anchor.
-- **Lapentieur** — French *la pente* ("the slope") + the Old Charter place-suffix *-ieur*: **"the place of slopes"** — apt for the fog-brushed hill city that became the capital.
-- **Darcambria** — *dar* ("amber," a Charter-era blend of French *doré*, gilded, and English *amber*) + *cambria* (from French *cambrer*, "to curve"): **"the amber curve,"** for the great curved bay — the founding Anchorage — and its amber summer sunsets; once the name of the harbour city, now the name of the province whose eight Charter cities ring the bay.
-- **Agaetisboro** — old pre-Laphurdeen *agaet* ("alright"), carrying the old genitive *-is*, plus the English Charter suffix *-boro* (borough): **"Alright-town."** The first fishers to round the southern cape found sun the whole year, white sand, and a sheltered harbour — and sent a single word back to the fleet: *«Agaet.»* The Commonwealth's greatest understatement stuck as its sunniest city's name. Like the ⟨ph⟩ of Laphurdeen, the un-Reformed ⟨ae⟩ marks the name as heritage.
-- **krona / kronur** — the currency keeps an irregular heritage plural (*en krona, twe kronur*), one of the few survivals of early-settlement Norse-style inflection.
+- **Laphurdeen** - Old Charter *La Fjärde* (French article + Swedish *fjärd*, "wide bay") → *Laphurde*, "the anchorage-bay," plus the archaic definite ending *-een*: **"The Anchorage."** The name commemorates the sheltered bay where the Charter fleet first dropped anchor.
+- **Lapentieur** - French *la pente* ("the slope") + the Old Charter place-suffix *-ieur*: **"the place of slopes"** - apt for the fog-brushed hill city that became the capital.
+- **Darcambria** - *dar* ("amber," a Charter-era blend of French *doré*, gilded, and English *amber*) + *cambria* (from French *cambrer*, "to curve"): **"the amber curve,"** for the great curved bay - the founding Anchorage - and its amber summer sunsets; once the name of the harbour city, now the name of the province whose eight Charter cities ring the bay.
+- **Agaetisboro** - old pre-Laphurdeen *agaet* ("alright"), carrying the old genitive *-is*, plus the English Charter suffix *-boro* (borough): **"Alright-town."** The first fishers to round the southern cape found sun the whole year, white sand, and a sheltered harbour - and sent a single word back to the fleet: *«Agaet.»* The Commonwealth's greatest understatement stuck as its sunniest city's name. Like the ⟨ph⟩ of Laphurdeen, the un-Reformed ⟨ae⟩ marks the name as heritage.
+- **krona / kronur** - the currency keeps an irregular heritage plural (*en krona, twe kronur*), one of the few survivals of early-settlement Norse-style inflection.
 
 ---
 
-## 8. Open Questions — for future dives
+## 8. Open Questions - for future dives
 
-- **Dialects**: Lapentieuran vs. Darcambrian speech — early notes suggest Darcambrians say *wi* (from French *oui*) instead of *ja*, and clip final -ar to -a.
-- **Irregular verbs**: ✅ **resolved** — the closed list of 16 (ten strong verbs, plus *hava*, *staa*, and the four modals) is fixed in §3.
+- **Dialects**: Lapentieuran vs. Darcambrian speech - early notes suggest Darcambrians say *wi* (from French *oui*) instead of *ja*, and clip final -ar to -a.
+- **Irregular verbs**: ✅ **resolved** - the closed list of 16 (ten strong verbs, plus *hava*, *staa*, and the four modals) is fixed in §3.
 - **Full phonology**: an IPA chart and syllable rules.
-- **Registers**: *partly resolved* — the lexicon fixes the extent (broad high register across law, courts, government, cuisine, academia, fine arts, diplomacy, finance, plus ~40 everyday/formal doublets, §3b). Still open: usage conventions — when must a courtroom or a menu use the high form?
-- **Laphurdi Sign Language (LSL)**: recognition and standardisation — connects to Article 5(6) of the Constitution.
+- **Registers**: *partly resolved* - the lexicon fixes the extent (broad high register across law, courts, government, cuisine, academia, fine arts, diplomacy, finance, plus ~40 everyday/formal doublets, §3b). Still open: usage conventions - when must a courtroom or a menu use the high form?
+- **Laphurdi Sign Language (LSL)**: recognition and standardisation - connects to Article 5(6) of the Constitution.
 - **Orthography edge cases**: what else survived the First Spelling Reform besides proper names?
-- **A proper lexicon**: ✅ **resolved** — 2,010 words in `LEXICON.tsv` / `LEXICON.md`, linted and built by `tools/lexicon.py`, with full Swadesh-207 coverage. The modern world is covered too: three domains beyond the founding vocabulary — `science` (physics, chemistry, biology, astronomy, maths, earth science), `digital` (computing and the internet), and `society` (social science, economics, psychology) — plus a deep medical vocabulary under `body-health`.
+- **A proper lexicon**: ✅ **resolved** - 2,010 words in `LEXICON.tsv` / `LEXICON.md`, linted and built by `tools/lexicon.py`, with full Swadesh-207 coverage. The modern world is covered too: three domains beyond the founding vocabulary - `science` (physics, chemistry, biology, astronomy, maths, earth science), `digital` (computing and the internet), and `society` (social science, economics, psychology) - plus a deep medical vocabulary under `body-health`.
