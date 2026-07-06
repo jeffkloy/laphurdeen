@@ -242,8 +242,10 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 2. Den jaarinkomst av personer over en **skattfri grens av en million kronur (Kr. 1.000.000)** blivar skattat med en enkel og lik skatt av **tweti-fem prosent (25%)**; inkomst under el ved grensen blivar nit skattat. Vinsten av firmar blivar skattat med en enkel og lik skatt av **tolv og en halv prosent (12,5%)**. Ingen anner skatt-tal kan bliva settat on inkomst el vinst.
 3. En **skatt on seljing** av ting og tjenster te folket blivar settat med en enkel og lik skatt-tal av **tien prosent (10%)**, ledat als lojen sejar. Ingen anner bred skatt on seljing kan bliva settat.
 4. Seljing-skatten skal **staa in alle pris dat blivar visat el sejat**. Prisen du seer er alle prisen; ingen skatt kommar on ved el efter betalingen.
-5. Skatt-taleren in 2 og 3 kan bara bliva vekslat gennem Grundloj-veksling under Artikel 44. Parlamentet kan med loj setta den skattfri grens hoger, men aldri under en million kronur.
-6. Parlamentet kan med loj setta skatter mot skada, og mot bruk av det der er liten av - wen alle skatten blivar publiserat open, alle jaar, for alle tien-del av folket.
+5. En **skatt on rikhed** blivar settat alle jaar on rikheden av personer - alle deis egendom, minus alle deis skuld. Rikhed over en **skattfri grens av hundra million kronur (Kr. 100.000.000)** blivar skattat med en enkel og lik skatt av **tri kwart prosent (0,75%)**; rikhed under el ved grensen blivar nit skattat. Ingen anner skatt-tal kan bliva settat on rikhed.
+6. Skatt-taleren in 2, 3, og 5 kan bara bliva vekslat gennem Grundloj-veksling under Artikel 44. Parlamentet kan med loj setta de skattfri grenser hoger, men aldri setta inkomst-grensen under en million kronur, og aldri rikhed-grensen under hundra million kronur.
+7. Parlamentet kan med loj setta skatter mot skada, og mot bruk av det der er liten av - wen alle skatten blivar publiserat open, alle jaar, for alle tien-del av folket.
+8. Skatten blivar **reknat in santid**: staten reknar og tar in skatten self - direkt wen inkomsten kommar, og wen seljingen blivar doat. **Ingen person moste senda in en skatt-deklarering**; den dat vil, kan senda en - for en retting, for te faa penger tilbaka, el for anner serlig maal settat in loj.
 
 ### Artikel 36 - Budsjeten, og Dat Staten Aldri Stoppar
 1. Den jaar-budsjet kommar fra Ministerkollegiet for Finans, for Raadet, og blivar loj under Konsensregelen.
@@ -296,7 +298,7 @@ Personer dat levar hier lojlig, men er nit borgerer, har alle rekter in dis Grun
 Dis Grundloj kan bliva vekslat av et lojforslag dat faar **akti prosent (80%)** av stemmeren in beide kamerer, og efter det faar ja in en folkstemming - med mer als halv av stemmeren, wen minst halv av alle stemmare har stemmat.
 
 ### Artikel 44 - De Fast Deler
-En veksling dat vil veksla Sjartan av Rekter og Friheder (Del II), Konsensregelen (Artikel 20), forbidingen av en enkel styringshoved (Artikel 1(2)), skatt-taleren og regelen av pris-med-skatt (Artikel 35(2)–(4)), el dis Artikel self - kravar oek ja fra **seksti prosent (60%)** av stemmeren in folkstemmingen.
+En veksling dat vil veksla Sjartan av Rekter og Friheder (Del II), Konsensregelen (Artikel 20), forbidingen av en enkel styringshoved (Artikel 1(2)), skatt-taleren og regelen av pris-med-skatt (Artikel 35(2)–(5)), el dis Artikel self - kravar oek ja fra **seksti prosent (60%)** av stemmeren in folkstemmingen.
 
 ---
 

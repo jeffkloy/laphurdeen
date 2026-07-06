@@ -240,8 +240,10 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 2. The annual income of natural persons above a **tax-free threshold of one million kronur (Kr. 1,000,000)** is taxed at a single flat rate of **twenty-five per cent (25%)**; income at or below the threshold is untaxed. The profits of businesses are taxed at a single flat rate of **twelve and one-half per cent (12.5%)**. No other rate, surcharge, or bracket may be applied to income or profits.
 3. A general **sales tax** is levied on the sale of goods and services to consumers within the Commonwealth at a single flat rate of **ten per cent (10%)**, administered as provided by law. No other general tax on sales, turnover, or value added may be imposed.
 4. The sales tax shall be **included in every displayed, advertised, or quoted price**. The price displayed is the full price payable; no tax may be added at or after the point of sale.
-5. The rates in clauses 2 and 3 may be altered only by constitutional amendment under Article 44. Parliament may by law raise the tax-free threshold, but may never lower it below one million kronur.
-6. Parliament may by law impose duties, consumption taxes, and charges directed at harm or scarcity, provided the overall burden of taxation remains transparent and published annually per household decile.
+5. A **wealth tax** is levied each year on the net wealth of natural persons - all property less all debts. Net wealth above a **tax-free threshold of one hundred million kronur (Kr. 100,000,000)** is taxed at a single flat rate of **three-quarters of one per cent (0.75%)**; wealth at or below the threshold is untaxed. No other rate, surcharge, or bracket may be applied to wealth.
+6. The rates in clauses 2, 3, and 5 may be altered only by constitutional amendment under Article 44. Parliament may by law raise the tax-free thresholds, but may never lower the income threshold below one million kronur, nor the wealth threshold below one hundred million kronur.
+7. Parliament may by law impose duties, consumption taxes, and charges directed at harm or scarcity, provided the overall burden of taxation remains transparent and published annually per household decile.
+8. Taxes are **assessed in real time**: the Commonwealth calculates and collects what is owed continuously, as income arrives and as sales are made. **No person is required to file a tax return**; anyone who wishes may file one, for a correction, a refund, or another special purpose provided by law.
 
 ### Article 36 - The Budget and Continuity of Government
 1. The annual budget is proposed by the Ministerial College for Finance on behalf of the Council and passed as a law under the Consensus Rule.
@@ -294,7 +296,7 @@ Lawful residents who are not citizens enjoy all rights in this Constitution exce
 This Constitution may be amended by a bill passed in each chamber by **eighty per cent** of the votes cast and approved at a national referendum by a majority of votes cast, on a turnout of at least half of registered electors.
 
 ### Article 44 - Entrenched Provisions
-An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates and tax-inclusive pricing rule (Article 35(2)–(4)), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
+An amendment touching the Charter of Rights and Freedoms (Part II), the Consensus Rule (Article 20), the prohibition of a singular executive (Article 1(2)), the tax rates and tax-inclusive pricing rule (Article 35(2)–(5)), or this Article, requires in addition approval at referendum by **sixty per cent** of votes cast.
 
 ---
 
