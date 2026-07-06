@@ -9,7 +9,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 > og alle Laphurdi ord on en sida moste vera in ordboken, el folga §3. Alle
 > sider gaar on beide spraker: Laphurdi on `/`, Engelsk on `/en/`. Werket gaar
 > direkt te `main`, og te `origin` gaar det bara wen anvendaren fragar.
-> Proveren gaar ferst.
+> Proveren gaar ferst, og svaret te anvendaren gaar alltid on beide spraker.
 
 The same rules in English follow below. Every Laphurdi token above is attested
 in `LEXICON.tsv` or rule-derived per §3 — audited with the canon validator, as
@@ -113,6 +113,10 @@ course test suites, so a failing vitest blocks deploy.
 
 ## Working conventions
 
+- **Always respond to the user in both languages** — every reply carries
+  English and Laphurdi (a full Laphurdi rendering when practical, at minimum
+  a faithful Laphurdi summary of the answer). The Laphurdi must pass the
+  canon gate like any other prose in the repo.
 - All work goes as direct commits to `main` — no branches, no PRs.
 - Do **not** push unprompted: the user pushes in batches, and a push triggers
   the Pages deploy.
