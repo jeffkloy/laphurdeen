@@ -74,6 +74,8 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 1. Every person has the right to respect for their private and family life, home, and communications.
 2. Every person has the right to the protection of their personal data, to know what data public and private bodies hold about them, and to its correction and erasure as provided by law.
 3. Mass indiscriminate surveillance of the population is prohibited. Targeted surveillance requires prior judicial authorisation.
+4. **Where a machine says yes or no over a person**, that person has the right to know why - in plain words - and to a human being who looks at the matter again.
+5. **Every public service stands open without a machine** - from human being to human being - and no person may be disadvantaged for living so.
 
 ### Article 10 - Bodily Autonomy and Health
 1. Every person has the right to bodily autonomy and to make free and informed decisions concerning their own body, health, and reproduction.
@@ -93,6 +95,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 3. Workers are entitled to representation in the governance of large enterprises as provided by law.
 4. **Sex work between consenting adults is lawful work.** Sex workers enjoy the full protection of this Article - including the right to form and join trade unions, to bargain collectively, and to safe conditions - and shall not be subject to criminal penalty, to registration regimes designed to exclude or stigmatise, or to discrimination in housing, banking, or services.
 5. **Full-time work is thirty-two (32) hours a week.** Hours beyond it are overtime - freely chosen and compensated, as fixed by law - and no worker may be disadvantaged for working full time and no more.
+6. **After working hours, a worker owes no answer.** Work's words can wait - unread and unanswered - and no worker may be disadvantaged for it.
 
 ### Article 13 - The Laphurdeen Guarantee (Social Security)
 1. The Commonwealth owes a special and enforceable duty of care to the least-advantaged **quarter (25%)** of its population, determined by a transparent statutory index of income, wealth, and circumstance, and to **every person with a disability**, who is within the Guarantee as of right.

@@ -76,6 +76,8 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 1. Alle personer har rekt te skydd for deis privat liv, famille, hem, og kommunikasjon.
 2. Alle personer har rekt te skydd av deis data; te veta wat data offentlig og privat institusjoner haldar om dem; og te faa den rettat el tat bort, als lojen sejar.
 3. Overvaking av alle folket, bred og uten maal, er forbidat. Overvaking av en person kravar ja fra en domare ferst.
+4. **Wen en masjin sejar ja el nej over en person**, har hen rekt te veta warfor - in klar ord - og te faa en mennisk dat ser saken igen.
+5. **Alle offentlig tjenst staar open oek uten masjin** - fra mennisk te mennisk - og ingen person kan bliva straffat for te leva so.
 
 ### Artikel 10 - Kroppen og Helsan
 1. Alle personer har rekt te autonomi over kroppen, og te velja fri og med vetskap om deis kropp, helsa, og reproduksjon.
@@ -95,6 +97,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 3. Werkare har rekt te vera med in styringen av stor firmar, als lojen sejar.
 4. **Seksuell werk mellan vuksener med konsens er lojlig werk.** Seksuell werkare har alle rekter av dis Artikel - og skal nit bliva straffat, nit bliva settat in register for te skamma dem, og nit bliva stengat ut fra hem, bank, el tjenster.
 5. **Fulltidswerk er trititwe (32) uurer alle vek.** Uurer over det er overtid - fri veljat og betalat, als lojen sejar - og ingen werkare kan bliva straffat for te werka fulltid og nit mer.
+6. **Efter werkuureren moste en werkare geva ingen svar.** Werkets ord kan venta - nit lesat og nit svarat - og ingen werkare kan bliva straffat for det.
 
 ### Artikel 13 - Laphurdeen-Garantien (Sosial Sekerhed)
 1. Samveldet har en egen og fast plikt av hjelp te den **fyrde-del (25%)** av folket dat har minst - settat av en open index av inkomst, egendom, og liv - og te **alle personer med funksjonshinder**, dat staar in Garantien direkt.
