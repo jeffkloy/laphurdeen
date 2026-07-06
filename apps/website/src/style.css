@@ -842,6 +842,17 @@ a {
   color: var(--ink-soft);
 }
 
+/* The quote on navy (the verder anthem): the navy display text and the
+   soft-ink footer vanish into the gradient - lift both to the
+   section-navy palette. */
+.section-navy .preamble-quote p {
+  color: #fff;
+}
+
+.section-navy .preamble-quote footer {
+  color: #b9cde0;
+}
+
 .translator-cta {
   display: flex;
   flex-wrap: wrap;
@@ -858,6 +869,15 @@ a {
   max-width: 34rem;
   font-weight: 500;
   color: var(--navy);
+}
+
+/* CTAs with several buttons (the verder anthem): group them so they wrap
+   below the text as one row instead of scattering across lines. */
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
 }
 
 /* ------------------------------ footer ------------------------------ */
