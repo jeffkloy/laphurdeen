@@ -1617,6 +1617,8 @@ atom	n	c		atom	science		FR atome + SV atom
 molekyl	n	c		molecule	science		FR molécule + SV molekyl	
 element	n	n		element	science		SV element + FR élément	
 forening	n	c		compound (chemical)	science		SV förening	also union, association
+kemisk	adj			chemical	science		kemi + -isk	as politisk, kritisk
+kemikalie	n	c		chemical (substance)	science		SV kemikalie + DA kemikalie	
 reaksjon	n	c		reaction	science		FR réaction	
 syra	n	c		acid	science		SV syra	
 bas	n	c		base (chemistry)	science		FR base + SV bas	

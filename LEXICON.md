@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2347 words** - 1977 roots, 370 derived.
+**2349 words** - 1978 roots, 371 derived.
 
 | domain | words |
 |---|---|
@@ -23,7 +23,7 @@
 | law-civic | 180 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
-| science | 173 |
+| science | 175 |
 | digital | 110 |
 | society | 93 |
 | common-verbs | 147 |
@@ -1727,6 +1727,8 @@
 | **kaos** | n (n) | chaos |  | FR chaos + SV kaos |
 | **karbon** | n (n) | carbon |  | FR carbone |
 | **katalysator** | n (c) | catalyst |  | FR catalyseur |
+| **kemikalie** | n (c) | chemical (substance) |  | SV kemikalie + DA kemikalie |
+| **kemisk** | adj | chemical |  | kemi + -isk |
 | **kinetisk** | adj | kinetic |  | FR cinétique |
 | **klimat** | n (n) | climate |  | FR climat + SV klimat |
 | **komet** | n (c) | comet |  | FR comète + SV komet |
@@ -3424,6 +3426,8 @@
 | keks | biscuit |
 | kella | source |
 | kemi | chemistry |
+| kemikalie | chemical (substance) |
+| kemisk | chemical |
 | kenna | feel |
 | kenning | feeling |
 | kerl | vessel (anatomical) |
