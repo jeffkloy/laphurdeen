@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2322 words** - 1961 roots, 361 derived.
+**2323 words** - 1961 roots, 362 derived.
 
 | domain | words |
 |---|---|
@@ -28,7 +28,7 @@
 | society | 93 |
 | common-verbs | 146 |
 | qualities | 151 |
-| function-words | 124 |
+| function-words | 125 |
 
 ## world-nature
 
@@ -2446,6 +2446,7 @@
 | **somting** | pron | something, anything |  | somme + ting |
 | **somwaar** | adv | somewhere, anywhere |  | somme + waar |
 | **somwie** | pron | someone, anyone |  | somme + wie |
+| **somwies** | det | someone's, anyone's |  | somwie + -s |
 | **te** | prep | to |  | NL te + EN to |
 | **terug** | adv | back (returning) |  | NL terug |
 | **tesamme** | adv | together |  | NL tezamen |
@@ -4371,6 +4372,7 @@
 | somting | something, anything |
 | somwaar | somewhere, anywhere |
 | somwie | someone, anyone |
+| somwies | someone's, anyone's |
 | son | son |
 | sopp | fungus |
 | soppa | soup |
