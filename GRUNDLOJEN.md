@@ -85,6 +85,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 3. Samveldet skal halda helsahjelp mellan de best in werlden, og skal publisera alle jaar hoe den staar mot de best in werlden.
 4. Vuksener har rekt te bruka, te halda, og te veksa for sik self, kanabis og anner droger dat lojen sejar skadar liten (**mjuk droger**). Te doa og te selja dem er lojlig, med regeler og skatt efter lojen. Adiksjon er en sak for helsa, nit for straff.
 5. **Alle person har rekt te en ren og goed miljo.** Samveldet skal halda luften, vatteret, og jorden ren; og det skal bliva klimatneutral befor en dag settat in loj, og bliva det for alltid.
+6. **Alle person har rekt te sterva med verdighed.** Hjelp te sterva er lojlig for en vuksen dat fragar fri og med full vetskap, under regeler settat in loj.
 
 ### Artikel 11 - Lering
 1. Lering er en rekt. Lering for de minst kinder, og alle skol fra ferste te sist jaar, er gratis, for alle, og av hoog stand.
@@ -103,6 +104,8 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 1. Samveldet har en egen og fast plikt av hjelp te den **fyrde-del (25%)** av folket dat har minst - settat av en open index av inkomst, egendom, og liv - og te **alle personer med funksjonshinder**, dat staar in Garantien direkt.
 2. Personer in Garantien har rekt te minst: en inkomst for et verdig liv; et seker og goed hem; energi, vatter, og digital tjenst; og ferste plas te lering og werk.
 3. Betaling av Garantien kommar ferst av alle inkomster av Samveldet, efter betaling av skulden av staten.
+4. **Et hem er en rekt.** Alle person dat levar in Laphurdeen har rekt te et seker og goed hem. Parlamentet skal med loj halda priseren av hem so alle kan betala dem - kopat el hyrat - og se dat hem blivar byggat for alle.
+5. **Vatter er folkets egendom.** Deis keller, deis veg te alle hem, og deis pris kan aldri bliva privat.
 
 ### Artikel 14 - Frihed te Resa og Offentlig Transport
 1. Alle personer lojlig in Laphurdeen kan resa fri gennem alle Samveldet, og velja waar dei levar.
@@ -268,6 +271,7 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 ### Artikel 37 - Hemskulden
 1. Det er et Grundloj-maal av Samveldet dat deis folk berar den **minst hemskuld mot inkomst mellan de rik lander av werlden**.
 2. Parlamentet skal med loj setta en tak on alle kost av kredit te folk, forbida laan dat jagar de svag, geva gratis hjelp med penger, og publisera alle jaar taleren av hemskuld mot inkomst - for landet, og for alle tien-del.
+3. **Wat er din, kan du reparera.** Ting seljat in Samveldet moste kunna bliva reparerat for en rettvis pris, als lojen sejar - og ingen ting skal bliva byggat for en snabb dod.
 
 ### Artikel 38 - Kronan og Reservbanken
 1. Pengeren av Samveldet er den **Laphurdeen krona** (teken **Kr.**; en krona, twe **kronur**).

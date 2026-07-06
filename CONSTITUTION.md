@@ -83,6 +83,7 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 3. The Commonwealth shall maintain healthcare standards that rank among the best in the world, and shall report publicly and annually against international benchmarks.
 4. Adults have the right to the personal use, possession, and cultivation for personal use of cannabis and other substances classified by law as low-harm (**soft drugs**). Their production and sale are lawful, regulated, and taxed as provided by law. Drug dependence is treated as a matter of health, not of punishment.
 5. **Every person has the right to a clean and healthy environment.** The Commonwealth shall keep the air, the waters, and the soil clean; and it shall become climate-neutral by a date fixed in law, and remain so forever.
+6. **Every person has the right to die with dignity.** Aid in dying is lawful for an adult who asks freely and with full understanding, under safeguards fixed in law.
 
 ### Article 11 - Education
 1. Education is a right. Early childhood, primary, and secondary education are free, universal, and of high standard.
@@ -101,6 +102,8 @@ do hereby establish this Constitution as the supreme law of the Commonwealth of 
 1. The Commonwealth owes a special and enforceable duty of care to the least-advantaged **quarter (25%)** of its population, determined by a transparent statutory index of income, wealth, and circumstance, and to **every person with a disability**, who is within the Guarantee as of right.
 2. Persons within the Guarantee are entitled at minimum to: an income floor sufficient for a dignified life; secure and adequate housing; energy, water, and digital connectivity; and priority access to education, training, and employment services.
 3. Funding of the Guarantee is a first charge on the revenues of the Commonwealth, after the service of public debt.
+4. **A home is a right.** Every person living in Laphurdeen is entitled to a secure and good home. Parliament shall by law hold the prices of homes within what all can pay - bought or rented - and see that homes are built for all.
+5. **Water is the people's own.** Its springs, its way to every home, and its price may never become private.
 
 ### Article 14 - Freedom of Movement and Public Transport
 1. Every person lawfully within Laphurdeen may move freely throughout the Commonwealth and choose their place of residence.
@@ -266,6 +269,7 @@ Bills duly passed are certified by the presiding officers of both chambers and p
 ### Article 37 - Household Debt
 1. It is a constitutional objective of the Commonwealth that its residents carry the **lowest household debt-to-income burden among developed nations**.
 2. Parliament shall by law cap the total cost of consumer credit, prohibit predatory lending, guarantee free financial counselling, and require the annual publication of national and decile household debt-to-income statistics.
+3. **What is yours, you may repair.** Things sold in the Commonwealth must be repairable at a fair price, as the law provides - and no thing shall be built for an early death.
 
 ### Article 38 - Currency and the Reserve Bank
 1. The currency of the Commonwealth is the **Laphurdeen krona** (symbol **Kr.**; plural **kronur**).

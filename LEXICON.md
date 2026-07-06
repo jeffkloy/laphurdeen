@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2396 words** - 2011 roots, 385 derived.
+**2397 words** - 2012 roots, 385 derived.
 
 | domain | words |
 |---|---|
@@ -17,7 +17,7 @@
 | numbers-measure | 63 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 90 |
+| work-trade | 91 |
 | communication | 102 |
 | mind-emotion | 148 |
 | law-civic | 187 |
@@ -1077,6 +1077,7 @@
 | **profesjonell** | adj | professional | high | FR professionnel |
 | **projekt** | n (n) | project |  | SV projekt + NL project + FR projet |
 | **rekning** | n (c) | bill, invoice |  | SV räkning |
+| **reparera** | v | repair |  | FR réparer |
 | **reserv** | n (c) | reserve | high | FR réserve |
 | **revisor** | n (c) | auditor | high | FR réviseur |
 | **rikhed** | n (c) | wealth |  | rik + -hed |
@@ -4213,6 +4214,7 @@
 | ren | clean |
 | renkontrera | meet |
 | rep | rope |
+| reparera | repair |
 | repetera | repeat |
 | repetisjon | repetition |
 | representera | represent |
