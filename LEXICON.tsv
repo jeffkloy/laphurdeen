@@ -1642,6 +1642,13 @@ vinkel	n	c		angle	science		SV vinkel + NL hoek
 punkt	n	c		point	science		SV punkt + NL punt	
 yta	n	c		surface, area	science		SV yta	
 geometri	n	c		geometry	science		FR géométrie	
+sirkel	n	c		circle	science		SV cirkel + FR cercle	soft c to s, per the Reform
+triangel	n	c		triangle	science		SV triangel + FR triangle	
+kwadrat	n	c		square (shape)	science		SV kvadrat + NL kwadraat	qu to kw, per the Reform
+rektangel	n	c		rectangle	science		SV rektangel + FR rectangle	
+oval	n	c		oval	science		SV oval + FR ovale + EN oval	
+kub	n	c		cube	science		SV kub + FR cube	
+sfer	n	c		sphere	science		FR sphère + SV sfär	ph to f, as atmosfer
 algebra	n	c		algebra	science		FR algèbre	
 brok	n	n		fraction	science		SV bråk	
 genomsnitt	n	n		average	science		SV genomsnitt	

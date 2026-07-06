@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2306 words** - 1947 roots, 359 derived.
+**2313 words** - 1954 roots, 359 derived.
 
 | domain | words |
 |---|---|
@@ -23,7 +23,7 @@
 | law-civic | 176 |
 | arts-leisure | 57 |
 | school-knowledge | 64 |
-| science | 166 |
+| science | 173 |
 | digital | 110 |
 | society | 93 |
 | common-verbs | 146 |
@@ -1718,6 +1718,8 @@
 | **kraftfelt** | n (n) | force field |  | kraft + felt |
 | **kristall** | n (c) | crystal |  | SV kristall + FR cristal |
 | **kromosom** | n (n) | chromosome |  | FR chromosome |
+| **kub** | n (c) | cube |  | SV kub + FR cube |
+| **kwadrat** | n (c) | square (shape) |  | SV kvadrat + NL kwadraat |
 | **kwantum** | n (n) | quantum | high | FR quantum |
 | **kwark** | n (c) | quark |  | EN quark |
 | **kwave** | n (n) | nitrogen |  | SV kväve |
@@ -1754,6 +1756,7 @@
 | **optik** | n (c) | optics |  | FR optique |
 | **organ** | n (n) | organ (biological) |  | SV organ + FR organe |
 | **organism** | n (c) | organism |  | FR organisme |
+| **oval** | n (c) | oval |  | SV oval + FR ovale + EN oval |
 | **ozon** | n (n) | ozone |  | FR ozone |
 | **partikel** | n (c) | particle |  | SV partikel + FR particule |
 | **planet** | n (c) | planet |  | FR planète + SV planet |
@@ -1767,6 +1770,7 @@
 | **rakett** | n (c) | rocket |  | SV raket + FR roquette |
 | **reaksjon** | n (c) | reaction |  | FR réaction |
 | **rekna** | v | calculate |  | SV räkna |
+| **rektangel** | n (c) | rectangle |  | SV rektangel + FR rectangle |
 | **relativitet** | n (c) | relativity |  | FR relativité |
 | **resultat** | n (n) | result |  | FR résultat |
 | **rorelse** | n (c) | motion |  | SV rörelse |
@@ -1774,8 +1778,10 @@
 | **sannolik** | adj | probable |  | SV sannolik |
 | **sannolikhed** | n (c) | probability |  | sannolik + -hed |
 | **satellit** | n (c) | satellite |  | FR satellite |
+| **sfer** | n (c) | sphere |  | FR sphère + SV sfär |
 | **siffra** | n (c) | digit |  | SV siffra |
 | **silver** | n (n) | silver |  | SV silver + NL zilver |
+| **sirkel** | n (c) | circle |  | SV cirkel + FR cercle |
 | **skelv** | n (n) | tremor |  | skelva |
 | **skelva** | v | tremble |  | SV skälva |
 | **smelta** | v | melt |  | SV smälta |
@@ -1798,6 +1804,7 @@
 | **termometer** | n (c) | thermometer |  | FR thermomètre |
 | **transformasjon** | n (c) | transformation |  | FR transformation |
 | **transformera** | v | transform |  | FR transformer |
+| **triangel** | n (c) | triangle |  | SV triangel + FR triangle |
 | **univers** | n (n) | universe |  | FR univers |
 | **vakuum** | n (n) | vacuum |  | SV vakuum |
 | **variabel** | n (c) | variable |  | FR variable + SV variabel |
@@ -3506,6 +3513,7 @@
 | krypig | cringeworthy (slang) |
 | kryptera | encrypt |
 | kryptering | encryption |
+| kub | cube |
 | kudde | pillow, cushion |
 | kuk | dick (vulgar) |
 | kulle | hill |
@@ -3522,6 +3530,7 @@
 | kvalifikasjon | qualification |
 | kvin | woman |
 | kvorum | quorum |
+| kwadrat | square (shape) |
 | kwalme | nausea |
 | kwantum | quantum |
 | kwark | quark |
@@ -3901,6 +3910,7 @@
 | ost | cheese |
 | ostra | oyster |
 | otrolig | astounding, incredible |
+| oval | oval |
 | over | over, above |
 | overalt | everywhere |
 | overgang | transition |
@@ -4060,6 +4070,7 @@
 | rekna | calculate |
 | rekning | bill, invoice |
 | rekt | right (entitlement) |
+| rektangel | rectangle |
 | relativitet | relativity |
 | relisjon | religion |
 | ren | clean |
@@ -4207,6 +4218,7 @@
 | sete | seat (office) |
 | setning | sentence |
 | setta | set, put |
+| sfer | sphere |
 | sida | side |
 | siden | since; ago |
 | sider | cider |
@@ -4222,6 +4234,7 @@
 | sinn | mind |
 | sinnsjukhed | mental illness |
 | sirene | siren |
+| sirkel | circle |
 | sist | last, final |
 | sitron | lemon |
 | sitta | sit |
@@ -4573,6 +4586,7 @@
 | tren | train |
 | tretten | thirteen |
 | tri | three |
+| triangel | triangle |
 | tridde | third |
 | trist | sad |
 | triti | thirty |
