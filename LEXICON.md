@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2367 words** - 1993 roots, 374 derived.
+**2368 words** - 1994 roots, 374 derived.
 
 | domain | words |
 |---|---|
@@ -28,7 +28,7 @@
 | society | 93 |
 | common-verbs | 148 |
 | qualities | 158 |
-| function-words | 127 |
+| function-words | 128 |
 
 ## world-nature
 
@@ -2484,6 +2484,7 @@
 | **sik** | pron | himself, herself, themself (reflexive) |  | SV sig + DA sig + NL zich |
 | **snart** | adv | soon |  | SV snart |
 | **so** | adv | so, thus |  | SV så + EN so |
+| **sodan** | det | such |  | SV sådan + DA sådan |
 | **somhoe** | adv | somehow |  | somme + hoe |
 | **somme** | det | some |  | NL sommige + EN some |
 | **somtid** | adv | sometime |  | somme + tid |
@@ -4433,6 +4434,7 @@
 | snyfta | sob |
 | so | so, thus |
 | soda | soda |
+| sodan | such |
 | sofa | sofa, couch |
 | sok | sock |
 | soka | search, seek |

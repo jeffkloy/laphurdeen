@@ -256,6 +256,7 @@ venig	det			few	function-words		NL weinig	avoids clash with faa (get)
 flera	det			several	function-words		SV flera + DA flere	between somme and mange
 anner	det			other	function-words		SV annan + NL ander	
 samme	det			same	function-words		DA samme + SV samma	
+sodan	det			such	function-words		SV sådan + DA sådan	builds on so (SV så); invariant like samme: en sodan dag - such a day
 oek	adv			also	function-words		NL ook	say "ook"
 bara	adv			only	function-words		SV bara	
 mer	adv			more	function-words		SV mer	comparative of long adjectives: mer formell
