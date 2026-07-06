@@ -2,14 +2,14 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2368 words** - 1994 roots, 374 derived.
+**2381 words** - 2004 roots, 377 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 86 |
 | plants-animals | 52 |
-| body-health | 256 |
-| people-family | 76 |
+| body-health | 257 |
+| people-family | 79 |
 | food-drink | 144 |
 | house-home | 65 |
 | clothing | 26 |
@@ -17,17 +17,17 @@
 | numbers-measure | 62 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 84 |
+| work-trade | 86 |
 | communication | 102 |
-| mind-emotion | 146 |
+| mind-emotion | 148 |
 | law-civic | 180 |
-| arts-leisure | 59 |
+| arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
 | digital | 112 |
 | society | 93 |
-| common-verbs | 148 |
-| qualities | 158 |
+| common-verbs | 150 |
+| qualities | 159 |
 | function-words | 128 |
 
 ## world-nature
@@ -300,6 +300,7 @@
 | **knie** | n (n) | knee |  | NL knie |
 | **knulla** | v | fuck (vulgar) | everyday | SV knulla + DA kneppe + NL neuken |
 | **kon** | n (n) | sex, gender |  | SV kön |
+| **konvalesera** | v | convalesce | high | FR convalescence + EN convalesce |
 | **kraft** | n (c) | strength, power |  | SV kraft + NL kracht |
 | **kranium** | n (n) | skull | high | FR crâne + SV kranium |
 | **kreft** | n (c) | cancer |  | DA kræft + SV kräfta |
@@ -466,6 +467,8 @@
 | **folk** | n (n) | people |  | SV folk + NL volk |
 | **forelder** | n (c) | parent |  | SV förälder |
 | **fremling** | n (c) | stranger |  | SV främling |
+| **fremmeda** | v | estrange, alienate |  | fremmed + -a |
+| **fremmedskap** | n (c) | estrangement, alienation |  | fremmed + -skap |
 | **fru** | n (c) | madam, wife |  | SV fru |
 | **gava** | n (c) | gift |  | SV gåva |
 | **gest** | n (c) | guest |  | SV gäst |
@@ -499,6 +502,7 @@
 | **neve** | n (c) | nephew |  | NL neef |
 | **nikt** | n (c) | niece |  | NL nicht |
 | **onkel** | n (c) | uncle |  | DA onkel + FR oncle |
+| **opponent** | n (c) | opponent, adversary |  | FR opposant + SV opponent |
 | **parskap** | n (c) | relationship, partnership |  | par + -skap |
 | **person** | n (c) | person |  | SV person + FR personne |
 | **pojk** | n (c) | boy |  | SV pojke |
@@ -1009,10 +1013,12 @@
 | **bank** | n (c) | bank |  | FR banque + SV bank |
 | **betala** | v | pay | everyday | SV betala + NL betalen |
 | **betaling** | n (c) | payment |  | betala + -ing |
+| **bieda** | v | bid, offer (at auction) |  | NL bieden + EN bid |
 | **billig** | adj | cheap, affordable |  | SV billig + DA billig |
 | **bonde** | n (c) | farmer |  | SV bonde |
 | **bors** | n (c) | stock exchange | high | FR bourse + SV börs |
 | **bruk** | n (n) | use (n.) |  | SV bruk |
+| **bud** | n (n) | bid, offer (n.) |  | SV bud + NL bod + DA bud |
 | **budsjet** | n (c) | budget | high | FR budget |
 | **butik** | n (c) | shop |  | SV butik + FR boutique |
 | **bygga** | v | build |  | SV bygga |
@@ -1248,6 +1254,7 @@
 | **frykt** | n (c) | fear (n.) |  | DA frygt + SV fruktan |
 | **frykta** | v | fear (v.) |  | frykt + -a |
 | **gal** | adj | crazy |  | SV galen + DA gal |
+| **gilla** | v | like |  | SV gilla |
 | **gleda** | v | gladden, delight |  | glede + -a |
 | **glede** | n (c) | joy, gladness |  | DA glæde |
 | **glomma** | v | forget |  | SV glömma |
@@ -1325,6 +1332,7 @@
 | **sorga** | v | mourn, grieve |  | sorg + -a |
 | **stimulera** | v | stimulate |  | FR stimuler |
 | **stolt** | adj | proud |  | SV stolt + DA stolt |
+| **stolthed** | n (c) | pride |  | stolt + -hed |
 | **stress** | n (c) | stress |  | EN stress |
 | **tanke** | n (c) | thought |  | SV tanke + DA tanke |
 | **tenka** | v | think | everyday | SV tänka + DA tænke |
@@ -1565,6 +1573,7 @@
 | **kasino** | n (n) | casino | high | FR casino + SV kasino |
 | **konsert** | n (c) | concert |  | FR concert + SV konsert |
 | **konst** | n (c) | art |  | SV konst |
+| **kor** | n (n) | choir, chorus (of singers) |  | NL koor + DA kor + SV kör |
 | **kultur** | n (c) | culture | high | FR culture |
 | **leka** | v | play (as a child) |  | SV leka |
 | **mala** | v | paint (v.) |  | SV måla |
@@ -1577,6 +1586,7 @@
 | **piano** | n (n) | piano |  | FR piano + SV piano |
 | **pjes** | n (c) | play (theatre) | high | FR pièce |
 | **portrett** | n (n) | portrait |  | FR portrait |
+| **refreng** | n (c) | refrain, chorus (of a song) |  | FR refrain + SV refräng |
 | **rim** | n (n) | rhyme |  | SV rim + DA rim |
 | **rima** | v | rhyme (v.) |  | rim + -a |
 | **roman** | n (c) | novel | high | FR roman |
@@ -2180,6 +2190,8 @@
 | **skifta** | v | shift, switch |  | SV skifta |
 | **skilja** | v | separate, part |  | SV skilja |
 | **skola** (pres=skal, past=skulle) | v | shall (future auxiliary) |  | SV skola + NL zullen |
+| **skrida** | v | stride |  | SV skrida + NL schrijden + DA skride |
+| **skrynkla** | v | crumple |  | SV skrynkla |
 | **slaga** | v | hit |  | SV slå + DA slå |
 | **sparka** | v | kick |  | SV sparka |
 | **springa** | v | run |  | SV springa |
@@ -2260,6 +2272,7 @@
 | **flak** | adj | shallow |  | SV flack + NL vlak |
 | **form** | n (c) | form, shape |  | FR forme + SV form |
 | **formell** | adj | formal | high | FR formel + SV formell |
+| **fortjena** | v | deserve, merit |  | SV förtjäna + DA fortjene |
 | **Fransk** | adj | French |  | SV fransk |
 | **fremmed** | adj | strange, unfamiliar, foreign |  | DA fremmed |
 | **fri** | adj | free |  | EN free + SV fri |
@@ -2459,7 +2472,7 @@
 | **minder** | adv | less |  | NL minder |
 | **minst** | adv | least |  | SV minst + NL minst |
 | **mot** | prep | against, toward |  | SV mot |
-| **mykke** | adv | much |  | SV mycket |
+| **mykke** | adv | much, very |  | SV mycket |
 | **ned** | adv | down |  | SV ned + NL neer |
 | **nej** | interj | no |  | SV nej |
 | **neste** | adj | next |  | DA næste + SV nästa |
@@ -2697,6 +2710,7 @@
 | bevis | proof, evidence |
 | bevisa | prove |
 | bibliotek | library |
+| bieda | bid, offer (at auction) |
 | bier | beer |
 | bij | bee |
 | bil | car |
@@ -2783,6 +2797,7 @@
 | bruun | brown |
 | bryllop | wedding |
 | bryst | breast, chest |
+| bud | bid, offer (n.) |
 | budsjet | budget |
 | bugg | bug (software) |
 | bukt | bay, gulf |
@@ -3099,6 +3114,7 @@
 | forstoring | destruction |
 | forsvar | defence |
 | fortid | past (n.) |
+| fortjena | deserve, merit |
 | fortsetta | continue |
 | fortvivla | despair |
 | fortvivling | despair (n.) |
@@ -3126,6 +3142,8 @@
 | frekvens | frequency |
 | fremling | stranger |
 | fremmed | strange, unfamiliar, foreign |
+| fremmeda | estrange, alienate |
+| fremmedskap | estrangement, alienation |
 | fri | free |
 | frihed | freedom |
 | friksjon | friction |
@@ -3183,6 +3201,7 @@
 | gifta | marry |
 | giftig | poisonous |
 | giftskap | marriage |
+| gilla | like |
 | gips | plaster cast |
 | glas | glass |
 | glasiar | glacier |
@@ -3541,6 +3560,7 @@
 | konto | account |
 | kontrakt | contract |
 | kontrast | contrast |
+| konvalesera | convalesce |
 | konvenor | convenor |
 | konversasjon | conversation |
 | koordinat | coordinate |
@@ -3550,6 +3570,7 @@
 | kopp | cup |
 | koppar | copper |
 | kopstad | town, market town |
+| kor | choir, chorus (of singers) |
 | kora | drive |
 | korall | coral |
 | korelasjon | correlation |
@@ -3878,7 +3899,7 @@
 | muskot | nutmeg |
 | musla | mussel, shellfish |
 | muts | cap |
-| mykke | much |
+| mykke | much, very |
 | mynt | coin, mint |
 | nabo | neighbour |
 | nabolag | neighbourhood |
@@ -3981,6 +4002,7 @@
 | oppladda | upload |
 | oppmerksam | attentive |
 | oppmerksamhed | attention |
+| opponent | opponent, adversary |
 | optik | optics |
 | opulent | rich |
 | oranj | orange |
@@ -4148,6 +4170,7 @@
 | redding | rescue, salvation |
 | reflektera | think |
 | reform | reform |
+| refreng | refrain, chorus (of a song) |
 | regel | rule |
 | regera | rule, govern |
 | region | region |
@@ -4396,10 +4419,12 @@
 | skota | tend, care for |
 | skotare | carer |
 | skott | shot |
+| skrida | stride |
 | skrift | writing, petition |
 | skrika | scream |
 | skriva | write |
 | skrivare | printer |
+| skrynkla | crumple |
 | skuld | debt |
 | skydd | protection |
 | skydda | protect |
@@ -4525,6 +4550,7 @@
 | stinga | stab |
 | stol | chair |
 | stolt | proud |
+| stolthed | pride |
 | stoppa | stop |
 | stor | big |
 | storm | storm |

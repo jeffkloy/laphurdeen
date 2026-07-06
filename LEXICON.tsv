@@ -662,6 +662,7 @@ klimma	v			climb	common-verbs		NL klimmen + EN climb
 simma	v			swim	common-verbs		SV simma	
 flyga	v			fly (v.)	common-verbs		SV flyga	
 vandra	v			walk, wander	common-verbs		SV vandra + NL wandelen	
+skrida	v			stride	common-verbs		SV skrida + NL schrijden + DA skride	long solemn steps; regular: skridade (the strong SV skred stays home)
 folga	v			follow	common-verbs		SV följa + DA følge	
 leta	v			search	common-verbs		SV leta	
 finna	v			find	common-verbs		SV finna + NL vinden	
@@ -673,6 +674,7 @@ breka	v			break	common-verbs		EN break + SV bräcka
 laga	v			repair, fix	common-verbs		SV laga	
 skera	v			cut	common-verbs		SV skära	
 riva	v			tear	common-verbs		SV riva	
+skrynkla	v			crumple	common-verbs		SV skrynkla	
 boja	v			bend	common-verbs		SV böja	
 binda	v			tie, bind	common-verbs		SV binda + NL binden	
 torka	v			dry, wipe	common-verbs		SV torka	
@@ -842,10 +844,12 @@ arg	adj			angry	mind-emotion		SV arg
 blijhed	n	c		happiness	mind-emotion	everyday	blij + -hed	formal doublet: felisitet
 felisitet	n	c		happiness	mind-emotion	high	FR félicité	
 hata	v			hate	mind-emotion		SV hata + NL haten	
+gilla	v			like	mind-emotion		SV gilla	milder than lieva
 wensa	v			wish	mind-emotion		NL wensen	
 drom	n	c		dream	mind-emotion		SV dröm + DA drøm	
 dromma	v			dream (v.)	mind-emotion		drom + -a	consonant doubled after short vowel, as stem to stemma
 stolt	adj			proud	mind-emotion		SV stolt + DA stolt	
+stolthed	n	c		pride	mind-emotion		stolt + -hed	
 skam	n	c		shame	mind-emotion		SV skam + DA skam	
 lykka	n	c		luck	mind-emotion		SV lycka + DA lykke	
 karakter	n	c		character	mind-emotion		FR caractère + SV karaktär	
@@ -924,6 +928,8 @@ handel	n	c		trade (n.)	work-trade	everyday	SV handel + NL handel	formal doublet:
 komers	n	c		trade (n.)	work-trade	high	FR commerce	
 handla	v			trade, shop (v.)	work-trade		handel + -a	
 handlare	n	c		merchant	work-trade		handla + -are	
+bieda	v			bid, offer (at auction)	work-trade		NL bieden + EN bid	NL keeps bieden/bidden apart; so does Laphurdi: bieda/beda (pray)
+bud	n	n		bid, offer (n.)	work-trade		SV bud + NL bod + DA bud	neuter at home in all three
 eksport	n	c		export	work-trade	high	FR exportation + EN export	
 import	n	c		import	work-trade	high	FR importation + EN import	
 rekning	n	c		bill, invoice	work-trade		SV räkning	
@@ -1024,6 +1030,8 @@ laboratorie	n	n		laboratory	school-knowledge	high	FR laboratoire	shaped like min
 sjanson	n	c		song	arts-leisure	high	FR chanson	everyday doublet: sang
 singa	v			sing	arts-leisure		EN sing + NL zingen	
 musik	n	c		music	arts-leisure		SV musik + FR musique	
+kor	n	n		choir, chorus (of singers)	arts-leisure		NL koor + DA kor + SV kör	neuter as NL het koor, DA et kor
+refreng	n	c		refrain, chorus (of a song)	arts-leisure		FR refrain + SV refräng	final stress, as all French loans
 melodi	n	c		melody	arts-leisure		SV melodi + FR mélodie	
 instrument	n	n		instrument	arts-leisure	high	FR instrument	
 piano	n	n		piano	arts-leisure		FR piano + SV piano	
@@ -1111,7 +1119,8 @@ den	det			the (common gender, before adjectives); it	function-words		SV den + DA
 det	det			the (neuter, before adjectives); it	function-words		SV det + DA det	also the pronoun it, as Swedish: det regnar
 de	det			the (plural, before adjectives)	function-words		SV de + DA de	attested: Sang av de Mange Strander
 verd	adj			worth, worthy	qualities		SV värd + NL waard	
-mykke	adv			much	function-words		SV mycket	te mykke = too much, as Dutch te veel
+fortjena	v			deserve, merit	qualities		SV förtjäna + DA fortjene	
+mykke	adv			much, very	function-words		SV mycket	te mykke = too much, as Dutch te veel; mykke stor = very big, as SV mycket stor
 bliva	v			become	common-verbs		SV bliva + DA blive	bliva + participle = passive: bliva lievat, to be loved
 redda	v			save, rescue	common-verbs		SV rädda + DA redde	beside redd (afraid), as in Swedish
 skrika	v			scream	communication		SV skrika	
@@ -1576,6 +1585,7 @@ kur	n	c		cure	body-health		FR cure + SV kur
 hela	v			heal	body-health		SV hela + NL helen	
 helning	n	c		healing	body-health		hela + -ing	
 friskna	v			recover (get well)	body-health		frisk + -na	-na inchoative, as in vakna
+konvalesera	v			convalesce	body-health	high	FR convalescence + EN convalesce	-era; the learned road to friskna
 resept	n	n		prescription	body-health		SV recept + FR recette	
 apotek	n	n		pharmacy	body-health		SV apotek + FR apothèque	
 apotekare	n	c		pharmacist	body-health		SV apotekare	
@@ -2119,9 +2129,12 @@ fremling	n	c		stranger	people-family		SV främling
 kamerat	n	c		comrade, companion	people-family		SV kamrat + FR camarade	
 kameratskap	n	c		companionship	people-family		kamerat + -skap	
 fiende	n	c		enemy	people-family		SV fiende + DA fjende	
+opponent	n	c		opponent, adversary	people-family		FR opposant + SV opponent	final stress, as president; softer than fiende
 kindtid	n	c		childhood	people-family		kind + tid	
 sjelvrend	n	c		soulmate, kindred spirit	people-family		sjel + vrend	
 skiljing	n	c		separation, parting	people-family		skilja + -ing	
+fremmeda	v			estrange, alienate	people-family		fremmed + -a	perfect fremmedat serves as the adjective: en fremmedat vrend
+fremmedskap	n	c		estrangement, alienation	people-family		fremmed + -skap	as vrendskap, its opposite
 engel	n	c		angel	society		NL engel + DA engel	
 gud	n	c		god, God	society		SV gud + DA gud + NL god	
 gudig	adj			divine	society		gud + -ig	
