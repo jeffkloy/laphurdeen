@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2316 words** - 1956 roots, 360 derived.
+**2317 words** - 1957 roots, 360 derived.
 
 | domain | words |
 |---|---|
@@ -27,7 +27,7 @@
 | digital | 110 |
 | society | 93 |
 | common-verbs | 146 |
-| qualities | 146 |
+| qualities | 147 |
 | function-words | 124 |
 
 ## world-nature
@@ -2201,6 +2201,7 @@
 | **brutal** | adj | brutal |  | FR brutal |
 | **bruun** | adj | brown |  | SV brun + NL bruin |
 | **dalig** | adj | bad |  | SV dålig |
+| **Dansk** | adj | Danish |  | DA dansk + SV dansk |
 | **dar** | adj | amber (colour) |  | FR doré + EN amber |
 | **direkt** | adj | direct |  | SV direkt + FR direct |
 | **djup** | adj | deep, profound |  | SV djup |
@@ -2748,6 +2749,7 @@
 | dank | thanks |
 | dans | dance (n.) |
 | dansa | dance (v.) |
+| Dansk | Danish |
 | dar | amber (colour) |
 | Darcambria | Darcambria (the harbour city) |
 | dat | that |

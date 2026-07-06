@@ -19,6 +19,9 @@ The result reads as a Germanic language wearing a French coat - much as English 
 ### In-world history
 The Founding Charter settlers arrived speaking English, Dutch, Swedish, and French. A contact pidgin formed on the docks of Laphurdeen bay within a generation; the **First Spelling Reform** later standardised it into Standard Laphurdi. The Reform replaced etymological spellings with phonetic ones (*ph* → *f*, so *frihed* not *phrihed*) - **but proper names kept their heritage spellings**, which is why *Laphurdeen* and *Laphurdi* retain the old ⟨ph⟩.
 
+### The Danish stowaway
+Danish is the stream with no shore. No Danish fleet sailed under the Founding Charter, and the anthem gives Denmark no verse - yet the lexicon cites Danish hundreds of times, third among the Germanic sources. The explanation is below decks: chartered ships need crews, and the fleets - the Swedish one above all - shipped Danish sailors out of the Sound ports. The dockside pidgin that became Laphurdi was spoken between decks before it was spoken between houses, so Danish settled exactly where sailors live in a language: in the small function words that steer a sentence (*fra*, *gennem*, *innen*, *siden*, *efter*, *forbi*, *os*), in words of distance and return (*fjern*, *tilbaka*), and in the habit - Danish-style, as §3 notes - of sending the article out front of an adjective. The settlers gave Laphurdi its shores; the crews gave it its rigging. That is why Danish has no verse in *Sang av de Mange Strander* and needs none: it is not one of the voices singing, it is the deck they stand on.
+
 ---
 
 ## 2. Alphabet and Sound
