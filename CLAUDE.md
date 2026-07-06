@@ -39,7 +39,7 @@ tooling; `cd` into the app first):
 ```sh
 npm run dev                            # Vite dev server
 npm run build                          # tsc type-check + production build to dist/
-npm test                               # vitest (translator and laphurdi only; landing-page has no tests)
+npm test                               # vitest (translator and laphurdi only; the website has no tests)
 npx vitest run src/test/audit.test.ts  # one test file
 npx vitest run -t "pattern"            # one test by name
 ```
@@ -90,7 +90,7 @@ pattern.
 
 ### The bilingual site
 
-`apps/landing-page` serves Laphurdi at `/` and English at `/en/` (language
+`apps/website` serves Laphurdi at `/` and English at `/en/` (language
 code is `lp`, not `lph`). Every page is a **pair** - a structural change
 (sections, anchors, nav) must land in both editions, kept in sync with
 `hreflang` alternates. Vite discovers entries by globbing for `index.html`,

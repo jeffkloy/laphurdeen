@@ -22,7 +22,7 @@ Deployed under `/laphurdikursen/` in the shared GitHub Pages artifact
 ## How it is built
 
 - Vite + vanilla TypeScript, no runtime dependencies - same formula as
-  `apps/landing-page` and `apps/translator`.
+  `apps/website` and `apps/translator`.
 - Hash-routed SPA: `#/` (course home) and `#/leksjon/<slug>`.
 - Lessons live in `src/lessons/*.ts` as typed data (`src/types.ts`);
   the renderer (`src/render.ts`) and quiz engine (`src/quiz.ts`) are content-blind.

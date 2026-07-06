@@ -72,5 +72,5 @@ agreed with the user:
 
 - Scratchpad canon audit over every lang="lp" string on the en pages and the
   full text of the lp pages (lang="en"/lang="fr" spans excluded).
-- `npm run build` in `apps/landing-page` (tsc + vite).
+- `npm run build` in `apps/website` (tsc + vite).
 - Course and translator suites only if `LEXICON.tsv` changes (not expected).
