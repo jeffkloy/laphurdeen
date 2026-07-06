@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2382 words** - 2005 roots, 377 derived.
+**2386 words** - 2006 roots, 380 derived.
 
 | domain | words |
 |---|---|
@@ -14,19 +14,19 @@
 | house-home | 65 |
 | clothing | 26 |
 | time-calendar | 53 |
-| numbers-measure | 62 |
+| numbers-measure | 63 |
 | motion-travel | 53 |
 | sea-ships | 44 |
-| work-trade | 87 |
+| work-trade | 88 |
 | communication | 102 |
 | mind-emotion | 148 |
 | law-civic | 180 |
 | arts-leisure | 61 |
 | school-knowledge | 66 |
 | science | 175 |
-| digital | 112 |
+| digital | 113 |
 | society | 93 |
-| common-verbs | 150 |
+| common-verbs | 151 |
 | qualities | 159 |
 | function-words | 128 |
 
@@ -868,6 +868,7 @@
 | **median** | adj | median | high | FR médiane |
 | **meter** | n (c) | metre |  | FR mètre |
 | **million** | num | million |  | FR million |
+| **minus** | prep | minus, less |  | SV minus + NL min |
 | **nien** | num | nine |  | SV nio + NL negen + EN nine |
 | **niende** | num | ninth |  | DA niende + SV nionde |
 | **nienti** | num | ninety |  | EN ninety + SV nittio |
@@ -1079,6 +1080,7 @@
 | **selja** | v | sell | everyday | SV sälja + DA sælge |
 | **seljing** | n (c) | sale, selling |  | selja + -ing |
 | **skatt** | n (c) | tax |  | SV skatt |
+| **skatta** | v | tax (v.) |  | skatt + -a (§3b verb from noun) |
 | **skift** | n (n) | shift (n.) |  | SV skift |
 | **skuld** | n (c) | debt |  | SV skuld + NL schuld |
 | **smed** | n (c) | smith |  | SV smed |
@@ -1946,6 +1948,7 @@
 | **prosessor** | n (c) | processor |  | FR processeur |
 | **radera** | v | delete |  | SV radera |
 | **robot** | n (c) | robot |  | EN robot + SV robot |
+| **santid** | n (c) | real time |  | sant + tid |
 | **sekerhedskopie** | n (c) | backup |  | sekerhed + kopie |
 | **server** | n (c) | server |  | EN server |
 | **signal** | n (c) | signal |  | FR signal + SV signal |
@@ -2171,6 +2174,7 @@
 | **redda** | v | save, rescue |  | SV rädda + DA redde |
 | **renkontrera** | v | meet | high | FR rencontrer |
 | **retta** | v | correct (v.) |  | rett + -a |
+| **retting** | n (c) | correction |  | retta + -ing |
 | **rinna** | v | flow |  | SV rinna |
 | **riva** | v | tear |  | SV riva |
 | **rora** | v | touch, stir |  | SV röra |
@@ -3858,6 +3862,7 @@
 | minne | memory (store) |
 | minoritet | minority |
 | minst | least |
+| minus | minus, less |
 | minut | minute |
 | misbruk | abuse, misuse |
 | mist | fog |
@@ -4210,6 +4215,7 @@
 | rett | correct, right |
 | retta | correct (v.) |
 | rettika | radish |
+| retting | correction |
 | rettvis | just, fair |
 | rettvished | justice, fairness |
 | rev | fox |
@@ -4287,6 +4293,7 @@
 | sannolikhed | probability |
 | sant | true |
 | santhed | truth |
+| santid | real time |
 | sap | juice |
 | sar | wound |
 | sara | hurt, wound (v.) |
@@ -4396,6 +4403,7 @@
 | skaping | creation |
 | skarp | sharp |
 | skatt | tax |
+| skatta | tax (v.) |
 | sked | spoon |
 | skel | shell |
 | skelett | skeleton |
