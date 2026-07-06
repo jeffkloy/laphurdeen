@@ -14,11 +14,13 @@ GRUNDLOJEN, or was added to the lexicon through the normal §3b
 word-building process (see the traveller's words: *lerna, besoka, resare,
 fras, behova, oversettare, praktisk*).
 
-Seven page pairs, each with its `/en/` twin: the main page, `praktisk/`
+Twenty page pairs, each with its `/en/` twin: the main page, `praktisk/`
 (money, Baaner Laphurdeen, the phrasebook), `provinser/` (the atlas of the
-sixteen provinces), `darcambria/` (the province), `darcambria/darlingmoors/`
-(the principal city), `lapentieur/`, and `agaetisboro/`. Vite discovers
-entries by globbing for `index.html`, so a new page registers itself.
+sixteen provinces) with thirteen province pages beneath it (every province
+except the three whose cards route to city pages), `darcambria/` (the
+province), `darcambria/darlingmoors/` (the principal city), `lapentieur/`,
+and `agaetisboro/`. Vite discovers entries by globbing for `index.html`,
+so a new page registers itself.
 
 ## Develop
 
