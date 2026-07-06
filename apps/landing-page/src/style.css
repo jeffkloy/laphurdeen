@@ -548,6 +548,13 @@ a {
   grid-template-columns: minmax(17rem, 34rem);
 }
 
+/* Anything that follows a card grid needs air — paragraphs and CTA
+   boxes otherwise sit flush against the cards' bottom edge. */
+.card-row + .section-lede,
+.card-row + .translator-cta {
+  margin-top: 2.4rem;
+}
+
 .card {
   background: #fff;
   border: 1px solid var(--line);
