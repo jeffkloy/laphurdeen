@@ -269,7 +269,7 @@ tre	n	n		tree	world-nature		SV träd	distinct from tri (three)
 blad	n	n		leaf	world-nature		NL blad + SV blad	
 rot	n	c		root	world-nature		SV rot + EN root	
 blomma	n	c		flower	world-nature		SV blomma + NL bloem	
-gras	n	n		grass	world-nature		NL gras + EN grass	
+gras	n	n		grass; weed (marijuana, slang)	world-nature		NL gras + EN grass	
 fro	n	n		seed	world-nature		SV frö	
 bark	n	c		bark (of tree)	world-nature		SV bark	
 frukt	n	c		fruit	world-nature		SV frukt + FR fruit	
@@ -622,7 +622,7 @@ opna	v			open (v.)	common-verbs		SV öppna
 stenga	v			close (v.)	common-verbs		SV stänga	
 bera	v			carry	common-verbs		SV bära	
 kasta	v			throw	common-verbs		SV kasta	
-fanga	v			catch	common-verbs		SV fånga	
+fanga	v			catch, capture	common-verbs		SV fånga	
 halda	v			hold	common-verbs		DA holde + SV hålla	
 draga	v			pull	common-verbs		SV draga + NL dragen	
 pusja	v			push	common-verbs		EN push + FR pousser	
@@ -670,7 +670,7 @@ frysa	v			freeze	common-verbs		SV frysa
 flyta	v			float	common-verbs		SV flyta	
 rinna	v			flow	common-verbs		SV rinna	
 tella	v			count	common-verbs		NL tellen + DA tælle	
-kampa	v			fight	common-verbs		SV kämpa + NL kampen	
+kampa	v			fight, struggle	common-verbs		SV kämpa + NL kampen	
 jaga	v			hunt	common-verbs		SV jaga + NL jagen	
 vinna	v			win	common-verbs		SV vinna + NL winnen	
 treffa	v			meet	common-verbs	everyday	SV träffa	formal doublet: renkontrera
@@ -758,7 +758,7 @@ skarp	adj			sharp	qualities		SV skarp + NL scherp
 slo	adj			dull, blunt	qualities		SV slö	
 slett	adj			smooth	qualities		SV slät + DA slet	
 rund	adj			round	qualities		SV rund + NL rond	
-djup	adj			deep	qualities		SV djup	
+djup	adj			deep, profound	qualities		SV djup	
 flak	adj			shallow	qualities		SV flack + NL vlak	
 hoog	adj			high	qualities		NL hoog	say "hohg"
 laag	adj			low	qualities		NL laag	
@@ -800,7 +800,7 @@ frykt	n	c		fear (n.)	mind-emotion		DA frygt + SV fruktan
 frykta	v			fear (v.)	mind-emotion		frykt + -a	
 mod	n	n		courage	mind-emotion		SV mod + DA mod	
 modig	adj			brave	mind-emotion		mod + -ig	
-sorg	n	c		sorrow	mind-emotion		SV sorg + DA sorg	
+sorg	n	c		sorrow, grief	mind-emotion		SV sorg + DA sorg	
 graata	v			weep, cry	mind-emotion		SV gråta + DA græde	
 lakka	v			laugh	mind-emotion		NL lachen + DA le	
 smila	v			smile	mind-emotion		SV smila + EN smile	
@@ -1101,7 +1101,7 @@ grupp	n	c		group	people-family		SV grupp + FR groupe
 ilandgrupp	n	c		archipelago	world-nature		iland + grupp	
 gyldig	adj			valid	law-civic		DA gyldig + SV giltig	
 ogyldig	adj			invalid, void	law-civic		o- + gyldig	
-mot	prep			against	function-words		SV mot	
+mot	prep			against, toward	function-words		SV mot	
 offisiell	adj			official	law-civic	high	FR officiel	
 kommisjon	n	c		commission	law-civic	high	FR commission	
 symbol	n	n		symbol	arts-leisure	high	FR symbole	
@@ -1228,7 +1228,7 @@ konvenor	n	c		convenor	law-civic	high	EN convenor + FR convener
 sjarta	n	c		charter	law-civic	high	FR charte	Grundsjartan = the Founding Charter
 stemmare	n	c		voter, elector	law-civic		stemma + -are	
 forsking	n	c		research (n.)	school-knowledge		forska + -ing	
-samling	n	c		assembly, gathering	law-civic		SV samling	Grundsamlingen = the Constituent Assembly
+samling	n	c		assembly, gathering, collection	law-civic		SV samling	Grundsamlingen = the Constituent Assembly
 utgava	n	c		edition	communication		SV utgåva	
 tekst	n	c		text	communication		FR texte + SV text	
 beide	det			both	function-words		NL beide + DA begge	
@@ -1289,7 +1289,7 @@ deklarering	n	c		declaration	law-civic		deklarera + -ing
 seljing	n	c		sale, selling	work-trade		selja + -ing	
 okraft	n	c		incapacity	body-health		o- + kraft	
 so	adv			so, thus	function-words		SV så + EN so	
-under	prep			under, according to	function-words		SV under + EN under	
+under	prep			under, during, according to	function-words		SV under + EN under	
 ferst	adv			first, firstly	function-words		DA først	
 sist	adj			last, final	qualities		SV sist	
 alder	n	c		age	people-family		SV ålder	
@@ -2017,3 +2017,283 @@ konsert	n	c		concert	arts-leisure		FR concert + SV konsert
 nabolag	n	n		neighbourhood	house-home		DA nabolag	
 ostra	n	c		oyster	plants-animals		SV ostron + FR huître	Oyster Point keeps its English Charter name
 praktisk	adj			practical	qualities		SV praktisk + FR pratique	-isk learned adjective per §3b
+sterlys	n	n		starlight	world-nature		ster + lys	
+nordster	n	c		north star, polestar	world-nature		nord + ster	
+morkhed	n	c		darkness	world-nature		mork + -hed	
+gnista	n	c		spark	world-nature		SV gnista + DA gnist	
+gnistra	v			sparkle, glitter	world-nature		SV gnistra	
+lyd	n	c		sound	world-nature		DA lyd + SV ljud	
+lyda	v			sound (v.)	world-nature		lyd + -a	
+ekko	n	n		echo	world-nature		DA ekko	
+doft	n	c		scent, fragrance	world-nature		SV doft	
+landskap	n	n		landscape	world-nature		SV landskap + NL landschap	loan; neuter, unlike -skap derivations
+rymd	n	c		space (open, outer)	science		SV rymd	
+substans	n	c		substance	science		FR substance	
+fysisk	adj			physical	science		FR physique	
+transformera	v			transform	science		FR transformer	
+transformasjon	n	c		transformation	science		FR transformation	
+adem	n	c		breath	body-health		NL adem	
+vakna	v			wake, wake up	body-health		SV vakna + DA vågne	
+domna	v			go numb	body-health		SV domna	
+num	adj			numb	body-health		EN numb	the Reform dropped the silent b
+verka	v			ache, throb	body-health		SV värka	distinct from werka (work)
+overleva	v			survive	body-health		over + leva	
+overleving	n	c		survival	body-health		overleva + -ing	
+utmatta	v			exhaust, wear out	body-health		SV utmatta	
+utmatting	n	c		exhaustion	body-health		utmatta + -ing	
+avhengig	adj			addicted, dependent	body-health		DA afhængig	
+avhengighed	n	c		addiction, dependence	body-health		avhengig + -hed	
+nykter	adj			sober	body-health		SV nykter	
+nykterhed	n	c		sobriety	body-health		nykter + -hed	
+selfmord	n	n		suicide	body-health		self + mord	
+arr	n	n		scar	body-health		SV ärr + DA ar	
+blodstrom	n	c		bloodstream	body-health		blod + strom	
+smertig	adj			painful	body-health		smerta + -ig	
+kyss	n	c		kiss (n.)	people-family		SV kyss + DA kys	
+kyssa	v			kiss	people-family		kyss + -a	
+lievling	n	c		beloved, darling	people-family		NL lieveling	
+fremling	n	c		stranger	people-family		SV främling	
+kamerat	n	c		comrade, companion	people-family		SV kamrat + FR camarade	
+kameratskap	n	c		companionship	people-family		kamerat + -skap	
+fiende	n	c		enemy	people-family		SV fiende + DA fjende	
+kindtid	n	c		childhood	people-family		kind + tid	
+sjelvrend	n	c		soulmate, kindred spirit	people-family		sjel + vrend	
+skiljing	n	c		separation, parting	people-family		skilja + -ing	
+engel	n	c		angel	society		NL engel + DA engel	
+gud	n	c		god, God	society		SV gud + DA gud + NL god	
+gudig	adj			divine	society		gud + -ig	
+aand	n	c		spirit	society		DA ånd	
+sjelig	adj			spiritual	society		sjel + -ig	
+spoke	n	n		ghost, specter	society		SV spöke	
+spoka	v			haunt	society		spoke + -a	
+beda	v			pray, beg	society		DA bede + NL bidden	
+beding	n	c		prayer	society		beda + -ing	
+velsigna	v			bless	society		DA velsigne + SV välsigna	
+velsigning	n	c		blessing	society		velsigna + -ing	
+problem	n	n		problem	society		FR problème	
+situasjon	n	c		situation	society		FR situation	
+risk	n	c		risk	society		SV risk + FR risque	
+riskera	v			risk (v.)	society		FR risquer	
+framsteg	n	n		progress	society		fram + steg	
+mord	n	n		murder	law-civic		SV mord + DA mord	
+morda	v			murder (v.)	law-civic		mord + -a	
+skilsmisse	n	c		divorce	law-civic		DA skilsmisse	
+representera	v			represent	law-civic		FR représenter	
+glede	n	c		joy, gladness	mind-emotion		DA glæde	
+gleda	v			gladden, delight	mind-emotion		glede + -a	
+troest	n	c		comfort, consolation	mind-emotion		NL troost + DA trøst	
+troesta	v			comfort, console	mind-emotion		troest + -a	
+sorga	v			mourn, grieve	mind-emotion		sorg + -a	
+lengta	v			long, yearn	mind-emotion		SV längta + DA længes	
+lengting	n	c		longing, yearning	mind-emotion		lengta + -ing	
+sakna	v			miss, lack	mind-emotion		SV sakna	
+angst	n	c		anxiety, dread	mind-emotion		NL angst + DA angst	
+kval	n	n		anguish, torment	mind-emotion		SV kval	
+fortvivla	v			despair	mind-emotion		DA fortvivle + SV förtvivla	
+fortvivling	n	c		despair (n.)	mind-emotion		fortvivla + -ing	
+arghed	n	c		anger	mind-emotion		arg + -hed	
+rasa	v			rage, rave	mind-emotion		SV rasa + DA rase	
+raseri	n	n		rage, fury	mind-emotion		DA raseri	
+angra	v			regret, rue	mind-emotion		SV ångra	
+angring	n	c		regret, remorse	mind-emotion		angra + -ing	
+bekymra	v			worry, trouble	mind-emotion		DA bekymre + SV bekymra	
+bekymring	n	c		worry, concern	mind-emotion		bekymra + -ing	
+tillit	n	c		trust, confidence	mind-emotion		SV tillit + DA tillid	
+lita	v			trust, rely on	mind-emotion		SV lita	
+iver	n	c		eagerness, zeal, excitement	mind-emotion		DA iver + SV iver	
+hjertsorg	n	c		heartbreak	mind-emotion		hjerta + sorg	
+emosjon	n	c		emotion	mind-emotion		FR émotion	
+affeksjon	n	c		affection	mind-emotion		FR affection	
+intimitet	n	c		intimacy	mind-emotion		FR intimité	
+desperat	adj			desperate	mind-emotion		SV desperat + DA desperat	
+insikt	n	c		insight, realization	mind-emotion		SV insikt	
+visjon	n	c		vision	mind-emotion		FR vision	
+intensjon	n	c		intention	mind-emotion		FR intention	
+fantasi	n	c		fantasy, imagination	mind-emotion		SV fantasi + FR fantaisie	
+imaginera	v			imagine	mind-emotion		FR imaginer	
+meditera	v			meditate	mind-emotion		FR méditer	
+meditasjon	n	c		meditation	mind-emotion		FR méditation	
+grubbla	v			brood, ponder	mind-emotion		SV grubbla + DA gruble	
+betrakta	v			contemplate, regard	mind-emotion		SV betrakta + DA betragte	
+igenkenna	v			recognize	mind-emotion		igen + kenna	
+forsona	v			reconcile	mind-emotion		DA forsone + SV försona	
+forsoning	n	c		reconciliation	mind-emotion		forsona + -ing	
+besvika	v			disappoint	mind-emotion		SV besvika	
+besviking	n	c		disappointment	mind-emotion		besvika + -ing	
+oppmerksam	adj			attentive	mind-emotion		DA opmærksom	
+oppmerksamhed	n	c		attention	mind-emotion		oppmerksam + -hed	
+forvirra	v			confuse, bewilder	mind-emotion		SV förvirra	
+forvirring	n	c		confusion	mind-emotion		forvirra + -ing	
+evne	n	c		ability, capacity	mind-emotion		DA evne	
+snyfta	v			sob	mind-emotion		SV snyfta	
+lakking	n	c		laughter	mind-emotion		lakka + -ing	
+nervaro	n	c		presence	mind-emotion		SV närvaro	
+fravaro	n	c		absence	mind-emotion		SV frånvaro	
+rost	n	c		voice	communication		SV röst	
+samtal	n	n		conversation	communication	everyday	SV samtal + DA samtale	
+konversasjon	n	c		conversation	communication	high	FR conversation	
+beretta	v			tell, recount, narrate	communication		DA berette	
+beretting	n	c		narrative, account, tale	communication		beretta + -ing	
+uttrykk	n	n		expression	communication		ut + trykk	
+uttrykka	v			express	communication		uttrykk + -a	
+suggerera	v			suggest, propose	communication		FR suggérer	
+argument	n	n		argument	communication		FR argument	
+argumentera	v			argue	communication		FR argumenter	
+ursekta	v			excuse, apologize	communication		SV ursäkta	
+bekenna	v			confess, admit	communication		NL bekennen + DA bekende	
+bekenning	n	c		confession, admission	communication		bekenna + -ing	
+erkenna	v			acknowledge	communication		NL erkennen + DA erkende	
+lova	v			promise, vow	communication		SV lova + DA love	
+lofte	n	n		promise (n.)	communication		DA løfte	
+gebar	n	n		gesture	communication		NL gebaar	
+sprekare	n	c		speaker	communication		spreka + -are	
+lesare	n	c		reader	communication		lesa + -are	
+rytme	n	c		rhythm	arts-leisure		FR rythme	
+rim	n	n		rhyme	arts-leisure		SV rim + DA rim	
+rima	v			rhyme (v.)	arts-leisure		rim + -a	
+drama	n	n		drama	arts-leisure		SV drama + FR drame	
+dramatisk	adj			dramatic	arts-leisure		drama + -isk	
+tragedi	n	c		tragedy	arts-leisure		FR tragédie	
+portrett	n	n		portrait	arts-leisure		FR portrait	
+humor	n	c		humor	arts-leisure		FR humour + SV humor	
+romans	n	c		romance	arts-leisure		FR romance	
+romantisk	adj			romantic	arts-leisure		SV romantisk + DA romantisk	
+forfattare	n	c		author, writer	arts-leisure		SV författare + DA forfatter	
+bildsprak	n	n		imagery	arts-leisure		bild + sprak	
+mask	n	c		mask	arts-leisure		FR masque	
+ton	n	c		tone	arts-leisure		SV ton + FR ton	
+metaforisk	adj			metaphorical	school-knowledge		metafor + -isk	
+struktur	n	c		structure	school-knowledge		FR structure	
+patroon	n	n		pattern	school-knowledge		NL patroon	
+psykologisk	adj			psychological	school-knowledge		psykologi + -isk	
+eksistera	v			exist	school-knowledge		FR exister	
+eksistens	n	c		existence	school-knowledge		FR existence	
+eksistensiell	adj			existential	school-knowledge		FR existentiel	
+perspektiv	n	n		perspective	school-knowledge		FR perspective	
+kontrast	n	c		contrast	school-knowledge		FR contraste	
+repetisjon	n	c		repetition	school-knowledge		FR répétition	
+repetera	v			repeat	school-knowledge		FR répéter	
+ideal	n	n		ideal	school-knowledge		FR idéal	
+idealisme	n	c		idealism	school-knowledge		FR idéalisme	
+fundamentell	adj			fundamental	school-knowledge		FR fondamental	
+kontekst	n	c		context	school-knowledge		FR contexte	
+visdom	n	c		wisdom	school-knowledge		SV visdom + DA visdom	
+oppdaga	v			discover	school-knowledge		SV upptäcka + DA opdage	
+oppdaging	n	c		discovery	school-knowledge		oppdaga + -ing	
+nivaa	n	n		level	numbers-measure		FR niveau	
+parallell	adj			parallel	numbers-measure		FR parallèle	
+ekta	adj			genuine, real	qualities		SV äkta + NL echt	
+hel	adj			whole, entire	qualities		SV hel + NL heel	
+hul	adj			hollow	qualities		DA hul + NL hol	
+endelos	adj			endless	qualities		NL eindeloos + DA endeløs	
+perfekt	adj			perfect	qualities		SV perfekt + FR parfait	
+brutal	adj			brutal	qualities		FR brutal	
+barsk	adj			harsh, gruff	qualities		SV barsk + DA barsk	
+mogen	adj			mature, ripe	qualities		SV mogen	
+unik	adj			unique	qualities		FR unique	
+autentisk	adj			authentic	qualities		FR authentique	
+merkverdig	adj			remarkable, curious	qualities		DA mærkværdig + SV märkvärdig	
+plotslig	adj			sudden	qualities		SV plötslig	
+normal	adj			normal	qualities		FR normal	
+modern	adj			modern	qualities		FR moderne + SV modern	
+inre	adj			inner, internal	qualities		SV inre	
+ytre	adj			outer, external	qualities		DA ytre + SV yttre	
+intens	adj			intense	qualities		FR intense	
+kraftig	adj			powerful	qualities		kraft + -ig	
+mojlig	adj			possible	qualities		SV möjlig	
+omojlig	adj			impossible	qualities		o- + mojlig	
+mojlighed	n	c		possibility	qualities		mojlig + -hed	
+gensidig	adj			mutual	qualities		DA gensidig	
+ogensidig	adj			unrequited, one-sided	qualities		o- + gensidig	
+gensidighed	n	c		reciprocity, mutuality	qualities		gensidig + -hed	
+svaarhed	n	c		difficulty	qualities		svaar + -hed	
+djuphed	n	c		depth	qualities		djup + -hed	
+belhed	n	c		beauty	qualities		bela + -hed	
+varmhed	n	c		warmth	qualities		varm + -hed	
+teder	adj			tender, gentle	qualities		NL teder	
+fremmed	adj			strange, unfamiliar, foreign	qualities		DA fremmed	
+bekend	adj			familiar, well-known	qualities		NL bekend	
+universell	adj			universal	qualities		FR universel	
+lievverd	adj			lovable	qualities		liev + verd	
+ojeblik	n	n		moment, instant	time-calendar	everyday	DA øjeblik + NL ogenblik	
+moment	n	n		moment, instant	time-calendar	high	FR moment	
+gang	n	c		time, occasion	time-calendar		DA gang + SV gång	
+framtid	n	c		future	time-calendar		fram + tid	
+fortid	n	c		past (n.)	time-calendar		for + tid	
+nutid	n	c		present (time)	time-calendar		nu + tid	
+evig	adj			eternal, everlasting	time-calendar		SV evig + NL eeuwig	
+evighed	n	c		eternity	time-calendar		evig + -hed	
+samtidig	adj			simultaneous	time-calendar		SV samtidig + DA samtidig	
+skapa	v			create	common-verbs		SV skapa + DA skabe	
+skaping	n	c		creation	common-verbs		skapa + -ing	
+skapare	n	c		creator	common-verbs		skapa + -are	
+bevega	v			move, stir	common-verbs		NL bewegen + DA bevæge	
+beveging	n	c		movement, motion	common-verbs		bevega + -ing	
+avsloja	v			reveal, disclose	common-verbs		SV avslöja	
+utforska	v			explore	common-verbs		SV utforska	
+utforsking	n	c		exploration	common-verbs		utforska + -ing	
+knusa	v			crush, shatter, devastate	common-verbs		DA knuse	
+avvisa	v			reject, turn away	common-verbs		av + visa	
+avvising	n	c		rejection	common-verbs		avvisa + -ing	
+akseptera	v			accept	common-verbs		FR accepter	
+akseptering	n	c		acceptance	common-verbs		akseptera + -ing	
+hantera	v			handle, manage	common-verbs		SV hantera	
+fortsetta	v			continue	common-verbs		SV fortsätta + DA fortsætte	
+undvika	v			avoid	common-verbs		SV undvika	
+forventa	v			expect	common-verbs		DA forvente	
+forventing	n	c		expectation	common-verbs		forventa + -ing	
+overraska	v			surprise	common-verbs		SV överraska + DA overraske	
+overrasking	n	c		surprise (n.)	common-verbs		overraska + -ing	
+utmana	v			challenge	common-verbs		SV utmana	
+utmaning	n	c		challenge (n.)	common-verbs		utmana + -ing	
+gripa	v			grip, seize	common-verbs		SV gripa + DA gribe	
+herda	v			endure, persevere	common-verbs		SV härda	
+fela	v			fail, err	common-verbs		fel + -a	
+feling	n	c		failure	common-verbs		fela + -ing	
+letta	v			lighten, relieve	common-verbs		lett + -a	
+letting	n	c		relief	common-verbs		letta + -ing	
+lata	v			let, allow	common-verbs		SV låta + NL laten	
+tilhora	v			belong	common-verbs		SV tillhöra + DA tilhøre	
+knyta	v			tie, knot, bind	common-verbs		SV knyta	
+skifta	v			shift, switch	common-verbs		SV skifta	
+stotta	v			support, prop up	common-verbs		SV stötta	
+forstora	v			destroy, ruin	common-verbs		SV förstöra	
+forstoring	n	c		destruction	common-verbs		forstora + -ing	
+forlata	v			abandon, forsake	common-verbs		DA forlade + NL verlaten	
+forlating	n	c		abandonment	common-verbs		forlata + -ing	
+skilja	v			separate, part	common-verbs		SV skilja	
+kamp	n	c		fight, struggle (n.)	common-verbs		SV kamp + DA kamp	
+djupa	v			deepen	common-verbs		djup + -a	
+erfara	v			experience (v.)	common-verbs		SV erfara + NL ervaren	
+erfaring	n	c		experience (n.)	common-verbs		erfara + -ing	
+flytta	v			move (house), relocate	motion-travel		SV flytta	
+nerma	v			approach, near	motion-travel		SV närma	
+flykta	v			flee, escape	motion-travel		DA flygte	
+flykt	n	c		flight, escape	motion-travel		SV flykt + DA flugt	
+streva	v			strive, toil	work-trade		SV sträva + DA stræbe	
+strev	n	n		effort, striving	work-trade		DA stræb	
+leverera	v			deliver	work-trade		SV leverera + FR livrer	
+planera	v			plan (v.)	work-trade		SV planera + FR planer	
+plan	n	c		plan	work-trade		FR plan	
+skift	n	n		shift (n.)	work-trade		SV skift	
+sirene	n	c		siren	sea-ships		FR sirène	
+dron	n	c		drone	digital		EN drone	
+sofa	n	c		sofa, couch	house-home		EN sofa + FR sofa	
+kudde	n	c		pillow, cushion	house-home		SV kudde	
+isteden	adv			instead	function-words		DA i stedet	
+heller	adv			rather, preferably, sooner	function-words		DA hellere + SV hellre	
+medan	conj			while	function-words		SV medan	
+selfs	adv			even	function-words		NL zelfs	
+endaa	adv			yet, still, though	function-words		SV ändå + DA endda	
+altfor	adv			too, excessively	function-words		alt + for	
+tils	prep			until	function-words		SV tills	
+trots	prep			despite, in spite of	function-words		SV trots	
+bortom	prep			beyond	function-words		bort + om	
+tvers	adv			across, crosswise	function-words		SV tvärs + DA tværs	
+bakom	prep			behind	function-words		SV bakom	
+selfom	conj			although, even though	function-words		self + om	
+siden	prep			since; ago	function-words		DA siden	
+elk	det			each, every	function-words		NL elk	
+fram	adv			forward, forth	function-words		SV fram + DA frem	
+engang	adv			once	function-words		en + gang	
+forevig	adv			forever	function-words		for + evig	

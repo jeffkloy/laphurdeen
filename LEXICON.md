@@ -2,33 +2,33 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` — do not edit by hand.*
 
-**2011 words** — 1744 roots, 267 derived.
+**2298 words** — 1943 roots, 355 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 70 |
-| plants-animals | 51 |
-| body-health | 233 |
-| people-family | 66 |
+| world-nature | 81 |
+| plants-animals | 52 |
+| body-health | 250 |
+| people-family | 76 |
 | food-drink | 144 |
-| house-home | 62 |
+| house-home | 65 |
 | clothing | 25 |
-| time-calendar | 44 |
-| numbers-measure | 60 |
-| motion-travel | 46 |
-| sea-ships | 42 |
-| work-trade | 71 |
-| communication | 79 |
-| mind-emotion | 96 |
-| law-civic | 172 |
-| arts-leisure | 42 |
-| school-knowledge | 46 |
-| science | 161 |
-| digital | 108 |
-| society | 75 |
-| common-verbs | 103 |
-| qualities | 112 |
-| function-words | 103 |
+| time-calendar | 53 |
+| numbers-measure | 62 |
+| motion-travel | 50 |
+| sea-ships | 43 |
+| work-trade | 79 |
+| communication | 98 |
+| mind-emotion | 146 |
+| law-civic | 176 |
+| arts-leisure | 57 |
+| school-knowledge | 64 |
+| science | 166 |
+| digital | 109 |
+| society | 91 |
+| common-verbs | 145 |
+| qualities | 146 |
+| function-words | 120 |
 
 ## world-nature
 
@@ -44,13 +44,17 @@
 | **boge** | n (c) | bow, arc |  | SV båge + NL boog |
 | **dal** | n (c) | valley |  | SV dal |
 | **Darcambria** | n (c) | Darcambria (the harbour city) |  | FR doré + EN amber + FR cambrer |
+| **doft** | n (c) | scent, fragrance |  | SV doft |
+| **ekko** | n (n) | echo |  | DA ekko |
 | **eld** | n (c) | fire |  | SV eld |
 | **energi** | n (c) | energy | high | FR énergie |
 | **felt** | n (n) | field |  | DA felt + SV fält |
 | **flod** | n (c) | river |  | SV flod |
 | **fro** | n (n) | seed |  | SV frö |
 | **frukt** | n (c) | fruit |  | SV frukt + FR fruit |
-| **gras** | n (n) | grass |  | NL gras + EN grass |
+| **gnista** | n (c) | spark |  | SV gnista + DA gnist |
+| **gnistra** | v | sparkle, glitter |  | SV gnistra |
+| **gras** | n (n) | grass; weed (marijuana, slang) |  | NL gras + EN grass |
 | **grund** | n (c) | foundation, ground |  | SV grund + NL grond |
 | **himmel** | n (c) | sky |  | SV himmel |
 | **holm** | n (c) | islet |  | SV holme |
@@ -65,14 +69,20 @@
 | **kust** | n (c) | coast |  | SV kust + NL kust |
 | **lak** | n (c) | lake |  | FR lac + EN lake |
 | **land** | n (n) | land, country |  | EN land + NL land + SV land |
+| **landskap** | n (n) | landscape |  | SV landskap + NL landschap |
 | **Lapentieur** | n (c) | Lapentieur (the capital) |  | FR la pente + -ieur |
 | **Laphurdeen** | n (c) | Laphurdeen (the Commonwealth) |  | FR la + SV fjärd |
 | **luft** | n (c) | air |  | SV luft + NL lucht |
+| **lyd** | n (c) | sound |  | DA lyd + SV ljud |
+| **lyda** | v | sound (v.) |  | lyd + -a |
 | **lys** | n (n) | light |  | DA lys + SV ljus |
 | **maan** | n (c) | moon |  | NL maan |
+| **marsk** | n (c) | salt marsh |  | DA marsk + DE Marsch |
 | **mist** | n (c) | fog |  | EN mist + NL mist |
+| **morkhed** | n (c) | darkness |  | mork + -hed |
 | **natur** | n (c) | nature |  | FR nature + SV natur |
 | **nord** | n (c) | north |  | FR nord + SV norr |
+| **nordster** | n (c) | north star, polestar |  | nord + ster |
 | **oest** | n (c) | east |  | NL oost |
 | **paradis** | n (n) | paradise |  | FR paradis + SV paradis |
 | **park** | n (c) | park |  | EN park + NL park + SV park |
@@ -89,6 +99,7 @@
 | **stad** | n (c) | city |  | NL stad + SV stad |
 | **sten** | n (c) | stone |  | SV sten |
 | **ster** | n (c) | star |  | NL ster + EN star |
+| **sterlys** | n (n) | starlight |  | ster + lys |
 | **storm** | n (c) | storm |  | EN storm + SV storm |
 | **stov** | n (n) | dust |  | DA støv |
 | **strand** | n (c) | beach, shore |  | NL strand + SV strand |
@@ -143,6 +154,7 @@
 | **maage** | n (c) | gull |  | DA måge |
 | **mus** | n (c) | mouse |  | SV mus + NL muis |
 | **orm** | n (c) | snake |  | SV orm |
+| **ostra** | n (c) | oyster |  | SV ostron + FR huître |
 | **pels** | n (c) | fur |  | DA pels |
 | **planta** | n (c) | plant |  | SV planta + FR plante |
 | **ratt** | n (c) | rat |  | SV råtta + NL rat |
@@ -165,6 +177,7 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **adem** | n (c) | breath |  | NL adem |
 | **adiksjon** | n (c) | addiction | high | FR addiction |
 | **akut** | adj | acute |  | SV akut + FR aigu |
 | **alergi** | n (c) | allergy |  | FR allergie |
@@ -177,9 +190,12 @@
 | **apotek** | n (n) | pharmacy |  | SV apotek + FR apothèque |
 | **apotekare** | n (c) | pharmacist |  | SV apotekare |
 | **arm** | n (c) | arm |  | EN arm + NL arm + SV arm |
+| **arr** | n (n) | scar |  | SV ärr + DA ar |
 | **ars** | n (c) | ass (vulgar) | everyday | SV arsle + EN arse + NL aars |
 | **arterie** | n (c) | artery |  | FR artère + SV artär |
 | **astma** | n (c) | asthma |  | SV astma + FR asthme |
+| **avhengig** | adj | addicted, dependent |  | DA afhængig |
+| **avhengighed** | n (c) | addiction, dependence |  | avhengig + -hed |
 | **baar** | n (c) | stretcher |  | SV bår |
 | **bad** | n (n) | bath |  | SV bad + NL bad |
 | **bak** | n (c) | backside, butt | everyday | SV bak + DA bagdel |
@@ -199,6 +215,7 @@
 | **blodgrupp** | n (c) | blood type |  | blod + grupp |
 | **blodkerl** | n (n) | blood vessel |  | blod + kerl |
 | **blodpropp** | n (c) | blood clot |  | blod + propp |
+| **blodstrom** | n (c) | bloodstream |  | blod + strom |
 | **blodtrykk** | n (n) | blood pressure |  | blod + trykk |
 | **borderline** | n (c) | borderline (personality condition) | high | EN borderline |
 | **bot** | n (c) | remedy, cure |  | SV bot |
@@ -213,6 +230,7 @@
 | **diagnostisera** | v | diagnose |  | FR diagnostiquer |
 | **dod** | n (c) | death |  | SV död + DA død |
 | **doktor** | n (c) | doctor | everyday | SV doktor + NL dokter |
+| **domna** | v | go numb |  | SV domna |
 | **donor** | n (c) | donor |  | EN donor + FR donneur |
 | **dos** | n (c) | dose |  | FR dose + SV dos |
 | **dov** | adj | deaf |  | SV döv + DA døv |
@@ -311,6 +329,9 @@
 | **nerv** | n (c) | nerve |  | SV nerv + NL zenuw |
 | **nese** | n (c) | nose |  | DA næse + NL neus |
 | **njure** | n (c) | kidney |  | SV njure + DA nyre |
+| **num** | adj | numb |  | EN numb |
+| **nykter** | adj | sober |  | SV nykter |
+| **nykterhed** | n (c) | sobriety |  | nykter + -hed |
 | **nysa** | v | sneeze |  | SV nysa |
 | **obduksjon** | n (c) | autopsy |  | SV obduktion |
 | **oje** | n (n) | eye |  | DA øje |
@@ -320,6 +341,8 @@
 | **operera** | v | operate (surgically) |  | FR opérer |
 | **ore** | n (n) | ear |  | SV öra + DA øre |
 | **organdonor** | n (c) | organ donor |  | organ + donor |
+| **overleva** | v | survive |  | over + leva |
+| **overleving** | n (c) | survival |  | overleva + -ing |
 | **parasit** | n (c) | parasite |  | FR parasite |
 | **pasient** | n (c) | patient |  | FR patient |
 | **pille** | n (c) | pill |  | DA pille |
@@ -341,6 +364,7 @@
 | **sar** | n (n) | wound |  | SV sår + NL zeer |
 | **sara** | v | hurt, wound (v.) |  | sar + -a |
 | **seksuell** | adj | sexual | high | FR sexuel |
+| **selfmord** | n (n) | suicide |  | self + mord |
 | **sena** | n (c) | tendon |  | SV sena |
 | **sep** | n (c) | soap |  | NL zeep + SV såpa |
 | **sinnsjukhed** | n (c) | mental illness |  | sinn + sjukhed |
@@ -358,6 +382,7 @@
 | **slem** | n (n) | mucus |  | NL slijm + SV slem |
 | **smerta** | n (c) | pain |  | SV smärta |
 | **smerthed** | n (c) | soreness |  | smerta + -hed |
+| **smertig** | adj | painful |  | smerta + -ig |
 | **smertmedel** | n (n) | painkiller |  | smerta + medel |
 | **smitta** | n (c) | contagion |  | SV smitta |
 | **smittsam** | adj | contagious |  | SV smittsam |
@@ -391,12 +416,16 @@
 | **tunga** | n (c) | tongue |  | SV tunga |
 | **tutt** | n (c) | tit (colloquial) | everyday | SV tutt + NL tiet |
 | **urin** | n (c) | urine |  | FR urine + SV urin |
+| **utmatta** | v | exhaust, wear out |  | SV utmatta |
+| **utmatting** | n (c) | exhaustion |  | utmatta + -ing |
 | **utslag** | n (n) | rash |  | SV utslag |
+| **vakna** | v | wake, wake up |  | SV vakna + DA vågne |
 | **vaksin** | n (n) | vaccine |  | FR vaccin |
 | **vaksinera** | v | vaccinate |  | FR vacciner |
 | **vaska** | v | wash |  | SV vaska + NL wassen |
 | **ven** | n (c) | vein |  | SV ven + FR veine |
 | **verk** | n (c) | ache |  | SV värk |
+| **verka** | v | ache, throb |  | SV värka |
 | **virus** | n (n) | virus |  | EN virus + SV virus |
 
 ## people-family
@@ -421,9 +450,11 @@
 | **dumhoved** | n (n) | blockhead | everyday | dum + hoved |
 | **fader** | n (c) | father |  | SV fader + NL vader |
 | **famille** | n (c) | family |  | FR famille |
+| **fiende** | n (c) | enemy |  | SV fiende + DA fjende |
 | **flika** | n (c) | girl |  | SV flicka |
 | **folk** | n (n) | people |  | SV folk + NL volk |
 | **forelder** | n (c) | parent |  | SV förälder |
+| **fremling** | n (c) | stranger |  | SV främling |
 | **fru** | n (c) | madam, wife |  | SV fru |
 | **gava** | n (c) | gift |  | SV gåva |
 | **gest** | n (c) | guest |  | SV gäst |
@@ -435,13 +466,19 @@
 | **hjelp** | n (c) | help (n.) | everyday | SV hjälp |
 | **husbond** | n (c) | husband |  | hus + bonde |
 | **idiot** | n (c) | idiot | everyday | FR idiot |
+| **kamerat** | n (c) | comrade, companion |  | SV kamrat + FR camarade |
+| **kameratskap** | n (c) | companionship |  | kamerat + -skap |
 | **kind** | n (n) | child |  | NL kind |
+| **kindtid** | n (c) | childhood |  | kind + tid |
 | **kong** | n (c) | king |  | SV kung + DA konge |
 | **konsensbrekare** | n (c) | consensus-breaker | everyday | konsens + brekare |
 | **kusin** | n (c) | cousin |  | SV kusin + FR cousin |
 | **kvin** | n (c) | woman |  | SV kvinna |
+| **kyss** | n (c) | kiss (n.) |  | SV kyss + DA kys |
+| **kyssa** | v | kiss |  | kyss + -a |
 | **Laphurdeener** | n (c) | Laphurdeener (citizen) |  | Laphurdeen + -er |
 | **lievare** | n (c) | lover |  | lieva + -are |
+| **lievling** | n (c) | beloved, darling |  | NL lieveling |
 | **man** | n (c) | man |  | EN man + SV man |
 | **mariera** | v | marry | high | FR marier |
 | **mennisk** | n (c) | human being |  | SV människa + DA menneske |
@@ -456,6 +493,8 @@
 | **pojk** | n (c) | boy |  | SV pojke |
 | **ras** | n (c) | race (of people) |  | NL ras + FR race |
 | **samfund** | n (n) | society |  | DA samfund + SV samfund |
+| **sjelvrend** | n (c) | soulmate, kindred spirit |  | sjel + vrend |
+| **skiljing** | n (c) | separation, parting |  | skilja + -ing |
 | **slekt** | n (c) | kin, family line |  | SV släkt |
 | **son** | n (c) | son |  | SV son |
 | **sosial** | adj | social | high | FR social |
@@ -653,12 +692,14 @@
 | **kopp** | n (c) | cup |  | SV kopp + EN cup |
 | **korg** | n (c) | basket |  | SV korg |
 | **kran** | n (c) | tap, faucet |  | SV kran |
+| **kudde** | n (c) | pillow, cushion |  | SV kudde |
 | **laas** | n (n) | lock |  | SV lås |
 | **lada** | n (c) | box |  | SV låda |
 | **lampa** | n (c) | lamp |  | SV lampa + FR lampe |
 | **matta** | n (c) | rug, mat |  | SV matta |
 | **mobel** | n (c) | furniture |  | SV möbel + FR meuble |
 | **moske** | n (c) | mosque |  | FR mosquée + SV moské |
+| **nabolag** | n (n) | neighbourhood |  | DA nabolag |
 | **nokel** | n (c) | key |  | DA nøgle + SV nyckel |
 | **pan** | n (c) | pan |  | NL pan + EN pan |
 | **pipa** | n (c) | pipe |  | SV pipa |
@@ -671,6 +712,7 @@
 | **skaal** | n (c) | bowl |  | SV skål |
 | **skap** | n (n) | cupboard |  | SV skåp + DA skab |
 | **sked** | n (c) | spoon |  | SV sked |
+| **sofa** | n (c) | sofa, couch |  | EN sofa + FR sofa |
 | **sovrum** | n (n) | bedroom |  | sova + rum |
 | **spegel** | n (c) | mirror |  | SV spegel + NL spiegel |
 | **stadshus** | n (n) | city hall |  | stad + hus |
@@ -725,8 +767,13 @@
 | **august** | n (c) | August |  | DA august |
 | **dag** | n (c) | day |  | NL dag + SV dag |
 | **desember** | n (c) | December |  | DA december + FR décembre |
+| **evig** | adj | eternal, everlasting |  | SV evig + NL eeuwig |
+| **evighed** | n (c) | eternity |  | evig + -hed |
 | **februar** | n (c) | February |  | DA februar |
+| **fortid** | n (c) | past (n.) |  | for + tid |
+| **framtid** | n (c) | future |  | fram + tid |
 | **fredag** | n (c) | Friday |  | SV fredag + NL vrijdag |
+| **gang** | n (c) | time, occasion |  | DA gang + SV gång |
 | **host** | n (c) | autumn |  | SV höst |
 | **iaften** | adv | tonight, this evening |  | DA i aften |
 | **idag** | adv | today |  | SV idag |
@@ -745,11 +792,15 @@
 | **mars** | n (c) | March |  | SV mars + FR mars |
 | **middag** | n (c) | midday, noon |  | SV middag + NL middag |
 | **minut** | n (c) | minute |  | FR minute |
+| **moment** | n (n) | moment, instant | high | FR moment |
 | **morgen** | n (c) | morning |  | NL morgen |
 | **natt** | n (c) | night |  | SV natt + NL nacht |
 | **november** | n (c) | November |  | SV november |
+| **nutid** | n (c) | present (time) |  | nu + tid |
+| **ojeblik** | n (n) | moment, instant | everyday | DA øjeblik + NL ogenblik |
 | **oktober** | n (c) | October |  | SV oktober |
 | **onsdag** | n (c) | Wednesday |  | SV onsdag + DA onsdag |
+| **samtidig** | adj | simultaneous |  | SV samtidig + DA samtidig |
 | **sekel** | n (n) | century |  | SV sekel |
 | **sekund** | n (c) | second (time unit) |  | SV sekund + FR seconde |
 | **september** | n (c) | September |  | SV september |
@@ -805,9 +856,11 @@
 | **niende** | num | ninth |  | DA niende + SV nionde |
 | **nienti** | num | ninety |  | EN ninety + SV nittio |
 | **nitten** | num | nineteen |  | DA nitten |
+| **nivaa** | n (n) | level |  | FR niveau |
 | **null** | num | zero |  | SV noll + EN null |
 | **nummer** | n (n) | number |  | SV nummer + NL nummer |
 | **par** | n (n) | pair |  | SV par |
+| **parallell** | adj | parallel |  | FR parallèle |
 | **prosent** | n (c) | percent |  | SV procent + FR pour cent |
 | **seks** | num | six; sex (the act) |  | SV sex + NL zes + DA seks |
 | **sekste** | num | sixth |  | NL zesde + SV sjätte |
@@ -846,6 +899,9 @@
 | **fjern** | adj | far |  | DA fjern |
 | **flyghamn** | n (c) | airport |  | flyga + hamn |
 | **flygplan** | n (n) | airplane |  | SV flygplan |
+| **flykt** | n (c) | flight, escape |  | SV flykt + DA flugt |
+| **flykta** | v | flee, escape |  | DA flygte |
+| **flytta** | v | move (house), relocate |  | SV flytta |
 | **gata** | n (c) | street | everyday | SV gata + DA gade |
 | **hjul** | n (n) | wheel |  | SV hjul |
 | **hoger** | adj | right (direction) |  | SV höger |
@@ -855,6 +911,7 @@
 | **linje** | n (c) | line (route, stroke) |  | SV linje + NL lijn + FR ligne |
 | **motor** | n (c) | motor, engine |  | SV motor + FR moteur |
 | **nara** | adj | near |  | SV nära |
+| **nerma** | v | approach, near |  | SV närma |
 | **parkera** | v | park (v.) |  | FR parquer |
 | **pas** | n (n) | passport |  | FR passeport |
 | **plas** | n (c) | square, place |  | FR place + NL plein |
@@ -903,7 +960,7 @@
 | **hav** | n (n) | ocean, open sea |  | SV hav + DA hav |
 | **kaj** | n (c) | quay |  | SV kaj + NL kade |
 | **kapten** | n (c) | captain |  | SV kapten + FR capitaine |
-| **kart** | n (c) | map, chart |  | NL kaart + SV karta |
+| **kart** | n (c) | map, chart, card |  | NL kaart + SV karta |
 | **koj** | n (c) | bunk |  | SV koj |
 | **kompas** | n (n) | compass |  | NL kompas + FR compas |
 | **krok** | n (c) | hook |  | SV krok |
@@ -919,6 +976,7 @@
 | **ror** | n (n) | rudder |  | SV roder |
 | **segel** | n (n) | sail (n.) |  | SV segel + NL zeil |
 | **segla** | v | sail (v.) |  | segel + -a |
+| **sirene** | n (c) | siren |  | FR sirène |
 | **skip** | n (n) | ship | everyday | SV skepp + EN ship + DA skib |
 | **styra** | v | steer |  | SV styra + NL sturen |
 | **tij** | n (n) | tide |  | NL tij |
@@ -937,6 +995,7 @@
 | **betaling** | n (c) | payment |  | betala + -ing |
 | **billig** | adj | cheap, affordable |  | SV billig + DA billig |
 | **bonde** | n (c) | farmer |  | SV bonde |
+| **bors** | n (c) | stock exchange | high | FR bourse + SV börs |
 | **bruk** | n (n) | use (n.) |  | SV bruk |
 | **budsjet** | n (c) | budget | high | FR budget |
 | **butik** | n (c) | shop |  | SV butik + FR boutique |
@@ -973,11 +1032,15 @@
 | **leda** | v | lead |  | SV leda |
 | **ledare** | n (c) | leader |  | leda + -are |
 | **ledarskap** | n (c) | leadership |  | ledare + -skap |
+| **leverera** | v | deliver |  | SV leverera + FR livrer |
 | **lon** | n (c) | wage |  | SV lön + DA løn |
 | **marknad** | n (c) | market |  | SV marknad |
 | **masjin** | n (c) | machine |  | FR machine |
 | **mote** | n (n) | meeting | everyday | SV möte + DA møde |
+| **mynt** | n (n) | coin, mint |  | SV mynt |
 | **peng** | n (c) | money |  | SV pengar |
+| **plan** | n (c) | plan |  | FR plan |
+| **planera** | v | plan (v.) |  | SV planera + FR planer |
 | **pris** | n (n) | price |  | SV pris + FR prix |
 | **profesjon** | n (c) | profession | high | FR profession |
 | **profesjonell** | adj | professional | high | FR professionnel |
@@ -988,10 +1051,13 @@
 | **selja** | v | sell | everyday | SV sälja + DA sælge |
 | **seljing** | n (c) | sale, selling |  | selja + -ing |
 | **skatt** | n (c) | tax |  | SV skatt |
+| **skift** | n (n) | shift (n.) |  | SV skift |
 | **skuld** | n (c) | debt |  | SV skuld + NL schuld |
 | **smed** | n (c) | smith |  | SV smed |
 | **strejk** | n (c) | strike (labour) |  | SV strejk + NL staking |
 | **strejka** | v | strike (v.) |  | strejk + -a |
+| **strev** | n (n) | effort, striving |  | DA stræb |
+| **streva** | v | strive, toil |  | SV sträva + DA stræbe |
 | **tjenst** | n (c) | service |  | SV tjänst + DA tjeneste |
 | **traad** | n (c) | thread, wire |  | SV tråd + NL draad |
 | **travalje** | n (c) | work (n.) | high | FR travail |
@@ -1009,8 +1075,14 @@
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
 | **adjuu** | interj | goodbye |  | FR adieu + SV adjö |
+| **argument** | n (n) | argument |  | FR argument |
+| **argumentera** | v | argue |  | FR argumenter |
 | **asjeblie** | interj | please |  | NL alsjeblieft |
+| **bekenna** | v | confess, admit |  | NL bekennen + DA bekende |
+| **bekenning** | n (c) | confession, admission |  | bekenna + -ing |
 | **bekrefting** | n (c) | confirmation, validation |  | bekrefta + -ing |
+| **beretta** | v | tell, recount, narrate |  | DA berette |
+| **beretting** | n (c) | narrative, account, tale |  | beretta + -ing |
 | **betyda** | v | mean (v.) |  | SV betyda + DA betyde |
 | **bok** | n (c) | book |  | SV bok + NL boek |
 | **bokstav** | n (c) | letter (of alphabet) |  | SV bokstav |
@@ -1022,11 +1094,13 @@
 | **diskur** | n (c) | speech | high | FR discours |
 | **djevel** | n (c) | devil | everyday | DA djævel + NL duivel |
 | **eksplikera** | v | explain | high | FR expliquer |
+| **erkenna** | v | acknowledge |  | NL erkennen + DA erkende |
 | **falsk** | adj | false |  | SV falsk + NL vals |
 | **forbanna** | v | curse, damn | everyday | SV förbanna |
 | **forklara** | v | explain | everyday | SV förklara |
 | **fraga** | v | ask | everyday | SV fråga |
 | **fras** | n (c) | phrase |  | FR phrase + SV fras |
+| **gebar** | n (n) | gesture |  | NL gebaar |
 | **hallej** | interj | hello |  | EN hello + SV hej |
 | **heera** | v | hear |  | EN hear + NL horen |
 | **helvet** | n (n) | hell | everyday | SV helvete + DA helvede |
@@ -1034,9 +1108,13 @@
 | **journalist** | n (c) | journalist | high | FR journaliste |
 | **kella** | n (c) | source |  | SV källa |
 | **kommunikasjon** | n (c) | communication | high | FR communication |
+| **konversasjon** | n (c) | conversation | high | FR conversation |
 | **kwestion** | n (c) | question | high | FR question |
 | **Laphurdi** | n (c) | the Laphurdi language |  | FR la + SV fjärd |
 | **lesa** | v | read |  | SV läsa + DA læse |
+| **lesare** | n (c) | reader |  | lesa + -are |
+| **lofte** | n (n) | promise (n.) |  | DA løfte |
+| **lova** | v | promise, vow |  | SV lova + DA love |
 | **lyssna** | v | listen |  | SV lyssna |
 | **media** | n (c) | media | high | FR médias |
 | **mening** | n (c) | opinion, meaning |  | SV mening |
@@ -1059,7 +1137,9 @@
 | **respons** | n (c) | answer (n.) | high | FR réponse |
 | **ropa** | v | call, shout |  | SV ropa + DA råbe |
 | **roping** | n (c) | call, incitement |  | ropa + -ing |
+| **rost** | n (c) | voice |  | SV röst |
 | **saga** | n (c) | story, tale |  | SV saga + DA sagn |
+| **samtal** | n (n) | conversation | everyday | SV samtal + DA samtale |
 | **sant** | adj | true |  | SV sann + DA sand |
 | **sending** | n (c) | sending |  | senda + -ing |
 | **sensur** | n (c) | censorship | high | FR censure |
@@ -1070,10 +1150,12 @@
 | **skriva** | v | write |  | SV skriva + NL schrijven |
 | **sprak** | n (n) | language |  | SV språk + NL spraak |
 | **spreka** | v | speak |  | NL spreken + EN speak |
+| **sprekare** | n (c) | speaker |  | spreka + -are |
 | **spreking** | n (c) | speech, speaking |  | spreka + -ing |
 | **still** | adj | quiet, still |  | EN still + NL stil |
 | **stillhed** | n (c) | silence |  | still + -hed |
 | **storsegla** | v | flex, show off (slang) | everyday | stor + segla |
+| **suggerera** | v | suggest, propose |  | FR suggérer |
 | **svar** | n (n) | answer (n.) | everyday | SV svar + DA svar |
 | **svara** | v | answer | everyday | SV svara + DA svare |
 | **tal** | n (n) | speech | everyday | SV tal |
@@ -1082,7 +1164,10 @@
 | **telefon** | n (c) | telephone |  | FR téléphone + SV telefon |
 | **tidning** | n (c) | newspaper |  | SV tidning |
 | **titel** | n (c) | title |  | SV titel + FR titre |
+| **ursekta** | v | excuse, apologize |  | SV ursäkta |
 | **utgava** | n (c) | edition |  | SV utgåva |
+| **uttrykk** | n (n) | expression |  | ut + trykk |
+| **uttrykka** | v | express |  | uttrykk + -a |
 | **varsla** | v | warn |  | SV varsla |
 | **varsling** | n (c) | warning |  | varsla + -ing |
 | **velkom** | interj | welcome |  | SV välkommen + NL welkom |
@@ -1093,18 +1178,30 @@
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
 | **adorera** | v | love | high | FR adorer |
+| **affeksjon** | n (c) | affection |  | FR affection |
+| **angra** | v | regret, rue |  | SV ångra |
+| **angring** | n (c) | regret, remorse |  | angra + -ing |
+| **angst** | n (c) | anxiety, dread |  | NL angst + DA angst |
 | **arg** | adj | angry |  | SV arg |
+| **arghed** | n (c) | anger |  | arg + -hed |
 | **begripa** | v | understand |  | SV begripa + NL begrijpen |
 | **begriping** | n (c) | understanding (n.) |  | begripa + -ing |
 | **behov** | n (n) | need (n.) |  | SV behov |
 | **behova** | v | need (v.) |  | behov + -a (§3b verb from noun) |
+| **bekymra** | v | worry, trouble |  | DA bekymre + SV bekymra |
+| **bekymring** | n (c) | worry, concern |  | bekymra + -ing |
+| **besvika** | v | disappoint |  | SV besvika |
+| **besviking** | n (c) | disappointment |  | besvika + -ing |
+| **betrakta** | v | contemplate, regard |  | SV betrakta + DA betragte |
 | **binding** | n (c) | bond, connection |  | binda + -ing |
 | **blijhed** | n (c) | happiness | everyday | blij + -hed |
 | **borda** | n (c) | burden |  | SV börda |
+| **desperat** | adj | desperate |  | SV desperat + DA desperat |
 | **drom** | n (c) | dream |  | SV dröm + DA drøm |
 | **dromland** | n (n) | dreamland, imaginary country |  | drom + land |
 | **dromma** | v | dream (v.) |  | drom + -a |
 | **dum** | adj | stupid |  | SV dum + NL dom |
+| **emosjon** | n (c) | emotion |  | FR émotion |
 | **emosjonell** | adj | emotional |  | FR émotionnel |
 | **empati** | n (c) | empathy |  | FR empathie |
 | **empatisk** | adj | empathetic |  | empati + -isk |
@@ -1112,50 +1209,82 @@
 | **ensamhed** | n (c) | loneliness |  | ensam + -hed |
 | **era** | v | honour (v.) |  | SV ära |
 | **erlighed** | n (c) | honesty |  | erlig + -hed |
+| **evne** | n (c) | ability, capacity |  | DA evne |
+| **fantasi** | n (c) | fantasy, imagination |  | SV fantasi + FR fantaisie |
 | **felisitet** | n (c) | happiness | high | FR félicité |
 | **forlust** | n (c) | loss |  | SV förlust |
+| **forsona** | v | reconcile |  | DA forsone + SV försona |
+| **forsoning** | n (c) | reconciliation |  | forsona + -ing |
+| **fortvivla** | v | despair |  | DA fortvivle + SV förtvivla |
+| **fortvivling** | n (c) | despair (n.) |  | fortvivla + -ing |
+| **forvirra** | v | confuse, bewilder |  | SV förvirra |
+| **forvirring** | n (c) | confusion |  | forvirra + -ing |
+| **fravaro** | n (c) | absence |  | SV frånvaro |
 | **frykt** | n (c) | fear (n.) |  | DA frygt + SV fruktan |
 | **frykta** | v | fear (v.) |  | frykt + -a |
 | **gal** | adj | crazy |  | SV galen + DA gal |
+| **gleda** | v | gladden, delight |  | glede + -a |
+| **glede** | n (c) | joy, gladness |  | DA glæde |
 | **glomma** | v | forget |  | SV glömma |
 | **graata** | v | weep, cry |  | SV gråta + DA græde |
+| **grubbla** | v | brood, ponder |  | SV grubbla + DA gruble |
 | **hata** | v | hate |  | SV hata + NL haten |
 | **hemskap** | n (c) | belonging |  | hem + -skap |
+| **hjertsorg** | n (c) | heartbreak |  | hjerta + sorg |
 | **hopa** | v | hope (v.) |  | SV hoppas + EN hope |
 | **hopp** | n (n) | hope (n.) |  | SV hopp + DA håb |
 | **hungra** | v | hunger, crave |  | hunger + -a |
 | **identitet** | n (c) | identity | high | FR identité |
+| **igenkenna** | v | recognize |  | igen + kenna |
+| **imaginera** | v | imagine |  | FR imaginer |
+| **insikt** | n (c) | insight, realization |  | SV insikt |
 | **instinkt** | n (c) | instinct |  | FR instinct |
+| **intensjon** | n (c) | intention |  | FR intention |
 | **interessant** | adj | interesting |  | FR intéressant + NL interessant |
 | **intim** | adj | intimate | high | FR intime + SV intim |
+| **intimitet** | n (c) | intimacy |  | FR intimité |
+| **iver** | n (c) | eagerness, zeal, excitement |  | DA iver + SV iver |
 | **karakter** | n (c) | character |  | FR caractère + SV karaktär |
 | **kenna** | v | feel |  | SV känna + NL kennen |
 | **kenning** | n (c) | feeling |  | kenna + -ing |
 | **koela** | v | chill, relax (slang) | everyday | koel + -a |
 | **krypig** | adj | cringeworthy (slang) | everyday | krypa + -ig |
 | **kurios** | adj | curious | high | FR curieux |
+| **kval** | n (n) | anguish, torment |  | SV kval |
 | **lakka** | v | laugh |  | NL lachen + DA le |
+| **lakking** | n (c) | laughter |  | lakka + -ing |
+| **lengta** | v | long, yearn |  | SV längta + DA længes |
+| **lengting** | n (c) | longing, yearning |  | lengta + -ing |
 | **lida** | v | suffer |  | SV lida |
 | **lidare** | n (c) | sufferer |  | lida + -are |
 | **liding** | n (c) | suffering |  | lida + -ing |
 | **liev** | n (c) | love (n.) |  | NL liefde |
 | **lieva** | v | love | everyday | NL liefde + EN love |
+| **lita** | v | trust, rely on |  | SV lita |
 | **lugn** | adj | calm |  | SV lugn |
 | **lykka** | n (c) | luck |  | SV lycka + DA lykke |
 | **maal** | n (n) | goal, objective |  | SV mål |
+| **meditasjon** | n (c) | meditation |  | FR méditation |
+| **meditera** | v | meditate |  | FR méditer |
 | **mental** | adj | mental |  | FR mental |
 | **minna** | v | remember |  | SV minnas |
 | **mod** | n (n) | courage |  | SV mod + DA mod |
 | **modig** | adj | brave |  | mod + -ig |
 | **motivasjon** | n (c) | motivation |  | FR motivation |
 | **motivera** | v | motivate |  | FR motiver |
+| **nervaro** | n (c) | presence |  | SV närvaro |
 | **nervos** | adj | nervous |  | FR nerveux + SV nervös |
+| **oppmerksam** | adj | attentive |  | DA opmærksom |
+| **oppmerksamhed** | n (c) | attention |  | oppmerksam + -hed |
 | **orientasjon** | n (c) | orientation | high | FR orientation |
+| **rasa** | v | rage, rave |  | SV rasa + DA rase |
+| **raseri** | n (n) | rage, fury |  | DA raseri |
 | **redd** | adj | afraid |  | DA ræd |
 | **reflektera** | v | think | high | FR réfléchir |
 | **relisjon** | n (c) | religion | high | FR religion |
 | **saarbar** | adj | vulnerable |  | SV sårbar |
 | **saarbarhed** | n (c) | vulnerability |  | saarbar + -hed |
+| **sakna** | v | miss, lack |  | SV sakna |
 | **selvbild** | n (c) | self-image |  | self + bild |
 | **selvkensla** | n (c) | self-esteem |  | SV självkänsla |
 | **sinn** | n (n) | mind |  | DA sind + SV sinne |
@@ -1166,12 +1295,15 @@
 | **skamma** | v | shame (v.) |  | skam + -a |
 | **skammig** | adj | embarrassed |  | skam + -ig |
 | **smila** | v | smile |  | SV smila + EN smile |
-| **sorg** | n (c) | sorrow |  | SV sorg + DA sorg |
+| **snyfta** | v | sob |  | SV snyfta |
+| **sorg** | n (c) | sorrow, grief |  | SV sorg + DA sorg |
+| **sorga** | v | mourn, grieve |  | sorg + -a |
 | **stimulera** | v | stimulate |  | FR stimuler |
 | **stolt** | adj | proud |  | SV stolt + DA stolt |
 | **stress** | n (c) | stress |  | EN stress |
 | **tanke** | n (c) | thought |  | SV tanke + DA tanke |
 | **tenka** | v | think | everyday | SV tänka + DA tænke |
+| **tillit** | n (c) | trust, confidence |  | SV tillit + DA tillid |
 | **tomhed** | n (c) | emptiness |  | tom + -hed |
 | **tragisk** | adj | tragic | high | FR tragique |
 | **trakig** | adj | boring |  | SV tråkig |
@@ -1179,12 +1311,15 @@
 | **trist** | adj | sad |  | DA trist + FR triste |
 | **tro** | n (c) | belief, faith |  | SV tro + DA tro |
 | **troa** | v | believe |  | SV tro + DA tro |
+| **troest** | n (c) | comfort, consolation |  | NL troost + DA trøst |
+| **troesta** | v | comfort, console |  | troest + -a |
 | **tvivla** | v | doubt |  | SV tvivla + NL twijfelen |
 | **vana** | n (c) | habit |  | SV vana |
 | **veljing** | n (c) | choice, choosing |  | velja + -ing |
 | **verda** | v | value (v.) |  | verd + -a |
 | **veta** (pres=vet, past=viste, perf=vetat) | v | know |  | SV veta + NL weten |
 | **vis** | adj | wise |  | SV vis + NL wijs |
+| **visjon** | n (c) | vision |  | FR vision |
 | **wensa** | v | wish |  | NL wensen |
 | **wensing** | n (c) | wish (n.), desire |  | wensa + -ing |
 | **wonder** | n (n) | wonder, miracle |  | NL wonder + EN wonder |
@@ -1280,6 +1415,8 @@
 | **ministerie** | n (n) | ministry | high | FR ministère + NL ministerie |
 | **minoritet** | n (c) | minority | high | FR minorité |
 | **misbruk** | n (n) | abuse, misuse |  | SV missbruk |
+| **mord** | n (n) | murder |  | SV mord + DA mord |
+| **morda** | v | murder (v.) |  | mord + -a |
 | **motto** | n (n) | motto |  | SV motto + EN motto |
 | **nasjon** | n (c) | nation | high | FR nation |
 | **nasjonal** | adj | national | high | FR national |
@@ -1316,10 +1453,11 @@
 | **regera** | v | rule, govern | high | FR régner + SV regera |
 | **register** | n (n) | register | high | FR registre |
 | **rekt** | n (c) | right (entitlement) |  | SV rätt + NL recht |
+| **representera** | v | represent |  | FR représenter |
 | **rettvis** | adj | just, fair |  | SV rättvis |
 | **revolusjon** | n (c) | revolution | high | FR révolution |
 | **sak** | n (c) | matter, case, affair |  | SV sak + NL zaak |
-| **samling** | n (c) | assembly, gathering |  | SV samling |
+| **samling** | n (c) | assembly, gathering, collection |  | SV samling |
 | **samvelde** | n (n) | commonwealth |  | SV samvälde |
 | **sekerhed** | n (c) | security |  | seker + -hed |
 | **senat** | n (c) | senate | high | FR sénat + EN senate |
@@ -1328,6 +1466,7 @@
 | **sete** | n (n) | seat (office) |  | SV säte + DA sæde |
 | **sivil** | adj | civil | high | FR civil |
 | **sjarta** | n (c) | charter | high | FR charte |
+| **skilsmisse** | n (c) | divorce |  | DA skilsmisse |
 | **skott** | n (n) | shot |  | SV skott + DA skud |
 | **skydd** | n (n) | protection |  | SV skydd |
 | **skydda** | v | protect |  | SV skydda |
@@ -1372,34 +1511,47 @@
 |---|---|---|---|---|
 | **artist** | n (c) | artist | high | FR artiste |
 | **bild** | n (c) | picture |  | SV bild + NL beeld |
+| **bildsprak** | n (n) | imagery |  | bild + sprak |
 | **boll** | n (c) | ball |  | SV boll |
 | **dans** | n (c) | dance (n.) |  | SV dans + FR danse |
 | **dansa** | v | dance (v.) |  | dans + -a |
 | **dikt** | n (c) | poem |  | SV dikt |
 | **dikta** | v | compose poetry |  | dikt + -a |
 | **diktare** | n (c) | poet |  | dikta + -are |
+| **drama** | n (n) | drama |  | SV drama + FR drame |
+| **dramatisk** | adj | dramatic |  | drama + -isk |
 | **eldwerk** | n (n) | fireworks |  | eld + werk |
 | **ferie** | n (c) | holiday |  | DA ferie + FR férié |
 | **fest** | n (c) | party, feast |  | SV fest + FR fête |
 | **film** | n (c) | film |  | SV film + EN film |
 | **fiol** | n (c) | violin |  | SV fiol |
+| **forfattare** | n (c) | author, writer |  | SV författare + DA forfatter |
 | **fotboll** | n (c) | football |  | fot + boll |
 | **foto** | n (n) | photograph |  | SV foto + FR photo |
 | **galleri** | n (n) | gallery | high | FR galerie |
+| **humor** | n (c) | humor |  | FR humour + SV humor |
 | **instrument** | n (n) | instrument | high | FR instrument |
 | **kasino** | n (n) | casino | high | FR casino + SV kasino |
+| **konsert** | n (c) | concert |  | FR concert + SV konsert |
 | **konst** | n (c) | art |  | SV konst |
 | **kultur** | n (c) | culture | high | FR culture |
 | **leka** | v | play (as a child) |  | SV leka |
 | **mala** | v | paint (v.) |  | SV måla |
 | **malare** | n (c) | painter |  | mala + -are |
 | **maling** | n (c) | painting |  | mala + -ing |
+| **mask** | n (c) | mask |  | FR masque |
 | **melodi** | n (c) | melody |  | SV melodi + FR mélodie |
 | **museum** | n (n) | museum | high | FR musée + SV museum |
 | **musik** | n (c) | music |  | SV musik + FR musique |
 | **piano** | n (n) | piano |  | FR piano + SV piano |
 | **pjes** | n (c) | play (theatre) | high | FR pièce |
+| **portrett** | n (n) | portrait |  | FR portrait |
+| **rim** | n (n) | rhyme |  | SV rim + DA rim |
+| **rima** | v | rhyme (v.) |  | rim + -a |
 | **roman** | n (c) | novel | high | FR roman |
+| **romans** | n (c) | romance |  | FR romance |
+| **romantisk** | adj | romantic |  | SV romantisk + DA romantisk |
+| **rytme** | n (c) | rhythm |  | FR rythme |
 | **sang** | n (c) | song | everyday | SV sång + NL zang + EN song |
 | **singa** | v | sing |  | EN sing + NL zingen |
 | **sjanson** | n (c) | song | high | FR chanson |
@@ -1410,6 +1562,8 @@
 | **strofe** | n (c) | stanza | high | SV strof + FR strophe |
 | **symbol** | n (n) | symbol | high | FR symbole |
 | **teater** | n (c) | theatre | high | FR théâtre + SV teater |
+| **ton** | n (c) | tone |  | SV ton + FR ton |
+| **tragedi** | n (c) | tragedy |  | FR tragédie |
 | **tromma** | n (c) | drum |  | SV trumma + DA tromme |
 | **vers** | n (c) | verse |  | SV vers + FR vers |
 
@@ -1422,6 +1576,9 @@
 | **bibliotek** | n (n) | library | high | FR bibliothèque + SV bibliotek |
 | **biologi** | n (c) | biology | high | FR biologie |
 | **eksamen** | n (c) | examination | high | SV examen + FR examen |
+| **eksistens** | n (c) | existence |  | FR existence |
+| **eksistensiell** | adj | existential |  | FR existentiel |
+| **eksistera** | v | exist |  | FR exister |
 | **eksperiment** | n (n) | experiment | high | FR expérience + SV experiment |
 | **elev** | n (c) | pupil | high | FR élève |
 | **fakt** | n (n) | fact |  | SV faktum + EN fact |
@@ -1429,16 +1586,21 @@
 | **forska** | v | research (v.) |  | SV forska |
 | **forskare** | n (c) | researcher |  | forska + -are |
 | **forsking** | n (c) | research (n.) |  | forska + -ing |
+| **fundamentell** | adj | fundamental |  | FR fondamental |
 | **fysik** | n (c) | physics | high | FR physique |
 | **geografi** | n (c) | geography | high | FR géographie |
 | **historie** | n (c) | history |  | FR histoire + NL historie |
 | **historisk** | adj | historical |  | historie + -isk |
+| **ideal** | n (n) | ideal |  | FR idéal |
+| **idealisme** | n (c) | idealism |  | FR idéalisme |
 | **idee** | n (c) | idea |  | NL idee + FR idée |
 | **instruera** | v | teach | high | FR instruire |
 | **ironi** | n (c) | irony | high | FR ironie |
 | **kemi** | n (c) | chemistry | high | SV kemi + FR chimie |
 | **klass** | n (c) | class |  | SV klass + FR classe |
 | **konklusjon** | n (c) | conclusion | high | FR conclusion |
+| **kontekst** | n (c) | context |  | FR contexte |
+| **kontrast** | n (c) | contrast |  | FR contraste |
 | **kurs** | n (c) | course |  | SV kurs + FR cours |
 | **laboratorie** | n (n) | laboratory | high | FR laboratoire |
 | **leksjon** | n (c) | lesson | high | FR leçon |
@@ -1448,13 +1610,22 @@
 | **lerna** | v | learn |  | EN learn + NL leren + SV lära sig |
 | **matematik** | n (c) | mathematics | high | FR mathématiques + SV matematik |
 | **metafor** | n (c) | metaphor | high | FR métaphore |
+| **metaforisk** | adj | metaphorical |  | metafor + -isk |
+| **oppdaga** | v | discover |  | SV upptäcka + DA opdage |
+| **oppdaging** | n (c) | discovery |  | oppdaga + -ing |
 | **paradoks** | n (n) | paradox | high | FR paradoxe |
+| **patroon** | n (n) | pattern |  | NL patroon |
+| **perspektiv** | n (n) | perspective |  | FR perspective |
 | **professor** | n (c) | professor | high | FR professeur + SV professor |
 | **prov** | n (n) | test |  | SV prov |
+| **psykologisk** | adj | psychological |  | psykologi + -isk |
 | **realitet** | n (c) | reality | high | FR réalité |
+| **repetera** | v | repeat |  | FR répéter |
+| **repetisjon** | n (c) | repetition |  | FR répétition |
 | **santhed** | n (c) | truth |  | sant + -hed |
 | **siens** | n (c) | science | high | FR science |
 | **skol** | n (c) | school |  | SV skola |
+| **struktur** | n (c) | structure |  | FR structure |
 | **student** | n (c) | student |  | SV student + FR étudiant |
 | **studera** | v | study |  | SV studera + FR étudier |
 | **tema** | n (n) | theme | high | SV tema + FR thème |
@@ -1463,6 +1634,7 @@
 | **tolkning** | n (c) | interpretation |  | tolka + -ing |
 | **universitet** | n (n) | university | high | SV universitet + FR université |
 | **vetskap** | n (c) | knowledge |  | veta + -skap |
+| **visdom** | n (c) | wisdom |  | SV visdom + DA visdom |
 
 ## science
 
@@ -1512,6 +1684,7 @@
 | **frekvens** | n (c) | frequency |  | FR fréquence |
 | **friksjon** | n (c) | friction |  | FR friction |
 | **fysiologi** | n (c) | physiology |  | FR physiologie |
+| **fysisk** | adj | physical |  | FR physique |
 | **galakse** | n (c) | galaxy |  | FR galaxie |
 | **gas** | n (c) | gas |  | SV gas + NL gas |
 | **gen** | n (n) | gene |  | SV gen + EN gene |
@@ -1594,6 +1767,7 @@
 | **relativitet** | n (c) | relativity |  | FR relativité |
 | **resultat** | n (n) | result |  | FR résultat |
 | **rorelse** | n (c) | motion |  | SV rörelse |
+| **rymd** | n (c) | space (open, outer) |  | SV rymd |
 | **sannolik** | adj | probable |  | SV sannolik |
 | **sannolikhed** | n (c) | probability |  | sannolik + -hed |
 | **satellit** | n (c) | satellite |  | FR satellite |
@@ -1608,6 +1782,7 @@
 | **straala** | v | radiate |  | SV stråla |
 | **straaling** | n (c) | radiation |  | straala + -ing |
 | **strom** | n (c) | current, stream |  | SV ström + NL stroom |
+| **substans** | n (c) | substance |  | FR substance |
 | **summa** | n (c) | sum |  | SV summa + FR somme |
 | **symmetri** | n (c) | symmetry |  | FR symétrie |
 | **syra** | n (c) | acid |  | SV syra |
@@ -1618,6 +1793,8 @@
 | **termisk** | adj | thermal |  | FR thermique |
 | **termodynamik** | n (c) | thermodynamics |  | FR thermodynamique |
 | **termometer** | n (c) | thermometer |  | FR thermomètre |
+| **transformasjon** | n (c) | transformation |  | FR transformation |
+| **transformera** | v | transform |  | FR transformer |
 | **univers** | n (n) | universe |  | FR univers |
 | **vakuum** | n (n) | vacuum |  | SV vakuum |
 | **variabel** | n (c) | variable |  | FR variable + SV variabel |
@@ -1651,6 +1828,7 @@
 | **databas** | n (c) | database |  | data + bas |
 | **dator** | n (c) | computer |  | SV dator |
 | **digitalisera** | v | digitise |  | FR digitaliser |
+| **dron** | n (c) | drone |  | EN drone |
 | **epost** | n (c) | email |  | EN e + SV post |
 | **feil** | n (n) | error, fault |  | DA fejl + NL feil |
 | **fil** | n (c) | file |  | SV fil + FR file |
@@ -1747,23 +1925,30 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **aand** | n (c) | spirit |  | DA ånd |
 | **antropologi** | n (c) | anthropology |  | FR anthropologie |
 | **arbetslos** | adj | unemployed |  | SV arbetslös |
 | **arbetsloshed** | n (c) | unemployment |  | arbetslos + -hed |
 | **attityd** | n (c) | attitude |  | FR attitude |
+| **beda** | v | pray, beg |  | DA bede + NL bidden |
+| **beding** | n (c) | prayer |  | beda + -ing |
 | **befolka** | v | populate |  | be- + folk + -a |
 | **befolkning** | n (c) | population |  | befolka + -ing |
 | **beteende** | n (n) | behaviour |  | SV beteende |
 | **byrokrati** | n (n) | bureaucracy |  | FR bureaucratie |
 | **demografi** | n (c) | demography |  | FR démographie |
 | **diskriminera** | v | discriminate |  | FR discriminer |
+| **engel** | n (c) | angel |  | NL engel + DA engel |
 | **etik** | n (c) | ethics |  | FR éthique |
 | **etnisk** | adj | ethnic |  | FR ethnique |
 | **fatigdom** | n (c) | poverty |  | fatig + dom |
 | **fordom** | n (c) | prejudice |  | SV fördom |
 | **forort** | n (c) | suburb |  | SV förort |
+| **framsteg** | n (n) | progress |  | fram + steg |
 | **gemenskap** | n (c) | community |  | SV gemenskap |
 | **generasjon** | n (c) | generation |  | FR génération |
+| **gud** | n (c) | god, God |  | SV gud + DA gud + NL god |
+| **gudig** | adj | divine |  | gud + -ig |
 | **hierarki** | n (n) | hierarchy |  | FR hiérarchie |
 | **ideologi** | n (c) | ideology |  | FR idéologie |
 | **individ** | n (c) | individual |  | FR individu + SV individ |
@@ -1799,6 +1984,7 @@
 | **politik** | n (c) | politics |  | FR politique |
 | **populisme** | n (c) | populism |  | FR populisme |
 | **privilegie** | n (n) | privilege | high | FR privilège |
+| **problem** | n (n) | problem |  | FR problème |
 | **produsent** | n (c) | producer |  | FR producteur |
 | **propaganda** | n (c) | propaganda |  | FR propagande |
 | **protest** | n (c) | protest |  | FR protestation + EN protest |
@@ -1807,29 +1993,44 @@
 | **psykologi** | n (c) | psychology |  | FR psychologie |
 | **reform** | n (c) | reform |  | FR réforme |
 | **rettvished** | n (c) | justice, fairness |  | rettvis + -hed |
+| **risk** | n (c) | risk |  | SV risk + FR risque |
+| **riskera** | v | risk (v.) |  | FR risquer |
 | **ritual** | n (n) | ritual |  | FR rituel |
 | **rolle** | n (c) | role |  | FR rôle + SV roll |
 | **samarbeta** | v | cooperate |  | SV samarbeta |
 | **samarbete** | n (n) | cooperation |  | SV samarbete |
+| **situasjon** | n (c) | situation |  | FR situation |
+| **sjelig** | adj | spiritual |  | sjel + -ig |
 | **solidaritet** | n (c) | solidarity |  | FR solidarité |
 | **sosialisme** | n (c) | socialism |  | FR socialisme |
 | **sosiolog** | n (c) | sociologist |  | FR sociologue |
 | **sosiologi** | n (c) | sociology |  | FR sociologie |
+| **spoka** | v | haunt |  | spoke + -a |
+| **spoke** | n (n) | ghost, specter |  | SV spöke |
 | **statistik** | n (c) | statistics |  | FR statistique |
 | **status** | n (c) | status |  | EN status + FR statut |
 | **tradisjon** | n (c) | tradition |  | FR tradition |
 | **urbanisera** | v | urbanise |  | FR urbaniser |
 | **urbanisering** | n (c) | urbanisation |  | urbanisera + -ing |
 | **utvandring** | n (c) | emigration |  | SV utvandring |
+| **velsigna** | v | bless |  | DA velsigne + SV välsigna |
+| **velsigning** | n (c) | blessing |  | velsigna + -ing |
 | **verde** | n (n) | value |  | SV värde + NL waarde |
 
 ## common-verbs
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **akseptera** | v | accept |  | FR accepter |
+| **akseptering** | n (c) | acceptance |  | akseptera + -ing |
 | **assistera** | v | help | high | FR assister |
+| **avsloja** | v | reveal, disclose |  | SV avslöja |
+| **avvisa** | v | reject, turn away |  | av + visa |
+| **avvising** | n (c) | rejection |  | avvisa + -ing |
 | **beginna** | v | begin | everyday | NL beginnen + EN begin |
 | **bera** | v | carry |  | SV bära |
+| **bevega** | v | move, stir |  | NL bewegen + DA bevæge |
+| **beveging** | n (c) | movement, motion |  | bevega + -ing |
 | **binda** | v | tie, bind |  | SV binda + NL binden |
 | **blaasa** | v | blow |  | SV blåsa |
 | **bliva** | v | become |  | SV bliva + DA blive |
@@ -1840,17 +2041,29 @@
 | **bruka** | v | use | everyday | SV bruka + NL gebruiken |
 | **dela** | v | divide, share |  | del + -a |
 | **demonstrera** | v | show | high | FR démontrer |
+| **djupa** | v | deepen |  | djup + -a |
 | **doa** (pres=doar, past=dede, perf=doat) | v | do, make |  | EN do + NL doen |
 | **draga** | v | pull |  | SV draga + NL dragen |
 | **dyka** | v | dive |  | SV dyka + NL duiken |
 | **enda** | v | end (v.) | everyday | EN end + SV ände |
+| **erfara** | v | experience (v.) |  | SV erfara + NL ervaren |
+| **erfaring** | n (c) | experience (n.) |  | erfara + -ing |
 | **faa** (pres=faar, past=fik, perf=faat) | v | get, receive |  | SV få + DA få |
 | **falla** | v | fall |  | SV falla + NL vallen |
-| **fanga** | v | catch |  | SV fånga |
+| **fanga** | v | catch, capture |  | SV fånga |
+| **fela** | v | fail, err |  | fel + -a |
+| **feling** | n (c) | failure |  | fela + -ing |
 | **finna** | v | find |  | SV finna + NL vinden |
 | **flyga** | v | fly (v.) |  | SV flyga |
 | **flyta** | v | float |  | SV flyta |
 | **folga** | v | follow |  | SV följa + DA følge |
+| **forlata** | v | abandon, forsake |  | DA forlade + NL verlaten |
+| **forlating** | n (c) | abandonment |  | forlata + -ing |
+| **forstora** | v | destroy, ruin |  | SV förstöra |
+| **forstoring** | n (c) | destruction |  | forstora + -ing |
+| **fortsetta** | v | continue |  | SV fortsätta + DA fortsætte |
+| **forventa** | v | expect |  | DA forvente |
+| **forventing** | n (c) | expectation |  | forventa + -ing |
 | **frysa** | v | freeze |  | SV frysa |
 | **fylla** | v | fill |  | SV fylla + NL vullen |
 | **gaa** (pres=gaar, past=gik, perf=gaat) | v | go |  | SV gå + NL gaan |
@@ -1858,30 +2071,41 @@
 | **gnida** | v | rub |  | SV gnida |
 | **gomma** | v | hide |  | SV gömma |
 | **grava** | v | dig |  | SV gräva + NL graven |
+| **gripa** | v | grip, seize |  | SV gripa + DA gribe |
 | **halda** | v | hold |  | DA holde + SV hålla |
+| **hantera** | v | handle, manage |  | SV hantera |
 | **hava** (pres=har, past=hadde, perf=havt) | v | have |  | SV ha + NL hebben + EN have |
+| **herda** | v | endure, persevere |  | SV härda |
 | **hjelpa** | v | help | everyday | SV hjälpa + NL helpen |
 | **hoppa** | v | jump |  | SV hoppa |
 | **jaga** | v | hunt |  | SV jaga + NL jagen |
-| **kampa** | v | fight |  | SV kämpa + NL kampen |
+| **kamp** | n (c) | fight, struggle (n.) |  | SV kamp + DA kamp |
+| **kampa** | v | fight, struggle |  | SV kämpa + NL kampen |
 | **kasta** | v | throw |  | SV kasta |
 | **klimma** | v | climb |  | NL klimmen + EN climb |
 | **klora** | v | scratch |  | SV klösa + NL klauwen |
 | **klyva** | v | split |  | SV klyva |
+| **knusa** | v | crush, shatter, devastate |  | DA knuse |
+| **knyta** | v | tie, knot, bind |  | SV knyta |
 | **komma** (pres=kommar, past=kom, perf=kommat) | v | come |  | SV komma + EN come |
 | **kommensera** | v | begin | high | FR commencer |
 | **kramma** | v | squeeze, hug |  | SV krama |
 | **krypa** | v | crawl |  | SV krypa |
 | **kunna** (pres=kan, past=kunde, perf=kunnat) | v | can, be able |  | SV kunna + NL kunnen |
 | **laga** | v | repair, fix |  | SV laga |
+| **lata** | v | let, allow |  | SV låta + NL laten |
 | **legga** | v | lay |  | SV lägga |
 | **lemna** | v | leave |  | SV lämna |
 | **leta** | v | search |  | SV leta |
+| **letta** | v | lighten, relieve |  | lett + -a |
+| **letting** | n (c) | relief |  | letta + -ing |
 | **leva** | v | live |  | SV leva |
 | **ligga** | v | lie (recline) |  | SV ligga + NL liggen |
 | **lyfta** | v | lift |  | SV lyfta |
 | **moste** (pres=moste, past=moste) | v | must |  | SV måste + NL moeten + EN must |
 | **opna** | v | open (v.) |  | SV öppna |
+| **overraska** | v | surprise |  | SV överraska + DA overraske |
+| **overrasking** | n (c) | surprise (n.) |  | overraska + -ing |
 | **prova** | v | try |  | SV prova |
 | **pusja** | v | push |  | EN push + FR pousser |
 | **redda** | v | save, rescue |  | SV rädda + DA redde |
@@ -1900,7 +2124,12 @@
 | **sitta** | v | sit |  | SV sitta + NL zitten |
 | **sjunka** | v | sink |  | SV sjunka |
 | **skada** | v | harm (v.) |  | SV skada |
+| **skapa** | v | create |  | SV skapa + DA skabe |
+| **skapare** | n (c) | creator |  | skapa + -are |
+| **skaping** | n (c) | creation |  | skapa + -ing |
 | **skera** | v | cut |  | SV skära |
+| **skifta** | v | shift, switch |  | SV skifta |
+| **skilja** | v | separate, part |  | SV skilja |
 | **skola** (pres=skal, past=skulle) | v | shall (future auxiliary) |  | SV skola + NL zullen |
 | **slaga** | v | hit |  | SV slå + DA slå |
 | **sparka** | v | kick |  | SV sparka |
@@ -1911,15 +2140,22 @@
 | **stiga** | v | rise |  | SV stiga |
 | **stinga** | v | stab |  | SV stinga |
 | **stoppa** | v | stop |  | SV stoppa + EN stop |
+| **stotta** | v | support, prop up |  | SV stötta |
 | **svella** | v | swell |  | SV svälla + EN swell |
 | **ta** (pres=tar, past=tok, perf=tat) | v | take |  | SV ta + EN take |
 | **tapa** | v | lose |  | SV tappa |
 | **tella** | v | count |  | NL tellen + DA tælle |
 | **terminera** | v | end (v.) | high | FR terminer |
+| **tilhora** | v | belong |  | SV tillhöra + DA tilhøre |
 | **tomma** | v | empty (v.) |  | SV tömma |
 | **torka** | v | dry, wipe |  | SV torka |
 | **treffa** | v | meet | everyday | SV träffa |
+| **undvika** | v | avoid |  | SV undvika |
+| **utforska** | v | explore |  | SV utforska |
+| **utforsking** | n (c) | exploration |  | utforska + -ing |
 | **utilisera** | v | use | high | FR utiliser |
+| **utmana** | v | challenge |  | SV utmana |
+| **utmaning** | n (c) | challenge (n.) |  | utmana + -ing |
 | **vandra** | v | walk, wander |  | SV vandra + NL wandelen |
 | **veksa** | v | grow |  | SV växa + DA vokse |
 | **veksla** | v | exchange, change |  | SV växla + NL wisselen |
@@ -1938,19 +2174,27 @@
 | **absolut** | adj | absolute | high | FR absolu |
 | **aktiv** | adj | active | high | FR actif |
 | **Amerikansk** | adj | American |  | EN America + SV amerikansk |
+| **autentisk** | adj | authentic |  | FR authentique |
+| **barsk** | adj | harsh, gruff |  | SV barsk + DA barsk |
+| **bekend** | adj | familiar, well-known |  | NL bekend |
 | **bela** | adj | beautiful |  | FR beau/belle |
+| **belhed** | n (c) | beauty |  | bela + -hed |
 | **best** | adj | best |  | NL best + EN best |
 | **beter** | adj | better |  | NL beter + EN better |
 | **blaa** | adj | blue |  | SV blå + NL blauw |
 | **blij** | adj | happy |  | NL blij |
 | **bred** | adj | wide |  | SV bred + DA bred |
+| **brutal** | adj | brutal |  | FR brutal |
 | **bruun** | adj | brown |  | SV brun + NL bruin |
 | **dalig** | adj | bad |  | SV dålig |
 | **dar** | adj | amber (colour) |  | FR doré + EN amber |
 | **direkt** | adj | direct |  | SV direkt + FR direct |
-| **djup** | adj | deep |  | SV djup |
+| **djup** | adj | deep, profound |  | SV djup |
+| **djuphed** | n (c) | depth |  | djup + -hed |
 | **dobbel** | adj | double, dual |  | DA dobbelt + NL dubbel |
 | **egen** | adj | own |  | SV egen + DA egen |
+| **ekta** | adj | genuine, real |  | SV äkta + NL echt |
+| **endelos** | adj | endless |  | NL eindeloos + DA endeløs |
 | **Engelsk** | adj | English |  | SV engelsk |
 | **enkel** | adj | simple |  | SV enkel + NL enkel |
 | **erlig** | adj | honest |  | SV ärlig |
@@ -1965,44 +2209,64 @@
 | **form** | n (c) | form, shape |  | FR forme + SV form |
 | **formell** | adj | formal | high | FR formel + SV formell |
 | **Fransk** | adj | French |  | SV fransk |
+| **fremmed** | adj | strange, unfamiliar, foreign |  | DA fremmed |
 | **fri** | adj | free |  | EN free + SV fri |
 | **full** | adj | full |  | SV full + EN full |
 | **gammel** | adj | old |  | SV gammal + DA gammel |
+| **gensidig** | adj | mutual |  | DA gensidig |
+| **gensidighed** | n (c) | reciprocity, mutuality |  | gensidig + -hed |
 | **goed** | adj | good |  | NL goed + EN good |
 | **graa** | adj | grey |  | SV grå + DA grå |
 | **gron** | adj | green |  | SV grön + NL groen |
 | **grym** | adj | cruel |  | SV grym |
 | **gul** | adj | yellow |  | SV gul |
 | **hard** | adj | hard |  | EN hard + SV hård |
+| **hel** | adj | whole, entire |  | SV hel + NL heel |
 | **hemlig** | adj | secret |  | SV hemlig |
 | **herlig** | adj | great, glorious |  | DA herlig + SV härlig |
 | **het** | adj | hot |  | SV het + NL heet |
 | **hinder** | n (n) | obstacle, barrier |  | SV hinder |
 | **Hollandsk** | adj | Dutch |  | DA hollandsk + SV holländsk |
 | **hoog** | adj | high |  | NL hoog |
+| **hul** | adj | hollow |  | DA hul + NL hol |
+| **inre** | adj | inner, internal |  | SV inre |
+| **intens** | adj | intense |  | FR intense |
 | **kald** | adj | cold |  | DA kold + NL koud |
 | **klar** | adj | clear |  | SV klar + NL klaar |
 | **klarhed** | n (c) | clarity |  | klar + -hed |
 | **koel** | adj | cool |  | NL koel |
 | **kort** | adj | short |  | SV kort + NL kort |
+| **kraftig** | adj | powerful |  | kraft + -ig |
 | **laag** | adj | low |  | NL laag |
 | **lang** | adj | long |  | SV lång + NL lang |
 | **lekker** | adj | tasty, nice, great (all-purpose approval) | everyday | NL lekker |
 | **lett** | adj | light (weight), easy |  | SV lätt + DA let |
+| **lievverd** | adj | lovable |  | liev + verd |
 | **lik** | adj | similar, alike |  | SV lik + EN like |
 | **liten** | adj | small |  | SV liten |
 | **mange** | det | many |  | SV många + EN many |
+| **merkverdig** | adj | remarkable, curious |  | DA mærkværdig + SV märkvärdig |
 | **middel** | adj | middle |  | NL middel + SV medel |
 | **mjuk** | adj | soft |  | SV mjuk |
+| **modern** | adj | modern |  | FR moderne + SV modern |
+| **mogen** | adj | mature, ripe |  | SV mogen |
+| **mojlig** | adj | possible |  | SV möjlig |
+| **mojlighed** | n (c) | possibility |  | mojlig + -hed |
 | **mork** | adj | dark |  | SV mörk + DA mørk |
 | **nodvendig** | adj | necessary |  | DA nødvendig |
+| **normal** | adj | normal |  | FR normal |
 | **ny** | adj | new |  | SV ny |
+| **ogensidig** | adj | unrequited, one-sided |  | o- + gensidig |
 | **olik** | adj | different |  | o- + lik |
+| **omojlig** | adj | impossible |  | o- + mojlig |
 | **open** | adj | open |  | NL open + EN open |
 | **opulent** | adj | rich | high | FR opulent |
 | **oranj** | adj | orange |  | FR orange |
 | **otrolig** | adj | astounding, incredible |  | DA utrolig + SV otrolig |
+| **perfekt** | adj | perfect |  | SV perfekt + FR parfait |
+| **plotslig** | adj | sudden |  | SV plötslig |
 | **pover** | adj | poor | high | FR pauvre |
+| **praktisk** | adj | practical |  | SV praktisk + FR pratique |
 | **produktiv** | adj | productive | high | FR productif |
 | **progresiv** | adj | progressive | high | FR progressif |
 | **purpur** | adj | purple |  | SV purpur + FR pourpre |
@@ -2030,23 +2294,29 @@
 | **starkhed** | n (c) | intensity |  | stark + -hed |
 | **stor** | adj | big |  | SV stor |
 | **svaar** | adj | difficult |  | SV svår |
+| **svaarhed** | n (c) | difficulty |  | svaar + -hed |
 | **svag** | adj | weak |  | SV svag + DA svag |
 | **svart** | adj | black |  | SV svart + NL zwart |
 | **Svensk** | adj | Swedish |  | SV svensk |
+| **teder** | adj | tender, gentle |  | NL teder |
 | **tjok** | adj | thick |  | SV tjock |
 | **tom** | adj | empty |  | SV tom |
 | **torr** | adj | dry |  | SV torr |
 | **tung** | adj | heavy |  | SV tung |
 | **tunn** | adj | thin |  | SV tunn + NL dun |
 | **ung** | adj | young |  | SV ung + DA ung |
+| **unik** | adj | unique |  | FR unique |
+| **universell** | adj | universal |  | FR universel |
 | **vaat** | adj | wet |  | SV våt + DA våd |
 | **vanlig** | adj | ordinary, usual |  | SV vanlig |
 | **varm** | adj | warm |  | SV varm + NL warm |
+| **varmhed** | n (c) | warmth |  | varm + -hed |
 | **verd** | adj | worth, worthy |  | SV värd + NL waard |
 | **verdig** | adj | dignified, worthy |  | verd + -ig |
 | **viktig** | adj | important |  | SV viktig + NL wichtig |
 | **vit** | adj | white |  | SV vit + NL wit |
 | **wonderbar** | adj | wonderful |  | SV underbar + NL wonderbaar |
+| **ytre** | adj | outer, external |  | DA ytre + SV yttre |
 
 ## function-words
 
@@ -2057,12 +2327,15 @@
 | **alltid** | adv | always |  | SV alltid |
 | **als** | conj | than, as |  | NL als |
 | **alt** | pron | everything, all (neuter) |  | SV allt |
+| **altfor** | adv | too, excessively |  | alt + for |
 | **anner** | det | other |  | SV annan + NL ander |
 | **av** | prep | of, from |  | SV av |
+| **bakom** | prep | behind |  | SV bakom |
 | **bara** | adv | only |  | SV bara |
 | **befor** | prep | before |  | EN before + SV förr |
 | **beide** | det | both |  | NL beide + DA begge |
 | **bort** | adv | away |  | SV bort |
+| **bortom** | prep | beyond |  | bort + om |
 | **dan** | adv | then |  | NL dan + EN then |
 | **dat** | det | that |  | NL dat + EN that |
 | **de** | det | the (plural, before adjectives) |  | SV de + DA de |
@@ -2078,15 +2351,21 @@
 | **du** | pron | you (singular) |  | SV du |
 | **efter** | prep | after |  | SV efter + DA efter |
 | **el** | conj | or |  | SV eller |
+| **elk** | det | each, every |  | NL elk |
+| **endaa** | adv | yet, still, though |  | SV ändå + DA endda |
+| **engang** | adv | once |  | en + gang |
 | **ferst** | adv | first, firstly |  | DA først |
 | **for** | prep | for |  | EN for + SV för |
 | **forbi** | prep | past, by |  | SV förbi + DA forbi |
 | **fordat** | conj | because |  | for + dat |
+| **forevig** | adv | forever |  | for + evig |
 | **fra** | prep | from |  | SV från + DA fra |
+| **fram** | adv | forward, forth |  | SV fram + DA frem |
 | **gennem** | prep | through |  | DA gennem + SV genom |
 | **ham** | pron | him |  | DA ham |
 | **han** | pron | he |  | SV han |
 | **hans** | det | his |  | SV hans |
+| **heller** | adv | rather, preferably, sooner |  | DA hellere + SV hellre |
 | **hen** | pron | they (singular) |  | SV hen |
 | **henne** | pron | her (object) |  | SV henne + DA hende |
 | **hens** | det | their (singular possessive) |  | SV hens |
@@ -2100,11 +2379,13 @@
 | **ingen** | pron | none, nobody |  | SV ingen |
 | **ingenwaar** | adv | nowhere |  | ingen + waar |
 | **innen** | prep | within |  | DA inden + SV inom |
+| **isteden** | adv | instead |  | DA i stedet |
 | **ja** | interj | yes |  | NL ja + SV ja |
 | **jer** | det | your (plural) |  | DA jeres |
 | **ju** | pron | you (plural) |  | NL jullie + EN you |
 | **kanske** | adv | maybe, perhaps |  | SV kanske |
 | **med** | prep | with |  | SV med |
+| **medan** | conj | while |  | SV medan |
 | **mellan** | prep | between |  | SV mellan |
 | **men** | conj | but |  | SV men |
 | **mer** | adv | more |  | SV mer |
@@ -2113,7 +2394,7 @@
 | **min** | det | my |  | SV min + NL mijn |
 | **minder** | adv | less |  | NL minder |
 | **minst** | adv | least |  | SV minst + NL minst |
-| **mot** | prep | against |  | SV mot |
+| **mot** | prep | against, toward |  | SV mot |
 | **mykke** | adv | much |  | SV mycket |
 | **ned** | adv | down |  | SV ned + NL neer |
 | **nej** | interj | no |  | SV nej |
@@ -2131,6 +2412,9 @@
 | **overalt** | adv | everywhere |  | over + alt |
 | **samme** | det | same |  | DA samme + SV samma |
 | **self** | pron | self |  | EN self + NL zelf |
+| **selfom** | conj | although, even though |  | self + om |
+| **selfs** | adv | even |  | NL zelfs |
+| **siden** | prep | since; ago |  | DA siden |
 | **sik** | pron | himself, herself, themself (reflexive) |  | SV sig + DA sig + NL zich |
 | **snart** | adv | soon |  | SV snart |
 | **so** | adv | so, thus |  | SV så + EN so |
@@ -2143,7 +2427,10 @@
 | **te** | prep | to |  | NL te + EN to |
 | **terug** | adv | back (returning) |  | NL terug |
 | **tesamme** | adv | together |  | NL tezamen |
-| **under** | prep | under, according to |  | SV under + EN under |
+| **tils** | prep | until |  | SV tills |
+| **trots** | prep | despite, in spite of |  | SV trots |
+| **tvers** | adv | across, crosswise |  | SV tvärs + DA tværs |
+| **under** | prep | under, during, according to |  | SV under + EN under |
 | **ut** | adv | out |  | SV ut + NL uit |
 | **uten** | prep | without |  | SV utan + DA uden |
 | **vaar** | det | our |  | SV vår |
@@ -2160,16 +2447,21 @@
 
 | Laphurdi | English |
 |---|---|
+| aand | spirit |
 | absolut | absolute |
 | abstrakt | abstract |
+| adem | breath |
 | adiksjon | addiction |
 | adjuu | goodbye |
 | adorera | love |
 | adres | address |
 | advokat | lawyer |
+| affeksjon | affection |
 | aften | evening |
 | aftenmat | dinner, supper |
 | akselerasjon | acceleration |
+| akseptera | accept |
+| akseptering | acceptance |
 | aksiom | axiom |
 | akt | eight |
 | akte | eighth |
@@ -2189,6 +2481,7 @@
 | alltid | always |
 | als | than, as |
 | alt | everything, all (neuter) |
+| altfor | too, excessively |
 | ambasadeur | ambassador |
 | ambulans | ambulance |
 | Amerikansk | American |
@@ -2201,6 +2494,9 @@
 | anda | breathe |
 | andre | second |
 | anga | steam |
+| angra | regret, rue |
+| angring | regret, remorse |
+| angst | anxiety, dread |
 | anker | anchor |
 | ankomma | arrive |
 | anner | other |
@@ -2217,8 +2513,12 @@
 | arbetslos | unemployed |
 | arbetsloshed | unemployment |
 | arg | angry |
+| arghed | anger |
+| argument | argument |
+| argumentera | argue |
 | arm | arm |
 | arme | army |
+| arr | scar |
 | ars | ass (vulgar) |
 | art | species |
 | arterie | artery |
@@ -2235,6 +2535,7 @@
 | atom | atom |
 | attityd | attitude |
 | august | August |
+| autentisk | authentic |
 | automat | automaton |
 | automatisk | automatic |
 | autonomi | autonomy |
@@ -2242,10 +2543,15 @@
 | av | of, from |
 | avatar | avatar |
 | avfall | waste, garbage |
+| avhengig | addicted, dependent |
+| avhengighed | addiction, dependence |
 | avokado | avocado |
 | avresa | depart |
+| avsloja | reveal, disclose |
 | avstand | distance, gap |
 | avtal | agreement, treaty |
+| avvisa | reject, turn away |
+| avvising | rejection |
 | baan | track, way |
 | baar | stretcher |
 | baat | the greatest of all time (slang) |
@@ -2254,15 +2560,19 @@
 | bak | backside, butt |
 | baka | bake |
 | bakeri | bakery |
+| bakom | behind |
 | bakterie | bacterium |
 | banan | banana |
 | bank | bank |
 | bara | only |
 | bark | bark (of tree) |
 | barometer | barometer |
+| barsk | harsh, gruff |
 | bas | base (chemistry) |
 | basilika | basil |
 | bebe | baby |
+| beda | pray, beg |
+| beding | prayer |
 | bedrag | fraud |
 | been | leg |
 | befolka | populate |
@@ -2276,26 +2586,39 @@
 | behov | need (n.) |
 | behova | need (v.) |
 | beide | both |
+| bekend | familiar, well-known |
+| bekenna | confess, admit |
+| bekenning | confession, admission |
 | bekrefta | confirm, certify |
 | bekrefting | confirmation, validation |
+| bekymra | worry, trouble |
+| bekymring | worry, concern |
 | bela | beautiful |
+| belhed | beauty |
 | belt | belt |
 | ben | bone |
 | benign | benign |
 | ber | berry |
 | bera | carry |
+| beretta | tell, recount, narrate |
+| beretting | narrative, account, tale |
 | berg | mountain |
 | besok | visit (n.) |
 | besoka | visit |
 | best | best |
 | bestefar | grandfather |
 | bestemor | grandmother |
+| besvika | disappoint |
+| besviking | disappointment |
 | beta | beet |
 | betala | pay |
 | betaling | payment |
 | beteende | behaviour |
 | beter | better |
+| betrakta | contemplate, regard |
 | betyda | mean (v.) |
+| bevega | move, stir |
+| beveging | movement, motion |
 | bever | beaver |
 | beverasje | drink (n.) |
 | bevis | proof, evidence |
@@ -2305,6 +2628,7 @@
 | bij | bee |
 | bil | car |
 | bild | picture |
+| bildsprak | imagery |
 | biljet | ticket |
 | billig | cheap, affordable |
 | binda | tie, bind |
@@ -2332,6 +2656,7 @@
 | blodgrupp | blood type |
 | blodkerl | blood vessel |
 | blodpropp | blood clot |
+| blodstrom | bloodstream |
 | blodtrykk | blood pressure |
 | blogg | blog |
 | blogga | blog (v.) |
@@ -2353,7 +2678,9 @@
 | borger | citizen |
 | borgerskap | citizenship |
 | borgmester | mayor |
+| bors | stock exchange |
 | bort | away |
+| bortom | beyond |
 | bot | remedy, cure |
 | botmedel | remedy |
 | braka | vomit |
@@ -2379,6 +2706,7 @@
 | bruk | use (n.) |
 | bruka | use |
 | brusk | cartilage |
+| brutal | brutal |
 | bruun | brown |
 | bryllop | wedding |
 | bryst | breast, chest |
@@ -2432,6 +2760,7 @@
 | der | there |
 | desedera | die |
 | desember | December |
+| desperat | desperate |
 | destillera | distil |
 | det | the (neuter, before adjectives); it |
 | diabetes | diabetes |
@@ -2455,11 +2784,14 @@
 | diskriminera | discriminate |
 | diskur | speech |
 | djevel | devil |
-| djup | deep |
+| djup | deep, profound |
+| djupa | deepen |
+| djuphed | depth |
 | doa | do, make |
 | dobbel | double, dual |
 | dod | death |
 | dodstraff | death penalty |
+| doft | scent, fragrance |
 | dok | dock |
 | doktor | doctor |
 | dokument | document |
@@ -2468,6 +2800,7 @@
 | doma | judge (v.) |
 | domare | judge (n.) |
 | doming | judgment, trial |
+| domna | go numb |
 | domstol | court |
 | donor | donor |
 | dor | door |
@@ -2475,6 +2808,8 @@
 | dotter | daughter |
 | dov | deaf |
 | draga | pull |
+| drama | drama |
+| dramatisk | dramatic |
 | dreppa | kill |
 | drika | drink |
 | drikk | drink (n.) |
@@ -2482,6 +2817,7 @@
 | drom | dream |
 | dromland | dreamland, imaginary country |
 | dromma | dream (v.) |
+| dron | drone |
 | dronken | drunk |
 | drukna | drown |
 | druva | grape |
@@ -2499,15 +2835,20 @@
 | egendom | property |
 | egg | egg |
 | ek | oak |
+| ekko | echo |
 | ekologi | ecology |
 | ekonomi | economy |
 | ekonomisk | economic |
 | ekosystem | ecosystem |
 | eksamen | examination |
 | eksekutiv | executive |
+| eksistens | existence |
+| eksistensiell | existential |
+| eksistera | exist |
 | eksperiment | experiment |
 | eksplikera | explain |
 | eksport | export |
+| ekta | genuine, real |
 | ekwasjon | equation |
 | el | or |
 | eld | fire |
@@ -2518,14 +2859,20 @@
 | element | element |
 | elev | pupil |
 | elg | elk, moose |
+| elk | each, every |
 | elva | eleven |
+| emosjon | emotion |
 | emosjonell | emotional |
 | empati | empathy |
 | empatisk | empathetic |
 | empirisk | empirical |
 | en | one |
 | enda | end (v.) |
+| endaa | yet, still, though |
+| endelos | endless |
 | energi | energy |
+| engang | once |
+| engel | angel |
 | Engelsk | English |
 | enhed | unit |
 | enkel | simple |
@@ -2536,6 +2883,9 @@
 | epidemi | epidemic |
 | epost | email |
 | era | honour (v.) |
+| erfara | experience (v.) |
+| erfaring | experience (n.) |
+| erkenna | acknowledge |
 | erlig | honest |
 | erlighed | honesty |
 | ert | pea |
@@ -2543,6 +2893,9 @@
 | eta | eat |
 | etik | ethics |
 | etnisk | ethnic |
+| evig | eternal, everlasting |
+| evighed | eternity |
+| evne | ability, capacity |
 | evolusjon | evolution |
 | faa | get, receive |
 | faar | sheep |
@@ -2553,8 +2906,9 @@
 | falla | fall |
 | falsk | false |
 | famille | family |
-| fanga | catch |
+| fanga | catch, capture |
 | fangst | catch (of fish), haul |
+| fantasi | fantasy, imagination |
 | fantastisk | amazing, fantastic |
 | farlig | dangerous |
 | fast | fixed, firm |
@@ -2566,6 +2920,8 @@
 | feder | feather |
 | feil | error, fault |
 | fel | wrong |
+| fela | fail, err |
+| feling | failure |
 | felisitet | happiness |
 | felt | field |
 | fem | five |
@@ -2582,6 +2938,7 @@
 | ferste | first |
 | fest | party, feast |
 | fett | fat (n.) |
+| fiende | enemy |
 | figon | fig |
 | fikk | pocket |
 | fil | file |
@@ -2614,7 +2971,10 @@
 | flyga | fly (v.) |
 | flyghamn | airport |
 | flygplan | airplane |
+| flykt | flight, escape |
+| flykta | flee, escape |
 | flyta | float |
+| flytta | move (house), relocate |
 | foda | give birth, bear |
 | foding | birth |
 | folga | follow |
@@ -2635,7 +2995,11 @@
 | fordom | prejudice |
 | forelder | parent |
 | forening | compound (chemical) |
+| forevig | forever |
+| forfattare | author, writer |
 | forklara | explain |
+| forlata | abandon, forsake |
+| forlating | abandonment |
 | forlust | loss |
 | form | form, shape |
 | formel | formula |
@@ -2645,7 +3009,19 @@
 | forskare | researcher |
 | forsking | research (n.) |
 | forslag | proposal |
+| forsona | reconcile |
+| forsoning | reconciliation |
+| forstora | destroy, ruin |
+| forstoring | destruction |
 | forsvar | defence |
+| fortid | past (n.) |
+| fortsetta | continue |
+| fortvivla | despair |
+| fortvivling | despair (n.) |
+| forventa | expect |
+| forventing | expectation |
+| forvirra | confuse, bewilder |
+| forvirring | confusion |
 | fossil | fossil |
 | fot | foot |
 | fotboll | football |
@@ -2655,11 +3031,17 @@
 | fra | from |
 | fraga | ask |
 | frakt | fracture |
+| fram | forward, forth |
+| framsteg | progress |
+| framtid | future |
 | Fransk | French |
 | fras | phrase |
+| fravaro | absence |
 | fred | peace |
 | fredag | Friday |
 | frekvens | frequency |
+| fremling | stranger |
+| fremmed | strange, unfamiliar, foreign |
 | fri | free |
 | frihed | freedom |
 | friksjon | friction |
@@ -2674,6 +3056,7 @@
 | frysa | freeze |
 | fugel | bird |
 | full | full |
+| fundamentell | fundamental |
 | funksjon | function |
 | funksjonshinder | disability |
 | fylla | fill |
@@ -2683,6 +3066,7 @@
 | fysik | physics |
 | fysiologi | physiology |
 | fysioterapi | physiotherapy |
+| fysisk | physical |
 | gaa | go |
 | gaffel | fork |
 | gal | crazy |
@@ -2690,18 +3074,22 @@
 | galla | bile |
 | galleri | gallery |
 | gammel | old |
+| gang | time, occasion |
 | garanti | guarantee |
 | gard | yard, farm |
 | gardin | curtain |
 | gas | gas |
 | gata | street |
 | gava | gift |
+| gebar | gesture |
 | gemenskap | community |
 | gen | gene |
 | generasjon | generation |
 | genetik | genetics |
 | gennem | through |
 | genomsnitt | average |
+| gensidig | mutual |
+| gensidighed | reciprocity, mutuality |
 | geografi | geography |
 | geometri | geometry |
 | gest | guest |
@@ -2714,8 +3102,12 @@
 | gips | plaster cast |
 | glas | glass |
 | glasiar | glacier |
+| gleda | gladden, delight |
+| glede | joy, gladness |
 | glomma | forget |
 | gnida | rub |
+| gnista | spark |
+| gnistra | sparkle, glitter |
 | goed | good |
 | golv | floor |
 | gomma | hide |
@@ -2726,7 +3118,7 @@
 | gram | gram |
 | gran | spruce |
 | grapefrukt | grapefruit |
-| gras | grass |
+| gras | grass; weed (marijuana, slang) |
 | gratis | free of charge |
 | grava | dig |
 | gravid | pregnant |
@@ -2734,8 +3126,10 @@
 | grens | border |
 | grensa | limit (v.) |
 | grilla | grill |
+| gripa | grip, seize |
 | gron | green |
 | gronsak | vegetable |
+| grubbla | brood, ponder |
 | grund | foundation, ground |
 | grunda | found, establish |
 | grundare | founder |
@@ -2744,6 +3138,8 @@
 | grym | cruel |
 | gryn | cereal, grain |
 | gryta | pot |
+| gud | god, God |
+| gudig | divine |
 | gul | yellow |
 | gurka | cucumber |
 | gyldig | valid |
@@ -2763,6 +3159,7 @@
 | handling | act, action |
 | handske | glove |
 | hans | his |
+| hantera | handle, manage |
 | hard | hard |
 | hare | hare |
 | hastighed | velocity |
@@ -2772,7 +3169,9 @@
 | hava | have |
 | havre | oat |
 | heera | hear |
+| hel | whole, entire |
 | hela | heal |
+| heller | rather, preferably, sooner |
 | helning | healing |
 | helsa | health |
 | helsaministerie | health ministry |
@@ -2785,6 +3184,7 @@
 | hen | they (singular) |
 | henne | her (object) |
 | hens | their (singular possessive) |
+| herda | endure, persevere |
 | herlig | great, glorious |
 | herre | gentleman, lord |
 | hest | horse |
@@ -2801,6 +3201,7 @@
 | hjerneslag | stroke (medical) |
 | hjerta | heart |
 | hjertinfarkt | heart attack |
+| hjertsorg | heartbreak |
 | hjul | wheel |
 | hoe | how |
 | hoft | hip |
@@ -2825,6 +3226,8 @@
 | hovedstad | capital city |
 | hovedverk | headache |
 | hud | skin |
+| hul | hollow |
+| humor | humor |
 | hund | dog |
 | hundra | hundred |
 | hunger | hunger |
@@ -2838,16 +3241,20 @@
 | hytta | cottage, hut |
 | iaften | tonight, this evening |
 | idag | today |
+| ideal | ideal |
+| idealisme | idealism |
 | idee | idea |
 | identitet | identity |
 | ideologi | ideology |
 | idiot | idiot |
 | igaar | yesterday |
 | igen | again |
+| igenkenna | recognize |
 | ik | I |
 | ikon | icon |
 | iland | island |
 | ilandgrupp | archipelago |
+| imaginera | imagine |
 | immun | immune |
 | imorgen | tomorrow |
 | import | import |
@@ -2868,7 +3275,9 @@
 | inkomst | income |
 | innen | within |
 | innstellning | setting (config) |
+| inre | inner, internal |
 | insekt | insect |
+| insikt | insight, realization |
 | installasjon | installation |
 | installera | install |
 | instinkt | instinct |
@@ -2878,9 +3287,12 @@
 | integrasjon | integration |
 | integritet | integrity |
 | intelligens | intelligence |
+| intens | intense |
+| intensjon | intention |
 | interessant | interesting |
 | internett | internet |
 | intim | intimate |
+| intimitet | intimacy |
 | invandring | immigration |
 | invasjon | invasion |
 | ironi | irony |
@@ -2890,6 +3302,8 @@
 | isolering | isolation |
 | isotop | isotope |
 | isskap | refrigerator |
+| isteden | instead |
+| iver | eagerness, zeal, excitement |
 | ja | yes |
 | jaar | year |
 | jaga | hunt |
@@ -2919,7 +3333,10 @@
 | kalkon | turkey |
 | kamer | chamber |
 | kamera | camera |
-| kampa | fight |
+| kamerat | comrade, companion |
+| kameratskap | companionship |
+| kamp | fight, struggle (n.) |
+| kampa | fight, struggle |
 | kampanj | campaign |
 | kanabis | cannabis |
 | kandidat | candidate |
@@ -2935,7 +3352,7 @@
 | karantene | quarantine |
 | karbon | carbon |
 | karot | carrot |
-| kart | map, chart |
+| kart | map, chart, card |
 | kasino | casino |
 | kasta | throw |
 | katalysator | catalyst |
@@ -2951,6 +3368,7 @@
 | kilo | kilogram |
 | kilometer | kilometre |
 | kind | child |
+| kindtid | childhood |
 | kinetisk | kinetic |
 | kip | chicken |
 | kirk | church |
@@ -2980,6 +3398,8 @@
 | knie | knee |
 | kniv | knife |
 | knulla | fuck (vulgar) |
+| knusa | crush, shatter, devastate |
+| knyta | tie, knot, bind |
 | ko | cow |
 | kod | code |
 | koda | code (v.) |
@@ -3015,14 +3435,18 @@
 | konklusjon | conclusion |
 | konsens | consensus |
 | konsensbrekare | consensus-breaker |
+| konsert | concert |
 | konservativ | conservative |
 | konsoll | console |
 | konst | art |
 | konstant | constant |
 | konsument | consumer |
+| kontekst | context |
 | konto | account |
 | kontrakt | contract |
+| kontrast | contrast |
 | konvenor | convenor |
+| konversasjon | conversation |
 | koordinat | coordinate |
 | kopa | buy |
 | kopie | copy (n.) |
@@ -3043,6 +3467,7 @@
 | krab | crab |
 | kraft | strength, power |
 | kraftfelt | force field |
+| kraftig | powerful |
 | kramma | squeeze, hug |
 | kran | tap, faucet |
 | kranium | skull |
@@ -3068,6 +3493,7 @@
 | krypig | cringeworthy (slang) |
 | kryptera | encrypt |
 | kryptering | encryption |
+| kudde | pillow, cushion |
 | kuk | dick (vulgar) |
 | kulle | hill |
 | kultur | culture |
@@ -3079,6 +3505,7 @@
 | kurs | course |
 | kusin | cousin |
 | kust | coast |
+| kval | anguish, torment |
 | kvalifikasjon | qualification |
 | kvin | woman |
 | kvorum | quorum |
@@ -3091,6 +3518,8 @@
 | kwittens | receipt |
 | kwizin | cuisine |
 | kwot | quotient |
+| kyss | kiss (n.) |
+| kyssa | kiss |
 | laag | low |
 | laan | loan |
 | laana | borrow, lend |
@@ -3107,11 +3536,13 @@
 | lagring | storage |
 | lak | lake |
 | lakka | laugh |
+| lakking | laughter |
 | laks | salmon |
 | lam | lamb |
 | lampa | lamp |
 | land | land, country |
 | landsbygd | countryside |
+| landskap | landscape |
 | lang | long |
 | langsam | slow |
 | Lapentieur | Lapentieur (the capital) |
@@ -3119,6 +3550,7 @@
 | Laphurdeener | Laphurdeener (citizen) |
 | Laphurdi | the Laphurdi language |
 | last | cargo |
+| lata | let, allow |
 | lava | lava |
 | led | joint (of the body) |
 | leda | lead |
@@ -3133,6 +3565,8 @@
 | leksjon | lesson |
 | lemna | leave |
 | lemonad | lemonade |
+| lengta | long, yearn |
+| lengting | longing, yearning |
 | lenk | link |
 | lente | spring (season) |
 | lepp | lip |
@@ -3141,10 +3575,14 @@
 | lering | education, teaching |
 | lerna | learn |
 | lesa | read |
+| lesare | reader |
 | leta | search |
 | lett | light (weight), easy |
+| letta | lighten, relieve |
+| letting | relief |
 | leva | live |
 | lever | liver |
+| leverera | deliver |
 | liberalisme | liberalism |
 | lida | suffer |
 | lidare | sufferer |
@@ -3152,15 +3590,19 @@
 | liev | love (n.) |
 | lieva | love |
 | lievare | lover |
+| lievling | beloved, darling |
+| lievverd | lovable |
 | ligga | lie (recline) |
 | lik | similar, alike |
 | limett | lime |
 | linje | line (route, stroke) |
 | lins | lens |
+| lita | trust, rely on |
 | liten | small |
 | liter | litre |
 | liv | life |
 | lobbying | lobbying |
+| lofte | promise (n.) |
 | logaritme | logarithm |
 | logga | log (in) |
 | loj | law |
@@ -3174,12 +3616,15 @@
 | losa | dissolve, solve |
 | losenord | password |
 | losning | solution |
+| lova | promise, vow |
 | luft | air |
 | lugn | calm |
 | lukta | smell |
 | lunga | lung |
 | lunsj | lunch |
 | lus | louse |
+| lyd | sound |
+| lyda | sound (v.) |
 | lyfta | lift |
 | lykka | luck |
 | lys | light |
@@ -3218,8 +3663,10 @@
 | marknadsplas | marketplace |
 | markor | cursor |
 | mars | March |
+| marsk | salt marsh |
 | masjin | machine |
 | masjinvara | hardware |
+| mask | mask |
 | massa | mass |
 | mast | mast |
 | mat | food |
@@ -3227,11 +3674,14 @@
 | matros | sailor |
 | matta | rug, mat |
 | med | with |
+| medan | while |
 | medel | means, agent |
 | medesin | doctor |
 | media | media |
 | median | median |
 | medisin | medicine |
+| meditasjon | meditation |
+| meditera | meditate |
 | medlem | member |
 | medlemskap | membership |
 | medvetande | consciousness |
@@ -3251,11 +3701,13 @@
 | mer | more |
 | merg | marrow |
 | merke | mark |
+| merkverdig | remarkable, curious |
 | mersi | thanks |
 | mesasj | message |
 | mest | most |
 | meta | measure (v.) |
 | metafor | metaphor |
+| metaforisk | metaphorical |
 | metall | metal |
 | meter | metre |
 | meting | measurement |
@@ -3290,16 +3742,24 @@
 | mode | fashion |
 | modell | model |
 | moder | mother |
+| modern | modern |
 | modig | brave |
 | moeton | mutton |
+| mogen | mature, ripe |
+| mojlig | possible |
+| mojlighed | possibility |
 | molekyl | molecule |
+| moment | moment, instant |
 | moral | morality |
 | moralisk | moral |
+| mord | murder |
+| morda | murder (v.) |
 | morgen | morning |
 | mork | dark |
+| morkhed | darkness |
 | moske | mosque |
 | moste | must |
-| mot | against |
+| mot | against, toward |
 | mote | meeting |
 | motivasjon | motivation |
 | motivera | motivate |
@@ -3314,7 +3774,9 @@
 | musla | mussel, shellfish |
 | muts | cap |
 | mykke | much |
+| mynt | coin, mint |
 | nabo | neighbour |
+| nabolag | neighbourhood |
 | nagel | fingernail |
 | nara | near |
 | narkose | anaesthesia |
@@ -3329,7 +3791,9 @@
 | nedladda | download |
 | nedladdning | download (n.) |
 | nej | no |
+| nerma | approach, near |
 | nerv | nerve |
+| nervaro | presence |
 | nervos | nervous |
 | nese | nose |
 | neste | next |
@@ -3345,6 +3809,7 @@
 | nikt | niece |
 | nit | not |
 | nitten | nineteen |
+| nivaa | level |
 | njure | kidney |
 | nod | emergency, distress |
 | nodtid | state of emergency |
@@ -3352,15 +3817,21 @@
 | noet | nut |
 | nokel | key |
 | nord | north |
+| nordster | north star, polestar |
 | norm | norm |
+| normal | normal |
 | notifikasjon | notification |
 | november | November |
 | nu | now |
 | nudel | noodle |
 | null | zero |
+| num | numb |
 | nummer | number |
+| nutid | present (time) |
 | ny | new |
 | nyhed | news |
+| nykter | sober |
+| nykterhed | sobriety |
 | nysa | sneeze |
 | obduksjon | autopsy |
 | observasjon | observation |
@@ -3372,8 +3843,10 @@
 | offline | offline |
 | ofta | often |
 | og | and |
+| ogensidig | unrequited, one-sided |
 | ogyldig | invalid, void |
 | oje | eye |
+| ojeblik | moment, instant |
 | ojemlikhed | inequality |
 | okraft | incapacity |
 | oksygen | oxygen |
@@ -3383,6 +3856,7 @@
 | olja | oil |
 | om | if, whether, about |
 | omlopp | orbit |
+| omojlig | impossible |
 | on | on |
 | onkel | uncle |
 | onkologi | oncology |
@@ -3393,7 +3867,11 @@
 | operera | operate (surgically) |
 | opna | open (v.) |
 | opp | up |
+| oppdaga | discover |
+| oppdaging | discovery |
 | oppladda | upload |
+| oppmerksam | attentive |
+| oppmerksamhed | attention |
 | optik | optics |
 | opulent | rich |
 | oranj | orange |
@@ -3408,10 +3886,15 @@
 | os | us |
 | oskyldig | innocent |
 | ost | cheese |
+| ostra | oyster |
 | otrolig | astounding, incredible |
 | over | over, above |
 | overalt | everywhere |
 | overgang | transition |
+| overleva | survive |
+| overleving | survival |
+| overraska | surprise |
+| overrasking | surprise (n.) |
 | oversetta | translate |
 | oversettare | translator |
 | overvaka | surveil |
@@ -3423,6 +3906,7 @@
 | par | pair |
 | paradis | paradise |
 | paradoks | paradox |
+| parallell | parallel |
 | parasit | parasite |
 | park | park |
 | parkera | park (v.) |
@@ -3434,11 +3918,13 @@
 | pas | passport |
 | pasient | patient |
 | pasta | pasta |
+| patroon | pattern |
 | pels | fur |
 | peng | money |
 | penn | pen |
 | peppar | pepper |
 | per | pear |
+| perfekt | perfect |
 | permitera | allow |
 | persepsjon | perception |
 | persik | peach |
@@ -3446,12 +3932,15 @@
 | person | person |
 | personlig | personal |
 | personlighed | personality |
+| perspektiv | perspective |
 | piano | piano |
 | piksel | pixel |
 | pille | pill |
 | pinn | stick, twig |
 | pipa | pipe |
 | pjes | play (theatre) |
+| plan | plan |
+| planera | plan (v.) |
 | planet | planet |
 | planta | plant |
 | plas | square, place |
@@ -3459,6 +3948,7 @@
 | plattform | platform |
 | plikt | duty |
 | plomma | plum |
+| plotslig | sudden |
 | podd | podcast |
 | pojk | boy |
 | pokker | pox (oath) |
@@ -3469,16 +3959,19 @@
 | por | pore |
 | pork | pork |
 | porsjon | portion |
+| portrett | portrait |
 | post | mail, post |
 | potensiell | potential |
 | potet | potato |
 | pover | poor |
+| praktisk | practical |
 | preambel | preamble |
 | president | president |
 | presse | press (media) |
 | pris | price |
 | privat | private |
 | privilegie | privilege |
+| problem | problem |
 | produkt | product |
 | produktiv | productive |
 | produsent | producer |
@@ -3511,6 +4004,7 @@
 | psykiatri | psychiatry |
 | psykolog | psychologist |
 | psykologi | psychology |
+| psykologisk | psychological |
 | publisera | publish |
 | publisering | publication |
 | puls | pulse |
@@ -3530,6 +4024,8 @@
 | rangering | ranking, ranked choice |
 | rapport | report |
 | ras | race (of people) |
+| rasa | rage, rave |
+| raseri | rage, fury |
 | ratt | rat |
 | reaksjon | reaction |
 | realitet | reality |
@@ -3554,6 +4050,9 @@
 | ren | clean |
 | renkontrera | meet |
 | rep | rope |
+| repetera | repeat |
+| repetisjon | repetition |
+| representera | represent |
 | reproduksjon | reproduction |
 | resa | travel |
 | resare | traveller |
@@ -3579,9 +4078,13 @@
 | rijp | ripe |
 | rik | rich |
 | rikhed | wealth |
+| rim | rhyme |
+| rima | rhyme (v.) |
 | rimlig | reasonable |
 | rinna | flow |
 | ris | rice |
+| risk | risk |
+| riskera | risk (v.) |
 | ritual | ritual |
 | riva | tear |
 | roa | row (v.) |
@@ -3590,6 +4093,8 @@
 | rok | smoke |
 | rolle | role |
 | roman | novel |
+| romans | romance |
+| romantisk | romantic |
 | rontgen | x-ray |
 | ropa | call, shout |
 | roping | call, incitement |
@@ -3599,6 +4104,7 @@
 | ros | rose |
 | rosa | pink |
 | rosmarin | rosemary |
+| rost | voice |
 | rosta | roast |
 | rot | root |
 | rue | street |
@@ -3609,11 +4115,14 @@
 | rum | room |
 | rund | round |
 | rutten | rotten |
+| rymd | space (open, outer) |
+| rytme | rhythm |
 | saarbar | vulnerable |
 | saarbarhed | vulnerability |
 | safran | saffron |
 | saga | story, tale |
 | sak | matter, case, affair |
+| sakna | miss, lack |
 | salat | salad |
 | saliv | saliva |
 | salt | salt |
@@ -3622,8 +4131,10 @@
 | samarbete | cooperation |
 | samfund | society |
 | samla | gather, assemble |
-| samling | assembly, gathering |
+| samling | assembly, gathering, collection |
 | samme | same |
+| samtal | conversation |
+| samtidig | simultaneous |
 | samvelde | commonwealth |
 | sand | sand |
 | sang | song |
@@ -3654,6 +4165,9 @@
 | sel | seal |
 | selektera | choose |
 | self | self |
+| selfmord | suicide |
+| selfom | although, even though |
+| selfs | even |
 | selja | sell |
 | seljing | sale, selling |
 | selleri | celery |
@@ -3679,6 +4193,7 @@
 | setning | sentence |
 | setta | set, put |
 | sida | side |
+| siden | since; ago |
 | sider | cider |
 | siens | science |
 | siffra | digit |
@@ -3691,9 +4206,11 @@
 | singa | sing |
 | sinn | mind |
 | sinnsjukhed | mental illness |
+| sirene | siren |
 | sist | last, final |
 | sitron | lemon |
 | sitta | sit |
+| situasjon | situation |
 | sivil | civil |
 | sjalu | jealous |
 | sjamber | room |
@@ -3703,6 +4220,8 @@
 | sjarta | charter |
 | sjef | cook (n.) |
 | sjel | soul |
+| sjelig | spiritual |
+| sjelvrend | soulmate, kindred spirit |
 | sjili | chili |
 | sjokolad | chocolate |
 | sju | seven |
@@ -3725,6 +4244,9 @@
 | skanna | scan |
 | skanner | scanner |
 | skap | cupboard |
+| skapa | create |
+| skapare | creator |
+| skaping | creation |
 | skarp | sharp |
 | skatt | tax |
 | sked | spoon |
@@ -3736,6 +4258,11 @@
 | skerf | scarf |
 | skerm | screen |
 | skermbild | screenshot |
+| skift | shift (n.) |
+| skifta | shift, switch |
+| skilja | separate, part |
+| skiljing | separation, parting |
+| skilsmisse | divorce |
 | skinka | ham |
 | skip | ship |
 | skit | shit (mild oath) |
@@ -3770,6 +4297,7 @@
 | smelta | melt |
 | smerta | pain |
 | smerthed | soreness |
+| smertig | painful |
 | smertmedel | painkiller |
 | smila | smile |
 | smitta | contagion |
@@ -3781,8 +4309,10 @@
 | snabbhed | speed |
 | snart | soon |
 | sne | snow |
+| snyfta | sob |
 | so | so, thus |
 | soda | soda |
+| sofa | sofa, couch |
 | sok | sock |
 | soka | search, seek |
 | sokning | search (n.) |
@@ -3800,7 +4330,8 @@
 | son | son |
 | sopp | fungus |
 | soppa | soup |
-| sorg | sorrow |
+| sorg | sorrow, grief |
+| sorga | mourn, grieve |
 | sos | sauce |
 | sosial | social |
 | sosialisme | socialism |
@@ -3818,10 +4349,13 @@
 | spelhus | casino |
 | spenat | spinach |
 | spin | spider |
+| spoka | haunt |
+| spoke | ghost, specter |
 | sport | sport |
 | spotta | spit |
 | sprak | language |
 | spreka | speak |
+| sprekare | speaker |
 | spreking | speech, speaking |
 | springa | run |
 | sprit | liquor, spirits |
@@ -3852,6 +4386,7 @@
 | ster | star |
 | sterbild | constellation |
 | steril | sterile |
+| sterlys | starlight |
 | stert | tail |
 | sterva | die |
 | sti | path |
@@ -3867,6 +4402,7 @@
 | stor | big |
 | storm | storm |
 | storsegla | flex, show off (slang) |
+| stotta | support, prop up |
 | stov | dust |
 | stovel | boot |
 | straala | radiate |
@@ -3877,15 +4413,20 @@
 | strejk | strike (labour) |
 | strejka | strike (v.) |
 | stress | stress |
+| strev | effort, striving |
+| streva | strive, toil |
 | strofe | stanza |
 | strom | current, stream |
 | stromma | stream (v.) |
 | stromming | streaming |
+| struktur | structure |
 | student | student |
 | studera | study |
 | styra | steer |
 | styring | governance, government |
+| substans | substance |
 | suga | suck |
+| suggerera | suggest, propose |
 | sukker | sugar |
 | summa | sum |
 | sund | healthy |
@@ -3896,6 +4437,7 @@
 | suveren | sovereign |
 | suverenitet | sovereignty |
 | svaar | difficult |
+| svaarhed | difficulty |
 | svag | weak |
 | svamp | mushroom |
 | svan | swan |
@@ -3938,6 +4480,7 @@
 | tastbord | keyboard |
 | te | to |
 | teater | theatre |
+| teder | tender, gentle |
 | tee | tea |
 | teken | sign, symbol (written) |
 | tekst | text |
@@ -3967,6 +4510,9 @@
 | tiende | tenth |
 | tij | tide |
 | tilata | allow |
+| tilhora | belong |
+| tillit | trust, confidence |
+| tils | until |
 | timjan | thyme |
 | ting | thing |
 | tisdag | Tuesday |
@@ -3981,6 +4527,7 @@
 | tomat | tomato |
 | tomhed | emptiness |
 | tomma | empty (v.) |
+| ton | tone |
 | torden | thunder |
 | torka | dry, wipe |
 | torn | tower |
@@ -3994,9 +4541,12 @@
 | traadlos | wireless |
 | tradisjon | tradition |
 | trafik | traffic |
+| tragedi | tragedy |
 | tragisk | tragic |
 | trakig | boring |
 | tram | tram |
+| transformasjon | transformation |
+| transformera | transform |
 | transplantasjon | transplant (n.) |
 | transplantera | transplant (v.) |
 | transport | transport |
@@ -4013,7 +4563,10 @@
 | triti | thirty |
 | tro | belief, faith |
 | troa | believe |
+| troest | comfort, consolation |
+| troesta | comfort, console |
 | tromma | drum |
+| trots | despite, in spite of |
 | trott | tired |
 | trua | threaten |
 | trussel | threat |
@@ -4028,16 +4581,20 @@
 | tusen | thousand |
 | tutt | tit (colloquial) |
 | tuul | tool |
+| tvers | across, crosswise |
 | tvivla | doubt |
 | twe | two |
 | tweti | twenty |
 | ugn | oven |
 | ull | wool |
-| under | under, according to |
+| under | under, during, according to |
+| undvika | avoid |
 | ung | young |
 | ungdom | youth |
 | uniform | uniform |
+| unik | unique |
 | univers | universe |
+| universell | universal |
 | universitet | university |
 | unjon | union |
 | uppdatera | update (v.) |
@@ -4045,21 +4602,31 @@
 | urbanisera | urbanise |
 | urbanisering | urbanisation |
 | urin | urine |
+| ursekta | excuse, apologize |
 | ursprung | origin |
 | ut | out |
 | uten | without |
+| utforska | explore |
+| utforsking | exploration |
 | utgava | edition |
 | utilisera | use |
 | utland | foreign lands, abroad |
+| utmana | challenge |
+| utmaning | challenge (n.) |
+| utmatta | exhaust, wear out |
+| utmatting | exhaustion |
 | utnemna | appoint |
 | utnemning | appointment |
 | utslag | rash |
+| uttrykk | expression |
+| uttrykka | express |
 | utvandring | emigration |
 | uur | hour |
 | vaag | wave |
 | vaar | our |
 | vaat | wet |
 | vagn | wagon, carriage |
+| vakna | wake, wake up |
 | vaksin | vaccine |
 | vaksinera | vaccinate |
 | vakuum | vacuum |
@@ -4073,6 +4640,7 @@
 | vard | host |
 | variabel | variable |
 | varm | warm |
+| varmhed | warmth |
 | varsla | warn |
 | varslare | whistleblower |
 | varsling | warning |
@@ -4094,6 +4662,8 @@
 | velja | choose |
 | veljing | choice, choosing |
 | velkom | welcome |
+| velsigna | bless |
+| velsigning | blessing |
 | velvard | welfare |
 | ven | vein |
 | venda | turn |
@@ -4108,6 +4678,7 @@
 | verdig | dignified, worthy |
 | verdighed | dignity |
 | verk | ache |
+| verka | ache, throb |
 | vers | verse |
 | versjon | version |
 | vesel | ship |
@@ -4134,6 +4705,8 @@
 | virus | virus |
 | vis | wise |
 | visa | show |
+| visdom | wisdom |
+| visjon | vision |
 | viska | whisper |
 | vit | white |
 | vitlok | garlic |
@@ -4169,5 +4742,6 @@
 | wurm | worm |
 | yoghurt | yoghurt |
 | yta | surface, area |
+| ytre | outer, external |
 | zee | sea |
 | zeeman | seaman |
