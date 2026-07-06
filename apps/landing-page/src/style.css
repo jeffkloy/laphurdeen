@@ -304,10 +304,13 @@ a {
 
 .crumbs a {
   color: #9db8d2;
+  text-decoration: none;
 }
 
 .crumbs a:hover {
   color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* Darcambria: the amber sunset glowing behind the arcs of the bay */
