@@ -2,13 +2,13 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2343 words** - 1974 roots, 369 derived.
+**2347 words** - 1977 roots, 370 derived.
 
 | domain | words |
 |---|---|
 | world-nature | 85 |
 | plants-animals | 52 |
-| body-health | 253 |
+| body-health | 256 |
 | people-family | 76 |
 | food-drink | 144 |
 | house-home | 65 |
@@ -28,7 +28,7 @@
 | society | 93 |
 | common-verbs | 147 |
 | qualities | 153 |
-| function-words | 126 |
+| function-words | 127 |
 
 ## world-nature
 
@@ -237,6 +237,8 @@
 | **domna** | v | go numb |  | SV domna |
 | **donor** | n (c) | donor |  | EN donor + FR donneur |
 | **dos** | n (c) | dose |  | FR dose + SV dos |
+| **dosera** | v | dose, measure out |  | FR doser |
+| **dosering** | n (c) | dosage |  | dosera + -ing |
 | **dov** | adj | deaf |  | SV döv + DA døv |
 | **dreppa** | v | kill |  | DA dræbe |
 | **drog** | n (c) | drug |  | SV drog + FR drogue |
@@ -321,6 +323,7 @@
 | **malign** | adj | malignant | high | FR malin |
 | **medel** | n (n) | means, agent |  | SV medel |
 | **medesin** | n (c) | doctor | high | FR médecin |
+| **medikament** | n (n) | medication |  | FR médicament + SV medikament |
 | **medisin** | n (c) | medicine | high | FR médecine |
 | **merg** | n (c) | marrow |  | SV märg + NL merg |
 | **merke** | n (n) | mark |  | SV märke + NL merk |
@@ -2394,6 +2397,7 @@
 | **endaa** | adv | yet, still, though |  | SV ändå + DA endda |
 | **engang** | adv | once |  | en + gang |
 | **ferst** | adv | first, firstly |  | DA først |
+| **flera** | det | several |  | SV flera + DA flere |
 | **for** | prep | for |  | EN for + SV för |
 | **forbi** | prep | past, by |  | SV förbi + DA forbi |
 | **fordat** | conj | because |  | for + dat |
@@ -2853,6 +2857,8 @@
 | donor | donor |
 | dor | door |
 | dos | dose |
+| dosera | dose, measure out |
+| dosering | dosage |
 | dotter | daughter |
 | dov | deaf |
 | draga | pull |
@@ -3013,6 +3019,7 @@
 | flagg | flag |
 | flak | shallow |
 | flaska | bottle |
+| flera | several |
 | flieg | fly (insect) |
 | flika | girl |
 | flod | river |
@@ -3742,6 +3749,7 @@
 | medesin | doctor |
 | media | media |
 | median | median |
+| medikament | medication |
 | medisin | medicine |
 | meditasjon | meditation |
 | meditera | meditate |

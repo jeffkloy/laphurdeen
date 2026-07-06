@@ -248,6 +248,7 @@ fordat	conj			because	function-words		for + dat	literally "for that"
 alle	det			all	function-words		NL alle + SV alla	
 somme	det			some	function-words		NL sommige + EN some	
 venig	det			few	function-words		NL weinig	avoids clash with faa (get)
+flera	det			several	function-words		SV flera + DA flere	between somme and mange
 anner	det			other	function-words		SV annan + NL ander	
 samme	det			same	function-words		DA samme + SV samma	
 oek	adv			also	function-words		NL ook	say "ook"
@@ -427,8 +428,11 @@ malad	adj			sick	body-health	high	FR malade
 doktor	n	c		doctor	body-health	everyday	SV doktor + NL dokter	formal doublet: medesin
 medesin	n	c		doctor	body-health	high	FR médecin	
 medisin	n	c		medicine	body-health	high	FR médecine	
+medikament	n	n		medication	body-health		FR médicament + SV medikament	medisin is the discipline; this is what apoteket hands you
 sjukhus	n	n		hospital	body-health		sjuk + hus	
 pille	n	c		pill	body-health		DA pille	
+dosera	v			dose, measure out	body-health		FR doser	
+dosering	n	c		dosage	body-health		dosera + -ing	
 feber	n	c		fever	body-health		SV feber + NL koorts	
 smerta	n	c		pain	body-health		SV smärta	
 sund	adj			healthy	body-health		SV sund + DA sund	
