@@ -502,6 +502,20 @@ a {
   color: #b9cde0;
 }
 
+/* Plain links on navy: white with the amber underline, or they vanish
+   into the gradient (the global link navy is invisible here). */
+.section-navy .section-lede a,
+.section-navy .prose-cols a {
+  color: #fff;
+  text-decoration-color: var(--amber);
+  text-underline-offset: 3px;
+}
+
+.section-navy .section-lede a:hover,
+.section-navy .prose-cols a:hover {
+  color: var(--amber);
+}
+
 .section-sand {
   background: var(--sand);
 }
@@ -522,6 +536,18 @@ a {
   gap: 1.4rem;
 }
 
+/* Four across: 17rem minimums only fit three in the shell, so the
+   fourth card orphaned onto its own row until this narrower minimum. */
+.card-row-4 {
+  grid-template-columns: repeat(auto-fit, minmax(14.5rem, 1fr));
+}
+
+/* A group of one (Sainte-Agathe): don't stretch a lone card the full
+   width of the shell. */
+.card-row-1 {
+  grid-template-columns: minmax(17rem, 34rem);
+}
+
 .card {
   background: #fff;
   border: 1px solid var(--line);
@@ -534,6 +560,18 @@ a {
 .card h3 {
   font-size: 1.35rem;
   color: var(--navy);
+}
+
+/* Linked card titles (the atlas, the Darlingmoors card): the city-link
+   idiom — amber underline, no default underline noise. */
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid var(--amber);
+}
+
+.card h3 a:hover {
+  color: var(--amber-ink);
 }
 
 .card-sub {
@@ -760,7 +798,10 @@ a {
   border-top: 1px solid var(--navy-soft);
 }
 
-.phrasebook td[lang="lph"] {
+/* The Laphurdi column leads in both editions: unmarked on the lp pages
+   (the page is lang="lp"), lang-tagged on the English ones — so target
+   the column, not the (long-dead "lph") lang attribute. */
+.phrasebook td:first-child {
   font-family: var(--font-mono);
   font-size: 0.95rem;
   color: var(--navy);
