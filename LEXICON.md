@@ -2,11 +2,11 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2326 words** - 1964 roots, 362 derived.
+**2328 words** - 1965 roots, 363 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 81 |
+| world-nature | 82 |
 | plants-animals | 52 |
 | body-health | 250 |
 | people-family | 76 |
@@ -26,7 +26,7 @@
 | science | 173 |
 | digital | 110 |
 | society | 93 |
-| common-verbs | 146 |
+| common-verbs | 147 |
 | qualities | 151 |
 | function-words | 126 |
 
@@ -106,7 +106,8 @@
 | **syd** | n (c) | south |  | SV syd |
 | **torden** | n (c) | thunder |  | DA torden |
 | **tre** | n (n) | tree |  | SV träd |
-| **vatter** | n (c) | water |  | EN water + NL water + SV vatten |
+| **vatter** | n (n) | water |  | EN water + NL water + SV vatten |
+| **vatterfall** | n (n) | waterfall |  | vatter + fall |
 | **veder** | n (n) | weather |  | SV väder |
 | **veg** | n (c) | road, way |  | SV väg + DA vej |
 | **vind** | n (c) | wind |  | SV vind + NL wind |
@@ -2065,6 +2066,7 @@
 | **erfara** | v | experience (v.) |  | SV erfara + NL ervaren |
 | **erfaring** | n (c) | experience (n.) |  | erfara + -ing |
 | **faa** (pres=faar, past=fik, perf=faat) | v | get, receive |  | SV få + DA få |
+| **fall** | n (n) | fall (n.), drop |  | SV fall + DA fald |
 | **falla** | v | fall |  | SV falla + NL vallen |
 | **fanga** | v | catch, capture |  | SV fånga |
 | **fela** | v | fail, err |  | fel + -a |
@@ -2934,6 +2936,7 @@
 | fader | father |
 | fakt | fact |
 | faktor | factor |
+| fall | fall (n.), drop |
 | falla | fall |
 | falsk | false |
 | famille | family |
@@ -4703,6 +4706,7 @@
 | vaska | wash |
 | vate | hydrogen |
 | vatter | water |
+| vatterfall | waterfall |
 | vattermelon | watermelon |
 | ved | at, by |
 | veder | weather |

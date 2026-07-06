@@ -1,5 +1,6 @@
 word	pos	gender	forms	english	domain	register	sources	notes
-vatter	n	c		water	world-nature		EN water + NL water + SV vatten	
+vatter	n	n		water	world-nature		EN water + NL water + SV vatten	neuter as at home (ett vatten, het water); definite vatteret
+vatterfall	n	n		waterfall	world-nature		vatter + fall	
 zee	n	c		sea	world-nature		NL zee	
 iland	n	n		island	world-nature		EN island + NL eiland	
 sol	n	c		sun	world-nature		SV sol + FR soleil	
@@ -634,6 +635,7 @@ setta	v			set, put	common-verbs		SV sätta + NL zetten
 sitta	v			sit	common-verbs		SV sitta + NL zitten	
 ligga	v			lie (recline)	common-verbs		SV ligga + NL liggen	
 falla	v			fall	common-verbs		SV falla + NL vallen	
+fall	n	n		fall (n.), drop	common-verbs		SV fall + DA fald	
 venda	v			turn	common-verbs		SV vända + DA vende	
 springa	v			run	common-verbs		SV springa	
 hoppa	v			jump	common-verbs		SV hoppa	
