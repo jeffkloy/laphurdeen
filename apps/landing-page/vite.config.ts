@@ -1,24 +1,32 @@
 import { defineConfig } from "vite";
+import { readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { join, relative } from "node:path";
 
 // base "./" keeps asset URLs relative, so the build works at any GitHub
 // Pages path (site root today, anywhere else tomorrow) without config.
-// Two HTML entries: Laphurdi at / (the national language leads, per
-// Article 4), English at /en/.
+// Entries are discovered: every index.html in the tree is a page, so new
+// bilingual pages register themselves. Laphurdi leads at /, English at /en/.
+const root = fileURLToPath(new URL(".", import.meta.url));
+const SKIP = new Set(["node_modules", "dist", "src", ".git"]);
+
+function htmlEntries(dir: string = root, entries: Record<string, string> = {}) {
+  for (const item of readdirSync(dir, { withFileTypes: true })) {
+    if (item.isDirectory()) {
+      if (!SKIP.has(item.name)) htmlEntries(join(dir, item.name), entries);
+    } else if (item.name === "index.html") {
+      const rel = relative(root, dir);
+      entries[rel === "" ? "main" : rel.replaceAll("/", "-")] = join(dir, "index.html");
+    }
+  }
+  return entries;
+}
+
 export default defineConfig({
   base: "./",
   build: {
     rollupOptions: {
-      input: {
-        main: fileURLToPath(new URL("index.html", import.meta.url)),
-        en: fileURLToPath(new URL("en/index.html", import.meta.url)),
-        darcambria: fileURLToPath(new URL("darcambria/index.html", import.meta.url)),
-        lapentieur: fileURLToPath(new URL("lapentieur/index.html", import.meta.url)),
-        agaetisboro: fileURLToPath(new URL("agaetisboro/index.html", import.meta.url)),
-        enDarcambria: fileURLToPath(new URL("en/darcambria/index.html", import.meta.url)),
-        enLapentieur: fileURLToPath(new URL("en/lapentieur/index.html", import.meta.url)),
-        enAgaetisboro: fileURLToPath(new URL("en/agaetisboro/index.html", import.meta.url)),
-      },
+      input: htmlEntries(),
     },
   },
 });
