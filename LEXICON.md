@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2400 words** - 2014 roots, 386 derived.
+**2408 words** - 2019 roots, 389 derived.
 
 | domain | words |
 |---|---|
@@ -15,20 +15,20 @@
 | clothing | 26 |
 | time-calendar | 53 |
 | numbers-measure | 63 |
-| motion-travel | 53 |
+| motion-travel | 55 |
 | sea-ships | 44 |
 | work-trade | 91 |
-| communication | 102 |
+| communication | 103 |
 | mind-emotion | 148 |
-| law-civic | 187 |
-| arts-leisure | 61 |
+| law-civic | 188 |
+| arts-leisure | 62 |
 | school-knowledge | 66 |
 | science | 175 |
 | digital | 113 |
 | society | 93 |
 | common-verbs | 151 |
-| qualities | 159 |
-| function-words | 128 |
+| qualities | 161 |
+| function-words | 129 |
 
 ## world-nature
 
@@ -923,6 +923,8 @@
 | **flykt** | n (c) | flight, escape |  | SV flykt + DA flugt |
 | **flykta** | v | flee, escape |  | DA flygte |
 | **flytta** | v | move (house), relocate |  | SV flytta |
+| **forsena** | v | delay, make late |  | SV försena + DA forsinke |
+| **forsening** | n (c) | delay |  | forsena + -ing |
 | **gata** | n (c) | street | everyday | SV gata + DA gade |
 | **hjul** | n (n) | wheel |  | SV hjul |
 | **hoger** | adj | right (direction) |  | SV höger |
@@ -1074,7 +1076,7 @@
 | **peng** | n (c) | money |  | SV pengar |
 | **plan** | n (c) | plan |  | FR plan |
 | **planera** | v | plan (v.) |  | SV planera + FR planer |
-| **pris** | n (n) | price |  | SV pris + FR prix |
+| **pris** | n (c) | price |  | SV pris + FR prix |
 | **produsera** | v | produce |  | FR produire + SV producera |
 | **profesjon** | n (c) | profession | high | FR profession |
 | **profesjonell** | adj | professional | high | FR professionnel |
@@ -1160,6 +1162,7 @@
 | **mersi** | interj | thanks | everyday | FR merci |
 | **mesasj** | n (c) | message |  | FR message |
 | **mista** | v | ghost, vanish on someone (slang) | everyday | mist + -a |
+| **navna** | v | name, call by name |  | navn + -a |
 | **nyhed** | n (c) | news |  | ny + -hed |
 | **ord** | n (n) | word |  | SV ord + DA ord |
 | **oversetta** | v | translate |  | over + setta |
@@ -1394,7 +1397,7 @@
 | **demokrati** | n (c) | democracy | high | FR démocratie |
 | **demokratisk** | adj | democratic |  | demokrati + -isk |
 | **diskriminasjon** | n (c) | discrimination | high | FR discrimination |
-| **dodstraff** | n (n) | death penalty |  | dod + straff |
+| **dodstraff** | n (c) | death penalty |  | dod + straff |
 | **dokument** | n (n) | document | high | FR document |
 | **dom** | n (c) | judgment |  | SV dom + DA dom |
 | **doma** | v | judge (v.) |  | dom + -a |
@@ -1516,6 +1519,7 @@
 | **sete** | n (n) | seat (office) |  | SV säte + DA sæde |
 | **sivil** | adj | civil | high | FR civil |
 | **sjarta** | n (c) | charter | high | FR charte |
+| **sjartat** | adj | chartered |  | sjarta + -at |
 | **skilsmisse** | n (c) | divorce |  | DA skilsmisse |
 | **skott** | n (n) | shot |  | SV skott + DA skud |
 | **skydd** | n (n) | protection |  | SV skydd |
@@ -1563,6 +1567,7 @@
 
 | Laphurdi | pos | English | register | sources |
 |---|---|---|---|---|
+| **animasjon** | n (c) | animation |  | FR animation |
 | **artist** | n (c) | artist | high | FR artiste |
 | **bild** | n (c) | picture |  | SV bild + NL beeld |
 | **bildsprak** | n (n) | imagery |  | bild + sprak |
@@ -2340,6 +2345,7 @@
 | **mojlig** | adj | possible |  | SV möjlig |
 | **mojlighed** | n (c) | possibility |  | mojlig + -hed |
 | **mork** | adj | dark |  | SV mörk + DA mørk |
+| **negativ** | adj | negative |  | FR négatif + SV negativ + NL negatief |
 | **nodvendig** | adj | necessary |  | DA nødvendig |
 | **normal** | adj | normal |  | FR normal |
 | **ny** | adj | new |  | SV ny |
@@ -2347,6 +2353,7 @@
 | **ogensidig** | adj | unrequited, one-sided |  | o- + gensidig |
 | **olik** | adj | different |  | o- + lik |
 | **omojlig** | adj | impossible |  | o- + mojlig |
+| **opak** | adj | opaque |  | FR opaque + SV opak |
 | **open** | adj | open |  | NL open + EN open |
 | **opulent** | adj | rich | high | FR opulent |
 | **oranj** | adj | orange |  | FR orange |
@@ -2442,6 +2449,7 @@
 | **dij** | pron | you (object, singular) |  | NL dij + SV dig |
 | **din** | det | your (singular) |  | SV din |
 | **dis** | det | this |  | EN this + NL dit |
+| **dise** | det | these |  | EN these + NL deze |
 | **du** | pron | you (singular) |  | SV du |
 | **efter** | prep | after |  | SV efter + DA efter |
 | **el** | conj | or |  | SV eller |
@@ -2601,6 +2609,7 @@
 | angra | regret, rue |
 | angring | regret, remorse |
 | angst | anxiety, dread |
+| animasjon | animation |
 | anker | anchor |
 | ankomma | arrive |
 | anner | other |
@@ -2889,6 +2898,7 @@
 | dinera | eat |
 | direkt | direct |
 | dis | this |
+| dise | these |
 | diskriminasjon | discrimination |
 | diskriminera | discriminate |
 | diskur | speech |
@@ -3124,6 +3134,8 @@
 | formel | formula |
 | formell | formal |
 | forort | suburb |
+| forsena | delay, make late |
+| forsening | delay |
 | forska | research (v.) |
 | forskare | researcher |
 | forsking | research (n.) |
@@ -3940,9 +3952,11 @@
 | naturlig | natural |
 | navigasjon | navigation |
 | navn | name |
+| navna | name, call by name |
 | ned | down |
 | nedladda | download |
 | nedladdning | download (n.) |
+| negativ | negative |
 | nej | no |
 | nera | nourish |
 | nering | nourishment, nutrition |
@@ -4020,6 +4034,7 @@
 | onkologi | oncology |
 | online | online |
 | onsdag | Wednesday |
+| opak | opaque |
 | open | open |
 | operasjon | operation |
 | operera | operate (surgically) |
@@ -4397,6 +4412,7 @@
 | sjanson | song |
 | sjarm | charm, rizz |
 | sjarta | charter |
+| sjartat | chartered |
 | sjef | cook (n.) |
 | sjel | soul |
 | sjelig | spiritual |

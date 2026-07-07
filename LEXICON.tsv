@@ -923,7 +923,7 @@ kompensera	v			pay	work-trade	high	FR compenser	to compensate
 kopa	v			buy	work-trade		SV köpa + DA købe	
 selja	v			sell	work-trade	everyday	SV sälja + DA sælge	formal doublet: vendera
 vendera	v			sell	work-trade	high	FR vendre	
-pris	n	n		price	work-trade		SV pris + FR prix	
+pris	n	c		price	work-trade		SV pris + FR prix	
 kost	n	c		cost	work-trade		SV kostnad + NL kosten	
 peng	n	c		money	work-trade		SV pengar	pl. penger
 bank	n	c		bank	work-trade		FR banque + SV bank	
@@ -1221,7 +1221,7 @@ lojlig	adj			lawful	law-civic		SV laglig	remodelled on loj
 rettvis	adj			just, fair	law-civic		SV rättvis	
 tortur	n	c		torture	law-civic	high	FR torture	
 dod	n	c		death	body-health		SV död + DA død	
-dodstraff	n	n		death penalty	law-civic		dod + straff	abolished by Grundlojen, forever
+dodstraff	n	c		death penalty	law-civic		dod + straff	abolished by Grundlojen, forever
 nodvendig	adj			necessary	qualities		DA nødvendig	
 proporsjonal	adj			proportionate	law-civic	high	FR proportionnel	
 absolut	adj			absolute	qualities	high	FR absolu	
@@ -2399,3 +2399,11 @@ kula	n	c		bullet	law-civic		SV kula + DA kugle	alle kula blivar tellat (Art. 15)
 skytvapen	n	n		firearm	law-civic		skyta + vapen	politiet berar nit skytvapen (Art. 15)
 selfforsvar	n	n		self-defence	law-civic		self + forsvar	oek nit for selfforsvar (Art. 15)
 bakomgrund	n	c		background	world-nature		bakom + grund	after NL achtergrond + SV bakgrund; the ground behind
+navna	v			name, call by name	communication		navn + -a	et navnat sete (Art. 18)
+dise	det			these	function-words		EN these + NL deze	plural of dis
+sjartat	adj			chartered	law-civic		sjarta + -at	lexicalised participle; no verb sjarta - the noun holds the headword
+opak	adj			opaque	qualities		FR opaque + SV opak	
+negativ	adj			negative	qualities		FR négatif + SV negativ + NL negatief	
+animasjon	n	c		animation	arts-leisure		FR animation	final stress (a-ni-ma-SJON)
+forsena	v			delay, make late	motion-travel		SV försena + DA forsinke	toget blivar forsenat
+forsening	n	c		delay	motion-travel		forsena + -ing	
