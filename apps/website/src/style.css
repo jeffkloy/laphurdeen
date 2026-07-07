@@ -218,6 +218,61 @@ a {
   padding: clamp(5rem, 12vh, 9rem) 1.25rem clamp(15rem, 32vh, 21rem);
 }
 
+/* Landing pages only: five coastal photos of the fjard turn slowly behind
+   a heavy wash of the flag navy. Pages without the .hero-photos block keep
+   the flat gradient above. Photos: Pexels - Ioana A, ArtHouse Studio,
+   Mateo Boffano, Mark Direen (x2). */
+.hero-photos,
+.hero-photos::after,
+.hero-photos .photo {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-photos {
+  pointer-events: none;
+}
+
+.hero-photos .photo {
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: hero-photo-turn 40s linear infinite;
+}
+
+.hero-photos .photo-1 { background-image: url("./assets/hero-fjard-1.jpg"); }
+.hero-photos .photo-2 { background-image: url("./assets/hero-fjard-2.jpg"); animation-delay: 8s; }
+.hero-photos .photo-3 { background-image: url("./assets/hero-fjard-3.jpg"); animation-delay: 16s; }
+.hero-photos .photo-4 { background-image: url("./assets/hero-fjard-4.jpg"); animation-delay: 24s; }
+.hero-photos .photo-5 { background-image: url("./assets/hero-fjard-5.jpg"); animation-delay: 32s; }
+
+/* The heavy overlay: the same two blues as the flat hero gradient, kept
+   almost opaque so the photos read as texture, not as a slideshow. */
+.hero-photos::after {
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 40, 74, 0.93) 0%, rgba(0, 58, 102, 0.88) 70%);
+}
+
+/* Each photo owns an 8s slot of the 40s cycle (20%), with a 1.6s
+   crossfade into the next layer's fade-in. */
+@keyframes hero-photo-turn {
+  0% { opacity: 0; }
+  4% { opacity: 1; }
+  20% { opacity: 1; }
+  26% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-photos .photo {
+    animation: none;
+  }
+
+  .hero-photos .photo-1 {
+    opacity: 1;
+  }
+}
+
 .hero-inner {
   position: relative;
   z-index: 1;
