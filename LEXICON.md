@@ -2,7 +2,7 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2408 words** - 2019 roots, 389 derived.
+**2409 words** - 2020 roots, 389 derived.
 
 | domain | words |
 |---|---|
@@ -27,7 +27,7 @@
 | digital | 113 |
 | society | 93 |
 | common-verbs | 151 |
-| qualities | 161 |
+| qualities | 162 |
 | function-words | 129 |
 
 ## world-nature
@@ -2362,6 +2362,7 @@
 | **persistens** | n (c) | persistence |  | FR persistance + SV persistens |
 | **persistent** | adj | persistent |  | FR persistant + SV persistent |
 | **plotslig** | adj | sudden |  | SV plötslig |
+| **positiv** | adj | positive |  | FR positif + SV positiv + NL positief |
 | **pover** | adj | poor | high | FR pauvre |
 | **praktisk** | adj | practical |  | SV praktisk + FR pratique |
 | **produktiv** | adj | productive | high | FR productif |
@@ -4139,6 +4140,7 @@
 | porsjon | portion |
 | port | gate, gateway |
 | portrett | portrait |
+| positiv | positive |
 | post | mail, post |
 | potensiell | potential |
 | potet | potato |
