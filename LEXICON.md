@@ -2,11 +2,11 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2399 words** - 2014 roots, 385 derived.
+**2400 words** - 2014 roots, 386 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 88 |
+| world-nature | 89 |
 | plants-animals | 52 |
 | body-health | 257 |
 | people-family | 79 |
@@ -36,6 +36,7 @@
 |---|---|---|---|---|
 | **aske** | n (c) | ash |  | DA aske + SV aska |
 | **avstand** | n (n) | distance, gap |  | av + stand |
+| **bakomgrund** | n (c) | background |  | bakom + grund |
 | **bark** | n (c) | bark (of tree) |  | SV bark |
 | **berg** | n (c) | mountain |  | NL berg + SV berg |
 | **blad** | n (n) | leaf |  | NL blad + SV blad |
@@ -2665,6 +2666,7 @@
 | baka | bake |
 | bakeri | bakery |
 | bakom | behind |
+| bakomgrund | background |
 | bakterie | bacterium |
 | banan | banana |
 | bank | bank |
