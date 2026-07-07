@@ -22,6 +22,18 @@ if (header && toggle) {
   );
 }
 
+// The hero photos start on a random shore: pull the whole rotation back by
+// a random slot, +2s so the first paint lands inside a slot's full-opacity
+// window instead of mid-crossfade. Without JS the offset stays 0 (photo 1).
+const photos = document.querySelector<HTMLElement>(".hero-photos");
+if (photos) {
+  const slot = Math.floor(Math.random() * photos.children.length);
+  photos.style.setProperty("--turn-offset", `${-(slot * 8 + 2)}s`);
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    (photos.children[slot] as HTMLElement).style.opacity = "1";
+  }
+}
+
 const revealed = new IntersectionObserver(
   (entries) => {
     for (const entry of entries) {

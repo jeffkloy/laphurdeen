@@ -233,18 +233,21 @@ a {
   pointer-events: none;
 }
 
+/* --turn-offset is set (negative) by main.ts so the rotation starts on a
+   random photo; without JS it stays 0s and the cycle opens on photo 1. */
 .hero-photos .photo {
   background-size: cover;
   background-position: center;
   opacity: 0;
   animation: hero-photo-turn 40s linear infinite;
+  animation-delay: var(--turn-offset, 0s);
 }
 
 .hero-photos .photo-1 { background-image: url("./assets/hero-fjard-1.jpg"); }
-.hero-photos .photo-2 { background-image: url("./assets/hero-fjard-2.jpg"); animation-delay: 8s; }
-.hero-photos .photo-3 { background-image: url("./assets/hero-fjard-3.jpg"); animation-delay: 16s; }
-.hero-photos .photo-4 { background-image: url("./assets/hero-fjard-4.jpg"); animation-delay: 24s; }
-.hero-photos .photo-5 { background-image: url("./assets/hero-fjard-5.jpg"); animation-delay: 32s; }
+.hero-photos .photo-2 { background-image: url("./assets/hero-fjard-2.jpg"); animation-delay: calc(var(--turn-offset, 0s) + 8s); }
+.hero-photos .photo-3 { background-image: url("./assets/hero-fjard-3.jpg"); animation-delay: calc(var(--turn-offset, 0s) + 16s); }
+.hero-photos .photo-4 { background-image: url("./assets/hero-fjard-4.jpg"); animation-delay: calc(var(--turn-offset, 0s) + 24s); }
+.hero-photos .photo-5 { background-image: url("./assets/hero-fjard-5.jpg"); animation-delay: calc(var(--turn-offset, 0s) + 32s); }
 
 /* The heavy overlay: the same two blues as the flat hero gradient, kept
    almost opaque so the photos read as texture, not as a slideshow. */
