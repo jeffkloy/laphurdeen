@@ -25,7 +25,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 ### Artikel 1 - Staten
 1. Laphurdeen er et suveren, demokratisk ilandsamvelde.
 2. Samveldet er en **parlamentisk konsensdemokrati**. Der skal aldri vera en president, en ferste minister, en kong, el anner enkel statshoved el styringshoved. Eksekutiv makt blivar brukat kollektiv, als Del V sejar.
-3. Alle suverenitet ligger med folket av Laphurdeen, dat brukar den gennem fri valger, folkstemminger, og institusjoneren av dis Grundloj.
+3. Alle suverenitet liggar med folket av Laphurdeen, dat brukar den gennem fri valger, folkstemminger, og institusjoneren av dis Grundloj.
 
 ### Artikel 2 - Territoriet og Staderen
 1. Territoriet av Samveldet er ilandgruppen av Laphurdeen in den Middel Zee, med deis vatter, zee, zeegrund, og luft.
@@ -133,7 +133,7 @@ grundar vi hier dis Grundloj als den hoogest loj av Samveldet Laphurdeen.
 ## DEL III - PARLAMENTET
 
 ### Artikel 17 - Form
-1. Makten te skriva lojer ligger med **Parlamentet av Laphurdeen**, dat har twe kamerer: **Senaten** og **Folkskameren**.
+1. Makten te skriva lojer liggar med **Parlamentet av Laphurdeen**, dat har twe kamerer: **Senaten** og **Folkskameren**.
 2. Alle medlemmer av Parlamentet blivar veljat av folket, direkt, gennem fri stemming.
 
 ### Artikel 18 - Senaten
@@ -197,7 +197,7 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 ## DEL V - EKSEKUTIV MAKT OG STATSHOVEDET
 
 ### Artikel 26 - Kollektiv Styring
-1. Den eksekutiv makt av Samveldet ligger med **Senaten, dat handlar tesamme als Raadet av Samveldet**.
+1. Den eksekutiv makt av Samveldet liggar med **Senaten, dat handlar tesamme als Raadet av Samveldet**.
 2. Valg av Raadet kravar ja fra sekstiseks prosent av Senatoreren. Under det, ledar alle Ministerkollegie deis Ministerie, dag for dag, under lojen og innen budsjeten gevat.
 3. Raadet og alle Minister staar te svar befor Folkskameren, dat kan ropa alle Minister, krava alle dokumenter, og leta gennem alle sak.
 
@@ -219,7 +219,7 @@ Lojforslag dat har gaat gennem blivar bekreftat av de ledare av beide kamerer, o
 ## DEL VI - DOMSTOLEREN
 
 ### Artikel 29 - Dom-Makten
-1. Dom-makten av Samveldet ligger med **Hoogdomstolen av Laphurdeen**, og med de anner domstoler dat Parlamentet grundar med loj.
+1. Dom-makten av Samveldet liggar med **Hoogdomstolen av Laphurdeen**, og med de anner domstoler dat Parlamentet grundar med loj.
 2. Domstoleren er fri. Ingen person og ingen grupp kan seja te en domstol hoe den skal doma.
 
 ### Artikel 30 - Utnemning og Tid
