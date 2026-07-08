@@ -2,11 +2,11 @@
 
 *Generated from `LEXICON.tsv` by `tools/lexicon.py build` - do not edit by hand.*
 
-**2409 words** - 2020 roots, 389 derived.
+**2425 words** - 2030 roots, 395 derived.
 
 | domain | words |
 |---|---|
-| world-nature | 89 |
+| world-nature | 90 |
 | plants-animals | 52 |
 | body-health | 257 |
 | people-family | 79 |
@@ -17,14 +17,14 @@
 | numbers-measure | 63 |
 | motion-travel | 55 |
 | sea-ships | 44 |
-| work-trade | 91 |
+| work-trade | 100 |
 | communication | 103 |
 | mind-emotion | 148 |
 | law-civic | 188 |
 | arts-leisure | 62 |
 | school-knowledge | 66 |
 | science | 175 |
-| digital | 113 |
+| digital | 119 |
 | society | 93 |
 | common-verbs | 151 |
 | qualities | 162 |
@@ -56,6 +56,7 @@
 | **gnista** | n (c) | spark |  | SV gnista + DA gnist |
 | **gnistra** | v | sparkle, glitter |  | SV gnistra |
 | **gras** | n (n) | grass; weed (marijuana, slang) |  | NL gras + EN grass |
+| **gren** | n (c) | branch |  | SV gren |
 | **grund** | n (c) | foundation, ground |  | SV grund + NL grond |
 | **hede** | n (c) | heath, moorland |  | DA hede + NL heide + SV hed |
 | **himmel** | n (c) | sky |  | SV himmel |
@@ -1029,6 +1030,7 @@
 | **budsjet** | n (c) | budget | high | FR budget |
 | **butik** | n (c) | shop |  | SV butik + FR boutique |
 | **bygga** | v | build |  | SV bygga |
+| **deponera** | v | deposit (v.) | high | FR déposer |
 | **dollar** | n (c) | dollar |  | EN dollar |
 | **egendom** | n (c) | property |  | SV egendom |
 | **ekonomi** | n (c) | economy | high | FR économie |
@@ -1048,6 +1050,8 @@
 | **industri** | n (c) | industry | high | SV industri + FR industrie |
 | **inflasjon** | n (c) | inflation | high | FR inflation |
 | **inkomst** | n (c) | income |  | SV inkomst |
+| **insetta** | v | deposit (v.) | everyday | in + setta |
+| **insetting** | n (c) | deposit (n.) |  | insetta + -ing |
 | **jordbruk** | n (n) | agriculture |  | SV jordbruk |
 | **komers** | n (c) | trade (n.) | high | FR commerce |
 | **kompensera** | v | pay | high | FR compenser |
@@ -1063,6 +1067,7 @@
 | **kwittens** | n (c) | receipt |  | SV kvittens |
 | **laan** | n (n) | loan |  | SV lån |
 | **laana** | v | borrow, lend |  | SV låna |
+| **lager** | n (n) | store, warehouse, repository |  | SV lager |
 | **leda** | v | lead |  | SV leda |
 | **ledare** | n (c) | leader |  | leda + -are |
 | **ledarskap** | n (c) | leadership |  | ledare + -skap |
@@ -1082,8 +1087,10 @@
 | **profesjonell** | adj | professional | high | FR professionnel |
 | **projekt** | n (n) | project |  | SV projekt + NL project + FR projet |
 | **rekning** | n (c) | bill, invoice |  | SV räkning |
+| **rente** | n (c) | interest (on money) |  | NL rente + SV ränta |
 | **reparera** | v | repair |  | FR réparer |
 | **reserv** | n (c) | reserve | high | FR réserve |
+| **retirera** | v | withdraw | high | FR retirer |
 | **revisor** | n (c) | auditor | high | FR réviseur |
 | **rikhed** | n (c) | wealth |  | rik + -hed |
 | **selja** | v | sell | everyday | SV sälja + DA sælge |
@@ -1093,6 +1100,7 @@
 | **skift** | n (n) | shift (n.) |  | SV skift |
 | **skuld** | n (c) | debt |  | SV skuld + NL schuld |
 | **smed** | n (c) | smith |  | SV smed |
+| **spara** | v | save (money), set aside |  | SV spara |
 | **strejk** | n (c) | strike (labour) |  | SV strejk + NL staking |
 | **strejka** | v | strike (v.) |  | strejk + -a |
 | **strev** | n (n) | effort, striving |  | DA stræb |
@@ -1101,6 +1109,8 @@
 | **traad** | n (c) | thread, wire |  | SV tråd + NL draad |
 | **travalje** | n (c) | work (n.) | high | FR travail |
 | **tuul** | n (n) | tool |  | EN tool |
+| **utdraga** | v | withdraw | everyday | ut + draga |
+| **utdraging** | n (c) | withdrawal |  | utdraga + -ing |
 | **vara** | n (c) | goods, ware |  | SV vara |
 | **vendera** | v | sell | high | FR vendre |
 | **vinst** | n (c) | profit |  | SV vinst |
@@ -1888,6 +1898,7 @@
 | **algoritme** | n (c) | algorithm |  | FR algorithme |
 | **anvendare** | n (c) | user |  | SV användare |
 | **app** | n (c) | app |  | EN app |
+| **applikasjon** | n (c) | application |  | FR application |
 | **automat** | n (c) | automaton |  | FR automate |
 | **automatisk** | adj | automatic |  | automat + -isk |
 | **avatar** | n (c) | avatar |  | EN avatar |
@@ -1909,6 +1920,8 @@
 | **feil** | n (n) | error, fault |  | DA fejl + NL feil |
 | **fil** | n (c) | file |  | SV fil + FR file |
 | **fjernkontroll** | n (c) | remote control |  | SV fjärrkontroll |
+| **fusjon** | n (c) | merger, fusion |  | FR fusion |
+| **fusjonera** | v | merge |  | FR fusionner |
 | **hogtalare** | n (c) | speaker (audio) |  | SV högtalare |
 | **horlur** | n (c) | headphone |  | SV hörlur |
 | **ikon** | n (c) | icon |  | FR icône |
@@ -1925,6 +1938,7 @@
 | **klistra** | v | paste |  | SV klistra |
 | **kod** | n (c) | code |  | SV kod + FR code |
 | **koda** | v | code (v.) |  | kod + -a |
+| **kodlager** | n (n) | code repository |  | kod + lager |
 | **konsoll** | n (c) | console |  | FR console |
 | **konto** | n (n) | account |  | SV konto + FR compte |
 | **kopie** | n (c) | copy (n.) |  | FR copie |
@@ -1966,6 +1980,8 @@
 | **programvara** | n (c) | software |  | program + vara |
 | **prosessor** | n (c) | processor |  | FR processeur |
 | **radera** | v | delete |  | SV radera |
+| **rendera** | v | render |  | FR rendre + SV rendera |
+| **rendering** | n (c) | rendering |  | rendera + -ing |
 | **robot** | n (c) | robot |  | EN robot + SV robot |
 | **santid** | n (c) | real time |  | sant + tid |
 | **sekerhedskopie** | n (c) | backup |  | sekerhed + kopie |
@@ -2623,6 +2639,7 @@
 | apotek | pharmacy |
 | apotekare | pharmacist |
 | app | app |
+| applikasjon | application |
 | aprikos | apricot |
 | april | April |
 | arbetslos | unemployed |
@@ -2875,6 +2892,7 @@
 | demonstrera | show |
 | den | the (common gender, before adjectives); it |
 | densitet | density |
+| deponera | deposit (v.) |
 | depresjon | depression |
 | der | there |
 | desedera | die |
@@ -3195,6 +3213,8 @@
 | fundamentell | fundamental |
 | funksjon | function |
 | funksjonshinder | disability |
+| fusjon | merger, fusion |
+| fusjonera | merge |
 | fylla | fill |
 | fyr | four |
 | fyrde | fourth |
@@ -3261,6 +3281,7 @@
 | grava | dig |
 | gravid | pregnant |
 | gravitasjon | gravity |
+| gren | branch |
 | grens | border |
 | grensa | limit (v.) |
 | grilla | grill |
@@ -3420,6 +3441,8 @@
 | innstellning | setting (config) |
 | inre | inner, internal |
 | insekt | insect |
+| insetta | deposit (v.) |
+| insetting | deposit (n.) |
 | insikt | insight, realization |
 | installasjon | installation |
 | installera | install |
@@ -3552,6 +3575,7 @@
 | ko | cow |
 | kod | code |
 | koda | code (v.) |
+| kodlager | code repository |
 | koel | cool |
 | koela | chill, relax (slang) |
 | koffert | suitcase |
@@ -3691,6 +3715,7 @@
 | laddning | charge (n.) |
 | lag | law (of nature) |
 | laga | repair, fix |
+| lager | store, warehouse, repository |
 | lagra | store, save |
 | lagring | storage |
 | lak | lake |
@@ -4235,7 +4260,10 @@
 | relativitet | relativity |
 | relisjon | religion |
 | ren | clean |
+| rendera | render |
+| rendering | rendering |
 | renkontrera | meet |
+| rente | interest (on money) |
 | rep | rope |
 | reparera | repair |
 | repetera | repeat |
@@ -4252,6 +4280,7 @@
 | respons | answer (n.) |
 | restoran | restaurant |
 | resultat | result |
+| retirera | withdraw |
 | retning | direction |
 | rett | correct, right |
 | retta | correct (v.) |
@@ -4547,6 +4576,7 @@
 | sova | sleep |
 | sovig | sleepy |
 | sovrum | bedroom |
+| spara | save (money), set aside |
 | sparka | kick |
 | spegel | mirror |
 | spektrum | spectrum |
@@ -4823,6 +4853,8 @@
 | ursekta | excuse, apologize |
 | ursprung | origin |
 | ut | out |
+| utdraga | withdraw |
+| utdraging | withdrawal |
 | uten | without |
 | utforska | explore |
 | utforsking | exploration |

@@ -2408,3 +2408,19 @@ animasjon	n	c		animation	arts-leisure		FR animation	final stress (a-ni-ma-SJON)
 forsena	v			delay, make late	motion-travel		SV försena + DA forsinke	toget blivar forsenat
 forsening	n	c		delay	motion-travel		forsena + -ing	
 positiv	adj			positive	qualities		FR positif + SV positiv + NL positief	
+insetta	v			deposit (v.)	work-trade	everyday	in + setta	setta peng in banken - formal doublet: deponera
+deponera	v			deposit (v.)	work-trade	high	FR déposer	everyday doublet: insetta
+insetting	n	c		deposit (n.)	work-trade		insetta + -ing	
+utdraga	v			withdraw	work-trade	everyday	ut + draga	draw out, as EN withdraw - formal doublet: retirera
+retirera	v			withdraw	work-trade	high	FR retirer	everyday doublet: utdraga
+utdraging	n	c		withdrawal	work-trade		utdraga + -ing	
+spara	v			save (money), set aside	work-trade		SV spara	peng and time; rescue is redda, files are lagra
+rente	n	c		interest (on money)	work-trade		NL rente + SV ränta	
+lager	n	n		store, warehouse, repository	work-trade		SV lager	the noun beside lagra - where insettingar rest
+kodlager	n	n		code repository	digital		kod + lager	the coder's repo, where fastleggingar live
+rendera	v			render	digital		FR rendre + SV rendera	
+rendering	n	c		rendering	digital		rendera + -ing	
+applikasjon	n	c		application	digital		FR application	-sjon, final stress; app is the everyday short form
+fusjonera	v			merge	digital		FR fusionner	git grener and firms alike
+fusjon	n	c		merger, fusion	digital		FR fusion	
+gren	n	c		branch	world-nature		SV gren	tree, railway, and git branches alike; distinct from grens (border)
