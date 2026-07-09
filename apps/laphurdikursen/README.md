@@ -1,9 +1,11 @@
 # Laphurdikursen - the Laphurdi Course
 
 An interactive course in Laphurdi, the national language of the Commonwealth
-of Laphurdeen: **eleven lessons, eleven quizzes** (*provet*), from
-*Hallej!* to reading the Preamble of the Grundlojen. Published, in-world, by
-Sprakkommisjonen - the Language Commission.
+of Laphurdeen: **twelve lessons, twelve quizzes** (*provet*), from
+*Hallej!* to reading the Preamble of the Grundlojen and ordering lunch like
+a local, plus a vocabulary drill (*Prova orderen*, at `#/prova`) built from
+the words of every lesson passed. Published, in-world, by Sprakkommisjonen -
+the Language Commission.
 
 Design spec: `docs/superpowers/specs/2026-07-05-laphurdi-course-design.md`.
 

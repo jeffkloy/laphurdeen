@@ -11,6 +11,10 @@ describe("normalize", () => {
   it("does not forgive different words", () => {
     expect(normalize("staden")).not.toBe(normalize("stader"));
   });
+  it("forgives commas - Ja, ik sprekar costs no point", () => {
+    expect(isTypedCorrect(["ja ik sprekar laphurdi"], "Ja, ik sprekar Laphurdi!")).toBe(true);
+    expect(isTypedCorrect(["en bier asjeblie"], "En bier, asjeblie.")).toBe(true);
+  });
 });
 
 describe("isTypedCorrect", () => {
@@ -71,5 +75,15 @@ describe("QuizRun", () => {
     const run = new QuizRun([choice, typed]);
     run.next();
     expect(run.index).toBe(0);
+  });
+
+  it("remembers which questions were missed", () => {
+    const run = new QuizRun([choice, typed, choice]);
+    run.submit(0); // wrong
+    run.next();
+    run.submit("staden"); // right
+    run.next();
+    run.submit(2); // right
+    expect(run.missed).toEqual([0]);
   });
 });

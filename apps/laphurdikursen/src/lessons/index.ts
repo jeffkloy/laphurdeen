@@ -10,6 +10,7 @@ import { numbers } from "./08-numbers";
 import { wordbuilding } from "./09-wordbuilding";
 import { register } from "./10-register";
 import { laphurdeen } from "./11-laphurdeen";
+import { praktisk } from "./12-praktisk";
 
 /** The course, in teaching order. */
 export const lessons: Lesson[] = [
@@ -24,4 +25,5 @@ export const lessons: Lesson[] = [
   wordbuilding,
   register,
   laphurdeen,
+  praktisk,
 ];

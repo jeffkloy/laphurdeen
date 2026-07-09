@@ -7,7 +7,7 @@ import type { Question } from "./types";
 export function normalize(s: string): string {
   return s
     .toLowerCase()
-    .replace(/[.!?«»""]/g, "")
+    .replace(/[.,;:!?«»""]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -27,6 +27,8 @@ export class QuizRun {
   readonly questions: Question[];
   index = 0;
   correct = 0;
+  /** Indices of questions answered wrong - shown again in the summary. */
+  readonly missed: number[] = [];
   /** Whether the current question has been answered (feedback showing). */
   answered = false;
   lastCorrect = false;
@@ -49,6 +51,7 @@ export class QuizRun {
     if (this.finished || this.answered) return this.lastCorrect;
     this.lastCorrect = checkAnswer(this.current, answer);
     if (this.lastCorrect) this.correct++;
+    else this.missed.push(this.index);
     this.answered = true;
     return this.lastCorrect;
   }

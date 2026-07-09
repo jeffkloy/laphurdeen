@@ -2,9 +2,9 @@ import { describe, expect, it } from "vitest";
 import { lessons } from "../lessons";
 
 describe("course shape", () => {
-  it("has eleven lessons with unique slugs", () => {
-    expect(lessons.length).toBe(11);
-    expect(new Set(lessons.map((l) => l.slug)).size).toBe(11);
+  it("has twelve lessons with unique slugs", () => {
+    expect(lessons.length).toBe(12);
+    expect(new Set(lessons.map((l) => l.slug)).size).toBe(12);
   });
 
   it("gives every lesson a Laphurdi title, sections, vocabulary, and an intro", () => {

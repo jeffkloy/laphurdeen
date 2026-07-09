@@ -695,6 +695,33 @@ td.lp {
   margin: 0 auto 1.2rem;
 }
 
+.summary-missed {
+  text-align: left;
+  max-width: var(--measure);
+  margin: 0 auto 1.4rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.9rem;
+}
+
+.missed-head {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 0.5rem;
+}
+
+.summary-missed ul {
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.summary-missed .missed-q {
+  color: var(--ink-soft);
+}
+
 .summary-actions {
   display: flex;
   justify-content: center;

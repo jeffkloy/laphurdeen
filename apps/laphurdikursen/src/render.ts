@@ -2,8 +2,9 @@
  *  All HTML injected here is authored in this repo (src/lessons/) - there is
  *  no user-generated content anywhere in the app. */
 
-import type { Example, Lesson, Section, Table } from "./types";
+import type { Example, Lesson, Question, Section, Table } from "./types";
 import { isPassed, loadProgress, percent, recordResult, PASS_PERCENT } from "./progress";
+import { buildDrill, drillPool, shuffle } from "./prova";
 import { QuizRun } from "./quiz";
 
 const FLAG_SVG = `<svg class="brand-flag" viewBox="0 0 300 200" role="img" aria-label="The flag of Laphurdeen">
@@ -77,9 +78,9 @@ export function renderHome(view: HTMLElement, lessons: Lesson[]): void {
       <h1>Velkom te <span class="amber">Laphurdikursen</span></h1>
       <p class="hero-lede">
         Learn <strong>Laphurdi</strong>, the national language of the Commonwealth -
-        a Germanic language wearing a French coat. Eleven lessons take you from
+        a Germanic language wearing a French coat. Twelve lessons take you from
         <i lang="lp">Hallej!</i> to reading the Preamble of the
-        <i lang="lp">Grundlojen</i> itself. Each lesson ends with
+        <i lang="lp">Grundlojen</i> itself - and out into the streets. Each lesson ends with
         <i lang="lp">provet</i> - the quiz. ${PASS_PERCENT}&nbsp;% passes.
       </p>
       <p class="hero-progress">${
@@ -87,6 +88,7 @@ export function renderHome(view: HTMLElement, lessons: Lesson[]): void {
           ? "No quizzes passed yet - start with Leksjon 1."
           : `${passed} of ${lessons.length} quizzes passed${passed === lessons.length ? ` - ${STAR} every star earned. Goed doat!` : ""}`
       }</p>
+      ${passed > 0 ? `<p><a class="btn btn-ghost" href="#/prova">Prova orderen <span class="gloss-btn">- drill your words</span></a></p>` : ""}
     </section>
     <ol class="lesson-list">${cards}</ol>`;
 }
@@ -185,7 +187,7 @@ export function renderLesson(view: HTMLElement, lessons: Lesson[], slug: string)
 function mountQuiz(host: HTMLElement, lesson: Lesson, next: Lesson | undefined): void {
   const start = () => {
     const run = new QuizRun(lesson.quiz);
-    showQuestion(host, lesson, run, next);
+    showQuestion(host, run, (r) => showSummary(host, lesson, r, next));
   };
 
   const p = loadProgress()[lesson.slug];
@@ -199,9 +201,9 @@ function mountQuiz(host: HTMLElement, lesson: Lesson, next: Lesson | undefined):
   host.querySelector("button")!.addEventListener("click", start);
 }
 
-function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Lesson | undefined): void {
+function showQuestion(host: HTMLElement, run: QuizRun, onDone: (run: QuizRun) => void): void {
   if (run.finished) {
-    showSummary(host, lesson, run, next);
+    onDone(run);
     return;
   }
   const q = run.current;
@@ -209,11 +211,7 @@ function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Les
 
   // Authors keep the correct option first in the data for readability;
   // the display order is shuffled so position never gives the answer away.
-  const displayOrder = q.type === "choice" ? q.options.map((_, i) => i) : [];
-  for (let i = displayOrder.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [displayOrder[i], displayOrder[j]] = [displayOrder[j], displayOrder[i]];
-  }
+  const displayOrder = q.type === "choice" ? shuffle(q.options.map((_, i) => i)) : [];
 
   host.innerHTML = `
     <div class="quiz-q">
@@ -241,21 +239,17 @@ function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Les
   const feedback = host.querySelector<HTMLElement>(".quiz-feedback")!;
 
   const showFeedback = (right: boolean) => {
-    const answerLine =
-      q.type === "choice"
-        ? `<span class="fb-answer"${q.lpOptions ? ` lang="lp"` : ""}>${q.options[q.answer]}</span>`
-        : `<span class="fb-answer"${q.lpAnswer ? ` lang="lp"` : ""}>${esc(q.accept[0])}</span>`;
     feedback.innerHTML = `
       <p class="fb-verdict ${right ? "is-rett" : "is-fel"}">
         ${right ? "✓ Rett!" : "✕ Fel."}
         <span class="gloss">${right ? "- correct" : "- not quite"}</span>
       </p>
-      ${right ? "" : `<p class="fb-line">The answer: ${answerLine}</p>`}
+      ${right ? "" : `<p class="fb-line">The answer: ${answerHtml(q)}</p>`}
       <p class="fb-explain">${q.explain}</p>
       <button class="btn btn-amber" type="button">${run.index + 1 < run.questions.length ? "Neste →" : "Se resultatet →"}</button>`;
     feedback.querySelector("button")!.addEventListener("click", () => {
       run.next();
-      showQuestion(host, lesson, run, next);
+      showQuestion(host, run, onDone);
     });
     feedback.querySelector("button")!.focus();
   };
@@ -290,6 +284,28 @@ function showQuestion(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Les
   }
 }
 
+/** The correct answer of a question, marked up for feedback and summaries. */
+function answerHtml(q: Question): string {
+  const lp = q.type === "choice" ? q.lpOptions : q.lpAnswer;
+  const text = q.type === "choice" ? q.options[q.answer] : esc(q.accept[0]);
+  return `<span class="fb-answer"${lp ? ` lang="lp"` : ""}>${text}</span>`;
+}
+
+/** The missed questions of a finished run, with their answers - or "". */
+function missedHtml(run: QuizRun): string {
+  if (run.missed.length === 0) return "";
+  const items = run.missed
+    .map((i) => {
+      const q = run.questions[i];
+      return `<li><span class="missed-q">${q.prompt}</span> ${answerHtml(q)}</li>`;
+    })
+    .join("");
+  return `<div class="summary-missed">
+    <p class="missed-head">Worth another look <span class="gloss">- what you missed, with the answers</span></p>
+    <ul>${items}</ul>
+  </div>`;
+}
+
 function showSummary(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Lesson | undefined): void {
   const total = run.questions.length;
   const pct = Math.round((100 * run.correct) / total);
@@ -305,6 +321,7 @@ function showSummary(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Less
           ? "The Language Commission is satisfied. The star is yours."
           : `You need ${PASS_PERCENT} % for the star. Read the lesson once more - then prova igen.`
       }</p>
+      ${missedHtml(run)}
       <div class="summary-actions">
         <button class="btn ${passed ? "btn-ghost" : "btn-navy"}" type="button">Prova igen <span class="gloss-btn">- try again</span></button>
         ${
@@ -317,15 +334,67 @@ function showSummary(host: HTMLElement, lesson: Lesson, run: QuizRun, next: Less
 
   host.querySelector("button")!.addEventListener("click", () => {
     const rerun = new QuizRun(lesson.quiz);
-    showQuestion(host, lesson, rerun, next);
+    showQuestion(host, rerun, (r) => showSummary(host, lesson, r, next));
   });
+}
+
+/* --------------------------- prova orderen ----------------------------- */
+
+/** The vocabulary drill: ten questions from the words of passed lessons.
+ *  Practice only - no score is recorded. */
+export function renderProva(view: HTMLElement, lessons: Lesson[]): void {
+  const progress = loadProgress();
+  const pool = drillPool(lessons, (slug) => isPassed(progress[slug]));
+
+  view.innerHTML = `
+    <article class="lesson">
+      <nav class="crumbs"><a href="#/">← Alle leksjoner <span class="gloss">- all lessons</span></a></nav>
+      <header class="lesson-header">
+        <p class="eyebrow">Sprakkommisjonen · practice</p>
+        <h1 lang="lp">Prova orderen</h1>
+        <p class="lesson-sub">Drill the words - every star you earn adds its lesson's vocabulary.</p>
+      </header>
+      ${
+        pool.length === 0
+          ? `<p class="lesson-intro">No stars yet. Pass a lesson's <i lang="lp">provet</i> first - then come
+               back here and keep its words warm.</p>
+             <p class="lesson-intro"><a class="btn btn-navy" href="#/leksjon/${lessons[0].slug}">Beginna med Leksjon 1 →</a></p>`
+          : `<p class="lesson-intro">${pool.length} words unlocked. ${Math.min(10, pool.length)} at a time,
+               both directions, freshly shuffled - training, not <i lang="lp">provet</i>: no score is kept.</p>
+             <section class="lesson-section quiz"><div class="quiz-host"></div></section>`
+      }
+    </article>`;
+
+  const host = view.querySelector<HTMLElement>(".quiz-host");
+  if (!host) return;
+  const start = () => {
+    const run = new QuizRun(buildDrill(pool));
+    showQuestion(host, run, (r) => showDrillSummary(host, r, start));
+  };
+  start();
+}
+
+function showDrillSummary(host: HTMLElement, run: QuizRun, again: () => void): void {
+  const total = run.questions.length;
+  const pct = Math.round((100 * run.correct) / total);
+  host.innerHTML = `
+    <div class="quiz-summary ${pct >= PASS_PERCENT ? "is-passed" : ""}">
+      <p class="summary-score"><strong>${run.correct}</strong> av ${total} rett - ${pct} %</p>
+      ${missedHtml(run)}
+      <div class="summary-actions">
+        <button class="btn btn-navy" type="button">Prova igen <span class="gloss-btn">- new words, new round</span></button>
+        <a class="btn btn-ghost" href="#/">Alle leksjoner</a>
+      </div>
+    </div>`;
+  host.querySelector("button")!.addEventListener("click", again);
 }
 
 /* ------------------------------- helpers ------------------------------- */
 
-export type Route = { view: "home" } | { view: "lesson"; slug: string };
+export type Route = { view: "home" } | { view: "lesson"; slug: string } | { view: "prova" };
 
 export function parseRoute(hash: string): Route {
+  if (hash === "#/prova") return { view: "prova" };
   const m = hash.match(/^#\/leksjon\/([a-z0-9-]+)$/);
   return m ? { view: "lesson", slug: m[1] } : { view: "home" };
 }
@@ -333,6 +402,7 @@ export function parseRoute(hash: string): Route {
 export function renderRoute(view: HTMLElement, lessons: Lesson[], hash: string): void {
   const route = parseRoute(hash);
   if (route.view === "lesson") renderLesson(view, lessons, route.slug);
+  else if (route.view === "prova") renderProva(view, lessons);
   else renderHome(view, lessons);
   window.scrollTo({ top: 0 });
   view.focus({ preventScroll: true });
