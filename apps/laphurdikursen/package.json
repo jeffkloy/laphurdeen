@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Laphurdikursen - the Laphurdi course of the Language Commission: eleven lessons, eleven quizzes",
+  "description": "Laphurdikursen - the Laphurdi course of the Language Commission: twelve lessons, twelve quizzes",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
